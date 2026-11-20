@@ -3,10 +3,10 @@
 应用代码、项目自编课程和自制图像的授权见仓库根目录 LICENSE。下列材料保留各自的许可与署名。App 图标和课程封面为本项目生成的图像。
 
 常用词条
-basic-850.json 采用 C. K. Ogden 的 Basic English 词汇。公开版用 Simple English Wiktionary 贡献者维护的字母序词表核对全部 850 个词，并按字母排序。项目为这些词编写中文释义、记法、例句和教学进度，采用美式拼写。此 JSON 整体按 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 提供。引用署名：C. K. Ogden；Simple English Wiktionary contributors；WordRoot contributors。课程按每个词的稳定 ID 编排。
-来源版本：https://simple.wiktionary.org/w/index.php?title=Wiktionary:Basic_English_alphabetical_wordlist&oldid=476871
-贡献历史：https://simple.wiktionary.org/w/index.php?title=Wiktionary:Basic_English_alphabetical_wordlist&action=history
-许可：https://creativecommons.org/licenses/by-sa/4.0/
+basic-850.json 采用 C. K. Ogden 的 Basic English 词汇。公开版用 Simple English Wiktionary 贡献者维护的字母序词表核对全部 850 个词，并按字母排序。项目为这些词编写中文释义、记法、例句和教学进度，采用美式拼写。此 JSON 整体按 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 提供。署名包含 C. K. Ogden、Simple English Wiktionary contributors 和 WordRoot contributors。课程按每个词的稳定 ID 编排。
+词表版本见 https://simple.wiktionary.org/w/index.php?title=Wiktionary:Basic_English_alphabetical_wordlist&oldid=476871
+贡献历史见 https://simple.wiktionary.org/w/index.php?title=Wiktionary:Basic_English_alphabetical_wordlist&action=history
+许可全文见 https://creativecommons.org/licenses/by-sa/4.0/
 
 美式发音数据
 音标参考 Carnegie Mellon Pronouncing Dictionary。上游的版权声明、再分发条件和免责声明附于 CMUdict-LICENSE.txt。
