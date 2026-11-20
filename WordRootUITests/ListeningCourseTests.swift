@@ -93,6 +93,17 @@ final class ListeningCourseTests: XCTestCase {
             tap("course.next")
         }
         for (id, spelling, meaning) in family { assertRow("course.familyRecap", id, spelling, meaning) }
+        assertVisibleWords(prefix: "course.familyRecap.word.", count: 8,
+                           bottom: app.buttons["course.familyRecap.cards"].frame.minY)
+        snapshot("eight-words-one-screen")
+        let last = app.buttons["course.familyRecap.word.port.portability"]
+        last.tap()
+        let phonetic = app.staticTexts["course.familyRecap.port.portability.ipa"]
+        let sound = app.buttons["course.familyRecap.port.portability.audio.word"]
+        XCTAssertTrue(phonetic.waitForExistence(timeout: 4))
+        XCTAssertLessThan(abs(phonetic.frame.midY - sound.frame.midY), 12)
+        sound.tap()
+        app.buttons["course.familyRecap.closeWord"].tap()
         tap("course.familyRecap.cards")
         for (index,item) in family.enumerated() {
             let answer = app.buttons["cards.choice." + item.0]
@@ -205,11 +216,60 @@ final class ListeningCourseTests: XCTestCase {
         XCTAssertTrue(app.buttons["cards.choice.sense.import.goods"].exists)
     }
 
+    func testFirstLessonAndMapShowEveryWordWithoutScrolling() {
+        tap("course.start")
+        assertVisibleWords(prefix: "course.branch.", count: 17, bottom: app.buttons["course.next"].frame.minY)
+        snapshot("entire-first-lesson")
+        app.tabBars.buttons["地图"].tap()
+        assertVisibleWords(prefix: "catalog.", count: 8, bottom: app.tabBars.firstMatch.frame.minY)
+        snapshot("entire-port-map")
+    }
+
+    func testLargestLessonShowsAll28UsesWithoutScrolling() {
+        tap("course.phase.daily")
+        let lesson = app.buttons["course.day.29"]
+        for _ in 0..<12 where !lesson.isHittable { app.swipeUp() }
+        XCTAssertTrue(lesson.isHittable)
+        lesson.tap()
+        XCTAssertTrue(app.buttons["course.next"].waitForExistence(timeout: 5))
+        assertVisibleWords(prefix: "course.branch.", count: 28, bottom: app.buttons["course.next"].frame.minY)
+        let verb = app.buttons["course.branch.duc.conduct"]
+        let noun = app.buttons["course.branch.duc.conduct.behavior"]
+        XCTAssertTrue(verb.label.hasPrefix("conduct，"))
+        XCTAssertTrue(noun.label.hasPrefix("conduct，"))
+        XCTAssertNotEqual(verb.label, noun.label)
+        snapshot("entire-largest-lesson")
+        tap("course.lessonAutoVoice")
+        tap("course.next")
+        for _ in 0..<28 {
+            tap("course.next")
+            let close = app.buttons["course.familyRecap.close"]
+            if close.exists { close.tap() }
+        }
+        assertVisibleWords(prefix: "course.recap.word.", count: 28, bottom: app.buttons["course.recapCards"].frame.minY)
+        snapshot("largest-lesson-recap")
+    }
+
+    private func assertVisibleWords(prefix: String, count: Int, bottom: CGFloat,
+                                    file: StaticString = #filePath, line: UInt = #line) {
+        let rows = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", prefix))
+        XCTAssertTrue(rows.firstMatch.waitForExistence(timeout: 5), prefix, file: file, line: line)
+        let entries = rows.allElementsBoundByIndex
+        XCTAssertEqual(entries.count, count, file: file, line: line)
+        for entry in entries {
+            XCTAssertTrue(entry.isHittable, entry.identifier, file: file, line: line)
+            XCTAssertGreaterThanOrEqual(entry.frame.minY, app.scrollViews.firstMatch.frame.minY - 1,
+                                        entry.identifier, file: file, line: line)
+            XCTAssertLessThanOrEqual(entry.frame.maxY, bottom + 1, entry.identifier, file: file, line: line)
+        }
+    }
+
     private func assertRow(_ prefix: String, _ id: String, _ word: String, _ meaning: String,
                            file: StaticString = #filePath, line: UInt = #line) {
-        XCTAssertEqual(app.staticTexts[prefix + ".word." + id].label, word, file: file, line: line)
-        let definition = app.staticTexts[prefix + ".meaning." + id]
-        XCTAssertTrue(definition.label.contains(meaning), definition.label, file: file, line: line)
+        let row = app.buttons[prefix + ".word." + id]
+        XCTAssertTrue(row.exists, id, file: file, line: line)
+        XCTAssertTrue(row.label.hasPrefix(word + "，"), row.label, file: file, line: line)
+        XCTAssertTrue(row.label.contains(meaning), row.label, file: file, line: line)
     }
 
     private func snapshot(_ name: String) {

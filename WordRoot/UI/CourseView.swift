@@ -4,7 +4,6 @@ import SwiftUI
 struct CourseView: View {
     @Query(filter: #Predicate<CourseDayRecord> { $0.day > 1000 && $0.day <= 1100 },
            sort: \CourseDayRecord.updatedAt, order: .reverse) private var records: [CourseDayRecord]
-    @Query(sort: \LearningAttemptRecord.answeredAt, order: .reverse) private var attempts: [LearningAttemptRecord]
     @State private var path: [Route] = []
     @State private var review: ReviewRound?
     @AppStorage("wordroot.course.autoGuide") private var autoGuide = true
@@ -164,8 +163,6 @@ struct CourseView: View {
             let total = lexicon.familySenseIDs.union(lexicon.basicWords.keys).count
             Text("已学 \(studied.count) / \(total) 个用法")
                 .font(.footnote).accessibilityIdentifier("course.learnedSenses")
-            Text("自己核对过词义和发音 \(checkedSenses.count) / \(total)")
-                .font(.footnote).accessibilityIdentifier("course.mastered")
             ProgressView(value: Double(completedDays.count), total: Double(course.days.count))
                 .tint(MapStyle.onAccent)
                 .accessibilityHidden(true)
@@ -174,20 +171,6 @@ struct CourseView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(19)
         .background(MapStyle.accent, in: RoundedRectangle(cornerRadius: 23))
-    }
-
-    private var checkedSenses: Set<String> {
-        var meanings: [String: Bool] = [:]
-        var sound: [String: Bool] = [:]
-        for attempt in attempts {
-            let id = attempt.senseID
-            if attempt.abilityRawValue == LearningAbility.audioMeaning.rawValue && meanings[id] == nil {
-                meanings[id] = attempt.independentEvidence && attempt.outcomeRawValue == "correct"
-            } else if attempt.abilityRawValue == LearningAbility.pronunciationSelfCheck.rawValue && sound[id] == nil {
-                sound[id] = attempt.outcomeRawValue == "correct"
-            }
-        }
-        return Set(meanings.compactMap { $0.value && sound[$0.key] == true ? $0.key : nil })
     }
 
     private func startTitle(day: CourseDay, words: [Word], step: Int) -> String {

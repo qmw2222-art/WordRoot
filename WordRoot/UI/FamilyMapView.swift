@@ -166,6 +166,13 @@ struct FamilyMapView: View {
         VStack(alignment: .leading, spacing: 20) {
             familyPicker
             if canOpen(family) {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text("\(family.root) · \(family.meaning)").font(.headline).foregroundStyle(MapStyle.pine)
+                    WordOverviewGrid(words: family.words, prefix: "catalog.") { openWord($0, in: family) }
+                }
+                NavigationLink { FamilyStudyView(family: family, lexicon: lexicon) } label: {
+                    Label("从头到尾学 \(family.words.count) 个用法", systemImage: "book").frame(minHeight: 44)
+                }.accessibilityIdentifier("map.family.all")
                 FamilyDiagram(family: family, openWord: { openWord($0, in: family) })
             } else {
                 MapPanel {
@@ -197,17 +204,6 @@ struct FamilyMapView: View {
                 .accessibilityIdentifier("map.resume")
             }
 
-            if canOpen(family) {
-                MapSectionTitle(title: "本词族全部词条", symbol: "list.bullet")
-                NavigationLink { FamilyStudyView(family: family, lexicon: lexicon) } label: {
-                    Label("从头到尾学 \(family.words.count) 个用法", systemImage: "book").frame(minHeight: 44)
-                }.accessibilityIdentifier("map.family.all")
-                LazyVStack(spacing: 9) {
-                    ForEach(family.words) { word in
-                        wordRow(word, in: family, identifierPrefix: "catalog.")
-                    }
-                }
-            }
             if lexicon.unavailableFamilyCount > 0 {
                 Text("有 \(lexicon.unavailableFamilyCount) 个词族暂时无法载入。")
                     .font(.footnote)

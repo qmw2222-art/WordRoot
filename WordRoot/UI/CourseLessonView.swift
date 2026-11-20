@@ -81,7 +81,9 @@ struct CourseLessonView: View {
                         }
                     } else { recap }
                 }
-                .padding(20).frame(maxWidth: 620, alignment: .leading).frame(maxWidth: .infinity)
+                .padding(.horizontal, word == nil ? 16 : 20)
+                .padding(.top, word == nil ? 8 : 20).padding(.bottom, 20)
+                .frame(maxWidth: 620, alignment: .leading).frame(maxWidth: .infinity)
             }
             .id(position)
             controls
@@ -114,6 +116,7 @@ struct CourseLessonView: View {
                     StudiedWordsList(words: studiedFamilyWords, prefix: "course.familyRecap").padding()
                 }
                 .navigationTitle("\(family.root) · \(studiedFamilyWords.count) 个词")
+                .navigationBarTitleDisplayMode(.inline)
                 .safeAreaInset(edge: .bottom) {
                     NavigationLink {
                         MemoryCardsView(words: studiedFamilyWords, lexicon: lexicon, family: family)
@@ -149,15 +152,22 @@ struct CourseLessonView: View {
     }
 
     private var opening: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: words.count > 18 ? 6 : 10) {
             Text(day.title).font(.headline).foregroundStyle(MapStyle.pine)
-            VStack(alignment: .leading, spacing: 6) {
-                HStack(alignment: .firstTextBaseline) {
-                    Text(family.root).font(.system(size: 39, weight: .bold, design: .serif)).accessibilityIdentifier("course.root")
-                    Text(family.meaning).font(.headline)
-                }
+            HStack(spacing: 8) {
+                Text(family.root).font(.system(.title, design: .serif, weight: .bold))
+                    .accessibilityIdentifier("course.root")
+                Text("\(family.rootKind) · \(family.meaning)").font(.headline)
+                Spacer(minLength: 0)
                 RootPronunciationRow(family: family, prefix: "course", soundID: sound + ".root", ink: MapStyle.onAccent)
-                Text(day.id == 1 ? WordFamily.firstIntroduction : family.rootIntro).font(.subheadline)
+            }
+            .foregroundStyle(MapStyle.onAccent).padding(.horizontal, 12)
+            .background(MapStyle.accent, in: RoundedRectangle(cornerRadius: 13))
+            Text(day.id == 1 ? WordFamily.firstIntroduction : family.rootIntro).font(.subheadline)
+            WordOverviewGrid(words: words, prefix: "course.branch.", learned: learned) { word in
+                if let index = day.lessonIDs.firstIndex(of: word.id) { go(index + 1) }
+            }
+            VStack(alignment: .leading, spacing: 6) {
                 Text(day.guide).accessibilityIdentifier("course.guide")
                 Button {
                     if speaker.activeID == sound { stopAudio() } else { playGuide() }
@@ -170,9 +180,6 @@ struct CourseLessonView: View {
             }
             .foregroundStyle(MapStyle.onAccent).frame(maxWidth: .infinity, alignment: .leading)
             .padding(15).background(MapStyle.accent, in: RoundedRectangle(cornerRadius: 17))
-            ForEach(Array(words.prefix(day.taughtFamilyIDs.count).enumerated()), id: \.element.id) { index, w in
-                branch(w, index: index)
-            }
             familyLink
             if let first = day.basicIDs.first.flatMap({ lexicon.word(id: $0) }) {
                 Text("学过这组词，再听一句").font(.headline).foregroundStyle(MapStyle.pine)
@@ -206,33 +213,12 @@ struct CourseLessonView: View {
         go(index + 1)
     }
 
-    private func branch(_ w: Word, index: Int) -> some View {
-        Button { go(index + 1) } label: {
-            HStack {
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(w.word).font(.system(.title3, design: .serif, weight: .semibold))
-                    Text(w.id.hasPrefix("basic.") ? w.meaning : w.formation).font(.callout)
-                }
-                Spacer()
-                Image(systemName: learned.contains(w.id) ? "checkmark" : "chevron.right").font(.caption)
-            }.foregroundStyle(MapStyle.pine).padding(.horizontal, 13).padding(.vertical, 8)
-                .background(MapStyle.surface, in: RoundedRectangle(cornerRadius: 13))
-                .contentShape(Rectangle())
-        }.buttonStyle(.plain).accessibilityIdentifier("course.branch.\(w.id)")
-    }
-
     private var recap: some View {
         VStack(alignment: .leading, spacing: 13) {
             Text(finished ? "第 \(day.id) 天学完了" : "第 \(day.id) 天小结")
                 .font(.largeTitle.bold()).foregroundStyle(MapStyle.pine).accessibilityIdentifier("course.done")
-            Text("\(family.root) 词族 · 这次学过的 \(studiedFamilyWords.count) 个词").font(.headline)
-            StudiedWordsList(words: studiedFamilyWords, prefix: "course.recap")
-            let inSentences = studiedWords.filter { word in !studiedFamilyWords.contains { $0.id == word.id } }
-            if !inSentences.isEmpty {
-                DisclosureGroup("在句子里学过的词 · \(inSentences.count)") {
-                    StudiedWordsList(words: inSentences, prefix: "course.usageRecap")
-                }
-            }
+            Text("本课学过的 \(studiedWords.count) 个用法").font(.headline)
+            StudiedWordsList(words: studiedWords, prefix: "course.recap")
             if finished && day.id < 100 {
                 Button("接着学第 \(day.id + 1) 天", action: nextDay)
                     .frame(minHeight: 44).accessibilityIdentifier("course.followingDay")

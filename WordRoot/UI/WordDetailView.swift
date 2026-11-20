@@ -4,7 +4,6 @@ import SwiftUI
 struct WordDetailView: View {
     @Environment(SpeechPlayer.self) private var speaker
     @ScaledMetric(relativeTo: .largeTitle) private var titleSize = 47.0
-    @State private var checking = false
     let word: Word
     let family: WordFamily
     let openWord: (Word) -> Void
@@ -50,7 +49,6 @@ struct WordDetailView: View {
         .toolbar(.visible, for: .navigationBar)
         .navigationTitle("\(family.root) 词族")
         .navigationBarTitleDisplayMode(.inline)
-        .sheet(isPresented: $checking) { WordSelfCheck(word: word) }
         .onDisappear {
             speaker.stop(id: wordAudioID)
             speaker.stop(id: exampleAudioID)
@@ -97,11 +95,6 @@ struct WordDetailView: View {
                 } else {
                     Text(word.plainCue ?? word.memoryCue)
                 }
-                Button("自己读一遍，核对词义") {
-                    if let id = speaker.activeID { speaker.stop(id: id) }
-                    checking = true
-                }
-                    .frame(minHeight: 44).accessibilityIdentifier("word.selfcheck")
                 Text(word.explanation)
                     .foregroundStyle(MapStyle.ink)
                     .fixedSize(horizontal: false, vertical: true)

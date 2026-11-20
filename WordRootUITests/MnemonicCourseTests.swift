@@ -30,36 +30,18 @@ final class MnemonicCourseTests: XCTestCase {
         XCTAssertFalse(app.staticTexts["word.ipa"].label.isEmpty)
     }
 
-    func testHearingAndSelfCheckedPronunciationAreSeparateFromFinishing() {
+    func testWordsLeadToAudioAndPracticeWithoutSelfAssessment() {
+        XCTAssertFalse(app.staticTexts["course.mastered"].exists)
         tap("course.start")
+        tap("course.lessonAutoVoice")
         tap("course.branch.sense.export.goods")
-        tap("course.selfcheck")
-        tap("mastery.listen")
-        let answer = app.textFields["mastery.answer"]
-        answer.tap()
-        answer.typeText("出口")
-        tap("mastery.submit")
-        tap("mastery.pronunciation")
-        XCTAssertFalse(app.buttons["mastery.match"].isEnabled)
-        tap("mastery.compare")
-        tap("mastery.match")
-        tap("mastery.close")
-        app.terminate()
-        app.launch()
-        XCTAssertTrue(app.staticTexts["course.mastered"].label.replacingOccurrences(of: ",", with: "").contains("1 / 1335"))
-        XCTAssertTrue(app.staticTexts["course.completedCount"].label.contains("0 / 100"))
-        tap("course.start")
-        tap("course.selfcheck")
-        tap("mastery.unknown")
-        tap("mastery.pronunciation")
-        tap("mastery.compare")
-        tap("mastery.match")
-        tap("mastery.close")
-        app.terminate()
-        app.launch()
-        XCTAssertTrue(app.staticTexts["course.mastered"].label.replacingOccurrences(of: ",", with: "").contains("0 / 1335"))
+        XCTAssertTrue(app.buttons["course.audio.word"].waitForExistence(timeout: 5))
+        XCTAssertFalse(app.buttons["course.selfcheck"].exists)
+        tap("course.related.sense.export.goods")
+        XCTAssertTrue(app.buttons["word.audio.word"].exists)
+        XCTAssertFalse(app.buttons["word.selfcheck"].exists)
+        XCTAssertTrue(app.buttons["word.practice"].exists)
     }
-
 
     func testBasic850IsPartOfTheDayAndOffersAnOriginalReply() {
         tap("course.start")
@@ -102,7 +84,7 @@ final class MnemonicCourseTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["course.completedCount"].label.contains("0 / 100"))
         XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("4 / 1335"))
         XCTAssertFalse(app.staticTexts["course.basicProgress"].exists)
-        XCTAssertTrue(app.staticTexts["course.mastered"].label.replacingOccurrences(of: ",", with: "").contains("0 / 1335"))
+        XCTAssertFalse(app.staticTexts["course.mastered"].exists)
         tap("course.start")
         XCTAssertEqual(app.staticTexts["course.word"].label, "I")
     }
@@ -118,6 +100,14 @@ final class MnemonicCourseTests: XCTestCase {
             tap("family.next")
         }
         XCTAssertTrue(app.staticTexts["family.done"].exists)
+        let items = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "family.recap.word.")).allElementsBoundByIndex
+        XCTAssertEqual(items.count, 14)
+        for item in items {
+            XCTAssertTrue(item.isHittable, item.identifier)
+            XCTAssertLessThanOrEqual(item.frame.maxY, app.buttons["family.recapCards"].frame.minY, item.identifier)
+        }
+        XCTAssertTrue(app.buttons["family.recap.word.aud.audition.5"].label.contains("试演"))
+        XCTAssertTrue(app.buttons["family.recap.word.aud.audition.extra3"].label.contains("参加试演"))
     }
 
     private func assertSoundBesideIPA(_ prefix: String) {
