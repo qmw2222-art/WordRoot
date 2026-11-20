@@ -814,8 +814,8 @@
     "bridge": {
       "familyID": "geo.geography.3",
       "basicID": "basic.river",
-      "text": "This river shapes the geography of the area.",
-      "translation": "这条河影响着这一带的地形。"
+      "text": "We study this river in geography class.",
+      "translation": "我们在地理课上学习这条河。"
     }
   },
   {
@@ -1512,8 +1512,8 @@
     "bridge": {
       "familyID": "vers.reverse.2",
       "basicID": "basic.position",
-      "text": "Put the switch back in the reverse position.",
-      "translation": "把开关拨回倒挡位置。"
+      "text": "Our position is marked on the reverse of the map.",
+      "translation": "我们的位置标在地图背面。"
     }
   },
   {

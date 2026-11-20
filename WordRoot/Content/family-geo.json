@@ -306,14 +306,14 @@
       "acceptedAnswers": [
         "地质的"
       ],
-      "formation": "geology（地质学） + -ical（与……相关的） → 地质的",
+      "formation": "geolog-（地质学） + -ical（与……相关的） → 地质的",
       "pronunciation": "ˌdʒiəˈlɑdʒɪkəl",
       "memoryCue": "geology 是地质学。描述岩层等地质现象，用 geological。",
       "plainCue": "与地球岩石、地层或其历史有关。",
       "parts": [
         {
-          "text": "geology",
-          "ipa": "ˌdʒiˈɑlədʒi",
+          "text": "geolog-",
+          "ipa": "ˌdʒiəˈlɑdʒ",
           "meaning": "地质学"
         },
         {

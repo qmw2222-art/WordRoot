@@ -21,3 +21,9 @@ https://github.com/open-spaced-repetition/swift-fsrs/tree/74cb02977ba94dd505aa2a
 https://huggingface.co/hexgrad/Kokoro-82M
 https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
 https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
+
+真人整词录音
+WordAudio.sqlite 内含 502 条来自 Wikimedia Commons 的美式英语单词录音。WordRoot 裁剪了首尾静音、调整音量，并转为 MP3。录音及处理版本保留原文件各自的许可或公有领域标记。逐条作者、原文件标题、来源页面、许可名称和适用的许可链接见同目录 word-audio-credits.json，可按单词和音标查找。
+https://creativecommons.org/licenses/by-sa/3.0/
+https://creativecommons.org/licenses/by-sa/4.0/
+https://creativecommons.org/publicdomain/zero/1.0/

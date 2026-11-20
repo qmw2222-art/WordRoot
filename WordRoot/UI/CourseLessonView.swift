@@ -9,6 +9,7 @@ struct CourseLessonView: View {
     @State private var step: Int?
     @State private var entered = false
     @State private var showingCards = false
+    @State private var showingFamilyRecap = false
     @State private var failed = false
     @State private var audioFailed = false
     @State private var retry: PendingSave?
@@ -25,6 +26,7 @@ struct CourseLessonView: View {
         let target: Int
         let add: String?
         let complete: Bool
+        var reviewFamily = false
     }
 
     init(day: CourseDay, fromBeginning: Bool, nextFamily: WordFamily?, family: WordFamily,
@@ -43,20 +45,34 @@ struct CourseLessonView: View {
     private var learned: Set<String> { record?.credited(in: day) ?? [] }
     private var words: [Word] { day.words(in: lexicon) }
     private var studiedWords: [Word] { words.filter { learned.contains($0.id) } }
+    private var studiedFamilyWords: [Word] {
+        let familyIDs = Set(family.words.map(\.id))
+        return studiedWords.filter { familyIDs.contains($0.id) }
+    }
+    private var missingFamilyIDs: [String] { day.taughtFamilyIDs.filter { !learned.contains($0) } }
+    private var supplementTitle: String { "补学 " + family.root + " 剩下的 " + String(missingFamilyIDs.count) + " 个词" }
     private var word: Word? { (1...words.count).contains(position) ? words[position - 1] : nil }
     private var sound: String { "course.\(day.id).\(position)" }
 
     var body: some View {
         VStack(spacing: 0) {
+            if word != nil { LessonRootReminder(family: family, prefix: "course", soundID: sound + ".reminder") }
             ScrollView {
                 VStack(alignment: .leading, spacing: 15) {
                     if position == 0 { opening }
                     else if let word {
+                        if !family.words.contains(where: { $0.id == word.id }) {
+                            if learned.isSuperset(of: day.wordIDs), !missingFamilyIDs.isEmpty {
+                                Button(supplementTitle, action: openRemainingFamily)
+                                    .accessibilityIdentifier("course.supplementFamily")
+                            }
+                            Text("在句子里用这个词").font(.headline).foregroundStyle(MapStyle.pine)
+                        }
                         Text("第 \(position) / \(words.count) 个用法")
                             .font(.subheadline).foregroundStyle(MapStyle.secondary)
-                        StudyCard(word: word, prefix: "course", soundID: sound, showsExample: false) {
+                        if !showingFamilyRecap { StudyCard(word: word, prefix: "course", soundID: sound, showsExample: false) {
                             sentence(for: word)
-                        }.id(word.id)
+                        }.id(word.id) }
                         if lexicon.entry(id: word.id) != nil {
                             Button { openWord(word.id) } label: {
                                 Label("沿 \(word.word) 看关联词", systemImage: "point.3.connected.trianglepath.dotted")
@@ -91,7 +107,28 @@ struct CourseLessonView: View {
         }
         .onChange(of: position) { _, next in if entered && autoGuide && next == 0 { playGuide() } }
         .onDisappear { stopAudio() }
-        .sheet(isPresented: $showingCards) { MemoryCardsSheet(words: studiedWords, lexicon: lexicon) }
+        .sheet(isPresented: $showingCards) { MemoryCardsSheet(words: studiedFamilyWords, lexicon: lexicon, family: family) }
+        .sheet(isPresented: $showingFamilyRecap) {
+            NavigationStack {
+                ScrollView {
+                    StudiedWordsList(words: studiedFamilyWords, prefix: "course.familyRecap").padding()
+                }
+                .navigationTitle("\(family.root) · \(studiedFamilyWords.count) 个词")
+                .safeAreaInset(edge: .bottom) {
+                    NavigationLink {
+                        MemoryCardsView(words: studiedFamilyWords, lexicon: lexicon, family: family)
+                    } label: {
+                        Label("练 \(family.root) 词族听音卡", systemImage: "speaker.wave.2")
+                            .font(.headline).frame(maxWidth: .infinity, minHeight: 44)
+                    }
+                    .buttonStyle(.borderedProminent).tint(MapStyle.accent).padding(.horizontal)
+                    .accessibilityIdentifier("course.familyRecap.cards")
+                }
+                .toolbar { ToolbarItem(placement: .cancellationAction) {
+                    Button("回到课程") { showingFamilyRecap = false }.accessibilityIdentifier("course.familyRecap.close")
+                } }
+            }
+        }
         .alert("学习位置暂时没有保存", isPresented: $failed) {
             Button("重试") { if let retry { save(retry) } }
             Button("知道了", role: .cancel) {}
@@ -133,7 +170,7 @@ struct CourseLessonView: View {
             }
             .foregroundStyle(MapStyle.onAccent).frame(maxWidth: .infinity, alignment: .leading)
             .padding(15).background(MapStyle.accent, in: RoundedRectangle(cornerRadius: 17))
-            ForEach(Array(words.prefix(day.wordIDs.count).enumerated()), id: \.element.id) { index, w in
+            ForEach(Array(words.prefix(day.taughtFamilyIDs.count).enumerated()), id: \.element.id) { index, w in
                 branch(w, index: index)
             }
             familyLink
@@ -188,8 +225,14 @@ struct CourseLessonView: View {
         VStack(alignment: .leading, spacing: 13) {
             Text(finished ? "第 \(day.id) 天学完了" : "第 \(day.id) 天小结")
                 .font(.largeTitle.bold()).foregroundStyle(MapStyle.pine).accessibilityIdentifier("course.done")
-            Text("今天学过的 \(studiedWords.count) 个用法").font(.headline)
-            StudiedWordsList(words: studiedWords, prefix: "course.recap")
+            Text("\(family.root) 词族 · 这次学过的 \(studiedFamilyWords.count) 个词").font(.headline)
+            StudiedWordsList(words: studiedFamilyWords, prefix: "course.recap")
+            let inSentences = studiedWords.filter { word in !studiedFamilyWords.contains { $0.id == word.id } }
+            if !inSentences.isEmpty {
+                DisclosureGroup("在句子里学过的词 · \(inSentences.count)") {
+                    StudiedWordsList(words: inSentences, prefix: "course.usageRecap")
+                }
+            }
             if finished && day.id < 100 {
                 Button("接着学第 \(day.id + 1) 天", action: nextDay)
                     .frame(minHeight: 44).accessibilityIdentifier("course.followingDay")
@@ -210,15 +253,35 @@ struct CourseLessonView: View {
                     .accessibilityLabel("上一步").accessibilityIdentifier("course.previous")
             }
             Button {
-                if position == day.lastStep && !studiedWords.isEmpty {
+                if position == day.lastStep && !missingFamilyIDs.isEmpty {
+                    openRemainingFamily()
+                } else if position == day.lastStep && !studiedFamilyWords.isEmpty {
                     stopAudio()
                     showingCards = true
                 } else { advance() }
             } label: {
-                Text(position == day.lastStep && !studiedWords.isEmpty ? "开始听音练习" : nextTitle).font(.headline).frame(maxWidth: .infinity, minHeight: 47)
+                Text(controlsTitle).font(.headline).frame(maxWidth: .infinity, minHeight: 47)
                     .background(MapStyle.accent, in: RoundedRectangle(cornerRadius: 13)).foregroundStyle(MapStyle.onAccent)
-            }.accessibilityIdentifier(position == day.lastStep && !studiedWords.isEmpty ? "course.recapCards" : "course.next")
+            }.accessibilityIdentifier(controlsID)
         }.buttonStyle(.plain).foregroundStyle(MapStyle.pine).padding(.horizontal, 20).padding(.vertical, 8).background(MapStyle.page)
+    }
+
+    private var controlsTitle: String {
+        guard position == day.lastStep else { return nextTitle }
+        if !missingFamilyIDs.isEmpty { return supplementTitle }
+        return studiedFamilyWords.isEmpty ? nextTitle : "练 \(family.root) 词族听音卡"
+    }
+
+    private var controlsID: String {
+        guard position == day.lastStep else { return "course.next" }
+        if !missingFamilyIDs.isEmpty { return "course.supplementFamily" }
+        return studiedFamilyWords.isEmpty ? "course.next" : "course.recapCards"
+    }
+
+    private func openRemainingFamily() {
+        if let first = missingFamilyIDs.first, let offset = day.lessonIDs.firstIndex(of: first) {
+            go(offset + 1)
+        }
     }
 
     private var nextMissing: Int? {
@@ -229,12 +292,25 @@ struct CourseLessonView: View {
 
     private var nextPosition: Int {
         if position == 0 { return 1 }
-        if finished { return min(position + 1, day.lastStep) }
+        if finished {
+            if let word, missingFamilyIDs.contains(word.id) {
+                guard let next = missingFamilyIDs.first(where: { $0 != word.id }),
+                      let offset = day.lessonIDs.firstIndex(of: next) else { return day.lastStep }
+                return offset + 1
+            }
+            return min(position + 1, day.lastStep)
+        }
         let after = day.lessonIDs.dropFirst(position).firstIndex { !learned.contains($0) }
         return after.map { $0 + 1 } ?? nextMissing ?? day.lastStep
     }
 
+    private var justLearnedFamily: Bool {
+        guard let word, day.taughtFamilyIDs.contains(word.id), !learned.contains(word.id) else { return false }
+        return Set(day.taughtFamilyIDs).isSubset(of: learned.union([word.id]))
+    }
+
     private var nextTitle: String {
+        if justLearnedFamily { return "看 \(family.root) 词表，练听音卡" }
         if position == day.lastStep && finished { return day.id == 100 ? "回到课程路线" : "接着学第 \(day.id + 1) 天" }
         let next = nextPosition
         if next == day.lastStep { return "学完第 \(day.id) 天" }
@@ -250,7 +326,7 @@ struct CourseLessonView: View {
         if position == day.lastStep && finished { nextDay(); return }
         let next = nextPosition
         stopAudio()
-        save(PendingSave(target: next, add: word?.id, complete: next == day.lastStep))
+        save(PendingSave(target: next, add: word?.id, complete: next == day.lastStep, reviewFamily: justLearnedFamily))
     }
 
     private func playGuide() {
@@ -273,7 +349,7 @@ struct CourseLessonView: View {
         if let add = pending.add { covered.insert(add) }
         if row.modelContext == nil { context.insert(row) }
         row.studiedIDs = day.lessonIDs.filter(covered.contains)
-        row.step = pending.target
+        row.step = day.storedStep(for: pending.target)
         row.updatedAt = .now
         if pending.complete && covered.isSuperset(of: day.lessonIDs) { row.completedAt = row.completedAt ?? .now }
         else if !alreadyFinished { row.completedAt = nil }
@@ -281,6 +357,7 @@ struct CourseLessonView: View {
             if let id = pending.add { _ = try CourseReview.seed(id, in: context) }
             try context.save()
             step = pending.target
+            if pending.reviewFamily { stopAudio(); showingFamilyRecap = true }
             retry = nil
         }
         catch { context.rollback(); retry = pending; failed = true }

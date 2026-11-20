@@ -7,7 +7,7 @@
     "pronunciation": "eɪ",
     "example": "Put an egg in the pot.",
     "translation": "把一个鸡蛋放进锅里。",
-    "memoryCue": "第一次提到一样东西，可以用 a。碰到元音开头的读音就换成 an，比如 an egg。",
+    "memoryCue": "a 和 an 都可以指一个。egg 开头是元音，所以说 an egg。",
     "category": "常用小词",
     "assigned": 2,
     "relatedIDs": [
@@ -15,12 +15,13 @@
       "basic.pot",
       "basic.put"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "冠词",
     "acceptedAnswers": [
+      "一",
       "一个"
     ],
     "formation": "a · 一个",
-    "explanation": "第一次提到一样东西，可以用 a。碰到元音开头的读音就换成 an，比如 an egg。"
+    "explanation": "a 和 an 都可以指一个。egg 开头是元音，所以说 an egg。"
   },
   {
     "id": "basic.able",
@@ -35,7 +36,7 @@
     "relatedIDs": [
       "basic.be"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "能够的"
     ],
@@ -55,7 +56,7 @@
     "relatedIDs": [
       "basic.library"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "关于"
     ],
@@ -76,7 +77,7 @@
       "basic.possible",
       "basic.separate"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "账户"
     ],
@@ -97,7 +98,7 @@
       "basic.jelly",
       "basic.nut"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "酸的"
     ],
@@ -117,7 +118,7 @@
     "relatedIDs": [
       "basic.almost"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在另一边"
     ],
@@ -137,7 +138,7 @@
     "relatedIDs": [
       "basic.kind"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "举动"
     ],
@@ -158,7 +159,7 @@
       "basic.error",
       "basic.suggestion"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "增加的东西"
     ],
@@ -179,7 +180,7 @@
       "basic.process",
       "basic.process"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "调整"
     ],
@@ -199,7 +200,7 @@
     "relatedIDs": [
       "basic.page"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "广告"
     ],
@@ -220,7 +221,7 @@
       "basic.before",
       "basic.till"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在……之后"
     ],
@@ -241,7 +242,7 @@
       "basic.say",
       "basic.word"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "再一次"
     ],
@@ -261,7 +262,7 @@
     "relatedIDs": [
       "basic.board"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "靠着"
     ],
@@ -282,7 +283,7 @@
       "basic.discussion",
       "basic.opinion"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一致意见"
     ],
@@ -303,7 +304,7 @@
       "basic.plane",
       "basic.flight"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "空气"
     ],
@@ -324,7 +325,7 @@
       "basic.forward",
       "basic.group"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "所有"
     ],
@@ -344,7 +345,7 @@
     "relatedIDs": [
       "basic.across"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "几乎"
     ],
@@ -364,7 +365,7 @@
     "relatedIDs": [
       "basic.harmony"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在……中"
     ],
@@ -384,7 +385,7 @@
     "relatedIDs": [
       "basic.tax"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "金额"
     ],
@@ -404,7 +405,7 @@
     "relatedIDs": [
       "basic.art"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "娱乐"
     ],
@@ -425,7 +426,7 @@
       "basic.rice",
       "basic.fish"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "连词",
     "acceptedAnswers": [
       "和"
     ],
@@ -445,7 +446,7 @@
     "relatedIDs": [
       "basic.turn"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "角度"
     ],
@@ -465,7 +466,7 @@
     "relatedIDs": [
       "basic.tired"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "生气的"
     ],
@@ -485,7 +486,7 @@
     "relatedIDs": [
       "basic.plant"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "动物"
     ],
@@ -506,7 +507,7 @@
       "basic.question",
       "basic.short"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "回答"
     ],
@@ -527,7 +528,7 @@
       "basic.worm",
       "basic.insect"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "蚂蚁"
     ],
@@ -548,7 +549,7 @@
       "basic.for",
       "basic.month"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "任何"
     ],
@@ -569,7 +570,7 @@
       "basic.instrument",
       "basic.expert"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "器械"
     ],
@@ -590,7 +591,7 @@
       "basic.orange",
       "basic.basket"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "苹果"
     ],
@@ -611,7 +612,7 @@
       "basic.authority",
       "basic.decision"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "批准"
     ],
@@ -631,7 +632,7 @@
     "relatedIDs": [
       "basic.old"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "拱门"
     ],
@@ -652,7 +653,7 @@
       "basic.point",
       "basic.reason"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "争论"
     ],
@@ -672,7 +673,7 @@
     "relatedIDs": [
       "basic.leg"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "手臂"
     ],
@@ -693,7 +694,7 @@
       "basic.war",
       "basic.military"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "军队"
     ],
@@ -714,7 +715,7 @@
       "tract.attraction",
       "basic.interest"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "艺术"
     ],
@@ -734,7 +735,7 @@
     "relatedIDs": [
       "basic.how"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "作为",
       "当作",
@@ -757,7 +758,7 @@
       "basic.early",
       "basic.late"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在",
       "于",
@@ -779,7 +780,7 @@
     "relatedIDs": [
       "basic.violent"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "袭击"
     ],
@@ -799,7 +800,7 @@
     "relatedIDs": [
       "basic.quick"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "尝试"
     ],
@@ -820,7 +821,7 @@
       "basic.group",
       "basic.forward"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "注意"
     ],
@@ -842,7 +843,7 @@
       "basic.interest",
       "basic.art"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "吸引力"
     ],
@@ -863,7 +864,7 @@
       "basic.decision",
       "basic.responsible"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "职权"
     ],
@@ -883,7 +884,7 @@
     "relatedIDs": [
       "basic.control"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "自动的"
     ],
@@ -903,7 +904,7 @@
     "relatedIDs": [
       "basic.serious"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "醒着的"
     ],
@@ -924,7 +925,7 @@
       "basic.crime",
       "basic.operation"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "婴儿"
     ],
@@ -945,7 +946,7 @@
       "basic.crush",
       "basic.position"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "背面"
     ],
@@ -965,7 +966,7 @@
     "relatedIDs": [
       "basic.so"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "差的"
     ],
@@ -977,8 +978,8 @@
     "word": "bag",
     "meaning": "包；袋子",
     "pronunciation": "bæɡ",
-    "example": "Can I take this bag?",
-    "translation": "我可以带上这个包吗？",
+    "example": "Can I take this portable lamp in my bag?",
+    "translation": "我可以把这盏便携灯装在包里带走吗？",
     "memoryCue": "把 bag 和手里的包连起来记。my bag 就是「我的包」。",
     "category": "身边的事物",
     "assigned": 1,
@@ -987,7 +988,7 @@
       "basic.take",
       "basic.this"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "袋子",
       "包",
@@ -1009,7 +1010,7 @@
     "relatedIDs": [
       "basic.grip"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "平衡"
     ],
@@ -1030,7 +1031,7 @@
       "basic.jump",
       "basic.kick"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "球"
     ],
@@ -1051,7 +1052,7 @@
       "basic.stage",
       "basic.song"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "乐队"
     ],
@@ -1071,7 +1072,7 @@
     "relatedIDs": [
       "basic.slope"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "底部"
     ],
@@ -1092,7 +1093,7 @@
       "basic.under",
       "basic.brush"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "洗手盆"
     ],
@@ -1113,7 +1114,7 @@
       "basic.apple",
       "basic.orange"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "篮子"
     ],
@@ -1133,7 +1134,7 @@
     "relatedIDs": [
       "basic.bed"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "洗澡"
     ],
@@ -1153,7 +1154,7 @@
     "relatedIDs": [
       "basic.able"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "是",
       "处于",
@@ -1175,7 +1176,7 @@
     "relatedIDs": [
       "basic.rhythm"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "美丽的"
     ],
@@ -1195,7 +1196,7 @@
     "relatedIDs": [
       "basic.but"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "连词",
     "acceptedAnswers": [
       "因为"
     ],
@@ -1215,7 +1216,7 @@
     "relatedIDs": [
       "basic.bath"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "床"
     ],
@@ -1236,7 +1237,7 @@
       "basic.flower",
       "basic.garden"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "蜜蜂"
     ],
@@ -1257,7 +1258,7 @@
       "basic.after",
       "basic.till"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在……之前"
     ],
@@ -1278,7 +1279,7 @@
       "basic.impulse",
       "basic.desire"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "行为"
     ],
@@ -1299,7 +1300,7 @@
       "basic.true",
       "basic.false"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "信念"
     ],
@@ -1319,7 +1320,7 @@
     "relatedIDs": [
       "basic.noise"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "铃"
     ],
@@ -1340,7 +1341,7 @@
       "basic.wire",
       "basic.spring"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "弯的"
     ],
@@ -1361,7 +1362,7 @@
       "basic.fruit",
       "basic.sweet"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "浆果"
     ],
@@ -1382,7 +1383,7 @@
       "basic.bridge",
       "basic.church"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在……之间"
     ],
@@ -1402,7 +1403,7 @@
     "relatedIDs": [
       "basic.feather"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "鸟"
     ],
@@ -1423,7 +1424,7 @@
       "basic.first",
       "basic.death"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "出生"
     ],
@@ -1443,7 +1444,7 @@
     "relatedIDs": [
       "basic.bite"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一点"
     ],
@@ -1463,7 +1464,7 @@
     "relatedIDs": [
       "basic.bit"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一口"
     ],
@@ -1484,7 +1485,7 @@
       "basic.like",
       "basic.taste"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "苦的"
     ],
@@ -1505,7 +1506,7 @@
       "basic.color",
       "basic.white"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "黑色的"
     ],
@@ -1526,7 +1527,7 @@
       "basic.sharp",
       "basic.cut"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "刀刃"
     ],
@@ -1547,7 +1548,7 @@
       "basic.muscle",
       "basic.nerve"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "血液"
     ],
@@ -1568,7 +1569,7 @@
       "basic.nose",
       "basic.sneeze"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一吹"
     ],
@@ -1578,23 +1579,27 @@
   {
     "id": "basic.blue",
     "word": "blue",
-    "meaning": "蓝色的",
+    "meaning": "蓝色",
     "pronunciation": "blu",
     "example": "I like the bright yellow and blue.",
     "translation": "我喜欢这种明亮的黄蓝配色。",
-    "memoryCue": "「蓝色的」用 blue。我喜欢这种明亮的黄蓝配色。",
+    "memoryCue": "说自己喜欢黄色和蓝色时，blue 是蓝色这种颜色。",
     "category": "相对性质",
     "assigned": 38,
     "relatedIDs": [
       "basic.bright",
       "basic.yellow"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
-      "蓝色的"
+      "蓝色",
+      "蓝"
     ],
-    "formation": "blue · 蓝色的",
-    "explanation": "「蓝色的」用 blue。我喜欢这种明亮的黄蓝配色。"
+    "formation": "blue · 蓝色",
+    "explanation": "说自己喜欢黄色和蓝色时，blue 是蓝色这种颜色。",
+    "otherMeanings": [
+      "蓝色的"
+    ]
   },
   {
     "id": "basic.board",
@@ -1610,7 +1615,7 @@
       "basic.all",
       "basic.forward"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "木板"
     ],
@@ -1631,7 +1636,7 @@
       "basic.harbor",
       "basic.ship"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "小船"
     ],
@@ -1652,7 +1657,7 @@
       "basic.disease",
       "basic.healthy"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "身体"
     ],
@@ -1662,23 +1667,28 @@
   {
     "id": "basic.boiling",
     "word": "boiling",
-    "meaning": "沸腾的",
+    "meaning": "正在沸腾",
     "pronunciation": "ˈbɔɪlɪŋ",
     "example": "Turn off the heat. The water in the kettle is boiling.",
     "translation": "把火关了，水壶里的水开了。",
-    "memoryCue": "「沸腾的」用 boiling。把火关了，水壶里的水开了。",
+    "memoryCue": "水壶里的水正在沸腾，用 is boiling。",
     "category": "性质",
     "assigned": 2,
     "relatedIDs": [
       "basic.heat",
       "basic.kettle"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
-      "沸腾的"
+      "正在沸腾",
+      "沸腾",
+      "正在烧开"
     ],
-    "formation": "boiling · 沸腾的",
-    "explanation": "「沸腾的」用 boiling。把火关了，水壶里的水开了。"
+    "formation": "boiling · 正在沸腾",
+    "explanation": "水壶里的水正在沸腾，用 is boiling。",
+    "otherMeanings": [
+      "沸腾的"
+    ]
   },
   {
     "id": "basic.bone",
@@ -1694,7 +1704,7 @@
       "basic.wound",
       "basic.conscious"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "骨头"
     ],
@@ -1715,7 +1725,7 @@
       "basic.page",
       "basic.the"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "书"
     ],
@@ -1736,7 +1746,7 @@
       "basic.collar",
       "basic.shoe"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "靴子"
     ],
@@ -1756,7 +1766,7 @@
     "relatedIDs": [
       "basic.full"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "瓶子"
     ],
@@ -1777,7 +1787,7 @@
       "basic.up",
       "basic.lift"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "箱子"
     ],
@@ -1798,7 +1808,7 @@
       "basic.girl",
       "basic.kiss"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "男孩"
     ],
@@ -1819,7 +1829,7 @@
       "basic.digestion",
       "basic.poison"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "大脑"
     ],
@@ -1840,7 +1850,7 @@
       "basic.engine",
       "basic.driving"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "刹车"
     ],
@@ -1861,7 +1871,7 @@
       "basic.between",
       "basic.building"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "树枝"
     ],
@@ -1881,7 +1891,7 @@
     "relatedIDs": [
       "basic.tin"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "黄铜"
     ],
@@ -1902,7 +1912,7 @@
       "basic.make",
       "basic.oven"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "面包"
     ],
@@ -1922,7 +1932,7 @@
     "relatedIDs": [
       "basic.deep"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一口气"
     ],
@@ -1943,7 +1953,7 @@
       "basic.wall",
       "basic.roof"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "砖"
     ],
@@ -1964,7 +1974,7 @@
       "basic.between",
       "basic.church"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "桥"
     ],
@@ -1985,7 +1995,7 @@
       "light.light",
       "basic.window"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "明亮的"
     ],
@@ -2005,7 +2015,7 @@
     "relatedIDs": [
       "basic.lock"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "坏的"
     ],
@@ -2025,7 +2035,7 @@
     "relatedIDs": [
       "basic.sister"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "兄弟"
     ],
@@ -2046,7 +2056,7 @@
       "basic.look",
       "basic.size"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "棕色的"
     ],
@@ -2067,7 +2077,7 @@
       "basic.under",
       "basic.basin"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "刷子"
     ],
@@ -2088,7 +2098,7 @@
       "basic.sponge",
       "basic.dust"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "水桶"
     ],
@@ -2108,7 +2118,7 @@
     "relatedIDs": [
       "basic.opposite"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "建筑"
     ],
@@ -2128,7 +2138,7 @@
     "relatedIDs": [
       "basic.electric"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "灯泡"
     ],
@@ -2148,7 +2158,7 @@
     "relatedIDs": [
       "basic.smoke"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "烫伤"
     ],
@@ -2168,7 +2178,7 @@
     "relatedIDs": [
       "basic.power"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "爆裂"
     ],
@@ -2188,7 +2198,7 @@
     "relatedIDs": [
       "basic.company"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "生意"
     ],
@@ -2208,7 +2218,7 @@
     "relatedIDs": [
       "basic.because"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "连词",
     "acceptedAnswers": [
       "但是"
     ],
@@ -2229,7 +2239,7 @@
       "basic.sugar",
       "basic.cake"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "黄油"
     ],
@@ -2250,7 +2260,7 @@
       "basic.door",
       "basic.by"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "按钮"
     ],
@@ -2271,7 +2281,7 @@
       "basic.door",
       "basic.button"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在旁边"
     ],
@@ -2292,7 +2302,7 @@
       "basic.butter",
       "basic.sugar"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "蛋糕"
     ],
@@ -2312,7 +2322,7 @@
     "relatedIDs": [
       "basic.smile"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "相机"
     ],
@@ -2332,7 +2342,7 @@
     "relatedIDs": [
       "basic.pin"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "帆布"
     ],
@@ -2352,7 +2362,7 @@
     "relatedIDs": [
       "pay.payment"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "卡片"
     ],
@@ -2373,7 +2383,7 @@
       "basic.rest",
       "basic.support"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "照料"
     ],
@@ -2393,7 +2403,7 @@
     "relatedIDs": [
       "basic.whistle"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "车厢"
     ],
@@ -2413,7 +2423,7 @@
     "relatedIDs": [
       "basic.porter"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "推车"
     ],
@@ -2434,7 +2444,7 @@
       "basic.dog",
       "basic.tail"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "猫"
     ],
@@ -2454,7 +2464,7 @@
     "relatedIDs": [
       "basic.reason"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "起因"
     ],
@@ -2475,7 +2485,7 @@
       "basic.probable",
       "basic.possible"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "确定的"
     ],
@@ -2496,7 +2506,7 @@
       "basic.metal",
       "basic.hook"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "链条"
     ],
@@ -2517,7 +2527,7 @@
       "basic.board",
       "basic.writing"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "粉笔"
     ],
@@ -2537,7 +2547,7 @@
     "relatedIDs": [
       "basic.change"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "机会"
     ],
@@ -2558,7 +2568,7 @@
       "basic.receipt",
       "basic.keep"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "零钱"
     ],
@@ -2578,7 +2588,7 @@
     "relatedIDs": [
       "basic.price"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "便宜的"
     ],
@@ -2599,7 +2609,7 @@
       "basic.milk",
       "basic.cow"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "奶酪"
     ],
@@ -2620,7 +2630,7 @@
       "basic.substance",
       "basic.natural"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "化学的"
     ],
@@ -2641,7 +2651,7 @@
       "basic.pain",
       "basic.stomach"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "胸部"
     ],
@@ -2661,7 +2671,7 @@
     "relatedIDs": [
       "basic.industry"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "主要的"
     ],
@@ -2682,7 +2692,7 @@
       "basic.neck",
       "basic.tooth"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "下巴"
     ],
@@ -2703,7 +2713,7 @@
       "basic.between",
       "basic.bridge"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "教堂"
     ],
@@ -2723,7 +2733,7 @@
     "relatedIDs": [
       "basic.mark"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "圆形"
     ],
@@ -2744,7 +2754,7 @@
       "basic.dirty",
       "basic.floor"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "干净的"
     ],
@@ -2765,7 +2775,7 @@
       "basic.ear",
       "voc.voice.1"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "清楚的"
     ],
@@ -2786,7 +2796,7 @@
       "time.time",
       "basic.when"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "钟"
     ],
@@ -2806,7 +2816,7 @@
     "relatedIDs": [
       "basic.shelf"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "布"
     ],
@@ -2827,7 +2837,7 @@
       "basic.wing",
       "basic.over"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "云"
     ],
@@ -2847,7 +2857,7 @@
     "relatedIDs": [
       "basic.iron"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "煤"
     ],
@@ -2868,7 +2878,7 @@
       "basic.long",
       "basic.thin"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "外套"
     ],
@@ -2889,7 +2899,7 @@
       "basic.glass",
       "basic.ice"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "冷的"
     ],
@@ -2910,7 +2920,7 @@
       "basic.shoe",
       "basic.boot"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "衣领"
     ],
@@ -2931,7 +2941,7 @@
       "basic.black",
       "basic.white"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "颜色"
     ],
@@ -2951,7 +2961,7 @@
     "relatedIDs": [
       "basic.powder"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "梳子"
     ],
@@ -2972,7 +2982,7 @@
       "basic.will",
       "basic.meeting"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "来"
     ],
@@ -2992,7 +3002,7 @@
     "relatedIDs": [
       "basic.self"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "安慰"
     ],
@@ -3012,7 +3022,7 @@
     "relatedIDs": [
       "basic.division"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "委员会"
     ],
@@ -3032,7 +3042,7 @@
     "relatedIDs": [
       "basic.example"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "常见的"
     ],
@@ -3052,7 +3062,7 @@
     "relatedIDs": [
       "basic.business"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "公司"
     ],
@@ -3072,7 +3082,7 @@
     "relatedIDs": [
       "basic.sound"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "比较"
     ],
@@ -3093,7 +3103,7 @@
       "basic.judge",
       "basic.reward"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "比赛"
     ],
@@ -3114,7 +3124,7 @@
       "basic.automatic",
       "basic.mixed"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "完整的"
     ],
@@ -3134,7 +3144,7 @@
     "relatedIDs": [
       "basic.simple"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "复杂的"
     ],
@@ -3155,7 +3165,7 @@
       "basic.insurance",
       "basic.damage"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "状况"
     ],
@@ -3175,7 +3185,7 @@
     "relatedIDs": [
       "basic.current"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "连接"
     ],
@@ -3196,7 +3206,7 @@
       "basic.wound",
       "basic.bone"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "清醒的"
     ],
@@ -3216,7 +3226,7 @@
     "relatedIDs": [
       "basic.automatic"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "控制装置"
     ],
@@ -3237,7 +3247,7 @@
       "basic.make",
       "basic.put"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "厨师"
     ],
@@ -3258,7 +3268,7 @@
       "basic.gold",
       "basic.silver"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "铜"
     ],
@@ -3278,7 +3288,7 @@
     "relatedIDs": [
       "basic.paper"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "副本"
     ],
@@ -3299,7 +3309,7 @@
       "basic.parcel",
       "basic.knot"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "绳子"
     ],
@@ -3319,7 +3329,7 @@
     "relatedIDs": [
       "basic.steam"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "软木塞"
     ],
@@ -3340,7 +3350,7 @@
       "basic.silk",
       "basic.wool"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "棉花"
     ],
@@ -3360,7 +3370,7 @@
     "relatedIDs": [
       "basic.throat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "咳嗽"
     ],
@@ -3381,7 +3391,7 @@
       "cred.credit",
       "basic.government"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "国家"
     ],
@@ -3391,22 +3401,23 @@
   {
     "id": "basic.cover",
     "word": "cover",
-    "meaning": "盖子",
+    "meaning": "封面；盖子",
     "pronunciation": "ˈkʌvɚ",
     "example": "There's a fold in the paper cover.",
     "translation": "纸封面上有道折痕。",
-    "memoryCue": "「盖子」用 cover。纸封面上有道折痕。",
+    "memoryCue": "「封面」用 cover。书前面保护书页的那一面就是封面。盖在容器上的盖子也可以叫 cover。",
     "category": "事物和动作",
     "assigned": 27,
     "relatedIDs": [
       "basic.fold"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
+      "封面",
       "盖子"
     ],
-    "formation": "cover · 盖子",
-    "explanation": "「盖子」用 cover。纸封面上有道折痕。"
+    "formation": "cover · 封面；盖子",
+    "explanation": "「封面」用 cover。书前面保护书页的那一面就是封面。盖在容器上的盖子也可以叫 cover。"
   },
   {
     "id": "basic.cow",
@@ -3422,7 +3433,7 @@
       "basic.milk",
       "basic.cheese"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "奶牛"
     ],
@@ -3443,7 +3454,7 @@
       "basic.condition",
       "basic.damage"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "裂缝"
     ],
@@ -3463,7 +3474,7 @@
     "relatedIDs": [
       "basic.debt"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "信用",
       "赊购",
@@ -3487,7 +3498,7 @@
       "basic.prison",
       "basic.punishment"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "罪行"
     ],
@@ -3507,7 +3518,7 @@
     "relatedIDs": [
       "basic.shame"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "残酷的"
     ],
@@ -3528,7 +3539,7 @@
       "basic.back",
       "basic.position"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "挤压"
     ],
@@ -3548,7 +3559,7 @@
     "relatedIDs": [
       "basic.dear"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "哭喊声"
     ],
@@ -3569,7 +3580,7 @@
       "basic.drink",
       "basic.wine"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "杯子"
     ],
@@ -3589,7 +3600,7 @@
     "relatedIDs": [
       "basic.connection"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "电流"
     ],
@@ -3609,7 +3620,7 @@
     "relatedIDs": [
       "basic.cushion"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "窗帘"
     ],
@@ -3629,7 +3640,7 @@
     "relatedIDs": [
       "basic.edge"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "弯道"
     ],
@@ -3649,7 +3660,7 @@
     "relatedIDs": [
       "basic.curtain"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "靠垫"
     ],
@@ -3670,7 +3681,7 @@
       "basic.blade",
       "basic.sharp"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "切开的"
     ],
@@ -3691,7 +3702,7 @@
       "basic.insurance",
       "basic.condition"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "损坏"
     ],
@@ -3711,7 +3722,7 @@
     "relatedIDs": [
       "basic.work"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "危险"
     ],
@@ -3731,7 +3742,7 @@
     "relatedIDs": [
       "basic.off"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "黑暗的"
     ],
@@ -3752,7 +3763,7 @@
       "basic.mother",
       "basic.son"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "女儿"
     ],
@@ -3773,7 +3784,7 @@
       "basic.week",
       "basic.every"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一天"
     ],
@@ -3794,7 +3805,7 @@
       "basic.daughter",
       "basic.development"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "去世的"
     ],
@@ -3814,7 +3825,7 @@
     "relatedIDs": [
       "basic.cry"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "亲爱的"
     ],
@@ -3835,7 +3846,7 @@
       "basic.first",
       "basic.birth"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "死亡"
     ],
@@ -3855,7 +3866,7 @@
     "relatedIDs": [
       "cred.credit"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "欠款"
     ],
@@ -3876,7 +3887,7 @@
       "basic.responsible",
       "basic.authority"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "决定"
     ],
@@ -3896,7 +3907,7 @@
     "relatedIDs": [
       "basic.breath"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "深的"
     ],
@@ -3917,7 +3928,7 @@
       "basic.level",
       "basic.general"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "学位"
     ],
@@ -3937,7 +3948,7 @@
     "relatedIDs": [
       "basic.such"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "精细的"
     ],
@@ -3957,7 +3968,7 @@
     "relatedIDs": [
       "basic.on"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "依赖的"
     ],
@@ -3977,7 +3988,7 @@
     "relatedIDs": [
       "basic.flag"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "设计"
     ],
@@ -3998,7 +4009,7 @@
       "basic.impulse",
       "basic.behavior"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "愿望"
     ],
@@ -4018,7 +4029,7 @@
     "relatedIDs": [
       "basic.smash"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "破坏"
     ],
@@ -4039,7 +4050,7 @@
     "relatedIDs": [
       "basic.fact"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "细节"
     ],
@@ -4060,7 +4071,7 @@
       "basic.birth",
       "basic.growth"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "发展"
     ],
@@ -4080,7 +4091,7 @@
     "relatedIDs": [
       "basic.same"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "不同的"
     ],
@@ -4101,7 +4112,7 @@
       "basic.poison",
       "basic.brain"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "消化"
     ],
@@ -4122,7 +4133,7 @@
       "basic.turn",
       "basic.straight"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "方向"
     ],
@@ -4144,7 +4155,7 @@
       "clean.clean",
       "basic.floor"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "脏的"
     ],
@@ -4165,7 +4176,7 @@
       "basic.invention",
       "basic.science"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "发现"
     ],
@@ -4186,7 +4197,7 @@
       "basic.opinion",
       "basic.agreement"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "讨论"
     ],
@@ -4207,7 +4218,7 @@
       "basic.healthy",
       "basic.body"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "疾病"
     ],
@@ -4228,7 +4239,7 @@
       "basic.fear",
       "basic.hate"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "反感"
     ],
@@ -4248,7 +4259,7 @@
     "relatedIDs": [
       "basic.walk"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "距离"
     ],
@@ -4268,7 +4279,7 @@
     "relatedIDs": [
       "basic.loss"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "分发"
     ],
@@ -4288,7 +4299,7 @@
     "relatedIDs": [
       "basic.committee"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "部门"
     ],
@@ -4309,7 +4320,7 @@
       "basic.now",
       "basic.first"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "做"
     ],
@@ -4330,7 +4341,7 @@
       "basic.cat",
       "basic.tail"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "狗"
     ],
@@ -4351,7 +4362,7 @@
       "basic.button",
       "basic.by"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "门"
     ],
@@ -4361,23 +4372,27 @@
   {
     "id": "basic.doubt",
     "word": "doubt",
-    "meaning": "疑问",
+    "meaning": "怀疑",
     "pronunciation": "daʊt",
     "example": "That observation makes me doubt the effect.",
     "translation": "这个观察结果让我怀疑实际效果。",
-    "memoryCue": "「疑问」用 doubt。这个观察结果让我怀疑实际效果。",
+    "memoryCue": "别人说的效果你还不确定，可以说 I doubt it，意思是「我对此有怀疑」。",
     "category": "事物和动作",
     "assigned": 85,
     "relatedIDs": [
       "basic.effect",
       "basic.observation"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
-      "疑问"
+      "怀疑",
+      "不相信"
     ],
-    "formation": "doubt · 疑问",
-    "explanation": "「疑问」用 doubt。这个观察结果让我怀疑实际效果。"
+    "formation": "doubt · 怀疑",
+    "explanation": "别人说的效果你还不确定，可以说 I doubt it，意思是「我对此有怀疑」。",
+    "otherMeanings": [
+      "疑问"
+    ]
   },
   {
     "id": "basic.down",
@@ -4392,7 +4407,7 @@
     "relatedIDs": [
       "basic.wheel"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "向下"
     ],
@@ -4413,7 +4428,7 @@
       "basic.pipe",
       "basic.hole"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "排水管"
     ],
@@ -4433,7 +4448,7 @@
     "relatedIDs": [
       "basic.table"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "抽屉"
     ],
@@ -4454,7 +4469,7 @@
       "basic.hat",
       "basic.skirt"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "连衣裙"
     ],
@@ -4475,7 +4490,7 @@
       "basic.cup",
       "basic.wine"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "饮料"
     ],
@@ -4496,7 +4511,7 @@
       "basic.engine",
       "basic.brake"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
       "驾驶"
     ],
@@ -4516,7 +4531,7 @@
     "relatedIDs": [
       "basic.liquid"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "水滴"
     ],
@@ -4536,7 +4551,7 @@
     "relatedIDs": [
       "basic.wet"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "干的"
     ],
@@ -4557,7 +4572,7 @@
       "basic.bucket",
       "basic.sponge"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "灰尘"
     ],
@@ -4578,7 +4593,7 @@
       "voc.voice.1",
       "basic.clear"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "耳朵"
     ],
@@ -4588,23 +4603,28 @@
   {
     "id": "basic.early",
     "word": "early",
-    "meaning": "早的",
+    "meaning": "提早；很早就",
     "pronunciation": "ˈɝli",
     "example": "I got there early, at nine. Was I late?",
     "translation": "我很早就到了，九点到的。我迟到了吗？",
-    "memoryCue": "「早的」用 early。我很早就到了，九点到的。我迟到了吗？",
+    "memoryCue": "I got there early 是说我很早就到了。",
     "category": "性质",
     "assigned": 37,
     "relatedIDs": [
       "basic.at",
       "basic.late"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
-      "早的"
+      "很早",
+      "早早地",
+      "提早"
     ],
-    "formation": "early · 早的",
-    "explanation": "「早的」用 early。我很早就到了，九点到的。我迟到了吗？"
+    "formation": "early · 提早；很早就",
+    "explanation": "I got there early 是说我很早就到了。",
+    "otherMeanings": [
+      "早的"
+    ]
   },
   {
     "id": "basic.earth",
@@ -4619,7 +4639,7 @@
     "relatedIDs": [
       "basic.grass"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "土壤"
     ],
@@ -4629,22 +4649,27 @@
   {
     "id": "basic.east",
     "word": "east",
-    "meaning": "东边",
+    "meaning": "东边的",
     "pronunciation": "ist",
     "example": "Is the entrance on the east or the west side?",
     "translation": "入口在东边还是西边？",
-    "memoryCue": "「东边」用 east。入口在东边还是西边？",
+    "memoryCue": "the east side 是朝东的那一边。",
     "category": "常用小词",
     "assigned": 46,
     "relatedIDs": [
       "basic.west"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
+      "东边的",
+      "东面的",
       "东边"
     ],
-    "formation": "east · 东边",
-    "explanation": "「东边」用 east。入口在东边还是西边？"
+    "formation": "east · 东边的",
+    "explanation": "the east side 是朝东的那一边。",
+    "otherMeanings": [
+      "东方"
+    ]
   },
   {
     "id": "basic.edge",
@@ -4659,7 +4684,7 @@
     "relatedIDs": [
       "basic.curve"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "边缘"
     ],
@@ -4680,7 +4705,7 @@
       "basic.experience",
       "basic.knowledge"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "教育"
     ],
@@ -4701,7 +4726,7 @@
       "basic.doubt",
       "basic.observation"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "影响"
     ],
@@ -4723,7 +4748,7 @@
       "basic.pot",
       "basic.put"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "鸡蛋"
     ],
@@ -4744,7 +4769,7 @@
       "basic.stretch",
       "basic.twist"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "有弹性的"
     ],
@@ -4764,7 +4789,7 @@
     "relatedIDs": [
       "basic.bulb"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "电动的",
       "用电的",
@@ -4786,7 +4811,7 @@
     "relatedIDs": [
       "basic.why"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "结尾"
     ],
@@ -4807,7 +4832,7 @@
       "basic.brake",
       "basic.driving"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "发动机"
     ],
@@ -4827,7 +4852,7 @@
     "relatedIDs": [
       "basic.slow"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "足够地"
     ],
@@ -4847,7 +4872,7 @@
     "relatedIDs": [
       "basic.together"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "相等的"
     ],
@@ -4868,7 +4893,7 @@
       "basic.wrong",
       "basic.regret"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "错误"
     ],
@@ -4889,7 +4914,7 @@
       "basic.good",
       "basic.great"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "甚至"
     ],
@@ -4909,7 +4934,7 @@
     "relatedIDs": [
       "basic.year"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "事件"
     ],
@@ -4929,7 +4954,7 @@
     "relatedIDs": [
       "basic.seem"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "曾经"
     ],
@@ -4950,7 +4975,7 @@
       "day.day",
       "basic.week"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "每个"
     ],
@@ -4971,7 +4996,7 @@
       "basic.language",
       "basic.simple"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "例子"
     ],
@@ -4992,7 +5017,7 @@
       "basic.value",
       "basic.rate"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "交换"
     ],
@@ -5013,7 +5038,7 @@
       "basic.effect",
       "basic.observation"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "存在"
     ],
@@ -5034,7 +5059,7 @@
       "basic.till",
       "basic.though"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "扩建"
     ],
@@ -5055,7 +5080,7 @@
       "basic.learning",
       "basic.knowledge"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "经验"
     ],
@@ -5076,7 +5101,7 @@
       "basic.apparatus",
       "basic.instrument"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "专家"
     ],
@@ -5097,7 +5122,7 @@
       "basic.open",
       "basic.shut"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "眼睛"
     ],
@@ -5118,7 +5143,7 @@
       "basic.head",
       "basic.hair"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "脸"
     ],
@@ -5138,7 +5163,7 @@
     "relatedIDs": [
       "basic.detail"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "事实"
     ],
@@ -5158,7 +5183,7 @@
     "relatedIDs": [
       "basic.slip"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "跌倒"
     ],
@@ -5179,7 +5204,7 @@
       "basic.belief",
       "basic.true"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "假的"
     ],
@@ -5200,7 +5225,7 @@
       "basic.house",
       "basic.living"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "家人"
     ],
@@ -5210,23 +5235,27 @@
   {
     "id": "basic.far",
     "word": "far",
-    "meaning": "远的",
+    "meaning": "远；离得远",
     "pronunciation": "fɑr",
     "example": "Is it far from where you're standing to there?",
     "translation": "从你站的地方到那里远吗？",
-    "memoryCue": "「远的」用 far。从你站的地方到那里远吗？",
+    "memoryCue": "Is it far? 就是问「离得远吗？」。",
     "category": "常用小词",
     "assigned": 20,
     "relatedIDs": [
       "basic.where",
       "basic.there"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
-      "远的"
+      "远",
+      "离得远"
     ],
-    "formation": "far · 远的",
-    "explanation": "「远的」用 far。从你站的地方到那里远吗？"
+    "formation": "far · 远；离得远",
+    "explanation": "Is it far? 就是问「离得远吗？」。",
+    "otherMeanings": [
+      "很远地"
+    ]
   },
   {
     "id": "basic.farm",
@@ -5241,7 +5270,7 @@
     "relatedIDs": [
       "basic.produce"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "农场"
     ],
@@ -5262,7 +5291,7 @@
       "basic.potato",
       "basic.salt"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "脂肪多的"
     ],
@@ -5283,7 +5312,7 @@
       "basic.mother",
       "basic.together"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "父亲"
     ],
@@ -5304,7 +5333,7 @@
       "basic.hate",
       "basic.disgust"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "恐惧"
     ],
@@ -5324,7 +5353,7 @@
     "relatedIDs": [
       "basic.bird"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "羽毛"
     ],
@@ -5344,7 +5373,7 @@
     "relatedIDs": [
       "basic.strong"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "虚弱的"
     ],
@@ -5365,7 +5394,7 @@
       "basic.happy",
       "basic.sad"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "感受"
     ],
@@ -5385,7 +5414,7 @@
     "relatedIDs": [
       "basic.male"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "女性的"
     ],
@@ -5406,7 +5435,7 @@
       "basic.grain",
       "basic.seed"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "肥沃的"
     ],
@@ -5427,7 +5456,7 @@
       "basic.selection",
       "basic.prose"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "小说"
     ],
@@ -5448,7 +5477,7 @@
       "basic.mountain",
       "basic.river"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "田野"
     ],
@@ -5468,7 +5497,7 @@
     "relatedIDs": [
       "basic.peace"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "争执"
     ],
@@ -5489,7 +5518,7 @@
       "basic.thumb",
       "basic.ring"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "手指"
     ],
@@ -5510,7 +5539,7 @@
       "basic.match",
       "basic.flame"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "火"
     ],
@@ -5520,25 +5549,28 @@
   {
     "id": "basic.first",
     "word": "first",
-    "meaning": "第一；首先",
+    "meaning": "首先；先",
     "pronunciation": "fɝst",
     "example": "What should I do first, right now?",
     "translation": "我现在应该先做什么？",
-    "memoryCue": "「第一」用 first。我现在应该先做什么？",
+    "memoryCue": "What should I do first 是问「我应该先做什么」。",
     "category": "性质",
     "assigned": 12,
     "relatedIDs": [
       "basic.do",
       "basic.now"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
-      "第一",
       "首先",
-      "第一；首先"
+      "先"
     ],
-    "formation": "first · 第一；首先",
-    "explanation": "「第一」用 first。我现在应该先做什么？"
+    "formation": "first · 首先；先",
+    "explanation": "What should I do first 是问「我应该先做什么」。",
+    "otherMeanings": [
+      "第一",
+      "第一的"
+    ]
   },
   {
     "id": "basic.fish",
@@ -5554,7 +5586,7 @@
       "basic.rice",
       "basic.and"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "鱼"
     ],
@@ -5574,7 +5606,7 @@
     "relatedIDs": [
       "basic.position"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "固定的"
     ],
@@ -5594,7 +5626,7 @@
     "relatedIDs": [
       "basic.design"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "旗帜"
     ],
@@ -5615,7 +5647,7 @@
       "basic.match",
       "basic.fire"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "火焰"
     ],
@@ -5635,7 +5667,7 @@
     "relatedIDs": [
       "basic.round"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "平的"
     ],
@@ -5656,7 +5688,7 @@
       "basic.plane",
       "basic.air"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "航班"
     ],
@@ -5677,7 +5709,7 @@
       "clean.clean",
       "basic.dirty"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "地板"
     ],
@@ -5698,7 +5730,7 @@
       "basic.garden",
       "basic.bee"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "花"
     ],
@@ -5718,7 +5750,7 @@
     "relatedIDs": [
       "basic.fowl"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "苍蝇"
     ],
@@ -5738,7 +5770,7 @@
     "relatedIDs": [
       "basic.cover"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "折痕"
     ],
@@ -5759,7 +5791,7 @@
       "basic.good",
       "basic.here"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "食物"
     ],
@@ -5779,7 +5811,7 @@
     "relatedIDs": [
       "basic.wise"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "糊涂的"
     ],
@@ -5800,7 +5832,7 @@
       "basic.toe",
       "basic.knee"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "脚"
     ],
@@ -5821,7 +5853,7 @@
       "room.room",
       "basic.private"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "给",
       "为了",
@@ -5843,7 +5875,7 @@
     "relatedIDs": [
       "basic.stiff"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "力"
     ],
@@ -5864,7 +5896,7 @@
       "basic.meal",
       "basic.plate"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "叉子"
     ],
@@ -5885,7 +5917,7 @@
       "basic.name",
       "basic.pen"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "表格"
     ],
@@ -5906,7 +5938,7 @@
       "ten.attention.8",
       "basic.group"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "向前"
     ],
@@ -5926,7 +5958,7 @@
     "relatedIDs": [
       "basic.fly"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "家禽"
     ],
@@ -5946,7 +5978,7 @@
     "relatedIDs": [
       "basic.square"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "框"
     ],
@@ -5966,7 +5998,7 @@
     "relatedIDs": [
       "basic.month"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "空闲的"
     ],
@@ -5986,7 +6018,7 @@
     "relatedIDs": [
       "basic.week"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "频繁的"
     ],
@@ -6007,7 +6039,7 @@
       "basic.who",
       "basic.he"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "朋友"
     ],
@@ -6028,7 +6060,7 @@
       "basic.go",
       "basic.to"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "从",
       "来自",
@@ -6051,7 +6083,7 @@
       "basic.shade",
       "basic.tree"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "正面"
     ],
@@ -6072,7 +6104,7 @@
       "basic.berry",
       "basic.sweet"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "水果"
     ],
@@ -6092,7 +6124,7 @@
     "relatedIDs": [
       "basic.bottle"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "满的"
     ],
@@ -6102,23 +6134,27 @@
   {
     "id": "basic.future",
     "word": "future",
-    "meaning": "未来的",
+    "meaning": "未来；将来",
     "pronunciation": "ˈfjutʃɚ",
     "example": "This room shows the past, present and future of the city.",
     "translation": "这个展厅展示了城市的过去、现在和未来。",
-    "memoryCue": "「未来的」用 future。这个展厅展示了城市的过去、现在和未来。",
+    "memoryCue": "和过去、现在放在一起，the future 就是还没到来的时间。",
     "category": "相对性质",
     "assigned": 69,
     "relatedIDs": [
       "basic.past",
       "basic.present"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
-      "未来的"
+      "未来",
+      "将来"
     ],
-    "formation": "future · 未来的",
-    "explanation": "「未来的」用 future。这个展厅展示了城市的过去、现在和未来。"
+    "formation": "future · 未来；将来",
+    "explanation": "和过去、现在放在一起，the future 就是还没到来的时间。",
+    "otherMeanings": [
+      "未来的"
+    ]
   },
   {
     "id": "basic.garden",
@@ -6134,7 +6170,7 @@
       "basic.flower",
       "basic.bee"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "花园"
     ],
@@ -6155,7 +6191,7 @@
       "basic.level",
       "basic.degree"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "一般的"
     ],
@@ -6175,7 +6211,7 @@
     "relatedIDs": [
       "basic.late"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "得到",
       "领取",
@@ -6198,7 +6234,7 @@
       "basic.boy",
       "basic.kiss"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "女孩"
     ],
@@ -6210,8 +6246,8 @@
     "word": "give",
     "meaning": "给",
     "pronunciation": "ɡɪv",
-    "example": "Could you give me a bag, please?",
-    "translation": "请给我一个袋子好吗？",
+    "example": "Could you give me a bag for this portable lamp, please?",
+    "translation": "请给我一个袋子装这盏便携灯，好吗？",
     "memoryCue": "把东西从自己手里递给别人，就是 give。give me 是「给我」。",
     "category": "常用小词",
     "assigned": 1,
@@ -6219,7 +6255,7 @@
       "basic.you",
       "basic.please"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "给"
     ],
@@ -6240,7 +6276,7 @@
       "basic.cold",
       "basic.ice"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "玻璃杯"
     ],
@@ -6260,7 +6296,7 @@
     "relatedIDs": [
       "basic.soft"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "手套"
     ],
@@ -6281,7 +6317,7 @@
       "basic.from",
       "basic.to"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "去"
     ],
@@ -6302,7 +6338,7 @@
       "basic.pig",
       "basic.sheep"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "山羊"
     ],
@@ -6323,7 +6359,7 @@
       "basic.silver",
       "basic.copper"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "金"
     ],
@@ -6344,7 +6380,7 @@
       "basic.food",
       "basic.here"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "好的"
     ],
@@ -6365,7 +6401,7 @@
       "basic.country",
       "basic.nation"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "政府"
     ],
@@ -6386,7 +6422,7 @@
       "basic.seed",
       "basic.fertile"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "谷粒"
     ],
@@ -6406,7 +6442,7 @@
     "relatedIDs": [
       "basic.earth"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "草"
     ],
@@ -6426,7 +6462,7 @@
     "relatedIDs": [
       "basic.leather"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "灰色的"
     ],
@@ -6447,7 +6483,7 @@
       "basic.good",
       "basic.even"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "极好的"
     ],
@@ -6457,22 +6493,26 @@
   {
     "id": "basic.green",
     "word": "green",
-    "meaning": "绿色的",
+    "meaning": "绿色",
     "pronunciation": "ɡrin",
     "example": "The light turns from red to green.",
     "translation": "灯由红变绿。",
-    "memoryCue": "「绿色的」用 green。灯由红变绿。",
+    "memoryCue": "灯变成绿色时，green 说的是颜色。",
     "category": "相对性质",
     "assigned": 19,
     "relatedIDs": [
       "basic.red"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
-      "绿色的"
+      "绿色",
+      "绿"
     ],
-    "formation": "green · 绿色的",
-    "explanation": "「绿色的」用 green。灯由红变绿。"
+    "formation": "green · 绿色",
+    "explanation": "灯变成绿色时，green 说的是颜色。",
+    "otherMeanings": [
+      "绿色的"
+    ]
   },
   {
     "id": "basic.grip",
@@ -6487,7 +6527,7 @@
     "relatedIDs": [
       "basic.balance"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "紧握"
     ],
@@ -6508,7 +6548,7 @@
       "ten.attention.8",
       "basic.forward"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一组人"
     ],
@@ -6529,7 +6569,7 @@
       "basic.birth",
       "basic.development"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "成长"
     ],
@@ -6549,7 +6589,7 @@
     "relatedIDs": [
       "basic.history"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "向导"
     ],
@@ -6570,7 +6610,7 @@
       "basic.birth",
       "basic.death"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "枪"
     ],
@@ -6591,7 +6631,7 @@
       "basic.head",
       "basic.face"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "头发"
     ],
@@ -6612,7 +6652,7 @@
       "basic.nail",
       "basic.screw"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "锤子"
     ],
@@ -6634,7 +6674,7 @@
       "basic.soap",
       "basic.with"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "手"
     ],
@@ -6644,22 +6684,27 @@
   {
     "id": "basic.hanging",
     "word": "hanging",
-    "meaning": "悬挂的",
+    "meaning": "正挂着",
     "pronunciation": "ˈhæŋɪŋ",
     "example": "Which picture is hanging above the door?",
     "translation": "哪幅画挂在门上方？",
-    "memoryCue": "「悬挂的」用 hanging。哪幅画挂在门上方？",
+    "memoryCue": "门上方挂着一幅画，用 is hanging 说它挂在哪里。",
     "category": "性质",
     "assigned": 73,
     "relatedIDs": [
       "basic.wall"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
-      "悬挂的"
+      "正挂着",
+      "挂着",
+      "悬挂着"
     ],
-    "formation": "hanging · 悬挂的",
-    "explanation": "「悬挂的」用 hanging。哪幅画挂在门上方？"
+    "formation": "hanging · 正挂着",
+    "explanation": "门上方挂着一幅画，用 is hanging 说它挂在哪里。",
+    "otherMeanings": [
+      "悬挂的"
+    ]
   },
   {
     "id": "basic.happy",
@@ -6675,7 +6720,7 @@
       "basic.feeling",
       "basic.sad"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "开心的"
     ],
@@ -6696,7 +6741,7 @@
       "basic.boat",
       "basic.ship"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "港口"
     ],
@@ -6717,7 +6762,7 @@
       "basic.comfort",
       "basic.soft"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "硬的"
     ],
@@ -6737,7 +6782,7 @@
     "relatedIDs": [
       "basic.among"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "和声"
     ],
@@ -6758,7 +6803,7 @@
       "basic.dress",
       "basic.skirt"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "帽子"
     ],
@@ -6779,7 +6824,7 @@
       "basic.fear",
       "basic.disgust"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "厌恶"
     ],
@@ -6801,7 +6846,7 @@
       "basic.some",
       "basic.may"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "有",
       "吃喝",
@@ -6824,7 +6869,7 @@
       "basic.friend",
       "basic.who"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "代词",
     "acceptedAnswers": [
       "他"
     ],
@@ -6845,7 +6890,7 @@
       "basic.hair",
       "basic.face"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "头"
     ],
@@ -6866,7 +6911,7 @@
       "basic.disease",
       "basic.body"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "健康的"
     ],
@@ -6876,22 +6921,27 @@
   {
     "id": "basic.hearing",
     "word": "hearing",
-    "meaning": "听力",
+    "meaning": "听见；听清",
     "pronunciation": "ˈhirɪŋ",
     "example": "I have trouble hearing you.",
     "translation": "我听不清你说话。",
-    "memoryCue": "hear 是听见。加上 -ing，可以说一个人的听力。",
+    "memoryCue": "I have trouble hearing you 是「我听不清你说的话」。",
     "category": "事物和动作",
     "assigned": 17,
     "relatedIDs": [
       "basic.trouble"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
-      "听力"
+      "听见",
+      "听到",
+      "听清"
     ],
-    "formation": "hearing · 听力",
-    "explanation": "hear 是听见。加上 -ing，可以说一个人的听力。"
+    "formation": "hearing · 听见；听清",
+    "explanation": "I have trouble hearing you 是「我听不清你说的话」。",
+    "otherMeanings": [
+      "听力"
+    ]
   },
   {
     "id": "basic.heart",
@@ -6907,7 +6957,7 @@
       "basic.pain",
       "basic.wound"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "心脏"
     ],
@@ -6928,7 +6978,7 @@
       "basic.boiling",
       "basic.kettle"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "热量"
     ],
@@ -6949,7 +6999,7 @@
       "basic.need",
       "basic.little"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "帮助"
     ],
@@ -6970,7 +7020,7 @@
       "basic.food",
       "basic.good"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "在这里"
     ],
@@ -6990,7 +7040,7 @@
     "relatedIDs": [
       "basic.low"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "高的"
     ],
@@ -7010,7 +7060,7 @@
     "relatedIDs": [
       "basic.guide"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "历史"
     ],
@@ -7031,7 +7081,7 @@
       "basic.drain",
       "basic.pipe"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "洞"
     ],
@@ -7051,7 +7101,7 @@
     "relatedIDs": [
       "basic.vessel"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "中空的"
     ],
@@ -7072,7 +7122,7 @@
       "basic.metal",
       "basic.chain"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "钩子"
     ],
@@ -7092,7 +7142,7 @@
     "relatedIDs": [
       "basic.love"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "希望"
     ],
@@ -7112,7 +7162,7 @@
     "relatedIDs": [
       "basic.whistle"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "喇叭声"
     ],
@@ -7133,7 +7183,7 @@
       "basic.whip",
       "basic.carriage"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "马"
     ],
@@ -7154,7 +7204,7 @@
       "basic.medical",
       "basic.ill"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "医院"
     ],
@@ -7174,7 +7224,7 @@
     "relatedIDs": [
       "basic.minute"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "小时"
     ],
@@ -7195,7 +7245,7 @@
       "basic.family",
       "basic.living"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "房子"
     ],
@@ -7216,7 +7266,7 @@
       "basic.much",
       "basic.money"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "怎样",
       "多少",
@@ -7239,7 +7289,7 @@
       "basic.story",
       "basic.laugh"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "幽默"
     ],
@@ -7251,8 +7301,8 @@
     "word": "I",
     "meaning": "我",
     "pronunciation": "aɪ",
-    "example": "Can I take this bag?",
-    "translation": "我可以带上这个包吗？",
+    "example": "Can I take this portable lamp in my bag?",
+    "translation": "我可以把这盏便携灯装在包里带走吗？",
     "memoryCue": "指着自己说 I。英语里，就算它在句子中间，也要写成大写。",
     "category": "常用小词",
     "assigned": 1,
@@ -7261,7 +7311,7 @@
       "basic.this",
       "basic.bag"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "代词",
     "acceptedAnswers": [
       "我"
     ],
@@ -7282,7 +7332,7 @@
       "basic.glass",
       "basic.cold"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "冰"
     ],
@@ -7303,7 +7353,7 @@
       "basic.connection",
       "basic.mind"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "想法"
     ],
@@ -7323,7 +7373,7 @@
     "relatedIDs": [
       "basic.let"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "连词",
     "acceptedAnswers": [
       "如果"
     ],
@@ -7344,7 +7394,7 @@
       "basic.hospital",
       "basic.medical"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "生病的"
     ],
@@ -7364,7 +7414,7 @@
     "relatedIDs": [
       "basic.purpose"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "重要的"
     ],
@@ -7385,7 +7435,7 @@
       "basic.desire",
       "basic.behavior"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一时冲动"
     ],
@@ -7407,7 +7457,7 @@
       "basic.egg",
       "basic.pot"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在……里面"
     ],
@@ -7417,23 +7467,24 @@
   {
     "id": "basic.increase",
     "word": "increase",
-    "meaning": "增加",
-    "pronunciation": "ˌɪnˈkris",
+    "meaning": "增长；增加",
+    "pronunciation": "ˈɪnkris",
     "example": "If quality improves, we may see an increase in profit.",
-    "translation": "如果质量改善，利润可能会增加。",
-    "memoryCue": "「增加」用 increase。如果质量改善，利润可能会增加。",
+    "translation": "如果质量提高，我们可能会看到利润增长。",
+    "memoryCue": "「增长」在这里指利润比原来多了。这个名词有两拍，重读开头。",
     "category": "事物和动作",
     "assigned": 10,
     "relatedIDs": [
       "basic.quality",
       "basic.profit"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
+      "增长",
       "增加"
     ],
-    "formation": "increase · 增加",
-    "explanation": "「增加」用 increase。如果质量改善，利润可能会增加。"
+    "formation": "increase · 增长",
+    "explanation": "「增长」在这里指利润比原来多了。这个名词有两拍，重读开头。"
   },
   {
     "id": "basic.industry",
@@ -7448,7 +7499,7 @@
     "relatedIDs": [
       "basic.chief"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "行业"
     ],
@@ -7469,7 +7520,7 @@
       "basic.writing",
       "basic.pencil"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "墨水"
     ],
@@ -7490,7 +7541,7 @@
       "basic.worm",
       "basic.ant"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "昆虫"
     ],
@@ -7511,7 +7562,7 @@
       "basic.apparatus",
       "basic.expert"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "仪器"
     ],
@@ -7532,7 +7583,7 @@
       "basic.damage",
       "basic.condition"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "保险"
     ],
@@ -7553,7 +7604,7 @@
       "tract.attraction",
       "basic.art"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "兴趣"
     ],
@@ -7574,7 +7625,7 @@
       "basic.science",
       "basic.discovery"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "发明"
     ],
@@ -7594,7 +7645,7 @@
     "relatedIDs": [
       "basic.coal"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "铁"
     ],
@@ -7615,7 +7666,7 @@
       "basic.land",
       "basic.sea"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "岛"
     ],
@@ -7636,7 +7687,7 @@
       "basic.nut",
       "basic.acid"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "果冻"
     ],
@@ -7657,7 +7708,7 @@
       "basic.ray",
       "basic.picture"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "宝石"
     ],
@@ -7677,7 +7728,7 @@
     "relatedIDs": [
       "basic.meeting"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "连接处"
     ],
@@ -7698,7 +7749,7 @@
       "day.day",
       "basic.limit"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "旅程"
     ],
@@ -7708,23 +7759,24 @@
   {
     "id": "basic.judge",
     "word": "judge",
-    "meaning": "裁判",
+    "meaning": "裁判；评委",
     "pronunciation": "dʒʌdʒ",
     "example": "Ask the judge about the reward for winning the competition.",
     "translation": "问问裁判，赢得比赛有什么奖励。",
-    "memoryCue": "「裁判」用 judge。问问裁判，赢得比赛有什么奖励。",
+    "memoryCue": "「裁判」用 judge。比赛中负责评判结果的人可以叫 judge，给选手打分的评委也可以这样说。",
     "category": "事物和动作",
     "assigned": 84,
     "relatedIDs": [
       "basic.competition",
       "basic.reward"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
-      "裁判"
+      "裁判",
+      "评委"
     ],
-    "formation": "judge · 裁判",
-    "explanation": "「裁判」用 judge。问问裁判，赢得比赛有什么奖励。"
+    "formation": "judge · 裁判；评委",
+    "explanation": "「裁判」用 judge。比赛中负责评判结果的人可以叫 judge，给选手打分的评委也可以这样说。"
   },
   {
     "id": "basic.jump",
@@ -7740,7 +7792,7 @@
       "basic.kick",
       "basic.ball"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "跳"
     ],
@@ -7761,7 +7813,7 @@
       "basic.receipt",
       "basic.change"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "保留"
     ],
@@ -7782,7 +7834,7 @@
       "basic.heat",
       "basic.boiling"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "水壶"
     ],
@@ -7803,7 +7855,7 @@
       "basic.pocket",
       "basic.left"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "钥匙"
     ],
@@ -7825,7 +7877,7 @@
       "basic.jump",
       "basic.ball"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "踢"
     ],
@@ -7845,7 +7897,7 @@
     "relatedIDs": [
       "basic.act"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "友善的"
     ],
@@ -7866,7 +7918,7 @@
       "basic.boy",
       "basic.girl"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "吻"
     ],
@@ -7887,7 +7939,7 @@
       "basic.foot",
       "basic.toe"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "膝盖"
     ],
@@ -7908,7 +7960,7 @@
       "basic.spoon",
       "basic.tray"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "餐刀"
     ],
@@ -7929,7 +7981,7 @@
       "basic.parcel",
       "basic.cord"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "结"
     ],
@@ -7950,7 +8002,7 @@
       "basic.learning",
       "basic.experience"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "知识"
     ],
@@ -7971,7 +8023,7 @@
       "basic.sea",
       "basic.island"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "陆地"
     ],
@@ -7992,7 +8044,7 @@
       "basic.simple",
       "basic.example"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "语言"
     ],
@@ -8013,7 +8065,7 @@
       "basic.letter",
       "basic.wrong"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "最后的"
     ],
@@ -8034,7 +8086,7 @@
       "basic.at",
       "basic.early"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "迟到的"
     ],
@@ -8055,7 +8107,7 @@
       "basic.story",
       "basic.humor"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "笑声"
     ],
@@ -8076,7 +8128,7 @@
       "basic.property",
       "basic.owner"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "法律"
     ],
@@ -8097,7 +8149,7 @@
       "basic.control",
       "basic.driving"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "铅"
     ],
@@ -8118,7 +8170,7 @@
       "basic.stem",
       "basic.root"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "叶子"
     ],
@@ -8139,7 +8191,7 @@
       "basic.education",
       "basic.experience"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
       "学习"
     ],
@@ -8159,7 +8211,7 @@
     "relatedIDs": [
       "basic.gray"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "皮革"
     ],
@@ -8180,7 +8232,7 @@
       "basic.pocket",
       "key.key"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "左边的"
     ],
@@ -8200,7 +8252,7 @@
     "relatedIDs": [
       "basic.arm"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "腿"
     ],
@@ -8220,7 +8272,7 @@
     "relatedIDs": [
       "basic.if"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "让"
     ],
@@ -8241,7 +8293,7 @@
       "basic.last",
       "basic.wrong"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "字母"
     ],
@@ -8262,7 +8314,7 @@
       "basic.general",
       "basic.degree"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "水平"
     ],
@@ -8282,7 +8334,7 @@
     "relatedIDs": [
       "basic.about"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "图书馆"
     ],
@@ -8303,7 +8355,7 @@
       "basic.box",
       "basic.up"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "抬起"
     ],
@@ -8324,7 +8376,7 @@
       "basic.bright",
       "basic.window"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "光"
     ],
@@ -8334,23 +8386,29 @@
   {
     "id": "basic.like",
     "word": "like",
-    "meaning": "像",
+    "meaning": "像；与……相似",
     "pronunciation": "laɪk",
     "example": "Does it taste like bitter coffee?",
     "translation": "它尝起来像苦咖啡吗？",
-    "memoryCue": "把味道拿来比较，用 taste like，意思是尝起来像什么。",
+    "memoryCue": "taste like 是“尝起来像”。I like coffee 是“我喜欢咖啡”。这里的“喜欢”是 like 当动词时的意思。",
     "category": "性质",
     "assigned": 30,
     "relatedIDs": [
       "basic.taste",
       "basic.bitter"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
-      "像"
+      "像",
+      "好像",
+      "相似",
+      "与……相似"
     ],
-    "formation": "like · 像",
-    "explanation": "把味道拿来比较，用 taste like，意思是尝起来像什么。"
+    "formation": "like · 像；与……相似",
+    "explanation": "taste like 是“尝起来像”。I like coffee 是“我喜欢咖啡”。这里的“喜欢”是 like 当动词时的意思。",
+    "otherMeanings": [
+      "喜欢"
+    ]
   },
   {
     "id": "basic.limit",
@@ -8366,7 +8424,7 @@
       "day.day",
       "basic.journey"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "限额"
     ],
@@ -8386,7 +8444,7 @@
     "relatedIDs": [
       "basic.number"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "横线"
     ],
@@ -8407,7 +8465,7 @@
       "basic.burn",
       "basic.fire"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "亚麻布",
       "床品",
@@ -8430,7 +8488,7 @@
       "basic.mouth",
       "basic.tongue"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "嘴唇"
     ],
@@ -8450,7 +8508,7 @@
     "relatedIDs": [
       "basic.drop"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "液体"
     ],
@@ -8460,22 +8518,23 @@
   {
     "id": "basic.list",
     "word": "list",
-    "meaning": "名单",
+    "meaning": "清单；名单",
     "pronunciation": "lɪst",
     "example": "Could you add my request to the list?",
     "translation": "能把我的要求加到清单里吗？",
-    "memoryCue": "「名单」用 list。能把我的要求加到清单里吗？",
+    "memoryCue": "「清单」用 list。把要买的东西一项项写下来，就是一张清单。列的是人名时，就是名单。",
     "category": "事物和动作",
     "assigned": 45,
     "relatedIDs": [
       "basic.request"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
+      "清单",
       "名单"
     ],
-    "formation": "list · 名单",
-    "explanation": "「名单」用 list。能把我的要求加到清单里吗？"
+    "formation": "list · 清单；名单",
+    "explanation": "「清单」用 list。把要买的东西一项项写下来，就是一张清单。列的是人名时，就是名单。"
   },
   {
     "id": "basic.little",
@@ -8491,7 +8550,7 @@
       "basic.help",
       "basic.need"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "一点"
     ],
@@ -8501,25 +8560,28 @@
   {
     "id": "basic.living",
     "word": "living",
-    "meaning": "活着的；居住的",
+    "meaning": "正在居住",
     "pronunciation": "ˈlɪvɪŋ",
     "example": "My family is living in that house.",
     "translation": "我家人住在那栋房子里。",
-    "memoryCue": "「活着的」用 living。我家人住在那栋房子里。",
+    "memoryCue": "My family is living there 意思是「我家人现在住在那里」。",
     "category": "性质",
     "assigned": 16,
     "relatedIDs": [
       "basic.house",
       "basic.family"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
-      "活着的",
-      "居住的",
-      "活着的；居住的"
+      "正在居住",
+      "居住",
+      "住"
     ],
-    "formation": "living · 活着的；居住的",
-    "explanation": "「活着的」用 living。我家人住在那栋房子里。"
+    "formation": "living · 正在居住",
+    "explanation": "My family is living there 意思是「我家人现在住在那里」。",
+    "otherMeanings": [
+      "活着的"
+    ]
   },
   {
     "id": "basic.lock",
@@ -8534,7 +8596,7 @@
     "relatedIDs": [
       "basic.broken"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "锁"
     ],
@@ -8555,7 +8617,7 @@
       "basic.thin",
       "basic.coat"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "长的"
     ],
@@ -8576,7 +8638,7 @@
       "basic.size",
       "basic.brown"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "外观"
     ],
@@ -8596,7 +8658,7 @@
     "relatedIDs": [
       "basic.tight"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "松的"
     ],
@@ -8616,7 +8678,7 @@
     "relatedIDs": [
       "basic.distribution"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "丢失"
     ],
@@ -8636,7 +8698,7 @@
     "relatedIDs": [
       "basic.sound"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "响亮的"
     ],
@@ -8656,7 +8718,7 @@
     "relatedIDs": [
       "basic.hope"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "爱"
     ],
@@ -8676,7 +8738,7 @@
     "relatedIDs": [
       "basic.high"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "低的"
     ],
@@ -8697,7 +8759,7 @@
       "basic.oil",
       "basic.pump"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "机器"
     ],
@@ -8718,7 +8780,7 @@
       "basic.bread",
       "basic.oven"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "做出",
       "制作",
@@ -8740,7 +8802,7 @@
     "relatedIDs": [
       "basic.female"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "男性的"
     ],
@@ -8760,7 +8822,7 @@
     "relatedIDs": [
       "basic.woman"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "男人"
     ],
@@ -8781,7 +8843,7 @@
       "basic.work",
       "basic.office"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "经理"
     ],
@@ -8802,7 +8864,7 @@
       "basic.place",
       "basic.point"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "地图"
     ],
@@ -8822,7 +8884,7 @@
     "relatedIDs": [
       "basic.circle"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "标记"
     ],
@@ -8843,7 +8905,7 @@
       "basic.store",
       "basic.near"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "市场"
     ],
@@ -8864,7 +8926,7 @@
       "basic.sex",
       "basic.private"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "已婚的"
     ],
@@ -8885,7 +8947,7 @@
       "basic.coal",
       "basic.copper"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "质量"
     ],
@@ -8906,7 +8968,7 @@
       "basic.flame",
       "basic.fire"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "火柴"
     ],
@@ -8927,7 +8989,7 @@
       "basic.metal",
       "basic.wood"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "材料"
     ],
@@ -8949,7 +9011,7 @@
       "basic.some",
       "basic.have"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "情态动词",
     "acceptedAnswers": [
       "可以"
     ],
@@ -8970,7 +9032,7 @@
       "basic.plate",
       "basic.fork"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一顿饭"
     ],
@@ -8980,22 +9042,28 @@
   {
     "id": "basic.measure",
     "word": "measure",
-    "meaning": "计量单位",
+    "meaning": "测量",
     "pronunciation": "ˈmɛʒɚ",
     "example": "What unit do you use to measure the weight?",
     "translation": "你们用什么单位量重量？",
-    "memoryCue": "「计量单位」用 measure。你们用什么单位量重量？",
+    "memoryCue": "把东西放在秤上测重量，就是 measure the weight。",
     "category": "事物和动作",
     "assigned": 49,
     "relatedIDs": [
       "basic.weight"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
-      "计量单位"
+      "测量",
+      "量",
+      "测定"
     ],
-    "formation": "measure · 计量单位",
-    "explanation": "「计量单位」用 measure。你们用什么单位量重量？"
+    "formation": "measure · 测量",
+    "explanation": "把东西放在秤上测重量，就是 measure the weight。",
+    "otherMeanings": [
+      "计量单位",
+      "措施"
+    ]
   },
   {
     "id": "basic.meat",
@@ -9011,7 +9079,7 @@
       "basic.or",
       "basic.soup"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "肉"
     ],
@@ -9032,7 +9100,7 @@
       "basic.hospital",
       "basic.ill"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "医疗的"
     ],
@@ -9053,7 +9121,7 @@
       "basic.come",
       "basic.will"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "会议"
     ],
@@ -9073,7 +9141,7 @@
     "relatedIDs": [
       "basic.beautiful"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "记忆"
     ],
@@ -9094,7 +9162,7 @@
       "basic.wood",
       "basic.material"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "金属"
     ],
@@ -9114,7 +9182,7 @@
     "relatedIDs": [
       "basic.top"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "中间"
     ],
@@ -9135,7 +9203,7 @@
       "basic.war",
       "basic.army"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "军事的"
     ],
@@ -9156,7 +9224,7 @@
       "basic.cow",
       "basic.cheese"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "牛奶"
     ],
@@ -9177,7 +9245,7 @@
       "basic.idea",
       "basic.connection"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "头脑"
     ],
@@ -9197,7 +9265,7 @@
     "relatedIDs": [
       "basic.wrong"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "矿井"
     ],
@@ -9217,7 +9285,7 @@
     "relatedIDs": [
       "basic.hour"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "分钟"
     ],
@@ -9237,7 +9305,7 @@
     "relatedIDs": [
       "basic.thick"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "薄雾"
     ],
@@ -9258,7 +9326,7 @@
       "basic.automatic",
       "basic.complete"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "混合的"
     ],
@@ -9279,7 +9347,7 @@
       "basic.how",
       "basic.much"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "钱"
     ],
@@ -9300,7 +9368,7 @@
       "basic.snake",
       "basic.rat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "猴子"
     ],
@@ -9320,7 +9388,7 @@
     "relatedIDs": [
       "basic.free"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "月"
     ],
@@ -9341,7 +9409,7 @@
       "basic.sun",
       "basic.star"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "月亮"
     ],
@@ -9361,7 +9429,7 @@
     "relatedIDs": [
       "basic.night"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "早晨"
     ],
@@ -9382,7 +9450,7 @@
       "basic.father",
       "basic.together"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "母亲"
     ],
@@ -9403,7 +9471,7 @@
       "basic.move",
       "basic.step"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "运动"
     ],
@@ -9424,7 +9492,7 @@
       "basic.river",
       "basic.field"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "山"
     ],
@@ -9445,7 +9513,7 @@
       "basic.lip",
       "basic.tongue"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "嘴"
     ],
@@ -9466,7 +9534,7 @@
       "mot.motion.1",
       "basic.step"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "移动"
     ],
@@ -9487,7 +9555,7 @@
       "basic.how",
       "basic.money"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "多少"
     ],
@@ -9508,7 +9576,7 @@
       "basic.blood",
       "basic.nerve"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "肌肉"
     ],
@@ -9528,7 +9596,7 @@
     "relatedIDs": [
       "basic.play"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "音乐"
     ],
@@ -9549,7 +9617,7 @@
       "basic.hammer",
       "basic.screw"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "钉子"
     ],
@@ -9570,7 +9638,7 @@
       "basic.form",
       "basic.pen"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "姓名"
     ],
@@ -9590,7 +9658,7 @@
     "relatedIDs": [
       "basic.parallel"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "窄的"
     ],
@@ -9611,7 +9679,7 @@
       "basic.country",
       "basic.government"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "国家",
       "民族",
@@ -9634,7 +9702,7 @@
       "basic.chemical",
       "basic.substance"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "天然的"
     ],
@@ -9655,7 +9723,7 @@
       "basic.store",
       "basic.market"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在附近"
     ],
@@ -9676,7 +9744,7 @@
       "basic.condition",
       "basic.crack"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "必要的"
     ],
@@ -9697,7 +9765,7 @@
       "basic.chin",
       "basic.tooth"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "脖子"
     ],
@@ -9707,25 +9775,26 @@
   {
     "id": "basic.need",
     "word": "need",
-    "meaning": "需要；所需之物",
+    "meaning": "需要",
     "pronunciation": "nid",
     "example": "I need a little help.",
     "translation": "我需要一点帮助。",
-    "memoryCue": "「需要」用 need。我需要一点帮助。",
+    "memoryCue": "I need a little help 是「我需要一点帮助」。",
     "category": "事物和动作",
     "assigned": 8,
     "relatedIDs": [
       "basic.help",
       "basic.little"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
-      "需要",
-      "所需之物",
-      "需要；所需之物"
+      "需要"
     ],
-    "formation": "need · 需要；所需之物",
-    "explanation": "「需要」用 need。我需要一点帮助。"
+    "formation": "need · 需要",
+    "explanation": "I need a little help 是「我需要一点帮助」。",
+    "otherMeanings": [
+      "需要的东西"
+    ]
   },
   {
     "id": "basic.needle",
@@ -9741,7 +9810,7 @@
       "basic.thread",
       "basic.stitch"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "针"
     ],
@@ -9762,7 +9831,7 @@
       "basic.blood",
       "basic.muscle"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "神经"
     ],
@@ -9783,7 +9852,7 @@
       "basic.middle",
       "basic.range"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "网"
     ],
@@ -9793,22 +9862,25 @@
   {
     "id": "basic.new",
     "word": "new",
-    "meaning": "新来的",
+    "meaning": "新的；新来的",
     "pronunciation": "nu",
     "example": "I'm new here. I teach young students.",
     "translation": "我刚来，在这里教年轻学生。",
-    "memoryCue": "「新来的」用 new。我刚来，在这里教年轻学生。",
+    "memoryCue": "new 表示“新的”。a new phone 是一部新手机。说自己刚来，可以说 I’m new here。说“现在”用 now。",
     "category": "性质",
     "assigned": 79,
     "relatedIDs": [
       "basic.young"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
-      "新来的"
+      "新的",
+      "新",
+      "新来的",
+      "刚来的"
     ],
-    "formation": "new · 新来的",
-    "explanation": "「新来的」用 new。我刚来，在这里教年轻学生。"
+    "formation": "new · 新的；新来的",
+    "explanation": "new 表示“新的”。a new phone 是一部新手机。说自己刚来，可以说 I’m new here。说“现在”用 now。"
   },
   {
     "id": "basic.news",
@@ -9823,7 +9895,7 @@
     "relatedIDs": [
       "basic.statement"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "消息"
     ],
@@ -9843,7 +9915,7 @@
     "relatedIDs": [
       "basic.morning"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "夜晚"
     ],
@@ -9863,7 +9935,7 @@
     "relatedIDs": [
       "basic.out"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "不",
       "没有",
@@ -9885,7 +9957,7 @@
     "relatedIDs": [
       "basic.bell"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "噪声"
     ],
@@ -9905,7 +9977,7 @@
     "relatedIDs": [
       "basic.sleep"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "正常的"
     ],
@@ -9915,23 +9987,28 @@
   {
     "id": "basic.north",
     "word": "north",
-    "meaning": "北边",
+    "meaning": "北边的",
     "pronunciation": "nɔrθ",
     "example": "Our gate is on the south side, not the north side.",
     "translation": "我们的登机口在南侧，北侧是别的登机口。",
-    "memoryCue": "「北边」用 north。我们的登机口在南侧，北侧是别的登机口。",
+    "memoryCue": "the north side 是朝北的那一边。",
     "category": "常用小词",
     "assigned": 46,
     "relatedIDs": [
       "basic.south",
       "basic.side"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
+      "北边的",
+      "北面的",
       "北边"
     ],
-    "formation": "north · 北边",
-    "explanation": "「北边」用 north。我们的登机口在南侧，北侧是别的登机口。"
+    "formation": "north · 北边的",
+    "explanation": "the north side 是朝北的那一边。",
+    "otherMeanings": [
+      "北方"
+    ]
   },
   {
     "id": "basic.nose",
@@ -9947,7 +10024,7 @@
       "basic.sneeze",
       "basic.blow"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "鼻子"
     ],
@@ -9968,7 +10045,7 @@
       "basic.argument",
       "basic.peace"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "不"
     ],
@@ -9989,7 +10066,7 @@
       "basic.enough",
       "basic.answer"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "便条"
     ],
@@ -9999,23 +10076,25 @@
   {
     "id": "basic.now",
     "word": "now",
-    "meaning": "现在",
+    "meaning": "现在；此刻",
     "pronunciation": "naʊ",
     "example": "What should I do first, right now?",
     "translation": "我现在应该先做什么？",
-    "memoryCue": "「现在」用 now。我现在应该先做什么？",
+    "memoryCue": "now 说的是时间。right now 就是“就在此刻”。形容东西是新的，用 new。",
     "category": "常用小词",
     "assigned": 12,
     "relatedIDs": [
       "basic.do",
       "basic.first"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
-      "现在"
+      "现在",
+      "此刻",
+      "现在这一刻"
     ],
-    "formation": "now · 现在",
-    "explanation": "「现在」用 now。我现在应该先做什么？"
+    "formation": "now · 现在；此刻",
+    "explanation": "now 说的是时间。right now 就是“就在此刻”。形容东西是新的，用 new。"
   },
   {
     "id": "basic.number",
@@ -10030,7 +10109,7 @@
     "relatedIDs": [
       "basic.line"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "号码"
     ],
@@ -10051,7 +10130,7 @@
       "basic.jelly",
       "basic.acid"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "坚果"
     ],
@@ -10072,7 +10151,7 @@
       "basic.doubt",
       "basic.effect"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "观察"
     ],
@@ -10092,7 +10171,7 @@
     "relatedIDs": [
       "basic.small"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "……的",
       "……中的",
@@ -10104,22 +10183,28 @@
   {
     "id": "basic.off",
     "word": "off",
-    "meaning": "关掉",
+    "meaning": "关着的；熄灭的",
     "pronunciation": "ɔf",
     "example": "It's dark when the light is off.",
     "translation": "灯关了，屋里很暗。",
-    "memoryCue": "「关掉」用 off。灯关了，屋里很暗。",
+    "memoryCue": "The light is off 表示灯现在关着。",
     "category": "常用小词",
     "assigned": 13,
     "relatedIDs": [
       "basic.dark"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
-      "关掉"
+      "关着",
+      "关着的",
+      "熄灭",
+      "熄灭的"
     ],
-    "formation": "off · 关掉",
-    "explanation": "「关掉」用 off。灯关了，屋里很暗。"
+    "formation": "off · 关着的；熄灭的",
+    "explanation": "The light is off 表示灯现在关着。",
+    "otherMeanings": [
+      "离开"
+    ]
   },
   {
     "id": "basic.offer",
@@ -10134,7 +10219,7 @@
     "relatedIDs": [
       "basic.work"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "提议"
     ],
@@ -10155,7 +10240,7 @@
       "basic.work",
       "basic.manager"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "办公室"
     ],
@@ -10176,7 +10261,7 @@
       "basic.pump",
       "basic.machine"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "油"
     ],
@@ -10196,7 +10281,7 @@
     "relatedIDs": [
       "basic.arch"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "古老的"
     ],
@@ -10217,7 +10302,7 @@
       "basic.see",
       "basic.picture"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在……上面"
     ],
@@ -10237,7 +10322,7 @@
     "relatedIDs": [
       "basic.waste"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "仅仅"
     ],
@@ -10258,7 +10343,7 @@
       "basic.eye",
       "basic.shut"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "开着的"
     ],
@@ -10278,7 +10363,7 @@
     "relatedIDs": [
       "basic.physical"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "运行"
     ],
@@ -10299,7 +10384,7 @@
       "basic.discussion",
       "basic.agreement"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "意见"
     ],
@@ -10309,22 +10394,27 @@
   {
     "id": "basic.opposite",
     "word": "opposite",
-    "meaning": "对面的",
+    "meaning": "在……对面",
     "pronunciation": "ˈɑpəzət",
     "example": "It's the building opposite the library.",
     "translation": "就是图书馆对面的那栋楼。",
-    "memoryCue": "「对面的」用 opposite。就是图书馆对面的那栋楼。",
+    "memoryCue": "opposite the library 就是在图书馆对面。",
     "category": "相对性质",
     "assigned": 51,
     "relatedIDs": [
       "basic.building"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
-      "对面的"
+      "在对面",
+      "在……对面",
+      "对面"
     ],
-    "formation": "opposite · 对面的",
-    "explanation": "「对面的」用 opposite。就是图书馆对面的那栋楼。"
+    "formation": "opposite · 在……对面",
+    "explanation": "opposite the library 就是在图书馆对面。",
+    "otherMeanings": [
+      "相反的"
+    ]
   },
   {
     "id": "basic.or",
@@ -10340,7 +10430,7 @@
       "basic.meat",
       "basic.soup"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "连词",
     "acceptedAnswers": [
       "或者"
     ],
@@ -10361,7 +10451,7 @@
       "basic.apple",
       "basic.basket"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "橙子"
     ],
@@ -10381,7 +10471,7 @@
     "relatedIDs": [
       "basic.step"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "次序"
     ],
@@ -10402,7 +10492,7 @@
       "basic.secretary",
       "basic.representative"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "组织"
     ],
@@ -10422,7 +10512,7 @@
     "relatedIDs": [
       "basic.paint"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "装饰物"
     ],
@@ -10443,7 +10533,7 @@
       "basic.use",
       "basic.thing"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "其他的"
     ],
@@ -10453,22 +10543,27 @@
   {
     "id": "basic.out",
     "word": "out",
-    "meaning": "用完",
+    "meaning": "用完了；没有了",
     "pronunciation": "aʊt",
     "example": "No milk, thanks. Are you out of water?",
     "translation": "不用牛奶，谢谢。水用完了吗？",
-    "memoryCue": "「用完」用 out。不用牛奶，谢谢。水用完了吗？",
+    "memoryCue": "out of water 是说水已经用完了。把 out of 连在一起记。",
     "category": "常用小词",
     "assigned": 4,
     "relatedIDs": [
       "basic.no"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词短语用词",
     "acceptedAnswers": [
-      "用完"
+      "用完了",
+      "用完",
+      "没有了"
     ],
-    "formation": "out · 用完",
-    "explanation": "「用完」用 out。不用牛奶，谢谢。水用完了吗？"
+    "formation": "out · 用完了；没有了",
+    "explanation": "out of water 是说水已经用完了。把 out of 连在一起记。",
+    "otherMeanings": [
+      "在外面"
+    ]
   },
   {
     "id": "basic.oven",
@@ -10484,7 +10579,7 @@
       "basic.make",
       "basic.bread"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "烤箱"
     ],
@@ -10505,7 +10600,7 @@
       "basic.wing",
       "basic.cloud"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在上方"
     ],
@@ -10526,7 +10621,7 @@
       "basic.law",
       "basic.part"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "所有者"
     ],
@@ -10547,7 +10642,7 @@
       "basic.book",
       "basic.the"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "页"
     ],
@@ -10568,7 +10663,7 @@
       "basic.chest",
       "basic.stomach"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "疼痛"
     ],
@@ -10588,7 +10683,7 @@
     "relatedIDs": [
       "basic.ornament"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "颜料"
     ],
@@ -10608,7 +10703,7 @@
     "relatedIDs": [
       "basic.copy"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "纸"
     ],
@@ -10628,7 +10723,7 @@
     "relatedIDs": [
       "basic.narrow"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "平行的"
     ],
@@ -10649,7 +10744,7 @@
       "basic.cord",
       "basic.knot"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "包裹"
     ],
@@ -10670,7 +10765,7 @@
       "basic.separate",
       "pay.payment"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "部分"
     ],
@@ -10680,23 +10775,27 @@
   {
     "id": "basic.past",
     "word": "past",
-    "meaning": "过去的",
+    "meaning": "过去；往昔",
     "pronunciation": "pæst",
     "example": "This room shows the past, present and future of the city.",
     "translation": "这个展厅展示了城市的过去、现在和未来。",
-    "memoryCue": "「过去的」用 past。这个展厅展示了城市的过去、现在和未来。",
+    "memoryCue": "在 the past, present and future 里，past 是已经过去的时间。",
     "category": "性质",
     "assigned": 69,
     "relatedIDs": [
       "basic.present",
       "basic.future"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
-      "过去的"
+      "过去",
+      "往昔"
     ],
-    "formation": "past · 过去的",
-    "explanation": "「过去的」用 past。这个展厅展示了城市的过去、现在和未来。"
+    "formation": "past · 过去；往昔",
+    "explanation": "在 the past, present and future 里，past 是已经过去的时间。",
+    "otherMeanings": [
+      "过去的"
+    ]
   },
   {
     "id": "basic.paste",
@@ -10712,7 +10811,7 @@
       "basic.sticky",
       "basic.scissors"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "糨糊"
     ],
@@ -10732,7 +10831,7 @@
     "relatedIDs": [
       "basic.card"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "付款"
     ],
@@ -10753,7 +10852,7 @@
       "basic.not",
       "basic.argument"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "和平",
       "和睦",
@@ -10776,7 +10875,7 @@
       "basic.name",
       "basic.form"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "钢笔"
     ],
@@ -10797,7 +10896,7 @@
       "basic.writing",
       "basic.ink"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "铅笔"
     ],
@@ -10817,7 +10916,7 @@
     "relatedIDs": [
       "basic.waiting"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "人"
     ],
@@ -10837,7 +10936,7 @@
     "relatedIDs": [
       "basic.operation"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "身体的"
     ],
@@ -10858,7 +10957,7 @@
       "basic.see",
       "basic.on"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "图片"
     ],
@@ -10879,7 +10978,7 @@
       "basic.sheep",
       "basic.goat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "猪"
     ],
@@ -10899,7 +10998,7 @@
     "relatedIDs": [
       "basic.canvas"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "别针"
     ],
@@ -10920,7 +11019,7 @@
       "basic.drain",
       "basic.hole"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "管子"
     ],
@@ -10941,7 +11040,7 @@
       "basic.map",
       "basic.point"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "地方"
     ],
@@ -10962,7 +11061,7 @@
       "basic.flight",
       "basic.air"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "飞机"
     ],
@@ -10982,7 +11081,7 @@
     "relatedIDs": [
       "basic.animal"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "植物"
     ],
@@ -11003,7 +11102,7 @@
       "basic.meal",
       "basic.fork"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "盘子"
     ],
@@ -11023,7 +11122,7 @@
     "relatedIDs": [
       "basic.music"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "游戏",
       "戏剧",
@@ -11037,8 +11136,8 @@
     "word": "please",
     "meaning": "请",
     "pronunciation": "pliz",
-    "example": "Could you give me a bag, please?",
-    "translation": "请给我一个袋子好吗？",
+    "example": "Could you give me a bag for this portable lamp, please?",
+    "translation": "请给我一个袋子装这盏便携灯，好吗？",
     "memoryCue": "请人帮忙时，句尾加个 please，语气会更客气。",
     "category": "常用小词",
     "assigned": 1,
@@ -11046,7 +11145,7 @@
       "basic.you",
       "basic.give"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "礼貌用语",
     "acceptedAnswers": [
       "请"
     ],
@@ -11067,7 +11166,7 @@
       "basic.expert",
       "basic.special"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "愉快"
     ],
@@ -11087,7 +11186,7 @@
     "relatedIDs": [
       "basic.spade"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "犁"
     ],
@@ -11108,7 +11207,7 @@
       "key.key",
       "basic.left"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "口袋"
     ],
@@ -11129,7 +11228,7 @@
       "basic.argument",
       "basic.reason"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "要点"
     ],
@@ -11150,7 +11249,7 @@
       "basic.digestion",
       "basic.brain"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "毒物"
     ],
@@ -11171,7 +11270,7 @@
       "basic.wax",
       "basic.smell"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "上光剂"
     ],
@@ -11191,7 +11290,7 @@
     "relatedIDs": [
       "basic.relation"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "政治的"
     ],
@@ -11212,7 +11311,7 @@
       "basic.amount",
       "basic.debt"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "贫穷的"
     ],
@@ -11232,7 +11331,7 @@
     "relatedIDs": [
       "basic.cart"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "行李员"
     ],
@@ -11252,7 +11351,7 @@
     "relatedIDs": [
       "basic.fixed"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "位置"
     ],
@@ -11273,7 +11372,7 @@
       "basic.separate",
       "basic.account"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "可能的"
     ],
@@ -11295,7 +11394,7 @@
       "basic.egg",
       "basic.put"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "锅"
     ],
@@ -11316,7 +11415,7 @@
       "basic.salt",
       "basic.fat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "土豆"
     ],
@@ -11336,7 +11435,7 @@
     "relatedIDs": [
       "basic.comb"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "粉"
     ],
@@ -11356,7 +11455,7 @@
     "relatedIDs": [
       "basic.burst"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "电力"
     ],
@@ -11366,23 +11465,30 @@
   {
     "id": "basic.present",
     "word": "present",
-    "meaning": "现在的",
+    "meaning": "现在；目前",
     "pronunciation": "ˈprɛzənt",
     "example": "This room shows the past, present and future of the city.",
     "translation": "这个展厅展示了城市的过去、现在和未来。",
-    "memoryCue": "past 是过去，future 是未来，中间这个 present 就是现在的。",
+    "memoryCue": "过去和未来之间是现在。the present 指现在。the present situation 里的 present 是形容词，意思是“现在的”。",
     "category": "性质",
     "assigned": 69,
     "relatedIDs": [
       "basic.past",
       "basic.future"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
-      "现在的"
+      "现在",
+      "目前",
+      "当下"
     ],
-    "formation": "present · 现在的",
-    "explanation": "past 是过去，future 是未来，中间这个 present 就是现在的。"
+    "formation": "present · 现在；目前",
+    "explanation": "过去和未来之间是现在。the present 指现在。the present situation 里的 present 是形容词，意思是“现在的”。",
+    "otherMeanings": [
+      "现在的",
+      "在场的",
+      "礼物"
+    ]
   },
   {
     "id": "basic.price",
@@ -11397,7 +11503,7 @@
     "relatedIDs": [
       "basic.cheap"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "价格"
     ],
@@ -11418,7 +11524,7 @@
       "basic.picture",
       "basic.glass"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "印刷品"
     ],
@@ -11439,7 +11545,7 @@
       "basic.crime",
       "basic.punishment"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "监狱"
     ],
@@ -11460,7 +11566,7 @@
       "room.room",
       "basic.for"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "私人的"
     ],
@@ -11481,7 +11587,7 @@
       "basic.certain",
       "basic.possible"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "很可能的"
     ],
@@ -11501,7 +11607,7 @@
     "relatedIDs": [
       "basic.adjustment"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "过程"
     ],
@@ -11521,7 +11627,7 @@
     "relatedIDs": [
       "basic.farm"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "农产品"
     ],
@@ -11542,7 +11648,7 @@
       "basic.quality",
       "basic.increase"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "利润"
     ],
@@ -11563,7 +11669,7 @@
       "basic.law",
       "basic.owner"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "财产"
     ],
@@ -11584,7 +11690,7 @@
       "basic.selection",
       "basic.fiction"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "散文"
     ],
@@ -11605,7 +11711,7 @@
       "basic.respect",
       "basic.peace"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "抗议"
     ],
@@ -11626,7 +11732,7 @@
       "basic.transport",
       "basic.way"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "公共的"
     ],
@@ -11646,7 +11752,7 @@
     "relatedIDs": [
       "basic.push"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "拉"
     ],
@@ -11656,23 +11762,29 @@
   {
     "id": "basic.pump",
     "word": "pump",
-    "meaning": "泵",
+    "meaning": "用泵抽送",
     "pronunciation": "pʌmp",
     "example": "Does this machine pump oil?",
     "translation": "这台机器是抽油的吗？",
-    "memoryCue": "「泵」用 pump。这台机器是抽油的吗？",
+    "memoryCue": "机器用泵抽油就是 pump oil。这里说的是机器在做什么。",
     "category": "身边的事物",
     "assigned": 63,
     "relatedIDs": [
       "basic.oil",
       "basic.machine"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
-      "泵"
+      "用泵抽送",
+      "抽送",
+      "泵送",
+      "抽取"
     ],
-    "formation": "pump · 泵",
-    "explanation": "「泵」用 pump。这台机器是抽油的吗？"
+    "formation": "pump · 用泵抽送",
+    "explanation": "机器用泵抽油就是 pump oil。这里说的是机器在做什么。",
+    "otherMeanings": [
+      "泵"
+    ]
   },
   {
     "id": "basic.punishment",
@@ -11688,7 +11800,7 @@
       "basic.prison",
       "basic.crime"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "惩罚"
     ],
@@ -11708,7 +11820,7 @@
     "relatedIDs": [
       "basic.important"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "目的"
     ],
@@ -11728,7 +11840,7 @@
     "relatedIDs": [
       "basic.pull"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "推"
     ],
@@ -11750,7 +11862,7 @@
       "basic.egg",
       "basic.pot"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "放"
     ],
@@ -11771,7 +11883,7 @@
       "basic.profit",
       "basic.increase"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "质量"
     ],
@@ -11792,7 +11904,7 @@
       "basic.answer",
       "basic.short"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "问题"
     ],
@@ -11812,7 +11924,7 @@
     "relatedIDs": [
       "basic.attempt"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "快的"
     ],
@@ -11832,7 +11944,7 @@
     "relatedIDs": [
       "basic.reading"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "安静的"
     ],
@@ -11852,7 +11964,7 @@
     "relatedIDs": [
       "basic.very"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "相当"
     ],
@@ -11873,7 +11985,7 @@
       "basic.train",
       "basic.station"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "铁轨",
       "铁路",
@@ -11896,7 +12008,7 @@
       "basic.weather",
       "basic.thunder"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "雨"
     ],
@@ -11917,7 +12029,7 @@
       "basic.distance",
       "basic.round"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "范围"
     ],
@@ -11938,7 +12050,7 @@
       "basic.snake",
       "basic.monkey"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "老鼠"
     ],
@@ -11959,7 +12071,7 @@
       "basic.exchange",
       "basic.value"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "比率"
     ],
@@ -11980,7 +12092,7 @@
       "basic.jewel",
       "basic.picture"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "光线"
     ],
@@ -12001,7 +12113,7 @@
       "basic.surprise",
       "basic.shock"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "反应"
     ],
@@ -12022,7 +12134,7 @@
     "relatedIDs": [
       "basic.quiet"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
       "阅读"
     ],
@@ -12042,7 +12154,7 @@
     "relatedIDs": [
       "basic.start"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "准备好的"
     ],
@@ -12062,7 +12174,7 @@
     "relatedIDs": [
       "basic.cause"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "原因"
     ],
@@ -12083,7 +12195,7 @@
       "basic.keep",
       "basic.change"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "收据"
     ],
@@ -12104,7 +12216,7 @@
       "basic.belief",
       "basic.doubt"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "记录"
     ],
@@ -12114,43 +12226,52 @@
   {
     "id": "basic.red",
     "word": "red",
-    "meaning": "红色的",
+    "meaning": "红色",
     "pronunciation": "rɛd",
     "example": "The light turns from red to green.",
     "translation": "灯由红变绿。",
-    "memoryCue": "「红色的」用 red。灯由红变绿。",
+    "memoryCue": "灯从红色变成绿色。这里的 red 指一种颜色。",
     "category": "性质",
     "assigned": 19,
     "relatedIDs": [
       "basic.green"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
-      "红色的"
+      "红色",
+      "红"
     ],
-    "formation": "red · 红色的",
-    "explanation": "「红色的」用 red。灯由红变绿。"
+    "formation": "red · 红色",
+    "explanation": "灯从红色变成绿色。这里的 red 指一种颜色。",
+    "otherMeanings": [
+      "红色的"
+    ]
   },
   {
     "id": "basic.regret",
     "word": "regret",
-    "meaning": "遗憾",
+    "meaning": "对……感到抱歉；后悔",
     "pronunciation": "rəˈɡrɛt",
     "example": "That was my error. I regret the trouble it caused.",
     "translation": "是我的失误，给您添麻烦了，我很过意不去。",
-    "memoryCue": "「遗憾」用 regret。是我的失误，给您添麻烦了，我很过意不去。",
+    "memoryCue": "I regret the trouble it caused 是说：给你添了麻烦，我很抱歉。",
     "category": "事物和动作",
     "assigned": 75,
     "relatedIDs": [
       "basic.error",
       "basic.wrong"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
-      "遗憾"
+      "感到抱歉",
+      "后悔",
+      "为此遗憾"
     ],
-    "formation": "regret · 遗憾",
-    "explanation": "「遗憾」用 regret。是我的失误，给您添麻烦了，我很过意不去。"
+    "formation": "regret · 对……感到抱歉；后悔",
+    "explanation": "I regret the trouble it caused 是说：给你添了麻烦，我很抱歉。",
+    "otherMeanings": [
+      "遗憾的事"
+    ]
   },
   {
     "id": "basic.regular",
@@ -12165,7 +12286,7 @@
     "relatedIDs": [
       "basic.long"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "平常的"
     ],
@@ -12185,7 +12306,7 @@
     "relatedIDs": [
       "basic.political"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "关系"
     ],
@@ -12205,7 +12326,7 @@
     "relatedIDs": [
       "basic.society"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "宗教"
     ],
@@ -12226,7 +12347,7 @@
       "basic.secretary",
       "basic.organization"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "代表"
     ],
@@ -12246,7 +12367,7 @@
     "relatedIDs": [
       "basic.list"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "请求"
     ],
@@ -12267,7 +12388,7 @@
       "basic.protest",
       "basic.peace"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "尊重"
     ],
@@ -12288,7 +12409,7 @@
       "basic.decision",
       "basic.authority"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "负责的"
     ],
@@ -12309,7 +12430,7 @@
       "basic.care",
       "basic.support"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "休息"
     ],
@@ -12330,7 +12451,7 @@
       "basic.competition",
       "basic.judge"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "奖赏"
     ],
@@ -12350,7 +12471,7 @@
     "relatedIDs": [
       "basic.beautiful"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "节奏"
     ],
@@ -12371,7 +12492,7 @@
       "basic.fish",
       "basic.and"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "米饭"
     ],
@@ -12391,7 +12512,7 @@
     "relatedIDs": [
       "basic.same"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "正确的"
     ],
@@ -12412,7 +12533,7 @@
       "basic.finger",
       "basic.thumb"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "戒指"
     ],
@@ -12433,7 +12554,7 @@
       "basic.mountain",
       "basic.field"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "河"
     ],
@@ -12453,7 +12574,7 @@
     "relatedIDs": [
       "basic.stop"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "道路"
     ],
@@ -12473,7 +12594,7 @@
     "relatedIDs": [
       "basic.steel"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "杆"
     ],
@@ -12493,7 +12614,7 @@
     "relatedIDs": [
       "basic.shake"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一串滚动声"
     ],
@@ -12514,7 +12635,7 @@
       "basic.brick",
       "basic.wall"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "屋顶"
     ],
@@ -12535,7 +12656,7 @@
       "basic.private",
       "basic.for"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "房间"
     ],
@@ -12557,7 +12678,7 @@
       "basic.leaf",
       "basic.stem"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "根"
     ],
@@ -12578,7 +12699,7 @@
       "basic.rub",
       "basic.skin"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "粗糙的"
     ],
@@ -12598,7 +12719,7 @@
     "relatedIDs": [
       "basic.flat"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "圆的"
     ],
@@ -12619,7 +12740,7 @@
       "basic.skin",
       "basic.rough"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "揉搓"
     ],
@@ -12640,7 +12761,7 @@
       "basic.crime",
       "basic.operation"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "规则"
     ],
@@ -12660,7 +12781,7 @@
     "relatedIDs": [
       "basic.swim"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "跑步"
     ],
@@ -12681,7 +12802,7 @@
       "basic.feeling",
       "basic.happy"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "难过的"
     ],
@@ -12702,7 +12823,7 @@
       "basic.smooth",
       "basic.sudden"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "安全的"
     ],
@@ -12723,7 +12844,7 @@
       "basic.swim",
       "basic.wave"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "帆"
     ],
@@ -12744,7 +12865,7 @@
       "basic.potato",
       "basic.fat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "盐"
     ],
@@ -12764,7 +12885,7 @@
     "relatedIDs": [
       "basic.right"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "相同的"
     ],
@@ -12784,7 +12905,7 @@
     "relatedIDs": [
       "basic.stone"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "沙"
     ],
@@ -12805,7 +12926,7 @@
       "basic.again",
       "basic.word"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "说"
     ],
@@ -12825,7 +12946,7 @@
     "relatedIDs": [
       "basic.north"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "比例尺"
     ],
@@ -12846,7 +12967,7 @@
       "basic.education",
       "basic.teaching"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "学校"
     ],
@@ -12867,7 +12988,7 @@
       "basic.discovery",
       "basic.idea"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "科学"
     ],
@@ -12888,7 +13009,7 @@
       "basic.paste",
       "basic.sticky"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "剪刀"
     ],
@@ -12909,7 +13030,7 @@
       "basic.hammer",
       "basic.nail"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "螺钉"
     ],
@@ -12930,7 +13051,7 @@
       "basic.land",
       "basic.island"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "海洋"
     ],
@@ -12950,7 +13071,7 @@
     "relatedIDs": [
       "basic.ticket"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "座位"
     ],
@@ -12960,22 +13081,26 @@
   {
     "id": "basic.second",
     "word": "second",
-    "meaning": "第二的",
+    "meaning": "第二个",
     "pronunciation": "ˈsɛkənd",
     "example": "Go through the second door.",
     "translation": "穿过第二道门。",
-    "memoryCue": "「第二的」用 second。穿过第二道门。",
+    "memoryCue": "the second door 是数过去的第二扇门。",
     "category": "性质",
     "assigned": 47,
     "relatedIDs": [
       "basic.through"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "序数词",
     "acceptedAnswers": [
-      "第二的"
+      "第二",
+      "第二个"
     ],
-    "formation": "second · 第二的",
-    "explanation": "「第二的」用 second。穿过第二道门。"
+    "formation": "second · 第二个",
+    "explanation": "the second door 是数过去的第二扇门。",
+    "otherMeanings": [
+      "秒"
+    ]
   },
   {
     "id": "basic.secret",
@@ -12990,7 +13115,7 @@
     "relatedIDs": [
       "basic.trick"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "秘密的"
     ],
@@ -13011,7 +13136,7 @@
       "basic.representative",
       "basic.organization"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "秘书"
     ],
@@ -13032,7 +13157,7 @@
       "basic.picture",
       "basic.on"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "看见"
     ],
@@ -13053,7 +13178,7 @@
       "basic.grain",
       "basic.fertile"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "种子"
     ],
@@ -13073,7 +13198,7 @@
     "relatedIDs": [
       "basic.ever"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "似乎"
     ],
@@ -13094,7 +13219,7 @@
       "basic.fiction",
       "basic.prose"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "选集",
       "选择",
@@ -13116,7 +13241,7 @@
     "relatedIDs": [
       "basic.comfort"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "自我"
     ],
@@ -13136,7 +13261,7 @@
     "relatedIDs": [
       "basic.stamp"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "寄",
       "发送",
@@ -13158,7 +13283,7 @@
     "relatedIDs": [
       "basic.thought"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "意思"
     ],
@@ -13179,7 +13304,7 @@
       "basic.possible",
       "basic.account"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "分开的"
     ],
@@ -13199,7 +13324,7 @@
     "relatedIDs": [
       "basic.awake"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "严重的"
     ],
@@ -13220,7 +13345,7 @@
       "basic.apparatus",
       "basic.attempt"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "佣人"
     ],
@@ -13241,7 +13366,7 @@
       "basic.married",
       "basic.private"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "性别"
     ],
@@ -13262,7 +13387,7 @@
       "basic.tree",
       "basic.front"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "阴凉处"
     ],
@@ -13282,7 +13407,7 @@
     "relatedIDs": [
       "basic.roll"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "摇动"
     ],
@@ -13302,7 +13427,7 @@
     "relatedIDs": [
       "basic.cruel"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "羞愧"
     ],
@@ -13323,7 +13448,7 @@
       "basic.blade",
       "basic.cut"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "锋利的"
     ],
@@ -13344,7 +13469,7 @@
       "basic.pig",
       "basic.goat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "羊"
     ],
@@ -13364,7 +13489,7 @@
     "relatedIDs": [
       "basic.cloth"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "架子"
     ],
@@ -13385,7 +13510,7 @@
       "basic.harbor",
       "basic.boat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "大船"
     ],
@@ -13406,7 +13531,7 @@
       "basic.trousers",
       "basic.sock"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "衬衫"
     ],
@@ -13427,7 +13552,7 @@
       "act.reaction",
       "basic.surprise"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "震惊"
     ],
@@ -13448,7 +13573,7 @@
       "basic.collar",
       "basic.boot"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "鞋"
     ],
@@ -13469,7 +13594,7 @@
       "basic.answer",
       "basic.question"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "短的"
     ],
@@ -13490,7 +13615,7 @@
       "basic.eye",
       "basic.open"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "关上的"
     ],
@@ -13511,7 +13636,7 @@
       "basic.north",
       "basic.south"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "侧面"
     ],
@@ -13531,7 +13656,7 @@
     "relatedIDs": [
       "basic.that"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "标志"
     ],
@@ -13552,7 +13677,7 @@
       "basic.cotton",
       "basic.wool"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "丝绸"
     ],
@@ -13573,7 +13698,7 @@
       "basic.gold",
       "basic.copper"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "银"
     ],
@@ -13594,7 +13719,7 @@
       "basic.language",
       "basic.example"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "简单的"
     ],
@@ -13614,7 +13739,7 @@
     "relatedIDs": [
       "basic.brother"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "姐妹"
     ],
@@ -13635,7 +13760,7 @@
       "basic.look",
       "basic.brown"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "尺码"
     ],
@@ -13656,7 +13781,7 @@
       "basic.rub",
       "basic.rough"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "皮肤"
     ],
@@ -13677,7 +13802,7 @@
       "basic.hat",
       "basic.dress"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "半身裙"
     ],
@@ -13697,7 +13822,7 @@
     "relatedIDs": [
       "basic.wind"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "天空"
     ],
@@ -13717,7 +13842,7 @@
     "relatedIDs": [
       "basic.normal"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "睡眠"
     ],
@@ -13737,7 +13862,7 @@
     "relatedIDs": [
       "basic.fall"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "滑倒"
     ],
@@ -13757,7 +13882,7 @@
     "relatedIDs": [
       "basic.base"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "坡"
     ],
@@ -13777,7 +13902,7 @@
     "relatedIDs": [
       "basic.enough"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "慢的"
     ],
@@ -13797,7 +13922,7 @@
     "relatedIDs": [
       "basic.of"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "小的"
     ],
@@ -13817,7 +13942,7 @@
     "relatedIDs": [
       "struct.destruction"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "撞碎"
     ],
@@ -13838,7 +13963,7 @@
       "basic.polish",
       "basic.wax"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "气味"
     ],
@@ -13858,7 +13983,7 @@
     "relatedIDs": [
       "basic.camera"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "微笑"
     ],
@@ -13878,7 +14003,7 @@
     "relatedIDs": [
       "basic.burn"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "烟"
     ],
@@ -13899,7 +14024,7 @@
       "basic.safe",
       "basic.sudden"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "平稳的"
     ],
@@ -13920,7 +14045,7 @@
       "basic.monkey",
       "basic.rat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "蛇"
     ],
@@ -13941,7 +14066,7 @@
       "basic.nose",
       "basic.blow"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "喷嚏"
     ],
@@ -13951,23 +14076,26 @@
   {
     "id": "basic.snow",
     "word": "snow",
-    "meaning": "雪",
+    "meaning": "下雪",
     "pronunciation": "snoʊ",
     "example": "Does it snow every winter?",
     "translation": "这里每个冬天都下雪吗？",
-    "memoryCue": "「雪」用 snow。这里每个冬天都下雪吗？",
+    "memoryCue": "问冬天会不会下雪，用 Does it snow?。",
     "category": "事物和动作",
     "assigned": 67,
     "relatedIDs": [
       "basic.winter",
       "basic.cold"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
-      "雪"
+      "下雪"
     ],
-    "formation": "snow · 雪",
-    "explanation": "「雪」用 snow。这里每个冬天都下雪吗？"
+    "formation": "snow · 下雪",
+    "explanation": "问冬天会不会下雪，用 Does it snow?。",
+    "otherMeanings": [
+      "雪"
+    ]
   },
   {
     "id": "basic.so",
@@ -13982,7 +14110,7 @@
     "relatedIDs": [
       "basic.bad"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "如此"
     ],
@@ -14004,7 +14132,7 @@
       "hand.hand",
       "basic.with"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "肥皂"
     ],
@@ -14024,7 +14152,7 @@
     "relatedIDs": [
       "basic.religion"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "社会"
     ],
@@ -14045,7 +14173,7 @@
       "basic.shirt",
       "basic.trousers"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "短袜"
     ],
@@ -14065,7 +14193,7 @@
     "relatedIDs": [
       "basic.glove"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "柔软的"
     ],
@@ -14085,7 +14213,7 @@
     "relatedIDs": [
       "struct.structure"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "固体的"
     ],
@@ -14107,7 +14235,7 @@
       "basic.may",
       "basic.have"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "一些"
     ],
@@ -14128,7 +14256,7 @@
       "basic.mother",
       "basic.daughter"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "儿子"
     ],
@@ -14149,7 +14277,7 @@
       "basic.stage",
       "basic.band"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "歌曲"
     ],
@@ -14170,7 +14298,7 @@
       "basic.comparison",
       "basic.sound"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "种类"
     ],
@@ -14190,7 +14318,7 @@
     "relatedIDs": [
       "basic.loud"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "声音"
     ],
@@ -14211,7 +14339,7 @@
       "basic.or",
       "basic.meat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "汤"
     ],
@@ -14221,23 +14349,28 @@
   {
     "id": "basic.south",
     "word": "south",
-    "meaning": "南边",
+    "meaning": "南边的",
     "pronunciation": "saʊθ",
     "example": "Our gate is on the south side, not the north side.",
     "translation": "我们的登机口在南侧，北侧是别的登机口。",
-    "memoryCue": "「南边」用 south。我们的登机口在南侧，北侧是别的登机口。",
+    "memoryCue": "the south side 是朝南的那一边。",
     "category": "常用小词",
     "assigned": 46,
     "relatedIDs": [
       "basic.north",
       "basic.side"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
+      "南边的",
+      "南面的",
       "南边"
     ],
-    "formation": "south · 南边",
-    "explanation": "「南边」用 south。我们的登机口在南侧，北侧是别的登机口。"
+    "formation": "south · 南边的",
+    "explanation": "the south side 是朝南的那一边。",
+    "otherMeanings": [
+      "南方"
+    ]
   },
   {
     "id": "basic.space",
@@ -14253,7 +14386,7 @@
       "basic.print",
       "basic.mark"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "空格"
     ],
@@ -14273,7 +14406,7 @@
     "relatedIDs": [
       "basic.plow"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "铁锹"
     ],
@@ -14294,7 +14427,7 @@
       "basic.pleasure",
       "basic.expert"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "特别的"
     ],
@@ -14315,7 +14448,7 @@
       "basic.bucket",
       "basic.dust"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "海绵"
     ],
@@ -14336,7 +14469,7 @@
       "basic.knife",
       "basic.tray"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "勺子"
     ],
@@ -14357,7 +14490,7 @@
       "basic.wire",
       "basic.bent"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "弹簧"
     ],
@@ -14377,7 +14510,7 @@
     "relatedIDs": [
       "basic.frame"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "正方形"
     ],
@@ -14398,7 +14531,7 @@
       "basic.band",
       "basic.song"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "舞台"
     ],
@@ -14418,7 +14551,7 @@
     "relatedIDs": [
       "basic.send"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "邮票"
     ],
@@ -14439,7 +14572,7 @@
       "basic.sun",
       "basic.moon"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "星星"
     ],
@@ -14459,7 +14592,7 @@
     "relatedIDs": [
       "basic.ready"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "开端"
     ],
@@ -14479,7 +14612,7 @@
     "relatedIDs": [
       "basic.news"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "声明"
     ],
@@ -14500,7 +14633,7 @@
       "basic.train",
       "basic.rail"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "车站"
     ],
@@ -14520,7 +14653,7 @@
     "relatedIDs": [
       "basic.cork"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "蒸汽"
     ],
@@ -14540,7 +14673,7 @@
     "relatedIDs": [
       "basic.rod"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "钢铁"
     ],
@@ -14561,7 +14694,7 @@
       "basic.leaf",
       "basic.root"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "茎"
     ],
@@ -14582,7 +14715,7 @@
       "mot.motion.1",
       "basic.move"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一步"
     ],
@@ -14603,7 +14736,7 @@
       "basic.umbrella",
       "basic.stocking"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "手杖"
     ],
@@ -14624,7 +14757,7 @@
       "basic.paste",
       "basic.scissors"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "黏的"
     ],
@@ -14644,7 +14777,7 @@
     "relatedIDs": [
       "basic.force"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "僵硬的"
     ],
@@ -14664,7 +14797,7 @@
     "relatedIDs": [
       "basic.well"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "仍然"
     ],
@@ -14685,7 +14818,7 @@
       "basic.needle",
       "basic.thread"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一针"
     ],
@@ -14706,7 +14839,7 @@
       "basic.umbrella",
       "basic.stick"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "长袜"
     ],
@@ -14727,7 +14860,7 @@
       "basic.pain",
       "basic.chest"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "胃"
     ],
@@ -14747,7 +14880,7 @@
     "relatedIDs": [
       "basic.sand"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "石头"
     ],
@@ -14767,7 +14900,7 @@
     "relatedIDs": [
       "basic.road"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "停靠站"
     ],
@@ -14788,7 +14921,7 @@
       "basic.market",
       "basic.near"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "商店"
     ],
@@ -14809,7 +14942,7 @@
       "basic.laugh",
       "basic.humor"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "故事"
     ],
@@ -14819,23 +14952,28 @@
   {
     "id": "basic.straight",
     "word": "straight",
-    "meaning": "直的",
+    "meaning": "径直；一直向前",
     "pronunciation": "streɪt",
     "example": "Go straight and take the first turn in that direction.",
     "translation": "直走，然后在第一个路口朝那个方向转。",
-    "memoryCue": "「直的」用 straight。直走，然后在第一个路口朝那个方向转。",
+    "memoryCue": "别人指路说 Go straight，就是让你直走。",
     "category": "性质",
     "assigned": 51,
     "relatedIDs": [
       "direct.direction",
       "basic.turn"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
-      "直的"
+      "径直",
+      "一直向前",
+      "直走"
     ],
-    "formation": "straight · 直的",
-    "explanation": "「直的」用 straight。直走，然后在第一个路口朝那个方向转。"
+    "formation": "straight · 径直；一直向前",
+    "explanation": "别人指路说 Go straight，就是让你直走。",
+    "otherMeanings": [
+      "直的"
+    ]
   },
   {
     "id": "basic.strange",
@@ -14851,7 +14989,7 @@
       "basic.as",
       "basic.example"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "陌生的"
     ],
@@ -14872,7 +15010,7 @@
       "basic.town",
       "basic.by"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "街道"
     ],
@@ -14893,7 +15031,7 @@
       "basic.elastic",
       "basic.twist"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "拉伸"
     ],
@@ -14913,7 +15051,7 @@
     "relatedIDs": [
       "basic.feeble"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "强壮的"
     ],
@@ -14933,7 +15071,7 @@
     "relatedIDs": [
       "basic.solid"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "结构"
     ],
@@ -14954,7 +15092,7 @@
       "basic.chemical",
       "basic.natural"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "物质"
     ],
@@ -14974,7 +15112,7 @@
     "relatedIDs": [
       "basic.delicate"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "这样的"
     ],
@@ -14995,7 +15133,7 @@
       "basic.safe",
       "basic.smooth"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "突然的"
     ],
@@ -15016,7 +15154,7 @@
       "basic.butter",
       "basic.cake"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "糖"
     ],
@@ -15036,7 +15174,7 @@
     "relatedIDs": [
       "basic.addition"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "建议"
     ],
@@ -15057,7 +15195,7 @@
       "basic.weather",
       "basic.warm"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "夏天"
     ],
@@ -15078,7 +15216,7 @@
       "basic.moon",
       "basic.star"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "太阳"
     ],
@@ -15099,7 +15237,7 @@
       "basic.care",
       "basic.rest"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "支持"
     ],
@@ -15120,7 +15258,7 @@
       "act.reaction",
       "basic.shock"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "惊讶"
     ],
@@ -15141,7 +15279,7 @@
       "basic.fruit",
       "basic.berry"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "甜的"
     ],
@@ -15161,7 +15299,7 @@
     "relatedIDs": [
       "basic.run"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "游泳"
     ],
@@ -15182,7 +15320,7 @@
       "basic.adjustment",
       "basic.change"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "系统"
     ],
@@ -15202,7 +15340,7 @@
     "relatedIDs": [
       "basic.drawer"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "桌子"
     ],
@@ -15223,7 +15361,7 @@
       "basic.cat",
       "basic.dog"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "尾巴"
     ],
@@ -15235,8 +15373,8 @@
     "word": "take",
     "meaning": "拿；带走",
     "pronunciation": "teɪk",
-    "example": "Can I take this bag?",
-    "translation": "我可以带上这个包吗？",
+    "example": "Can I take this portable lamp in my bag?",
+    "translation": "我可以把这盏便携灯装在包里带走吗？",
     "memoryCue": "从这里把一样东西带走，用 take。拿着包走就是 take this bag。",
     "category": "常用小词",
     "assigned": 1,
@@ -15245,7 +15383,7 @@
       "basic.this",
       "basic.bag"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "拿",
       "带走",
@@ -15267,7 +15405,7 @@
     "relatedIDs": [
       "basic.while"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "交谈"
     ],
@@ -15287,7 +15425,7 @@
     "relatedIDs": [
       "basic.wide"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "高的"
     ],
@@ -15297,23 +15435,28 @@
   {
     "id": "basic.taste",
     "word": "taste",
-    "meaning": "味道",
+    "meaning": "尝起来",
     "pronunciation": "teɪst",
     "example": "Does it taste like bitter coffee?",
     "translation": "它尝起来像苦咖啡吗？",
-    "memoryCue": "「味道」用 taste。它尝起来像苦咖啡吗？",
+    "memoryCue": "Does it taste like coffee 是问它尝起来像不像咖啡。",
     "category": "事物和动作",
     "assigned": 30,
     "relatedIDs": [
       "basic.like",
       "basic.bitter"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
-      "味道"
+      "尝起来",
+      "尝起来有……味道"
     ],
-    "formation": "taste · 味道",
-    "explanation": "「味道」用 taste。它尝起来像苦咖啡吗？"
+    "formation": "taste · 尝起来",
+    "explanation": "Does it taste like coffee 是问它尝起来像不像咖啡。",
+    "otherMeanings": [
+      "味道",
+      "品尝"
+    ]
   },
   {
     "id": "basic.tax",
@@ -15328,7 +15471,7 @@
     "relatedIDs": [
       "basic.amount"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "税"
     ],
@@ -15349,7 +15492,7 @@
       "basic.education",
       "basic.school"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "教学"
     ],
@@ -15370,7 +15513,7 @@
       "basic.till",
       "basic.though"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "倾向"
     ],
@@ -15391,7 +15534,7 @@
     "relatedIDs": [
       "basic.theory"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "试验"
     ],
@@ -15412,7 +15555,7 @@
       "basic.butter",
       "basic.jelly"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "比"
     ],
@@ -15432,7 +15575,7 @@
     "relatedIDs": [
       "sign.sign.1"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "那个"
     ],
@@ -15453,7 +15596,7 @@
       "basic.book",
       "basic.page"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "冠词",
     "acceptedAnswers": [
       "这个",
       "那个",
@@ -15475,7 +15618,7 @@
     "relatedIDs": [
       "basic.now"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "那时"
     ],
@@ -15495,7 +15638,7 @@
     "relatedIDs": [
       "basic.test"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "理论"
     ],
@@ -15516,7 +15659,7 @@
       "basic.where",
       "basic.far"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "那里"
     ],
@@ -15536,7 +15679,7 @@
     "relatedIDs": [
       "basic.mist"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "浓的"
     ],
@@ -15557,7 +15700,7 @@
       "basic.long",
       "basic.coat"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "薄的"
     ],
@@ -15578,7 +15721,7 @@
       "basic.use",
       "basic.other"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "东西"
     ],
@@ -15590,8 +15733,8 @@
     "word": "this",
     "meaning": "这个",
     "pronunciation": "ðɪs",
-    "example": "Can I take this bag?",
-    "translation": "我可以带上这个包吗？",
+    "example": "Can I take this portable lamp in my bag?",
+    "translation": "我可以把这盏便携灯装在包里带走吗？",
     "memoryCue": "用手指着身边的一个东西说 this。this bag 就是「这个包」。",
     "category": "常用小词",
     "assigned": 1,
@@ -15600,7 +15743,7 @@
       "basic.take",
       "basic.bag"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "限定词",
     "acceptedAnswers": [
       "这个"
     ],
@@ -15620,7 +15763,7 @@
     "relatedIDs": [
       "basic.till"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "连词",
     "acceptedAnswers": [
       "虽然"
     ],
@@ -15640,7 +15783,7 @@
     "relatedIDs": [
       "basic.sense"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "想法"
     ],
@@ -15661,7 +15804,7 @@
       "basic.needle",
       "basic.stitch"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "线"
     ],
@@ -15681,7 +15824,7 @@
     "relatedIDs": [
       "basic.cough"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "喉咙"
     ],
@@ -15701,7 +15844,7 @@
     "relatedIDs": [
       "basic.second"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "穿过"
     ],
@@ -15722,7 +15865,7 @@
       "basic.finger",
       "basic.ring"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "拇指"
     ],
@@ -15743,7 +15886,7 @@
       "basic.weather",
       "basic.rain"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "雷声"
     ],
@@ -15763,7 +15906,7 @@
     "relatedIDs": [
       "basic.seat"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "票"
     ],
@@ -15783,7 +15926,7 @@
     "relatedIDs": [
       "basic.loose"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "紧的"
     ],
@@ -15804,7 +15947,7 @@
       "basic.before",
       "basic.after"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "直到"
     ],
@@ -15825,7 +15968,7 @@
       "basic.clock",
       "basic.when"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "时间"
     ],
@@ -15845,7 +15988,7 @@
     "relatedIDs": [
       "basic.brass"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "锡罐"
     ],
@@ -15865,7 +16008,7 @@
     "relatedIDs": [
       "basic.angry"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "累的"
     ],
@@ -15886,7 +16029,7 @@
       "basic.go",
       "basic.from"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "到",
       "向",
@@ -15909,7 +16052,7 @@
       "basic.foot",
       "basic.knee"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "脚趾"
     ],
@@ -15929,7 +16072,7 @@
     "relatedIDs": [
       "basic.yes"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "一起"
     ],
@@ -15949,7 +16092,7 @@
     "relatedIDs": [
       "basic.yesterday"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "明天"
     ],
@@ -15970,7 +16113,7 @@
       "basic.mouth",
       "basic.lip"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "舌头"
     ],
@@ -15991,7 +16134,7 @@
       "basic.chin",
       "basic.neck"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "牙齿"
     ],
@@ -16011,7 +16154,7 @@
     "relatedIDs": [
       "basic.middle"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "顶部"
     ],
@@ -16031,7 +16174,7 @@
     "relatedIDs": [
       "basic.soft"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "触感"
     ],
@@ -16052,7 +16195,7 @@
       "basic.street",
       "basic.by"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "城镇"
     ],
@@ -16072,7 +16215,7 @@
     "relatedIDs": [
       "basic.agreement"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "贸易"
     ],
@@ -16093,7 +16236,7 @@
       "basic.station",
       "basic.rail"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "火车"
     ],
@@ -16104,7 +16247,7 @@
     "id": "basic.transport",
     "word": "transport",
     "meaning": "交通运输",
-    "pronunciation": "trænˈspɔrt",
+    "pronunciation": "ˈtrænspɔrt",
     "example": "Is public transport a good way to get there?",
     "translation": "坐公共交通去那里方便吗？",
     "memoryCue": "「交通运输」用 transport。坐公共交通去那里方便吗？",
@@ -16114,7 +16257,7 @@
       "basic.public",
       "basic.way"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "交通运输"
     ],
@@ -16135,7 +16278,7 @@
       "basic.spoon",
       "basic.knife"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "托盘"
     ],
@@ -16156,7 +16299,7 @@
       "basic.shade",
       "basic.front"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "树"
     ],
@@ -16176,7 +16319,7 @@
     "relatedIDs": [
       "basic.secret"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "诀窍"
     ],
@@ -16196,7 +16339,7 @@
     "relatedIDs": [
       "basic.hearing"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "困难"
     ],
@@ -16217,7 +16360,7 @@
       "basic.shirt",
       "basic.sock"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "裤子"
     ],
@@ -16238,7 +16381,7 @@
       "basic.belief",
       "basic.false"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "真的"
     ],
@@ -16259,7 +16402,7 @@
       "direct.direction",
       "basic.straight"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "转弯"
     ],
@@ -16280,7 +16423,7 @@
       "basic.elastic",
       "basic.stretch"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "扭转"
     ],
@@ -16301,7 +16444,7 @@
       "basic.stick",
       "basic.stocking"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "雨伞"
     ],
@@ -16322,7 +16465,7 @@
       "basic.basin",
       "basic.brush"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "在下方"
     ],
@@ -16342,7 +16485,7 @@
     "relatedIDs": [
       "basic.measure"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "单位"
     ],
@@ -16363,7 +16506,7 @@
       "basic.box",
       "basic.lift"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "向上"
     ],
@@ -16384,7 +16527,7 @@
       "basic.thing",
       "basic.other"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "用途"
     ],
@@ -16405,7 +16548,7 @@
       "basic.exchange",
       "basic.rate"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "价值"
     ],
@@ -16426,7 +16569,7 @@
       "basic.music",
       "basic.song"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "一段歌词"
     ],
@@ -16446,7 +16589,7 @@
     "relatedIDs": [
       "basic.quite"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "很"
     ],
@@ -16466,7 +16609,7 @@
     "relatedIDs": [
       "basic.hollow"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "容器"
     ],
@@ -16487,7 +16630,7 @@
       "basic.before",
       "basic.different"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "景色"
     ],
@@ -16507,7 +16650,7 @@
     "relatedIDs": [
       "basic.attack"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "猛烈的"
     ],
@@ -16528,7 +16671,7 @@
       "basic.ear",
       "basic.clear"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "嗓音"
     ],
@@ -16538,22 +16681,27 @@
   {
     "id": "basic.waiting",
     "word": "waiting",
-    "meaning": "等待的",
+    "meaning": "正在等候",
     "pronunciation": "ˈweɪtɪŋ",
     "example": "There's a person waiting outside.",
     "translation": "外面有个人在等。",
-    "memoryCue": "「等待的」用 waiting。外面有个人在等。",
+    "memoryCue": "a person waiting outside 就是一个正在外面等的人。",
     "category": "性质",
     "assigned": 37,
     "relatedIDs": [
       "basic.person"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
-      "等待的"
+      "正在等候",
+      "等着",
+      "等待"
     ],
-    "formation": "waiting · 等待的",
-    "explanation": "「等待的」用 waiting。外面有个人在等。"
+    "formation": "waiting · 正在等候",
+    "explanation": "a person waiting outside 就是一个正在外面等的人。",
+    "otherMeanings": [
+      "等待的"
+    ]
   },
   {
     "id": "basic.walk",
@@ -16568,7 +16716,7 @@
     "relatedIDs": [
       "basic.distance"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "步行"
     ],
@@ -16589,7 +16737,7 @@
       "basic.brick",
       "basic.roof"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "墙"
     ],
@@ -16610,7 +16758,7 @@
       "basic.army",
       "basic.military"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "战争"
     ],
@@ -16631,7 +16779,7 @@
       "basic.weather",
       "basic.summer"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "温暖的"
     ],
@@ -16653,7 +16801,7 @@
       "basic.soap",
       "basic.with"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词",
     "acceptedAnswers": [
       "洗",
       "清洗",
@@ -16675,7 +16823,7 @@
     "relatedIDs": [
       "basic.only"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "浪费"
     ],
@@ -16695,7 +16843,7 @@
     "relatedIDs": [
       "basic.second"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "手表"
     ],
@@ -16717,7 +16865,7 @@
       "basic.may",
       "basic.have"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "水"
     ],
@@ -16738,7 +16886,7 @@
       "basic.swim",
       "basic.sail"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "海浪"
     ],
@@ -16759,7 +16907,7 @@
       "basic.polish",
       "basic.smell"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "蜡"
     ],
@@ -16780,7 +16928,7 @@
       "basic.transport",
       "basic.public"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "方式"
     ],
@@ -16801,7 +16949,7 @@
       "basic.rain",
       "basic.thunder"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "天气"
     ],
@@ -16822,7 +16970,7 @@
       "day.day",
       "basic.every"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "星期"
     ],
@@ -16842,7 +16990,7 @@
     "relatedIDs": [
       "basic.measure"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "重量"
     ],
@@ -16862,7 +17010,7 @@
     "relatedIDs": [
       "basic.still"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "清楚地",
       "好地",
@@ -16874,22 +17022,27 @@
   {
     "id": "basic.west",
     "word": "west",
-    "meaning": "西边",
+    "meaning": "西边的",
     "pronunciation": "wɛst",
     "example": "Is the entrance on the east or the west side?",
     "translation": "入口在东边还是西边？",
-    "memoryCue": "「西边」用 west。入口在东边还是西边？",
+    "memoryCue": "the west side 是朝西的那一边。",
     "category": "常用小词",
     "assigned": 46,
     "relatedIDs": [
       "basic.east"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
+      "西边的",
+      "西面的",
       "西边"
     ],
-    "formation": "west · 西边",
-    "explanation": "「西边」用 west。入口在东边还是西边？"
+    "formation": "west · 西边的",
+    "explanation": "the west side 是朝西的那一边。",
+    "otherMeanings": [
+      "西方"
+    ]
   },
   {
     "id": "basic.wet",
@@ -16904,7 +17057,7 @@
     "relatedIDs": [
       "basic.dry"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "湿的"
     ],
@@ -16924,7 +17077,7 @@
     "relatedIDs": [
       "basic.down"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "轮子"
     ],
@@ -16945,7 +17098,7 @@
       "time.time",
       "basic.clock"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "什么时候"
     ],
@@ -16966,7 +17119,7 @@
       "basic.far",
       "basic.there"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "哪里"
     ],
@@ -16986,7 +17139,7 @@
     "relatedIDs": [
       "basic.talk"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "连词",
     "acceptedAnswers": [
       "在……期间"
     ],
@@ -17007,7 +17160,7 @@
       "basic.horse",
       "basic.carriage"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "鞭子"
     ],
@@ -17027,7 +17180,7 @@
     "relatedIDs": [
       "basic.horn"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "哨声"
     ],
@@ -17048,7 +17201,7 @@
       "basic.color",
       "basic.black"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "白色的"
     ],
@@ -17069,7 +17222,7 @@
       "basic.friend",
       "basic.he"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "代词",
     "acceptedAnswers": [
       "谁"
     ],
@@ -17089,7 +17242,7 @@
     "relatedIDs": [
       "basic.end"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "为什么"
     ],
@@ -17109,7 +17262,7 @@
     "relatedIDs": [
       "basic.tall"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "宽的"
     ],
@@ -17130,7 +17283,7 @@
       "basic.come",
       "basic.meeting"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "情态动词",
     "acceptedAnswers": [
       "将要"
     ],
@@ -17150,7 +17303,7 @@
     "relatedIDs": [
       "basic.sky"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "风"
     ],
@@ -17171,7 +17324,7 @@
       "light.light",
       "basic.bright"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "窗户"
     ],
@@ -17192,7 +17345,7 @@
       "basic.cup",
       "basic.drink"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "葡萄酒"
     ],
@@ -17213,7 +17366,7 @@
       "basic.cloud",
       "basic.over"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "机翼"
     ],
@@ -17234,7 +17387,7 @@
       "basic.snow",
       "basic.cold"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "冬天"
     ],
@@ -17255,7 +17408,7 @@
       "basic.spring",
       "basic.bent"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "电线"
     ],
@@ -17275,7 +17428,7 @@
     "relatedIDs": [
       "basic.foolish"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "明智的"
     ],
@@ -17297,7 +17450,7 @@
       "hand.hand",
       "basic.soap"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "介词",
     "acceptedAnswers": [
       "和",
       "用",
@@ -17319,7 +17472,7 @@
     "relatedIDs": [
       "basic.man"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "女人"
     ],
@@ -17340,7 +17493,7 @@
       "basic.metal",
       "basic.material"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "木材"
     ],
@@ -17361,7 +17514,7 @@
       "basic.cotton",
       "basic.silk"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "羊毛"
     ],
@@ -17382,7 +17535,7 @@
       "basic.again",
       "basic.say"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "词"
     ],
@@ -17403,7 +17556,7 @@
       "basic.office",
       "basic.manager"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "工作"
     ],
@@ -17424,7 +17577,7 @@
       "basic.ant",
       "basic.insect"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "蚯蚓"
     ],
@@ -17445,7 +17598,7 @@
       "basic.bone",
       "basic.conscious"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "伤口"
     ],
@@ -17466,7 +17619,7 @@
       "basic.pencil",
       "basic.ink"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "动词形式",
     "acceptedAnswers": [
       "书写"
     ],
@@ -17487,7 +17640,7 @@
       "basic.letter",
       "basic.last"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "错的"
     ],
@@ -17507,7 +17660,7 @@
     "relatedIDs": [
       "basic.event"
     ],
-    "partOfSpeech": "事物与动作",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
       "年"
     ],
@@ -17517,23 +17670,27 @@
   {
     "id": "basic.yellow",
     "word": "yellow",
-    "meaning": "黄色的",
+    "meaning": "黄色",
     "pronunciation": "ˈjɛloʊ",
     "example": "I like the bright yellow and blue.",
     "translation": "我喜欢这种明亮的黄蓝配色。",
-    "memoryCue": "「黄色的」用 yellow。我喜欢这种明亮的黄蓝配色。",
+    "memoryCue": "bright yellow 就是鲜艳的黄色。这里说的是颜色。",
     "category": "性质",
     "assigned": 38,
     "relatedIDs": [
       "basic.bright",
       "basic.blue"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "名词",
     "acceptedAnswers": [
-      "黄色的"
+      "黄色",
+      "黄"
     ],
-    "formation": "yellow · 黄色的",
-    "explanation": "「黄色的」用 yellow。我喜欢这种明亮的黄蓝配色。"
+    "formation": "yellow · 黄色",
+    "explanation": "bright yellow 就是鲜艳的黄色。这里说的是颜色。",
+    "otherMeanings": [
+      "黄色的"
+    ]
   },
   {
     "id": "basic.yes",
@@ -17548,7 +17705,7 @@
     "relatedIDs": [
       "basic.together"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "感叹词",
     "acceptedAnswers": [
       "是",
       "好的",
@@ -17570,7 +17727,7 @@
     "relatedIDs": [
       "basic.tomorrow"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "副词",
     "acceptedAnswers": [
       "昨天"
     ],
@@ -17582,8 +17739,8 @@
     "word": "you",
     "meaning": "你；你们",
     "pronunciation": "ju",
-    "example": "Could you give me a bag, please?",
-    "translation": "请给我一个袋子好吗？",
+    "example": "Could you give me a bag for this portable lamp, please?",
+    "translation": "请给我一个袋子装这盏便携灯，好吗？",
     "memoryCue": "面对谁说话，you 指的就是谁；和一个人或几个人说都可以。",
     "category": "常用小词",
     "assigned": 1,
@@ -17591,7 +17748,7 @@
       "basic.please",
       "basic.give"
     ],
-    "partOfSpeech": "基础表达",
+    "partOfSpeech": "代词",
     "acceptedAnswers": [
       "你",
       "你们",
@@ -17613,7 +17770,7 @@
     "relatedIDs": [
       "basic.new"
     ],
-    "partOfSpeech": "性质词",
+    "partOfSpeech": "形容词",
     "acceptedAnswers": [
       "年轻的"
     ],

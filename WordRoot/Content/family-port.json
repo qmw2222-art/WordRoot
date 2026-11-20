@@ -68,7 +68,8 @@
           "meaning": "携带、运送"
         }
       ],
-      "combined": "把货运到国外去卖，就是出口。"
+      "combined": "把货运到国外去卖，就是出口。",
+      "exampleReading": "The company [exports](/ɛkspˈɔɹts/) tea to Japan."
     },
     {
       "id": "sense.transport.carry",
@@ -146,12 +147,12 @@
         "出口商"
       ],
       "formation": "export（出口）+ er（做的人）= 出口商",
-      "pronunciation": "ɛkˈspɔrtɚ",
+      "pronunciation": "ɪkˈspɔrtɚ",
       "memoryCue": "export 是把货运出去，-er 是做这事的人。做出口生意的就是出口商。",
       "parts": [
         {
           "text": "export",
-          "ipa": "ɛkspɔrt",
+          "ipa": "ɪkˈspɔrt",
           "meaning": "出口"
         },
         {

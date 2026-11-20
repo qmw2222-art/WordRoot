@@ -171,6 +171,7 @@ struct Word: Decodable, Identifiable {
     let pronunciation: String?
     let exampleForm: String?
     let acceptedAnswers: [String]
+    let otherMeanings: [String]?
 
     fileprivate var isValid: Bool {
         ![id, word, partOfSpeech, meaning, formation, explanation, example, translation].contains(where: \.isBlank)

@@ -5,16 +5,29 @@ struct WordPronunciationRow: View {
     let word: Word
     let prefix: String
     let audioID: String
+    @State private var hintOpen = false
 
     var body: some View {
-        HStack(spacing: 6) {
-            Text(verbatim: "/\(word.pronunciation ?? "")/")
-                .font(.system(.title3, design: .serif))
-                .foregroundStyle(MapStyle.secondary)
-                .accessibilityIdentifier(prefix + ".ipa")
-            SpeechButton(id: audioID, text: word.word, pronunciation: word.pronunciation,
-                         label: "听 \(word.word) 的读音", identifier: prefix + ".audio.word")
-                .labelStyle(.iconOnly)
+        VStack(alignment: .leading, spacing: 2) {
+            HStack(spacing: 6) {
+                Text(verbatim: "/\(word.pronunciation ?? "")/")
+                    .font(.system(.title3, design: .serif)).foregroundStyle(MapStyle.secondary)
+                    .accessibilityIdentifier(prefix + ".ipa")
+                SpeechButton(id: audioID, text: word.word, pronunciation: word.pronunciation,
+                             label: "听发音", identifier: prefix + ".audio.word")
+            }
+            if let hint = WordReadingAid.lookup(word.word, ipa: word.pronunciation) {
+                Button { hintOpen.toggle() } label: {
+                    Label("中文谐音", systemImage: hintOpen ? "chevron.up" : "chevron.down")
+                        .font(.subheadline).frame(minHeight: 44)
+                }
+                .buttonStyle(.plain).foregroundStyle(MapStyle.pine)
+                .accessibilityIdentifier(prefix + ".readingAid")
+                if hintOpen {
+                    Text(hint.sound).font(.headline).accessibilityIdentifier(prefix + ".readingSound")
+                    Text(hint.tip).font(.footnote).foregroundStyle(MapStyle.secondary)
+                }
+            }
         }
     }
 }
@@ -76,7 +89,7 @@ struct StudyCard<Usage: View>: View {
             WordPronunciationRow(word: word, prefix: prefix, audioID: soundID + ".word")
             Text(word.meaning).font(.title3.weight(.semibold)).foregroundStyle(MapStyle.pine)
                 .accessibilityIdentifier(prefix + ".meaning")
-            if !word.id.hasPrefix("basic.") {
+            if !word.id.hasPrefix("basic.") || ["名词", "动词", "介词", "形容词", "副词"].contains(word.partOfSpeech) {
                 Text("词性 · \(word.partOfSpeech)").font(.footnote).foregroundStyle(MapStyle.secondary)
             }
             if let parts = word.parts, let combined = word.combined {
@@ -129,7 +142,7 @@ struct StudyCard<Usage: View>: View {
                 if let active = speaker.activeID { speaker.stop(id: active) }
                 checking = true
             } label: {
-                Label("自查发音和词义", systemImage: "ear").frame(minHeight: 44)
+                Label("自己读一遍，核对词义", systemImage: "ear").frame(minHeight: 44)
             }
             .accessibilityIdentifier(prefix + ".selfcheck")
         }
@@ -159,7 +172,8 @@ struct WordSelfCheck: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 15) {
                     if phase == 0 {
-                        Text("听这个词，想想它的中文意思。").font(.title2.bold())
+                        Text("这次由你自己核对读音。想练听音选择卡，可以在词族学完后或首页到期时开始。").font(.subheadline).foregroundStyle(MapStyle.secondary)
+                        Text("听这个词，写下本课学过的一个中文意思。").font(.title2.bold())
                         Button { heard = play() || heard } label: { Label("听单词", systemImage: "speaker.wave.2") }
                             .accessibilityIdentifier("mastery.listen")
                         TextField("写下你记得的中文意思", text: $answer)
@@ -174,16 +188,16 @@ struct WordSelfCheck: View {
                         Text(meaningCorrect ? "词义记住了" : "这个意思再看一眼").font(.title2.bold())
                         Text(word.meaning)
                         if !meaningCorrect { Text(word.memoryCue).foregroundStyle(MapStyle.secondary) }
-                        Button("接着自查发音") { phase = 2 }.accessibilityIdentifier("mastery.pronunciation")
+                        Button("自己读一遍") { phase = 2 }.accessibilityIdentifier("mastery.pronunciation")
                     } else if phase == 2 {
-                        Text("先自己读，再听原音比一比。").font(.title2.bold())
+                        Text("先读出这个词，再点喇叭对照。").font(.title2.bold())
                         Text(word.word).font(.system(.largeTitle, design: .serif, weight: .bold))
                         HStack(spacing: 7) {
                             Text(verbatim: "/\(word.pronunciation ?? "")/").font(.system(.title3, design: .serif))
                             Button { compared = play() || compared } label: {
                                 Image(systemName: "speaker.wave.2.circle.fill").font(.title2).frame(width: 44, height: 44)
                             }
-                            .accessibilityLabel("听原音对照").accessibilityIdentifier("mastery.compare")
+                            .accessibilityLabel("听这个词作对照").accessibilityIdentifier("mastery.compare")
                         }
                         Text("听听重音和结尾，按自己的判断选。").foregroundStyle(MapStyle.secondary)
                         Button("我的读音对得上") { saveSound(true) }.disabled(!compared).accessibilityIdentifier("mastery.match")
@@ -198,7 +212,7 @@ struct WordSelfCheck: View {
             }
             .background(MapStyle.page.ignoresSafeArea())
             .buttonStyle(.bordered).tint(MapStyle.pine)
-            .navigationTitle("词义和发音自查").navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("自己读，自己核对").navigationBarTitleDisplayMode(.inline)
             .toolbar { ToolbarItem(placement: .cancellationAction) { Button("关闭") { dismiss() } } }
         }.onDisappear { speaker.stop(id: soundID) }
     }
@@ -296,13 +310,16 @@ struct FamilyStudyView: View {
                     Button("从第一个词再看") { cursor = family.words[0].id }
                     Button("回到上一页") { dismiss() }
                 } else {
-                    Text("\(family.root) · \(index + 1) / \(family.words.count)").font(.headline)
+                    Text("第 \(index + 1) / \(family.words.count) 个用法").font(.headline)
                         .foregroundStyle(MapStyle.secondary).accessibilityIdentifier("family.position")
                     StudyCard(word: word, prefix: "family", soundID: soundID)
                 }
             }.frame(maxWidth: .infinity, alignment: .leading).padding(20)
         }
         .id(cursor)
+        .safeAreaInset(edge: .top, spacing: 0) {
+            if !done { LessonRootReminder(family: family, prefix: "family", soundID: soundID + ".reminder") }
+        }
         .background(MapStyle.page.ignoresSafeArea()).navigationTitle("学完整个词族")
         .navigationBarTitleDisplayMode(.inline).toolbar(.visible, for: .navigationBar)
         .safeAreaInset(edge: .bottom) {
@@ -311,7 +328,7 @@ struct FamilyStudyView: View {
                     stopFamilyAudio()
                     cardsOpen = true
                 } label: {
-                    Label("开始听音练习", systemImage: "ear").font(.headline)
+                    Label("练 \(family.root) 词族听音卡", systemImage: "ear").font(.headline)
                         .frame(maxWidth: .infinity, minHeight: 46)
                 }.buttonStyle(.borderedProminent).tint(MapStyle.accent).foregroundStyle(MapStyle.onAccent)
                     .padding(.horizontal).padding(.vertical, 5).background(MapStyle.page)
@@ -332,7 +349,7 @@ struct FamilyStudyView: View {
                 }.frame(maxWidth: .infinity).padding(8).background(MapStyle.page)
             }
         }
-        .sheet(isPresented: $cardsOpen) { MemoryCardsSheet(words: family.words, lexicon: lexicon) }
+        .sheet(isPresented: $cardsOpen) { MemoryCardsSheet(words: family.words, lexicon: lexicon, family: family) }
         .alert("这个词的学习记录还没保存", isPresented: $saveFailed) {
             Button("知道了", role: .cancel) {}
         }

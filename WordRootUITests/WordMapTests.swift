@@ -154,7 +154,7 @@ final class WordMapTests: XCTestCase {
         tap("course.next")
         app.terminate()
         app.launch()
-        XCTAssertEqual(app.buttons["course.start"].label, "继续学 I")
+        XCTAssertEqual(app.buttons["course.start"].label, "继续学 exporter")
         tap("course.restart")
         XCTAssertEqual(app.staticTexts["course.root"].label, "port")
         tap("course.next")
@@ -205,7 +205,7 @@ final class WordMapTests: XCTestCase {
         tap("course.next")
         XCTAssertEqual(app.staticTexts["course.word"].label, "portable")
         tap("course.next")
-        XCTAssertEqual(app.staticTexts["course.word"].label, "I")
+        XCTAssertEqual(app.staticTexts["course.word"].label, "exporter")
         finishCurrentDay()
         tap("course.talk")
         tap("talk.listen")
@@ -222,7 +222,7 @@ final class WordMapTests: XCTestCase {
         app.launch()
         XCTAssertEqual(app.staticTexts["course.completedCount"].label, "已完成 1 / 100 天")
         XCTAssertEqual(app.staticTexts["course.suggestedDay"].label, "第 2 天")
-        XCTAssertEqual(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: ""), "已学 13 / 1335 个用法")
+        XCTAssertEqual(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: ""), "已学 17 / 1335 个用法")
     }
 
     func testCourseStagesAndLinkToWordMap() {
@@ -299,9 +299,10 @@ final class WordMapTests: XCTestCase {
 
     private func tap(_ identifier: String, file: StaticString = #filePath, line: UInt = #line) {
         let button = app.buttons[identifier].firstMatch
-        if !button.isHittable {
-            for _ in 0..<6 {
-                if button.isHittable { break }
+        for _ in 0..<12 where !button.isHittable {
+            if button.exists && button.frame.midY < app.frame.midY {
+                app.swipeDown()
+            } else {
                 app.swipeUp()
             }
         }
@@ -311,6 +312,7 @@ final class WordMapTests: XCTestCase {
 
     private func finishCurrentDay(file: StaticString = #filePath, line: UInt = #line) {
         for _ in 0..<35 {
+            if app.buttons["course.familyRecap.close"].exists { tap("course.familyRecap.close", file: file, line: line) }
             if app.staticTexts["course.done"].exists { return }
             tap("course.next", file: file, line: line)
         }

@@ -113,22 +113,19 @@
       "acceptedAnswers": [
         "监督"
       ],
-      "formation": "super-（在上、从上方） + vis-（看、监督） → 监督",
+      "formation": "super-（在上、从上方） + -vise（看、监督） → 监督",
       "pronunciation": "ˈsupɚˌvaɪz",
       "memoryCue": "super- 有在上的意思。照看一件事有没有做好，就是监督。",
       "parts": [
         {
           "text": "super-",
-          "ipa": "ˌsupɚ",
+          "ipa": "ˈsupɚ",
           "meaning": "在上、从上方"
         },
         {
-          "text": "vis-",
-          "ipa": "ˈvaɪz",
-          "meaning": "看、监督",
-          "notes": [
-            "在 supervise 中读 /vaɪz/"
-          ]
+          "text": "-vise",
+          "ipa": "ˌvaɪz",
+          "meaning": "看、监督"
         }
       ],
       "combined": "看着新人操作，必要时指点一下，这就是监督和指导。"
@@ -293,17 +290,17 @@
       "acceptedAnswers": [
         "修订"
       ],
-      "formation": "revise + -ion = 修订 → 修订；修改稿",
-      "pronunciation": "riˈvɪʒən",
+      "formation": "revi-（修订） + -sion（这件事或它的结果） → 修订",
+      "pronunciation": "rɪˈvɪʒən",
       "memoryCue": "revise 是修订。一次修改或改好的稿子，都可以叫 revision。",
       "parts": [
         {
-          "text": "revise",
-          "ipa": "rivɪ",
+          "text": "revi-",
+          "ipa": "rɪˈvɪ",
           "meaning": "修订"
         },
         {
-          "text": "-ion",
+          "text": "-sion",
           "ipa": "ʒən",
           "meaning": "这件事或它的结果"
         }

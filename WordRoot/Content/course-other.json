@@ -705,7 +705,7 @@
       ]
     },
     "bridge": {
-      "familyID": "tract.contract",
+      "familyID": "tract.contract.agreement",
       "basicID": "basic.trade",
       "text": "We signed a trade contract.",
       "translation": "我们签了一份贸易合同。"
@@ -1298,8 +1298,8 @@
     "bridge": {
       "familyID": "rupt.interrupt",
       "basicID": "basic.talk",
-      "text": "Please don't interrupt my talk.",
-      "translation": "请先让我把话讲完。"
+      "text": "Sorry to interrupt your talk with Sam.",
+      "translation": "抱歉，打断了你和山姆的交谈。"
     }
   },
   {
@@ -1543,8 +1543,8 @@
     "bridge": {
       "familyID": "plan.plan",
       "basicID": "basic.journey",
-      "text": "Let's plan our journey.",
-      "translation": "我们来安排一下行程吧。"
+      "text": "We have a plan for the journey.",
+      "translation": "这趟旅行我们已经有了计划。"
     }
   },
   {

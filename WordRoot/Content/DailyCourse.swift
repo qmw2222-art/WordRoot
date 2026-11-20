@@ -84,6 +84,12 @@ struct DailyCourse {
               Set(days.flatMap(\.lessonIDs)).isSuperset(of: lexicon.basicWords.keys) else {
             throw CocoaError(.fileReadCorruptFile)
         }
+        var introduced = Set<String>()
+        for index in days.indices where introduced.insert(days[index].familyID).inserted {
+            let scheduled = Set(days[index].lessonIDs)
+            let family = lexicon.family(id: days[index].familyID)!
+            days[index].addedFamilyIDs = family.words.map(\.id).filter { !scheduled.contains($0) }
+        }
         return Self(days: days)
     }
 }
@@ -94,7 +100,30 @@ struct CourseDay: Decodable, Identifiable {
     static let recordOffset = 1000
     var recordID: Int { Self.recordOffset + id }
     var lastStep: Int { lessonIDs.count + 1 }
-    var lessonIDs: [String] { wordIDs + basicIDs }
+    var addedFamilyIDs: [String]?   // Derived on loading the first encounter with a family.
+    var taughtFamilyIDs: [String] { wordIDs + (addedFamilyIDs ?? []) }
+    var lessonIDs: [String] { taughtFamilyIDs + basicIDs }
+    var originalLessonIDs: [String] { wordIDs + basicIDs }
+
+    // Previously saved steps keep their original meaning, including the recap.
+    // Newly introduced family members use slots after the original recap.
+    func storedStep(for position: Int) -> Int {
+        let added = addedFamilyIDs?.count ?? 0
+        if position == 0 || position <= wordIDs.count { return position }
+        if position == lastStep { return originalLessonIDs.count + 1 }
+        if position <= taughtFamilyIDs.count {
+            return originalLessonIDs.count + 1 + position - wordIDs.count
+        }
+        return position - added
+    }
+
+    func displayPosition(for step: Int) -> Int {
+        let originalEnd = originalLessonIDs.count + 1
+        if step <= wordIDs.count { return max(0, step) }
+        if step == originalEnd { return lastStep }
+        if step > originalEnd { return min(taughtFamilyIDs.count, wordIDs.count + step - originalEnd) }
+        return step + (addedFamilyIDs?.count ?? 0)
+    }
 
     let id: Int
     let familyID: String

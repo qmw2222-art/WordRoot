@@ -71,23 +71,20 @@
       "acceptedAnswers": [
         "转换"
       ],
-      "formation": "con-（一起、完全） + vers-（转变） → 转换",
+      "formation": "conver-（转变） + -sion（这件事或它的结果） → 转换",
       "pronunciation": "kənˈvɝʒən",
       "memoryCue": "把文件从一种格式转成另一种，这次转换叫 conversion。",
       "plainCue": "把事物从一种形式、用途或状态变成另一种。",
       "parts": [
         {
-          "text": "con-",
-          "ipa": "kən",
-          "meaning": "一起、完全"
+          "meaning": "转变",
+          "text": "conver-",
+          "ipa": "kənˈvɝ"
         },
         {
-          "text": "vers-",
-          "ipa": "ˈvɝʒ",
-          "meaning": "转变",
-          "notes": [
-            "conversion 是转变的过程/结果"
-          ]
+          "meaning": "这件事或它的结果",
+          "text": "-sion",
+          "ipa": "ʒən"
         }
       ],
       "combined": "旧仓库改成住房，从一个用途换成另一个用途，就是改造。"

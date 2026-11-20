@@ -451,8 +451,8 @@
     "bridge": {
       "familyID": "play.play",
       "basicID": "basic.music",
-      "text": "Can you play some music?",
-      "translation": "能放点音乐吗？"
+      "text": "We play games while we listen to music.",
+      "translation": "我们边听音乐边玩游戏。"
     }
   },
   {
@@ -967,8 +967,8 @@
     "bridge": {
       "familyID": "clean.clean",
       "basicID": "basic.floor",
-      "text": "Please clean the floor.",
-      "translation": "请把地板擦干净。"
+      "text": "The floor is clean.",
+      "translation": "地板很干净。"
     }
   },
   {
@@ -1225,8 +1225,8 @@
     "bridge": {
       "familyID": "sign.sign.1",
       "basicID": "basic.green",
-      "text": "Look for the green sign.",
-      "translation": "找那个绿色标牌。"
+      "text": "The sign shows two colors, red and green.",
+      "translation": "标牌上有两种颜色，红色和绿色。"
     }
   },
   {
@@ -1738,8 +1738,8 @@
     "bridge": {
       "familyID": "pack.pack",
       "basicID": "basic.fold",
-      "text": "Fold the shirt before you pack it.",
-      "translation": "装箱前先把衬衫叠好。"
+      "text": "There's a fold in the map. Smooth it out before you pack it.",
+      "translation": "地图上有道折痕。先把它抚平，再装进包里。"
     }
   },
   {
@@ -2069,8 +2069,8 @@
     "bridge": {
       "familyID": "voc.voice.1",
       "basicID": "basic.deep",
-      "text": "He has a deep voice.",
-      "translation": "他的嗓音很低沉。"
+      "text": "Take a deep breath and let me hear your voice.",
+      "translation": "深吸一口气，让我听听你的嗓音。"
     }
   },
   {

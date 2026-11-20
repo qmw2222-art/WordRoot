@@ -112,3 +112,34 @@ struct SentenceInStudy: View {
         }
     }
 }
+
+struct LessonRootReminder: View {
+    let family: WordFamily
+    let prefix: String
+    let soundID: String
+
+    var body: some View {
+        HStack(alignment: .center, spacing: 5) {
+            VStack(alignment: .leading, spacing: 2) {
+                HStack(alignment: .firstTextBaseline, spacing: 6) {
+                    Text(family.rootKind == "词根" ? "本课词根" : "本课熟词").font(.subheadline)
+                    Text(family.root).font(.system(.headline, design: .serif)).accessibilityIdentifier(prefix + ".reminder.root")
+                    Text(family.meaning).font(.subheadline.weight(.medium)).accessibilityIdentifier(prefix + ".reminder.meaning")
+                }
+                if !family.rootContext.isEmpty {
+                    Text("\(family.rootContext)读 \(family.rootSpoken)").font(.caption).foregroundStyle(MapStyle.secondary)
+                }
+            }
+            Spacer(minLength: 3)
+            HStack(spacing: 0) {
+                Text(verbatim: "/\(family.rootIPA)/").font(.system(.callout, design: .serif))
+                SpeechButton(id: soundID, text: family.rootSpoken, pronunciation: family.rootIPA,
+                             label: "听 \(family.rootSpoken) 的教学示范", identifier: prefix + ".reminder.audio")
+                    .labelStyle(.iconOnly)
+            }
+        }
+        .padding(.horizontal, 16).padding(.vertical, 2).frame(maxWidth: 620)
+        .frame(maxWidth: .infinity).background(MapStyle.tintSurface).foregroundStyle(MapStyle.pine)
+    }
+}
+

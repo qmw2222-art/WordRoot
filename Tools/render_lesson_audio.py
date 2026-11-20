@@ -29,6 +29,22 @@ def clip_key(voice, text, ipa):
 
 def collect_texts(content, words_only):
     phrases = {(AUDITION, ""), ("port", "")}
+    readings = {}
+
+    def add_example(word):
+        text = word["example"]
+        phrases.add((text, ""))
+        if "exampleReading" in word:
+            # Misaki accepts a phoneme override around the spoken word. Keep the
+            # course sentence verbatim as the public key used by the iPhone.
+            marked = word["exampleReading"]
+            plain = re.sub(r"\[([^\]]+)\]\(/[^/)]+/\)", r"\1", marked)
+            if plain != text or plain == marked:
+                raise ValueError(f"Pronunciation markup changes the visible example: {text!r}")
+            if text in readings and readings[text] != marked:
+                raise ValueError(f"Conflicting pronunciations for example: {text!r}")
+            readings[text] = marked
+
     for path in sorted(content.glob("family-*.json")):
         family = json.loads(path.read_text())
         phrases.add((family["rootSpoken"], family["rootIPA"]))
@@ -36,12 +52,12 @@ def collect_texts(content, words_only):
             for part in word.get("parts", []):
                 phrases.add((part["text"], part["ipa"]))
             phrases.add((word["word"], word.get("pronunciation", "")))
-            phrases.add((word["example"], ""))
+            add_example(word)
     basic_file = content / "basic-850.json"
     if basic_file.exists():
         for word in json.loads(basic_file.read_text()):
             phrases.add((word["word"], word["pronunciation"]))
-            phrases.add((word["example"], ""))
+            add_example(word)
     if not words_only:
         for path in sorted(content.glob("course-*.json")):
             for day in json.loads(path.read_text()):
@@ -50,7 +66,7 @@ def collect_texts(content, words_only):
                     phrases.add((line["text"], ""))
                 for turn in day.get("mission", {}).get("turns", []):
                     phrases.update(((turn["partner"], ""), (turn["reply"], "")))
-    return sorted(phrases)
+    return sorted(phrases), readings
 
 
 def spoken_meaning(word):
@@ -164,15 +180,19 @@ def main():
     parser.add_argument("--workers", type=int, default=3)
     parser.add_argument("--words-only", action="store_true")
     args = parser.parse_args()
-    texts = collect_texts(args.content, args.words_only)
-    jobs = [(clip_key(v, t, i), v, t, i) for t, i in texts for v in VOICES]
+    texts, readings = collect_texts(args.content, args.words_only)
+    jobs = [(clip_key(v, text, ipa), v, readings.get(text, text) if not ipa else text, ipa)
+            for text, ipa in texts for v in VOICES]
     if not args.words_only:
         jobs += [(clip_key(MANDARIN, t, ""), MANDARIN, t, "") for t in coach_texts(args.content)]
     with sqlite3.connect(args.cache) as cache:
         schema = "CREATE TABLE IF NOT EXISTS clips (key TEXT PRIMARY KEY, mp3 BLOB NOT NULL) WITHOUT ROWID"
         cache.execute(schema)
         existing = {row[0] for row in cache.execute("SELECT key FROM clips")}
-        remaining = [job for job in jobs if job[0] not in existing]
+        # Cache by what is pronounced so an edited reading cannot reuse stale audio.
+        cache_keys = {key: clip_key(voice, spoken, ipa) for key, voice, spoken, ipa in jobs}
+        remaining = [(cache_keys[key], voice, spoken, ipa) for key, voice, spoken, ipa in jobs
+                     if cache_keys[key] not in existing]
         print(f"Requested {len(jobs)} recordings, rendering {len(remaining)}", flush=True)
         if remaining:
             prepared = phonemize(remaining)
@@ -195,7 +215,7 @@ def main():
             with sqlite3.connect(temporary) as result:
                 result.execute(schema)
                 for key, *_ in jobs:
-                    blob, = cache.execute("SELECT mp3 FROM clips WHERE key=?", (key,)).fetchone()
+                    blob, = cache.execute("SELECT mp3 FROM clips WHERE key=?", (cache_keys[key],)).fetchone()
                     assert len(blob) > 1000, key
                     result.execute("INSERT INTO clips VALUES (?,?)", (key, blob))
                 result.commit()

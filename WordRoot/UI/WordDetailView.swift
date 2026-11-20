@@ -97,7 +97,7 @@ struct WordDetailView: View {
                 } else {
                     Text(word.plainCue ?? word.memoryCue)
                 }
-                Button("自查发音和词义") {
+                Button("自己读一遍，核对词义") {
                     if let id = speaker.activeID { speaker.stop(id: id) }
                     checking = true
                 }

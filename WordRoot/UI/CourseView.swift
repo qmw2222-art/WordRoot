@@ -164,7 +164,7 @@ struct CourseView: View {
             let total = lexicon.familySenseIDs.union(lexicon.basicWords.keys).count
             Text("已学 \(studied.count) / \(total) 个用法")
                 .font(.footnote).accessibilityIdentifier("course.learnedSenses")
-            Text("发音与词义自查通过 \(checkedSenses.count) / \(total)")
+            Text("自己核对过词义和发音 \(checkedSenses.count) / \(total)")
                 .font(.footnote).accessibilityIdentifier("course.mastered")
             ProgressView(value: Double(completedDays.count), total: Double(course.days.count))
                 .tint(MapStyle.onAccent)

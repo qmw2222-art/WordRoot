@@ -194,8 +194,8 @@
       "memoryCue": "和 product 对着记。一个是产品，加长的词说的是生产这件事。",
       "parts": [
         {
-          "text": "produce",
-          "ipa": "prədʌk",
+          "text": "produc-",
+          "ipa": "prəˈdʌk",
           "meaning": "生产"
         },
         {
@@ -237,12 +237,12 @@
         "缩减"
       ],
       "formation": "reduce（减少）→ 减少这一过程或结果",
-      "pronunciation": "rəˈdʌkʃən",
+      "pronunciation": "rɪˈdʌkʃən",
       "memoryCue": "reduce 是减少。减少的过程或减少的量就是 reduction。",
       "parts": [
         {
-          "text": "reduce",
-          "ipa": "rədʌk",
+          "text": "reduc-",
+          "ipa": "rɪˈdʌk",
           "meaning": "减少"
         },
         {
@@ -272,8 +272,8 @@
       "memoryCue": "introduce 是介绍。初见时说的那段介绍就是 an introduction。",
       "parts": [
         {
-          "text": "introduce",
-          "ipa": "ɪntrədʌk",
+          "text": "introduc-",
+          "ipa": "ˌɪntrəˈdʌk",
           "meaning": "介绍"
         },
         {
@@ -334,8 +334,8 @@
       "memoryCue": "deduce 是推断。推理过程或得出的结论，就是 deduction。",
       "parts": [
         {
-          "text": "deduce",
-          "ipa": "dɪdʌk",
+          "text": "deduc-",
+          "ipa": "dɪˈdʌk",
           "meaning": "推断"
         },
         {

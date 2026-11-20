@@ -37,6 +37,8 @@ struct DataSettingsView: View {
         Form {
             Section("英语发音") {
                 Text("Heart · 美式女声").accessibilityIdentifier("settings.voice")
+                Text("点音标旁的喇叭，就能在当前页听到这个词。老师用 Heart 美式女声讲解。").font(.footnote)
+                NavigationLink("整词录音来源与许可") { WordAudioSources() }
                 SpeechButton(id: SpeechPlayer.auditionID,
                              text: "Hello. It’s nice to meet you. How are you today?",
                              label: "试听声音", identifier: SpeechPlayer.auditionID)

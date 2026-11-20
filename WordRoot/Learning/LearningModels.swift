@@ -16,14 +16,14 @@ final class CourseDayRecord {
     }
 
     func isFinished(in unit: CourseDay) -> Bool {
-        completedAt != nil && credited(in: unit).isSuperset(of: unit.lessonIDs)
+        completedAt != nil && credited(in: unit).isSuperset(of: unit.originalLessonIDs)
     }
 
     func position(in unit: CourseDay) -> Int {
         if studiedIDs == nil && (completedAt != nil || step > unit.legacyWordCount) {
-            return min(unit.legacyWordCount + 1, unit.lastStep)
+            return unit.displayPosition(for: min(unit.legacyWordCount + 1, unit.originalLessonIDs.count + 1))
         }
-        return min(max(0, step), unit.lastStep)
+        return unit.displayPosition(for: step)
     }
 
     init(day: Int, step: Int = 0, updatedAt: Date = .now, completedAt: Date? = nil) {

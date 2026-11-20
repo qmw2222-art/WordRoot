@@ -94,7 +94,8 @@
           "meaning": "拉"
         }
       ],
-      "combined": "金属冷下来，往里缩了一点，这个动作叫收缩。"
+      "combined": "金属冷下来，往里缩了一点，这个动作叫收缩。",
+      "exampleReading": "Metal [contracts](/kəntɹˈækts/) when it cools."
     },
     {
       "id": "tract.distract",
@@ -263,17 +264,17 @@
         "概要"
       ],
       "pronunciation": "ˈæbstrækt",
-      "formation": "ab-（离开、抽离） + tract（拉） → 摘要",
+      "formation": "abs-（离开、抽离） + tract（拉） → 摘要",
       "memoryCue": "从长文中抽出要点，浓缩成的一小段就是摘要。",
       "parts": [
         {
-          "text": "ab-",
-          "ipa": "æb",
+          "text": "abs-",
+          "ipa": "ˈæbs",
           "meaning": "离开、抽离"
         },
         {
           "text": "tract",
-          "ipa": "ˈstrækt",
+          "ipa": "trækt",
           "meaning": "拉",
           "notes": [
             "从具体事物中抽取概念"
@@ -427,12 +428,12 @@
       "parts": [
         {
           "text": "con-",
-          "ipa": "kən",
+          "ipa": "ˈkɑn",
           "meaning": "一起、共同"
         },
         {
           "text": "tract",
-          "ipa": "ˈtrækt",
+          "ipa": "trækt",
           "meaning": "拉",
           "notes": [
             "双方共同约定"

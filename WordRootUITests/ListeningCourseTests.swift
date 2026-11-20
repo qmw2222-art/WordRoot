@@ -50,7 +50,6 @@ final class ListeningCourseTests: XCTestCase {
         for (i, item) in sequence.enumerated() {
             XCTAssertFalse(app.staticTexts["cards.answer.ipa"].exists)
             XCTAssertFalse(app.staticTexts["cards.feedback"].exists)
-            XCTAssertFalse(app.buttons["cards.choice." + item.0].exists)
             let spelling = i.isMultiple(of: 2)
             if i == 0 { tap("cards.listen") }
             tap(spelling ? "cards.mode.spelling" : "cards.mode.meaning")
@@ -80,10 +79,69 @@ final class ListeningCourseTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["cards.done"].exists)
     }
 
+    func testDayOneHasEightRelatedSingleWordCards() {
+        tap("course.start"); tap("course.lessonAutoVoice"); tap("course.next")
+        let eligible = Set(family.map { "cards.choice." + $0.0 })
+        for (index,item) in family.enumerated() {
+            XCTAssertEqual(app.staticTexts["course.word"].label, item.1)
+            if index == 0 {
+                tap("course.audio.word")
+                tap("course.readingAid")
+                XCTAssertEqual(app.staticTexts["course.readingSound"].label, "因破得")
+                XCTAssertEqual(app.webViews.count, 0)
+            }
+            tap("course.next")
+        }
+        for (id, spelling, meaning) in family { assertRow("course.familyRecap", id, spelling, meaning) }
+        tap("course.familyRecap.cards")
+        for (index,item) in family.enumerated() {
+            let answer = app.buttons["cards.choice." + item.0]
+            XCTAssertTrue(answer.waitForExistence(timeout: 8), item.1)
+            XCTAssertEqual(app.staticTexts["cards.family"].label, "port 词族")
+            XCTAssertFalse(app.staticTexts["cards.prompt"].label.contains("例句"))
+            let choices = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH 'cards.choice.'")).allElementsBoundByIndex
+            XCTAssertEqual(choices.count, 4)
+            XCTAssertTrue(Set(choices.map(\.identifier)).isSubset(of: eligible))
+            XCTAssertFalse(app.buttons["cards.answer.readingAid"].exists)
+            if index == 2 || index == 4 {
+                tap("cards.listen")
+                snapshot("port-card-\(index+1)")
+            }
+            XCTAssertTrue(answer.label.contains(item.2), answer.label)
+            answer.tap()
+            XCTAssertTrue(app.staticTexts["cards.feedback"].label.contains(item.1))
+            tap("cards.next")
+        }
+        XCTAssertTrue(app.staticTexts["cards.done"].exists)
+    }
+
+    func testReturningLearnerCompletesOnlyMissingFamilyWords() {
+        app.terminate()
+        app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "completed-v11"
+        app.launch()
+        XCTAssertTrue(app.staticTexts["course.completedCount"].label.contains("1 / 100"))
+        tap("course.phase.daily"); tap("course.day.1")
+        let supplement = app.buttons["course.supplementFamily"]
+        XCTAssertTrue(supplement.waitForExistence(timeout: 5))
+        XCTAssertEqual(supplement.label, "补学 port 剩下的 4 个词")
+        tap("course.supplementFamily")
+        for item in family.dropFirst(4) {
+            XCTAssertEqual(app.staticTexts["course.word"].label, item.1)
+            tap("course.next")
+        }
+        for (id, spelling, meaning) in family { assertRow("course.familyRecap", id, spelling, meaning) }
+        tap("course.familyRecap.cards")
+        XCTAssertTrue(app.staticTexts["第 1 张 · 共 8 张"].exists)
+        XCTAssertTrue(app.buttons["cards.choice.sense.import.goods"].waitForExistence(timeout: 5))
+        app.terminate(); app.launch()
+        XCTAssertTrue(app.staticTexts["course.completedCount"].label.contains("1 / 100"))
+        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("17 / 1335"))
+    }
+
     func testDayRecapAndClearBagAction() {
         XCTAssertFalse(app.buttons["home.due"].exists)
         tap("course.start"); tap("course.lessonAutoVoice"); tap("course.next")
-        let day = Array(family.prefix(4)) + [
+        let day = family + [
             ("basic.i","I","我"), ("basic.take","take","拿"), ("basic.this","this","这"),
             ("basic.bag","bag","包"), ("basic.you","you","你"), ("basic.please","please","请"),
             ("basic.give","give","给"), ("basic.of","of","的"), ("basic.small","small","小")]
@@ -94,8 +152,12 @@ final class ListeningCourseTests: XCTestCase {
                 snapshot("bag")
             }
             tap("course.next")
+            if english == "portability" {
+                for (id, spelling, meaning) in family { assertRow("course.familyRecap", id, spelling, meaning) }
+                tap("course.familyRecap.close")
+            }
         }
-        for (id, english, chinese) in day { assertRow("course.recap", id, english, chinese) }
+        for (id, english, chinese) in family { assertRow("course.recap", id, english, chinese) }
         snapshot("dayList")
         tap("course.recapCards")
         tap("cards.mode.meaning")

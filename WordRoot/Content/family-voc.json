@@ -194,19 +194,19 @@
       "acceptedAnswers": [
         "祈请"
       ],
-      "formation": "invoke（援引、调用） + -ation（行为或结果） → 祈请",
+      "formation": "invoc-（援引、调用） + -ation（行为或结果） → 祈请",
       "pronunciation": "ˌɪnvəˈkeɪʃən",
       "memoryCue": "invoke 可以是呼请。正式的祈请或程序中的调用叫 invocation。",
       "plainCue": "正式请求援助或支持，也可指计算机中调用程序。",
       "parts": [
         {
-          "text": "invoke",
-          "ipa": "ˌɪnˈvoʊk",
+          "text": "invoc-",
+          "ipa": "ˌɪnvək",
           "meaning": "援引、调用"
         },
         {
           "text": "-ation",
-          "ipa": "ˈkeɪʃən",
+          "ipa": "ˈeɪʃən",
           "meaning": "行为或结果",
           "notes": [
             "祈请或调用"
@@ -261,18 +261,18 @@
       "acceptedAnswers": [
         "发声"
       ],
-      "formation": "vocalize + -ation = 发声 → 发声过程",
+      "formation": "vocaliz-（发声） + -ation（这件事或它的结果） → 发声",
       "pronunciation": "ˌvoʊkələˈzeɪʃən",
       "memoryCue": "vocalize 是发声。发出声音的过程就是 vocalization。",
       "parts": [
         {
-          "text": "vocalize",
-          "ipa": "voʊkələz",
+          "text": "vocaliz-",
+          "ipa": "ˌvoʊkələz",
           "meaning": "发声"
         },
         {
           "text": "-ation",
-          "ipa": "eɪʃən",
+          "ipa": "ˈeɪʃən",
           "meaning": "这件事或它的结果"
         }
       ],

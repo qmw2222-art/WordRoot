@@ -26,14 +26,51 @@ final class WordFlowTests: XCTestCase {
         tap("course.audio.word")
         tap("course.partAudio.0")
         tap("course.partAudio.1")
+        for relative in ["exporter", "importer", "transportation", "portability"] {
+            tap("course.next")
+            XCTAssertEqual(app.staticTexts["course.word"].label, relative)
+        }
         tap("course.next")
         XCTAssertTrue(app.staticTexts["course.word"].waitForExistence(timeout: 6))
         XCTAssertEqual(app.staticTexts["course.word"].label, "I")
-        XCTAssertEqual(app.staticTexts["course.context.line"].label, "Can I take this bag?")
+        XCTAssertEqual(app.staticTexts["course.context.line"].label, "Can I take this portable lamp in my bag?")
         tap("course.context.basic.bag")
         XCTAssertTrue(app.staticTexts["course.word"].waitForExistence(timeout: 6))
         XCTAssertEqual(app.staticTexts["course.word"].label, "bag")
         XCTAssertFalse(app.staticTexts.containing(NSPredicate(format: "label CONTAINS %@", "词骨")).firstMatch.exists)
+    }
+
+    func testTransportPronunciationFollowsTheMeaningOnDay42() {
+        launch()
+        tap("course.phase.travel")
+        tap("course.day.42")
+        tap("course.branch.sense.transport.carry")
+        XCTAssertEqual(app.staticTexts["course.ipa"].label, "/trænˈspɔrt/")
+        tap("course.audio.word")
+        tap("course.next")
+        tap("course.next")
+        XCTAssertEqual(app.staticTexts["course.word"].label, "transport")
+        XCTAssertEqual(app.staticTexts["course.ipa"].label, "/ˈtrænspɔrt/")
+        XCTAssertTrue(app.staticTexts["course.context.line"].label.contains("public transport"))
+        tap("course.audio.word")
+        XCTAssertFalse(app.alerts.firstMatch.exists)
+    }
+
+    func testIntroductionDistinguishesTheWholeWordFromItsStemOnDay79() {
+        launch()
+        tap("course.phase.other")
+        tap("course.day.79")
+        tap("course.branch.duc.introduce")
+        XCTAssertEqual(app.staticTexts["course.ipa"].label, "/ˌɪntrəˈdus/")
+        tap("course.audio.word")
+        tap("course.next")
+        XCTAssertEqual(app.staticTexts["course.word"].label, "introduction")
+        XCTAssertEqual(app.staticTexts["course.ipa"].label, "/ˌɪntrəˈdʌkʃən/")
+        tap("course.audio.word")
+        XCTAssertEqual(app.staticTexts["course.partIPA.0"].label, "/ˌɪntrəˈdʌk/")
+        XCTAssertTrue(app.buttons["course.partAudio.0"].label.contains("introduc-"))
+        tap("course.partAudio.0")
+        XCTAssertFalse(app.alerts.firstMatch.exists)
     }
 
     func testLegacyPositionAndOneProgress() {
@@ -76,7 +113,10 @@ final class WordFlowTests: XCTestCase {
         launch()
         tap("course.start")
         tap("course.lessonAutoVoice")
-        for _ in 0..<14 { tap("course.next") }
+        for _ in 0..<18 {
+            tap("course.next")
+            if app.buttons["course.familyRecap.close"].exists { tap("course.familyRecap.close") }
+        }
         tap("course.recapCards")
         tap("cards.mode.meaning")
         let answers = app.buttons.matching(identifier: "cards.choice.sense.import.goods")
@@ -84,7 +124,7 @@ final class WordFlowTests: XCTestCase {
         answers.firstMatch.tap()
         XCTAssertTrue(app.staticTexts["cards.nextDate"].label.contains("天"))
         app.terminate(); app.launch()
-        XCTAssertEqual(app.buttons["home.due"].value as? String, "共有12个词到期")
+        XCTAssertEqual(app.buttons["home.due"].value as? String, "共有16个词到期")
     }
 
     func testPracticeFromMapAndOneVoice() {

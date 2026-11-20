@@ -24,6 +24,14 @@ enum LessonPlaybackTrace {
     }()
     #endif
 
+    static var isEnabled: Bool {
+        #if DEBUG
+        return destination != nil
+        #else
+        return false
+        #endif
+    }
+
     @MainActor static func note(_ message: String) {
         #if DEBUG
         guard let file = destination, let out = try? FileHandle(forWritingTo: file) else { return }

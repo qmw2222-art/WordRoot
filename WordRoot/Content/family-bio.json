@@ -193,13 +193,13 @@
       "acceptedAnswers": [
         "生物学家"
       ],
-      "formation": "biology（生物学） + -ist（从事该学科的人） → 生物学家",
+      "formation": "biolog-（生物学） + -ist（从事该学科的人） → 生物学家",
       "pronunciation": "baɪˈɑlədʒɪst",
       "memoryCue": "biology 是生物学。专门做这项研究的人就是生物学家。",
       "parts": [
         {
-          "text": "biology",
-          "ipa": "baɪˈɑlədʒi",
+          "text": "biolog-",
+          "ipa": "baɪˈɑlədʒ",
           "meaning": "生物学"
         },
         {

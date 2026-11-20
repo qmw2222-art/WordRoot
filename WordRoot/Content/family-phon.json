@@ -272,14 +272,14 @@
       "acceptedAnswers": [
         "音系的"
       ],
-      "formation": "phonology（音系学） + -ical（与……有关的） → 音系的",
+      "formation": "phonolog-（音系学） + -ical（与……有关的） → 音系的",
       "pronunciation": "ˌfoʊnəˈlɑdʒɪkəl",
       "memoryCue": "phonology 是音系学。讨论一种语言的声音系统时用 phonological。",
       "plainCue": "与语言中的语音组织规则有关。",
       "parts": [
         {
-          "text": "phonology",
-          "ipa": "fəˈnɑlədʒi",
+          "text": "phonolog-",
+          "ipa": "ˌfoʊnəˈlɑdʒ",
           "meaning": "音系学"
         },
         {
@@ -302,13 +302,13 @@
       "acceptedAnswers": [
         "音系学家"
       ],
-      "formation": "phonology（音系学） + -ist（从事该学科的人） → 音系学家",
+      "formation": "phonolog-（音系学） + -ist（从事该学科的人） → 音系学家",
       "pronunciation": "fəˈnɑlədʒɪst",
       "memoryCue": "phonology 是音系学，研究它的人就是音系学家。",
       "parts": [
         {
-          "text": "phonology",
-          "ipa": "fəˈnɑlədʒi",
+          "text": "phonolog-",
+          "ipa": "fəˈnɑlədʒ",
           "meaning": "音系学"
         },
         {

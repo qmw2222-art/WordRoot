@@ -154,18 +154,15 @@
         "可信地",
         "有说服力地"
       ],
-      "formation": "cred-（可信） + -ly（以某种方式） → 可信地",
+      "formation": "credib-（可信） + -ly（以某种方式） → 可信地",
       "pronunciation": "ˈkrɛdəbli",
       "memoryCue": "credible 是可信的。-ly 表示方式，credibly 就是令人信服地。",
       "plainCue": "描述一种说法、解释或展示是否能让人相信。",
       "parts": [
         {
-          "text": "cred-",
+          "text": "credib-",
           "ipa": "ˈkrɛdəb",
-          "meaning": "可信",
-          "notes": [
-            "在 credibly 中读 /krɛdəb/"
-          ]
+          "meaning": "可信"
         },
         {
           "text": "-ly",

@@ -69,7 +69,10 @@ final class MnemonicCourseTests: XCTestCase {
         XCTAssertTrue(app.buttons["course.demo"].exists)
         XCTAssertFalse(app.staticTexts["course.ipa"].label.isEmpty)
         assertSoundBesideIPA("course")
-        for _ in 0..<13 { tap("course.next") }
+        for _ in 0..<17 {
+            tap("course.next")
+            if app.buttons["course.familyRecap.close"].exists { tap("course.familyRecap.close") }
+        }
         tap("course.talk")
         XCTAssertTrue(app.buttons["talk.listen"].exists)
         XCTAssertTrue(app.staticTexts["talk.goal"].exists)

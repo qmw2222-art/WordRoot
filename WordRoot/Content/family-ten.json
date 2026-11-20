@@ -127,23 +127,20 @@
       "acceptedAnswers": [
         "延长"
       ],
-      "formation": "extend（伸展、延长） + -sion（行为或结果） → 延长",
+      "formation": "exten-（伸展、延长） + -sion（行为或结果） → 延长",
       "pronunciation": "ɪkˈstɛnʃən",
       "memoryCue": "extend 是延长。多出来的那段时间就是 an extension。",
       "plainCue": "把范围或时间延长的行为，也可指附加部分。",
       "parts": [
         {
-          "text": "extend",
-          "ipa": "ɪkˈstɛnd",
+          "text": "exten-",
+          "ipa": "ɪkˈstɛn",
           "meaning": "伸展、延长"
         },
         {
           "text": "-sion",
-          "ipa": "ʒən",
-          "meaning": "行为或结果",
-          "notes": [
-            "extend 词尾发生拼写/发音变化"
-          ]
+          "ipa": "ʃən",
+          "meaning": "行为或结果"
         }
       ],
       "combined": "给截止日期多加的那几天，就是延长期。"
@@ -189,13 +186,13 @@
       "acceptedAnswers": [
         "意图"
       ],
-      "formation": "intend（打算） + -tion（行为或结果） → 意图",
-      "pronunciation": "ˌɪnˈtɛntʃən",
+      "formation": "inten-（打算） + -tion（行为或结果） → 意图",
+      "pronunciation": "ɪnˈtɛnʃən",
       "memoryCue": "从 intend 的「打算」来记。心里具体的那个打算，就是意图。",
       "parts": [
         {
-          "text": "intend",
-          "ipa": "ɪnˈtɛnd",
+          "text": "inten-",
+          "ipa": "ɪnˈtɛn",
           "meaning": "打算"
         },
         {
@@ -238,14 +235,14 @@
       "acceptedAnswers": [
         "注意力"
       ],
-      "formation": "attend（留意、关注） + -tion（行为或状态） → 注意力",
+      "formation": "atten-（留意、关注） + -tion（行为或状态） → 注意力",
       "pronunciation": "əˈtɛnʃən",
       "memoryCue": "跟 pay 放在一起记。pay attention 就是留心，把注意力放在某处。",
       "plainCue": "集中精神留意某事或某人。",
       "parts": [
         {
-          "text": "attend",
-          "ipa": "əˈtɛnd",
+          "text": "atten-",
+          "ipa": "əˈtɛn",
           "meaning": "留意、关注"
         },
         {
@@ -354,23 +351,20 @@
       "acceptedAnswers": [
         "争论"
       ],
-      "formation": "contend（争论、竞争） + -tion（行为或结果） → 争论",
+      "formation": "conten-（争论、竞争） + -tion（行为或结果） → 争论",
       "pronunciation": "kənˈtɛnʃən",
       "memoryCue": "contend 是争辩。争论的焦点或所持的看法叫 contention。",
       "plainCue": "激烈争执的事项，或某人坚持的观点。",
       "parts": [
         {
-          "text": "contend",
-          "ipa": "kənˈtɛnd",
+          "text": "conten-",
+          "ipa": "kənˈtɛn",
           "meaning": "争论、竞争"
         },
         {
           "text": "-tion",
           "ipa": "ʃən",
-          "meaning": "行为或结果",
-          "notes": [
-            "争论/主张"
-          ]
+          "meaning": "行为或结果"
         }
       ],
       "combined": "说这笔钱不该收，这是你提出的主张。双方也可能为此争论。"

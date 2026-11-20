@@ -18,7 +18,7 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
     private static let runVolume: Float = {
         #if DEBUG
         if let run = ProcessInfo.processInfo.environment["WORDROOT_UI_TEST_RUN"],
-           UUID(uuidString: run) != nil { return 0 }
+           UUID(uuidString: run) != nil { return ProcessInfo.processInfo.environment["WORDROOT_TEST_AUDIBLE"] == "1" ? 1 : 0 }
         #endif
         return 1
     }()
@@ -36,8 +36,8 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
     func toggle(id: String, text: String, pronunciation: String? = nil) -> Bool {
         if activeID == id { stop(id: id); return true }
         guard let clip = recordings.recording(text, pronunciation: pronunciation) else { return false }
-        LessonPlaybackTrace.note("route \(id) af_heart")
-        return startRecordings(id: id, data: [clip])
+        LessonPlaybackTrace.note("route \(id) \(clip.source)")
+        return startRecordings(id: id, data: [clip.bytes])
     }
 
     @discardableResult
@@ -57,8 +57,9 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
             switch line {
             case .mandarin(let text): clip = recordings.mandarin(text)
             case let .english(text, ipa, _):
-                clip = recordings.recording(text, pronunciation: ipa)
-                LessonPlaybackTrace.note("route \(id) \(index) af_heart")
+                let english = recordings.recording(text, pronunciation: ipa)
+                clip = english?.bytes
+                if let english { LessonPlaybackTrace.note("route \(id) \(index) \(english.source)") }
             }
             guard let clip else { return false }
             clips.append(clip)
@@ -117,7 +118,7 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
             return false
         }
         #if DEBUG
-        if Self.runVolume == 0, let id = activeID, let bytes = next.player.data {
+        if LessonPlaybackTrace.isEnabled, let id = activeID, let bytes = next.player.data {
             let digest = SHA256.hash(data: bytes).map { String(format: "%02x", $0) }.joined()
             LessonPlaybackTrace.note("played \(id) \(recordedIndex) \(digest)")
         }

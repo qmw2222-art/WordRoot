@@ -20,7 +20,7 @@ struct MemoryCardsView: View {
     @Environment(\.modelContext) private var context
     @Environment(SpeechPlayer.self) private var speaker
     @Environment(\.dismiss) private var dismiss
-    @State private var mode: ListeningAnswer?
+    @State private var mode: ListeningAnswer = .meaning
     @State private var queue: [MemoryQuestion]
     @State private var index = 0
     @State private var chosen: String?
@@ -30,8 +30,9 @@ struct MemoryCardsView: View {
     @State private var missed: Set<String> = []
     @State private var saveFailed = false
     let initialCount: Int
+    private let familyName: String?
 
-    init(words: [Word], lexicon: Lexicon) {
+    init(words: [Word], lexicon: Lexicon, family: WordFamily? = nil) {
         var seen: Set<String> = []
         let targets = words.filter { seen.insert($0.id).inserted }
         let all = lexicon.families.flatMap(\.words) + Array(lexicon.basicWords.values)
@@ -39,7 +40,7 @@ struct MemoryCardsView: View {
         let allShuffled = all.shuffled()
         let questions = targets.map { word in
             let neighbors = lexicon.entry(id: word.id)?.family.words ?? []
-            let pool = (neighbors + targets).shuffled() + allShuffled
+            let pool = family.map { targets.shuffled() + $0.words.shuffled() } ?? ((neighbors + targets).shuffled() + allShuffled)
             let sound = Self.soundKey(word)
             var sounds: Set<String> = [sound]
             var spellings: Set<String> = [word.word.lowercased()]
@@ -58,6 +59,7 @@ struct MemoryCardsView: View {
             }
             return MemoryQuestion(word: word, options: options.shuffled())
         }
+        familyName = family?.root
         initialCount = questions.count
         _queue = State(initialValue: questions)
     }
@@ -68,7 +70,7 @@ struct MemoryCardsView: View {
     }
 
     private static func aliases(_ word: Word) -> Set<String> {
-        let parts = ([word.meaning] + word.acceptedAnswers).flatMap { $0.components(separatedBy: CharacterSet(charactersIn: "；，、/;,")) }
+        let parts = ([word.meaning] + word.acceptedAnswers + (word.otherMeanings ?? [])).flatMap { $0.components(separatedBy: CharacterSet(charactersIn: "；，、/;,")) }
         return Set(parts.map { $0.trimmingCharacters(in: .whitespacesAndNewlines).lowercased() }.filter { !$0.isEmpty })
     }
 
@@ -78,27 +80,24 @@ struct MemoryCardsView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 14) {
                 if let q = question {
+                    if let familyName { Text("\(familyName) 词族").font(.headline).accessibilityIdentifier("cards.family") }
                     Text("第 \(index + 1) 张 · 共 \(queue.count) 张").font(.subheadline).foregroundStyle(MapStyle.secondary)
                     MapPanel {
                         VStack(alignment: .leading, spacing: 4) {
                             if q.retryDate != nil { Text("刚才那张，再想一次").font(.subheadline).foregroundStyle(MapStyle.secondary) }
-                            Text(mode == .spelling ? "听到的是哪个单词？" : mode == .meaning ? "这个词是什么意思？" : "听一听，在心里想一想")
+                            Text(mode == .spelling ? "听到的是哪个单词？" : "听到的词是什么意思？")
                                 .font(.title2.bold()).accessibilityIdentifier("cards.prompt")
                             Button { play(q) } label: {
-                                Label("再听一遍", systemImage: "speaker.wave.2.circle.fill").font(.headline).frame(minHeight: 44)
+                                Label("再听这个词", systemImage: "speaker.wave.2.circle.fill").font(.headline).frame(minHeight: 44)
                             }.buttonStyle(.plain).foregroundStyle(MapStyle.pine).accessibilityIdentifier("cards.listen")
                         }.frame(maxWidth: .infinity, alignment: .leading)
                     }
-                    if playbackFailed { Text("这次没播出声音，请点「再听一遍」。").font(.subheadline) }
+                    if playbackFailed { Text("这次没播出声音，请点「再听这个词」。").font(.subheadline) }
                     if heard || nextDue != nil {
-                        if let mode {
-                            ForEach(q.options) { option in choice(option, for: q, mode: mode) }
-                        } else if nextDue == nil {
-                            ViewThatFits(in: .horizontal) {
-                                HStack(spacing: 10) { answerModes }
-                                VStack(alignment: .leading, spacing: 4) { answerModes }
-                            }
+                        if nextDue == nil {
+                            HStack(spacing: 10) { answerModes }
                         }
+                        ForEach(q.options) { option in choice(option, for: q, mode: mode) }
                         if let date = nextDue {
                             Text((chosen == q.word.id ? "选对了。 " : "再记一下。 ") + q.word.word + " · " + q.word.meaning)
                                 .font(.headline).accessibilityIdentifier("cards.feedback")
@@ -140,8 +139,16 @@ struct MemoryCardsView: View {
 
     @ViewBuilder private var answerModes: some View {
         ForEach(ListeningAnswer.allCases) { option in
-            Button(option == .meaning ? "选中文意思" : "选英文单词") { mode = option }
-                .buttonStyle(.bordered).frame(minHeight: 44).tint(MapStyle.pine)
+            Button {
+                guard mode != option else { return }
+                mode = option
+            } label: {
+                Label(option == .meaning ? "选中文意思" : "选英文单词",
+                      systemImage: mode == option ? "checkmark.circle.fill" : "circle")
+                    .font(.subheadline).frame(minHeight: 44)
+            }
+                .buttonStyle(.plain).foregroundStyle(MapStyle.pine)
+                .accessibilityAddTraits(mode == option ? .isSelected : [])
                 .accessibilityIdentifier(option == .meaning ? "cards.mode.meaning" : "cards.mode.spelling")
         }
     }
@@ -165,13 +172,14 @@ struct MemoryCardsView: View {
 
     private func play(_ q: MemoryQuestion) {
         if speaker.activeID == q.audioID { speaker.stop(id: q.audioID) }
+        LessonPlaybackTrace.note("question \(q.audioID) \(q.word.id)")
         playbackFailed = !speaker.toggle(id: q.audioID, text: q.word.word, pronunciation: q.word.pronunciation)
     }
 
     private func submit(_ option: Word?, for q: MemoryQuestion) {
         guard heard, nextDue == nil else { return }
         let correct = option?.id == q.word.id
-        let answer = option.flatMap { word in mode.map { $0.label(word) } } ?? "想不起来"
+        let answer = option.map { mode.label($0) } ?? "想不起来"
         do {
             let date: Date
             if let original = q.retryDate { date = original }
@@ -198,7 +206,7 @@ struct MemoryCardsView: View {
 
     private func advance() {
         stop()
-        heard = false; mode = nil; playbackFailed = false; chosen = nil; nextDue = nil; saveFailed = false
+        heard = false; playbackFailed = false; chosen = nil; nextDue = nil; saveFailed = false
         index += 1
     }
 
@@ -211,11 +219,12 @@ struct MemoryCardsSheet: View {
     @Environment(\.dismiss) private var dismiss
     let words: [Word]
     let lexicon: Lexicon
+    var family: WordFamily? = nil
 
     var body: some View {
         NavigationStack {
-            MemoryCardsView(words: words, lexicon: lexicon)
-                .toolbar { ToolbarItem(placement: .cancellationAction) { Button("关闭") { dismiss() } } }
+            MemoryCardsView(words: words, lexicon: lexicon, family: family)
+                .toolbar { ToolbarItem(placement: .cancellationAction) { Button("关闭") { dismiss() }.accessibilityIdentifier("cards.dismiss") } }
         }
     }
 }
