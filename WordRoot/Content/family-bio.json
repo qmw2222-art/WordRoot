@@ -1,0 +1,499 @@
+{
+  "id": "family.bio",
+  "root": "bio",
+  "meaning": "生命、生物",
+  "explanation": "bio- 来自表示「生命」的希腊语成分。它能指生命现象，也能出现在记录一个人生平的词里。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "bio.biology.1",
+      "word": "biology",
+      "partOfSpeech": "名词",
+      "meaning": "生物学",
+      "explanation": "研究生物及生命过程的科学。",
+      "example": "Biology explains how cells use energy.",
+      "translation": "生物学解释细胞如何利用能量。",
+      "rootRelation": "bio-（生命）与 -logy（研究）组成。",
+      "acceptedAnswers": [
+        "生物学"
+      ],
+      "formation": "bio（生命）+ logy（学科）= 生物学",
+      "pronunciation": "baɪˈɑlədʒi",
+      "memoryCue": "bio 是生命，-logy 是学科。研究生命的学科就是生物学。",
+      "parts": [
+        {
+          "text": "bio",
+          "ipa": "baɪɑ",
+          "meaning": "生命"
+        },
+        {
+          "text": "-logy",
+          "ipa": "lədʒi",
+          "meaning": "学科"
+        }
+      ],
+      "combined": "研究生物和生命过程的科学，就是生物学。"
+    },
+    {
+      "id": "bio.biography.1",
+      "word": "biography",
+      "partOfSpeech": "名词",
+      "meaning": "传记",
+      "explanation": "用文字记录某个人的生平，常包括重要经历及其背景。",
+      "example": "I read a biography of a jazz pianist on the train.",
+      "translation": "我在火车上读了一位爵士钢琴家的传记。",
+      "rootRelation": "bio（生命）与 -graphy（记录）构成。",
+      "acceptedAnswers": [
+        "传记",
+        "人物传记"
+      ],
+      "formation": "bio（生平）+ graphy（书写）= 传记",
+      "pronunciation": "baɪˈɑɡrəfi",
+      "memoryCue": "bio 是生平，-graphy 和写有关。写一个人的一生，就是传记。",
+      "parts": [
+        {
+          "text": "bio",
+          "ipa": "baɪɑ",
+          "meaning": "生平"
+        },
+        {
+          "text": "-graphy",
+          "ipa": "ɡrəfi",
+          "meaning": "书写"
+        }
+      ],
+      "combined": "把一个人的一生写下来，就是传记。"
+    },
+    {
+      "id": "bio.biodiversity.extra1",
+      "word": "biodiversity",
+      "partOfSpeech": "名词",
+      "meaning": "生物多样性",
+      "explanation": "某一地区或生态系统中生物种类的丰富程度。",
+      "example": "The wetlands support remarkable biodiversity.",
+      "translation": "这片湿地孕育着丰富的生物多样性。",
+      "rootRelation": "bio（生命）与 diversity（多样性）组成。",
+      "acceptedAnswers": [
+        "生物多样性"
+      ],
+      "formation": "bio（生物）+ diversity（多样性）= 生物多样性",
+      "pronunciation": "ˌbaɪoʊdaɪˈvɝsəti",
+      "memoryCue": "bio 是生物，diversity 是多样性。合起来就是生物多样性。",
+      "parts": [
+        {
+          "text": "bio",
+          "ipa": "baɪoʊ",
+          "meaning": "生物"
+        },
+        {
+          "text": "diversity",
+          "ipa": "daɪvɝsəti",
+          "meaning": "多样性"
+        }
+      ],
+      "combined": "一个地方生物种类越丰富，生物多样性就越高。"
+    },
+    {
+      "id": "bio.biotechnology.extra2",
+      "word": "biotechnology",
+      "partOfSpeech": "名词",
+      "meaning": "生物技术",
+      "explanation": "利用生物体或细胞过程开发产品和技术。",
+      "example": "Biotechnology has helped researchers produce insulin.",
+      "translation": "生物技术帮助研究人员生产胰岛素。",
+      "rootRelation": "bio（生命）与 technology（技术）组成。",
+      "acceptedAnswers": [
+        "生物技术"
+      ],
+      "formation": "bio（生物）+ technology（技术）= 生物技术",
+      "pronunciation": "ˌbaɪoʊˌtɛkˈnɑlədʒi",
+      "memoryCue": "bio 是生物，technology 是技术。用生物来做事的技术就是生物技术。",
+      "parts": [
+        {
+          "text": "bio",
+          "ipa": "baɪoʊ",
+          "meaning": "生物"
+        },
+        {
+          "text": "technology",
+          "ipa": "tɛknɑlədʒi",
+          "meaning": "技术"
+        }
+      ],
+      "combined": "利用生物体或细胞过程开发产品和技术。"
+    },
+    {
+      "id": "bio.biography.3",
+      "word": "biomass",
+      "partOfSpeech": "名词",
+      "meaning": "生物量；生物质",
+      "explanation": "某一地区或系统中生物材料的总量，也指可作能源的有机物。",
+      "example": "The project turns farm waste into biomass for heating.",
+      "translation": "这个项目把农场废料转化为供暖用的生物质燃料。",
+      "rootRelation": "bio（生物）与 mass（总量）组成。",
+      "acceptedAnswers": [
+        "生物量"
+      ],
+      "formation": "bio（生物）+ mass（质量）= 生物量",
+      "pronunciation": "ˈbaɪəmæs",
+      "memoryCue": "这处 biography 指一本记录某人生平的书，直接记「一本传记」。",
+      "parts": [
+        {
+          "text": "bio",
+          "ipa": "baɪə",
+          "meaning": "生物"
+        },
+        {
+          "text": "mass",
+          "ipa": "mæs",
+          "meaning": "质量"
+        }
+      ],
+      "combined": "一个地方所有生物材料的总量，叫生物量。"
+    },
+    {
+      "id": "bio.biological.4",
+      "word": "biological",
+      "partOfSpeech": "形容词",
+      "meaning": "生物学的；生物性的",
+      "explanation": "与生物、生命过程或生物学有关。",
+      "example": "The study measured biological changes during sleep.",
+      "translation": "研究测量了睡眠期间的生理变化。",
+      "rootRelation": "biology 加 -ical。",
+      "acceptedAnswers": [
+        "生物学的"
+      ],
+      "formation": "bio-（生命、生物） + -logical（与某学科或领域相关的） → 生物学的",
+      "pronunciation": "ˌbaɪəˈlɑdʒɪkəl",
+      "memoryCue": "biology 是生物学。描述与生物有关的事，用 biological。",
+      "plainCue": "与生物、生命过程或生物学有关。",
+      "parts": [
+        {
+          "text": "bio-",
+          "ipa": "ˌbaɪə",
+          "meaning": "生命、生物"
+        },
+        {
+          "text": "-logical",
+          "ipa": "ˈlɑdʒɪkəl",
+          "meaning": "与某学科或领域相关的"
+        }
+      ],
+      "combined": "跟生物、生命过程或生物学有关的。"
+    },
+    {
+      "id": "bio.biologist.5",
+      "word": "biologist",
+      "partOfSpeech": "名词",
+      "meaning": "生物学家",
+      "explanation": "以生物为研究对象的科学工作者。",
+      "example": "A biologist explained why the birds migrate.",
+      "translation": "一位生物学家解释了鸟类迁徙的原因。",
+      "rootRelation": "biology 加表示人的 -ist。",
+      "acceptedAnswers": [
+        "生物学家"
+      ],
+      "formation": "biology（生物学） + -ist（从事该学科的人） → 生物学家",
+      "pronunciation": "baɪˈɑlədʒɪst",
+      "memoryCue": "biology 是生物学。专门做这项研究的人就是生物学家。",
+      "parts": [
+        {
+          "text": "biology",
+          "ipa": "baɪˈɑlədʒi",
+          "meaning": "生物学"
+        },
+        {
+          "text": "-ist",
+          "ipa": "ɪst",
+          "meaning": "从事该学科的人"
+        }
+      ],
+      "combined": "以生物为研究对象的科学工作者。"
+    },
+    {
+      "id": "bio.biodegradable.6",
+      "word": "biodegradable",
+      "partOfSpeech": "形容词",
+      "meaning": "可生物降解的",
+      "explanation": "能被微生物分解而回归自然环境。",
+      "example": "We packed the lunch in biodegradable containers.",
+      "translation": "我们用可生物降解的容器装午餐。",
+      "rootRelation": "bio-（生物）与 degrade（分解）和 -able 组合。",
+      "acceptedAnswers": [
+        "可生物降解的"
+      ],
+      "formation": "bio（生物）+ degradable（可分解的）= 可生物降解的",
+      "pronunciation": "ˌbaɪoʊdəˈɡreɪdəbəl",
+      "memoryCue": "bio 是生物，degrade 是分解，-able 是能。可以被生物分解的就是可生物降解的。",
+      "parts": [
+        {
+          "text": "bio",
+          "ipa": "baɪoʊ",
+          "meaning": "生物"
+        },
+        {
+          "text": "degradable",
+          "ipa": "dəɡreɪdəbəl",
+          "meaning": "可分解的"
+        }
+      ],
+      "combined": "果皮被微生物分解、回到自然环境，就是可生物降解。"
+    },
+    {
+      "id": "bio.microbiology.6",
+      "word": "microbiology",
+      "partOfSpeech": "名词",
+      "meaning": "微生物学",
+      "explanation": "研究细菌、酵母等微生物的学科。",
+      "example": "She studied microbiology before joining the food lab.",
+      "translation": "她加入食品实验室前学的是微生物学。",
+      "rootRelation": "micro- 指微小，biology 指生物学。",
+      "acceptedAnswers": [
+        "微生物学"
+      ],
+      "formation": "micro（微小）+ biology（生物学）= 微生物学",
+      "pronunciation": "ˌmaɪkroʊˌbaɪˈɑlədʒi",
+      "memoryCue": "micro- 是微小。研究微小生物的学科就是微生物学。",
+      "parts": [
+        {
+          "text": "micro",
+          "ipa": "maɪkroʊ",
+          "meaning": "微小"
+        },
+        {
+          "text": "biology",
+          "ipa": "baɪɑlədʒi",
+          "meaning": "生物学"
+        }
+      ],
+      "combined": "研究细菌、酵母等微小生物的学科。"
+    },
+    {
+      "id": "bio.biopsy.8",
+      "word": "biopsy",
+      "partOfSpeech": "名词",
+      "meaning": "活组织检查；活检",
+      "explanation": "取少量组织样本进行医学检查的程序。",
+      "example": "The doctor scheduled a biopsy to examine the unusual tissue.",
+      "translation": "医生安排了一次活检来检查异常组织。",
+      "rootRelation": "bio-（生命）与 -opsy（观察）组成。",
+      "acceptedAnswers": [
+        "活组织检查"
+      ],
+      "formation": "bio-（生命、组织） + -opsy（观察、检查） → 活组织检查",
+      "pronunciation": "ˈbaɪɑpsi",
+      "memoryCue": "从活组织里取一小块来检查，这项检查叫活检。",
+      "parts": [
+        {
+          "text": "bio-",
+          "ipa": "ˈbaɪ",
+          "meaning": "生命、组织",
+          "notes": [
+            "此词中 bio- 读 /baɪ/"
+          ]
+        },
+        {
+          "text": "-opsy",
+          "ipa": "ˌɑpsi",
+          "meaning": "观察、检查",
+          "notes": [
+            "合起来指取组织检查"
+          ]
+        }
+      ],
+      "combined": "取一点身体组织送检，检查有没有病变。"
+    },
+    {
+      "id": "bio.biofuel.extra3",
+      "word": "biofuel",
+      "partOfSpeech": "名词",
+      "meaning": "生物燃料",
+      "explanation": "由植物或其他有机材料制成的燃料。",
+      "example": "The bus can run on a blend that includes biofuel.",
+      "translation": "这辆公交车可使用含生物燃料的混合燃料。",
+      "rootRelation": "bio（生物来源）与 fuel（燃料）组成。",
+      "acceptedAnswers": [
+        "生物燃料"
+      ],
+      "formation": "bio（生物）+ fuel（燃料）= 生物燃料",
+      "pronunciation": "ˈbaɪoʊˌfjuəl",
+      "memoryCue": "bio 是生物，fuel 是燃料。用生物材料制成的就是生物燃料。",
+      "parts": [
+        {
+          "text": "bio",
+          "ipa": "baɪoʊ",
+          "meaning": "生物"
+        },
+        {
+          "text": "fuel",
+          "ipa": "fjuəl",
+          "meaning": "燃料"
+        }
+      ],
+      "combined": "植物等有机材料做成的燃料，就是生物燃料。"
+    },
+    {
+      "id": "bio.biochemistry.extra4",
+      "word": "biochemistry",
+      "partOfSpeech": "名词",
+      "meaning": "生物化学",
+      "explanation": "研究生物体内化学物质和反应的学科。",
+      "example": "Biochemistry helps explain how enzymes work.",
+      "translation": "生物化学有助于解释酶如何发挥作用。",
+      "rootRelation": "bio（生命）与 chemistry（化学）组成。",
+      "acceptedAnswers": [
+        "生物化学"
+      ],
+      "formation": "bio（生命）+ chemistry（化学）= 生物化学",
+      "pronunciation": "ˌbaɪoʊˈkɛməstri",
+      "memoryCue": "bio 是生命，chemistry 是化学。研究生命中的化学过程，就是生物化学。",
+      "parts": [
+        {
+          "text": "bio",
+          "ipa": "baɪoʊ",
+          "meaning": "生命"
+        },
+        {
+          "text": "chemistry",
+          "ipa": "kɛməstri",
+          "meaning": "化学"
+        }
+      ],
+      "combined": "研究生物体内化学物质和反应的学科。"
+    },
+    {
+      "id": "bio.biome.extra5",
+      "word": "biome",
+      "partOfSpeech": "名词",
+      "meaning": "生物群系",
+      "explanation": "具有相似气候和典型生物群落的大型生态区域。",
+      "example": "The tundra biome has a short growing season.",
+      "translation": "苔原生物群系的生长季很短。",
+      "rootRelation": "bio（生命）与表示类别的词尾组合。",
+      "acceptedAnswers": [
+        "生物群系"
+      ],
+      "formation": "bio（生物）→ 大范围的生物群系",
+      "pronunciation": "ˈbaɪˌoʊm",
+      "memoryCue": "一大片地方的气候、植物和动物组成的自然群落叫 biome。",
+      "plainCue": "气候相近、动植物相似的一大片生态区域。"
+    },
+    {
+      "id": "bio.biometric.extra6",
+      "word": "biometric",
+      "partOfSpeech": "形容词",
+      "meaning": "生物识别的；生物测量的",
+      "explanation": "利用指纹、面部等身体特征进行识别或测量。",
+      "example": "The tablet uses biometric security to unlock.",
+      "translation": "这台平板用生物识别安全功能解锁。",
+      "rootRelation": "bio（生命）与 metric（测量）组成。",
+      "acceptedAnswers": [
+        "生物识别的"
+      ],
+      "formation": "bio-（生物、生命） + metric（测量的） → 生物识别的",
+      "pronunciation": "ˌbaɪəˈmɛtrək",
+      "memoryCue": "bio 是生命，metric 和测量有关。用指纹等身体特征识别身份，就是生物特征识别。",
+      "parts": [
+        {
+          "text": "bio-",
+          "ipa": "ˌbaɪoʊ",
+          "meaning": "生物、生命"
+        },
+        {
+          "text": "metric",
+          "ipa": "ˈmɛtrɪk",
+          "meaning": "测量的",
+          "notes": [
+            "合起来指生物特征测量"
+          ]
+        }
+      ],
+      "combined": "用指纹、面部等身体特征来识别或测量。"
+    }
+  ],
+  "links": [
+    {
+      "to": "bio.biography.1",
+      "kind": "同词根",
+      "note": "两词都含 bio，biology 研究生命，biography 记录一个人的一生。",
+      "from": "bio.biology.1"
+    },
+    {
+      "to": "bio.biological.4",
+      "kind": "派生关系",
+      "note": "biology 是学科，biological 形容与生命或生物学有关。",
+      "from": "bio.biology.1"
+    },
+    {
+      "to": "bio.biologist.5",
+      "kind": "派生关系",
+      "note": "biology 是学科，biologist 是研究该学科的人。",
+      "from": "bio.biology.1"
+    },
+    {
+      "to": "bio.microbiology.6",
+      "kind": "语义联系",
+      "note": "biology 泛指生命科学，microbiology 专门研究微生物。",
+      "from": "bio.biology.1"
+    },
+    {
+      "to": "bio.biodegradable.6",
+      "kind": "语境关联",
+      "note": "微生物可以分解 biodegradable 材料。",
+      "from": "bio.microbiology.6"
+    },
+    {
+      "to": "bio.biography.3",
+      "kind": "同词根",
+      "note": "biology 研究生物，biomass 可指某区域内生物的总量。",
+      "from": "bio.biology.1"
+    },
+    {
+      "to": "bio.biopsy.8",
+      "kind": "语境关联",
+      "note": "biopsy 取活体组织供检查，样本也可以用于实验室研究。",
+      "from": "bio.biology.1"
+    },
+    {
+      "to": "bio.biome.extra5",
+      "kind": "语境关联",
+      "note": "从不同的 biome 着手比较物种组成，可以研究 biodiversity。",
+      "from": "bio.biodiversity.extra1"
+    },
+    {
+      "to": "bio.biodiversity.extra1",
+      "kind": "语义联系",
+      "note": "biodiversity 描述生命形式的丰富程度，是生物学研究的主题。",
+      "from": "bio.biology.1"
+    },
+    {
+      "to": "bio.biofuel.extra3",
+      "kind": "语境关联",
+      "note": "biotechnology 可用于改进把植物原料变成 biofuel 的过程。",
+      "from": "bio.biotechnology.extra2"
+    },
+    {
+      "to": "bio.biography.3",
+      "kind": "语境关联",
+      "note": "某些生物燃料用秸秆、木屑等 biomass 作原料。",
+      "from": "bio.biofuel.extra3"
+    },
+    {
+      "to": "bio.biochemistry.extra4",
+      "kind": "用法对照",
+      "note": "biochemistry 研究生命体内的化学过程，biotechnology 把生物过程用到技术上。",
+      "from": "bio.biotechnology.extra2"
+    },
+    {
+      "to": "bio.biometric.extra6",
+      "kind": "用法对照",
+      "note": "biotechnology 强调利用生物系统，biometric 识别利用可量化的人体特征。",
+      "from": "bio.biotechnology.extra2"
+    }
+  ],
+  "rootIPA": "baɪoʊ",
+  "rootSpoken": "bio",
+  "rootContext": "在 biofuel 里",
+  "rootIntro": "看到这一块，先想有生命的东西。",
+  "rootKind": "词根"
+}

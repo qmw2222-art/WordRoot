@@ -1,0 +1,105 @@
+{
+  "id": "family.pass",
+  "root": "pass",
+  "meaning": "通过",
+  "explanation": "想象从门口通过。日票让你通行一天，乘客可以乘车通过这里。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "pass.pass",
+      "word": "pass",
+      "partOfSpeech": "动词",
+      "meaning": "经过",
+      "formation": "pass 表示经过某处",
+      "rootRelation": "想象从门口通过。日票让你通行一天，乘客可以乘车通过这里。",
+      "explanation": "例句中的 pass 取“经过”这个意思。",
+      "example": "We pass the station.",
+      "translation": "我们经过车站。",
+      "acceptedAnswers": [
+        "经过"
+      ],
+      "pronunciation": "pæs",
+      "memoryCue": "沿街走，经过花店又继续往前，这个动作就是经过。"
+    },
+    {
+      "id": "pass.day-pass",
+      "word": "day pass",
+      "partOfSpeech": "名词",
+      "meaning": "一日通票",
+      "formation": "day（一天）+ pass（通行证）= 一日通票",
+      "rootRelation": "想象从门口通过。日票让你通行一天，乘客可以乘车通过这里。",
+      "explanation": "例句中的 day pass 取“一日通票”这个意思。",
+      "example": "One day pass, please.",
+      "translation": "请给我一张一日通票。",
+      "acceptedAnswers": [
+        "一日通票"
+      ],
+      "pronunciation": "ˈdeɪ ˌpæs",
+      "memoryCue": "day 是一天，pass 是通行证。只在一天内有效，就是一日通票。",
+      "parts": [
+        {
+          "text": "day",
+          "ipa": "deɪ",
+          "meaning": "一天"
+        },
+        {
+          "text": "pass",
+          "ipa": "pæs",
+          "meaning": "通行证"
+        }
+      ],
+      "combined": "买一张票，当天可以多次乘车或入场，就是一日通票。"
+    },
+    {
+      "id": "pass.passage",
+      "word": "passage",
+      "partOfSpeech": "名词",
+      "meaning": "通道",
+      "formation": "pass（经过、通过） + -age（行为、结果或地点） → 通道",
+      "rootRelation": "想象从门口通过。日票让你通行一天，乘客可以乘车通过这里。",
+      "explanation": "例句中的 passage 取“通道”这个意思。",
+      "example": "The passage is narrow.",
+      "translation": "这条通道很窄。",
+      "acceptedAnswers": [
+        "通道"
+      ],
+      "pronunciation": "ˈpæsədʒ",
+      "memoryCue": "从 pass 的「通过」来记。供人通过的地方，就是通道。",
+      "parts": [
+        {
+          "text": "pass",
+          "ipa": "pæs",
+          "meaning": "经过、通过"
+        },
+        {
+          "text": "-age",
+          "ipa": "ɪdʒ",
+          "meaning": "行为、结果或地点",
+          "notes": [
+            "这里是通道"
+          ]
+        }
+      ],
+      "combined": "从大厅穿过去，能走到房间的那条路就是通道。"
+    }
+  ],
+  "links": [
+    {
+      "from": "pass.pass",
+      "to": "pass.day-pass",
+      "kind": "同一词族",
+      "note": "day（一天）+ pass（通行证）= 一日通票"
+    },
+    {
+      "from": "pass.pass",
+      "to": "pass.passage",
+      "kind": "同一词族",
+      "note": "pass（通过）+ age，记作可以通过的地方"
+    }
+  ],
+  "rootIPA": "pæs",
+  "rootSpoken": "pass",
+  "rootContext": "",
+  "rootIntro": "这里的意思是通过。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

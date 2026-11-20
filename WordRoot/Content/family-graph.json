@@ -1,0 +1,424 @@
+{
+  "id": "family.graph",
+  "root": "graph",
+  "meaning": "写、画、记录",
+  "explanation": "graph- 关联希腊语中「写、画」的词。用文字写、以图描绘、让仪器留下记录，都能在这个词族里找到例子。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "graph.graph.2",
+      "word": "graph",
+      "partOfSpeech": "名词",
+      "meaning": "图表；曲线图",
+      "explanation": "用点、线或柱形显示数值关系的视觉表示。",
+      "example": "The graph shows how the temperature changed overnight.",
+      "translation": "这张曲线图显示了夜间气温的变化。",
+      "rootRelation": "来自表示书写、描绘的希腊词根 graph。",
+      "acceptedAnswers": [
+        "图表"
+      ],
+      "formation": "graph（画、记录）→ 把数据画成图表",
+      "pronunciation": "ɡræf",
+      "memoryCue": "把数字画出来给人看，这张图就叫 graph。",
+      "plainCue": "用点、线或柱显示数据关系的图表。"
+    },
+    {
+      "id": "graph.paragraph.3",
+      "word": "paragraph",
+      "partOfSpeech": "名词",
+      "meaning": "段落",
+      "explanation": "围绕一个主要意思组织起来的一组句子。",
+      "example": "Each paragraph in the letter focuses on one question.",
+      "translation": "信中的每个段落都围绕一个问题展开。",
+      "rootRelation": "para-（旁、相邻）与 graph（书写）组合。",
+      "acceptedAnswers": [
+        "段落"
+      ],
+      "formation": "graph（写）→ 围绕一件事写成的一段",
+      "pronunciation": "ˈpærəˌɡræf",
+      "memoryCue": "围绕一个意思写下的几句话，合成一段。"
+    },
+    {
+      "id": "graph.autograph.4",
+      "word": "autograph",
+      "partOfSpeech": "名词",
+      "meaning": "亲笔签名",
+      "explanation": "某人亲手写下的姓名，尤其是名人签名。",
+      "example": "The singer signed an autograph for a young fan.",
+      "translation": "歌手给一位年轻粉丝签了名。",
+      "rootRelation": "auto-（自己）与 graph（写）组合。",
+      "acceptedAnswers": [
+        "亲笔签名"
+      ],
+      "formation": "auto（自己）+ graph（书写）= 亲笔签名",
+      "pronunciation": "ˈɔtəˌɡræf",
+      "memoryCue": "auto- 是自己，graph 和写有关。自己亲手写下的名字，就是亲笔签名。",
+      "parts": [
+        {
+          "text": "auto",
+          "ipa": "ɔtə",
+          "meaning": "自己"
+        },
+        {
+          "text": "graph",
+          "ipa": "ɡræf",
+          "meaning": "书写"
+        }
+      ],
+      "combined": "自己亲手写下姓名，尤其是名人签名。"
+    },
+    {
+      "id": "graph.photograph.7",
+      "word": "photograph",
+      "partOfSpeech": "名词",
+      "meaning": "照片",
+      "explanation": "用相机记录下来的图像。",
+      "example": "This photograph reminds me of our first apartment.",
+      "translation": "这张照片让我想起我们的第一间公寓。",
+      "rootRelation": "photo-（光）与 graph（记录）组合，指用光留下图像。",
+      "acceptedAnswers": [
+        "照片"
+      ],
+      "formation": "photo（光）+ graph（记录）→ 照片",
+      "pronunciation": "ˈfoʊtəˌɡræf",
+      "memoryCue": "photo 是光，graph 是记录。用光记录下来的图像，就是照片。",
+      "parts": [
+        {
+          "text": "photo",
+          "ipa": "foʊtə",
+          "meaning": "光"
+        },
+        {
+          "text": "graph",
+          "ipa": "ɡræf",
+          "meaning": "记录"
+        }
+      ],
+      "combined": "按下快门，把眼前的一刻留下来，留下的这张就是照片。"
+    },
+    {
+      "id": "graph.graphic.1",
+      "word": "graphic",
+      "partOfSpeech": "形容词",
+      "meaning": "图像的；图示的",
+      "explanation": "通过图形表达信息，也可指形象而具体的描述。",
+      "example": "The report contains a graphic showing monthly costs.",
+      "translation": "报告里有一张展示月度成本的图表。",
+      "rootRelation": "graph（写、画）加 -ic。",
+      "acceptedAnswers": [
+        "图像的"
+      ],
+      "formation": "graph（绘画）→ 图像的",
+      "pronunciation": "ˈɡræfɪk",
+      "memoryCue": "抓住 graph 的「画」。用图来表现的，就可以说是图像的。",
+      "parts": [
+        {
+          "text": "graph",
+          "ipa": "ɡræf",
+          "meaning": "图表"
+        },
+        {
+          "text": "-ic",
+          "ipa": "ɪk",
+          "meaning": "与它有关的"
+        }
+      ],
+      "combined": "用图形表达信息；也可指描写得非常具体。"
+    },
+    {
+      "id": "graph.graphics.4",
+      "word": "graphics",
+      "partOfSpeech": "名词",
+      "meaning": "图形；视觉元素",
+      "explanation": "指作品或界面中用计算机制作、展示的图像，常用复数形式。",
+      "example": "The game has better graphics after the update.",
+      "translation": "更新后，这款游戏的画面更好了。",
+      "rootRelation": "graphics 与 graphic 同族，强调图像部分。",
+      "acceptedAnswers": [
+        "图形",
+        "图像",
+        "画面"
+      ],
+      "formation": "graphic（图像的）→ 各种图形",
+      "pronunciation": "ˈɡræfɪks",
+      "memoryCue": "几幅图形或画面放在一起，可以用 graphics 来说。",
+      "plainCue": "电脑制作、显示的图像或视觉元素。"
+    },
+    {
+      "id": "graph.infographic.5",
+      "word": "infographic",
+      "partOfSpeech": "名词",
+      "meaning": "信息图",
+      "explanation": "用图形、数字和短文字把一组复杂信息讲清楚的一张图。",
+      "example": "The infographic shows how the city uses its water.",
+      "translation": "这张信息图展示了这座城市如何用水。",
+      "rootRelation": "information 与 graphic 合成。",
+      "acceptedAnswers": [
+        "信息图",
+        "信息图表"
+      ],
+      "formation": "info（信息）+ graphic（图形）= 信息图",
+      "pronunciation": "ˈɪnfoʊˈɡræfɪk",
+      "memoryCue": "info 是信息，graphic 是图形。把信息画成一张图，就是信息图。",
+      "parts": [
+        {
+          "text": "info",
+          "ipa": "ɪnfoʊ",
+          "meaning": "信息"
+        },
+        {
+          "text": "graphic",
+          "ipa": "ɡræfɪk",
+          "meaning": "图形"
+        }
+      ],
+      "combined": "把复杂信息用图和短文字讲清楚。"
+    },
+    {
+      "id": "graph.paragraphing.8",
+      "word": "paragraphing",
+      "partOfSpeech": "名词",
+      "meaning": "分段；段落划分",
+      "explanation": "把文字安排成段落的编辑方式。",
+      "example": "Clear paragraphing makes the instructions easier to follow.",
+      "translation": "清晰的分段让说明更容易阅读。",
+      "rootRelation": "paragraph 加 -ing，表示分段这一行为或处理方式。",
+      "acceptedAnswers": [
+        "分段"
+      ],
+      "formation": "paragraph（分段）+ ing（过程）= 分段",
+      "pronunciation": "ˈpærəˌɡræfɪŋ",
+      "memoryCue": "paragraph 是段落。动手决定在哪里另起一段，这件事就是分段。",
+      "parts": [
+        {
+          "text": "paragraph",
+          "ipa": "pærəɡræf",
+          "meaning": "分段"
+        },
+        {
+          "text": "-ing",
+          "ipa": "ɪŋ",
+          "meaning": "过程"
+        }
+      ],
+      "combined": "一段话说完一个意思就换一行，整篇文章这样分开，就是分段。"
+    },
+    {
+      "id": "graph.paragraph.8",
+      "word": "paragraph",
+      "partOfSpeech": "动词",
+      "meaning": "划分段落",
+      "explanation": "把连续文字按主题或结构切成不同段落。",
+      "example": "The editor asked me to paragraph the text more clearly.",
+      "translation": "编辑让我把文章的段落划分得更清楚。",
+      "rootRelation": "paragraph 的动词用法。",
+      "acceptedAnswers": [
+        "分段",
+        "划分段落"
+      ],
+      "formation": "paragraph（段落）→ 将文字划分成段落",
+      "pronunciation": "ˈpærəˌɡræf",
+      "memoryCue": "paragraph 本来指一段文字。用作动词，就是把文字分段。",
+      "plainCue": "把文字按意思分开，一段一段排好。"
+    },
+    {
+      "id": "graph.calligraphy.extra2",
+      "word": "calligraphy",
+      "partOfSpeech": "名词",
+      "meaning": "书法",
+      "explanation": "具有审美形式的手写艺术。",
+      "example": "She practices calligraphy with a brush each weekend.",
+      "translation": "她每个周末用毛笔练习书法。",
+      "rootRelation": "kalli-（美）与 graph（书写）组成。",
+      "acceptedAnswers": [
+        "书法"
+      ],
+      "formation": "calli（优美）+ graphy（书写）= 书法",
+      "pronunciation": "kəˈlɪɡrəfi",
+      "memoryCue": "calli- 有美的意思，-graphy 是书写。讲究美感的书写就是书法。",
+      "parts": [
+        {
+          "text": "calli",
+          "ipa": "kəlɪ",
+          "meaning": "优美"
+        },
+        {
+          "text": "-graphy",
+          "ipa": "ɡrəfi",
+          "meaning": "书写"
+        }
+      ],
+      "combined": "把字写得优美、有章法，就是书法艺术。"
+    },
+    {
+      "id": "graph.calligrapher.extra3",
+      "word": "calligrapher",
+      "partOfSpeech": "名词",
+      "meaning": "书法家；书法书写者",
+      "explanation": "以书法创作或书写文字的人。",
+      "example": "A calligrapher prepared the names for the ceremony.",
+      "translation": "一位书法家为仪式写了姓名牌。",
+      "rootRelation": "calligraphy 加表示人的 -er。",
+      "acceptedAnswers": [
+        "书法家"
+      ],
+      "formation": "calligraphy（书法）→ 书法家",
+      "pronunciation": "kəˈlɪɡrəfɚ",
+      "memoryCue": "擅长写优美字的人，就是书法家。"
+    },
+    {
+      "id": "graph.seismograph.extra4",
+      "word": "seismograph",
+      "partOfSpeech": "名词",
+      "meaning": "地震仪；地震记录器",
+      "explanation": "检测并记录地面震动的仪器。",
+      "example": "The seismograph recorded a small tremor overnight.",
+      "translation": "地震仪记录到夜间的一次轻微震动。",
+      "rootRelation": "seismo-（地震）与 graph（记录）组成。",
+      "acceptedAnswers": [
+        "地震仪"
+      ],
+      "formation": "seismo（地震）+ graph（记录仪）= 地震仪",
+      "pronunciation": "ˈsaɪzməˌɡræf",
+      "memoryCue": "seismo 和地震有关，graph 是记录。留下震动记录的仪器就是地震仪。",
+      "parts": [
+        {
+          "text": "seismo",
+          "ipa": "saɪzmə",
+          "meaning": "地震"
+        },
+        {
+          "text": "graph",
+          "ipa": "ɡræf",
+          "meaning": "记录仪"
+        }
+      ],
+      "combined": "地面一晃，它能把震动记下来，这台仪器就是地震仪。"
+    },
+    {
+      "id": "graph.typography.extra5",
+      "word": "typography",
+      "partOfSpeech": "名词",
+      "meaning": "字体排印；排版设计",
+      "explanation": "文字在页面上的字体、间距和排列设计。",
+      "example": "Good typography makes the page easier to read.",
+      "translation": "好的排版设计让页面更易阅读。",
+      "rootRelation": "typo-（字、印刷）与 graph（书写）相关。",
+      "acceptedAnswers": [
+        "字体排印"
+      ],
+      "formation": "typo（字模）+ graphy（书写）→ 字体排印",
+      "pronunciation": "təˈpɑɡrəfi",
+      "memoryCue": "typo 在这里和印刷字形有关。安排字的样式和位置，就是字体排印。",
+      "parts": [
+        {
+          "text": "typo",
+          "ipa": "təpɑ",
+          "meaning": "字模"
+        },
+        {
+          "text": "-graphy",
+          "ipa": "ɡrəfi",
+          "meaning": "书写"
+        }
+      ],
+      "combined": "标题用什么字、每行隔多远，这些怎样摆好看，说的是排版。"
+    },
+    {
+      "id": "graph.typographical.extra6",
+      "word": "typographical",
+      "partOfSpeech": "形容词",
+      "meaning": "排印的；排版方面的",
+      "explanation": "与字体、排版或印刷形式有关。",
+      "example": "The proofreader found a typographical error in the heading.",
+      "translation": "校对员在标题里发现了一个排印错误。",
+      "rootRelation": "由 typography 加 -ical 构成。",
+      "acceptedAnswers": [
+        "排印的"
+      ],
+      "formation": "typography（字体排印）→ 排印的",
+      "pronunciation": "ˌtaɪpəˈɡræfɪkəl",
+      "memoryCue": "typography 是字体排印。描述排印这方面的事，用 typographical。",
+      "plainCue": "字印错了、两行挤在一起，都是排印上的问题。"
+    }
+  ],
+  "links": [
+    {
+      "to": "graph.graph.2",
+      "kind": "用法对照",
+      "note": "graph 常指用坐标展示数据的图，graphic 可形容更广义的图像或视觉内容。",
+      "from": "graph.graphic.1"
+    },
+    {
+      "to": "graph.graphics.4",
+      "kind": "语义联系",
+      "note": "graphic 描述视觉形式，graphics 常指屏幕或作品中的图形。",
+      "from": "graph.graphic.1"
+    },
+    {
+      "to": "graph.infographic.5",
+      "kind": "语境关联",
+      "note": "团队可用图表分析变化，再通过 infographic 把关键趋势讲给读者。",
+      "from": "graph.graph.2"
+    },
+    {
+      "to": "graph.infographic.5",
+      "kind": "派生关系",
+      "note": "infographic 结合 information 和 graphic，用视觉形式解释信息。",
+      "from": "graph.graphic.1"
+    },
+    {
+      "to": "graph.paragraphing.8",
+      "kind": "派生关系",
+      "note": "paragraph 是一段文字，paragraphing 是如何把文字分段。",
+      "from": "graph.paragraph.3"
+    },
+    {
+      "to": "graph.paragraph.8",
+      "kind": "用法对照",
+      "note": "paragraph 作名词指段落，作动词指把文本分段。",
+      "from": "graph.paragraph.3"
+    },
+    {
+      "to": "graph.photograph.7",
+      "kind": "用法对照",
+      "note": "autograph 是本人签下的名字，photograph 是相机记录的影像；两词都含记录、描写的成分。",
+      "from": "graph.autograph.4"
+    },
+    {
+      "to": "graph.calligraphy.extra2",
+      "kind": "语义联系",
+      "note": "autograph 强调本人亲笔签名，calligraphy 强调书写的艺术和美感。",
+      "from": "graph.autograph.4"
+    },
+    {
+      "to": "graph.calligrapher.extra3",
+      "kind": "派生关系",
+      "note": "calligraphy 是书写艺术，calligrapher 是从事这门艺术的人。",
+      "from": "graph.calligraphy.extra2"
+    },
+    {
+      "to": "graph.seismograph.extra4",
+      "kind": "同词根",
+      "note": "photograph 用光留下影像，seismograph 记录地面震动。",
+      "from": "graph.photograph.7"
+    },
+    {
+      "to": "graph.typography.extra5",
+      "kind": "用法对照",
+      "note": "calligraphy 关注手写字形，typography 关注字体选择和印刷或屏幕排版。",
+      "from": "graph.calligraphy.extra2"
+    },
+    {
+      "to": "graph.typographical.extra6",
+      "kind": "派生关系",
+      "note": "typography 是排印设计，typographical 形容文字的印排形式。",
+      "from": "graph.typography.extra5"
+    }
+  ],
+  "rootIPA": "ɡræf",
+  "rootSpoken": "graph",
+  "rootContext": "",
+  "rootIntro": "把东西写下来、画下来，都能帮你记住这一块。",
+  "rootKind": "词根"
+}

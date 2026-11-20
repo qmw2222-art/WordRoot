@@ -1,0 +1,102 @@
+{
+  "id": "family.shop",
+  "root": "shop",
+  "meaning": "购物",
+  "explanation": "想一想进店的人手里拿着什么。顾客、购物袋和购物这件事都有 shop。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "shop.shop",
+      "word": "shop",
+      "partOfSpeech": "动词",
+      "meaning": "购物",
+      "formation": "shop 可以指逛店买东西",
+      "rootRelation": "想一想进店的人手里拿着什么。顾客、购物袋和购物这件事都有 shop。",
+      "explanation": "例句中的 shop 取“购物”这个意思。",
+      "example": "I shop here every week.",
+      "translation": "我每周都来这里买东西。",
+      "acceptedAnswers": [
+        "购物"
+      ],
+      "pronunciation": "ʃɑp",
+      "memoryCue": "去店里挑东西、买东西，这个动作就是购物。"
+    },
+    {
+      "id": "shop.shopper",
+      "word": "shopper",
+      "partOfSpeech": "名词",
+      "meaning": "购物者",
+      "formation": "shop（购物）+ er（人），双写 p，成为 shopper",
+      "rootRelation": "想一想进店的人手里拿着什么。顾客、购物袋和购物这件事都有 shop。",
+      "explanation": "例句中的 shopper 取“购物者”这个意思。",
+      "example": "The shopper picked up a basket.",
+      "translation": "这位顾客拿起了一个篮子。",
+      "acceptedAnswers": [
+        "购物者"
+      ],
+      "pronunciation": "ˈʃɑpɚ",
+      "memoryCue": "shop 是购物，-er 指人。中间多写一个 p，意思还是购物的人。",
+      "parts": [
+        {
+          "text": "shop",
+          "ipa": "ʃɑp",
+          "meaning": "购物"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "人"
+        }
+      ],
+      "combined": "在店里挑东西、付钱的人，就是购物的人。"
+    },
+    {
+      "id": "shop.shopping-bag",
+      "word": "shopping bag",
+      "partOfSpeech": "名词",
+      "meaning": "购物袋",
+      "formation": "shopping（购物）+ bag（袋子）= 购物袋",
+      "rootRelation": "想一想进店的人手里拿着什么。顾客、购物袋和购物这件事都有 shop。",
+      "explanation": "例句中的 shopping bag 取“购物袋”这个意思。",
+      "example": "I brought my shopping bag.",
+      "translation": "我带了自己的购物袋。",
+      "acceptedAnswers": [
+        "购物袋"
+      ],
+      "pronunciation": "ˈʃɑpɪŋ bæɡ",
+      "memoryCue": "先看最后的 bag，是袋子。前面说用来购物，所以是购物袋。",
+      "parts": [
+        {
+          "text": "shopping",
+          "ipa": "ʃɑpɪŋ",
+          "meaning": "购物"
+        },
+        {
+          "text": "bag",
+          "ipa": "bæɡ",
+          "meaning": "袋子"
+        }
+      ],
+      "combined": "装刚买的东西、提回家的袋子，就是购物袋。"
+    }
+  ],
+  "links": [
+    {
+      "from": "shop.shop",
+      "to": "shop.shopper",
+      "kind": "同一词族",
+      "note": "shop（购物）+ er（人），双写 p，成为 shopper"
+    },
+    {
+      "from": "shop.shop",
+      "to": "shop.shopping-bag",
+      "kind": "同一词族",
+      "note": "shopping（购物）+ bag（袋子）= 购物袋"
+    }
+  ],
+  "rootIPA": "ʃɑp",
+  "rootSpoken": "shop",
+  "rootContext": "",
+  "rootIntro": "这里的意思是购物。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

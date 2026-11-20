@@ -1,0 +1,207 @@
+{
+  "id": "family.pay",
+  "root": "pay",
+  "meaning": "付钱",
+  "explanation": "先记结账时的 pay。预先付和事后还，差别就在 pay 前面。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "pay.pay",
+      "word": "pay",
+      "partOfSpeech": "动词",
+      "meaning": "付款",
+      "formation": "pay 表示付钱",
+      "rootRelation": "先记结账时的 pay。预先付和事后还，差别就在 pay 前面。",
+      "explanation": "例句中的 pay 取“付款”这个意思。",
+      "example": "Can I pay by card?",
+      "translation": "我能刷卡吗？",
+      "acceptedAnswers": [
+        "付款"
+      ],
+      "pronunciation": "peɪ",
+      "memoryCue": "在收银台把钱付给店员，这个动作就是付款。"
+    },
+    {
+      "id": "pay.payment",
+      "word": "payment",
+      "partOfSpeech": "名词",
+      "meaning": "付款",
+      "formation": "pay（付钱）+ ment（行为或结果）= 付款",
+      "rootRelation": "先记结账时的 pay。预先付和事后还，差别就在 pay 前面。",
+      "explanation": "例句中的 payment 取“付款”这个意思。",
+      "example": "Your payment went through.",
+      "translation": "你的付款成功了。",
+      "acceptedAnswers": [
+        "付款"
+      ],
+      "pronunciation": "ˈpeɪmənt",
+      "memoryCue": "pay 是付，-ment 把动作变成一件事或一笔款。合起来就是付款。",
+      "parts": [
+        {
+          "text": "pay",
+          "ipa": "peɪ",
+          "meaning": "付钱"
+        },
+        {
+          "text": "-ment",
+          "ipa": "mənt",
+          "meaning": "行为或结果"
+        }
+      ],
+      "combined": "钱付出去了，这笔付出去的钱，就叫一笔付款。"
+    },
+    {
+      "id": "pay.payday",
+      "word": "payday",
+      "partOfSpeech": "名词",
+      "meaning": "发薪日",
+      "formation": "pay（工资）+ day（日子）= 发薪日",
+      "rootRelation": "先记结账时的 pay。预先付和事后还，差别就在 pay 前面。",
+      "explanation": "例句中的 payday 取“发薪日”这个意思。",
+      "example": "Friday is payday.",
+      "translation": "星期五发工资。",
+      "acceptedAnswers": [
+        "发薪日"
+      ],
+      "pronunciation": "ˈpeɪˌdeɪ",
+      "memoryCue": "pay 在这里是工资，day 是日子。领工资的日子就是发薪日。",
+      "parts": [
+        {
+          "text": "pay",
+          "ipa": "peɪ",
+          "meaning": "工资"
+        },
+        {
+          "text": "day",
+          "ipa": "deɪ",
+          "meaning": "日子"
+        }
+      ],
+      "combined": "每个月工资到账的那一天，就是发薪日。"
+    },
+    {
+      "id": "pay.prepay",
+      "word": "prepay",
+      "partOfSpeech": "动词",
+      "meaning": "预付",
+      "formation": "pre（事先）+ pay（付）= 预付",
+      "rootRelation": "先记结账时的 pay。预先付和事后还，差别就在 pay 前面。",
+      "explanation": "例句中的 prepay 取“预付”这个意思。",
+      "example": "We can prepay for breakfast.",
+      "translation": "我们可以预付早餐费。",
+      "acceptedAnswers": [
+        "预付"
+      ],
+      "pronunciation": "priˈpeɪ",
+      "memoryCue": "pre- 是事先。饭还没吃就把钱付好，就是预付。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "pri",
+          "meaning": "在前面"
+        },
+        {
+          "text": "pay",
+          "ipa": "peɪ",
+          "meaning": "付款"
+        }
+      ],
+      "combined": "服务还没开始，你先把钱付好，这个动作就是预付。"
+    },
+    {
+      "id": "pay.prepaid",
+      "word": "prepaid",
+      "partOfSpeech": "形容词",
+      "meaning": "预付费的",
+      "formation": "pre（事先）+ paid（已经付过）= 预付费的",
+      "rootRelation": "先记结账时的 pay。预先付和事后还，差别就在 pay 前面。",
+      "explanation": "例句中的 prepaid 取“预付费的”这个意思。",
+      "example": "I'd like a prepaid card.",
+      "translation": "我想要一张预付卡。",
+      "acceptedAnswers": [
+        "预付费的"
+      ],
+      "pronunciation": "priˈpeɪd",
+      "memoryCue": "paid 是已经付过。prepaid 表示钱早就付好了。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "pri",
+          "meaning": "事先"
+        },
+        {
+          "text": "paid",
+          "ipa": "peɪd",
+          "meaning": "已经付过"
+        }
+      ],
+      "combined": "电话卡里的钱已经提前付好了，就叫预付费的。"
+    },
+    {
+      "id": "pay.repay",
+      "word": "repay",
+      "partOfSpeech": "动词",
+      "meaning": "偿还",
+      "formation": "re（回）+ pay（付钱）= 把钱还回去",
+      "rootRelation": "先记结账时的 pay。预先付和事后还，差别就在 pay 前面。",
+      "explanation": "例句中的 repay 取“偿还”这个意思。",
+      "example": "I'll repay you tomorrow.",
+      "translation": "我明天还你钱。",
+      "acceptedAnswers": [
+        "偿还"
+      ],
+      "pronunciation": "riˈpeɪ",
+      "memoryCue": "re- 在这里表示回去。借了钱再付回去，就是偿还。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "还回去"
+        },
+        {
+          "text": "pay",
+          "ipa": "peɪ",
+          "meaning": "付钱"
+        }
+      ],
+      "combined": "借了别人的钱，再把钱还回去，就是偿还。"
+    }
+  ],
+  "links": [
+    {
+      "from": "pay.pay",
+      "to": "pay.payment",
+      "kind": "同一词族",
+      "note": "pay（付钱）+ ment（行为或结果）= 付款"
+    },
+    {
+      "from": "pay.pay",
+      "to": "pay.payday",
+      "kind": "同一词族",
+      "note": "pay（工资）+ day（日子）= 发薪日"
+    },
+    {
+      "from": "pay.pay",
+      "to": "pay.prepay",
+      "kind": "同一词族",
+      "note": "pre（事先）+ pay（付）= 预付"
+    },
+    {
+      "from": "pay.pay",
+      "to": "pay.prepaid",
+      "kind": "同一词族",
+      "note": "pre（事先）+ paid（已经付过）= 预付费的"
+    },
+    {
+      "from": "pay.pay",
+      "to": "pay.repay",
+      "kind": "同一词族",
+      "note": "re（回）+ pay（付钱）= 把钱还回去"
+    }
+  ],
+  "rootIPA": "peɪ",
+  "rootSpoken": "pay",
+  "rootContext": "",
+  "rootIntro": "这里的意思是付钱。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

@@ -1,0 +1,254 @@
+{
+  "id": "family.form",
+  "root": "form",
+  "meaning": "形状、形式",
+  "explanation": "form 关联拉丁语 forma「形状、形式」。词族中的许多词说的是给事物某种形态、采用某种格式或改变原来的形态。",
+  "isFree": true,
+  "words": [
+    {
+      "id": "form.form.0",
+      "word": "form",
+      "partOfSpeech": "名词",
+      "meaning": "表格；表单",
+      "explanation": "在办手续、报名或申请时，指填入姓名等信息的表格。",
+      "example": "Please fill in this form before your appointment.",
+      "translation": "请在预约时间前填好这张表。",
+      "rootRelation": "form 原意涉及形状、形式，表格是一种预先规定的格式。",
+      "acceptedAnswers": [
+        "表格",
+        "表单"
+      ],
+      "formation": "form（形式）→ 按固定格式填写的表格",
+      "pronunciation": "fɔrm",
+      "memoryCue": "需要填写姓名、日期等信息的表格。"
+    },
+    {
+      "id": "form.format",
+      "word": "format",
+      "partOfSpeech": "名词",
+      "meaning": "格式；编排形式",
+      "explanation": "指信息呈现或文件组织采用的结构。",
+      "example": "Save the photo in a format that your phone can open.",
+      "translation": "把照片保存成手机能够打开的格式。",
+      "rootRelation": "与 form 同属形式、结构词族。",
+      "acceptedAnswers": [
+        "格式"
+      ],
+      "formation": "form（形式）→ 安排内容的格式",
+      "pronunciation": "ˈfɔrˌmæt",
+      "memoryCue": "内容怎么排列、以什么样式呈现，就是格式。"
+    },
+    {
+      "id": "form.transform",
+      "word": "transform",
+      "partOfSpeech": "动词",
+      "meaning": "改变；使转变",
+      "explanation": "使外观、状态或性质发生明显变化。",
+      "example": "A coat of paint transformed the old kitchen.",
+      "translation": "刷上一层漆让旧厨房焕然一新。",
+      "rootRelation": "form 与 trans- 组合，表示改变原有形态。",
+      "acceptedAnswers": [
+        "改变"
+      ],
+      "formation": "trans（改变、跨越）+ form（形态）→ 改变形态",
+      "pronunciation": "trænsˈfɔrm",
+      "memoryCue": "trans- 有改变的意思，form 是形态。让形态发生变化就是改变。",
+      "parts": [
+        {
+          "text": "trans-",
+          "ipa": "træns",
+          "meaning": "改变、跨越"
+        },
+        {
+          "text": "form",
+          "ipa": "fɔrm",
+          "meaning": "形态"
+        }
+      ],
+      "combined": "让外形、状态或性质发生明显变化。"
+    },
+    {
+      "id": "form.inform",
+      "word": "inform",
+      "partOfSpeech": "动词",
+      "meaning": "告知；通知",
+      "explanation": "把事实告诉某人，使其了解情况。",
+      "example": "Please inform us if your travel plans change.",
+      "translation": "如果你的旅行计划有变，请通知我们。",
+      "rootRelation": "词源词族联系涉及赋予形式、塑造心智。",
+      "acceptedAnswers": [
+        "告知"
+      ],
+      "formation": "form（形态）→ 把所知传达给别人，告知",
+      "pronunciation": "ɪnˈfɔrm",
+      "memoryCue": "把自己知道的事告诉另一个人，就是 inform。",
+      "plainCue": "把事实告诉某人，让对方知道情况。"
+    },
+    {
+      "id": "form.formal",
+      "word": "formal",
+      "partOfSpeech": "形容词",
+      "meaning": "正式的；正规的",
+      "explanation": "描述符合礼仪、规则或场合要求的表达和行为。",
+      "example": "The invitation asks guests to wear formal clothes.",
+      "translation": "邀请函请宾客穿正式服装。",
+      "rootRelation": "form 加 -al 构成形容词。",
+      "acceptedAnswers": [
+        "正式的"
+      ],
+      "formation": "form（形式）+ al（与……有关）→ 正式的",
+      "pronunciation": "ˈfɔrməl",
+      "memoryCue": "把它和 clothes 连着记，指正式场合穿的衣服，就能想起「正式的」。",
+      "parts": [
+        {
+          "text": "form",
+          "ipa": "fɔrm",
+          "meaning": "形式"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与……有关"
+        }
+      ],
+      "combined": "符合规定或正式场合要求的，就是正式的。"
+    },
+    {
+      "id": "form.transformation",
+      "word": "transformation",
+      "partOfSpeech": "名词",
+      "meaning": "转变；变化过程",
+      "explanation": "指状态或性质发生改变的过程或结果。",
+      "example": "The town has seen a transformation since the new bridge opened.",
+      "translation": "新桥通车后，这座小镇发生了很大变化。",
+      "rootRelation": "transform 加 -ation 构成名词。",
+      "acceptedAnswers": [
+        "转变"
+      ],
+      "formation": "transform（改变）+ ation（过程或结果）= 转变",
+      "pronunciation": "ˌtrænsfɚˈmeɪʃən",
+      "memoryCue": "transform 是改变。整个改变的过程或结果，就是转变。",
+      "parts": [
+        {
+          "text": "transform",
+          "ipa": "trænsfɚm",
+          "meaning": "改变"
+        },
+        {
+          "text": "-ation",
+          "ipa": "eɪʃən",
+          "meaning": "过程或结果"
+        }
+      ],
+      "combined": "从一种状态变成另一种状态的变化。"
+    },
+    {
+      "id": "form.information",
+      "word": "information",
+      "partOfSpeech": "名词",
+      "meaning": "信息；资料",
+      "explanation": "关于某事的事实或细节，可供了解或作决定。",
+      "example": "The website gives visitors information about local buses.",
+      "translation": "这个网站向访客提供当地公交信息。",
+      "rootRelation": "inform 加 -ation 构成相关名词。",
+      "acceptedAnswers": [
+        "信息",
+        "资料"
+      ],
+      "formation": "inform（告知）→ 所告知的信息",
+      "pronunciation": "ˌɪnfɚˈmeɪʃən",
+      "memoryCue": "inform 是告知。别人告诉你的那些内容，就是信息。",
+      "parts": [
+        {
+          "text": "inform",
+          "ipa": "ɪnfɚm",
+          "meaning": "告知"
+        },
+        {
+          "text": "-ation",
+          "ipa": "eɪʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "帮助你了解情况或作决定的事实和细节。"
+    },
+    {
+      "id": "form.reform",
+      "word": "reform",
+      "partOfSpeech": "动词",
+      "meaning": "改革；改进制度",
+      "explanation": "通过改变规则或组织方式来改善制度或做法。",
+      "example": "The city plans to reform its parking rules.",
+      "translation": "市政府计划改革停车规定。",
+      "rootRelation": "form 与 re-（重新）组合，表示重新塑造。",
+      "acceptedAnswers": [
+        "改革"
+      ],
+      "formation": "re（重新）+ form（形成）→ 改革",
+      "pronunciation": "rəˈfɔrm",
+      "memoryCue": "re- 是重新，form 是形成。重新安排旧做法让它变好，就是改革。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "rə",
+          "meaning": "重新"
+        },
+        {
+          "text": "form",
+          "ipa": "fɔrm",
+          "meaning": "形成"
+        }
+      ],
+      "combined": "改动规则或制度，让它变得更好。"
+    }
+  ],
+  "links": [
+    {
+      "to": "form.formal",
+      "kind": "同词根",
+      "note": "form 可以指一种形式，formal 描述符合正式场合或规范的方式。",
+      "from": "form.form.0"
+    },
+    {
+      "to": "form.format",
+      "kind": "用法对照",
+      "note": "form 可指供人填写的表格，format 是文档、活动或数据采用的编排方式。",
+      "from": "form.form.0"
+    },
+    {
+      "to": "form.transform",
+      "kind": "同词根",
+      "note": "form 是形态，transform 强调把原有形态或性质彻底改变。",
+      "from": "form.form.0"
+    },
+    {
+      "to": "form.transformation",
+      "kind": "派生关系",
+      "note": "transform 是使之改变，transformation 是改变的过程或结果。",
+      "from": "form.transform"
+    },
+    {
+      "to": "form.reform",
+      "kind": "用法对照",
+      "note": "transform 强调显著转变，reform 通常指通过改动改善某项制度。",
+      "from": "form.transform"
+    },
+    {
+      "to": "form.information",
+      "kind": "派生关系",
+      "note": "inform 是把情况告知别人，information 是传达的情况或资料。",
+      "from": "form.inform"
+    },
+    {
+      "to": "form.information",
+      "kind": "语境关联",
+      "note": "同一份 information 可以采用表格或纯文本等不同 format 呈现。",
+      "from": "form.format"
+    }
+  ],
+  "rootIPA": "fɔrm",
+  "rootSpoken": "form",
+  "rootContext": "",
+  "rootIntro": "这里的意思是形状、形式。接下来的词都跟它有关。",
+  "rootKind": "词根"
+}

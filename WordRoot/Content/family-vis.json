@@ -1,0 +1,521 @@
+{
+  "id": "family.vis",
+  "root": "vis",
+  "meaning": "看、观察",
+  "explanation": "vis- 和 vid- 与拉丁语「看」的词有关。它们可以讲能否看到、怎样呈现图像，还可以延伸到检查和监督。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "vis.vision.1",
+      "word": "vision",
+      "partOfSpeech": "名词",
+      "meaning": "视力；构想",
+      "explanation": "既可指看见的能力，也可指对未来的清晰构想。",
+      "example": "Her vision improved after she got new glasses.",
+      "translation": "她换了新眼镜后视力改善了。",
+      "rootRelation": "vis（看）构成的名词。",
+      "acceptedAnswers": [
+        "视力"
+      ],
+      "formation": "vis-（看、视觉） + -ion（行为或结果） → 视力",
+      "pronunciation": "ˈvɪʒən",
+      "memoryCue": "vis 是看。眼睛能看是视力，心里看见未来是愿景。",
+      "parts": [
+        {
+          "text": "vis-",
+          "ipa": "ˈvɪʒ",
+          "meaning": "看、视觉",
+          "notes": [
+            "在 vision 中读 /vɪʒ/"
+          ]
+        },
+        {
+          "text": "-ion",
+          "ipa": "ən",
+          "meaning": "行为或结果",
+          "notes": [
+            "视觉、构想"
+          ]
+        }
+      ],
+      "combined": "换了眼镜，字看得更清楚了，这里说的是视力。也可以指对未来的构想。"
+    },
+    {
+      "id": "vis.visible.2",
+      "word": "visible",
+      "partOfSpeech": "形容词",
+      "meaning": "看得见的；明显的",
+      "explanation": "能被眼睛看到，也可指某种影响清楚可察。",
+      "example": "The lighthouse is visible from the beach.",
+      "translation": "从海滩上能看见灯塔。",
+      "rootRelation": "vis（看）加 -ible，表示能够被看见。",
+      "acceptedAnswers": [
+        "看得见的"
+      ],
+      "formation": "vis（看）+ -ible（能够） = 能够看见 → 可见的",
+      "pronunciation": "ˈvɪzəbəl",
+      "memoryCue": "vis 是看，-ible 是能。能看见，就是可见的。",
+      "parts": [
+        {
+          "text": "vis",
+          "ipa": "vɪz",
+          "meaning": "看"
+        },
+        {
+          "text": "-ible",
+          "ipa": "əbəl",
+          "meaning": "能……的"
+        }
+      ],
+      "combined": "有灯光照着，站远了也能看清招牌，就说它是看得见的。"
+    },
+    {
+      "id": "vis.visual.4",
+      "word": "visual",
+      "partOfSpeech": "形容词",
+      "meaning": "视觉的；图像的",
+      "explanation": "与看、图像或视觉呈现有关。",
+      "example": "The guide uses visual examples to explain the route.",
+      "translation": "导览员用图示讲解路线。",
+      "rootRelation": "vis（看）加形容词后缀 -ual。",
+      "acceptedAnswers": [
+        "视觉的"
+      ],
+      "formation": "vis-（看、视觉） + -ual（与……有关的） → 视觉的",
+      "pronunciation": "ˈvɪʒəwəl",
+      "memoryCue": "抓住 vis 和「看」的关系。用眼睛感知的，就可以说是视觉的。",
+      "parts": [
+        {
+          "text": "vis-",
+          "ipa": "ˈvɪʒ",
+          "meaning": "看、视觉"
+        },
+        {
+          "text": "-ual",
+          "ipa": "uəl",
+          "meaning": "与……有关的",
+          "notes": [
+            "视觉的"
+          ]
+        }
+      ],
+      "combined": "地图让你用眼睛看出路线，提供的是视觉上的帮助。"
+    },
+    {
+      "id": "vis.supervise.7",
+      "word": "supervise",
+      "partOfSpeech": "动词",
+      "meaning": "监督；指导",
+      "explanation": "观察工作进展并确保任务按要求完成。",
+      "example": "A nurse will supervise the exercise session.",
+      "translation": "护士会监督这次锻炼。",
+      "rootRelation": "历史构词含 super-（在上）和 videre（看），现代词义为监督。",
+      "acceptedAnswers": [
+        "监督"
+      ],
+      "formation": "super-（在上、从上方） + vis-（看、监督） → 监督",
+      "pronunciation": "ˈsupɚˌvaɪz",
+      "memoryCue": "super- 有在上的意思。照看一件事有没有做好，就是监督。",
+      "parts": [
+        {
+          "text": "super-",
+          "ipa": "ˌsupɚ",
+          "meaning": "在上、从上方"
+        },
+        {
+          "text": "vis-",
+          "ipa": "ˈvaɪz",
+          "meaning": "看、监督",
+          "notes": [
+            "在 supervise 中读 /vaɪz/"
+          ]
+        }
+      ],
+      "combined": "看着新人操作，必要时指点一下，这就是监督和指导。"
+    },
+    {
+      "id": "vis.invisible.3",
+      "word": "invisible",
+      "partOfSpeech": "形容词",
+      "meaning": "看不见的",
+      "explanation": "无法被肉眼看到，或不容易被注意到。",
+      "example": "The mark is almost invisible in this light.",
+      "translation": "在这种光线下几乎看不见这个标记。",
+      "rootRelation": "in-（不）加 visible。",
+      "acceptedAnswers": [
+        "看不见的"
+      ],
+      "formation": "in（不）+ visible（可见的） = 不可见的",
+      "pronunciation": "ˌɪnˈvɪzəbəl",
+      "memoryCue": "先认出 visible 是看得见的。前面的 in- 表示不，合起来就是看不见的。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "不"
+        },
+        {
+          "text": "visible",
+          "ipa": "vɪzəbəl",
+          "meaning": "看得见的"
+        }
+      ],
+      "combined": "明明就在身边，眼睛却看不见，比如空气，就叫看不见的。"
+    },
+    {
+      "id": "vis.visualize.5",
+      "word": "visualize",
+      "partOfSpeech": "动词",
+      "meaning": "想象；使可视化",
+      "explanation": "在脑中形成画面，也可把数据转成图形呈现。",
+      "example": "Try to visualize the room before you move the furniture.",
+      "translation": "移动家具前，试着想象一下房间的样子。",
+      "rootRelation": "visual 加动词后缀 -ize。",
+      "acceptedAnswers": [
+        "想象"
+      ],
+      "formation": "visual + -ize = 视觉的 → 想象；可视化",
+      "pronunciation": "ˈvɪʒwəˌlaɪz",
+      "memoryCue": "visual 和看有关。把想法变成眼前的画面，就是 visualize。",
+      "parts": [
+        {
+          "text": "visual",
+          "ipa": "vɪʒwəl",
+          "meaning": "视觉的"
+        },
+        {
+          "text": "-ize",
+          "ipa": "aɪz",
+          "meaning": "使它变成这样"
+        }
+      ],
+      "combined": "闭上眼，在脑子里看见回家的路，这个动作就是想象。"
+    },
+    {
+      "id": "vis.visually.6",
+      "word": "visually",
+      "partOfSpeech": "副词",
+      "meaning": "从视觉上；外观上",
+      "explanation": "说明判断或呈现主要通过视觉进行。",
+      "example": "The two packages look visually similar.",
+      "translation": "这两个包装看上去很相似。",
+      "rootRelation": "visual 加副词后缀 -ly。",
+      "acceptedAnswers": [
+        "从视觉上"
+      ],
+      "formation": "visual + -ly = 视觉的 → 从视觉上",
+      "pronunciation": "ˈvɪʒwəli",
+      "memoryCue": "visual 是视觉的。从眼睛看到的效果来讲，就用 visually。",
+      "parts": [
+        {
+          "text": "visual",
+          "ipa": "vɪʒwə",
+          "meaning": "视觉的"
+        },
+        {
+          "text": "-ly",
+          "ipa": "li",
+          "meaning": "用这样的方式"
+        }
+      ],
+      "combined": "两个盒子拿在手里一样重，可看起来不一样。这里说的是从外观看。"
+    },
+    {
+      "id": "vis.supervisor.8",
+      "word": "supervisor",
+      "partOfSpeech": "名词",
+      "meaning": "主管；监督者",
+      "explanation": "负责指导某项工作并检查进度的人。",
+      "example": "Ask your supervisor before changing the schedule.",
+      "translation": "更改日程前先问主管。",
+      "rootRelation": "supervise 加表示人的 -or。",
+      "acceptedAnswers": [
+        "主管"
+      ],
+      "formation": "supervise + -or = 监督 → 主管",
+      "pronunciation": "ˈsupɚˌvaɪzɚ",
+      "memoryCue": "supervise 是监督。负责指导、检查进度的人，就是主管。",
+      "parts": [
+        {
+          "text": "supervise",
+          "ipa": "supɚvaɪz",
+          "meaning": "监督"
+        },
+        {
+          "text": "-or",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "看大家做事、遇到问题能给指导的那个人，就是主管。"
+    },
+    {
+      "id": "vis.revise.extra1",
+      "word": "revise",
+      "partOfSpeech": "动词",
+      "meaning": "修订；修改",
+      "explanation": "再次检查文本或计划并改正、更新。",
+      "example": "I revised the instructions after the trial run.",
+      "translation": "试运行后我修订了说明。",
+      "rootRelation": "re-（再次）与 vis（看）相关，先重看再修改。",
+      "acceptedAnswers": [
+        "修订"
+      ],
+      "formation": "re-（再、重新） + vise（检查、看） → 修订",
+      "pronunciation": "rɪˈvaɪz",
+      "memoryCue": "re- 是再，vis 是看。把写好的东西再看再改，就是修订。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "rɪ",
+          "meaning": "再、重新"
+        },
+        {
+          "text": "vise",
+          "ipa": "ˈvaɪz",
+          "meaning": "检查、看",
+          "notes": [
+            "revise 现代义为修订"
+          ]
+        }
+      ],
+      "combined": "写好的信再看一遍，把不清楚的地方改掉，这就叫修订。"
+    },
+    {
+      "id": "vis.revision.extra2",
+      "word": "revision",
+      "partOfSpeech": "名词",
+      "meaning": "修订；修改稿",
+      "explanation": "检查并改进内容的过程或结果。",
+      "example": "The editor requested one more revision.",
+      "translation": "编辑要求再修改一次。",
+      "rootRelation": "由 revise 加 -ion 构成。",
+      "acceptedAnswers": [
+        "修订"
+      ],
+      "formation": "revise + -ion = 修订 → 修订；修改稿",
+      "pronunciation": "riˈvɪʒən",
+      "memoryCue": "revise 是修订。一次修改或改好的稿子，都可以叫 revision。",
+      "parts": [
+        {
+          "text": "revise",
+          "ipa": "rivɪ",
+          "meaning": "修订"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʒən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "一份稿子改过一遍，改出来的那一份就是修改稿。"
+    },
+    {
+      "id": "vis.preview.extra3",
+      "word": "preview",
+      "partOfSpeech": "名词",
+      "meaning": "预览；预告",
+      "explanation": "提前查看内容的一部分或活动的介绍。",
+      "example": "The app shows a preview before exporting the file.",
+      "translation": "导出文件前，应用会显示预览。",
+      "rootRelation": "pre-（预先）与 view（看）组成。",
+      "acceptedAnswers": [
+        "预览"
+      ],
+      "formation": "pre（预先）+ view（看） = 预先看 → 预览",
+      "pronunciation": "ˈpriˌvju",
+      "memoryCue": "pre- 是提前，view 是看。提前看一眼就是预览。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "pri",
+          "meaning": "预先"
+        },
+        {
+          "text": "view",
+          "ipa": "vju",
+          "meaning": "看"
+        }
+      ],
+      "combined": "打印之前，屏幕上先给你看的那个页面，就是预览图。"
+    },
+    {
+      "id": "vis.preview.extra4",
+      "word": "preview",
+      "partOfSpeech": "动词",
+      "meaning": "预览；提前观看",
+      "explanation": "正式使用或发布前先查看内容。",
+      "example": "You can preview the page on a phone screen.",
+      "translation": "你可以在手机屏幕上预览页面。",
+      "rootRelation": "preview 的动词用法。",
+      "acceptedAnswers": [
+        "预览"
+      ],
+      "formation": "pre-（预先） + view（看） → 预览",
+      "pronunciation": "ˈpriˌvju",
+      "memoryCue": "pre- 是提前，view 是看。这里作动词，指提前观看。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "ˈpri",
+          "meaning": "预先"
+        },
+        {
+          "text": "view",
+          "ipa": "ˌvju",
+          "meaning": "看",
+          "notes": [
+            "提前观看"
+          ]
+        }
+      ],
+      "combined": "打印之前先看一眼页面的样子，这个动作就是预览。"
+    },
+    {
+      "id": "vis.review.extra5",
+      "word": "review",
+      "partOfSpeech": "名词",
+      "meaning": "复习；评审",
+      "explanation": "再次查看材料以巩固知识，也可指评价。",
+      "example": "A short review helped me remember the new terms.",
+      "translation": "简短复习帮助我记住了新术语。",
+      "rootRelation": "re-（再次）与 view（看）组成。",
+      "acceptedAnswers": [
+        "复习"
+      ],
+      "formation": "re（再次）+ view（看） = 再次看 → 复习；评审",
+      "pronunciation": "ˌriˈvju",
+      "memoryCue": "re- 是再一次，view 是看。学过了再看就是复习。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "再次"
+        },
+        {
+          "text": "view",
+          "ipa": "vju",
+          "meaning": "看"
+        }
+      ],
+      "combined": "学过的词隔天再看一遍，这一遍就叫复习。"
+    },
+    {
+      "id": "vis.review.extra6",
+      "word": "review",
+      "partOfSpeech": "动词",
+      "meaning": "复习；审阅",
+      "explanation": "再次检查内容或重新学习材料。",
+      "example": "Please review the safety steps before starting.",
+      "translation": "开始前请再看一遍安全步骤。",
+      "rootRelation": "review 的动词用法。",
+      "acceptedAnswers": [
+        "复习"
+      ],
+      "formation": "re-（再、重新） + view（看） → 复习",
+      "pronunciation": "ˌriˈvju",
+      "memoryCue": "re- 是再，view 是看。这里作名词，指一次复习或审阅。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ˌri",
+          "meaning": "再、重新"
+        },
+        {
+          "text": "view",
+          "ipa": "ˈvju",
+          "meaning": "看",
+          "notes": [
+            "再次查看或复习"
+          ]
+        }
+      ],
+      "combined": "安全步骤早就知道，动手前再过一遍，就是复习或审阅。"
+    }
+  ],
+  "links": [
+    {
+      "to": "vis.visible.2",
+      "kind": "用法对照",
+      "note": "vision 可指视力，visible 形容事物能被看到。",
+      "from": "vis.vision.1"
+    },
+    {
+      "to": "vis.invisible.3",
+      "kind": "用法对照",
+      "note": "visible 是看得见的，invisible 是看不见的。",
+      "from": "vis.visible.2"
+    },
+    {
+      "to": "vis.visual.4",
+      "kind": "同词根",
+      "note": "vision 是视力或对未来的构想，visual 形容和视觉或图像有关。",
+      "from": "vis.vision.1"
+    },
+    {
+      "to": "vis.visualize.5",
+      "kind": "派生关系",
+      "note": "visual 形容视觉的，visualize 表示在脑中想象或用图像显示。",
+      "from": "vis.visual.4"
+    },
+    {
+      "to": "vis.visually.6",
+      "kind": "派生关系",
+      "note": "visual 是形容词，visually 是副词，指从视觉上看。",
+      "from": "vis.visual.4"
+    },
+    {
+      "to": "vis.supervisor.8",
+      "kind": "派生关系",
+      "note": "supervise 是监督，supervisor 是执行监督的人。",
+      "from": "vis.supervise.7"
+    },
+    {
+      "to": "vis.vision.1",
+      "kind": "同词根",
+      "note": "supervise 里的历史成分也和「看」有关，现代用法强调监督人员或活动。",
+      "from": "vis.supervise.7"
+    },
+    {
+      "to": "vis.revision.extra2",
+      "kind": "派生关系",
+      "note": "revise 表示重新检查并调整，revision 是修订过程或改过的版本。",
+      "from": "vis.revise.extra1"
+    },
+    {
+      "to": "vis.review.extra6",
+      "kind": "用法对照",
+      "note": "review 可以只审阅，revise 强调按需要作修改。",
+      "from": "vis.revise.extra1"
+    },
+    {
+      "to": "vis.preview.extra4",
+      "kind": "用法对照",
+      "note": "preview 作名词指提前展示的材料，作动词指提前看。",
+      "from": "vis.preview.extra3"
+    },
+    {
+      "to": "vis.review.extra5",
+      "kind": "用法对照",
+      "note": "preview 在观看或发布前，review 可以在看过后给出评价。",
+      "from": "vis.preview.extra3"
+    },
+    {
+      "to": "vis.review.extra6",
+      "kind": "用法对照",
+      "note": "review 作名词可以指评论，动词可指审阅或复习。",
+      "from": "vis.review.extra5"
+    },
+    {
+      "to": "vis.preview.extra3",
+      "kind": "语境关联",
+      "note": "正式发布前的 preview 会展示作品的 visual 风格。",
+      "from": "vis.visual.4"
+    }
+  ],
+  "rootIPA": "vɪz",
+  "rootSpoken": "vis",
+  "rootContext": "在 visible 里",
+  "rootIntro": "这一块和看有关。接着看，是看得见还是看不见。",
+  "rootKind": "词根"
+}

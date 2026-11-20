@@ -1,0 +1,455 @@
+{
+  "id": "family.path",
+  "root": "path",
+  "meaning": "感受、受苦",
+  "explanation": "path- 源自希腊语中表示感受、经历或受苦的成分。感情词和疾病词都能看到它，具体含义要结合整词。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "path.sympathy.1",
+      "word": "sympathy",
+      "partOfSpeech": "名词",
+      "meaning": "同情；体恤",
+      "explanation": "理解他人的困难并表达关切。",
+      "example": "Her colleagues expressed sympathy after the loss.",
+      "translation": "同事们在她遭遇失去之后表达了慰问。",
+      "rootRelation": "sym-（共同）与 path（感受）组成。",
+      "acceptedAnswers": [
+        "同情"
+      ],
+      "formation": "sym-（共同） + -pathy（感受、情绪） → 同情",
+      "pronunciation": "ˈsɪmpəθi",
+      "memoryCue": "sym- 有共同的意思。对别人的不幸也感到难过，就是同情。",
+      "parts": [
+        {
+          "text": "sym-",
+          "ipa": "ˈsɪm",
+          "meaning": "共同",
+          "notes": [
+            "在 p 前同化为 /m/"
+          ]
+        },
+        {
+          "text": "-pathy",
+          "ipa": "pəθi",
+          "meaning": "感受、情绪",
+          "notes": [
+            "同感、同情"
+          ]
+        }
+      ],
+      "combined": "听说朋友遭遇困难，你为他难过、想关心他，这就是同情。"
+    },
+    {
+      "id": "path.empathy.2",
+      "word": "empathy",
+      "partOfSpeech": "名词",
+      "meaning": "共情；设身处地的理解",
+      "explanation": "尝试理解另一个人的感受和处境。",
+      "example": "Good teachers use empathy when a student feels discouraged.",
+      "translation": "学生感到沮丧时，好老师会设身处地理解他。",
+      "rootRelation": "em-（进入）与 path（感受）相关。",
+      "acceptedAnswers": [
+        "共情"
+      ],
+      "formation": "em-（进入、置身于） + -pathy（感受） → 共情",
+      "pronunciation": "ˈɛmpəθi",
+      "memoryCue": "从「进入对方的感受」来记。站在别人角度理解心情，就是共情。",
+      "parts": [
+        {
+          "text": "em-",
+          "ipa": "ˈɛm",
+          "meaning": "进入、置身于"
+        },
+        {
+          "text": "-pathy",
+          "ipa": "pəθi",
+          "meaning": "感受",
+          "notes": [
+            "设身处地理解他人"
+          ]
+        }
+      ],
+      "combined": "朋友难过时，你试着站在他的处境里理解他，这就是共情。"
+    },
+    {
+      "id": "path.pathology.5",
+      "word": "pathology",
+      "partOfSpeech": "名词",
+      "meaning": "病理学；病变",
+      "explanation": "医学中研究疾病性质和变化的领域，也指病理改变。",
+      "example": "The sample was sent to pathology for examination.",
+      "translation": "样本被送去做病理检查。",
+      "rootRelation": "path（受苦、疾病）与 -logy（研究）组合。",
+      "acceptedAnswers": [
+        "病理学"
+      ],
+      "formation": "patho（疾病）+ -logy（研究） → 疾病 + 研究 → 病理学",
+      "pronunciation": "pəˈθɑlədʒi",
+      "memoryCue": "patho 是疾病，-logy 是研究。研究疾病怎样发生，就是病理学。",
+      "parts": [
+        {
+          "text": "patho",
+          "ipa": "pəθɑ",
+          "meaning": "疾病"
+        },
+        {
+          "text": "-logy",
+          "ipa": "lədʒi",
+          "meaning": "研究"
+        }
+      ],
+      "combined": "研究生病后身体哪里变了、怎样变的，是病理学。"
+    },
+    {
+      "id": "path.antipathy.7",
+      "word": "antipathy",
+      "partOfSpeech": "名词",
+      "meaning": "反感；厌恶",
+      "explanation": "对某人或某事产生强烈的不喜欢。",
+      "example": "She felt an immediate antipathy toward the noisy machine.",
+      "translation": "她立刻对那台吵闹的机器产生反感。",
+      "rootRelation": "anti-（反对）与 path（感受）组成。",
+      "acceptedAnswers": [
+        "反感"
+      ],
+      "formation": "anti-（相反） + -pathy（感受） → 反感",
+      "pronunciation": "ænˈtɪpəθi",
+      "memoryCue": "anti- 是反对。对某人心里有抵触，就是反感。",
+      "parts": [
+        {
+          "text": "anti-",
+          "ipa": "ænˈtɪ",
+          "meaning": "相反",
+          "notes": [
+            "此词中读 /ænˈtɪ/"
+          ]
+        },
+        {
+          "text": "-pathy",
+          "ipa": "pəθi",
+          "meaning": "感受",
+          "notes": [
+            "反感、厌恶"
+          ]
+        }
+      ],
+      "combined": "一想到那件事就不喜欢，还想避开，这种感觉就是反感。"
+    },
+    {
+      "id": "path.apathetic.3",
+      "word": "apathetic",
+      "partOfSpeech": "形容词",
+      "meaning": "冷漠的；缺乏兴趣的",
+      "explanation": "对事情缺少情感投入或兴趣。",
+      "example": "He seemed apathetic about the team’s decision.",
+      "translation": "他似乎对团队的决定漠不关心。",
+      "rootRelation": "a-（无）与 path（感受）组成。",
+      "acceptedAnswers": [
+        "冷漠的"
+      ],
+      "formation": "apathetic · 冷漠的",
+      "pronunciation": "ˌæpəˈθɛtɪk",
+      "memoryCue": "对事情缺少情感投入或兴趣。",
+      "plainCue": "别人都很关心，他却一点兴趣也没有，就可以说他很冷漠。"
+    },
+    {
+      "id": "path.pathetic.4",
+      "word": "pathetic",
+      "partOfSpeech": "形容词",
+      "meaning": "可怜的；令人同情的",
+      "explanation": "引起怜悯，也可表示质量很差，需看语境。",
+      "example": "The abandoned kitten looked pathetic in the rain.",
+      "translation": "被遗弃的小猫在雨中看起来很可怜。",
+      "rootRelation": "path（感受）相关词，原义涉及引发情感。",
+      "acceptedAnswers": [
+        "可怜的"
+      ],
+      "formation": "path（感受）→ pathetic = 引发情感 → 可怜的",
+      "pronunciation": "pəˈθɛtɪk",
+      "memoryCue": "看到别人处境艰难，心里生出怜悯。这里 pathetic 指可怜的。",
+      "plainCue": "看见小动物浑身湿透、无处躲雨，觉得它可怜，就是这里的意思。"
+    },
+    {
+      "id": "path.pathological.6",
+      "word": "pathological",
+      "partOfSpeech": "形容词",
+      "meaning": "病理性的；异常的",
+      "explanation": "与疾病有关，或严重到不正常的程度。",
+      "example": "The scan showed no pathological changes.",
+      "translation": "扫描没有显示病理性变化。",
+      "rootRelation": "pathology 加 -ical。",
+      "acceptedAnswers": [
+        "病理性的"
+      ],
+      "formation": "pathological · 病理性的",
+      "pronunciation": "ˌpæθəˈlɑdʒɪkəl",
+      "memoryCue": "与疾病有关，或严重到不正常的程度。",
+      "plainCue": "如果一种变化是疾病造成的，可以说它是病理性的。"
+    },
+    {
+      "id": "path.telepathy.8",
+      "word": "telepathy",
+      "partOfSpeech": "名词",
+      "meaning": "心灵感应",
+      "explanation": "一种未经常规语言或感官交流思想的假设能力。",
+      "example": "The novel imagines a world where twins communicate by telepathy.",
+      "translation": "小说描绘了双胞胎通过心灵感应交流的世界。",
+      "rootRelation": "tele-（远）与 path（感受）组成；概念不代表已证实现象。",
+      "acceptedAnswers": [
+        "心灵感应"
+      ],
+      "formation": "telepathy · 心灵感应",
+      "pronunciation": "təˈlɛpəθi",
+      "memoryCue": "一种未经常规语言或感官交流思想的假设能力。",
+      "plainCue": "故事里的人不用说话，也能知道另一个人在想什么，这叫心灵感应。"
+    },
+    {
+      "id": "path.pathogen.extra1",
+      "word": "pathogen",
+      "partOfSpeech": "名词",
+      "meaning": "病原体",
+      "explanation": "能够引发疾病的微生物或其他生物因子。",
+      "example": "The lab identified the pathogen in the water sample.",
+      "translation": "实验室在水样中鉴定出了病原体。",
+      "rootRelation": "path（疾病）与 -gen（产生者）组成。",
+      "acceptedAnswers": [
+        "病原体"
+      ],
+      "formation": "patho-（疾病） + -gen（产生者） → 病原体",
+      "pronunciation": "ˈpæθədʒən",
+      "memoryCue": "patho 是疾病，-gen 跟产生有关。能引起疾病的东西就是病原体。",
+      "parts": [
+        {
+          "text": "patho-",
+          "ipa": "ˈpæθoʊ",
+          "meaning": "疾病"
+        },
+        {
+          "text": "-gen",
+          "ipa": "dʒən",
+          "meaning": "产生者",
+          "notes": [
+            "致病因素"
+          ]
+        }
+      ],
+      "combined": "能让人生病的细菌或病毒，都是病原体。"
+    },
+    {
+      "id": "path.pathogenic.extra2",
+      "word": "pathogenic",
+      "partOfSpeech": "形容词",
+      "meaning": "致病的",
+      "explanation": "能够造成疾病的。",
+      "example": "The test checks for pathogenic bacteria.",
+      "translation": "这项检测用于查找致病细菌。",
+      "rootRelation": "由 pathogen 加 -ic 构成。",
+      "acceptedAnswers": [
+        "致病的"
+      ],
+      "formation": "pathogen + -ic = 病原体 → 致病的",
+      "pronunciation": "ˌpæθəˈdʒɛnɪk",
+      "memoryCue": "pathogen 是病原体。能让人生病，就是致病的。",
+      "parts": [
+        {
+          "text": "pathogen",
+          "ipa": "pæθədʒɛn",
+          "meaning": "病原体"
+        },
+        {
+          "text": "-ic",
+          "ipa": "ɪk",
+          "meaning": "与它有关的"
+        }
+      ],
+      "combined": "某种细菌能引发生病，就可以说这种细菌是致病的。"
+    },
+    {
+      "id": "path.pathogenesis.extra3",
+      "word": "pathogenesis",
+      "partOfSpeech": "名词",
+      "meaning": "发病机制",
+      "explanation": "疾病发生和发展的过程。",
+      "example": "The paper examines the pathogenesis of the infection.",
+      "translation": "论文研究了这种感染的发病机制。",
+      "rootRelation": "patho-（疾病）与 genesis（产生、发展）组成。",
+      "acceptedAnswers": [
+        "发病机制"
+      ],
+      "formation": "patho-（疾病） + -genesis（形成、发生） → 发病机制",
+      "pronunciation": "ˌpæθəˈdʒɛnəsɪs",
+      "memoryCue": "patho 是疾病，genesis 是产生。疾病从发生到发展的机制叫发病机制。",
+      "parts": [
+        {
+          "text": "patho-",
+          "ipa": "ˌpæθoʊ",
+          "meaning": "疾病"
+        },
+        {
+          "text": "-genesis",
+          "ipa": "ˈdʒɛnəsɪs",
+          "meaning": "形成、发生",
+          "notes": [
+            "疾病的发生过程"
+          ]
+        }
+      ],
+      "combined": "从病因到身体怎样一步步出现症状，这段过程叫发病机制。"
+    },
+    {
+      "id": "path.psychopath.extra4",
+      "word": "psychopath",
+      "partOfSpeech": "名词",
+      "meaning": "精神病态者",
+      "explanation": "具有严重反社会人格特征的人，属专业及敏感术语。",
+      "example": "The novel portrays the criminal as a psychopath.",
+      "translation": "小说把罪犯刻画成具有精神病态人格的人。",
+      "rootRelation": "psycho-（心灵）与 path（受苦）构词；现代临床诊断需由专业人员判断。",
+      "acceptedAnswers": [
+        "精神病态者"
+      ],
+      "formation": "psycho（心灵）+ path（受苦） → 心灵 + 受苦 → psychopath",
+      "pronunciation": "ˈsaɪkoʊˌpæθ",
+      "memoryCue": "把 psychopath 整个记，指有严重反社会人格特征的人。",
+      "parts": [
+        {
+          "text": "psycho",
+          "ipa": "saɪkoʊ",
+          "meaning": "心灵"
+        },
+        {
+          "text": "path",
+          "ipa": "pæθ",
+          "meaning": "受苦"
+        }
+      ],
+      "combined": "这是一个专门用语，指具有严重精神病态特征的人。"
+    },
+    {
+      "id": "path.psychopathic.extra5",
+      "word": "psychopathic",
+      "partOfSpeech": "形容词",
+      "meaning": "精神病态的",
+      "explanation": "与精神病态人格特征有关。",
+      "example": "The report discusses psychopathic traits in a fictional character.",
+      "translation": "报告讨论了一个虚构人物的精神病态特征。",
+      "rootRelation": "由 psychopath 加 -ic 构成。",
+      "acceptedAnswers": [
+        "精神病态的"
+      ],
+      "formation": "psychopath + -ic → psychopath → 相关形容词",
+      "pronunciation": "ˌsaɪkəˈpæθɪk",
+      "memoryCue": "和 psychopath 一起记，用来形容这类人格特征。",
+      "parts": [
+        {
+          "text": "psychopath",
+          "ipa": "saɪkəpæθ",
+          "meaning": "精神病态者"
+        },
+        {
+          "text": "-ic",
+          "ipa": "ɪk",
+          "meaning": "与它有关的"
+        }
+      ],
+      "combined": "这个词形容与精神病态有关的特征，比如长期严重缺乏共情。"
+    },
+    {
+      "id": "path.pathetic.extra6",
+      "word": "pathetic",
+      "partOfSpeech": "形容词",
+      "meaning": "差劲的；令人失望的",
+      "explanation": "口语中表示质量极差，也可表示引人怜悯。",
+      "example": "The team made a pathetic attempt to fix the leak with tape.",
+      "translation": "团队试图用胶带修漏水，做法实在太差劲。",
+      "rootRelation": "path（感受）相关词的现代口语义。",
+      "acceptedAnswers": [
+        "差劲的"
+      ],
+      "formation": "path → pathetic（口语义） → 感受相关 → 差劲的",
+      "pronunciation": "pəˈθɛtɪk",
+      "memoryCue": "同一个 pathetic 也能表示糟糕得让人摇头，这里是差劲的意思。",
+      "plainCue": "本来期待一场精彩的表演，结果差得让人失望，这里说的是差劲。"
+    }
+  ],
+  "links": [
+    {
+      "to": "path.empathy.2",
+      "kind": "用法对照",
+      "note": "sympathy 侧重为对方感到难过，empathy 强调理解对方身处的感受。",
+      "from": "path.sympathy.1"
+    },
+    {
+      "to": "path.apathetic.3",
+      "kind": "用法对照",
+      "note": "sympathy 是对别人处境有同情心，apathetic 形容缺乏关心或兴趣。",
+      "from": "path.sympathy.1"
+    },
+    {
+      "to": "path.pathetic.4",
+      "kind": "语义联系",
+      "note": "pathetic 的一个意思是可怜得让人同情，sympathy 是可能产生的感受。",
+      "from": "path.sympathy.1"
+    },
+    {
+      "to": "path.pathetic.extra6",
+      "kind": "用法对照",
+      "note": "pathetic 可以表示令人同情，也常口语化地评价某事差劲。",
+      "from": "path.pathetic.4"
+    },
+    {
+      "to": "path.antipathy.7",
+      "kind": "用法对照",
+      "note": "apathetic 是不在意，antipathy 是明确不喜欢。",
+      "from": "path.apathetic.3"
+    },
+    {
+      "to": "path.telepathy.8",
+      "kind": "用法对照",
+      "note": "empathy 是对感受的理解，telepathy 指假设中的直接心灵交流。",
+      "from": "path.empathy.2"
+    },
+    {
+      "to": "path.pathological.6",
+      "kind": "派生关系",
+      "note": "pathology 是病理学，pathological 形容与病理或异常有关。",
+      "from": "path.pathology.5"
+    },
+    {
+      "to": "path.pathogen.extra1",
+      "kind": "语境关联",
+      "note": "病理研究可检查某种 pathogen 对组织造成的变化。",
+      "from": "path.pathology.5"
+    },
+    {
+      "to": "path.pathogenic.extra2",
+      "kind": "派生关系",
+      "note": "pathogen 指病原体，pathogenic 描述能致病的性质。",
+      "from": "path.pathogen.extra1"
+    },
+    {
+      "to": "path.pathogenesis.extra3",
+      "kind": "用法对照",
+      "note": "pathogen 是致病因素中的一类，pathogenesis 是疾病怎样产生发展的过程。",
+      "from": "path.pathogen.extra1"
+    },
+    {
+      "to": "path.psychopath.extra4",
+      "kind": "同词根",
+      "note": "pathological 侧重病理或异常，psychopath 是有特定含义的人物描述。",
+      "from": "path.pathological.6"
+    },
+    {
+      "to": "path.psychopathic.extra5",
+      "kind": "派生关系",
+      "note": "psychopath 用于指人，psychopathic 是形容词。",
+      "from": "path.psychopath.extra4"
+    }
+  ],
+  "rootIPA": "pæθ",
+  "rootSpoken": "path",
+  "rootContext": "在 pathology 里",
+  "rootIntro": "这一块和感受、痛苦有关。遇到整词时再定意思。",
+  "rootKind": "词根"
+}

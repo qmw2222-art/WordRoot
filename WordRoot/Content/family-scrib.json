@@ -1,0 +1,511 @@
+{
+  "id": "family.scrib",
+  "root": "scrib",
+  "meaning": "写、记录",
+  "explanation": "scrib- 与 script- 关联拉丁语 scribere「写」。它们牵出描述、写下医嘱、转录讲话和写作稿件等不同用途。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "scrib.describe",
+      "word": "describe",
+      "partOfSpeech": "动词",
+      "meaning": "描述；描写",
+      "explanation": "describe指用语言写出特征。",
+      "example": "Please describe the problem in one sentence.",
+      "translation": "请用一句话描述这个问题。",
+      "rootRelation": "scribe + de-；词源线索",
+      "acceptedAnswers": [
+        "描述"
+      ],
+      "formation": "de（向下、全面）+ scribe（写） = 写下特征 → 描述",
+      "pronunciation": "dɪˈskraɪb",
+      "memoryCue": "和 description 配着记。把样子说清楚或写清楚，就是描述这个动作。",
+      "parts": [
+        {
+          "text": "de-",
+          "ipa": "dɪ",
+          "meaning": "向下、全面"
+        },
+        {
+          "text": "scribe",
+          "ipa": "skraɪb",
+          "meaning": "写"
+        }
+      ],
+      "combined": "把看见的样子说给别人听，就是描述。"
+    },
+    {
+      "id": "scrib.prescribe",
+      "word": "prescribe",
+      "partOfSpeech": "动词",
+      "meaning": "开处方；规定",
+      "explanation": "医生开出治疗方案，也可指规则预先规定做法。",
+      "example": "The doctor prescribed a short course of treatment.",
+      "translation": "医生开了一个疗程较短的治疗方案。",
+      "rootRelation": "scribe相关词源；现代义需单独记忆",
+      "acceptedAnswers": [
+        "开处方"
+      ],
+      "formation": "pre（预先）+ scribe（写） → 预先写下 → 开处方；规定",
+      "pronunciation": "prəˈskraɪb",
+      "memoryCue": "pre- 是预先，scribe 是写。医生事先写下该用的药，就是开处方。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "prə",
+          "meaning": "预先"
+        },
+        {
+          "text": "scribe",
+          "ipa": "skraɪb",
+          "meaning": "写"
+        }
+      ],
+      "combined": "医生把要吃的药和用量写下来，这个动作叫开处方。"
+    },
+    {
+      "id": "scrib.subscribe",
+      "word": "subscribe",
+      "partOfSpeech": "动词",
+      "meaning": "订阅；订购",
+      "explanation": "现代常用义是定期订阅服务或内容。",
+      "example": "I subscribe to a weekly science magazine.",
+      "translation": "我订阅一份每周出版的科学杂志。",
+      "rootRelation": "scribe相关词源；构词仅作提示",
+      "acceptedAnswers": [
+        "订阅"
+      ],
+      "formation": "sub（在下、签署）+ scribe（写） = 签署 → 订阅",
+      "pronunciation": "səbˈskraɪb",
+      "memoryCue": "想象在名单下面签名，以后定期收到内容，就是订阅。",
+      "parts": [
+        {
+          "text": "sub-",
+          "ipa": "səb",
+          "meaning": "在下、签署"
+        },
+        {
+          "text": "scribe",
+          "ipa": "skraɪb",
+          "meaning": "写"
+        }
+      ],
+      "combined": "选好一份杂志，让它每期送来，这叫订阅。"
+    },
+    {
+      "id": "scrib.transcribe",
+      "word": "transcribe",
+      "partOfSpeech": "动词",
+      "meaning": "转录；誊写",
+      "explanation": "把语音或文字转换成记录文本。",
+      "example": "The assistant transcribed the interview.",
+      "translation": "助理把访谈内容转录了下来。",
+      "rootRelation": "trans- + scribe；历史构词线索",
+      "acceptedAnswers": [
+        "转录"
+      ],
+      "formation": "trans-（转写、跨越） + scribe（写） → 转录",
+      "pronunciation": "trænˈskraɪb",
+      "memoryCue": "trans- 是转换，scribe 是写。把录音转成文字，就是转录。",
+      "parts": [
+        {
+          "text": "trans-",
+          "ipa": "træns",
+          "meaning": "转写、跨越",
+          "notes": [
+            "在 s 前实际读 /træns/"
+          ]
+        },
+        {
+          "text": "scribe",
+          "ipa": "ˈskraɪb",
+          "meaning": "写",
+          "notes": [
+            "转录、誊写"
+          ]
+        }
+      ],
+      "combined": "把一段录音听出来，一个字一个字写下来，就是转录。"
+    },
+    {
+      "id": "scrib.description",
+      "word": "description",
+      "partOfSpeech": "名词",
+      "meaning": "描述；说明",
+      "explanation": "describe的名词形式，指对人事物情况的文字说明。",
+      "example": "The product description lists its main features.",
+      "translation": "产品说明列出了主要特点。",
+      "rootRelation": "describe → description",
+      "acceptedAnswers": [
+        "描述"
+      ],
+      "formation": "de-（在此与词根组成词形） + script（写下的内容） + -ion（行为或结果） → 描述",
+      "pronunciation": "dɪˈskrɪpʃən",
+      "memoryCue": "从 describe 的「描述」来记。说出或写下的那段内容，就是一段描述。",
+      "parts": [
+        {
+          "text": "de-",
+          "ipa": "dɪ",
+          "meaning": "在此与词根组成词形"
+        },
+        {
+          "text": "script",
+          "ipa": "ˈskrɪp",
+          "meaning": "写下的内容",
+          "notes": [
+            "词根 scrib- 的变体"
+          ]
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "描述"
+          ]
+        }
+      ],
+      "combined": "介绍失物时，你写下的颜色、形状，就是对失物的描述。"
+    },
+    {
+      "id": "scrib.prescription",
+      "word": "prescription",
+      "partOfSpeech": "名词",
+      "meaning": "处方；规定",
+      "explanation": "prescribe的名词形式。",
+      "example": "You need a prescription to buy this medicine.",
+      "translation": "购买这种药需要处方。",
+      "rootRelation": "prescribe → prescription",
+      "acceptedAnswers": [
+        "处方"
+      ],
+      "formation": "pre-（预先、事先） + script（写下的内容） + -ion（行为或结果） → 处方",
+      "pronunciation": "prəˈskrɪpʃən",
+      "memoryCue": "prescribe 是开药。医生写给你的那张处方叫 prescription。",
+      "plainCue": "这里说的是处方；规定。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "prɪ",
+          "meaning": "预先、事先"
+        },
+        {
+          "text": "script",
+          "ipa": "ˈskrɪp",
+          "meaning": "写下的内容",
+          "notes": [
+            "词根 scrib- 的变体"
+          ]
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "处方/规定"
+          ]
+        }
+      ],
+      "combined": "医生写好、你拿去配药的那张单子，就是处方。"
+    },
+    {
+      "id": "scrib.subscription",
+      "word": "subscription",
+      "partOfSpeech": "名词",
+      "meaning": "订阅；订阅服务",
+      "explanation": "subscribe的名词形式，可指订阅行为或服务。",
+      "example": "Her music subscription renews next month.",
+      "translation": "她的音乐订阅下个月续期。",
+      "rootRelation": "subscribe → subscription",
+      "acceptedAnswers": [
+        "订阅"
+      ],
+      "formation": "sub-（在下、签署） + script（写下的内容） + -ion（行为或结果） → 订阅",
+      "pronunciation": "səbˈskrɪpʃən",
+      "memoryCue": "subscribe 是订阅。每月续费的这项订阅叫 a subscription。",
+      "plainCue": "这里说的是订阅；订阅服务。",
+      "parts": [
+        {
+          "text": "sub-",
+          "ipa": "səb",
+          "meaning": "在下、签署"
+        },
+        {
+          "text": "script",
+          "ipa": "ˈskrɪp",
+          "meaning": "写下的内容",
+          "notes": [
+            "词根 scrib- 的变体"
+          ]
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "订阅"
+          ]
+        }
+      ],
+      "combined": "杂志每月送来，你买的这项服务就叫订阅。"
+    },
+    {
+      "id": "scrib.manuscript",
+      "word": "manuscript",
+      "partOfSpeech": "名词",
+      "meaning": "手稿；原稿",
+      "explanation": "尚未正式出版的原稿。",
+      "example": "She sent the manuscript to her editor.",
+      "translation": "她把手稿寄给了编辑。",
+      "rootRelation": "script与scribe词源相关",
+      "acceptedAnswers": [
+        "手稿"
+      ],
+      "formation": "manu（手）+ script（写） = 手写 → 手稿",
+      "pronunciation": "ˈmænjəˌskrɪpt",
+      "memoryCue": "manu 和手有关，script 是写下的文字。用手写出的原稿就是手稿。",
+      "parts": [
+        {
+          "text": "manu",
+          "ipa": "mænjə",
+          "meaning": "手"
+        },
+        {
+          "text": "script",
+          "ipa": "skrɪpt",
+          "meaning": "写"
+        }
+      ],
+      "combined": "作者自己写下、还没印成书的那份稿子，就是原稿。"
+    },
+    {
+      "id": "scrib.transcript",
+      "word": "transcript",
+      "partOfSpeech": "名词",
+      "meaning": "文字记录；转录稿",
+      "explanation": "把讲话、访问或录音内容用文字整理出来所得的材料。",
+      "example": "The reporter checked the transcript against the recording.",
+      "translation": "记者把文字记录和录音对照核查。",
+      "rootRelation": "与 transcribe 同词族，script 在此关联书写。",
+      "acceptedAnswers": [
+        "文字记录",
+        "转录稿",
+        "记录稿"
+      ],
+      "formation": "trans-（转写、跨越） + script（写下的内容） → 文字记录",
+      "pronunciation": "ˈtrænˌskrɪpt",
+      "memoryCue": "script 是写下的文字。听写整理好的那份文字记录叫 a transcript。",
+      "plainCue": "把讲话、访问或录音内容用文字整理出来所得的材料。",
+      "parts": [
+        {
+          "text": "trans-",
+          "ipa": "ˈtræns",
+          "meaning": "转写、跨越"
+        },
+        {
+          "text": "script",
+          "ipa": "ˌskrɪpt",
+          "meaning": "写下的内容",
+          "notes": [
+            "transcript 中实际读 /skrɪpt/"
+          ]
+        }
+      ],
+      "combined": "采访录音写成了一页文字，这一页就是文字记录。"
+    },
+    {
+      "id": "scrib.script",
+      "word": "script",
+      "partOfSpeech": "名词",
+      "meaning": "剧本；台词稿",
+      "explanation": "为电影、表演或节目准备的台词、动作及场次说明。",
+      "example": "The actor read the first page of the script aloud.",
+      "translation": "演员大声念出了剧本的第一页。",
+      "rootRelation": "script 与拉丁语中「写」的形式相关。",
+      "acceptedAnswers": [
+        "剧本",
+        "台词稿"
+      ],
+      "formation": "script（写下的文本） = 写下 → 剧本；台词稿",
+      "pronunciation": "skrɪpt",
+      "memoryCue": "演员手里拿着、上面写着下一句说什么的，就是剧本。"
+    },
+    {
+      "id": "scrib.inscription",
+      "word": "inscription",
+      "partOfSpeech": "名词",
+      "meaning": "铭文；题字",
+      "explanation": "刻写或书写在纪念碑、奖杯等物体上的文字。",
+      "example": "The inscription on the ring was too faint to read.",
+      "translation": "戒指上的题字太浅，看不清了。",
+      "rootRelation": "与 inscribe（题写）同族，scrib 表示写。",
+      "acceptedAnswers": [
+        "铭文",
+        "题字",
+        "刻字"
+      ],
+      "formation": "inscription · 铭文",
+      "pronunciation": "ˌɪnˈskrɪpʃən",
+      "memoryCue": "刻写或书写在纪念碑、奖杯等物体上的文字。",
+      "plainCue": "刻在石头或戒指上的那行字，就是铭文。"
+    },
+    {
+      "id": "scrib.scribble",
+      "word": "scribble",
+      "partOfSpeech": "动词",
+      "meaning": "潦草地写；匆匆记下",
+      "explanation": "快速写字，字迹往往不整齐，可以用来记个号码或留一句话。",
+      "example": "She scribbled her number on a receipt.",
+      "translation": "她在一张收据上匆匆写下自己的号码。",
+      "rootRelation": "与写字相关的历史词形。",
+      "acceptedAnswers": [
+        "潦草地写",
+        "匆匆写下",
+        "乱写"
+      ],
+      "formation": "把 scrib（写）想成匆匆落下的笔迹 → 潦草地写",
+      "pronunciation": "ˈskrɪbəl",
+      "memoryCue": "电话里听到一个号码，赶紧潦草地记下来，就是这个动作。"
+    },
+    {
+      "id": "scrib.ascribe",
+      "word": "ascribe",
+      "partOfSpeech": "动词",
+      "meaning": "归因于；归于",
+      "explanation": "ascribe A to B 表示认为 A 由 B 引起，或认为 A 属于 B。",
+      "example": "They ascribed the delay to a shortage of parts.",
+      "translation": "他们把延误归咎于零件短缺。",
+      "rootRelation": "词源与「写到、归于」的历史形式有关。",
+      "acceptedAnswers": [
+        "归因于",
+        "归于",
+        "归咎于"
+      ],
+      "formation": "a（归于）+ scribe（写） = 写到某人名下 → 归因于",
+      "pronunciation": "əˈskraɪb",
+      "memoryCue": "想象把结果记在某个原因名下，就是把它归因于这个原因。",
+      "parts": [
+        {
+          "text": "a-",
+          "ipa": "ə",
+          "meaning": "归于"
+        },
+        {
+          "text": "scribe",
+          "ipa": "skraɪb",
+          "meaning": "写"
+        }
+      ],
+      "combined": "说车晚到是因为缺零件，就是把晚点归因于缺零件。"
+    },
+    {
+      "id": "scrib.screenplay",
+      "word": "screenplay",
+      "partOfSpeech": "名词",
+      "meaning": "影视剧本",
+      "explanation": "为屏幕创作的剧本，包含场景、对白和动作。",
+      "example": "She adapted the short story into a screenplay.",
+      "translation": "她把这篇短篇小说改编成了电影剧本。",
+      "rootRelation": null,
+      "acceptedAnswers": [
+        "影视剧本",
+        "电影剧本"
+      ],
+      "formation": "screen（银幕）+ play（戏剧） → 银幕 + 剧本 → 影视剧本",
+      "pronunciation": "ˈskrinˌpleɪ",
+      "memoryCue": "screen 是银幕，play 是戏。给影视拍摄用的剧本就是影视剧本。",
+      "parts": [
+        {
+          "text": "screen",
+          "ipa": "skrin",
+          "meaning": "银幕"
+        },
+        {
+          "text": "play",
+          "ipa": "pleɪ",
+          "meaning": "戏剧"
+        }
+      ],
+      "combined": "把电影里谁说什么、做什么写下来，就是电影剧本。"
+    }
+  ],
+  "links": [
+    {
+      "to": "scrib.description",
+      "kind": "派生关系",
+      "note": "describe 是描述，description 是描述本身或写下来的说明。",
+      "from": "scrib.describe"
+    },
+    {
+      "to": "scrib.prescription",
+      "kind": "派生关系",
+      "note": "prescribe 是开处方，prescription 指开出的处方。",
+      "from": "scrib.prescribe"
+    },
+    {
+      "to": "scrib.subscription",
+      "kind": "派生关系",
+      "note": "subscribe 是订阅，subscription 是订阅服务或订阅关系。",
+      "from": "scrib.subscribe"
+    },
+    {
+      "to": "scrib.transcript",
+      "kind": "派生关系",
+      "note": "transcribe 是转录，transcript 是转录出的文字记录。",
+      "from": "scrib.transcribe"
+    },
+    {
+      "to": "scrib.script",
+      "kind": "语义联系",
+      "note": "manuscript 是一份待发表或保存的稿件，script 往往是给演员或主讲人用的稿子。",
+      "from": "scrib.manuscript"
+    },
+    {
+      "to": "scrib.screenplay",
+      "kind": "语义联系",
+      "note": "script 可指剧本，screenplay 专指影视剧本。",
+      "from": "scrib.script"
+    },
+    {
+      "to": "scrib.inscription",
+      "kind": "用法对照",
+      "note": "description 说明某物是什么样，inscription 指刻写在表面上的一段文字。",
+      "from": "scrib.description"
+    },
+    {
+      "to": "scrib.manuscript",
+      "kind": "用法对照",
+      "note": "transcribe 是把现有材料转为文字，manuscript 可是一位作者初步写成的原稿。",
+      "from": "scrib.transcribe"
+    },
+    {
+      "to": "scrib.scribble",
+      "kind": "用法对照",
+      "note": "transcribe 侧重转录，scribble 表示匆忙潦草地写。",
+      "from": "scrib.transcribe"
+    },
+    {
+      "to": "scrib.ascribe",
+      "kind": "用法对照",
+      "note": "describe 是详细描述，ascribe 是把原因或性质归于某事物。",
+      "from": "scrib.describe"
+    },
+    {
+      "to": "scrib.script",
+      "kind": "语境关联",
+      "note": "编写 script 时，作者常用动作说明来 describe 人物怎样出场。",
+      "from": "scrib.describe"
+    },
+    {
+      "to": "scrib.describe",
+      "kind": "同词根",
+      "note": "两词都与写有关，prescribe 用文字规定或开处方，describe 用语言说明特点。",
+      "from": "scrib.prescribe"
+    }
+  ],
+  "rootIPA": "skraɪb",
+  "rootSpoken": "scribe",
+  "rootContext": "在 describe 里",
+  "rootIntro": "这组词和写有关。今天先听一种常见的读法。",
+  "rootKind": "词根"
+}

@@ -1,0 +1,481 @@
+{
+  "id": "family.ten",
+  "root": "ten",
+  "meaning": "伸展、朝向",
+  "explanation": "ten(d)-、tens- 关联拉丁语中「伸展、拉紧」的词。它可以与延长、朝某处用力、把注意力投向某事等历史词义相联系。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "ten.extend.1",
+      "word": "extend",
+      "partOfSpeech": "动词",
+      "meaning": "延长；扩展",
+      "explanation": "使长度、范围或持续时间增加。",
+      "example": "The library extended its hours during exam week.",
+      "translation": "考试周期间，图书馆延长了开放时间。",
+      "rootRelation": "ex-（向外）与 tend（伸展）组成。",
+      "acceptedAnswers": [
+        "延长"
+      ],
+      "formation": "ex（向外）+ tend（伸展） = 向外伸展 → 延长",
+      "pronunciation": "ɪkˈstɛnd",
+      "memoryCue": "ex- 是向外。把期限往外伸，就是延长。",
+      "parts": [
+        {
+          "text": "ex-",
+          "ipa": "ɪks",
+          "meaning": "向外"
+        },
+        {
+          "text": "tend",
+          "ipa": "tɛnd",
+          "meaning": "伸展"
+        }
+      ],
+      "combined": "原定住两晚，又加一晚，就是把住宿时间延长了。"
+    },
+    {
+      "id": "ten.intend.4",
+      "word": "intend",
+      "partOfSpeech": "动词",
+      "meaning": "打算；计划",
+      "explanation": "心里有做某事或达到某结果的计划。",
+      "example": "I intend to finish the report before Friday.",
+      "translation": "我打算在周五前完成报告。",
+      "rootRelation": "in-（向内）与 tend（指向、伸展）相关。",
+      "acceptedAnswers": [
+        "打算"
+      ],
+      "formation": "in-（朝向、进入） + tend（伸向） → 打算",
+      "pronunciation": "ˌɪnˈtɛnd",
+      "memoryCue": "和 intention 配着记。一个是「打算做」这个动作，一个是心里的意图。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "朝向、进入"
+        },
+        {
+          "text": "tend",
+          "ipa": "ˈtɛnd",
+          "meaning": "伸向",
+          "notes": [
+            "形成打算"
+          ]
+        }
+      ],
+      "combined": "还没出门，心里已经想好要去哪里了，这就叫打算。"
+    },
+    {
+      "id": "ten.attend.7",
+      "word": "attend",
+      "partOfSpeech": "动词",
+      "meaning": "出席；参加",
+      "explanation": "到场参与会议、课程或活动。",
+      "example": "More than fifty parents attended the school meeting.",
+      "translation": "五十多位家长参加了学校会议。",
+      "rootRelation": "at- 与 tend 的历史构词，现代义发展为到场参与。",
+      "acceptedAnswers": [
+        "出席"
+      ],
+      "formation": "at-（朝向） + tend（留意、伸向） → 出席",
+      "pronunciation": "əˈtɛnd",
+      "memoryCue": "跟 meeting 一起记。你去参加会议，就是出席。",
+      "parts": [
+        {
+          "text": "at-",
+          "ipa": "ə",
+          "meaning": "朝向"
+        },
+        {
+          "text": "tend",
+          "ipa": "ˈtɛnd",
+          "meaning": "留意、伸向",
+          "notes": [
+            "出席或关注"
+          ]
+        }
+      ],
+      "combined": "你到了会场，和大家一起开会，就叫出席会议。"
+    },
+    {
+      "id": "ten.tend.extra1",
+      "word": "tend",
+      "partOfSpeech": "动词",
+      "meaning": "倾向于；往往会",
+      "explanation": "表示某种情况经常发生或某人有某种倾向。",
+      "example": "Prices tend to rise before the holiday season.",
+      "translation": "节日前价格往往会上涨。",
+      "rootRelation": "tend 与伸展、趋向的词根相关。",
+      "acceptedAnswers": [
+        "倾向于"
+      ],
+      "formation": "tend（趋向） = 趋向 → 往往；倾向",
+      "pronunciation": "tɛnd",
+      "memoryCue": "经常朝一个方向做，就有这种倾向。tend to 后面接动作。",
+      "plainCue": "天一冷他就爱喝热茶，这种经常会有的表现叫倾向于。"
+    },
+    {
+      "id": "ten.extension.2",
+      "word": "extension",
+      "partOfSpeech": "名词",
+      "meaning": "延长；扩展部分",
+      "explanation": "把范围或时间延长的行为，也可指附加部分。",
+      "example": "We asked for an extension on the project deadline.",
+      "translation": "我们申请延长项目期限。",
+      "rootRelation": "extend 加 -ion。",
+      "acceptedAnswers": [
+        "延长"
+      ],
+      "formation": "extend（伸展、延长） + -sion（行为或结果） → 延长",
+      "pronunciation": "ɪkˈstɛnʃən",
+      "memoryCue": "extend 是延长。多出来的那段时间就是 an extension。",
+      "plainCue": "把范围或时间延长的行为，也可指附加部分。",
+      "parts": [
+        {
+          "text": "extend",
+          "ipa": "ɪkˈstɛnd",
+          "meaning": "伸展、延长"
+        },
+        {
+          "text": "-sion",
+          "ipa": "ʒən",
+          "meaning": "行为或结果",
+          "notes": [
+            "extend 词尾发生拼写/发音变化"
+          ]
+        }
+      ],
+      "combined": "给截止日期多加的那几天，就是延长期。"
+    },
+    {
+      "id": "ten.extendable.3",
+      "word": "extendable",
+      "partOfSpeech": "形容词",
+      "meaning": "可延长的；可伸缩的",
+      "explanation": "能够拉长或展开到更大范围。",
+      "example": "The table has extendable sides for family dinners.",
+      "translation": "这张桌子两侧可伸展，适合家庭聚餐。",
+      "rootRelation": "extend 加 -able。",
+      "acceptedAnswers": [
+        "可延长的"
+      ],
+      "formation": "extend + -able = 可延长的",
+      "pronunciation": "ˌɛkˈstɛndəbəl",
+      "memoryCue": "-able 是能。还能往外拉长，就叫可延长的。",
+      "parts": [
+        {
+          "text": "extend",
+          "ipa": "ɛkstɛnd",
+          "meaning": "延长"
+        },
+        {
+          "text": "-able",
+          "ipa": "əbəl",
+          "meaning": "能……的"
+        }
+      ],
+      "combined": "桌子还能再拉开一截，就说它是可伸长的。"
+    },
+    {
+      "id": "ten.intention.5",
+      "word": "intention",
+      "partOfSpeech": "名词",
+      "meaning": "意图；打算",
+      "explanation": "计划要做某事的想法或目的。",
+      "example": "Her intention was to make the instructions clearer.",
+      "translation": "她的打算是把说明写得更清楚。",
+      "rootRelation": "intend 加 -tion。",
+      "acceptedAnswers": [
+        "意图"
+      ],
+      "formation": "intend（打算） + -tion（行为或结果） → 意图",
+      "pronunciation": "ˌɪnˈtɛntʃən",
+      "memoryCue": "从 intend 的「打算」来记。心里具体的那个打算，就是意图。",
+      "parts": [
+        {
+          "text": "intend",
+          "ipa": "ɪnˈtɛnd",
+          "meaning": "打算"
+        },
+        {
+          "text": "-tion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "打算"
+          ]
+        }
+      ],
+      "combined": "你心里为什么要这样做，说的就是你的意图。"
+    },
+    {
+      "id": "ten.pretend.6",
+      "word": "pretend",
+      "partOfSpeech": "动词",
+      "meaning": "假装；佯装",
+      "explanation": "表现得像某事是真的，实际并非如此。",
+      "example": "The children pretended the sofa was a ship.",
+      "translation": "孩子们假装沙发是一艘船。",
+      "rootRelation": "历史构词含 pre- 与 tend，现代用法为假装。",
+      "acceptedAnswers": [
+        "假装"
+      ],
+      "formation": "pretend · 假装",
+      "pronunciation": "priˈtɛnd",
+      "memoryCue": "表现得像某事是真的，实际并非如此。",
+      "plainCue": "明明没睡，却闭着眼装睡，这个动作就是假装。"
+    },
+    {
+      "id": "ten.attention.8",
+      "word": "attention",
+      "partOfSpeech": "名词",
+      "meaning": "注意力；关注",
+      "explanation": "集中精神留意某事或某人。",
+      "example": "Please give your attention to the safety announcement.",
+      "translation": "请留意安全通知。",
+      "rootRelation": "attend 词族名词形式。",
+      "acceptedAnswers": [
+        "注意力"
+      ],
+      "formation": "attend（留意、关注） + -tion（行为或状态） → 注意力",
+      "pronunciation": "əˈtɛnʃən",
+      "memoryCue": "跟 pay 放在一起记。pay attention 就是留心，把注意力放在某处。",
+      "plainCue": "集中精神留意某事或某人。",
+      "parts": [
+        {
+          "text": "attend",
+          "ipa": "əˈtɛnd",
+          "meaning": "留意、关注"
+        },
+        {
+          "text": "-tion",
+          "ipa": "ʃən",
+          "meaning": "行为或状态",
+          "notes": [
+            "注意力"
+          ]
+        }
+      ],
+      "combined": "眼睛看着说话人，心思也放在他的话上，这就是注意力。"
+    },
+    {
+      "id": "ten.tendency.extra2",
+      "word": "tendency",
+      "partOfSpeech": "名词",
+      "meaning": "倾向；趋势",
+      "explanation": "经常表现出的方向或行为特点。",
+      "example": "He has a tendency to check the door twice.",
+      "translation": "他有反复检查门锁的习惯。",
+      "rootRelation": "tend 加名词后缀 -ency。",
+      "acceptedAnswers": [
+        "倾向"
+      ],
+      "formation": "tend（倾向、伸向） + -ency（状态） → 倾向",
+      "pronunciation": "ˈtɛndənsi",
+      "memoryCue": "tend to 是往往会这样。反复出现的这种倾向叫 tendency。",
+      "plainCue": "经常表现出的方向或行为特点。",
+      "parts": [
+        {
+          "text": "tend",
+          "ipa": "ˈtɛnd",
+          "meaning": "倾向、伸向"
+        },
+        {
+          "text": "-ency",
+          "ipa": "ənsi",
+          "meaning": "状态",
+          "notes": [
+            "倾向"
+          ]
+        }
+      ],
+      "combined": "一到晚上就想吃甜的，这就是偏爱甜食的倾向。"
+    },
+    {
+      "id": "ten.tendentious.extra3",
+      "word": "tendentious",
+      "partOfSpeech": "形容词",
+      "meaning": "有倾向性的；带偏见的",
+      "explanation": "表达中明显推动某一立场或观点。",
+      "example": "The article felt tendentious because it omitted contrary evidence.",
+      "translation": "这篇文章因省略相反证据而显得有偏向。",
+      "rootRelation": "与 tend（倾向）同族。",
+      "acceptedAnswers": [
+        "有倾向性的"
+      ],
+      "formation": "tendentious · 有倾向性的",
+      "pronunciation": "ˌtɛnˈdɛnʃəs",
+      "memoryCue": "表达中明显推动某一立场或观点。",
+      "plainCue": "只挑对自己有利的事说，这样的说法就带着偏见。"
+    },
+    {
+      "id": "ten.contend.extra4",
+      "word": "contend",
+      "partOfSpeech": "动词",
+      "meaning": "竞争；声称",
+      "explanation": "努力争取某结果，也可提出某种主张。",
+      "example": "Three teams will contend for the final place.",
+      "translation": "三支队伍将争夺最后一个名额。",
+      "rootRelation": "con- 与 tend（伸展、努力）相关。",
+      "acceptedAnswers": [
+        "竞争"
+      ],
+      "formation": "con-（共同、相对） + tend（努力伸向） → 竞争",
+      "pronunciation": "kənˈtɛnd",
+      "memoryCue": "不同的人争取同一个位置，或者争辩谁有理，叫 contend。",
+      "plainCue": "努力争取某结果，也可提出某种主张。",
+      "parts": [
+        {
+          "text": "con-",
+          "ipa": "kən",
+          "meaning": "共同、相对"
+        },
+        {
+          "text": "tend",
+          "ipa": "ˈtɛnd",
+          "meaning": "努力伸向",
+          "notes": [
+            "现代义竞争/声称不完全可由字面推出"
+          ]
+        }
+      ],
+      "combined": "几个队争最后一个名额，是竞争。说自己有道理，也可以用这个词。"
+    },
+    {
+      "id": "ten.contention.extra5",
+      "word": "contention",
+      "partOfSpeech": "名词",
+      "meaning": "争论；主张",
+      "explanation": "激烈争执的事项，或某人坚持的观点。",
+      "example": "Their main contention is that the fee was not disclosed.",
+      "translation": "他们主要争议的是费用没有事先说明。",
+      "rootRelation": "由 contend 加 -ion 构成。",
+      "acceptedAnswers": [
+        "争论"
+      ],
+      "formation": "contend（争论、竞争） + -tion（行为或结果） → 争论",
+      "pronunciation": "kənˈtɛnʃən",
+      "memoryCue": "contend 是争辩。争论的焦点或所持的看法叫 contention。",
+      "plainCue": "激烈争执的事项，或某人坚持的观点。",
+      "parts": [
+        {
+          "text": "contend",
+          "ipa": "kənˈtɛnd",
+          "meaning": "争论、竞争"
+        },
+        {
+          "text": "-tion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "争论/主张"
+          ]
+        }
+      ],
+      "combined": "说这笔钱不该收，这是你提出的主张。双方也可能为此争论。"
+    },
+    {
+      "id": "ten.contender.extra6",
+      "word": "contender",
+      "partOfSpeech": "名词",
+      "meaning": "竞争者；有力候选者",
+      "explanation": "正在争夺奖项、职位或胜利的人或队伍。",
+      "example": "She is a strong contender for the team captain role.",
+      "translation": "她是队长职位的有力候选人。",
+      "rootRelation": "contend 加表示人的 -er。",
+      "acceptedAnswers": [
+        "竞争者"
+      ],
+      "formation": "contend + -er = 竞争 → 竞争者",
+      "pronunciation": "kənˈtɛndɚ",
+      "memoryCue": "contend 是竞争。参加角逐、可能获胜的人就是竞争者。",
+      "parts": [
+        {
+          "text": "contend",
+          "ipa": "kəntɛnd",
+          "meaning": "竞争"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "几个人都想进决赛，其中有机会赢的人，就是有力的竞争者。"
+    }
+  ],
+  "links": [
+    {
+      "to": "ten.extension.2",
+      "kind": "派生关系",
+      "note": "extend 表示延长或扩展，extension 是延长、扩展或增加的部分。",
+      "from": "ten.extend.1"
+    },
+    {
+      "to": "ten.extendable.3",
+      "kind": "派生关系",
+      "note": "extend 是延长，extendable 形容可延长的装置或期限。",
+      "from": "ten.extend.1"
+    },
+    {
+      "to": "ten.tend.extra1",
+      "kind": "同词根",
+      "note": "extend 强调向外伸展，tend 常指事情朝某方向发展。",
+      "from": "ten.extend.1"
+    },
+    {
+      "to": "ten.intention.5",
+      "kind": "派生关系",
+      "note": "intend 是打算，intention 是打算或意图本身。",
+      "from": "ten.intend.4"
+    },
+    {
+      "to": "ten.pretend.6",
+      "kind": "用法对照",
+      "note": "intend 指真实打算去做，pretend 指假装、装作某种状态。",
+      "from": "ten.intend.4"
+    },
+    {
+      "to": "ten.attention.8",
+      "kind": "同词根",
+      "note": "attend 可说出席，attention 指对事情投入的注意力；attend to 也有留意、处理之意。",
+      "from": "ten.attend.7"
+    },
+    {
+      "to": "ten.tendency.extra2",
+      "kind": "派生关系",
+      "note": "tend 表示往往会，tendency 是倾向或发展趋势。",
+      "from": "ten.tend.extra1"
+    },
+    {
+      "to": "ten.tendentious.extra3",
+      "kind": "用法对照",
+      "note": "tendency 可以是一般倾向，tendentious 通常批评某人的表达带有偏见。",
+      "from": "ten.tendency.extra2"
+    },
+    {
+      "to": "ten.contend.extra4",
+      "kind": "同词根",
+      "note": "tend 表示趋向，contend 可以表示竞争或提出主张。",
+      "from": "ten.tend.extra1"
+    },
+    {
+      "to": "ten.contention.extra5",
+      "kind": "派生关系",
+      "note": "contend 可以表示提出主张，contention 可以指主张或持续的争论。",
+      "from": "ten.contend.extra4"
+    },
+    {
+      "to": "ten.contender.extra6",
+      "kind": "派生关系",
+      "note": "contend for 是竞争某项奖或位置，contender 是有机会获胜的一方。",
+      "from": "ten.contend.extra4"
+    }
+  ],
+  "rootIPA": "tɛnd",
+  "rootSpoken": "tend",
+  "rootContext": "在 extend 里",
+  "rootIntro": "这一组和伸展、朝向有关。今天听的是末尾带一个辅音的写法。",
+  "rootKind": "词根"
+}

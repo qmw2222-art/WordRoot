@@ -1,0 +1,460 @@
+{
+  "id": "family.aud",
+  "root": "aud",
+  "meaning": "听、听见",
+  "explanation": "aud 关联拉丁语 audire「听」。从能否听清到听众、试演和音频，这是同一个声音场景中的几组常用词。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "aud.audio.1",
+      "word": "audio",
+      "partOfSpeech": "名词",
+      "meaning": "音频；声音信号",
+      "explanation": "可听见的声音内容，常指数字录音或播放部分。",
+      "example": "The audio is clearer when I use headphones.",
+      "translation": "戴上耳机时音频更清楚。",
+      "rootRelation": "aud（听）形成的现代词族成员。",
+      "acceptedAnswers": [
+        "音频"
+      ],
+      "formation": "aud（听）→ 用来听的音频",
+      "pronunciation": "ˈɑdiˌoʊ",
+      "memoryCue": "用耳朵听到的内容叫音频；用眼睛看的内容叫视频。"
+    },
+    {
+      "id": "aud.audible.1",
+      "word": "audible",
+      "partOfSpeech": "形容词",
+      "meaning": "听得见的",
+      "explanation": "表示声音可以听到，常与 barely、clearly 一起用。",
+      "example": "Her voice was barely audible from the back row.",
+      "translation": "从后排几乎听不见她的声音。",
+      "rootRelation": "aud 表示听，-ible 表示可以。",
+      "acceptedAnswers": [
+        "听得见的",
+        "可听见的",
+        "听得见"
+      ],
+      "formation": "aud（听）+ ible（能）= 听得见的",
+      "pronunciation": "ˈɑdəbəl",
+      "memoryCue": "aud 和听有关，-ible 是能。能听见，就是听得见的。",
+      "parts": [
+        {
+          "text": "aud",
+          "ipa": "ɑd",
+          "meaning": "听"
+        },
+        {
+          "text": "-ible",
+          "ipa": "əbəl",
+          "meaning": "能"
+        }
+      ],
+      "combined": "耳朵能听到的，就是听得见的。"
+    },
+    {
+      "id": "aud.audience.4",
+      "word": "audience",
+      "partOfSpeech": "名词",
+      "meaning": "听众；观众",
+      "explanation": "正在听演讲、看演出或接收内容的一群人。",
+      "example": "The audience laughed at the final joke.",
+      "translation": "观众听到最后一个笑话时笑了。",
+      "rootRelation": "源自拉丁语 audientia，与倾听有关。",
+      "acceptedAnswers": [
+        "听众"
+      ],
+      "formation": "audi-（听、听见） + -ence（状态或群体） → 听众",
+      "pronunciation": "ˈɑdiəns",
+      "memoryCue": "台下听演出的人合在一起，就是听众或观众。",
+      "parts": [
+        {
+          "text": "audi-",
+          "ipa": "ˈɔdi",
+          "meaning": "听、听见",
+          "notes": [
+            "在 audience 中为 /ˈɔdi/"
+          ]
+        },
+        {
+          "text": "-ence",
+          "ipa": "əns",
+          "meaning": "状态或群体",
+          "notes": [
+            "听众群体"
+          ]
+        }
+      ],
+      "combined": "一起听演讲或看演出的人，就是听众和观众。"
+    },
+    {
+      "id": "aud.audition.5",
+      "word": "audition",
+      "partOfSpeech": "名词",
+      "meaning": "试演；试音",
+      "explanation": "为争取角色或演出机会而进行的表演测试。",
+      "example": "Mina has an audition for the school play tomorrow.",
+      "translation": "美奈明天要参加学校戏剧的试演。",
+      "rootRelation": "与拉丁语 audire（听）同源，常指听取表演来评定。",
+      "acceptedAnswers": [
+        "试演"
+      ],
+      "formation": "audition · 试演",
+      "pronunciation": "ɑˈdɪʃən",
+      "memoryCue": "为争取角色或演出机会而进行的表演测试。",
+      "plainCue": "为争取角色或演出机会而参加试演、试音。"
+    },
+    {
+      "id": "aud.audibility.3",
+      "word": "audibility",
+      "partOfSpeech": "名词",
+      "meaning": "可听度；清晰可闻程度",
+      "explanation": "描述声音被听见的容易程度。",
+      "example": "We tested the audibility of the announcement at the back.",
+      "translation": "我们测试了后排听广播是否清楚。",
+      "rootRelation": "audible 去掉 e 加名词后缀 -ity。",
+      "acceptedAnswers": [
+        "可听度"
+      ],
+      "formation": "audible（听得见的） + -ity（性质、程度） → 可听度",
+      "pronunciation": "ˌɔdəˈbɪləti",
+      "memoryCue": "audible 是能听见。想说听得清到什么程度，就用 audibility。",
+      "plainCue": "描述声音被听见的容易程度。",
+      "parts": [
+        {
+          "text": "audible",
+          "ipa": "ˈɔdəbəl",
+          "meaning": "听得见的"
+        },
+        {
+          "text": "-ity",
+          "ipa": "əti",
+          "meaning": "性质、程度",
+          "notes": [
+            "可听度"
+          ]
+        }
+      ],
+      "combined": "声音听得清不清、听不听得见，就是可听度。"
+    },
+    {
+      "id": "aud.auditory.6",
+      "word": "auditory",
+      "partOfSpeech": "形容词",
+      "meaning": "听觉的；与听力有关的",
+      "explanation": "描述通过听觉接收或处理声音的功能。",
+      "example": "The app gives an auditory cue when the timer ends.",
+      "translation": "计时结束时，应用会发出听觉提示。",
+      "rootRelation": "aud（听）加 -itory 构成形容词。",
+      "acceptedAnswers": [
+        "听觉的"
+      ],
+      "formation": "aud（听）→ 与听觉有关的",
+      "pronunciation": "ˈɔdɪˌtɔri",
+      "memoryCue": "aud 是听。跟听觉有关的事，用 auditory 来形容。",
+      "plainCue": "通过听觉接收或处理声音的，就是听觉相关的。"
+    },
+    {
+      "id": "aud.inaudible.6",
+      "word": "inaudible",
+      "partOfSpeech": "形容词",
+      "meaning": "听不见的",
+      "explanation": "音量太小或被其他声音盖住，以至于无法听见。",
+      "example": "The last word was inaudible over the traffic.",
+      "translation": "交通噪声盖住了最后一个词。",
+      "rootRelation": "in- 表示否定，audible 是听得见的。",
+      "acceptedAnswers": [
+        "听不见的",
+        "听不见"
+      ],
+      "formation": "in（不）+ audible（听得见的）= 听不见的",
+      "pronunciation": "ˌɪˈnɔdəbəl",
+      "memoryCue": "in- 在这里是「不」，audible 是能听见。合起来就是听不见的。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "不"
+        },
+        {
+          "text": "audible",
+          "ipa": "ɔdəbəl",
+          "meaning": "听得见的"
+        }
+      ],
+      "combined": "声音太小或被盖住，耳朵就听不见。"
+    },
+    {
+      "id": "aud.audiobook.8",
+      "word": "audiobook",
+      "partOfSpeech": "名词",
+      "meaning": "有声书",
+      "explanation": "把书籍内容录成可听音频的版本。",
+      "example": "I finished the audiobook on my train ride.",
+      "translation": "我在坐火车时听完了这本有声书。",
+      "rootRelation": "audio 与 book 组成的现代复合词。",
+      "acceptedAnswers": [
+        "有声书"
+      ],
+      "formation": "audio（音频）+ book（书）= 有声书",
+      "pronunciation": "ˈɔdioʊˌbʊk",
+      "memoryCue": "audio 是音频，book 是书。可以听的书就是有声书。",
+      "parts": [
+        {
+          "text": "audio",
+          "ipa": "ɔdioʊ",
+          "meaning": "音频"
+        },
+        {
+          "text": "book",
+          "ipa": "bʊk",
+          "meaning": "书"
+        }
+      ],
+      "combined": "把书念出来录成声音，听着就能读书。"
+    },
+    {
+      "id": "aud.auditor.extra1",
+      "word": "auditor",
+      "partOfSpeech": "名词",
+      "meaning": "审计员；审核者",
+      "explanation": "检查账目或流程是否准确合规的人。",
+      "example": "The auditor checked the travel expenses.",
+      "translation": "审计员核对了差旅费用。",
+      "rootRelation": "与 audit 词族相连，历史上含听取、核验之义。",
+      "acceptedAnswers": [
+        "审计员"
+      ],
+      "formation": "audit（审计）+ or（做的人）= 审计员",
+      "pronunciation": "ˈɔdɪtɚ",
+      "memoryCue": "audit 是审计，-or 可以指人。查账的人就是审计员。",
+      "parts": [
+        {
+          "text": "audit",
+          "ipa": "ɔdɪt",
+          "meaning": "审计"
+        },
+        {
+          "text": "-or",
+          "ipa": "ɚ",
+          "meaning": "做的人"
+        }
+      ],
+      "combined": "负责核查账目或流程的人，就是审核员。"
+    },
+    {
+      "id": "aud.audit.9",
+      "word": "audit",
+      "partOfSpeech": "动词",
+      "meaning": "审计；正式审查",
+      "explanation": "检查账目和记录，核对是否准确并符合规定。",
+      "example": "An outside firm will audit our accounts in June.",
+      "translation": "一家外部公司将在六月审计我们的账目。",
+      "rootRelation": "audit 的历史词源与听取账目有关。",
+      "acceptedAnswers": [
+        "审计",
+        "审查账目"
+      ],
+      "formation": "aud（听）→ 听取账目，现指审计",
+      "pronunciation": "ˈɔdɪt",
+      "memoryCue": "想象先听取账目，再核对记录。现在 audit 指审计。",
+      "plainCue": "逐项查账和记录，确认准确、合规。"
+    },
+    {
+      "id": "aud.audition.extra3",
+      "word": "audition",
+      "partOfSpeech": "动词",
+      "meaning": "参加试演；试音",
+      "explanation": "通过表演或演奏展示能力以争取机会。",
+      "example": "Several students auditioned for the lead role.",
+      "translation": "几名学生参加了主角的试演。",
+      "rootRelation": "audition 的动词用法。",
+      "acceptedAnswers": [
+        "参加试演"
+      ],
+      "formation": "audition · 参加试演",
+      "pronunciation": "ɑˈdɪʃən",
+      "memoryCue": "通过表演或演奏展示能力以争取机会。",
+      "plainCue": "表演或演奏一段，让人判断你是否合适。"
+    },
+    {
+      "id": "aud.audiovisual.extra4",
+      "word": "audiovisual",
+      "partOfSpeech": "形容词",
+      "meaning": "视听的",
+      "explanation": "同时包含声音和图像的。",
+      "example": "The museum installed audiovisual displays in the entry hall.",
+      "translation": "博物馆在入口大厅安装了视听展示设备。",
+      "rootRelation": "audio 与 visual 组成。",
+      "acceptedAnswers": [
+        "视听的"
+      ],
+      "formation": "audio（声音、音频） + visual（视觉的） → 视听的",
+      "pronunciation": "ˌɔdioʊˈvɪʒuəl",
+      "memoryCue": "audio 是听到的，visual 是看到的。两者合在一起就是视听的。",
+      "parts": [
+        {
+          "text": "audio",
+          "ipa": "ˈɔdioʊ",
+          "meaning": "声音、音频"
+        },
+        {
+          "text": "visual",
+          "ipa": "ˈvɪʒuəl",
+          "meaning": "视觉的",
+          "notes": [
+            "图像的"
+          ]
+        }
+      ],
+      "combined": "既有声音、又有画面的，就是视听的。"
+    },
+    {
+      "id": "aud.audiology.extra5",
+      "word": "audiology",
+      "partOfSpeech": "名词",
+      "meaning": "听力学",
+      "explanation": "研究听力、听觉障碍及其评估的医疗领域。",
+      "example": "Audiology includes hearing tests for children.",
+      "translation": "听力学包括儿童听力测试。",
+      "rootRelation": "audio 与 -logy（研究领域）组成。",
+      "acceptedAnswers": [
+        "听力学"
+      ],
+      "formation": "audi-（听觉、声音） + -ology（学科） → 听力学",
+      "pronunciation": "ˌɔdiˈɑlədʒi",
+      "memoryCue": "audio 是声音，-logy 是学科。研究听觉的学科就是听力学。",
+      "parts": [
+        {
+          "text": "audi-",
+          "ipa": "ˌɔdi",
+          "meaning": "听觉、声音",
+          "notes": [
+            "在 audiology 中读 /ɔdi/"
+          ]
+        },
+        {
+          "text": "-ology",
+          "ipa": "ˈɑlədʒi",
+          "meaning": "学科",
+          "notes": [
+            "听觉学"
+          ]
+        }
+      ],
+      "combined": "研究听力和听觉问题的医疗领域。"
+    },
+    {
+      "id": "aud.audiologist.extra6",
+      "word": "audiologist",
+      "partOfSpeech": "名词",
+      "meaning": "听力学家",
+      "explanation": "评估听力并提供听力保健服务的专业人员。",
+      "example": "The audiologist adjusted her hearing aid.",
+      "translation": "听力学家调整了她的助听器。",
+      "rootRelation": "由 audiology 加表示人的 -ist 构成。",
+      "acceptedAnswers": [
+        "听力学家"
+      ],
+      "formation": "audio（听觉、声音） + -logist（某学科的专家） → 听力学家",
+      "pronunciation": "ˌɔdiˈɑlədʒɪst",
+      "memoryCue": "audiology 是听力学。研究、检查听力的专业人员叫 audiologist。",
+      "plainCue": "评估听力并提供听力保健服务的专业人员。",
+      "parts": [
+        {
+          "text": "audio",
+          "ipa": "ˌɔdi",
+          "meaning": "听觉、声音"
+        },
+        {
+          "text": "-logist",
+          "ipa": "ˈɑlədʒɪst",
+          "meaning": "某学科的专家",
+          "notes": [
+            "听力学家"
+          ]
+        }
+      ],
+      "combined": "帮人检查听力、处理听力问题的专业人员。"
+    }
+  ],
+  "links": [
+    {
+      "to": "aud.audible.1",
+      "kind": "用法对照",
+      "note": "audio 是声音或音频，audible 说明声音能不能被听见。",
+      "from": "aud.audio.1"
+    },
+    {
+      "to": "aud.audibility.3",
+      "kind": "派生关系",
+      "note": "audible 是可以听见的，audibility 是声音可以被听见的程度。",
+      "from": "aud.audible.1"
+    },
+    {
+      "to": "aud.inaudible.6",
+      "kind": "用法对照",
+      "note": "audible 表示听得见，inaudible 表示听不见。",
+      "from": "aud.audible.1"
+    },
+    {
+      "to": "aud.audiobook.8",
+      "kind": "语境关联",
+      "note": "audiobook 是把一本书制作成能够收听的 audio。",
+      "from": "aud.audio.1"
+    },
+    {
+      "to": "aud.audiovisual.extra4",
+      "kind": "用法对照",
+      "note": "audio 只指声音，audiovisual 同时包含声音和图像。",
+      "from": "aud.audio.1"
+    },
+    {
+      "to": "aud.audition.5",
+      "kind": "语境关联",
+      "note": "试演时评委听取表演，演出通过选拔后面对 audience。",
+      "from": "aud.audience.4"
+    },
+    {
+      "to": "aud.audition.extra3",
+      "kind": "用法对照",
+      "note": "audition 的名词是一场试演，动词常指参加这场试演。",
+      "from": "aud.audition.5"
+    },
+    {
+      "to": "aud.audiology.extra5",
+      "kind": "同词根",
+      "note": "auditory 描述听觉相关的事物，audiology 是研究和评估听力的专业。",
+      "from": "aud.auditory.6"
+    },
+    {
+      "to": "aud.audiologist.extra6",
+      "kind": "派生关系",
+      "note": "audiology 是领域，audiologist 是从事该领域的专业人员。",
+      "from": "aud.audiology.extra5"
+    },
+    {
+      "to": "aud.auditory.6",
+      "kind": "同词根",
+      "note": "audible 说是否可听见，auditory 说是否与听觉有关。",
+      "from": "aud.audible.1"
+    },
+    {
+      "to": "aud.auditor.extra1",
+      "kind": "同词根",
+      "note": "两词都可追溯到「听」，audience 是观众或听众，auditor 现代常指审计员。",
+      "from": "aud.audience.4"
+    },
+    {
+      "to": "aud.audit.9",
+      "kind": "派生关系",
+      "note": "auditor 是执行 audit 的人；audit 可作动词，表示正式审查账目。",
+      "from": "aud.auditor.extra1"
+    }
+  ],
+  "rootIPA": "ɑd",
+  "rootSpoken": "aud",
+  "rootContext": "在 audible 里",
+  "rootIntro": "在这组词里，看到这一块，先想耳朵听。",
+  "rootKind": "词根"
+}

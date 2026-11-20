@@ -1,0 +1,102 @@
+{
+  "id": "family.use",
+  "root": "use",
+  "meaning": "用",
+  "explanation": "把一只杯子拿来用、再次用、说它有用，三个动作连着记。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "use.use",
+      "word": "use",
+      "partOfSpeech": "动词",
+      "meaning": "使用",
+      "formation": "use 在这里是动词，结尾读浊音 z",
+      "rootRelation": "把一只杯子拿来用、再次用、说它有用，三个动作连着记。",
+      "explanation": "例句中的 use 取“使用”这个意思。",
+      "example": "May I use this cup?",
+      "translation": "我可以用这个杯子吗？",
+      "acceptedAnswers": [
+        "使用"
+      ],
+      "pronunciation": "juz",
+      "memoryCue": "拿钥匙开门，你就在使用这把钥匙。"
+    },
+    {
+      "id": "use.reuse",
+      "word": "reuse",
+      "partOfSpeech": "动词",
+      "meaning": "再次使用",
+      "formation": "re（再）+ use（用）= 重复使用",
+      "rootRelation": "把一只杯子拿来用、再次用、说它有用，三个动作连着记。",
+      "explanation": "例句中的 reuse 取“再次使用”这个意思。",
+      "example": "We reuse these bags.",
+      "translation": "我们重复使用这些袋子。",
+      "acceptedAnswers": [
+        "再次使用"
+      ],
+      "pronunciation": "ˌriˈjuz",
+      "memoryCue": "re- 是再，use 是用。用过再用，就是重复使用。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "再一次"
+        },
+        {
+          "text": "use",
+          "ipa": "juz",
+          "meaning": "使用"
+        }
+      ],
+      "combined": "瓶子用完，洗干净再用一次，就叫再次使用。"
+    },
+    {
+      "id": "use.useful",
+      "word": "useful",
+      "partOfSpeech": "形容词",
+      "meaning": "有用的",
+      "formation": "use（用途）+ ful（有这种性质）= 有用的",
+      "rootRelation": "把一只杯子拿来用、再次用、说它有用，三个动作连着记。",
+      "explanation": "例句中的 useful 取“有用的”这个意思。",
+      "example": "This little tool is useful.",
+      "translation": "这件小工具很有用。",
+      "acceptedAnswers": [
+        "有用的"
+      ],
+      "pronunciation": "ˈjusfəl",
+      "memoryCue": "use 是用处，-ful 表示有。合起来就是有用的。",
+      "parts": [
+        {
+          "text": "use",
+          "ipa": "jus",
+          "meaning": "用"
+        },
+        {
+          "text": "-ful",
+          "ipa": "fəl",
+          "meaning": "有这种作用的"
+        }
+      ],
+      "combined": "一个东西真能帮你把事办好，就说它有用。"
+    }
+  ],
+  "links": [
+    {
+      "from": "use.use",
+      "to": "use.reuse",
+      "kind": "同一词族",
+      "note": "re（再）+ use（用）= 重复使用"
+    },
+    {
+      "from": "use.use",
+      "to": "use.useful",
+      "kind": "同一词族",
+      "note": "use（用途）+ ful（有这种性质）= 有用的"
+    }
+  ],
+  "rootIPA": "juz",
+  "rootSpoken": "use",
+  "rootContext": "",
+  "rootIntro": "这里的意思是用。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "family.clean",
+  "root": "clean",
+  "meaning": "干净、清洁",
+  "explanation": "擦桌子这个动作是 clean，用它也能说桌子干净了。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "clean.clean",
+      "word": "clean",
+      "partOfSpeech": "形容词",
+      "meaning": "干净的",
+      "formation": "clean 可以形容没有污渍的东西",
+      "rootRelation": "擦桌子这个动作是 clean，用它也能说桌子干净了。",
+      "explanation": "例句中的 clean 取“干净的”这个意思。",
+      "example": "The table is clean.",
+      "translation": "桌子是干净的。",
+      "acceptedAnswers": [
+        "干净的"
+      ],
+      "pronunciation": "klin",
+      "memoryCue": "没有污渍、不脏，就是干净。"
+    },
+    {
+      "id": "clean.cleaner",
+      "word": "cleaner",
+      "partOfSpeech": "名词",
+      "meaning": "清洁剂",
+      "formation": "clean（清洁）+ er（用于清洁的东西）= 清洁剂",
+      "rootRelation": "擦桌子这个动作是 clean，用它也能说桌子干净了。",
+      "explanation": "例句中的 cleaner 取“清洁剂”这个意思。",
+      "example": "This cleaner works on glass.",
+      "translation": "这种清洁剂可以擦玻璃。",
+      "acceptedAnswers": [
+        "清洁剂"
+      ],
+      "pronunciation": "ˈklinɚ",
+      "memoryCue": "clean 是清洁，这里的 -er 指用品。用来清洁的东西就是清洁剂。",
+      "parts": [
+        {
+          "text": "clean",
+          "ipa": "klin",
+          "meaning": "清洁"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "用于清洁的东西"
+        }
+      ],
+      "combined": "清理污渍用的用品，就是清洁剂。"
+    },
+    {
+      "id": "clean.clean-up",
+      "word": "clean up",
+      "partOfSpeech": "短语动词",
+      "meaning": "收拾干净",
+      "formation": "clean（清理、打扫） + up（彻底、完毕） → 收拾干净",
+      "rootRelation": "擦桌子这个动作是 clean，用它也能说桌子干净了。",
+      "explanation": "例句中的 clean up 取“收拾干净”这个意思。",
+      "example": "Let's clean up the kitchen.",
+      "translation": "我们把厨房收拾一下吧。",
+      "acceptedAnswers": [
+        "收拾干净"
+      ],
+      "pronunciation": "klin ˈʌp",
+      "memoryCue": "clean 是清理，加 up 有收拾妥当的意思。合起来就是收拾干净。",
+      "parts": [
+        {
+          "text": "clean",
+          "ipa": "klin",
+          "meaning": "清理、打扫"
+        },
+        {
+          "text": "up",
+          "ipa": "ʌp",
+          "meaning": "彻底、完毕",
+          "notes": [
+            "与 clean 构成短语动词，表示把事情做完或彻底清理。"
+          ]
+        }
+      ],
+      "combined": "把东西收好、把脏处清理完，就是收拾干净。"
+    }
+  ],
+  "links": [
+    {
+      "from": "clean.clean",
+      "to": "clean.cleaner",
+      "kind": "同一词族",
+      "note": "clean（清洁）+ er（用于清洁的东西）= 清洁剂"
+    },
+    {
+      "from": "clean.clean",
+      "to": "clean.clean-up",
+      "kind": "同一词族",
+      "note": "clean 与 up 搭配，表示收拾妥当"
+    }
+  ],
+  "rootIPA": "klin",
+  "rootSpoken": "clean",
+  "rootContext": "",
+  "rootIntro": "这里的意思是干净、清洁。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

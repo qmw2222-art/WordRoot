@@ -1,0 +1,472 @@
+{
+  "id": "family.duc",
+  "root": "duc",
+  "meaning": "引领、带动",
+  "explanation": "duc-、duct- 来自与拉丁语 ducere「带领、引导」相关的形式。现代词涉及领导活动、引入某事物、生产以及降低数量。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "duc.conduct",
+      "word": "conduct",
+      "partOfSpeech": "动词",
+      "meaning": "开展；组织进行",
+      "explanation": "指负责进行试验、访谈、调查或一场活动，强调有组织地做。",
+      "example": "The team conducted a survey last spring.",
+      "translation": "团队去年春天开展了一项调查。",
+      "rootRelation": "con- 和 duct- 的历史组合包含「带领」之意。",
+      "acceptedAnswers": [
+        "开展",
+        "进行",
+        "组织"
+      ],
+      "pronunciation": "kənˈdʌkt",
+      "formation": "con（一起）+ duct（引领）→ 组织并开展",
+      "memoryCue": "conduct 在这里是带着大家做一件事，比如开展调查。",
+      "parts": [
+        {
+          "text": "con-",
+          "ipa": "kən",
+          "meaning": "一起"
+        },
+        {
+          "text": "duct",
+          "ipa": "dʌkt",
+          "meaning": "引领"
+        }
+      ],
+      "combined": "有步骤地开展调查、活动或试验。"
+    },
+    {
+      "id": "duc.produce",
+      "word": "produce",
+      "partOfSpeech": "动词",
+      "meaning": "生产；制造",
+      "explanation": "指工厂、农场或生物生成一种产品或物质。",
+      "example": "The factory produces electric bicycles.",
+      "translation": "这家工厂生产电动自行车。",
+      "rootRelation": "pro- 与 duc- 的历史形式可联想把东西带出来。",
+      "acceptedAnswers": [
+        "生产",
+        "制造"
+      ],
+      "pronunciation": "prəˈdus",
+      "formation": "pro（向前）+ duce（引领）→ 使产生，生产",
+      "memoryCue": "把它和 product 成对记。前者说「生产」这个动作，后者是做出的产品。",
+      "parts": [
+        {
+          "text": "pro-",
+          "ipa": "prə",
+          "meaning": "向前"
+        },
+        {
+          "text": "duce",
+          "ipa": "dus",
+          "meaning": "引领"
+        }
+      ],
+      "combined": "工厂、农场或生物把东西做出来，就是生产。"
+    },
+    {
+      "id": "duc.reduce",
+      "word": "reduce",
+      "partOfSpeech": "动词",
+      "meaning": "减少；降低",
+      "explanation": "让数量、大小、费用或程度变小。",
+      "example": "We reduced the price by ten percent.",
+      "translation": "我们把价格降低了百分之十。",
+      "rootRelation": "历史词源含「带回」的成分，现代义常是降低。",
+      "acceptedAnswers": [
+        "减少",
+        "降低",
+        "缩减"
+      ],
+      "formation": "re（退回）+ duce（引领）→ 使降到更低，减少",
+      "pronunciation": "rəˈdus",
+      "memoryCue": "想成从较多退回到较少，数量变低就是减少。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "rə",
+          "meaning": "退回"
+        },
+        {
+          "text": "duce",
+          "ipa": "dus",
+          "meaning": "引领"
+        }
+      ],
+      "combined": "把价格或数量降下来，就是减少、降低。"
+    },
+    {
+      "id": "duc.introduce",
+      "word": "introduce",
+      "partOfSpeech": "动词",
+      "meaning": "介绍；引入",
+      "explanation": "可介绍新认识的人，也可把一项新安排带入现有系统。",
+      "example": "The city introduced a new bus route this month.",
+      "translation": "这座城市本月开通了一条新公交线路。",
+      "rootRelation": "intro-（向内）与 duc-（带领）构成历史线索。",
+      "acceptedAnswers": [
+        "引入",
+        "介绍",
+        "推出"
+      ],
+      "formation": "intro（向内）+ duce（引领）→ 引介，介绍",
+      "pronunciation": "ˌɪntrəˈdus",
+      "memoryCue": "intro- 是向内，duce 有领的意思。把新人领进来让大家认识，就是介绍。",
+      "parts": [
+        {
+          "text": "intro-",
+          "ipa": "ɪntrə",
+          "meaning": "向内"
+        },
+        {
+          "text": "duce",
+          "ipa": "dus",
+          "meaning": "引领"
+        }
+      ],
+      "combined": "把新认识的人带来让大家认识，就是介绍。"
+    },
+    {
+      "id": "duc.conductor",
+      "word": "conductor",
+      "partOfSpeech": "名词",
+      "meaning": "指挥",
+      "explanation": "在乐团或合唱团演奏时指挥速度、进出和声音强弱的人。",
+      "example": "The conductor raised her hands before the first note.",
+      "translation": "第一声响起之前，指挥抬起了双手。",
+      "rootRelation": "与 conduct 的「指挥」义相关。",
+      "acceptedAnswers": [
+        "指挥",
+        "乐团指挥"
+      ],
+      "formation": "conduct（指挥）+ or（做的人）= 指挥",
+      "pronunciation": "kənˈdʌktɚ",
+      "memoryCue": "conduct 在乐队里是指挥。用手势带领乐手的人就是指挥。",
+      "parts": [
+        {
+          "text": "conduct",
+          "ipa": "kəndʌkt",
+          "meaning": "指挥"
+        },
+        {
+          "text": "-or",
+          "ipa": "ɚ",
+          "meaning": "做的人"
+        }
+      ],
+      "combined": "带领乐团、控制节奏和进出的，是指挥。"
+    },
+    {
+      "id": "duc.conduct.behavior",
+      "word": "conduct",
+      "partOfSpeech": "名词",
+      "meaning": "行为；举止",
+      "explanation": "指实际行为表现，常见于行为规范或正式评价。",
+      "example": "The school has a code of conduct for students.",
+      "translation": "学校有一套学生行为规范。",
+      "rootRelation": "conduct 的名词用法；此义的重音在第一音节。",
+      "acceptedAnswers": [
+        "行为",
+        "举止"
+      ],
+      "pronunciation": "ˈkɑndʌkt",
+      "formation": "conduct（引导、管理）→ 一个人表现出来的行为",
+      "memoryCue": "conduct 重读前面时是名词，指一个人的举止或行为。",
+      "plainCue": "一个人实际做出来的表现，就是行为举止。"
+    },
+    {
+      "id": "duc.production",
+      "word": "production",
+      "partOfSpeech": "名词",
+      "meaning": "生产；产量",
+      "explanation": "可以指生产过程，也可以指特定时期生产出的数量。",
+      "example": "Production increased after the factory hired more staff.",
+      "translation": "工厂增聘人手之后，产量提高了。",
+      "rootRelation": "produce 的相关名词。",
+      "acceptedAnswers": [
+        "生产",
+        "产量"
+      ],
+      "formation": "produce（生产）→ 生产的过程",
+      "pronunciation": "prəˈdʌkʃən",
+      "memoryCue": "和 product 对着记。一个是产品，加长的词说的是生产这件事。",
+      "parts": [
+        {
+          "text": "produce",
+          "ipa": "prədʌk",
+          "meaning": "生产"
+        },
+        {
+          "text": "-tion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "生产的过程，也可以指一段时间做出的数量。"
+    },
+    {
+      "id": "duc.product",
+      "word": "product",
+      "partOfSpeech": "名词",
+      "meaning": "产品",
+      "explanation": "生产或开发出来供使用、销售的事物。",
+      "example": "The company is testing a new product this summer.",
+      "translation": "公司今年夏天正在测试一款新产品。",
+      "rootRelation": "与 produce 和 production 同源。",
+      "acceptedAnswers": [
+        "产品"
+      ],
+      "formation": "produce（生产）→ 生产出来的产品",
+      "pronunciation": "ˈprɑdəkt",
+      "memoryCue": "做出来、拿来出售或使用的成品，就是产品。"
+    },
+    {
+      "id": "duc.reduction",
+      "word": "reduction",
+      "partOfSpeech": "名词",
+      "meaning": "减少；降低",
+      "explanation": "某个数额或程度变小，常用 a reduction in。",
+      "example": "There was a reduction in traffic after the change.",
+      "translation": "改变实施后，车流量有所减少。",
+      "rootRelation": "reduce 的相关名词。",
+      "acceptedAnswers": [
+        "减少",
+        "降低",
+        "缩减"
+      ],
+      "formation": "reduce（减少）→ 减少这一过程或结果",
+      "pronunciation": "rəˈdʌkʃən",
+      "memoryCue": "reduce 是减少。减少的过程或减少的量就是 reduction。",
+      "parts": [
+        {
+          "text": "reduce",
+          "ipa": "rədʌk",
+          "meaning": "减少"
+        },
+        {
+          "text": "-tion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "价格或数量变小，就是减少；变少的幅度也叫降幅。"
+    },
+    {
+      "id": "duc.introduction",
+      "word": "introduction",
+      "partOfSpeech": "名词",
+      "meaning": "引入；首次使用",
+      "explanation": "把某项新事务带入某个体系，常用 introduction of。",
+      "example": "The introduction of evening lessons helped working students.",
+      "translation": "开设晚间课程让在职学生受益。",
+      "rootRelation": "introduce 的相关名词。",
+      "acceptedAnswers": [
+        "引入",
+        "推行",
+        "引进"
+      ],
+      "formation": "introduce（引入）→ 引入的过程",
+      "pronunciation": "ˌɪntrəˈdʌkʃən",
+      "memoryCue": "introduce 是介绍。初见时说的那段介绍就是 an introduction。",
+      "parts": [
+        {
+          "text": "introduce",
+          "ipa": "ɪntrədʌk",
+          "meaning": "介绍"
+        },
+        {
+          "text": "-tion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "第一次把人或新事物带进来，就是介绍或引入。"
+    },
+    {
+      "id": "duc.deduce",
+      "word": "deduce",
+      "partOfSpeech": "动词",
+      "meaning": "推断；演绎",
+      "explanation": "根据已有事实或规则推出结论，常见 deduce from。",
+      "example": "From the footprints, they deduced that someone had left through the gate.",
+      "translation": "他们根据脚印推断，有人从大门离开了。",
+      "rootRelation": "de- 与 duc- 词形有把结论从依据引出的历史联想。",
+      "acceptedAnswers": [
+        "推断",
+        "推导",
+        "演绎"
+      ],
+      "formation": "de（从……引出）+ duce（引领）→ 推断",
+      "pronunciation": "dɪˈdus",
+      "memoryCue": "根据已知事情一步步带出结论，就是推断。",
+      "parts": [
+        {
+          "text": "de-",
+          "ipa": "dɪ",
+          "meaning": "从……引出"
+        },
+        {
+          "text": "duce",
+          "ipa": "dus",
+          "meaning": "引领"
+        }
+      ],
+      "combined": "根据已有线索一步步推出结论，就是推断。"
+    },
+    {
+      "id": "duc.deduction",
+      "word": "deduction",
+      "partOfSpeech": "名词",
+      "meaning": "推论；演绎",
+      "explanation": "从线索或规则推出的判断，也可指这种推理方式。",
+      "example": "His deduction was based on two small clues.",
+      "translation": "他的推断建立在两个小线索上。",
+      "rootRelation": "deduce 的相关名词。",
+      "acceptedAnswers": [
+        "推论",
+        "推断",
+        "演绎"
+      ],
+      "formation": "deduce（推断）→ 推断的过程或结论",
+      "pronunciation": "dɪˈdʌkʃən",
+      "memoryCue": "deduce 是推断。推理过程或得出的结论，就是 deduction。",
+      "parts": [
+        {
+          "text": "deduce",
+          "ipa": "dɪdʌk",
+          "meaning": "推断"
+        },
+        {
+          "text": "-tion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "从线索推出的结论，也可以指这种推理。"
+    },
+    {
+      "id": "duc.educate",
+      "word": "educate",
+      "partOfSpeech": "动词",
+      "meaning": "教育；使掌握知识",
+      "explanation": "帮助某人学习，或就某个主题向公众提供知识，常用 educate about。",
+      "example": "The programme educates children about road safety.",
+      "translation": "这个项目教孩子们道路安全知识。",
+      "rootRelation": "历史词源关联拉丁语 educare 等形式，不能按字面解释现代义。",
+      "acceptedAnswers": [
+        "教育",
+        "教导",
+        "使了解"
+      ],
+      "formation": "带领、培养的词源线索 → 教育",
+      "pronunciation": "ˈɛdʒəˌkeɪt",
+      "memoryCue": "老师引导一个人学会东西，这个教育的动作叫 educate。",
+      "plainCue": "帮助别人学习知识，也可以向公众讲解主题。"
+    },
+    {
+      "id": "duc.educational",
+      "word": "educational",
+      "partOfSpeech": "形容词",
+      "meaning": "教育的；有教育意义的",
+      "explanation": "描述用于学习或能够帮助人增长知识的内容。",
+      "example": "The museum makes educational videos for schools.",
+      "translation": "博物馆为学校制作教育视频。",
+      "rootRelation": "与 educate 和 education 同族。",
+      "acceptedAnswers": [
+        "教育的",
+        "有教育意义的"
+      ],
+      "formation": "education（教育）+ al（与……有关）= 教育的",
+      "pronunciation": "ˌɛdʒəˈkeɪʃənəl",
+      "memoryCue": "education 是教育。跟学习和教育有关的东西，可以用 educational 来形容。",
+      "parts": [
+        {
+          "text": "education",
+          "ipa": "ɛdʒəkeɪʃən",
+          "meaning": "教育"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与……有关"
+        }
+      ],
+      "combined": "能帮助人学习、增长知识的，就是有教育意义的。"
+    }
+  ],
+  "links": [
+    {
+      "from": "duc.conduct",
+      "to": "duc.conductor",
+      "kind": "派生关系",
+      "note": "conduct 可表示指挥乐团，conductor 是担任指挥的人。"
+    },
+    {
+      "from": "duc.conduct",
+      "to": "duc.conduct.behavior",
+      "kind": "用法对照",
+      "note": "conduct 作动词可表示开展活动，名词常指人的行为举止。"
+    },
+    {
+      "from": "duc.produce",
+      "to": "duc.production",
+      "kind": "派生关系",
+      "note": "produce 是生产，production 指生产活动或产量。"
+    },
+    {
+      "from": "duc.production",
+      "to": "duc.product",
+      "kind": "用法对照",
+      "note": "production 强调生产过程或总量，product 指做出来的产品。"
+    },
+    {
+      "from": "duc.reduce",
+      "to": "duc.reduction",
+      "kind": "派生关系",
+      "note": "reduce 是减少，reduction 是减少的过程或结果。"
+    },
+    {
+      "from": "duc.introduce",
+      "to": "duc.introduction",
+      "kind": "派生关系",
+      "note": "introduce 是引入，introduction 是引入这件事。"
+    },
+    {
+      "from": "duc.deduce",
+      "to": "duc.deduction",
+      "kind": "派生关系",
+      "note": "deduce 是推断，deduction 是推理的过程或结论。"
+    },
+    {
+      "from": "duc.conduct",
+      "to": "duc.deduce",
+      "kind": "语境关联",
+      "note": "可以 conduct an experiment，再根据实验记录 deduce 发生了什么。"
+    },
+    {
+      "from": "duc.introduce",
+      "to": "duc.educate",
+      "kind": "语境关联",
+      "note": "学校引入新课程后，用它来教给学生某项知识。"
+    },
+    {
+      "from": "duc.educate",
+      "to": "duc.educational",
+      "kind": "派生关系",
+      "note": "educate 是教育，educational 形容用于教育或能帮助学习。"
+    },
+    {
+      "from": "duc.produce",
+      "to": "duc.reduce",
+      "kind": "语境关联",
+      "note": "工厂能一边 produce 产品，一边 reduce 生产能耗。"
+    }
+  ],
+  "rootIPA": "dus",
+  "rootSpoken": "duce",
+  "rootContext": "在 reduce 里",
+  "rootIntro": "这一组常见两种拼法。这里听到的这一块，有引领、带动的意思。",
+  "rootKind": "词根"
+}

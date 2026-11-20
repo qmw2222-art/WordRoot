@@ -1,0 +1,417 @@
+{
+  "id": "family.spect",
+  "root": "spect",
+  "meaning": "看、察看",
+  "explanation": "spect- 关联拉丁语中表示「看、注视」的词。看得仔细是 inspect，观看赛事的是 spectator，观察的角度可以是 perspective。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "spect.inspect",
+      "word": "inspect",
+      "partOfSpeech": "动词",
+      "meaning": "检查；查看",
+      "explanation": "仔细查看以确认状况。",
+      "example": "The mechanic inspected the brakes.",
+      "translation": "技师检查了刹车。",
+      "rootRelation": "spect + in-",
+      "acceptedAnswers": [
+        "检查"
+      ],
+      "formation": "in（向内、仔细）+ spect（看） = 仔细查看 → 检查",
+      "pronunciation": "ˌɪnˈspɛkt",
+      "memoryCue": "spect 是看。靠近了仔细看一件东西，就是检查。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "向里"
+        },
+        {
+          "text": "spect",
+          "ipa": "spɛkt",
+          "meaning": "看"
+        }
+      ],
+      "combined": "出门前把轮胎仔细看一遍，确认有气，就是检查。"
+    },
+    {
+      "id": "spect.respect",
+      "word": "respect",
+      "partOfSpeech": "动词",
+      "meaning": "尊重；重视",
+      "explanation": "现代常指重视他人或规则。",
+      "example": "We should respect each other’s time.",
+      "translation": "我们应该尊重彼此的时间。",
+      "rootRelation": "历史词源相关，不能按字面直译",
+      "acceptedAnswers": [
+        "尊重"
+      ],
+      "formation": "respect ← spect（看） = 看重 → 尊重",
+      "pronunciation": "rɪˈspɛkt",
+      "memoryCue": "认真听别人的意见，把对方当回事，就是尊重。"
+    },
+    {
+      "id": "spect.spectator",
+      "word": "spectator",
+      "partOfSpeech": "名词",
+      "meaning": "观众；旁观者",
+      "explanation": "观看活动的人。",
+      "example": "Every spectator received a program.",
+      "translation": "每位观众都拿到了一份节目单。",
+      "rootRelation": "spect（看）词源关系",
+      "acceptedAnswers": [
+        "观众"
+      ],
+      "formation": "spect（看）+ -ator（人） = 观看 → 观众",
+      "pronunciation": "ˈspɛkteɪtɚ",
+      "memoryCue": "spect 是看，-ator 指人。来看比赛或演出的人就是观众。",
+      "parts": [
+        {
+          "text": "spect",
+          "ipa": "spɛkt",
+          "meaning": "看"
+        },
+        {
+          "text": "ator",
+          "ipa": "eɪtɚ",
+          "meaning": "人"
+        }
+      ],
+      "combined": "在场边看比赛、在台下看表演的人，就是观众。"
+    },
+    {
+      "id": "spect.perspective",
+      "word": "perspective",
+      "partOfSpeech": "名词",
+      "meaning": "观点；视角",
+      "explanation": "观察或理解问题的角度。",
+      "example": "Try to see the issue from her perspective.",
+      "translation": "试着从她的角度看这个问题。",
+      "rootRelation": "spect词源相关，现代义已扩展",
+      "acceptedAnswers": [
+        "观点"
+      ],
+      "formation": "perspective ← spect（看） → 观看角度 → 观点",
+      "pronunciation": "pɚˈspɛktɪv",
+      "memoryCue": "从哪里看同一件事，能得出不同看法。这个看问题的角度就是 perspective。",
+      "plainCue": "同一件事，换个人、换个位置看，就可能有不同的看法。"
+    },
+    {
+      "id": "spect.inspection",
+      "word": "inspection",
+      "partOfSpeech": "名词",
+      "meaning": "检查；检验",
+      "explanation": "inspect的名词形式，指系统地查看。",
+      "example": "The building passed its safety inspection.",
+      "translation": "这栋建筑通过了安全检查。",
+      "rootRelation": "inspect → inspection",
+      "acceptedAnswers": [
+        "检查"
+      ],
+      "formation": "inspect + -ion = 检查 → 检查过程",
+      "pronunciation": "ˌɪnˈspɛkʃən",
+      "memoryCue": "inspect 是检查的动作。在关口接受的那次检查叫 inspection。",
+      "parts": [
+        {
+          "text": "inspect",
+          "ipa": "ɪnspɛk",
+          "meaning": "检查"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "师傅把车从头到尾查了一遍，这一遍就是一次检查。"
+    },
+    {
+      "id": "spect.respectful",
+      "word": "respectful",
+      "partOfSpeech": "形容词",
+      "meaning": "尊重人的；有礼貌的",
+      "explanation": "描述表现出尊重的态度。",
+      "example": "He gave a respectful reply.",
+      "translation": "他给出了有礼貌的答复。",
+      "rootRelation": "respect → respectful",
+      "acceptedAnswers": [
+        "尊重人的"
+      ],
+      "formation": "respect + -ful = 尊重 → 有礼貌的",
+      "pronunciation": "rɪˈspɛktfəl",
+      "memoryCue": "respect 是尊重，-ful 是充满。待人有敬意，就是恭敬有礼的。",
+      "parts": [
+        {
+          "text": "respect",
+          "ipa": "rɪspɛkt",
+          "meaning": "尊重"
+        },
+        {
+          "text": "-ful",
+          "ipa": "fəl",
+          "meaning": "有这种作用的"
+        }
+      ],
+      "combined": "等别人把话说完，再有礼貌地回答，就是尊重人的表现。"
+    },
+    {
+      "id": "spect.spectacle",
+      "word": "spectacle",
+      "partOfSpeech": "名词",
+      "meaning": "景象；壮观场面",
+      "explanation": "值得观看或引人注目的场面。",
+      "example": "The fireworks were an amazing spectacle.",
+      "translation": "烟花构成了令人惊叹的景象。",
+      "rootRelation": "spect（看）词源关系",
+      "acceptedAnswers": [
+        "景象"
+      ],
+      "formation": "spectacle · 景象",
+      "pronunciation": "ˈspɛktəkəl",
+      "memoryCue": "值得观看或引人注目的场面。",
+      "plainCue": "夜空突然亮起大片烟花，眼前这番景象就能用这个词。"
+    },
+    {
+      "id": "spect.prospect",
+      "word": "prospect",
+      "partOfSpeech": "名词",
+      "meaning": "前景；可能性",
+      "explanation": "未来可能出现的情况。",
+      "example": "The job offers good prospects for growth.",
+      "translation": "这份工作有不错的发展前景。",
+      "rootRelation": "pro- + spect历史联系",
+      "acceptedAnswers": [
+        "前景"
+      ],
+      "formation": "pro（向前）+ spect（看） = 向前看 → 前景",
+      "pronunciation": "ˈprɑspɛkt",
+      "memoryCue": "pro- 是向前，spect 是看。往前看有哪些可能，那就是前景。",
+      "parts": [
+        {
+          "text": "pro-",
+          "ipa": "prɑ",
+          "meaning": "向前"
+        },
+        {
+          "text": "spect",
+          "ipa": "spɛkt",
+          "meaning": "看"
+        }
+      ],
+      "combined": "往前看，一份工作将来能怎样发展，说的就是它的前景。"
+    },
+    {
+      "id": "spect.spectacular",
+      "word": "spectacular",
+      "partOfSpeech": "形容词",
+      "meaning": "壮观的；惊人的",
+      "explanation": "用于形容视觉上格外醒目或规模、效果很突出的事物。",
+      "example": "We watched a spectacular sunset from the roof.",
+      "translation": "我们从屋顶看了一场壮观的日落。",
+      "rootRelation": "由 spectacle 词族形成。",
+      "acceptedAnswers": [
+        "壮观的",
+        "惊人的",
+        "壮观"
+      ],
+      "formation": "spectacular · 壮观的",
+      "pronunciation": "spɛkˈtækjəlɚ",
+      "memoryCue": "用于形容视觉上格外醒目或规模、效果很突出的事物。",
+      "plainCue": "用来形容值得停下来看的景象，比如整片山谷亮起的灯。"
+    },
+    {
+      "id": "spect.suspect",
+      "word": "suspect",
+      "partOfSpeech": "动词",
+      "meaning": "怀疑；猜想",
+      "explanation": "觉得某件事有可能是真的但还未证实，可接 that 从句，也可说怀疑某人做了某事。",
+      "example": "I suspect the spare key is still in the drawer.",
+      "translation": "我怀疑备用钥匙还在抽屉里。",
+      "rootRelation": "词源与拉丁语中「看、怀疑」的形式有关。",
+      "acceptedAnswers": [
+        "怀疑",
+        "猜想"
+      ],
+      "formation": "和 inspect（仔细检查）对照记：心里有疑问，怀疑是某人或某事",
+      "pronunciation": "səˈspɛkt",
+      "memoryCue": "还拿不准，但心里觉得可能是他。这个怀疑的动作叫 suspect。",
+      "plainCue": "钥匙找不到，你猜可能落在车里了，这个暂未证实的猜想就是怀疑。"
+    },
+    {
+      "id": "spect.suspicion",
+      "word": "suspicion",
+      "partOfSpeech": "名词",
+      "meaning": "怀疑；疑心",
+      "explanation": "缺乏充分证据时对某件事或某个人抱有的疑虑。",
+      "example": "I had a suspicion that one page was missing.",
+      "translation": "我怀疑少了一页。",
+      "rootRelation": "与 suspect 同词族的名词。",
+      "acceptedAnswers": [
+        "怀疑",
+        "疑心"
+      ],
+      "formation": "suspect → suspicion = 怀疑 → 怀疑；疑心",
+      "pronunciation": "səˈspɪʃən",
+      "memoryCue": "suspect 是怀疑。心里面还没有证据的那份疑心，就是 suspicion。",
+      "plainCue": "听出前后说法不一样，心里觉得有问题，这份感觉就是疑心。"
+    },
+    {
+      "id": "spect.retrospect",
+      "word": "retrospect",
+      "partOfSpeech": "名词",
+      "meaning": "回顾",
+      "explanation": "常见于 in retrospect，表示从现在回看当时的决定或情形。",
+      "example": "In retrospect, we should have left earlier.",
+      "translation": "回头看，我们本应该早点出发。",
+      "rootRelation": "retro- 向后，spect 看。",
+      "acceptedAnswers": [
+        "回顾",
+        "回头看"
+      ],
+      "formation": "retro（向后）+ spect（看） = 回头看 → 回顾",
+      "pronunciation": "ˈrɛtrəˌspɛkt",
+      "memoryCue": "retro- 是往回，spect 是看。回过头看以前，就是回顾。",
+      "parts": [
+        {
+          "text": "retro-",
+          "ipa": "rɛtrə",
+          "meaning": "向后"
+        },
+        {
+          "text": "spect",
+          "ipa": "spɛkt",
+          "meaning": "看"
+        }
+      ],
+      "combined": "回头看过去发生的事，就是回顾。"
+    },
+    {
+      "id": "spect.introspective",
+      "word": "introspective",
+      "partOfSpeech": "形容词",
+      "meaning": "内省的；反省的",
+      "explanation": "形容倾向于审视自己的感受、想法或过去的行为。",
+      "example": "Her most introspective songs are about growing up.",
+      "translation": "她最富内省色彩的歌曲讲的是成长。",
+      "rootRelation": "intro- 向内，spect 看。",
+      "acceptedAnswers": [
+        "内省的",
+        "反省的",
+        "内省"
+      ],
+      "formation": "introspective · 内省的",
+      "pronunciation": "ˌɪntrəˈspɛktɪv",
+      "memoryCue": "形容倾向于审视自己的感受、想法或过去的行为。",
+      "plainCue": "遇到争吵后，回过头想想自己哪里做得不好，就是在反省。"
+    },
+    {
+      "id": "spect.aspect",
+      "word": "aspect",
+      "partOfSpeech": "名词",
+      "meaning": "方面；层面",
+      "explanation": "从复杂事物中挑出一个角度、特征或部分来讨论。",
+      "example": "One aspect of the job is meeting new clients.",
+      "translation": "这份工作的一部分是会见新客户。",
+      "rootRelation": "与「看、看向」有关的历史词形。",
+      "acceptedAnswers": [
+        "方面",
+        "层面"
+      ],
+      "formation": "a（朝向）+ spect（看） = 看向 → 方面",
+      "pronunciation": "ˈæˌspɛkt",
+      "memoryCue": "同一件东西换一面看，会看到它的另一个方面。",
+      "parts": [
+        {
+          "text": "a-",
+          "ipa": "æ",
+          "meaning": "朝向"
+        },
+        {
+          "text": "spect",
+          "ipa": "spɛkt",
+          "meaning": "看"
+        }
+      ],
+      "combined": "看一份工作，可以看薪水，也可以看时间。这就是从不同方面看它。"
+    }
+  ],
+  "links": [
+    {
+      "to": "spect.inspection",
+      "kind": "派生关系",
+      "note": "inspect 是仔细检查，inspection 指检查本身。",
+      "from": "spect.inspect"
+    },
+    {
+      "to": "spect.spectator",
+      "kind": "用法对照",
+      "note": "inspect 是以发现问题为目的看，spectator 是观看事件的人。",
+      "from": "spect.inspect"
+    },
+    {
+      "to": "spect.respectful",
+      "kind": "派生关系",
+      "note": "respect 是尊重，respectful 形容言行带有尊重。",
+      "from": "spect.respect"
+    },
+    {
+      "to": "spect.spectacle",
+      "kind": "语义联系",
+      "note": "spectator 是看热闹或演出的人，spectacle 是供人观看的醒目景象。",
+      "from": "spect.spectator"
+    },
+    {
+      "to": "spect.spectacular",
+      "kind": "派生关系",
+      "note": "spectacle 可以表示壮观景象，spectacular 强调令人印象深刻。",
+      "from": "spect.spectacle"
+    },
+    {
+      "to": "spect.suspect",
+      "kind": "用法对照",
+      "note": "inspect 侧重检查实物或现场，suspect 侧重怀疑某事或某人。",
+      "from": "spect.inspect"
+    },
+    {
+      "to": "spect.suspicion",
+      "kind": "派生关系",
+      "note": "suspect 是怀疑，suspicion 是怀疑这种想法。",
+      "from": "spect.suspect"
+    },
+    {
+      "to": "spect.perspective",
+      "kind": "用法对照",
+      "note": "prospect 说未来的可能性，perspective 说你用什么角度理解事情。",
+      "from": "spect.prospect"
+    },
+    {
+      "to": "spect.retrospect",
+      "kind": "同词根",
+      "note": "perspective 是视角，retrospect 指回头看已发生的事。",
+      "from": "spect.perspective"
+    },
+    {
+      "to": "spect.introspective",
+      "kind": "派生关系",
+      "note": "introspective 和 retrospect 都有「看」的历史线索，一个向内思考，一个向过去回顾。",
+      "from": "spect.retrospect"
+    },
+    {
+      "to": "spect.aspect",
+      "kind": "语义联系",
+      "note": "perspective 可以是观察角度，aspect 指一个问题被讨论的某个方面。",
+      "from": "spect.perspective"
+    },
+    {
+      "to": "spect.spectacular",
+      "kind": "语境关联",
+      "note": "如果描述前景而不用 spectacular 等强烈形容词，prospect 仍可中性地指可能性。",
+      "from": "spect.prospect"
+    }
+  ],
+  "rootIPA": "spɛkt",
+  "rootSpoken": "spect",
+  "rootContext": "在 inspect 里",
+  "rootIntro": "这一块表示看。往里细看，就能检查东西。",
+  "rootKind": "词根"
+}

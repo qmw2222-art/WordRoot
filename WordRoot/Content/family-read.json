@@ -1,0 +1,102 @@
+{
+  "id": "family.read",
+  "root": "read",
+  "meaning": "读",
+  "explanation": "把书翻开是 read；读书的人和读第二遍都用得到它。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "read.read",
+      "word": "read",
+      "partOfSpeech": "动词",
+      "meaning": "阅读",
+      "formation": "read 表示读文字。这里是动词原形",
+      "rootRelation": "把书翻开是 read；读书的人和读第二遍都用得到它。",
+      "explanation": "例句中的 read 取“阅读”这个意思。",
+      "example": "I read after dinner.",
+      "translation": "我晚饭后看书。",
+      "acceptedAnswers": [
+        "阅读"
+      ],
+      "pronunciation": "rid",
+      "memoryCue": "看着纸上的字，读懂它在说什么，就是阅读。"
+    },
+    {
+      "id": "read.reader",
+      "word": "reader",
+      "partOfSpeech": "名词",
+      "meaning": "读者",
+      "formation": "read（读）+ er（人）= 读者",
+      "rootRelation": "把书翻开是 read；读书的人和读第二遍都用得到它。",
+      "explanation": "例句中的 reader 取“读者”这个意思。",
+      "example": "My sister is a keen reader.",
+      "translation": "我妹妹很爱读书。",
+      "acceptedAnswers": [
+        "读者"
+      ],
+      "pronunciation": "ˈridɚ",
+      "memoryCue": "read 是读，-er 指人。读书的人就是读者。",
+      "parts": [
+        {
+          "text": "read",
+          "ipa": "rid",
+          "meaning": "读"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "把一本书打开来读的那个人，就是读者。"
+    },
+    {
+      "id": "read.reread",
+      "word": "reread",
+      "partOfSpeech": "动词",
+      "meaning": "重读",
+      "formation": "re（再次）+ read（读）= 重读",
+      "rootRelation": "把书翻开是 read；读书的人和读第二遍都用得到它。",
+      "explanation": "例句中的 reread 取“重读”这个意思。",
+      "example": "Please reread this line.",
+      "translation": "请再读一遍这一行。",
+      "acceptedAnswers": [
+        "重读"
+      ],
+      "pronunciation": "ˌriˈrid",
+      "memoryCue": "re- 是再一次，read 是读。合起来就是再读一遍。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "再一次"
+        },
+        {
+          "text": "read",
+          "ipa": "rid",
+          "meaning": "读"
+        }
+      ],
+      "combined": "第一次没看清，把同一句话再读一遍，就是重读。"
+    }
+  ],
+  "links": [
+    {
+      "from": "read.read",
+      "to": "read.reader",
+      "kind": "同一词族",
+      "note": "read（读）+ er（人）= 读者"
+    },
+    {
+      "from": "read.read",
+      "to": "read.reread",
+      "kind": "同一词族",
+      "note": "re（再次）+ read（读）= 重读"
+    }
+  ],
+  "rootIPA": "rid",
+  "rootSpoken": "read",
+  "rootContext": "",
+  "rootIntro": "这里的意思是读。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

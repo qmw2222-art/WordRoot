@@ -1,0 +1,512 @@
+{
+  "id": "family.mot",
+  "root": "mot",
+  "meaning": "移动、推动",
+  "explanation": "mot- 关联拉丁语中「移动」的词。运动可指位置变化，推动也可用来理解晋升、动机和激励。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "mot.motion.1",
+      "word": "motion",
+      "partOfSpeech": "名词",
+      "meaning": "运动；动作",
+      "explanation": "位置或状态发生变化，也可指一项正式提议。",
+      "example": "The camera detects motion near the front door.",
+      "translation": "摄像头能检测到前门附近的移动。",
+      "rootRelation": "mot（移动）相关名词。",
+      "acceptedAnswers": [
+        "运动"
+      ],
+      "formation": "mot-（运动、移动） + -ion（行为或结果） → 运动",
+      "pronunciation": "ˈmoʊʃən",
+      "memoryCue": "把这个词同 motor 配着记。机器让东西动起来，动的状态就是运动。",
+      "parts": [
+        {
+          "text": "mot-",
+          "ipa": "moʊ",
+          "meaning": "运动、移动"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "t+i 融合为 /ʃ/，指运动"
+          ]
+        }
+      ],
+      "combined": "手从桌面抬起来，位置变了，这就是一个动作。"
+    },
+    {
+      "id": "mot.promote.3",
+      "word": "promote",
+      "partOfSpeech": "动词",
+      "meaning": "促进；晋升",
+      "explanation": "推动某事发展，也可指提升职位或宣传产品。",
+      "example": "The new path promotes walking instead of driving.",
+      "translation": "这条新步道鼓励步行而不是开车。",
+      "rootRelation": "pro-（向前）与 mot（推动）历史相关。",
+      "acceptedAnswers": [
+        "促进"
+      ],
+      "formation": "pro-（向前、向上） + mot-（推动） → 促进",
+      "pronunciation": "prəˈmoʊt",
+      "memoryCue": "pro- 是向前。把事业往前推，是促进；把人往上提，是晋升。",
+      "parts": [
+        {
+          "text": "pro-",
+          "ipa": "prə",
+          "meaning": "向前、向上"
+        },
+        {
+          "text": "mot-",
+          "ipa": "ˈmoʊt",
+          "meaning": "推动",
+          "notes": [
+            "使前进"
+          ]
+        }
+      ],
+      "combined": "帮产品打开销路叫推广。把员工提到更高职位叫晋升。"
+    },
+    {
+      "id": "mot.motor.5",
+      "word": "motor",
+      "partOfSpeech": "名词",
+      "meaning": "发动机；马达",
+      "explanation": "把能源转化为机械运动的装置。",
+      "example": "The motor runs quietly even at high speed.",
+      "translation": "这台马达即使高速运转也很安静。",
+      "rootRelation": "mot（移动）相关词，指产生运动的装置。",
+      "acceptedAnswers": [
+        "发动机"
+      ],
+      "formation": "mot-（运动、驱动） + -or（表示器具） → 发动机",
+      "pronunciation": "ˈmoʊtɚ",
+      "memoryCue": "抓住 mot 的「动」。让机器动起来的装置就是马达。",
+      "parts": [
+        {
+          "text": "mot-",
+          "ipa": "moʊ",
+          "meaning": "运动、驱动"
+        },
+        {
+          "text": "-or",
+          "ipa": "tɚ",
+          "meaning": "表示器具",
+          "notes": [
+            "这里指发动机"
+          ]
+        }
+      ],
+      "combined": "风扇插电后能转起来，里面带动扇叶的就是马达。"
+    },
+    {
+      "id": "mot.motive.7",
+      "word": "motive",
+      "partOfSpeech": "名词",
+      "meaning": "动机；原因",
+      "explanation": "促使某人采取行动的理由。",
+      "example": "The detective asked about the motive for the theft.",
+      "translation": "侦探询问了盗窃的动机。",
+      "rootRelation": "与推动行动的 mot 词源联系相关。",
+      "acceptedAnswers": [
+        "动机"
+      ],
+      "formation": "mot-（推动、驱动） + -ive（与……有关的） → 动机",
+      "pronunciation": "ˈmoʊtɪv",
+      "memoryCue": "mot 有推动的意思。推动一个人去做事的原因就是动机。",
+      "parts": [
+        {
+          "text": "mot-",
+          "ipa": "ˈmoʊt",
+          "meaning": "推动、驱动"
+        },
+        {
+          "text": "-ive",
+          "ipa": "ɪv",
+          "meaning": "与……有关的",
+          "notes": [
+            "促使行动的原因"
+          ]
+        }
+      ],
+      "combined": "想知道一个人为什么这么做，就是在找他的动机。"
+    },
+    {
+      "id": "mot.motionless.2",
+      "word": "motionless",
+      "partOfSpeech": "形容词",
+      "meaning": "静止的；一动不动的",
+      "explanation": "完全没有移动的状态。",
+      "example": "The deer stood motionless beside the road.",
+      "translation": "鹿一动不动地站在路边。",
+      "rootRelation": "motion 加 -less（没有）。",
+      "acceptedAnswers": [
+        "静止的"
+      ],
+      "formation": "motion（运动）+ less（没有）= 静止的",
+      "pronunciation": "ˈmoʊʃənləs",
+      "memoryCue": "motion 是运动，-less 表示没有。没有运动，就是静止的。",
+      "parts": [
+        {
+          "text": "motion",
+          "ipa": "moʊʃən",
+          "meaning": "运动"
+        },
+        {
+          "text": "-less",
+          "ipa": "ləs",
+          "meaning": "没有"
+        }
+      ],
+      "combined": "他一动也不动，像照片里一样，这就叫静止的。"
+    },
+    {
+      "id": "mot.promotion.4",
+      "word": "promotion",
+      "partOfSpeech": "名词",
+      "meaning": "晋升；促销；推广",
+      "explanation": "指职位提升，也可指宣传或销售推广活动。",
+      "example": "Her promotion came after years of careful work.",
+      "translation": "多年认真工作后，她获得了晋升。",
+      "rootRelation": "promote 加 -ion 构成名词。",
+      "acceptedAnswers": [
+        "晋升"
+      ],
+      "formation": "promote + -ion = 晋升；推广",
+      "pronunciation": "prəˈmoʊʃən",
+      "memoryCue": "promote 是晋升或推广。说一次晋升或推广活动，用 promotion。",
+      "parts": [
+        {
+          "text": "promote",
+          "ipa": "prəmoʊ",
+          "meaning": "促进"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "从店员升任店长是一次晋升。商店打折吸引顾客叫促销。"
+    },
+    {
+      "id": "mot.motorist.6",
+      "word": "motorist",
+      "partOfSpeech": "名词",
+      "meaning": "驾车者",
+      "explanation": "驾驶汽车出行的人。",
+      "example": "Motorists should slow down near the school.",
+      "translation": "驾车者经过学校附近时应减速。",
+      "rootRelation": "motor 加表示人的 -ist。",
+      "acceptedAnswers": [
+        "驾车者"
+      ],
+      "formation": "motor + -ist = 马达 → 驾车者",
+      "pronunciation": "ˈmoʊtɚɪst",
+      "memoryCue": "motor 让车跑，-ist 表示人。这里指开汽车的人。",
+      "parts": [
+        {
+          "text": "motor",
+          "ipa": "moʊtɚ",
+          "meaning": "发动机"
+        },
+        {
+          "text": "-ist",
+          "ipa": "ɪst",
+          "meaning": "做这行的人"
+        }
+      ],
+      "combined": "自己握着方向盘开车上路的那个人，就是驾车者。"
+    },
+    {
+      "id": "mot.motivate.8",
+      "word": "motivate",
+      "partOfSpeech": "动词",
+      "meaning": "激励；促使",
+      "explanation": "给出理由或支持，使某人愿意采取行动。",
+      "example": "Small milestones motivate the team to keep going.",
+      "translation": "一个个小目标激励团队继续前进。",
+      "rootRelation": "motive 加动词后缀 -ate。",
+      "acceptedAnswers": [
+        "激励"
+      ],
+      "formation": "motive（动机） + -ate（使……） → 激励",
+      "pronunciation": "ˈmoʊtəˌveɪt",
+      "memoryCue": "motive 是动机。让别人有动力去做一件事，就是激励。",
+      "parts": [
+        {
+          "text": "motive",
+          "ipa": "ˈmoʊtɪv",
+          "meaning": "动机"
+        },
+        {
+          "text": "-ate",
+          "ipa": "eɪt",
+          "meaning": "使……",
+          "notes": [
+            "使人产生行动动力"
+          ]
+        }
+      ],
+      "combined": "总有人给你打气，让你想继续做下去，这就是在激励你。"
+    },
+    {
+      "id": "mot.movement.8",
+      "word": "movement",
+      "partOfSpeech": "名词",
+      "meaning": "社会运动；有组织的行动",
+      "explanation": "一群人为实现共同目标而发起、持续开展的活动。",
+      "example": "The movement began with a campaign for safer streets.",
+      "translation": "这场运动始于一项改善街道安全的倡议。",
+      "rootRelation": "move 表示移动或行动，-ment 构成名词。",
+      "acceptedAnswers": [
+        "社会运动",
+        "运动"
+      ],
+      "formation": "move + -ment = 移动 → 运动；运动团体",
+      "pronunciation": "ˈmuvmənt",
+      "memoryCue": "move 是动。运动的过程或一起行动的群体都可以叫 movement。",
+      "parts": [
+        {
+          "text": "move",
+          "ipa": "muv",
+          "meaning": "移动"
+        },
+        {
+          "text": "-ment",
+          "ipa": "mənt",
+          "meaning": "动作或结果"
+        }
+      ],
+      "combined": "许多人一起行动，争取同一项改变，这就是一场社会运动。"
+    },
+    {
+      "id": "mot.motivation.extra2",
+      "word": "motivation",
+      "partOfSpeech": "名词",
+      "meaning": "动力；积极性",
+      "explanation": "促使人开始或持续行动的内在原因。",
+      "example": "Her motivation came from wanting to help the neighborhood.",
+      "translation": "她的动力来自想帮助社区。",
+      "rootRelation": "motivate 加 -ion 构成名词。",
+      "acceptedAnswers": [
+        "动力"
+      ],
+      "formation": "motivate + -ion = 激励 → 动力",
+      "pronunciation": "ˌmoʊtəˈveɪʃən",
+      "memoryCue": "motivate 是激励。让你想行动的那股动力就是 motivation。",
+      "parts": [
+        {
+          "text": "motivate",
+          "ipa": "moʊtəveɪ",
+          "meaning": "激励"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "到底是什么让你愿意起早练习？推着你行动的就是动力。"
+    },
+    {
+      "id": "mot.motivated.extra3",
+      "word": "motivated",
+      "partOfSpeech": "形容词",
+      "meaning": "有动力的；积极的",
+      "explanation": "愿意投入努力去完成某项任务。",
+      "example": "The volunteers stayed motivated through the long cleanup.",
+      "translation": "志愿者在漫长的清理工作中一直很有干劲。",
+      "rootRelation": "motivate 的过去分词作形容词。",
+      "acceptedAnswers": [
+        "有动力的"
+      ],
+      "formation": "motivate（激励、促使） + -ed（过去分词后缀） → 有动力的",
+      "pronunciation": "ˈmoʊtəˌveɪtəd",
+      "memoryCue": "motivate 是激励。受到鼓舞、想去做事，就叫有动力的。",
+      "parts": [
+        {
+          "text": "motivate",
+          "ipa": "ˈmoʊtəˌveɪt",
+          "meaning": "激励、促使"
+        },
+        {
+          "text": "-ed",
+          "ipa": "ɪd",
+          "meaning": "过去分词后缀",
+          "notes": [
+            "这里是有动力的"
+          ]
+        }
+      ],
+      "combined": "一想到目标就想起身去做，这种状态叫有动力。"
+    },
+    {
+      "id": "mot.automotive.11",
+      "word": "automotive",
+      "partOfSpeech": "形容词",
+      "meaning": "汽车的；与汽车工业有关的",
+      "explanation": "用于汽车的设计、生产或相关行业。",
+      "example": "She works for an automotive parts supplier.",
+      "translation": "她在一家汽车零部件供应商工作。",
+      "rootRelation": "auto- 表示自身，motive 关联移动。",
+      "acceptedAnswers": [
+        "汽车的",
+        "汽车工业的",
+        "汽车"
+      ],
+      "formation": "auto（自行）+ motive（移动） = 汽车的",
+      "pronunciation": "ˌɔtəˈmoʊtɪv",
+      "memoryCue": "auto- 有自己的意思，motive 和移动有关。automotive 用来形容与汽车有关的东西。",
+      "parts": [
+        {
+          "text": "auto",
+          "ipa": "ɔtə",
+          "meaning": "自行"
+        },
+        {
+          "text": "motive",
+          "ipa": "moʊtɪv",
+          "meaning": "移动"
+        }
+      ],
+      "combined": "说轮胎厂、汽车零件时，可以用这个词表示与汽车有关。"
+    },
+    {
+      "id": "mot.demotion.extra5",
+      "word": "demotion",
+      "partOfSpeech": "名词",
+      "meaning": "降职；降级",
+      "explanation": "职位或级别被调低。",
+      "example": "The manager appealed the demotion.",
+      "translation": "经理对降职决定提出申诉。",
+      "rootRelation": "de-（向下）与 mot 词族相关，表示职位移动到较低级别。",
+      "acceptedAnswers": [
+        "降职"
+      ],
+      "formation": "de-（向下、降低） + motion（移动、变动） → 降职",
+      "pronunciation": "dɪˈmoʊʃən",
+      "memoryCue": "de- 是向下。职业位置往下移，就是降职。",
+      "parts": [
+        {
+          "text": "de-",
+          "ipa": "di",
+          "meaning": "向下、降低"
+        },
+        {
+          "text": "motion",
+          "ipa": "ˈmoʊʃən",
+          "meaning": "移动、变动",
+          "notes": [
+            "现代词义指职位下降"
+          ]
+        }
+      ],
+      "combined": "原来是经理，现在降为普通员工，这次变化就是降职。"
+    },
+    {
+      "id": "mot.locomotion.extra6",
+      "word": "locomotion",
+      "partOfSpeech": "名词",
+      "meaning": "运动；移动方式",
+      "explanation": "生物或物体从一处移动到另一处的过程。",
+      "example": "The lesson compares different forms of animal locomotion.",
+      "translation": "课程比较了动物的不同移动方式。",
+      "rootRelation": "loco-（地点）与 motion（运动）组成。",
+      "acceptedAnswers": [
+        "运动"
+      ],
+      "formation": "loco（地点）+ motion（运动） → 地点 + 移动 → 运动",
+      "pronunciation": "ˌloʊkəˈmoʊʃən",
+      "memoryCue": "loco 和地点有关，motion 是移动。从一处移到另一处，就是移动。",
+      "parts": [
+        {
+          "text": "loco",
+          "ipa": "loʊkə",
+          "meaning": "地点"
+        },
+        {
+          "text": "motion",
+          "ipa": "moʊʃən",
+          "meaning": "运动"
+        }
+      ],
+      "combined": "鱼在水里游，人在地上走，说的都是从一处移到另一处的方式。"
+    }
+  ],
+  "links": [
+    {
+      "to": "mot.motionless.2",
+      "kind": "派生关系",
+      "note": "motion 指运动，motionless 指丝毫没有动。",
+      "from": "mot.motion.1"
+    },
+    {
+      "to": "mot.movement.8",
+      "kind": "语义联系",
+      "note": "motion 泛指运动；movement 也可指有组织的社会运动。",
+      "from": "mot.motion.1"
+    },
+    {
+      "to": "mot.locomotion.extra6",
+      "kind": "用法对照",
+      "note": "motion 泛指运动，locomotion 强调生物或物体从一处到另一处的移动。",
+      "from": "mot.motion.1"
+    },
+    {
+      "to": "mot.promotion.4",
+      "kind": "派生关系",
+      "note": "promote 可表示晋升或推广，promotion 是相应的名词。",
+      "from": "mot.promote.3"
+    },
+    {
+      "to": "mot.demotion.extra5",
+      "kind": "用法对照",
+      "note": "职位语境中 promotion 是升职，demotion 是降职。",
+      "from": "mot.promotion.4"
+    },
+    {
+      "to": "mot.motorist.6",
+      "kind": "派生关系",
+      "note": "motor 是提供动力的装置，motorist 是驾驶车辆的人。",
+      "from": "mot.motor.5"
+    },
+    {
+      "to": "mot.automotive.11",
+      "kind": "用法对照",
+      "note": "motor 是动力装置，automotive 形容汽车及相关产业。",
+      "from": "mot.motor.5"
+    },
+    {
+      "to": "mot.motivate.8",
+      "kind": "同词根",
+      "note": "motive 是做事的理由，motivate 是给人理由或动力去做。",
+      "from": "mot.motive.7"
+    },
+    {
+      "to": "mot.motivation.extra2",
+      "kind": "派生关系",
+      "note": "motivate 作动词，motivation 是做事的动力。",
+      "from": "mot.motivate.8"
+    },
+    {
+      "to": "mot.motivated.extra3",
+      "kind": "派生关系",
+      "note": "motivate 是激励别人，motivated 形容受到激励、愿意行动。",
+      "from": "mot.motivate.8"
+    },
+    {
+      "to": "mot.motor.5",
+      "kind": "语境关联",
+      "note": "马达把能量转成 motion，使设备部件运动。",
+      "from": "mot.motion.1"
+    }
+  ],
+  "rootIPA": "moʊt",
+  "rootSpoken": "mot",
+  "rootContext": "在 motor 里",
+  "rootIntro": "想想东西动起来。这组词里常常有这个意思。",
+  "rootKind": "词根"
+}

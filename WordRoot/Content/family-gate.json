@@ -1,0 +1,102 @@
+{
+  "id": "family.gate",
+  "root": "gate",
+  "meaning": "门、出入口",
+  "explanation": "落地看指示牌。gate 前面写的是谁、去哪里，就告诉你是哪一扇门。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "gate.gate",
+      "word": "gate",
+      "partOfSpeech": "名词",
+      "meaning": "大门、登机口",
+      "formation": "gate 指出入口，在机场常指登机口",
+      "rootRelation": "落地看指示牌。gate 前面写的是谁、去哪里，就告诉你是哪一扇门。",
+      "explanation": "例句中的 gate 取“大门、登机口”这个意思。",
+      "example": "Which gate do we need?",
+      "translation": "我们要去哪个登机口？",
+      "acceptedAnswers": [
+        "大门、登机口"
+      ],
+      "pronunciation": "ɡeɪt",
+      "memoryCue": "机场里排队登机的入口；也可以指大门。"
+    },
+    {
+      "id": "gate.gate-number",
+      "word": "gate number",
+      "partOfSpeech": "名词短语",
+      "meaning": "登机口号码",
+      "formation": "gate（登机口）+ number（号码）= 登机口号码",
+      "rootRelation": "落地看指示牌。gate 前面写的是谁、去哪里，就告诉你是哪一扇门。",
+      "explanation": "例句中的 gate number 取“登机口号码”这个意思。",
+      "example": "Check your gate number.",
+      "translation": "看看你的登机口号码。",
+      "acceptedAnswers": [
+        "登机口号码"
+      ],
+      "pronunciation": "ˈɡeɪt ˌnʌmbɚ",
+      "memoryCue": "gate 是登机口，number 是号码。合起来就是登机口号码。",
+      "parts": [
+        {
+          "text": "gate",
+          "ipa": "ɡeɪt",
+          "meaning": "登机口"
+        },
+        {
+          "text": "number",
+          "ipa": "nʌmbɚ",
+          "meaning": "号码"
+        }
+      ],
+      "combined": "登机牌上写的登机口号码。"
+    },
+    {
+      "id": "gate.departure-gate",
+      "word": "departure gate",
+      "partOfSpeech": "名词短语",
+      "meaning": "出发登机口",
+      "formation": "departure（出发）+ gate（登机口）= 出发登机口",
+      "rootRelation": "落地看指示牌。gate 前面写的是谁、去哪里，就告诉你是哪一扇门。",
+      "explanation": "例句中的 departure gate 取“出发登机口”这个意思。",
+      "example": "Our departure gate is upstairs.",
+      "translation": "我们的登机口在楼上。",
+      "acceptedAnswers": [
+        "出发登机口"
+      ],
+      "pronunciation": "dɪˈpɑrtʃɚ ɡeɪt",
+      "memoryCue": "departure 是出发，gate 是登机口。合起来就是出发登机口。",
+      "parts": [
+        {
+          "text": "departure",
+          "ipa": "dɪpɑrtʃɚ",
+          "meaning": "出发"
+        },
+        {
+          "text": "gate",
+          "ipa": "ɡeɪt",
+          "meaning": "登机口"
+        }
+      ],
+      "combined": "出发航班使用的登机口。"
+    }
+  ],
+  "links": [
+    {
+      "from": "gate.gate",
+      "to": "gate.gate-number",
+      "kind": "同一词族",
+      "note": "gate（登机口）+ number（号码）= 登机口号码"
+    },
+    {
+      "from": "gate.gate",
+      "to": "gate.departure-gate",
+      "kind": "同一词族",
+      "note": "departure（出发）+ gate（登机口）= 出发登机口"
+    }
+  ],
+  "rootIPA": "ɡeɪt",
+  "rootSpoken": "gate",
+  "rootContext": "",
+  "rootIntro": "这里的意思是门、出入口。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

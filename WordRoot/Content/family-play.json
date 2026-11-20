@@ -1,0 +1,102 @@
+{
+  "id": "family.play",
+  "root": "play",
+  "meaning": "玩、比赛、播放",
+  "explanation": "同一个 play，换到球场上是打球，换到屏幕上是播放。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "play.play",
+      "word": "play",
+      "partOfSpeech": "动词",
+      "meaning": "玩",
+      "formation": "play 表示玩或参加游戏",
+      "rootRelation": "同一个 play，换到球场上是打球，换到屏幕上是播放。",
+      "explanation": "例句中的 play 取“玩”这个意思。",
+      "example": "Let's play a game.",
+      "translation": "我们玩个游戏吧。",
+      "acceptedAnswers": [
+        "玩"
+      ],
+      "pronunciation": "pleɪ",
+      "memoryCue": "和朋友玩球、玩游戏，这个动作就是玩。"
+    },
+    {
+      "id": "play.player",
+      "word": "player",
+      "partOfSpeech": "名词",
+      "meaning": "选手",
+      "formation": "play（参加比赛）+ er（人）= 选手",
+      "rootRelation": "同一个 play，换到球场上是打球，换到屏幕上是播放。",
+      "explanation": "例句中的 player 取“选手”这个意思。",
+      "example": "She's a tennis player.",
+      "translation": "她是网球选手。",
+      "acceptedAnswers": [
+        "选手"
+      ],
+      "pronunciation": "ˈpleɪɚ",
+      "memoryCue": "play 是参加比赛，-er 指人。参加比赛的人就是选手。",
+      "parts": [
+        {
+          "text": "play",
+          "ipa": "pleɪ",
+          "meaning": "参加比赛"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "上场参加比赛、亲自踢球或打球的人，就是选手。"
+    },
+    {
+      "id": "play.replay",
+      "word": "replay",
+      "partOfSpeech": "动词",
+      "meaning": "重播",
+      "formation": "re（再一次）+ play（播放）= 重播",
+      "rootRelation": "同一个 play，换到球场上是打球，换到屏幕上是播放。",
+      "explanation": "例句中的 replay 取“重播”这个意思。",
+      "example": "Can you replay that part?",
+      "translation": "你能把那段重放一遍吗？",
+      "acceptedAnswers": [
+        "重播"
+      ],
+      "pronunciation": "ˌriˈpleɪ",
+      "memoryCue": "re- 是再一次，play 可以是播放。把画面再放一次就是重播。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "再一次"
+        },
+        {
+          "text": "play",
+          "ipa": "pleɪ",
+          "meaning": "播放"
+        }
+      ],
+      "combined": "一个进球太快没看清，把刚才的画面再播一次，就是重播。"
+    }
+  ],
+  "links": [
+    {
+      "from": "play.play",
+      "to": "play.player",
+      "kind": "同一词族",
+      "note": "play（参加比赛）+ er（人）= 选手"
+    },
+    {
+      "from": "play.play",
+      "to": "play.replay",
+      "kind": "同一词族",
+      "note": "re（再一次）+ play（播放）= 重播"
+    }
+  ],
+  "rootIPA": "pleɪ",
+  "rootSpoken": "play",
+  "rootContext": "",
+  "rootIntro": "这里的意思是玩、比赛、播放。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

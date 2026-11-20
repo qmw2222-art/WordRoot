@@ -1,0 +1,103 @@
+{
+  "id": "family.room",
+  "root": "room",
+  "meaning": "房间",
+  "explanation": "酒店里的 room，可以住人，也可以在前面加 bed 或 bath 说清用途。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "room.room",
+      "word": "room",
+      "partOfSpeech": "名词",
+      "meaning": "房间",
+      "formation": "room 可以指一个房间",
+      "rootRelation": "酒店里的 room，可以住人，也可以在前面加 bed 或 bath 说清用途。",
+      "explanation": "例句中的 room 取“房间”这个意思。",
+      "example": "Our room is ready.",
+      "translation": "我们的房间准备好了。",
+      "acceptedAnswers": [
+        "房间"
+      ],
+      "pronunciation": "rum",
+      "memoryCue": "有门、有四面墙的一间，就是 room。",
+      "plainCue": "家里由墙隔开的一个空间，比如卧室，就是一个房间。"
+    },
+    {
+      "id": "room.bedroom",
+      "word": "bedroom",
+      "partOfSpeech": "名词",
+      "meaning": "卧室",
+      "formation": "bed（床）+ room（房间）= 卧室",
+      "rootRelation": "酒店里的 room，可以住人，也可以在前面加 bed 或 bath 说清用途。",
+      "explanation": "例句中的 bedroom 取“卧室”这个意思。",
+      "example": "The bedroom has two beds.",
+      "translation": "卧室里有两张床。",
+      "acceptedAnswers": [
+        "卧室"
+      ],
+      "pronunciation": "ˈbɛˌdrum",
+      "memoryCue": "bed 是床，room 是房间。放床睡觉的地方就是卧室。",
+      "parts": [
+        {
+          "text": "bed",
+          "ipa": "bɛd",
+          "meaning": "床"
+        },
+        {
+          "text": "room",
+          "ipa": "rum",
+          "meaning": "房间"
+        }
+      ],
+      "combined": "家里放着床、晚上用来睡觉的房间，就是卧室。"
+    },
+    {
+      "id": "room.bathroom",
+      "word": "bathroom",
+      "partOfSpeech": "名词",
+      "meaning": "浴室、卫生间",
+      "formation": "bath（洗澡）+ room（房间）= 浴室；也常指卫生间",
+      "rootRelation": "酒店里的 room，可以住人，也可以在前面加 bed 或 bath 说清用途。",
+      "explanation": "例句中的 bathroom 取“浴室、卫生间”这个意思。",
+      "example": "Where's the bathroom?",
+      "translation": "卫生间在哪里？",
+      "acceptedAnswers": [
+        "浴室、卫生间"
+      ],
+      "pronunciation": "ˈbæˌθrum",
+      "memoryCue": "bath 是洗澡，room 是房间。合起来指浴室，也常指卫生间。",
+      "parts": [
+        {
+          "text": "bath",
+          "ipa": "bæθ",
+          "meaning": "洗澡"
+        },
+        {
+          "text": "room",
+          "ipa": "rum",
+          "meaning": "房间"
+        }
+      ],
+      "combined": "在酒店里，说这间可以洗澡、上厕所的房间，就是卫生间。"
+    }
+  ],
+  "links": [
+    {
+      "from": "room.room",
+      "to": "room.bedroom",
+      "kind": "同一词族",
+      "note": "bed（床）+ room（房间）= 卧室"
+    },
+    {
+      "from": "room.room",
+      "to": "room.bathroom",
+      "kind": "同一词族",
+      "note": "bath（洗澡）+ room（房间）= 浴室；也常指卫生间"
+    }
+  ],
+  "rootIPA": "rum",
+  "rootSpoken": "room",
+  "rootContext": "",
+  "rootIntro": "这里的意思是房间。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

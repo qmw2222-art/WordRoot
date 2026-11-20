@@ -1,0 +1,102 @@
+{
+  "id": "family.stop",
+  "root": "stop",
+  "meaning": "停",
+  "explanation": "司机停车是 stop，公交车停靠的地方也能认出 stop。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "stop.stop",
+      "word": "stop",
+      "partOfSpeech": "动词",
+      "meaning": "停下",
+      "formation": "stop 表示停止移动",
+      "rootRelation": "司机停车是 stop，公交车停靠的地方也能认出 stop。",
+      "explanation": "例句中的 stop 取“停下”这个意思。",
+      "example": "Please stop here.",
+      "translation": "请在这里停。",
+      "acceptedAnswers": [
+        "停下"
+      ],
+      "pronunciation": "stɑp",
+      "memoryCue": "车到红灯前不再往前走，这个动作就是停下。"
+    },
+    {
+      "id": "stop.bus-stop",
+      "word": "bus stop",
+      "partOfSpeech": "名词",
+      "meaning": "公交车站",
+      "formation": "bus（公交车）+ stop（停靠点）= 公交车站",
+      "rootRelation": "司机停车是 stop，公交车停靠的地方也能认出 stop。",
+      "explanation": "例句中的 bus stop 取“公交车站”这个意思。",
+      "example": "The bus stop is across the street.",
+      "translation": "公交车站在街对面。",
+      "acceptedAnswers": [
+        "公交车站"
+      ],
+      "pronunciation": "ˈbʌs ˌstɑp",
+      "memoryCue": "bus 是公交车，stop 在这里是停靠点。合起来就是公交车站。",
+      "parts": [
+        {
+          "text": "bus",
+          "ipa": "bʌs",
+          "meaning": "公交车"
+        },
+        {
+          "text": "stop",
+          "ipa": "stɑp",
+          "meaning": "停靠点"
+        }
+      ],
+      "combined": "公交车停下来让人上车的地方，就是公交车站。"
+    },
+    {
+      "id": "stop.nonstop",
+      "word": "nonstop",
+      "partOfSpeech": "形容词",
+      "meaning": "直达的",
+      "formation": "non（不）+ stop（停）= 中途不停的",
+      "rootRelation": "司机停车是 stop，公交车停靠的地方也能认出 stop。",
+      "explanation": "例句中的 nonstop 取“直达的”这个意思。",
+      "example": "Is this a nonstop flight?",
+      "translation": "这是直飞航班吗？",
+      "acceptedAnswers": [
+        "直达的"
+      ],
+      "pronunciation": "ˌnɑnˈstɑp",
+      "memoryCue": "non- 表示不，stop 是停。路上一直不停，就是直达的。",
+      "parts": [
+        {
+          "text": "non",
+          "ipa": "nɑn",
+          "meaning": "不"
+        },
+        {
+          "text": "stop",
+          "ipa": "stɑp",
+          "meaning": "停"
+        }
+      ],
+      "combined": "从这里一路飞到目的地，中间不停，就是直达。"
+    }
+  ],
+  "links": [
+    {
+      "from": "stop.stop",
+      "to": "stop.bus-stop",
+      "kind": "同一词族",
+      "note": "bus（公交车）+ stop（停靠点）= 公交车站"
+    },
+    {
+      "from": "stop.stop",
+      "to": "stop.nonstop",
+      "kind": "同一词族",
+      "note": "non（不）+ stop（停）= 中途不停的"
+    }
+  ],
+  "rootIPA": "stɑp",
+  "rootSpoken": "stop",
+  "rootContext": "",
+  "rootIntro": "这里的意思是停。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

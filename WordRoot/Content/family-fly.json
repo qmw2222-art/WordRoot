@@ -1,0 +1,102 @@
+{
+  "id": "family.fly",
+  "root": "fly",
+  "meaning": "飞",
+  "explanation": "先想飞机飞过来。表示飞行的人和飞越某处的动作，也从 fly 出发。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "fly.fly",
+      "word": "fly",
+      "partOfSpeech": "动词",
+      "meaning": "飞",
+      "formation": "fly 表示飞行或乘飞机前往",
+      "rootRelation": "先想飞机飞过来。表示飞行的人和飞越某处的动作，也从 fly 出发。",
+      "explanation": "例句中的 fly 取“飞”这个意思。",
+      "example": "We fly tomorrow.",
+      "translation": "我们明天乘飞机走。",
+      "acceptedAnswers": [
+        "飞"
+      ],
+      "pronunciation": "flaɪ",
+      "memoryCue": "身体离开地面，在空中移动，就是飞。"
+    },
+    {
+      "id": "fly.flyer",
+      "word": "flyer",
+      "partOfSpeech": "名词",
+      "meaning": "乘飞机的人",
+      "formation": "fly（乘飞机）+ er（人）= 乘机人",
+      "rootRelation": "先想飞机飞过来。表示飞行的人和飞越某处的动作，也从 fly 出发。",
+      "explanation": "例句中的 flyer 取“乘飞机的人”这个意思。",
+      "example": "She's a frequent flyer.",
+      "translation": "她经常乘飞机。",
+      "acceptedAnswers": [
+        "乘飞机的人"
+      ],
+      "pronunciation": "ˈflaɪɚ",
+      "memoryCue": "fly 是乘飞机，-er 指人。合起来就是乘机的人。",
+      "parts": [
+        {
+          "text": "fly",
+          "ipa": "flaɪ",
+          "meaning": "乘飞机"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "人"
+        }
+      ],
+      "combined": "常搭飞机出行的人，就是乘飞机的人。"
+    },
+    {
+      "id": "fly.fly-over",
+      "word": "fly over",
+      "partOfSpeech": "动词短语",
+      "meaning": "飞越",
+      "formation": "fly（飞）+ over（上方）= 从上空飞过",
+      "rootRelation": "先想飞机飞过来。表示飞行的人和飞越某处的动作，也从 fly 出发。",
+      "explanation": "例句中的 fly over 取“飞越”这个意思。",
+      "example": "We'll fly over the sea.",
+      "translation": "我们会飞越大海。",
+      "acceptedAnswers": [
+        "飞越"
+      ],
+      "pronunciation": "flaɪ ˈoʊvɚ",
+      "memoryCue": "fly 是飞，over 是在上方。合起来就是从上空飞过。",
+      "parts": [
+        {
+          "text": "fly",
+          "ipa": "flaɪ",
+          "meaning": "飞"
+        },
+        {
+          "text": "over",
+          "ipa": "oʊvɚ",
+          "meaning": "上方"
+        }
+      ],
+      "combined": "从某物上空飞过去。"
+    }
+  ],
+  "links": [
+    {
+      "from": "fly.fly",
+      "to": "fly.flyer",
+      "kind": "同一词族",
+      "note": "fly（乘飞机）+ er（人）= 乘机人"
+    },
+    {
+      "from": "fly.fly",
+      "to": "fly.fly-over",
+      "kind": "同一词族",
+      "note": "fly（飞）+ over（上方）= 从上空飞过"
+    }
+  ],
+  "rootIPA": "flaɪ",
+  "rootSpoken": "fly",
+  "rootContext": "",
+  "rootIntro": "这里的意思是飞。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "family.travel",
+  "root": "travel",
+  "meaning": "旅行",
+  "explanation": "在 travel 后面换一个词尾或接上 bag，就能说旅行的人和随身的包。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "travel.travel",
+      "word": "travel",
+      "partOfSpeech": "动词",
+      "meaning": "旅行",
+      "formation": "travel 表示旅行",
+      "rootRelation": "在 travel 后面换一个词尾或接上 bag，就能说旅行的人和随身的包。",
+      "explanation": "例句中的 travel 取“旅行”这个意思。",
+      "example": "I travel by train.",
+      "translation": "我坐火车旅行。",
+      "acceptedAnswers": [
+        "旅行"
+      ],
+      "pronunciation": "ˈtrævəl",
+      "memoryCue": "离开常住的地方，去别处走走，这就叫旅行。"
+    },
+    {
+      "id": "travel.traveler",
+      "word": "traveler",
+      "partOfSpeech": "名词",
+      "meaning": "旅行者",
+      "formation": "travel（旅行）+ er（人）= 旅行者",
+      "rootRelation": "在 travel 后面换一个词尾或接上 bag，就能说旅行的人和随身的包。",
+      "explanation": "例句中的 traveler 取“旅行者”这个意思。",
+      "example": "The traveler asked for a map.",
+      "translation": "那位旅行者要了一张地图。",
+      "acceptedAnswers": [
+        "旅行者"
+      ],
+      "pronunciation": "ˈtrævəlɚ",
+      "memoryCue": "travel 是旅行，-er 指人。旅行的人就是旅行者。",
+      "parts": [
+        {
+          "text": "travel",
+          "ipa": "trævəl",
+          "meaning": "旅行"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "人"
+        }
+      ],
+      "combined": "拉着箱子去外地旅行的那个人，就是旅行者。"
+    },
+    {
+      "id": "travel.travel-bag",
+      "word": "travel bag",
+      "partOfSpeech": "名词短语",
+      "meaning": "旅行包",
+      "formation": "travel（旅行）+ bag（包）= 旅行包",
+      "rootRelation": "在 travel 后面换一个词尾或接上 bag，就能说旅行的人和随身的包。",
+      "explanation": "例句中的 travel bag 取“旅行包”这个意思。",
+      "example": "This travel bag is light.",
+      "translation": "这个旅行包很轻。",
+      "acceptedAnswers": [
+        "旅行包"
+      ],
+      "pronunciation": "ˈtrævəl bæɡ",
+      "memoryCue": "travel 是旅行，bag 是包。旅行用的包就是旅行包。",
+      "parts": [
+        {
+          "text": "travel",
+          "ipa": "trævəl",
+          "meaning": "旅行"
+        },
+        {
+          "text": "bag",
+          "ipa": "bæɡ",
+          "meaning": "包"
+        }
+      ],
+      "combined": "出门旅行装衣服、带在路上的包，就是旅行包。"
+    }
+  ],
+  "links": [
+    {
+      "from": "travel.travel",
+      "to": "travel.traveler",
+      "kind": "同一词族",
+      "note": "travel（旅行）+ er（人）= 旅行者"
+    },
+    {
+      "from": "travel.travel",
+      "to": "travel.travel-bag",
+      "kind": "同一词族",
+      "note": "travel（旅行）+ bag（包）= 旅行包"
+    }
+  ],
+  "rootIPA": "ˈtrævəl",
+  "rootSpoken": "travel",
+  "rootContext": "",
+  "rootIntro": "这里的意思是旅行。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

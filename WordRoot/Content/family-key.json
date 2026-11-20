@@ -1,0 +1,103 @@
+{
+  "id": "family.key",
+  "root": "key",
+  "meaning": "钥匙",
+  "explanation": "key 能开门。它可以是一张卡，也可以串在钥匙圈上。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "key.key",
+      "word": "key",
+      "partOfSpeech": "名词",
+      "meaning": "钥匙",
+      "formation": "key 可以打开锁",
+      "rootRelation": "key 能开门。它可以是一张卡，也可以串在钥匙圈上。",
+      "explanation": "例句中的 key 取“钥匙”这个意思。",
+      "example": "I lost my key.",
+      "translation": "我把钥匙弄丢了。",
+      "acceptedAnswers": [
+        "钥匙"
+      ],
+      "pronunciation": "ki",
+      "memoryCue": "用来开锁的东西叫 key。先把它和开门这个动作连起来。",
+      "plainCue": "插进锁里一转，门就开了。手里那件东西就是钥匙。"
+    },
+    {
+      "id": "key.key-card",
+      "word": "key card",
+      "partOfSpeech": "名词",
+      "meaning": "门卡",
+      "formation": "key（钥匙）+ card（卡片）= 门卡",
+      "rootRelation": "key 能开门。它可以是一张卡，也可以串在钥匙圈上。",
+      "explanation": "例句中的 key card 取“门卡”这个意思。",
+      "example": "My key card isn't working.",
+      "translation": "我的门卡用不了。",
+      "acceptedAnswers": [
+        "门卡"
+      ],
+      "pronunciation": "ˈki ˌkɑrd",
+      "memoryCue": "key 能开门，card 是卡片。能开门的卡片就是房卡。",
+      "parts": [
+        {
+          "text": "key",
+          "ipa": "ki",
+          "meaning": "钥匙"
+        },
+        {
+          "text": "card",
+          "ipa": "kɑrd",
+          "meaning": "卡片"
+        }
+      ],
+      "combined": "在酒店房门上轻轻一刷就能开门的卡，就是门卡。"
+    },
+    {
+      "id": "key.key-ring",
+      "word": "key ring",
+      "partOfSpeech": "名词",
+      "meaning": "钥匙圈",
+      "formation": "key（钥匙）+ ring（圈）= 钥匙圈",
+      "rootRelation": "key 能开门。它可以是一张卡，也可以串在钥匙圈上。",
+      "explanation": "例句中的 key ring 取“钥匙圈”这个意思。",
+      "example": "It's on my key ring.",
+      "translation": "它在我的钥匙圈上。",
+      "acceptedAnswers": [
+        "钥匙圈"
+      ],
+      "pronunciation": "ˈki ˌrɪŋ",
+      "memoryCue": "ring 是圈。把钥匙串在一起的小圈就是钥匙圈。",
+      "parts": [
+        {
+          "text": "key",
+          "ipa": "ki",
+          "meaning": "钥匙"
+        },
+        {
+          "text": "ring",
+          "ipa": "rɪŋ",
+          "meaning": "圈"
+        }
+      ],
+      "combined": "把几把钥匙串在同一个圈上，这个圈就是钥匙圈。"
+    }
+  ],
+  "links": [
+    {
+      "from": "key.key",
+      "to": "key.key-card",
+      "kind": "同一词族",
+      "note": "key（钥匙）+ card（卡片）= 门卡"
+    },
+    {
+      "from": "key.key",
+      "to": "key.key-ring",
+      "kind": "同一词族",
+      "note": "key（钥匙）+ ring（圈）= 钥匙圈"
+    }
+  ],
+  "rootIPA": "ki",
+  "rootSpoken": "key",
+  "rootContext": "",
+  "rootIntro": "这里的意思是钥匙。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

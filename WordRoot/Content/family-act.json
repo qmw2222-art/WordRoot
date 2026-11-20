@@ -1,0 +1,283 @@
+{
+  "id": "family.act",
+  "root": "act",
+  "meaning": "做、行动",
+  "explanation": "act 关联拉丁语中「做、驱使」的词。由行动本身延伸到行动的人、活跃的状态、对事情的回应。",
+  "isFree": true,
+  "words": [
+    {
+      "id": "act.act",
+      "word": "act",
+      "partOfSpeech": "动词",
+      "meaning": "行动；采取行动",
+      "explanation": "着手做某事，或在某种情况下作出反应。",
+      "example": "We need to act before the road closes.",
+      "translation": "我们需要在道路封闭前采取行动。",
+      "rootRelation": "act 表示做、行动。",
+      "acceptedAnswers": [
+        "行动"
+      ],
+      "formation": "act（做）→ 采取行动",
+      "pronunciation": "ækt",
+      "memoryCue": "有事要做，着手去做，就是行动。"
+    },
+    {
+      "id": "act.active",
+      "word": "active",
+      "partOfSpeech": "形容词",
+      "meaning": "活跃的；积极参与的",
+      "explanation": "经常参与活动，或持续发挥作用。",
+      "example": "My grandmother stays active by walking every morning.",
+      "translation": "我奶奶每天早晨散步，让自己保持活跃。",
+      "rootRelation": "act 加 -ive 构成形容词。",
+      "acceptedAnswers": [
+        "活跃"
+      ],
+      "formation": "act（行动）→ 乐于动起来，活跃的",
+      "pronunciation": "ˈæktɪv",
+      "memoryCue": "act 是行动，-ive 说的是特点。爱动、常行动，就是活跃的。",
+      "parts": [
+        {
+          "text": "act",
+          "ipa": "ækt",
+          "meaning": "行动"
+        },
+        {
+          "text": "-ive",
+          "ipa": "ɪv",
+          "meaning": "带有这种特点的"
+        }
+      ],
+      "combined": "经常参与、持续发挥作用，就是活跃的。"
+    },
+    {
+      "id": "act.reaction",
+      "word": "reaction",
+      "partOfSpeech": "名词",
+      "meaning": "反应；回应",
+      "explanation": "面对事件、意见或变化时出现的回应。",
+      "example": "Her first reaction was to ask how she could help.",
+      "translation": "她的第一反应是询问自己能帮上什么忙。",
+      "rootRelation": "react 加 -ion 构成名词。",
+      "acceptedAnswers": [
+        "反应"
+      ],
+      "formation": "re-（再次、回应） + act-（行动） + -ion（行为或结果） → 反应",
+      "pronunciation": "riˈækʃən",
+      "memoryCue": "react 是作出反应。对方作出的那个反应叫 reaction。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "再次、回应"
+        },
+        {
+          "text": "act-",
+          "ipa": "ˈæk",
+          "meaning": "行动",
+          "notes": [
+            "末尾 t 与 -ion 共同构成 /ʃ/"
+          ]
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "此处写作 -tion"
+          ]
+        }
+      ],
+      "combined": "事情发生后，人或身体给出的回应，就是反应。"
+    },
+    {
+      "id": "act.interact",
+      "word": "interact",
+      "partOfSpeech": "动词",
+      "meaning": "互动；相互影响",
+      "explanation": "两个人、群体或系统彼此回应或共同起作用。",
+      "example": "Visitors can interact with the guide during the tour.",
+      "translation": "参观者可以在游览期间与导览员互动。",
+      "rootRelation": "act 与 inter-（彼此之间）组合。",
+      "acceptedAnswers": [
+        "互动"
+      ],
+      "formation": "inter（相互）+ act（行动）= 互动",
+      "pronunciation": "ˌɪntɚˈækt",
+      "memoryCue": "inter- 是互相。两个人一来一回地行动，就是互动。",
+      "parts": [
+        {
+          "text": "inter-",
+          "ipa": "ɪntɚ",
+          "meaning": "相互"
+        },
+        {
+          "text": "act",
+          "ipa": "ækt",
+          "meaning": "行动"
+        }
+      ],
+      "combined": "你回应我、我也回应你，就是互动。"
+    },
+    {
+      "id": "act.action",
+      "word": "action",
+      "partOfSpeech": "名词",
+      "meaning": "行动；措施",
+      "explanation": "为实现目的或处理情况而采取的做法。",
+      "example": "The team took action when the water level rose.",
+      "translation": "水位上涨时，团队采取了行动。",
+      "rootRelation": "act 加 -ion 构成名词。",
+      "acceptedAnswers": [
+        "行动",
+        "措施"
+      ],
+      "formation": "act-（行动） + -ion（行为或结果） → 行动",
+      "pronunciation": "ˈækʃən",
+      "memoryCue": "act 是做，-ion 把动作变成名词。说的就是采取的行动。",
+      "parts": [
+        {
+          "text": "act-",
+          "ipa": "æk",
+          "meaning": "行动",
+          "notes": [
+            "词中词根读 /æk/，末尾 t 与 -ion 连写并变为 /ʃ/"
+          ]
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "在 -tion 中读 /ʃən/"
+          ]
+        }
+      ],
+      "combined": "为解决问题而采取的做法，就是行动。"
+    },
+    {
+      "id": "act.actor",
+      "word": "actor",
+      "partOfSpeech": "名词",
+      "meaning": "演员；行动者",
+      "explanation": "在戏剧或电影中表演角色的人。",
+      "example": "The actor practiced the scene before rehearsal.",
+      "translation": "排练前，演员练习了这一场戏。",
+      "rootRelation": "act 加表示人的 -or。",
+      "acceptedAnswers": [
+        "演员"
+      ],
+      "formation": "act（表演）+ or（做的人）= 演员",
+      "pronunciation": "ˈæktɚ",
+      "memoryCue": "act 还可以是表演，-or 指人。表演的人就是演员。",
+      "parts": [
+        {
+          "text": "act",
+          "ipa": "ækt",
+          "meaning": "表演"
+        },
+        {
+          "text": "-or",
+          "ipa": "ɚ",
+          "meaning": "做的人"
+        }
+      ],
+      "combined": "在戏剧或电影里扮演角色的人，就是演员。"
+    },
+    {
+      "id": "act.activity",
+      "word": "activity",
+      "partOfSpeech": "名词",
+      "meaning": "活动；活动内容",
+      "explanation": "为了特定目的进行的事情或参与其中的过程。",
+      "example": "The children chose a quiet activity for the rainy afternoon.",
+      "translation": "孩子们为下雨的下午选了一项安静的活动。",
+      "rootRelation": "active 加 -ity 构成名词。",
+      "acceptedAnswers": [
+        "活动"
+      ],
+      "formation": "active（活跃）→ 参与的活动",
+      "pronunciation": "ækˈtɪvəti",
+      "memoryCue": "active 是活跃的。可以参加的一项活动叫 an activity。",
+      "parts": [
+        {
+          "text": "active",
+          "ipa": "æktɪv",
+          "meaning": "活跃的"
+        },
+        {
+          "text": "-ity",
+          "ipa": "əti",
+          "meaning": "这种性质"
+        }
+      ],
+      "combined": "为了某个目的做的事，就是一项活动。"
+    },
+    {
+      "id": "act.activate",
+      "word": "activate",
+      "partOfSpeech": "动词",
+      "meaning": "启动；使生效",
+      "explanation": "让设备、功能或系统开始运行。",
+      "example": "Press this button to activate the screen reader.",
+      "translation": "按下这个按钮即可启动屏幕朗读。",
+      "rootRelation": "act 词族动词形式，表示使某物开始运作。",
+      "acceptedAnswers": [
+        "启动",
+        "激活"
+      ],
+      "formation": "active（处于活动状态）→ 使启动",
+      "pronunciation": "ˈæktəˌveɪt",
+      "memoryCue": "让设备开始运转，或让功能生效。"
+    }
+  ],
+  "links": [
+    {
+      "to": "act.action",
+      "kind": "用法对照",
+      "note": "act 可以表示采取行动，action 则是「行动、措施」这个名词。",
+      "from": "act.act"
+    },
+    {
+      "to": "act.actor",
+      "kind": "同词根",
+      "note": "act 可指表演，actor 指表演角色的人。",
+      "from": "act.act"
+    },
+    {
+      "to": "act.active",
+      "kind": "同词根",
+      "note": "act 强调做某件事，active 形容经常行动或积极参与的状态。",
+      "from": "act.act"
+    },
+    {
+      "to": "act.activity",
+      "kind": "派生关系",
+      "note": "active 描述状态，activity 可以指实际开展的活动。",
+      "from": "act.active"
+    },
+    {
+      "to": "act.activate",
+      "kind": "同词根",
+      "note": "active 表示处于运作状态，activate 表示让某项功能开始运作。",
+      "from": "act.active"
+    },
+    {
+      "to": "act.interact",
+      "kind": "用法对照",
+      "note": "reaction 是对某件事的反应，interact 强调双方彼此作用或交流。",
+      "from": "act.reaction"
+    },
+    {
+      "to": "act.reaction",
+      "kind": "用法对照",
+      "note": "action 是主动采取的行动，reaction 是随之产生的一种回应。",
+      "from": "act.action"
+    }
+  ],
+  "rootIPA": "ækt",
+  "rootSpoken": "act",
+  "rootContext": "",
+  "rootIntro": "这里的意思是做、行动。接下来的词都跟它有关。",
+  "rootKind": "词根"
+}

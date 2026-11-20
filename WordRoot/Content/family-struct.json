@@ -1,0 +1,509 @@
+{
+  "id": "family.struct",
+  "root": "struct",
+  "meaning": "建造、组织",
+  "explanation": "struct- 关联拉丁语中「建造、堆放」的词。建筑可以有结构，句子和系统也可以有结构；教学与指导还有把知识组织起来的历史联想。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "struct.structure",
+      "word": "structure",
+      "partOfSpeech": "名词",
+      "meaning": "结构；组织方式",
+      "explanation": "指组成部分怎样排列、互相连接，例如故事的结构或队伍的组织方式。",
+      "example": "The introduction explains the structure of the report.",
+      "translation": "导言说明了这份报告的结构。",
+      "rootRelation": "struct- 与建造相关，structure 是建成或组织好的结构。",
+      "acceptedAnswers": [
+        "结构",
+        "组织方式"
+      ],
+      "formation": "struct-（建造、排列） + -ure（结果或状态） → 结构",
+      "pronunciation": "ˈstrʌktʃɚ",
+      "memoryCue": "struct 和搭建有关。各部分怎样搭在一起，就是结构。",
+      "parts": [
+        {
+          "text": "struct-",
+          "ipa": "ˈstrʌk",
+          "meaning": "建造、排列"
+        },
+        {
+          "text": "-ure",
+          "ipa": "tʃɚ",
+          "meaning": "结果或状态",
+          "notes": [
+            "建成的组织方式"
+          ]
+        }
+      ],
+      "combined": "柱子、梁和墙怎样搭在一起，就是房子的结构。"
+    },
+    {
+      "id": "struct.construct",
+      "word": "construct",
+      "partOfSpeech": "动词",
+      "meaning": "建造；构建",
+      "explanation": "用材料搭建物体，也可按一定逻辑构建论证或方案。",
+      "example": "Volunteers constructed a small bridge over the stream.",
+      "translation": "志愿者在溪流上建了一座小桥。",
+      "rootRelation": "con-（一起）与 struct-（建造）构成历史线索。",
+      "acceptedAnswers": [
+        "建造",
+        "构建",
+        "建设"
+      ],
+      "formation": "con（一起）+ struct（建造） = 一起建造 → 构建",
+      "pronunciation": "kənˈstrʌkt",
+      "memoryCue": "con- 是一起。把材料组合起来建成东西，就是建造。",
+      "parts": [
+        {
+          "text": "con-",
+          "ipa": "kən",
+          "meaning": "一起"
+        },
+        {
+          "text": "struct",
+          "ipa": "strʌkt",
+          "meaning": "建造"
+        }
+      ],
+      "combined": "把木料或砖块一点点搭起来，造出一座房子，就是建造。"
+    },
+    {
+      "id": "struct.instruct",
+      "word": "instruct",
+      "partOfSpeech": "动词",
+      "meaning": "指示；指导",
+      "explanation": "正式告诉别人要怎么做，也能指按步骤指导一项技能。",
+      "example": "The guide instructed us to stay on the path.",
+      "translation": "向导指示我们沿小路走。",
+      "rootRelation": "in- 和 struct- 相关的历史形式；现代意义集中于指示、指导。",
+      "acceptedAnswers": [
+        "指示",
+        "指导",
+        "吩咐"
+      ],
+      "formation": "in-（进入、施加于） + struct（安排、建造） → 指示",
+      "pronunciation": "ˌɪnˈstrʌkt",
+      "memoryCue": "教练示范该怎么做，是在指导你。这个动作叫 instruct。",
+      "plainCue": "正式告诉别人要怎么做，也能指按步骤指导一项技能。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "进入、施加于"
+        },
+        {
+          "text": "struct",
+          "ipa": "ˈstrʌkt",
+          "meaning": "安排、建造",
+          "notes": [
+            "指导是历史线索"
+          ]
+        }
+      ],
+      "combined": "一步步告诉别人该怎么做，就是指导。"
+    },
+    {
+      "id": "struct.obstruct",
+      "word": "obstruct",
+      "partOfSpeech": "动词",
+      "meaning": "挡住；阻碍",
+      "explanation": "让道路、视线或过程无法通畅，常说 obstruct the way/view。",
+      "example": "A fallen branch obstructed the entrance.",
+      "translation": "一根倒下的树枝堵住了入口。",
+      "rootRelation": "ob- 有迎面、阻挡的线索，词源同属 struct 家族。",
+      "acceptedAnswers": [
+        "阻碍",
+        "挡住",
+        "阻挡"
+      ],
+      "formation": "ob（挡在前面）+ struct（建造） = 挡住 → 阻碍",
+      "pronunciation": "əbˈstrʌkt",
+      "memoryCue": "想象前面竖了一道墙挡路。这里是阻碍。",
+      "parts": [
+        {
+          "text": "ob-",
+          "ipa": "əb",
+          "meaning": "挡在前面"
+        },
+        {
+          "text": "struct",
+          "ipa": "strʌkt",
+          "meaning": "建造"
+        }
+      ],
+      "combined": "倒下的树把路挡住，让人过不去，这个动作叫阻挡。"
+    },
+    {
+      "id": "struct.structural",
+      "word": "structural",
+      "partOfSpeech": "形容词",
+      "meaning": "结构的；涉及结构的",
+      "explanation": "强调事情与承重、基本构造或制度的基础安排有关。",
+      "example": "Engineers checked the building for structural damage.",
+      "translation": "工程师检查了建筑是否有结构损伤。",
+      "rootRelation": "structure 的形容词形式。",
+      "acceptedAnswers": [
+        "结构的",
+        "结构性的",
+        "结构方面的"
+      ],
+      "formation": "structure + -al = 结构 → 结构的",
+      "pronunciation": "ˈstrʌktʃɚəl",
+      "memoryCue": "structure 是结构。描述结构方面的事，用 structural。",
+      "parts": [
+        {
+          "text": "structure",
+          "ipa": "strʌktʃɚ",
+          "meaning": "结构"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与它有关的"
+        }
+      ],
+      "combined": "柱子关系到房子能不能站稳。柱子出了问题，就是结构上的问题。"
+    },
+    {
+      "id": "struct.restructure",
+      "word": "restructure",
+      "partOfSpeech": "动词",
+      "meaning": "重组；调整结构",
+      "explanation": "重新安排组织、债务、系统或业务的各个部分。",
+      "example": "The group restructured the teams to share more equipment.",
+      "translation": "小组重组了各团队，以便共享更多设备。",
+      "rootRelation": "re-（重新）加 structure。",
+      "acceptedAnswers": [
+        "重组",
+        "改组",
+        "调整结构"
+      ],
+      "formation": "re-（重新） + structure（结构） → 重组",
+      "pronunciation": "riˈstrʌktʃɚ",
+      "memoryCue": "re- 是重新，structure 是结构。重新安排各部分，就是重组。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ˌri",
+          "meaning": "重新"
+        },
+        {
+          "text": "structure",
+          "ipa": "ˈstrʌktʃɚ",
+          "meaning": "结构",
+          "notes": [
+            "重新组织结构"
+          ]
+        }
+      ],
+      "combined": "把几个部门重新分工、重新组合，就是重组。"
+    },
+    {
+      "id": "struct.construction",
+      "word": "construction",
+      "partOfSpeech": "名词",
+      "meaning": "施工；建造",
+      "explanation": "描述建筑、道路等建设的过程，常见 under construction。",
+      "example": "The new library is still under construction.",
+      "translation": "新图书馆还在施工中。",
+      "rootRelation": "construct 加 -ion。",
+      "acceptedAnswers": [
+        "施工",
+        "建造",
+        "建设"
+      ],
+      "formation": "construct + -ion = 建造 → 施工；建造",
+      "pronunciation": "kənˈstrʌkʃən",
+      "memoryCue": "construct 是建造。路边正在进行的施工叫 construction。",
+      "parts": [
+        {
+          "text": "construct",
+          "ipa": "kənstrʌk",
+          "meaning": "建造"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "工地正在一砖一瓦地盖房，这个过程叫施工。"
+    },
+    {
+      "id": "struct.constructive",
+      "word": "constructive",
+      "partOfSpeech": "形容词",
+      "meaning": "建设性的；有助于改进的",
+      "explanation": "形容能帮助事情向好发展的批评、交流或建议。",
+      "example": "She gave me constructive feedback on the proposal.",
+      "translation": "她就这项提议给了我建设性的反馈。",
+      "rootRelation": "与 construct 同族，把「建设」的联想用到改善事物上。",
+      "acceptedAnswers": [
+        "建设性的",
+        "有助于改进的"
+      ],
+      "formation": "construct + -ive = 建设 → 建设性的",
+      "pronunciation": "kənˈstrʌktɪv",
+      "memoryCue": "construct 是建造。能帮助大家把事情做好的建议，就是建设性的。",
+      "parts": [
+        {
+          "text": "construct",
+          "ipa": "kənstrʌkt",
+          "meaning": "建造"
+        },
+        {
+          "text": "-ive",
+          "ipa": "ɪv",
+          "meaning": "带有这种特点的"
+        }
+      ],
+      "combined": "别人指出问题，又告诉你怎么改，这条建议就有建设性。"
+    },
+    {
+      "id": "struct.reconstruct",
+      "word": "reconstruct",
+      "partOfSpeech": "动词",
+      "meaning": "重建；复原",
+      "explanation": "把毁坏的东西重新建起来，也可据线索还原过去的情形。",
+      "example": "Archivists reconstructed the original layout from photos.",
+      "translation": "档案人员根据照片复原了原来的布局。",
+      "rootRelation": "re-（重新）加 construct。",
+      "acceptedAnswers": [
+        "重建",
+        "复原"
+      ],
+      "formation": "re（重新）+ construct（建造） → 重新建造 → 重建；复原",
+      "pronunciation": "ˌrikənˈstrʌkt",
+      "memoryCue": "re- 是重新。把原来的房屋再建起来，就是重建。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "重新"
+        },
+        {
+          "text": "construct",
+          "ipa": "kənstrʌkt",
+          "meaning": "建造"
+        }
+      ],
+      "combined": "旧桥被冲毁，再把它建起来，就是重建。"
+    },
+    {
+      "id": "struct.instruction",
+      "word": "instruction",
+      "partOfSpeech": "名词",
+      "meaning": "指令；说明",
+      "explanation": "告诉读者或听众怎样操作的一项说明；操作说明常用复数。",
+      "example": "Read the instructions before opening the package.",
+      "translation": "打开包装前先读使用说明。",
+      "rootRelation": "instruct 加 -ion。",
+      "acceptedAnswers": [
+        "指令",
+        "说明",
+        "使用说明"
+      ],
+      "formation": "instruct + -ion = 指导 → 指令；说明",
+      "pronunciation": "ˌɪnˈstrʌkʃən",
+      "memoryCue": "instruct 是指导。告诉你具体怎么做的一条说明叫 an instruction。",
+      "parts": [
+        {
+          "text": "instruct",
+          "ipa": "ɪnstrʌk",
+          "meaning": "指示"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "写着先按哪个键、再加多少水的那句话，就是一条操作说明。"
+    },
+    {
+      "id": "struct.instructor",
+      "word": "instructor",
+      "partOfSpeech": "名词",
+      "meaning": "教练；指导员",
+      "explanation": "在课程中负责指导一门技能、开展实操训练的人。",
+      "example": "The instructor showed us how to repair a flat tyre.",
+      "translation": "教练示范了怎么补瘪掉的轮胎。",
+      "rootRelation": "instruct 加 -or 指从事教学的人。",
+      "acceptedAnswers": [
+        "教练",
+        "指导员",
+        "教师"
+      ],
+      "formation": "instruct + -or = 指导 → 教练；指导员",
+      "pronunciation": "ˌɪnˈstrʌktɚ",
+      "memoryCue": "-or 可以表示人。一步步指导你的人就是指导员。",
+      "parts": [
+        {
+          "text": "instruct",
+          "ipa": "ɪnstrʌkt",
+          "meaning": "指示"
+        },
+        {
+          "text": "-or",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "站在泳池边一步步教你换气的人，就是游泳教练。"
+    },
+    {
+      "id": "struct.obstruction",
+      "word": "obstruction",
+      "partOfSpeech": "名词",
+      "meaning": "障碍物；阻塞",
+      "explanation": "挡住通路或让动作难以完成的物体或情形。",
+      "example": "The crew cleared an obstruction from the tunnel.",
+      "translation": "工作人员清除了隧道里的一处障碍物。",
+      "rootRelation": "obstruct 加 -ion。",
+      "acceptedAnswers": [
+        "障碍物",
+        "阻碍",
+        "阻塞"
+      ],
+      "formation": "obstruct + -ion = 阻碍 → 障碍；阻塞",
+      "pronunciation": "əbˈstrʌkʃən",
+      "memoryCue": "obstruct 是挡住。挡住路的障碍或造成的阻塞叫 obstruction。",
+      "parts": [
+        {
+          "text": "obstruct",
+          "ipa": "əbstrʌk",
+          "meaning": "挡住"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "路中间那块挡住去路的石头，就是障碍物。"
+    },
+    {
+      "id": "struct.destruction",
+      "word": "destruction",
+      "partOfSpeech": "名词",
+      "meaning": "破坏；毁坏",
+      "explanation": "指事物被严重损坏甚至不复存在的过程或结果。",
+      "example": "The film documents the destruction of the old theatre.",
+      "translation": "影片记录了老剧院被毁的过程。",
+      "rootRelation": "来自与 destroy 同源的历史形式，和 struct- 家族有关。",
+      "acceptedAnswers": [
+        "破坏",
+        "毁坏"
+      ],
+      "formation": "destroy → destruction = 摧毁 → 破坏",
+      "pronunciation": "dɪˈstrʌkʃən",
+      "memoryCue": "destroy 是毁坏。房屋等被毁坏这件事叫 destruction。",
+      "plainCue": "一场大火毁掉了房子，这场火造成的损坏就是破坏。"
+    },
+    {
+      "id": "struct.infrastructure",
+      "word": "infrastructure",
+      "partOfSpeech": "名词",
+      "meaning": "基础设施",
+      "explanation": "支撑交通、供水、网络等基本服务的有形或技术系统。",
+      "example": "The town needs better infrastructure for public transport.",
+      "translation": "这个镇需要更完善的公共交通基础设施。",
+      "rootRelation": "infra-（下方）与 structure，联想支撑运行的底层结构。",
+      "acceptedAnswers": [
+        "基础设施",
+        "基建"
+      ],
+      "formation": "infra（下层）+ structure（结构） → 底层结构 → 基础设施",
+      "pronunciation": "ˌɪnfrəˈstrʌktʃɚ",
+      "memoryCue": "infra- 在下方。撑起一座城市的路、水管等，都是基础设施。",
+      "parts": [
+        {
+          "text": "infra",
+          "ipa": "ɪnfrə",
+          "meaning": "下层"
+        },
+        {
+          "text": "structure",
+          "ipa": "strʌktʃɚ",
+          "meaning": "结构"
+        }
+      ],
+      "combined": "路、水管、电网，城市过日子靠的这些东西，叫基础设施。"
+    }
+  ],
+  "links": [
+    {
+      "from": "struct.structure",
+      "to": "struct.structural",
+      "kind": "派生关系",
+      "note": "structure 是结构，structural 描述基础结构或与之相关的情况。"
+    },
+    {
+      "from": "struct.structure",
+      "to": "struct.restructure",
+      "kind": "派生关系",
+      "note": "先识别原来 structure，restructure 才能表示对它重新安排。"
+    },
+    {
+      "from": "struct.structure",
+      "to": "struct.infrastructure",
+      "kind": "语义联系",
+      "note": "structure 是广义结构，infrastructure 指支撑交通或其他系统运行的基础设施。"
+    },
+    {
+      "from": "struct.construct",
+      "to": "struct.construction",
+      "kind": "派生关系",
+      "note": "construct 作动词表示建造，construction 是建造过程。"
+    },
+    {
+      "from": "struct.construct",
+      "to": "struct.constructive",
+      "kind": "同词根",
+      "note": "construct 是建造，constructive 是借「建设」形容能够改善问题的建议或交流。"
+    },
+    {
+      "from": "struct.construct",
+      "to": "struct.reconstruct",
+      "kind": "派生关系",
+      "note": "construct 是建造，reconstruct 是修复后重新建起或根据材料复原。"
+    },
+    {
+      "from": "struct.construction",
+      "to": "struct.destruction",
+      "kind": "用法对照",
+      "note": "construction 把东西建起来，destruction 是东西遭到破坏。"
+    },
+    {
+      "from": "struct.instruct",
+      "to": "struct.instruction",
+      "kind": "派生关系",
+      "note": "instruct 是给出指示，instruction 是指示本身。"
+    },
+    {
+      "from": "struct.instruct",
+      "to": "struct.instructor",
+      "kind": "派生关系",
+      "note": "instruct 是指导，instructor 是指导学习或训练的人。"
+    },
+    {
+      "from": "struct.obstruct",
+      "to": "struct.obstruction",
+      "kind": "派生关系",
+      "note": "obstruct 是阻挡，obstruction 可以指挡住通路的东西。"
+    },
+    {
+      "from": "struct.obstruct",
+      "to": "struct.construction",
+      "kind": "语境关联",
+      "note": "道路施工可能 obstruct 通行，改道牌可告知怎样绕行。"
+    }
+  ],
+  "rootIPA": "strʌkt",
+  "rootSpoken": "struct",
+  "rootContext": "在 construct 里",
+  "rootIntro": "搭起一面墙，组织一件事，都能帮你记住这一块。",
+  "rootKind": "词根"
+}

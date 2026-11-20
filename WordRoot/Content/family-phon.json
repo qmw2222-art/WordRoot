@@ -1,0 +1,463 @@
+{
+  "id": "family.phon",
+  "root": "phon",
+  "meaning": "声音、语音",
+  "explanation": "phon- 关联希腊语中表示声音的词。它可指电话和录音设备里的声音，也可以指语言中的发音。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "phon.phone.1",
+      "word": "phone",
+      "partOfSpeech": "名词",
+      "meaning": "电话；手机",
+      "explanation": "日常常指可通话的设备，也可指电话通话。",
+      "example": "I left my phone charging in the kitchen.",
+      "translation": "我把手机留在厨房充电了。",
+      "rootRelation": "phon（声音）在 telephone 的缩略形式中保留。",
+      "acceptedAnswers": [
+        "电话"
+      ],
+      "formation": "phone 是 telephone 的常用短式 → 电话",
+      "pronunciation": "foʊn",
+      "memoryCue": "口袋里能用来打电话的那台，就是手机。"
+    },
+    {
+      "id": "phon.microphone.3",
+      "word": "microphone",
+      "partOfSpeech": "名词",
+      "meaning": "麦克风；话筒",
+      "explanation": "把声音转成电信号以便录制或扩音的设备。",
+      "example": "Move the microphone closer before you speak.",
+      "translation": "开口前把麦克风移近一些。",
+      "rootRelation": "micro-（小）与 phon（声音）组成，历史上指微弱声音的接收器。",
+      "acceptedAnswers": [
+        "麦克风"
+      ],
+      "formation": "micro（小）+ phone（声音） = 声音设备 → 麦克风",
+      "pronunciation": "ˈmaɪkrəˌfoʊn",
+      "memoryCue": "认出词尾和声音有关。把它记成「收进声音的设备」，就是麦克风。",
+      "parts": [
+        {
+          "text": "micro",
+          "ipa": "maɪkrə",
+          "meaning": "小"
+        },
+        {
+          "text": "phone",
+          "ipa": "foʊn",
+          "meaning": "声音"
+        }
+      ],
+      "combined": "唱歌时对着它，声音就能传给全场，手里拿的就是话筒。"
+    },
+    {
+      "id": "phon.phonetic.4",
+      "word": "phonetic",
+      "partOfSpeech": "形容词",
+      "meaning": "语音的；按发音标注的",
+      "explanation": "描述语音本身或用符号记录发音的方式。",
+      "example": "The dictionary includes a phonetic guide.",
+      "translation": "这本词典附有语音标注指南。",
+      "rootRelation": "phon（声音）加 -etic。",
+      "acceptedAnswers": [
+        "语音的"
+      ],
+      "formation": "phon-（声音） + -ic（与……有关的） → 语音的",
+      "pronunciation": "fəˈnɛtɪk",
+      "memoryCue": "phon 是声音。描述一个词怎么发音，用 phonetic。",
+      "plainCue": "描述语音本身或用符号记录发音的方式。",
+      "parts": [
+        {
+          "text": "phon-",
+          "ipa": "fəˈnɛt",
+          "meaning": "声音"
+        },
+        {
+          "text": "-ic",
+          "ipa": "ɪk",
+          "meaning": "与……有关的",
+          "notes": [
+            "语音的"
+          ]
+        }
+      ],
+      "combined": "词典把一个词怎样念标出来，给你的就是发音标注。"
+    },
+    {
+      "id": "phon.symphony.7",
+      "word": "symphony",
+      "partOfSpeech": "名词",
+      "meaning": "交响乐；交响曲",
+      "explanation": "由管弦乐队演奏的大型乐曲，也可比喻多种声音协调组合。",
+      "example": "The orchestra performed a symphony by Beethoven.",
+      "translation": "管弦乐团演奏了贝多芬的一首交响曲。",
+      "rootRelation": "sym-（共同）与 phon（声音）同源，体现合奏之声。",
+      "acceptedAnswers": [
+        "交响乐"
+      ],
+      "formation": "symphony · 交响乐",
+      "pronunciation": "ˈsɪmfəni",
+      "memoryCue": "由管弦乐队演奏的大型乐曲，也可比喻多种声音协调组合。",
+      "plainCue": "听许多种乐器在乐队里一起演奏，一种常见的大型乐曲叫交响曲。"
+    },
+    {
+      "id": "phon.telephone.2",
+      "word": "telephone",
+      "partOfSpeech": "名词",
+      "meaning": "电话；电话机",
+      "explanation": "通过电信号传送语音的设备或系统。",
+      "example": "The telephone rang while we were eating.",
+      "translation": "我们吃饭时电话响了。",
+      "rootRelation": "tele-（远）加 phon（声音），即远距离传声。",
+      "acceptedAnswers": [
+        "电话"
+      ],
+      "formation": "tele（远）+ phone（声音） = 远距离传声 → 电话",
+      "pronunciation": "ˈtɛləˌfoʊn",
+      "memoryCue": "tele- 是远，后半段和声音有关。远距离传声的设备就是电话。",
+      "parts": [
+        {
+          "text": "tele",
+          "ipa": "tɛlə",
+          "meaning": "远"
+        },
+        {
+          "text": "phone",
+          "ipa": "foʊn",
+          "meaning": "声音"
+        }
+      ],
+      "combined": "你在这里说话，远处的人也听得到，用来通话的设备就是电话。"
+    },
+    {
+      "id": "phon.phonetics.5",
+      "word": "phonetics",
+      "partOfSpeech": "名词",
+      "meaning": "语音学",
+      "explanation": "研究人类语音如何发出、传播和被听到的领域。",
+      "example": "She is taking a course in phonetics.",
+      "translation": "她正在修一门语音学课程。",
+      "rootRelation": "phonetic 的学科名词形式。",
+      "acceptedAnswers": [
+        "语音学"
+      ],
+      "formation": "phonetic（语音的） + -s（学科名词后缀） → 语音学",
+      "pronunciation": "fəˈnɛtɪks",
+      "memoryCue": "phonetic 和发音有关。专门研究语音的学科就是 phonetics。",
+      "plainCue": "研究人类语音如何发出、传播和被听到的领域。",
+      "parts": [
+        {
+          "text": "phonetic",
+          "ipa": "fəˈnɛtɪk",
+          "meaning": "语音的"
+        },
+        {
+          "text": "-s",
+          "ipa": "s",
+          "meaning": "学科名词后缀",
+          "notes": [
+            "语音学"
+          ]
+        }
+      ],
+      "combined": "研究舌头、嘴唇怎样发出不同声音，是语音学的一部分。"
+    },
+    {
+      "id": "phon.phonics.6",
+      "word": "phonics",
+      "partOfSpeech": "名词",
+      "meaning": "自然拼读法",
+      "explanation": "通过字母与语音之间的对应关系学习读词的方法。",
+      "example": "The class uses phonics to help children decode new words.",
+      "translation": "这个班用自然拼读帮助孩子拼读新词。",
+      "rootRelation": "phon（声音）相关词，教育中指字母音对应教学。",
+      "acceptedAnswers": [
+        "自然拼读法"
+      ],
+      "formation": "phon-（声音） + -ics（学科或方法） → 自然拼读法",
+      "pronunciation": "ˈfɑnɪks",
+      "memoryCue": "phon 是声音。把字母和声音对应起来学拼读，就是自然拼读。",
+      "parts": [
+        {
+          "text": "phon-",
+          "ipa": "ˈfɑn",
+          "meaning": "声音"
+        },
+        {
+          "text": "-ics",
+          "ipa": "ɪks",
+          "meaning": "学科或方法",
+          "notes": [
+            "自然拼读法"
+          ]
+        }
+      ],
+      "combined": "看见字母，试着把它们常发的音拼起来读出一个词，这就是自然拼读。"
+    },
+    {
+      "id": "phon.euphonious.8",
+      "word": "euphonious",
+      "partOfSpeech": "形容词",
+      "meaning": "悦耳的",
+      "explanation": "声音听来和谐、柔和。",
+      "example": "The poem has a euphonious rhythm when read aloud.",
+      "translation": "这首诗朗读起来节奏悦耳。",
+      "rootRelation": "eu-（好）与 phon（声音）组成。",
+      "acceptedAnswers": [
+        "悦耳的"
+      ],
+      "formation": "euphonious · 悦耳的",
+      "pronunciation": "juˈfoʊniəs",
+      "memoryCue": "声音听来和谐、柔和。",
+      "plainCue": "一段旋律听着很舒服、很顺耳，就可以说它悦耳。"
+    },
+    {
+      "id": "phon.phoneme.extra1",
+      "word": "phoneme",
+      "partOfSpeech": "名词",
+      "meaning": "音位",
+      "explanation": "能够区分词义的最小语音单位。",
+      "example": "Changing one phoneme can turn “bat” into “bit”.",
+      "translation": "改变一个音位就能把 bat 变成 bit。",
+      "rootRelation": "phon（声音）相关的语言学术语。",
+      "acceptedAnswers": [
+        "音位"
+      ],
+      "formation": "phon-（声音） + -eme（最小单位） → 音位",
+      "pronunciation": "ˈfoʊnim",
+      "memoryCue": "能区别两个词的最小语音单位叫音位，如开头声音不同的两个词。",
+      "parts": [
+        {
+          "text": "phon-",
+          "ipa": "ˈfoʊn",
+          "meaning": "声音"
+        },
+        {
+          "text": "-eme",
+          "ipa": "im",
+          "meaning": "最小单位",
+          "notes": [
+            "一个音位"
+          ]
+        }
+      ],
+      "combined": "一个音换成另一个音，词义就变了。这样能区分词义的声音单位叫音位。"
+    },
+    {
+      "id": "phon.phonology.extra2",
+      "word": "phonology",
+      "partOfSpeech": "名词",
+      "meaning": "音系学",
+      "explanation": "研究一种语言如何组织语音系统的领域。",
+      "example": "Phonology compares sound patterns across languages.",
+      "translation": "音系学比较不同语言的声音模式。",
+      "rootRelation": "phon 与 -logy（研究）组成。",
+      "acceptedAnswers": [
+        "音系学"
+      ],
+      "formation": "phonology · 音系学",
+      "pronunciation": "fəˈnɑləˌdʒi",
+      "memoryCue": "研究一种语言如何组织语音系统的领域。",
+      "plainCue": "研究一门语言中声音怎样组合、怎样区别词义的学问，叫音系学。"
+    },
+    {
+      "id": "phon.phonological.extra3",
+      "word": "phonological",
+      "partOfSpeech": "形容词",
+      "meaning": "音系的；音韵的",
+      "explanation": "与语言中的语音组织规则有关。",
+      "example": "The lesson focuses on phonological patterns in English.",
+      "translation": "这节课关注英语中的音系模式。",
+      "rootRelation": "由 phonology 加 -ical 构成。",
+      "acceptedAnswers": [
+        "音系的"
+      ],
+      "formation": "phonology（音系学） + -ical（与……有关的） → 音系的",
+      "pronunciation": "ˌfoʊnəˈlɑdʒɪkəl",
+      "memoryCue": "phonology 是音系学。讨论一种语言的声音系统时用 phonological。",
+      "plainCue": "与语言中的语音组织规则有关。",
+      "parts": [
+        {
+          "text": "phonology",
+          "ipa": "fəˈnɑlədʒi",
+          "meaning": "音系学"
+        },
+        {
+          "text": "-ical",
+          "ipa": "ɪkəl",
+          "meaning": "与……有关的"
+        }
+      ],
+      "combined": "说的是一种语言里的音怎样组合，比如哪些音可以一起出现在词头。"
+    },
+    {
+      "id": "phon.phonologist.extra4",
+      "word": "phonologist",
+      "partOfSpeech": "名词",
+      "meaning": "音系学家",
+      "explanation": "专门研究语言语音系统的学者。",
+      "example": "A phonologist described the regional sound pattern.",
+      "translation": "一位音系学家描述了这种地区语音模式。",
+      "rootRelation": "由 phonology 加 -ist 构成。",
+      "acceptedAnswers": [
+        "音系学家"
+      ],
+      "formation": "phonology（音系学） + -ist（从事该学科的人） → 音系学家",
+      "pronunciation": "fəˈnɑlədʒɪst",
+      "memoryCue": "phonology 是音系学，研究它的人就是音系学家。",
+      "parts": [
+        {
+          "text": "phonology",
+          "ipa": "fəˈnɑlədʒi",
+          "meaning": "音系学"
+        },
+        {
+          "text": "-ist",
+          "ipa": "ɪst",
+          "meaning": "从事该学科的人"
+        }
+      ],
+      "combined": "研究一种语言怎样用声音区别词义、怎样组合声音的人，就是音系学家。"
+    },
+    {
+      "id": "phon.phonograph.extra5",
+      "word": "phonograph",
+      "partOfSpeech": "名词",
+      "meaning": "留声机",
+      "explanation": "早期用于录制和播放声音的设备。",
+      "example": "The antique shop displayed a working phonograph.",
+      "translation": "古董店展示了一台能运转的留声机。",
+      "rootRelation": "phon（声音）与 graph（记录）组成。",
+      "acceptedAnswers": [
+        "留声机"
+      ],
+      "formation": "phono-（声音） + -graph（记录） → 留声机",
+      "pronunciation": "ˈfoʊnəˌɡræf",
+      "memoryCue": "phon 是声音，graph 和记录有关。早期录下或播放声音的机器就是留声机。",
+      "parts": [
+        {
+          "text": "phono-",
+          "ipa": "ˈfoʊnoʊ",
+          "meaning": "声音"
+        },
+        {
+          "text": "-graph",
+          "ipa": "ɡræf",
+          "meaning": "记录",
+          "notes": [
+            "留声机"
+          ]
+        }
+      ],
+      "combined": "放上唱片，唱针沿着它转，音乐就响起来，这种老机器叫留声机。"
+    },
+    {
+      "id": "phon.homophone.extra6",
+      "word": "homophone",
+      "partOfSpeech": "名词",
+      "meaning": "同音异义词",
+      "explanation": "发音相同但拼写或意思不同的词。",
+      "example": "“Sea” and “see” are homophones.",
+      "translation": "sea 和 see 是同音异义词。",
+      "rootRelation": "homo-（相同）与 phon（声音）组成。",
+      "acceptedAnswers": [
+        "同音异义词"
+      ],
+      "formation": "homo（相同）+ phone（声音） = 同音 → 同音异义词",
+      "pronunciation": "ˈhɑməˌfoʊn",
+      "memoryCue": "homo- 是相同，phone 是声音。读音一样、意思不同的词叫同音词。",
+      "parts": [
+        {
+          "text": "homo",
+          "ipa": "hɑmə",
+          "meaning": "相同"
+        },
+        {
+          "text": "phone",
+          "ipa": "foʊn",
+          "meaning": "声音"
+        }
+      ],
+      "combined": "「听」和「厅」念起来一样，意思却不同。英语里这样的词也叫同音异义词。"
+    }
+  ],
+  "links": [
+    {
+      "to": "phon.telephone.2",
+      "kind": "派生关系",
+      "note": "phone 是 telephone 的缩略形式，也常用来指手机。",
+      "from": "phon.phone.1"
+    },
+    {
+      "to": "phon.microphone.3",
+      "kind": "语境关联",
+      "note": "打电话时，手机的 microphone 把声音转成信号。",
+      "from": "phon.phone.1"
+    },
+    {
+      "to": "phon.phonetics.5",
+      "kind": "派生关系",
+      "note": "phonetic 描述声音的形式，phonetics 是研究语音产生和感知的领域。",
+      "from": "phon.phonetic.4"
+    },
+    {
+      "to": "phon.phonics.6",
+      "kind": "用法对照",
+      "note": "phonetic 与发音有关，phonics 是根据字母和声音的对应关系教阅读。",
+      "from": "phon.phonetic.4"
+    },
+    {
+      "to": "phon.phoneme.extra1",
+      "kind": "用法对照",
+      "note": "phonetics 关注实际语音，phoneme 是某语言中能区分词义的最小声音单位。",
+      "from": "phon.phonetics.5"
+    },
+    {
+      "to": "phon.phonology.extra2",
+      "kind": "语义联系",
+      "note": "phoneme 是音位，phonology 研究这些音位如何构成系统。",
+      "from": "phon.phoneme.extra1"
+    },
+    {
+      "to": "phon.phonological.extra3",
+      "kind": "派生关系",
+      "note": "phonology 是学科，phonological 是形容词。",
+      "from": "phon.phonology.extra2"
+    },
+    {
+      "to": "phon.phonologist.extra4",
+      "kind": "派生关系",
+      "note": "phonologist 是研究 phonology 的人。",
+      "from": "phon.phonology.extra2"
+    },
+    {
+      "to": "phon.phonograph.extra5",
+      "kind": "用法对照",
+      "note": "microphone 用来拾取声音，phonograph 用于播放留声机唱片。",
+      "from": "phon.microphone.3"
+    },
+    {
+      "to": "phon.euphonious.8",
+      "kind": "同词根",
+      "note": "symphony 是交响曲，euphonious 形容声音悦耳。",
+      "from": "phon.symphony.7"
+    },
+    {
+      "to": "phon.homophone.extra6",
+      "kind": "语义联系",
+      "note": "比较发音可找到 homophone，例如 night 和 knight。",
+      "from": "phon.phonetic.4"
+    },
+    {
+      "to": "phon.symphony.7",
+      "kind": "同词根",
+      "note": "phonetic 指语言发音相关，symphony 指交响曲，两词中的声音成分发展方向不同。",
+      "from": "phon.phonetic.4"
+    }
+  ],
+  "rootIPA": "foʊn",
+  "rootSpoken": "phone",
+  "rootContext": "在 telephone 里",
+  "rootIntro": "这一块和声音有关。它在不同词里的元音可能会变。",
+  "rootKind": "词根"
+}

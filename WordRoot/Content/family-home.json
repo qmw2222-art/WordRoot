@@ -1,0 +1,103 @@
+{
+  "id": "family.home",
+  "root": "home",
+  "meaning": "家",
+  "explanation": "把 home 放在熟词前面，看看一件事是在什么地方做的。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "home.home",
+      "word": "home",
+      "partOfSpeech": "名词",
+      "meaning": "家",
+      "formation": "home 是自己住的家",
+      "rootRelation": "把 home 放在熟词前面，看看一件事是在什么地方做的。",
+      "explanation": "例句中的 home 取“家”这个意思。",
+      "example": "Our home is near the park.",
+      "translation": "我们家在公园附近。",
+      "acceptedAnswers": [
+        "家"
+      ],
+      "pronunciation": "hoʊm",
+      "memoryCue": "跟 go 一起记，go home 就是回家。以后见到这一块，先想「家」。",
+      "plainCue": "你出门后最想回去住的那个地方，就是家。"
+    },
+    {
+      "id": "home.homemade",
+      "word": "homemade",
+      "partOfSpeech": "形容词",
+      "meaning": "家里做的",
+      "formation": "home（家）+ made（做的）= 自家做的",
+      "rootRelation": "把 home 放在熟词前面，看看一件事是在什么地方做的。",
+      "explanation": "例句中的 homemade 取“家里做的”这个意思。",
+      "example": "Try my homemade bread.",
+      "translation": "尝尝我自己做的面包。",
+      "acceptedAnswers": [
+        "家里做的"
+      ],
+      "pronunciation": "ˈhoʊmˈmeɪd",
+      "memoryCue": "home 是家，made 是做成的。在家做成的，就是自家做的。",
+      "parts": [
+        {
+          "text": "home",
+          "ipa": "hoʊm",
+          "meaning": "家"
+        },
+        {
+          "text": "made",
+          "ipa": "meɪd",
+          "meaning": "做的"
+        }
+      ],
+      "combined": "在自己家动手烤的那块面包，就叫家里做的。"
+    },
+    {
+      "id": "home.homework",
+      "word": "homework",
+      "partOfSpeech": "名词",
+      "meaning": "家庭作业",
+      "formation": "home（家）+ work（功课）= 家庭作业",
+      "rootRelation": "把 home 放在熟词前面，看看一件事是在什么地方做的。",
+      "explanation": "例句中的 homework 取“家庭作业”这个意思。",
+      "example": "I finished my homework.",
+      "translation": "我完成了家庭作业。",
+      "acceptedAnswers": [
+        "家庭作业"
+      ],
+      "pronunciation": "ˈhoʊmˌwɝk",
+      "memoryCue": "home 是家，work 是功课。带回家做的，就是家庭作业。",
+      "parts": [
+        {
+          "text": "home",
+          "ipa": "hoʊm",
+          "meaning": "家"
+        },
+        {
+          "text": "work",
+          "ipa": "wɝk",
+          "meaning": "功课"
+        }
+      ],
+      "combined": "下课后老师留给你带回家做的练习，就是家庭作业。"
+    }
+  ],
+  "links": [
+    {
+      "from": "home.home",
+      "to": "home.homemade",
+      "kind": "同一词族",
+      "note": "home（家）+ made（做的）= 自家做的"
+    },
+    {
+      "from": "home.home",
+      "to": "home.homework",
+      "kind": "同一词族",
+      "note": "home（家）+ work（功课）= 家庭作业"
+    }
+  ],
+  "rootIPA": "hoʊm",
+  "rootSpoken": "home",
+  "rootContext": "",
+  "rootIntro": "这里的意思是家。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

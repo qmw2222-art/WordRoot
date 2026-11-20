@@ -1,0 +1,453 @@
+{
+  "id": "family.fer",
+  "root": "fer",
+  "meaning": "携带、带来",
+  "explanation": "fer- 关联拉丁语 ferre「携带、带来」。这个历史成分在现代词里常看不出字面意义，用转交、指向某处和作出不同判断来区分。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "fer.transfer",
+      "word": "transfer",
+      "partOfSpeech": "动词",
+      "meaning": "转移；转交",
+      "explanation": "把东西、钱、人员等从一个地方或账户移到另一个。",
+      "example": "I'll transfer the money to your account tomorrow.",
+      "translation": "我明天会把钱转到你的账户。",
+      "rootRelation": "trans-（跨过）与 fer-（携带）的历史组合。",
+      "acceptedAnswers": [
+        "转移",
+        "转交",
+        "转账"
+      ],
+      "formation": "trans（跨越）+ fer（携带）= 转移",
+      "pronunciation": "ˈtrænsfɝ",
+      "memoryCue": "trans- 是跨过去，fer 是带。从这一方带到另一方，就是转移。",
+      "parts": [
+        {
+          "text": "trans-",
+          "ipa": "træns",
+          "meaning": "跨越"
+        },
+        {
+          "text": "fer",
+          "ipa": "fɝ",
+          "meaning": "携带"
+        }
+      ],
+      "combined": "把钱或物品从一个地方转到另一个地方。"
+    },
+    {
+      "id": "fer.refer",
+      "word": "refer",
+      "partOfSpeech": "动词",
+      "meaning": "提到；指的是",
+      "explanation": "refer to 可表示提及，也可以用来解释某个词或短语指什么。",
+      "example": "What does this number refer to?",
+      "translation": "这个数字指的是什么？",
+      "rootRelation": "re- 与 fer- 词族有带回、指向的历史联系。",
+      "acceptedAnswers": [
+        "提到",
+        "提及",
+        "指的是",
+        "指"
+      ],
+      "formation": "fer（带）→ 把话题带回某个对象，提到",
+      "pronunciation": "rəˈfɝ",
+      "memoryCue": "说话时指向某个人或事情，表示提到它。"
+    },
+    {
+      "id": "fer.prefer",
+      "word": "prefer",
+      "partOfSpeech": "动词",
+      "meaning": "更喜欢；宁愿",
+      "explanation": "对两种选择表示偏好，常说 prefer A to B。",
+      "example": "I prefer tea to coffee in the evening.",
+      "translation": "晚上我更喜欢喝茶。",
+      "rootRelation": "pre-（在前）与 fer-（携带）有把一项放前面的联想。",
+      "acceptedAnswers": [
+        "更喜欢",
+        "偏好",
+        "宁愿"
+      ],
+      "formation": "pre（在前）+ fer（携带）→ 把一个选项放在前面，更喜欢",
+      "pronunciation": "prəˈfɝ",
+      "memoryCue": "把更喜欢的选择排在前面。借 pre- 的「在前」记住这个意思。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "prə",
+          "meaning": "在前"
+        },
+        {
+          "text": "fer",
+          "ipa": "fɝ",
+          "meaning": "携带"
+        }
+      ],
+      "combined": "两个选择中，更想要其中一个。"
+    },
+    {
+      "id": "fer.differ",
+      "word": "differ",
+      "partOfSpeech": "动词",
+      "meaning": "不同；有差异",
+      "explanation": "比较两个对象的不同之处，常用 differ from 或 differ in。",
+      "example": "The two plans differ in price.",
+      "translation": "这两个方案在价格上不同。",
+      "rootRelation": "历史形式有 dis-（分开）与 fer- 的联系。",
+      "acceptedAnswers": [
+        "不同",
+        "有差异",
+        "不一样"
+      ],
+      "formation": "differ · 不同",
+      "pronunciation": "ˈdɪfɚ",
+      "memoryCue": "在这里，这个词表示「不同」。",
+      "plainCue": "两个东西不一样，就说它们有差异。"
+    },
+    {
+      "id": "fer.reference",
+      "word": "reference",
+      "partOfSpeech": "名词",
+      "meaning": "提及；引用",
+      "explanation": "指一句指向某内容的话，或文章中列出的引用依据。",
+      "example": "The article includes a reference to last year's survey.",
+      "translation": "文章提到了去年的调查。",
+      "rootRelation": "refer 的相关名词。",
+      "acceptedAnswers": [
+        "提及",
+        "引用",
+        "参考文献"
+      ],
+      "formation": "refer（提到）→ 所作的提及",
+      "pronunciation": "ˈrɛfɚəns",
+      "memoryCue": "refer 是提到。说话或文章里对某件事的提及叫 reference。",
+      "parts": [
+        {
+          "text": "refer",
+          "ipa": "rɛfɚ",
+          "meaning": "提到"
+        },
+        {
+          "text": "-ence",
+          "ipa": "əns",
+          "meaning": "这种状态"
+        }
+      ],
+      "combined": "在文章中注明引用来源，也可指提及某事。"
+    },
+    {
+      "id": "fer.preference",
+      "word": "preference",
+      "partOfSpeech": "名词",
+      "meaning": "偏好；优先选择",
+      "explanation": "指相对更喜欢某一项的倾向，常见 preference for。",
+      "example": "Do you have a preference for a window seat?",
+      "translation": "你会更喜欢靠窗的座位吗？",
+      "rootRelation": "prefer 的相关名词。",
+      "acceptedAnswers": [
+        "偏好",
+        "更喜欢的选择"
+      ],
+      "formation": "prefer（更喜欢）→ 偏好",
+      "pronunciation": "ˈprɛfɚəns",
+      "memoryCue": "从 prefer 的「更喜欢」来记。经常更喜欢的那一种，就是偏好。",
+      "parts": [
+        {
+          "text": "prefer",
+          "ipa": "prɛfɚ",
+          "meaning": "更喜欢"
+        },
+        {
+          "text": "-ence",
+          "ipa": "əns",
+          "meaning": "这种状态"
+        }
+      ],
+      "combined": "一个人更喜欢哪种选择，就是他的偏好。"
+    },
+    {
+      "id": "fer.difference",
+      "word": "difference",
+      "partOfSpeech": "名词",
+      "meaning": "差别；差异",
+      "explanation": "指比较时发现的不一样，也可以表达可测量的差距。",
+      "example": "There is a big difference between the two prices.",
+      "translation": "两个价格相差很大。",
+      "rootRelation": "differ 的相关名词。",
+      "acceptedAnswers": [
+        "差别",
+        "差异",
+        "区别"
+      ],
+      "formation": "differ（不同）→ 差别",
+      "pronunciation": "ˈdɪfɚəns",
+      "memoryCue": "从 differ 的「不同」来记。能指出来的那个不同之处，就是差别。",
+      "parts": [
+        {
+          "text": "differ",
+          "ipa": "dɪfɚ",
+          "meaning": "不同"
+        },
+        {
+          "text": "-ence",
+          "ipa": "əns",
+          "meaning": "这种状态"
+        }
+      ],
+      "combined": "比较后发现的不一样，就是差别。"
+    },
+    {
+      "id": "fer.transferable",
+      "word": "transferable",
+      "partOfSpeech": "形容词",
+      "meaning": "可转让的；可转移的",
+      "explanation": "用于票证、权益、资金或能用于新工作的技能。",
+      "example": "These tickets are not transferable.",
+      "translation": "这些票不能转让。",
+      "rootRelation": "transfer 加 -able。",
+      "acceptedAnswers": [
+        "可转让的",
+        "可转让",
+        "可转移的"
+      ],
+      "formation": "transfer（转移）+ able（可以）= 可转让的",
+      "pronunciation": "trænsˈfɝəbəl",
+      "memoryCue": "transfer 是转让，-able 是能。能转给别人，就是可转让的。",
+      "parts": [
+        {
+          "text": "transfer",
+          "ipa": "trænsfɝ",
+          "meaning": "转移"
+        },
+        {
+          "text": "-able",
+          "ipa": "əbəl",
+          "meaning": "可以"
+        }
+      ],
+      "combined": "能转给别人，或能转到新用途的。"
+    },
+    {
+      "id": "fer.referral",
+      "word": "referral",
+      "partOfSpeech": "名词",
+      "meaning": "转介；转诊",
+      "explanation": "由有联系的人或机构把某人推荐给另一位专业人员。",
+      "example": "I needed a referral to see a specialist.",
+      "translation": "我需要一份转诊才能看专科医生。",
+      "rootRelation": "refer 作转介解时的名词。",
+      "acceptedAnswers": [
+        "转介",
+        "转诊"
+      ],
+      "formation": "refer（转介）→ 转介这件事",
+      "pronunciation": "rɪˈfɝəl",
+      "memoryCue": "refer 可以指转介。把你介绍给另一位专业人员，这次转介叫 referral。",
+      "parts": [
+        {
+          "text": "refer",
+          "ipa": "rɪfɝ",
+          "meaning": "提到"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与它有关的"
+        }
+      ],
+      "combined": "把需要帮助的人介绍给合适的专业人员。"
+    },
+    {
+      "id": "fer.infer",
+      "word": "infer",
+      "partOfSpeech": "动词",
+      "meaning": "推断；推知",
+      "explanation": "依据线索判断没有被直接说出或看到的事。",
+      "example": "We inferred from the empty desks that the meeting had ended.",
+      "translation": "我们从空桌子推断会议已经结束了。",
+      "rootRelation": "历史上含 in- 与 fer- 的形式，现代意思是从证据推出结论。",
+      "acceptedAnswers": [
+        "推断",
+        "推知",
+        "推测"
+      ],
+      "exampleForm": "inferred",
+      "formation": "fer（带）→ 从证据带出结论，推断",
+      "pronunciation": "ˌɪnˈfɝ",
+      "memoryCue": "从看到的线索，推想没有直接说出的结论。"
+    },
+    {
+      "id": "fer.inference",
+      "word": "inference",
+      "partOfSpeech": "名词",
+      "meaning": "推断；推论",
+      "explanation": "用已有信息得出的结论，常见 draw an inference。",
+      "example": "That inference turned out to be wrong.",
+      "translation": "事实证明那个推断是错的。",
+      "rootRelation": "infer 加相关名词后缀。",
+      "acceptedAnswers": [
+        "推论",
+        "推断"
+      ],
+      "formation": "infer（推断）→ 推断或推断出的结论",
+      "pronunciation": "ˈɪnfɚəns",
+      "memoryCue": "infer 是推断。由线索得出的那个结论就是 inference。",
+      "parts": [
+        {
+          "text": "infer",
+          "ipa": "ɪnfɚ",
+          "meaning": "推断"
+        },
+        {
+          "text": "-ence",
+          "ipa": "əns",
+          "meaning": "这种状态"
+        }
+      ],
+      "combined": "用现有信息推出来的结论。"
+    },
+    {
+      "id": "fer.offer",
+      "word": "offer",
+      "partOfSpeech": "动词",
+      "meaning": "提供；主动提出",
+      "explanation": "主动表示愿意给出帮助、物品或机会，常用 offer to do。",
+      "example": "A neighbour offered to carry my bags upstairs.",
+      "translation": "邻居主动提出帮我把袋子提上楼。",
+      "rootRelation": "通过拉丁语相关形式与 ferre（带来）相连。",
+      "acceptedAnswers": [
+        "提供",
+        "主动提出",
+        "主动提供"
+      ],
+      "formation": "fer（带）→ 把东西带到别人面前供其选择",
+      "pronunciation": "ˈɔfɚ",
+      "memoryCue": "主动拿出帮助、物品或机会，问对方要不要。"
+    },
+    {
+      "id": "fer.suffer",
+      "word": "suffer",
+      "partOfSpeech": "动词",
+      "meaning": "遭受；忍受",
+      "explanation": "经历痛苦、损失或不适，suffer from 常接困扰来源。",
+      "example": "The garden suffered from a long period without rain.",
+      "translation": "长时间不下雨让花园受了影响。",
+      "rootRelation": "词源与「承担、忍受」的历史形式相连。",
+      "acceptedAnswers": [
+        "遭受",
+        "忍受",
+        "受…影响"
+      ],
+      "formation": "fer（承担）→ 经受痛苦或损失",
+      "pronunciation": "ˈsʌfɚ",
+      "memoryCue": "fer 有承担的意思。承受痛苦或损失，就是 suffer。",
+      "plainCue": "经历疼痛、损失或不适，就是遭受、忍受。"
+    },
+    {
+      "id": "fer.confer",
+      "word": "confer",
+      "partOfSpeech": "动词",
+      "meaning": "商议；交换意见",
+      "explanation": "和别人交换看法后再行动，常见 confer with。",
+      "example": "The teachers conferred before changing the schedule.",
+      "translation": "老师们商量之后才改了日程。",
+      "rootRelation": "con-（共同）与 fer-（携带）的历史线索。",
+      "acceptedAnswers": [
+        "商议",
+        "商量",
+        "交换意见"
+      ],
+      "exampleForm": "conferred",
+      "formation": "con（一起）+ fer（带）→ 一起交换意见，商议",
+      "pronunciation": "kənˈfɝ",
+      "memoryCue": "con- 是一起。大家把想法带到一起商量，就是商议。",
+      "parts": [
+        {
+          "text": "con-",
+          "ipa": "kən",
+          "meaning": "一起"
+        },
+        {
+          "text": "fer",
+          "ipa": "fɝ",
+          "meaning": "带"
+        }
+      ],
+      "combined": "几个人交换想法，一起商量。"
+    }
+  ],
+  "links": [
+    {
+      "from": "fer.transfer",
+      "to": "fer.transferable",
+      "kind": "派生关系",
+      "note": "transfer 是转移或转让，transferable 描述可以这样处理的东西。"
+    },
+    {
+      "from": "fer.refer",
+      "to": "fer.reference",
+      "kind": "派生关系",
+      "note": "refer to 可表示提及，reference 是所作的提及或引用。"
+    },
+    {
+      "from": "fer.refer",
+      "to": "fer.referral",
+      "kind": "语义联系",
+      "note": "refer 也可表示转介某人，referral 是这一手续或得到的转介。"
+    },
+    {
+      "from": "fer.prefer",
+      "to": "fer.preference",
+      "kind": "派生关系",
+      "note": "prefer 表达更喜欢，preference 是个人偏好。"
+    },
+    {
+      "from": "fer.differ",
+      "to": "fer.difference",
+      "kind": "派生关系",
+      "note": "differ 表示不同，difference 是差异本身。"
+    },
+    {
+      "from": "fer.refer",
+      "to": "fer.infer",
+      "kind": "用法对照",
+      "note": "refer to 把话题指向已有对象，infer 是从线索推出一个判断。"
+    },
+    {
+      "from": "fer.infer",
+      "to": "fer.inference",
+      "kind": "派生关系",
+      "note": "infer 是作出推断，inference 是推断出的结论或过程。"
+    },
+    {
+      "from": "fer.refer",
+      "to": "fer.offer",
+      "kind": "语境关联",
+      "note": "机构可以直接 offer 服务，也可以 refer 某人去另一家机构。"
+    },
+    {
+      "from": "fer.transfer",
+      "to": "fer.suffer",
+      "kind": "同词根",
+      "note": "两词历史上都有「带、承担」的线索。transfer 表示转移，suffer 表示遭受困难。"
+    },
+    {
+      "from": "fer.differ",
+      "to": "fer.confer",
+      "kind": "语境关联",
+      "note": "意见不一致时，人们可以 confer 以了解分歧、讨论下一步。"
+    },
+    {
+      "from": "fer.transfer",
+      "to": "fer.refer",
+      "kind": "用法对照",
+      "note": "transfer 可把某人实际调到别处，refer 可把某人引荐给别的机构或专业人员。"
+    }
+  ],
+  "rootIPA": "fɝ",
+  "rootSpoken": "fer",
+  "rootContext": "在 transfer 里",
+  "rootIntro": "这一块有带过去的意思。接着看，带去了哪里。",
+  "rootKind": "词根"
+}

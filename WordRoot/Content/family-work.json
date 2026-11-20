@@ -1,0 +1,102 @@
+{
+  "id": "family.work",
+  "root": "work",
+  "meaning": "工作",
+  "explanation": "从做的事，到做事的人，再到工作的地方，都带着 work。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "work.work",
+      "word": "work",
+      "partOfSpeech": "动词",
+      "meaning": "工作",
+      "formation": "work 表示工作",
+      "rootRelation": "从做的事，到做事的人，再到工作的地方，都带着 work。",
+      "explanation": "例句中的 work 取“工作”这个意思。",
+      "example": "I work nearby.",
+      "translation": "我在附近工作。",
+      "acceptedAnswers": [
+        "工作"
+      ],
+      "pronunciation": "wɝk",
+      "memoryCue": "到店里给顾客做饭、去学校给学生上课，都算工作。"
+    },
+    {
+      "id": "work.worker",
+      "word": "worker",
+      "partOfSpeech": "名词",
+      "meaning": "工作人员",
+      "formation": "work（工作）+ er（人）= 工作者",
+      "rootRelation": "从做的事，到做事的人，再到工作的地方，都带着 work。",
+      "explanation": "例句中的 worker 取“工作人员”这个意思。",
+      "example": "Ask a station worker.",
+      "translation": "问问车站工作人员。",
+      "acceptedAnswers": [
+        "工作人员"
+      ],
+      "pronunciation": "ˈwɝkɚ",
+      "memoryCue": "work 是工作，-er 指人。工作的人就是工作者。",
+      "parts": [
+        {
+          "text": "work",
+          "ipa": "wɝk",
+          "meaning": "工作"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "人"
+        }
+      ],
+      "combined": "在店里、工厂或办公室工作的人，就是工作人员。"
+    },
+    {
+      "id": "work.workplace",
+      "word": "workplace",
+      "partOfSpeech": "名词",
+      "meaning": "工作场所",
+      "formation": "work（工作）+ place（地方）= 工作场所",
+      "rootRelation": "从做的事，到做事的人，再到工作的地方，都带着 work。",
+      "explanation": "例句中的 workplace 取“工作场所”这个意思。",
+      "example": "My workplace is quiet.",
+      "translation": "我工作的地方很安静。",
+      "acceptedAnswers": [
+        "工作场所"
+      ],
+      "pronunciation": "ˈwɝkˌpleɪs",
+      "memoryCue": "work 是工作，place 是地方。工作的地方就是工作场所。",
+      "parts": [
+        {
+          "text": "work",
+          "ipa": "wɝk",
+          "meaning": "工作"
+        },
+        {
+          "text": "place",
+          "ipa": "pleɪs",
+          "meaning": "地方"
+        }
+      ],
+      "combined": "人平时去上班的那个地方，就是工作场所。"
+    }
+  ],
+  "links": [
+    {
+      "from": "work.work",
+      "to": "work.worker",
+      "kind": "同一词族",
+      "note": "work（工作）+ er（人）= 工作者"
+    },
+    {
+      "from": "work.work",
+      "to": "work.workplace",
+      "kind": "同一词族",
+      "note": "work（工作）+ place（地方）= 工作场所"
+    }
+  ],
+  "rootIPA": "wɝk",
+  "rootSpoken": "work",
+  "rootContext": "",
+  "rootIntro": "这里的意思是工作。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

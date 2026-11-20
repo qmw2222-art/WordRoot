@@ -1,0 +1,91 @@
+{
+  "id": "family.direct",
+  "root": "direct",
+  "meaning": "指引、直接的",
+  "explanation": "从指路的动作 direct，联想到路的方向和重新指路。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "direct.direct",
+      "word": "direct",
+      "partOfSpeech": "动词",
+      "meaning": "指引",
+      "formation": "direct 指引人或车往某处走",
+      "rootRelation": "从指路的动作 direct，联想到路的方向和重新指路。",
+      "explanation": "例句中的 direct 取“指引”这个意思。",
+      "example": "Can you direct me to the station?",
+      "translation": "你能告诉我车站怎么走吗？",
+      "acceptedAnswers": [
+        "指引"
+      ],
+      "pronunciation": "dɚˈɛkt",
+      "memoryCue": "指着路告诉别人往哪走，就是 direct。",
+      "plainCue": "告诉别人往哪走，就是指引。"
+    },
+    {
+      "id": "direct.direction",
+      "word": "direction",
+      "partOfSpeech": "名词",
+      "meaning": "方向",
+      "formation": "direction · 方向",
+      "rootRelation": "从指路的动作 direct，联想到路的方向和重新指路。",
+      "explanation": "例句中的 direction 取“方向”这个意思。",
+      "example": "Is this the right direction?",
+      "translation": "是这个方向吗？",
+      "acceptedAnswers": [
+        "方向"
+      ],
+      "pronunciation": "dɚˈɛkʃən",
+      "memoryCue": "在这里，这个词表示「方向」。",
+      "plainCue": "要去的方向，或者该朝哪边走。"
+    },
+    {
+      "id": "direct.redirect",
+      "word": "redirect",
+      "partOfSpeech": "动词",
+      "meaning": "重新引导",
+      "formation": "re（重新）+ direct（引导）= 重新引导",
+      "rootRelation": "从指路的动作 direct，联想到路的方向和重新指路。",
+      "explanation": "例句中的 redirect 取“重新引导”这个意思。",
+      "example": "They redirected traffic.",
+      "translation": "他们让车辆改道了。",
+      "acceptedAnswers": [
+        "重新引导"
+      ],
+      "pronunciation": "ˌridɚˈɛkt",
+      "memoryCue": "re- 是重新。原来的路走不通，另指一条路就是重新引导。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "重新"
+        },
+        {
+          "text": "direct",
+          "ipa": "dɚɛkt",
+          "meaning": "引导"
+        }
+      ],
+      "combined": "把人或东西改引到另一个方向。"
+    }
+  ],
+  "links": [
+    {
+      "from": "direct.direct",
+      "to": "direct.direction",
+      "kind": "同一词族",
+      "note": "direct（指引）+ ion，表示指向的方向"
+    },
+    {
+      "from": "direct.direct",
+      "to": "direct.redirect",
+      "kind": "同一词族",
+      "note": "re（重新）+ direct（引导）= 重新引导"
+    }
+  ],
+  "rootIPA": "dɚˈɛkt",
+  "rootSpoken": "direct",
+  "rootContext": "",
+  "rootIntro": "这里的意思是指引、直接的。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

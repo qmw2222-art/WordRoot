@@ -1,0 +1,310 @@
+{
+  "id": "family.port",
+  "root": "port",
+  "meaning": "携带、运输",
+  "explanation": "词根 port 源自拉丁语 portare，意为「携带、搬运」。联想货物怎样被带进来、运出去，以及一件东西是否容易带走。",
+  "isFree": true,
+  "words": [
+    {
+      "id": "sense.import.goods",
+      "word": "import",
+      "partOfSpeech": "动词",
+      "meaning": "进口；从国外购入",
+      "explanation": "从另一个国家把商品带入本国或本地区。",
+      "example": "The shop imports olive oil from Greece.",
+      "translation": "这家商店从希腊进口橄榄油。",
+      "rootRelation": "port（携带）与 im-/in-（向内）的构词联系。",
+      "acceptedAnswers": [
+        "进口",
+        "从国外进口",
+        "从国外购入"
+      ],
+      "pronunciation": "ɪmˈpɔrt",
+      "formation": "im（向内）+ port（携带）= 进口",
+      "memoryCue": "im- 是向内，port 是运。把货从国外运进来，就是进口。",
+      "parts": [
+        {
+          "text": "im-",
+          "ipa": "ɪm",
+          "meaning": "向内"
+        },
+        {
+          "text": "port",
+          "ipa": "pɔrt",
+          "meaning": "运送"
+        }
+      ],
+      "combined": "把货从国外运进来，就是进口。"
+    },
+    {
+      "id": "sense.export.goods",
+      "word": "export",
+      "partOfSpeech": "动词",
+      "meaning": "出口；向国外销售",
+      "explanation": "把商品运往另一个国家或地区销售。",
+      "example": "The company exports tea to Japan.",
+      "translation": "这家公司向日本出口茶叶。",
+      "rootRelation": "port（携带）与 ex-（向外）的构词联系。",
+      "acceptedAnswers": [
+        "出口",
+        "向国外出口",
+        "向国外销售商品"
+      ],
+      "pronunciation": "ɛkˈspɔrt",
+      "formation": "ex（向外）+ port（携带）= 出口",
+      "memoryCue": "ex- 是向外，port 是运。把货运到国外，就是出口。",
+      "parts": [
+        {
+          "text": "ex-",
+          "ipa": "ɛks",
+          "meaning": "向外",
+          "notes": [
+            "在 export 中连同 /s/ 读作 /ɛks/"
+          ]
+        },
+        {
+          "text": "port",
+          "ipa": "ˈpɔrt",
+          "meaning": "携带、运送"
+        }
+      ],
+      "combined": "把货运到国外去卖，就是出口。"
+    },
+    {
+      "id": "sense.transport.carry",
+      "word": "transport",
+      "partOfSpeech": "动词",
+      "meaning": "运输；运送",
+      "explanation": "把人或物从一个地点运到另一处，不一定跨越国界。",
+      "example": "Small trucks transport fresh bread to nearby cafés.",
+      "translation": "小卡车把新鲜面包运到附近的咖啡馆。",
+      "rootRelation": "port（携带）与 trans-（穿过）的构词联系。",
+      "acceptedAnswers": [
+        "运输",
+        "运送"
+      ],
+      "pronunciation": "trænˈspɔrt",
+      "formation": "trans（穿过）+ port（运输）= 运输",
+      "memoryCue": "trans- 是穿过，port 是运。把东西从一处运到另一处，就是运输。",
+      "parts": [
+        {
+          "text": "trans-",
+          "ipa": "træns",
+          "meaning": "穿过、从一处到另一处"
+        },
+        {
+          "text": "port",
+          "ipa": "pɔrt",
+          "meaning": "运送"
+        }
+      ],
+      "combined": "把人或东西从这里运到那里，就是运输。"
+    },
+    {
+      "id": "sense.portable.easy-carry",
+      "word": "portable",
+      "partOfSpeech": "形容词",
+      "meaning": "便于携带的；便携的",
+      "explanation": "形容容易拿着带走或方便移动的物品。",
+      "example": "The portable lamp fits in the side pocket of my bag.",
+      "translation": "这盏便携灯可以放进我包侧边的口袋。",
+      "rootRelation": "port（携带）加 -able。",
+      "acceptedAnswers": [
+        "便携",
+        "便于携带",
+        "易于携带",
+        "便于携带的",
+        "便携的"
+      ],
+      "pronunciation": "ˈpɔrtəbəl",
+      "formation": "port（携带）+ -able（能……的）→ 能够携带的 = 便携的",
+      "memoryCue": "-able 是「能……的」，port 是带。能带着走，就是便携的。",
+      "parts": [
+        {
+          "text": "port",
+          "ipa": "pɔrt",
+          "meaning": "携带"
+        },
+        {
+          "text": "-able",
+          "ipa": "əbəl",
+          "meaning": "能……的"
+        }
+      ],
+      "combined": "能带着走的东西，就是便携的。"
+    },
+    {
+      "id": "port.exporter",
+      "word": "exporter",
+      "partOfSpeech": "名词",
+      "meaning": "出口商",
+      "explanation": "把本地商品销往其他国家或地区的个人或企业。",
+      "example": "The exporter packed the fruit before the evening flight.",
+      "translation": "出口商在晚间航班起飞前把水果装好。",
+      "rootRelation": "export 加表示人的 -er。",
+      "acceptedAnswers": [
+        "出口商"
+      ],
+      "formation": "export（出口）+ er（做的人）= 出口商",
+      "pronunciation": "ɛkˈspɔrtɚ",
+      "memoryCue": "export 是把货运出去，-er 是做这事的人。做出口生意的就是出口商。",
+      "parts": [
+        {
+          "text": "export",
+          "ipa": "ɛkspɔrt",
+          "meaning": "出口"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "把本国货物卖到国外的那家公司或那个人，就是出口商。"
+    },
+    {
+      "id": "port.importer",
+      "word": "importer",
+      "partOfSpeech": "名词",
+      "meaning": "进口商",
+      "explanation": "从国外购买商品并带入本地市场的个人或企业。",
+      "example": "The importer checks each box when the shipment arrives.",
+      "translation": "货物到达时，进口商会检查每个箱子。",
+      "rootRelation": "import 加表示人的 -er。",
+      "acceptedAnswers": [
+        "进口商"
+      ],
+      "formation": "import（进口）+ er（做的人）= 进口商",
+      "pronunciation": "ɪmˈpɔrtɚ",
+      "memoryCue": "import 是把货运进来，-er 是做这事的人。做进口生意的就是进口商。",
+      "parts": [
+        {
+          "text": "import",
+          "ipa": "ɪmpɔrt",
+          "meaning": "进口"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "从国外买进货物的那家公司或那个人，就是进口商。"
+    },
+    {
+      "id": "port.transportation",
+      "word": "transportation",
+      "partOfSpeech": "名词",
+      "meaning": "交通、运输",
+      "explanation": "把人或货物从一处送到另一处，叫运输。说到日常出行时，这个词也指交通服务。",
+      "example": "Public transportation makes it easier to cross the city.",
+      "translation": "公共交通让人更容易穿过这座城市。",
+      "rootRelation": "transport 加 -ation。",
+      "acceptedAnswers": [
+        "运输",
+        "交通",
+        "交通运输"
+      ],
+      "formation": "transport（运送）+ -ation（这件事或过程）= 交通、运输",
+      "pronunciation": "ˌtrænspɚˈteɪʃən",
+      "memoryCue": "运送人或货物，是在做一个动作。加上词尾，说的就是运输这件事。",
+      "parts": [
+        {
+          "text": "transport",
+          "ipa": "trænspɚt",
+          "meaning": "运输"
+        },
+        {
+          "text": "-ation",
+          "ipa": "eɪʃən",
+          "meaning": "这件事或过程"
+        }
+      ],
+      "combined": "把人或货物从一处送到另一处，就是运输。说到坐公交、搭地铁，讲的就是公共交通。"
+    },
+    {
+      "id": "port.portability",
+      "word": "portability",
+      "partOfSpeech": "名词",
+      "meaning": "便携性；可携带性",
+      "explanation": "描述设备或物品携带、移动是否方便的性质。",
+      "example": "We chose the tablet for its portability on work trips.",
+      "translation": "我们选这台平板，是因为出差时携带方便。",
+      "rootRelation": "portable 变化词尾构成 portability。",
+      "acceptedAnswers": [
+        "便携性"
+      ],
+      "formation": "portable（便携的）→ portability，便于携带的特点",
+      "pronunciation": "ˌpɔrtəˈbɪləti",
+      "memoryCue": "portable 是能带着走的。想说一件东西好不好带，说的就是便携性。",
+      "parts": [
+        {
+          "text": "port",
+          "ipa": "pɔrt",
+          "meaning": "携带"
+        },
+        {
+          "text": "-ability",
+          "ipa": "əbɪləti",
+          "meaning": "能做到这一点的性质"
+        }
+      ],
+      "combined": "同样是电脑，这台装进包里就能带走，说的就是它的便携性。"
+    }
+  ],
+  "links": [
+    {
+      "from": "sense.import.goods",
+      "to": "sense.export.goods",
+      "kind": "同词根对照",
+      "note": "进口是带入，出口是运出。"
+    },
+    {
+      "from": "sense.export.goods",
+      "to": "port.exporter",
+      "kind": "派生关系",
+      "note": "export 加 -er 指出口商。"
+    },
+    {
+      "from": "sense.import.goods",
+      "to": "port.importer",
+      "kind": "派生关系",
+      "note": "import 加 -er 指进口商。"
+    },
+    {
+      "from": "sense.transport.carry",
+      "to": "port.transportation",
+      "kind": "派生关系",
+      "note": "transport 加 -ation 构成名词。"
+    },
+    {
+      "from": "sense.portable.easy-carry",
+      "to": "port.portability",
+      "kind": "派生关系",
+      "note": "portability 表示 portable 的性质。"
+    },
+    {
+      "to": "port.importer",
+      "kind": "贸易角色对照",
+      "note": "同一笔国际交易中，出口商把货物卖到国外，进口商从国外买进。",
+      "from": "port.exporter"
+    },
+    {
+      "to": "port.transportation",
+      "kind": "语境关联",
+      "note": "进口商从国外进货时，往往需要安排跨境运输。",
+      "from": "port.importer"
+    },
+    {
+      "to": "sense.transport.carry",
+      "kind": "同词根对照",
+      "note": "portability 说的是便携程度，transport 说的是把人或物运走的动作。",
+      "from": "port.portability"
+    }
+  ],
+  "rootIPA": "pɔrt",
+  "rootSpoken": "port",
+  "rootContext": "",
+  "rootIntro": "拿东西、运东西，都能帮你记住这一块。",
+  "rootKind": "词根"
+}

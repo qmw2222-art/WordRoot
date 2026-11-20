@@ -1,0 +1,501 @@
+{
+  "id": "family.geo",
+  "root": "geo",
+  "meaning": "地球、地理",
+  "explanation": "geo- 关联希腊语中「地球、土地」的词。从研究地球到描述位置，它出现在科学、地图与政治等不同场景。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "geo.geology.1",
+      "word": "geology",
+      "partOfSpeech": "名词",
+      "meaning": "地质学",
+      "explanation": "研究地球物质、结构及其变化的学科。",
+      "example": "Geology helps explain why the cliffs have layered colors.",
+      "translation": "地质学有助于解释悬崖为何呈现层状色彩。",
+      "rootRelation": "geo-（地球）与 -logy（研究）组成。",
+      "acceptedAnswers": [
+        "地质学"
+      ],
+      "formation": "geo（地球）+ logy（学科）= 地质学",
+      "pronunciation": "dʒiˈɑlədʒi",
+      "memoryCue": "geo 是地球，-logy 是学科。研究地球和岩石的学科就是地质学。",
+      "parts": [
+        {
+          "text": "geo",
+          "ipa": "dʒiɑ",
+          "meaning": "地球"
+        },
+        {
+          "text": "-logy",
+          "ipa": "lədʒi",
+          "meaning": "学科"
+        }
+      ],
+      "combined": "研究地球物质、结构和变化的学科。"
+    },
+    {
+      "id": "geo.geography.3",
+      "word": "geography",
+      "partOfSpeech": "名词",
+      "meaning": "地理学",
+      "explanation": "研究地点、地表以及人与环境关系的学科。",
+      "example": "Geography explains how the river shaped the settlement.",
+      "translation": "地理学解释了河流如何塑造聚居地。",
+      "rootRelation": "geo-（地球）与 graph（描绘、记录）组成。",
+      "acceptedAnswers": [
+        "地理学"
+      ],
+      "formation": "geo（地球）+ graphy（描述）= 地理学",
+      "pronunciation": "dʒiˈɑɡrəfi",
+      "memoryCue": "geo 是地球，-graphy 有描述的意思。描述地球上的地方，就是地理学。",
+      "parts": [
+        {
+          "text": "geo",
+          "ipa": "dʒiɑ",
+          "meaning": "地球"
+        },
+        {
+          "text": "-graphy",
+          "ipa": "ɡrəfi",
+          "meaning": "描述"
+        }
+      ],
+      "combined": "研究地表、地点以及人与环境关系的学科。"
+    },
+    {
+      "id": "geo.geothermal.5",
+      "word": "geothermal",
+      "partOfSpeech": "形容词",
+      "meaning": "地热的",
+      "explanation": "来自地球内部热量的。",
+      "example": "The town uses geothermal energy to heat several buildings.",
+      "translation": "这个镇利用地热为几栋建筑供暖。",
+      "rootRelation": "geo-（地球）与 therm（热）组成。",
+      "acceptedAnswers": [
+        "地热的"
+      ],
+      "formation": "geo（地球）+ thermal（热的）= 地热的",
+      "pronunciation": "ˌdʒioʊˈθɝməl",
+      "memoryCue": "geo 是地球，thermal 和热有关。来自地球内部的热，就是地热。",
+      "parts": [
+        {
+          "text": "geo",
+          "ipa": "dʒioʊ",
+          "meaning": "地球"
+        },
+        {
+          "text": "thermal",
+          "ipa": "θɝməl",
+          "meaning": "热的"
+        }
+      ],
+      "combined": "来自地球内部热量的，就是地热的。"
+    },
+    {
+      "id": "geo.geometry.extra1",
+      "word": "geometry",
+      "partOfSpeech": "名词",
+      "meaning": "几何学",
+      "explanation": "研究形状、大小、角度和空间关系的数学分支。",
+      "example": "Geometry helped us calculate the area of the garden.",
+      "translation": "几何学帮助我们算出了花园的面积。",
+      "rootRelation": "geo 词族历史相关，现代词形含有 -metry（测量）成分。",
+      "acceptedAnswers": [
+        "几何学"
+      ],
+      "formation": "geo-（地球、地面） + -metry（测量） → 几何学",
+      "pronunciation": "dʒiˈɑmətri",
+      "memoryCue": "可以把 geometry 想成量土地的形状。现在指研究图形的几何学。",
+      "plainCue": "研究形状、大小、角度和空间关系的数学分支。",
+      "parts": [
+        {
+          "text": "geo-",
+          "ipa": "dʒi",
+          "meaning": "地球、地面"
+        },
+        {
+          "text": "-metry",
+          "ipa": "ˈɑmətri",
+          "meaning": "测量",
+          "notes": [
+            "几何学源自测量土地的概念"
+          ]
+        }
+      ],
+      "combined": "图形的大小、角度和空间关系，都是几何学研究的内容。"
+    },
+    {
+      "id": "geo.geologist.2",
+      "word": "geologist",
+      "partOfSpeech": "名词",
+      "meaning": "地质学家",
+      "explanation": "研究岩石、地层和地球过程的科学家。",
+      "example": "The geologist collected rock samples near the valley.",
+      "translation": "地质学家在山谷附近采集岩石样本。",
+      "rootRelation": "geology 加 -ist 表示研究该领域的人。",
+      "acceptedAnswers": [
+        "地质学家"
+      ],
+      "formation": "geo-（地球、地面） + -logist（某学科的专家） → 地质学家",
+      "pronunciation": "dʒiˈɑlədʒəst",
+      "memoryCue": "geology 是地质学，研究这门学科的人就是地质学家。",
+      "parts": [
+        {
+          "text": "geo-",
+          "ipa": "dʒi",
+          "meaning": "地球、地面"
+        },
+        {
+          "text": "-logist",
+          "ipa": "ˈɑlədʒɪst",
+          "meaning": "某学科的专家",
+          "notes": [
+            "地质学家"
+          ]
+        }
+      ],
+      "combined": "研究岩石、地层和地球变化的科学家。"
+    },
+    {
+      "id": "geo.geographic.4",
+      "word": "geographic",
+      "partOfSpeech": "形容词",
+      "meaning": "地理的；地理位置相关的",
+      "explanation": "与地区、位置或地理分布有关。",
+      "example": "The map shows the geographic spread of the trees.",
+      "translation": "地图展示了这些树木的地理分布。",
+      "rootRelation": "geography 的形容词形式。",
+      "acceptedAnswers": [
+        "地理的"
+      ],
+      "formation": "geo-（地理、地球） + -graphic（描绘或记录的） → 地理的",
+      "pronunciation": "ˌdʒiəˈɡræfɪk",
+      "memoryCue": "geography 是地理学。说明某样东西和地理有关时，用 geographic。",
+      "plainCue": "与地区、位置或地理分布有关。",
+      "parts": [
+        {
+          "text": "geo-",
+          "ipa": "ˌdʒioʊ",
+          "meaning": "地理、地球"
+        },
+        {
+          "text": "-graphic",
+          "ipa": "ˈɡræfɪk",
+          "meaning": "描绘或记录的",
+          "notes": [
+            "此处为地理的"
+          ]
+        }
+      ],
+      "combined": "跟地区、位置或地理分布有关的。"
+    },
+    {
+      "id": "geo.geosphere.5",
+      "word": "geosphere",
+      "partOfSpeech": "名词",
+      "meaning": "地球的固体部分",
+      "explanation": "指构成固体地球的岩石和内部结构，和大气、水等系统相区分。",
+      "example": "The class compared how water and the geosphere interact.",
+      "translation": "班上比较了水与地球固体部分如何相互作用。",
+      "rootRelation": "geo- 是地球，sphere 是球体或层。",
+      "acceptedAnswers": [
+        "岩石圈和地球内部",
+        "地球的固体部分"
+      ],
+      "formation": "geo（地球）+ sphere（圈层）= 地球的固体部分",
+      "pronunciation": "ˈdʒioʊˌsfɪr",
+      "memoryCue": "geo 是地球，sphere 指圈层。地球的岩石等固体部分就是 geosphere。",
+      "parts": [
+        {
+          "text": "geo",
+          "ipa": "dʒioʊ",
+          "meaning": "地球"
+        },
+        {
+          "text": "sphere",
+          "ipa": "sfɪr",
+          "meaning": "圈层"
+        }
+      ],
+      "combined": "地球上由岩石和内部结构组成的部分。"
+    },
+    {
+      "id": "geo.geocentric.7",
+      "word": "geocentric",
+      "partOfSpeech": "形容词",
+      "meaning": "以地球为中心的",
+      "explanation": "把地球视为中心或参照点的。",
+      "example": "The diagram compares a geocentric model with a heliocentric one.",
+      "translation": "这张图比较了地心模型与日心模型。",
+      "rootRelation": "geo-（地球）与 centric（居中的）组合。",
+      "acceptedAnswers": [
+        "以地球为中心的"
+      ],
+      "formation": "geo（地球）+ centric（以……为中心）= 以地球为中心的",
+      "pronunciation": "ˌdʒioʊˈsɛntrɪk",
+      "memoryCue": "geo 是地球，centric 是以某物为中心。合起来就是以地球为中心的。",
+      "parts": [
+        {
+          "text": "geo",
+          "ipa": "dʒioʊ",
+          "meaning": "地球"
+        },
+        {
+          "text": "centric",
+          "ipa": "sɛntrɪk",
+          "meaning": "以……为中心"
+        }
+      ],
+      "combined": "把地球当作中心或参照点的。"
+    },
+    {
+      "id": "geo.geotag.8",
+      "word": "geotag",
+      "partOfSpeech": "动词",
+      "meaning": "添加地理位置标签",
+      "explanation": "把地点坐标或位置资料附加到照片或内容上。",
+      "example": "Remember to geotag the trail photos while you have reception.",
+      "translation": "有信号时记得给徒步照片添加地理位置标签。",
+      "rootRelation": "geo-（地点）与 tag（标签）形成现代复合词。",
+      "acceptedAnswers": [
+        "添加地理位置标签"
+      ],
+      "formation": "geo（地理）+ tag（标签）= 加地理位置标签",
+      "pronunciation": "ˈdʒioʊˌtæɡ",
+      "memoryCue": "geo 是位置，tag 是标签。给照片加上地点就是 geotag。",
+      "parts": [
+        {
+          "text": "geo",
+          "ipa": "dʒioʊ",
+          "meaning": "地理"
+        },
+        {
+          "text": "tag",
+          "ipa": "tæɡ",
+          "meaning": "标签"
+        }
+      ],
+      "combined": "给照片或内容加上拍摄地点的信息。"
+    },
+    {
+      "id": "geo.geodesy.9",
+      "word": "geodesy",
+      "partOfSpeech": "名词",
+      "meaning": "大地测量学",
+      "explanation": "测量地球的形状、大小、重力场及地表点的位置。",
+      "example": "Modern geodesy uses satellite measurements to track tiny changes in sea level.",
+      "translation": "现代大地测量学利用卫星测量追踪海平面的细微变化。",
+      "rootRelation": "geo- 指地球，词源中的另一部分涉及划分。",
+      "acceptedAnswers": [
+        "大地测量学"
+      ],
+      "formation": "geo（地球）→ 测量地球的形状和大小",
+      "pronunciation": "dʒiˈɑdəsi",
+      "memoryCue": "精确测量地球形状和大小的学科。"
+    },
+    {
+      "id": "geo.geological.extra3",
+      "word": "geological",
+      "partOfSpeech": "形容词",
+      "meaning": "地质的；地质学上的",
+      "explanation": "与地球岩石、地层或其历史有关。",
+      "example": "The guide explained the island’s geological history.",
+      "translation": "导览员讲解了这座岛的地质历史。",
+      "rootRelation": "由 geology 加 -ical 构成。",
+      "acceptedAnswers": [
+        "地质的"
+      ],
+      "formation": "geology（地质学） + -ical（与……相关的） → 地质的",
+      "pronunciation": "ˌdʒiəˈlɑdʒɪkəl",
+      "memoryCue": "geology 是地质学。描述岩层等地质现象，用 geological。",
+      "plainCue": "与地球岩石、地层或其历史有关。",
+      "parts": [
+        {
+          "text": "geology",
+          "ipa": "ˌdʒiˈɑlədʒi",
+          "meaning": "地质学"
+        },
+        {
+          "text": "-ical",
+          "ipa": "ɪkəl",
+          "meaning": "与……相关的"
+        }
+      ],
+      "combined": "跟岩石、地层或地球历史有关的。"
+    },
+    {
+      "id": "geo.geographical.extra4",
+      "word": "geographical",
+      "partOfSpeech": "形容词",
+      "meaning": "地理的；地理位置上的",
+      "explanation": "与地区、地表位置或空间分布有关。",
+      "example": "Geographical distance makes the two offices hard to coordinate.",
+      "translation": "地理距离让两个办公室难以协调。",
+      "rootRelation": "geography 的形容词形式。",
+      "acceptedAnswers": [
+        "地理的"
+      ],
+      "formation": "geographic（地理的） + -al（与……有关的） → 地理的",
+      "pronunciation": "ˌdʒiəˈɡræfɪkəl",
+      "memoryCue": "geography 是地理学。跟地理相关的事可以用 geographical。",
+      "parts": [
+        {
+          "text": "geographic",
+          "ipa": "ˌdʒiəˈɡræfɪk",
+          "meaning": "地理的"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与……有关的"
+        }
+      ],
+      "combined": "描述某个地方的位置或空间分布。"
+    },
+    {
+      "id": "geo.geopolitics.extra5",
+      "word": "geopolitics",
+      "partOfSpeech": "名词",
+      "meaning": "地缘政治",
+      "explanation": "研究地理位置、资源和国家权力如何相互影响。",
+      "example": "The course examines energy routes through geopolitics.",
+      "translation": "这门课程从地缘政治角度研究能源通道。",
+      "rootRelation": "geo（地理）与 politics（政治）组成。",
+      "acceptedAnswers": [
+        "地缘政治"
+      ],
+      "formation": "geo（地理）+ politics（政治）= 地缘政治",
+      "pronunciation": "ˌdʒioʊˈpɑlətɪks",
+      "memoryCue": "geo 是地理，politics 是政治。研究地理怎样影响政治，就是地缘政治。",
+      "parts": [
+        {
+          "text": "geo",
+          "ipa": "dʒioʊ",
+          "meaning": "地理"
+        },
+        {
+          "text": "politics",
+          "ipa": "pɑlətɪks",
+          "meaning": "政治"
+        }
+      ],
+      "combined": "研究地理位置和资源如何影响国家权力。"
+    },
+    {
+      "id": "geo.geopolitical.extra6",
+      "word": "geopolitical",
+      "partOfSpeech": "形容词",
+      "meaning": "地缘政治的",
+      "explanation": "与地理因素影响国际政治有关。",
+      "example": "The port has gained geopolitical importance.",
+      "translation": "这个港口的地缘政治重要性上升了。",
+      "rootRelation": "由 geopolitics 加 -al 构成。",
+      "acceptedAnswers": [
+        "地缘政治的"
+      ],
+      "formation": "geo-（地理、地球） + political（政治的） → 地缘政治的",
+      "pronunciation": "ˌdʒioʊpəˈlɪtɪkəl",
+      "memoryCue": "geopolitics 是地缘政治。描述这方面的事，用 geopolitical。",
+      "plainCue": "与地理因素影响国际政治有关。",
+      "parts": [
+        {
+          "text": "geo-",
+          "ipa": "ˌdʒioʊ",
+          "meaning": "地理、地球"
+        },
+        {
+          "text": "political",
+          "ipa": "pəˈlɪtɪkəl",
+          "meaning": "政治的"
+        }
+      ],
+      "combined": "地理位置和资源影响国家政治的，就是地缘政治的。"
+    }
+  ],
+  "links": [
+    {
+      "to": "geo.geologist.2",
+      "kind": "派生关系",
+      "note": "geology 是地质学，geologist 是从事地质研究的人。",
+      "from": "geo.geology.1"
+    },
+    {
+      "to": "geo.geological.extra3",
+      "kind": "派生关系",
+      "note": "geology 是学科，geological 描述地层、岩石等地质情况。",
+      "from": "geo.geology.1"
+    },
+    {
+      "to": "geo.geography.3",
+      "kind": "用法对照",
+      "note": "geology 研究岩石和地球结构，geography 研究地方、分布及人与环境的关系。",
+      "from": "geo.geology.1"
+    },
+    {
+      "to": "geo.geographic.4",
+      "kind": "派生关系",
+      "note": "geography 是名词，geographic 形容与地理或位置有关。",
+      "from": "geo.geography.3"
+    },
+    {
+      "to": "geo.geographical.extra4",
+      "kind": "语义联系",
+      "note": "geographic 和 geographical 在许多语境下都可以表示「地理的」。",
+      "from": "geo.geographic.4"
+    },
+    {
+      "to": "geo.geotag.8",
+      "kind": "语境关联",
+      "note": "geotag 给照片等内容添加位置，便于按地理位置展示。",
+      "from": "geo.geography.3"
+    },
+    {
+      "to": "geo.geometry.extra1",
+      "kind": "同词根",
+      "note": "geography 研究地方和分布，geometry 的名称历史上与测地有关，现代研究形状与空间关系。",
+      "from": "geo.geography.3"
+    },
+    {
+      "to": "geo.geothermal.5",
+      "kind": "语境关联",
+      "note": "geothermal 能量来自地球内部，利用它要理解当地地质条件。",
+      "from": "geo.geology.1"
+    },
+    {
+      "to": "geo.geosphere.5",
+      "kind": "用法对照",
+      "note": "geothermal 指地球内部的热，geosphere 指地球的固体部分。",
+      "from": "geo.geothermal.5"
+    },
+    {
+      "to": "geo.geocentric.7",
+      "kind": "同词根",
+      "note": "geosphere 是地球固体部分，geocentric 描述以地球为中心的观点或系统。",
+      "from": "geo.geosphere.5"
+    },
+    {
+      "to": "geo.geopolitics.extra5",
+      "kind": "语境关联",
+      "note": "geopolitics 关心边界、资源、位置等地理因素如何影响国家关系。",
+      "from": "geo.geography.3"
+    },
+    {
+      "to": "geo.geopolitical.extra6",
+      "kind": "派生关系",
+      "note": "geopolitics 是领域，geopolitical 描述地理因素相关的政治问题。",
+      "from": "geo.geopolitics.extra5"
+    },
+    {
+      "to": "geo.geodesy.9",
+      "kind": "同词根",
+      "note": "geometry 研究空间形状；geodesy 研究地球的形状和地球表面位置。",
+      "from": "geo.geometry.extra1"
+    }
+  ],
+  "rootIPA": "dʒioʊ",
+  "rootSpoken": "geo",
+  "rootContext": "在 geotag 里",
+  "rootIntro": "想想脚下的大地。接下来的词和地球、地面有关。",
+  "rootKind": "词根"
+}

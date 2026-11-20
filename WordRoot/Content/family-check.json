@@ -1,0 +1,102 @@
+{
+  "id": "family.check",
+  "root": "check",
+  "meaning": "核对、检查",
+  "explanation": "旅途里常听到 check。留心它后面接的词，就知道是登记还是离开。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "check.check",
+      "word": "check",
+      "partOfSpeech": "动词",
+      "meaning": "检查",
+      "formation": "check 表示核对",
+      "rootRelation": "旅途里常听到 check。留心它后面接的词，就知道是登记还是离开。",
+      "explanation": "例句中的 check 取“检查”这个意思。",
+      "example": "Please check the date.",
+      "translation": "请核对日期。",
+      "acceptedAnswers": [
+        "检查"
+      ],
+      "pronunciation": "tʃɛk",
+      "memoryCue": "照着清单一项项核实，就是检查。"
+    },
+    {
+      "id": "check.check-in",
+      "word": "check in",
+      "partOfSpeech": "短语动词",
+      "meaning": "办理入住或值机",
+      "formation": "check 和 in 搭配，表示到达后登记",
+      "rootRelation": "旅途里常听到 check。留心它后面接的词，就知道是登记还是离开。",
+      "explanation": "例句中的 check in 取“办理入住或值机”这个意思。",
+      "example": "We'd like to check in.",
+      "translation": "我们想办理入住。",
+      "acceptedAnswers": [
+        "办理入住或值机"
+      ],
+      "pronunciation": "tʃɛk ˈɪn",
+      "memoryCue": "in 是进来。把这两个词一起记，就能记住抵达时办登记。",
+      "parts": [
+        {
+          "text": "check",
+          "ipa": "tʃɛk",
+          "meaning": "检查"
+        },
+        {
+          "text": "in",
+          "ipa": "ɪn",
+          "meaning": "在……里面"
+        }
+      ],
+      "combined": "到酒店或机场报到登记，办理入住或值机。"
+    },
+    {
+      "id": "check.check-out",
+      "word": "check out",
+      "partOfSpeech": "短语动词",
+      "meaning": "办理退房",
+      "formation": "check 和 out 搭配，表示离开时办手续",
+      "rootRelation": "旅途里常听到 check。留心它后面接的词，就知道是登记还是离开。",
+      "explanation": "例句中的 check out 取“办理退房”这个意思。",
+      "example": "We'll check out at ten.",
+      "translation": "我们十点退房。",
+      "acceptedAnswers": [
+        "办理退房"
+      ],
+      "pronunciation": "tʃɛk ˈaʊt",
+      "memoryCue": "out 是出去。和 check in 对着记，就能记住离开时办手续。",
+      "parts": [
+        {
+          "text": "check",
+          "ipa": "tʃɛk",
+          "meaning": "检查"
+        },
+        {
+          "text": "out",
+          "ipa": "aʊt",
+          "meaning": "用完"
+        }
+      ],
+      "combined": "离开酒店前办好手续、结清费用，就是退房。"
+    }
+  ],
+  "links": [
+    {
+      "from": "check.check",
+      "to": "check.check-in",
+      "kind": "同一词族",
+      "note": "check 和 in 搭配，表示到达后登记"
+    },
+    {
+      "from": "check.check",
+      "to": "check.check-out",
+      "kind": "同一词族",
+      "note": "check 和 out 搭配，表示离开时办手续"
+    }
+  ],
+  "rootIPA": "tʃɛk",
+  "rootSpoken": "check",
+  "rootContext": "",
+  "rootIntro": "这里的意思是核对、检查。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

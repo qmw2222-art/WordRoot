@@ -1,0 +1,102 @@
+{
+  "id": "family.write",
+  "root": "write",
+  "meaning": "写",
+  "explanation": "写下来、写字的人、再写一次，都能从 write 认出来。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "write.write",
+      "word": "write",
+      "partOfSpeech": "动词",
+      "meaning": "写",
+      "formation": "write 表示写字或写文章",
+      "rootRelation": "写下来、写字的人、再写一次，都能从 write 认出来。",
+      "explanation": "例句中的 write 取“写”这个意思。",
+      "example": "Write your name here.",
+      "translation": "在这里写下你的名字。",
+      "acceptedAnswers": [
+        "写"
+      ],
+      "pronunciation": "raɪt",
+      "memoryCue": "拿笔在纸上记下你的名字，这个动作就是写。"
+    },
+    {
+      "id": "write.writer",
+      "word": "writer",
+      "partOfSpeech": "名词",
+      "meaning": "作者",
+      "formation": "write（写）去掉末尾 e，加 er（人）= 作者",
+      "rootRelation": "写下来、写字的人、再写一次，都能从 write 认出来。",
+      "explanation": "例句中的 writer 取“作者”这个意思。",
+      "example": "My aunt is a writer.",
+      "translation": "我姨妈是作家。",
+      "acceptedAnswers": [
+        "作者"
+      ],
+      "pronunciation": "ˈraɪtɚ",
+      "memoryCue": "write 是写，词尾变成 -er 指人。写书或文章的人就是作者。",
+      "parts": [
+        {
+          "text": "write",
+          "ipa": "raɪt",
+          "meaning": "写"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "写出一本书或一篇文章的那个人，就是作者。"
+    },
+    {
+      "id": "write.rewrite",
+      "word": "rewrite",
+      "partOfSpeech": "动词",
+      "meaning": "重写",
+      "formation": "re（再）+ write（写）= 重写",
+      "rootRelation": "写下来、写字的人、再写一次，都能从 write 认出来。",
+      "explanation": "例句中的 rewrite 取“重写”这个意思。",
+      "example": "I'll rewrite the last line.",
+      "translation": "我会重写最后一行。",
+      "acceptedAnswers": [
+        "重写"
+      ],
+      "pronunciation": "ˌriˈraɪt",
+      "memoryCue": "re- 是再，write 是写。合起来就是重新写。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "再一次"
+        },
+        {
+          "text": "write",
+          "ipa": "raɪt",
+          "meaning": "写"
+        }
+      ],
+      "combined": "原来那段话没写清楚，再写一次，就叫重写。"
+    }
+  ],
+  "links": [
+    {
+      "from": "write.write",
+      "to": "write.writer",
+      "kind": "同一词族",
+      "note": "write（写）去掉末尾 e，加 er（人）= 作者"
+    },
+    {
+      "from": "write.write",
+      "to": "write.rewrite",
+      "kind": "同一词族",
+      "note": "re（再）+ write（写）= 重写"
+    }
+  ],
+  "rootIPA": "raɪt",
+  "rootSpoken": "write",
+  "rootContext": "",
+  "rootIntro": "这里的意思是写。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

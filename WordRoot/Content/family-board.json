@@ -1,0 +1,103 @@
+{
+  "id": "family.board",
+  "root": "board",
+  "meaning": "登上交通工具",
+  "explanation": "站在登机口想 board，登机牌和登机时间就都好理解了。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "board.board",
+      "word": "board",
+      "partOfSpeech": "动词",
+      "meaning": "登机或上车",
+      "formation": "board 表示登上飞机、船或车辆",
+      "rootRelation": "站在登机口想 board，登机牌和登机时间就都好理解了。",
+      "explanation": "例句中的 board 取“登机或上车”这个意思。",
+      "example": "We can board now.",
+      "translation": "我们现在可以登机了。",
+      "acceptedAnswers": [
+        "登机或上车"
+      ],
+      "pronunciation": "bɔrd",
+      "memoryCue": "记住 on board 是在飞机或船上。用作动作，就是登上去。",
+      "plainCue": "登上飞机或车，就用这个动词。"
+    },
+    {
+      "id": "board.boarding-pass",
+      "word": "boarding pass",
+      "partOfSpeech": "名词",
+      "meaning": "登机牌",
+      "formation": "boarding（登机）+ pass（通行凭证）= 登机牌",
+      "rootRelation": "站在登机口想 board，登机牌和登机时间就都好理解了。",
+      "explanation": "例句中的 boarding pass 取“登机牌”这个意思。",
+      "example": "Here's my boarding pass.",
+      "translation": "这是我的登机牌。",
+      "acceptedAnswers": [
+        "登机牌"
+      ],
+      "pronunciation": "ˈbɔrdɪŋ ˌpæs",
+      "memoryCue": "boarding 是登机，pass 是通行凭证。合起来就是登机牌。",
+      "parts": [
+        {
+          "text": "boarding",
+          "ipa": "bɔrdɪŋ",
+          "meaning": "登机"
+        },
+        {
+          "text": "pass",
+          "ipa": "pæs",
+          "meaning": "通行凭证"
+        }
+      ],
+      "combined": "登机时出示、核对的那张凭证，就是登机牌。"
+    },
+    {
+      "id": "board.boarding-time",
+      "word": "boarding time",
+      "partOfSpeech": "名词短语",
+      "meaning": "登机时间",
+      "formation": "boarding（登机）+ time（时间）= 登机时间",
+      "rootRelation": "站在登机口想 board，登机牌和登机时间就都好理解了。",
+      "explanation": "例句中的 boarding time 取“登机时间”这个意思。",
+      "example": "What's our boarding time?",
+      "translation": "我们几点登机？",
+      "acceptedAnswers": [
+        "登机时间"
+      ],
+      "pronunciation": "ˈbɔrdɪŋ taɪm",
+      "memoryCue": "boarding 是登机，time 是时间。合起来就是登机时间。",
+      "parts": [
+        {
+          "text": "boarding",
+          "ipa": "bɔrdɪŋ",
+          "meaning": "登机"
+        },
+        {
+          "text": "time",
+          "ipa": "taɪm",
+          "meaning": "时间"
+        }
+      ],
+      "combined": "广播里说可以登机的时间，就是登机时间。"
+    }
+  ],
+  "links": [
+    {
+      "from": "board.board",
+      "to": "board.boarding-pass",
+      "kind": "同一词族",
+      "note": "boarding（登机）+ pass（通行凭证）= 登机牌"
+    },
+    {
+      "from": "board.board",
+      "to": "board.boarding-time",
+      "kind": "同一词族",
+      "note": "boarding（登机）+ time（时间）= 登机时间"
+    }
+  ],
+  "rootIPA": "bɔrd",
+  "rootSpoken": "board",
+  "rootContext": "",
+  "rootIntro": "这里的意思是登上交通工具。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "family.wash",
+  "root": "wash",
+  "meaning": "洗",
+  "explanation": "先记手上“洗”的动作，再看看水里洗的是衣服还是盘子。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "wash.wash",
+      "word": "wash",
+      "partOfSpeech": "动词",
+      "meaning": "洗",
+      "formation": "wash 就是用水洗",
+      "rootRelation": "先记手上“洗”的动作，再看看水里洗的是衣服还是盘子。",
+      "explanation": "例句中的 wash 取“洗”这个意思。",
+      "example": "Wash your hands.",
+      "translation": "洗洗手。",
+      "acceptedAnswers": [
+        "洗"
+      ],
+      "pronunciation": "wɑʃ",
+      "memoryCue": "用水把手上的泥冲洗干净，这个动作就是洗。"
+    },
+    {
+      "id": "wash.washer",
+      "word": "washer",
+      "partOfSpeech": "名词",
+      "meaning": "洗衣机",
+      "formation": "wash（洗）+ er（机器）= 洗衣机",
+      "rootRelation": "先记手上“洗”的动作，再看看水里洗的是衣服还是盘子。",
+      "explanation": "例句中的 washer 取“洗衣机”这个意思。",
+      "example": "The towels are in the washer.",
+      "translation": "毛巾在洗衣机里。",
+      "acceptedAnswers": [
+        "洗衣机"
+      ],
+      "pronunciation": "ˈwɑʃɚ",
+      "memoryCue": "wash 是洗，这里的 -er 指机器。洗衣服的机器就是洗衣机。",
+      "parts": [
+        {
+          "text": "wash",
+          "ipa": "wɑʃ",
+          "meaning": "洗"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的机器"
+        }
+      ],
+      "combined": "把脏衣服放进去洗的机器，就是洗衣机。"
+    },
+    {
+      "id": "wash.dishwasher",
+      "word": "dishwasher",
+      "partOfSpeech": "名词",
+      "meaning": "洗碗机",
+      "formation": "dish（盘子）+ washer（洗的机器）= 洗碗机",
+      "rootRelation": "先记手上“洗”的动作，再看看水里洗的是衣服还是盘子。",
+      "explanation": "例句中的 dishwasher 取“洗碗机”这个意思。",
+      "example": "Put the cups in the dishwasher.",
+      "translation": "把杯子放进洗碗机。",
+      "acceptedAnswers": [
+        "洗碗机"
+      ],
+      "pronunciation": "ˈdɪʃˌwɑʃɚ",
+      "memoryCue": "dish 是盘子，washer 是洗东西的机器。合起来就是洗碗机。",
+      "parts": [
+        {
+          "text": "dish",
+          "ipa": "dɪʃ",
+          "meaning": "盘碟"
+        },
+        {
+          "text": "washer",
+          "ipa": "wɑʃɚ",
+          "meaning": "清洗的机器"
+        }
+      ],
+      "combined": "把碗放进去，机器替你洗干净，它就是洗碗机。"
+    }
+  ],
+  "links": [
+    {
+      "from": "wash.wash",
+      "to": "wash.washer",
+      "kind": "同一词族",
+      "note": "wash（洗）+ er（机器）= 洗衣机"
+    },
+    {
+      "from": "wash.wash",
+      "to": "wash.dishwasher",
+      "kind": "同一词族",
+      "note": "dish（盘子）+ washer（洗的机器）= 洗碗机"
+    }
+  ],
+  "rootIPA": "wɑʃ",
+  "rootSpoken": "wash",
+  "rootContext": "",
+  "rootIntro": "这里的意思是洗。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

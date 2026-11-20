@@ -1,0 +1,102 @@
+{
+  "id": "family.light",
+  "root": "light",
+  "meaning": "光",
+  "explanation": "想想光从哪里来。前面放 day、sun 或 flash，就能认出不同的光或光源。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "light.light",
+      "word": "light",
+      "partOfSpeech": "名词",
+      "meaning": "光",
+      "formation": "light 在这里指照亮东西的光",
+      "rootRelation": "想想光从哪里来。前面放 day、sun 或 flash，就能认出不同的光或光源。",
+      "explanation": "例句中的 light 取“光”这个意思。",
+      "example": "I need more light.",
+      "translation": "我需要亮一些。",
+      "acceptedAnswers": [
+        "光"
+      ],
+      "pronunciation": "laɪt",
+      "memoryCue": "打开灯，原本看不清的东西都亮了，让你看见它们的就是光。"
+    },
+    {
+      "id": "light.daylight",
+      "word": "daylight",
+      "partOfSpeech": "名词",
+      "meaning": "日光",
+      "formation": "day（白天）+ light（光）= 日光",
+      "rootRelation": "想想光从哪里来。前面放 day、sun 或 flash，就能认出不同的光或光源。",
+      "explanation": "例句中的 daylight 取“日光”这个意思。",
+      "example": "The room gets plenty of daylight.",
+      "translation": "这个房间日光充足。",
+      "acceptedAnswers": [
+        "日光"
+      ],
+      "pronunciation": "ˈdeɪˌlaɪt",
+      "memoryCue": "day 是白天，light 是光。白天的自然光就是日光。",
+      "parts": [
+        {
+          "text": "day",
+          "ipa": "deɪ",
+          "meaning": "白天"
+        },
+        {
+          "text": "light",
+          "ipa": "laɪt",
+          "meaning": "光"
+        }
+      ],
+      "combined": "大白天从窗户照进来的光，就是日光。"
+    },
+    {
+      "id": "light.flashlight",
+      "word": "flashlight",
+      "partOfSpeech": "名词",
+      "meaning": "手电筒",
+      "formation": "flash（闪光）+ light（灯光）= 手电筒",
+      "rootRelation": "想想光从哪里来。前面放 day、sun 或 flash，就能认出不同的光或光源。",
+      "explanation": "例句中的 flashlight 取“手电筒”这个意思。",
+      "example": "Take a flashlight.",
+      "translation": "带上手电筒。",
+      "acceptedAnswers": [
+        "手电筒"
+      ],
+      "pronunciation": "ˈflæʃˌlaɪt",
+      "memoryCue": "flash 是闪光，light 是灯。合起来指拿在手里照的手电筒。",
+      "parts": [
+        {
+          "text": "flash",
+          "ipa": "flæʃ",
+          "meaning": "闪光"
+        },
+        {
+          "text": "light",
+          "ipa": "laɪt",
+          "meaning": "灯光"
+        }
+      ],
+      "combined": "天黑时握在手里、打开照路的小灯，就是手电筒。"
+    }
+  ],
+  "links": [
+    {
+      "from": "light.light",
+      "to": "light.daylight",
+      "kind": "同一词族",
+      "note": "day（白天）+ light（光）= 日光"
+    },
+    {
+      "from": "light.light",
+      "to": "light.flashlight",
+      "kind": "同一词族",
+      "note": "flash（闪光）+ light（灯光）= 手电筒"
+    }
+  ],
+  "rootIPA": "laɪt",
+  "rootSpoken": "light",
+  "rootContext": "",
+  "rootIntro": "这里的意思是光。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

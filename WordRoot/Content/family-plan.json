@@ -1,0 +1,102 @@
+{
+  "id": "family.plan",
+  "root": "plan",
+  "meaning": "计划",
+  "explanation": "从一个 plan 可以说计划这件事、负责规划的人，以及需要重新安排时怎么办。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "plan.plan",
+      "word": "plan",
+      "partOfSpeech": "名词",
+      "meaning": "计划",
+      "formation": "plan 是准备照着做的安排",
+      "rootRelation": "从一个 plan 可以说计划这件事、负责规划的人，以及需要重新安排时怎么办。",
+      "explanation": "例句中的 plan 取“计划”这个意思。",
+      "example": "We have a plan.",
+      "translation": "我们有个计划。",
+      "acceptedAnswers": [
+        "计划"
+      ],
+      "pronunciation": "plæn",
+      "memoryCue": "还没出门，先把去哪儿、几点走想清楚，这就是做计划。"
+    },
+    {
+      "id": "plan.planner",
+      "word": "planner",
+      "partOfSpeech": "名词",
+      "meaning": "规划者",
+      "formation": "plan（规划）+ er（人），双写 n = 规划者",
+      "rootRelation": "从一个 plan 可以说计划这件事、负责规划的人，以及需要重新安排时怎么办。",
+      "explanation": "例句中的 planner 取“规划者”这个意思。",
+      "example": "Ask the event planner.",
+      "translation": "问问活动策划人。",
+      "acceptedAnswers": [
+        "规划者"
+      ],
+      "pronunciation": "ˈplænɚ",
+      "memoryCue": "plan 是计划，-er 是人。帮大家制订计划的人就是规划者。",
+      "parts": [
+        {
+          "text": "plan",
+          "ipa": "plæn",
+          "meaning": "规划"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "人"
+        }
+      ],
+      "combined": "把出发时间、住处、路线都安排好的人，就是规划者。"
+    },
+    {
+      "id": "plan.planning",
+      "word": "planning",
+      "partOfSpeech": "名词",
+      "meaning": "规划",
+      "formation": "plan（计划）+ ing，双写 n = 规划这件事",
+      "rootRelation": "从一个 plan 可以说计划这件事、负责规划的人，以及需要重新安排时怎么办。",
+      "explanation": "例句中的 planning 取“规划”这个意思。",
+      "example": "The trip took some planning.",
+      "translation": "这趟旅行花了些心思规划。",
+      "acceptedAnswers": [
+        "规划"
+      ],
+      "pronunciation": "ˈplænɪŋ",
+      "memoryCue": "plan 是计划。正在安排要做什么，这个过程就是 planning。",
+      "parts": [
+        {
+          "text": "plan",
+          "ipa": "plæn",
+          "meaning": "计划"
+        },
+        {
+          "text": "-ing",
+          "ipa": "ɪŋ",
+          "meaning": "正在做或做这件事"
+        }
+      ],
+      "combined": "讨论明天几点出发、该走哪条路的这个过程，就是做规划。"
+    }
+  ],
+  "links": [
+    {
+      "from": "plan.plan",
+      "to": "plan.planner",
+      "kind": "同一词族",
+      "note": "plan（规划）+ er（人），双写 n = 规划者"
+    },
+    {
+      "from": "plan.plan",
+      "to": "plan.planning",
+      "kind": "同一词族",
+      "note": "plan（计划）+ ing，双写 n = 规划这件事"
+    }
+  ],
+  "rootIPA": "plæn",
+  "rootSpoken": "plan",
+  "rootContext": "",
+  "rootIntro": "这里的意思是计划。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

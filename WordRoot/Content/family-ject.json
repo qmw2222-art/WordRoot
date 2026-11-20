@@ -1,0 +1,519 @@
+{
+  "id": "family.ject",
+  "root": "ject",
+  "meaning": "投、掷、放出",
+  "explanation": "ject- 关联拉丁语 iacere「投、掷」。联想液体被送入物体、画面投到墙上，或一件东西被弹出去。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "ject.project",
+      "word": "project",
+      "partOfSpeech": "动词",
+      "meaning": "投射；投映",
+      "explanation": "把光线、影像等投到屏幕或表面，常用 project onto。",
+      "example": "We projected the film onto a white wall.",
+      "translation": "我们把电影投在一面白墙上。",
+      "rootRelation": "pro-（向前）与 ject-（投掷）的历史组合。",
+      "acceptedAnswers": [
+        "投射",
+        "投影",
+        "投映"
+      ],
+      "pronunciation": "prəˈdʒɛkt",
+      "formation": "pro（向前）+ ject（投）= 投射",
+      "memoryCue": "pro- 是向前，ject 是投。把影像投到墙上，就是投射。",
+      "parts": [
+        {
+          "text": "pro-",
+          "ipa": "prə",
+          "meaning": "向前"
+        },
+        {
+          "text": "ject",
+          "ipa": "dʒɛkt",
+          "meaning": "投"
+        }
+      ],
+      "combined": "把手机上的画面投到墙上，这就叫投映。"
+    },
+    {
+      "id": "ject.inject",
+      "word": "inject",
+      "partOfSpeech": "动词",
+      "meaning": "注射；注入",
+      "explanation": "用针、管道等把液体或气体送入身体、容器或物体里。",
+      "example": "The nurse injected the medicine slowly.",
+      "translation": "护士慢慢注射了药物。",
+      "rootRelation": "in-（进入）与 ject-（投掷）联系起来，可记作送进去。",
+      "acceptedAnswers": [
+        "注射",
+        "注入"
+      ],
+      "formation": "in（向内）+ ject（投入）= 注射",
+      "pronunciation": "ˌɪnˈdʒɛkt",
+      "memoryCue": "in- 是向内，ject 是投。把药液送入身体就是注射。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "向里"
+        },
+        {
+          "text": "ject",
+          "ipa": "dʒɛkt",
+          "meaning": "送进去"
+        }
+      ],
+      "combined": "把药液用针送进身体，这个动作就是注射。"
+    },
+    {
+      "id": "ject.reject",
+      "word": "reject",
+      "partOfSpeech": "动词",
+      "meaning": "拒绝接受；驳回",
+      "explanation": "用于提议、申请、解释等遭到拒绝，强调对方不予接受。",
+      "example": "The landlord rejected our offer.",
+      "translation": "房东拒绝了我们的出价。",
+      "rootRelation": "re-（回）与 ject-（投掷）构成的历史线索。",
+      "acceptedAnswers": [
+        "拒绝",
+        "驳回",
+        "拒绝接受"
+      ],
+      "pronunciation": "rɪˈdʒɛkt",
+      "formation": "re（回去）+ ject（扔）→ 把东西扔回去，拒绝",
+      "memoryCue": "re- 在这里是回去。把递过来的建议退回去，就是拒绝。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "rɪ",
+          "meaning": "往回"
+        },
+        {
+          "text": "ject",
+          "ipa": "dʒɛkt",
+          "meaning": "投出去"
+        }
+      ],
+      "combined": "别人递交申请，你决定不接受，这就叫拒绝。"
+    },
+    {
+      "id": "ject.object",
+      "word": "object",
+      "partOfSpeech": "动词",
+      "meaning": "反对；提出异议",
+      "explanation": "表达反对理由，常用 object to 加名词或动名词。此义重音在第二音节。",
+      "example": "Several residents objected to the new parking rules.",
+      "translation": "几位居民对新的停车规定提出了异议。",
+      "rootRelation": "ob- 与 ject- 在历史上有「朝向、摆在面前」的联系。",
+      "acceptedAnswers": [
+        "反对",
+        "提出异议",
+        "异议"
+      ],
+      "pronunciation": "əbˈdʒɛkt",
+      "formation": "ob（对着）+ ject（投）→ 提出异议，反对",
+      "memoryCue": "ob- 有对着的意思。对着一个提议说不同意，就是反对。",
+      "parts": [
+        {
+          "text": "ob-",
+          "ipa": "əb",
+          "meaning": "对着"
+        },
+        {
+          "text": "ject",
+          "ipa": "dʒɛkt",
+          "meaning": "投"
+        }
+      ],
+      "combined": "大家提出一个办法，你明确说自己不同意，就是提出反对。"
+    },
+    {
+      "id": "ject.projection",
+      "word": "projection",
+      "partOfSpeech": "名词",
+      "meaning": "投映；投影画面",
+      "explanation": "可指把图像投到表面的动作，也可指投上去的图像。",
+      "example": "A projection of the moon covered the wall.",
+      "translation": "月球的投影铺满了整面墙。",
+      "rootRelation": "project 作投映解时的名词。",
+      "acceptedAnswers": [
+        "投影",
+        "投映",
+        "投影画面"
+      ],
+      "formation": "project（投射）+ ion（过程或结果）= 投映",
+      "pronunciation": "prəˈdʒɛkʃən",
+      "memoryCue": "把光投出去形成的影像或投映过程，叫 projection。",
+      "parts": [
+        {
+          "text": "project",
+          "ipa": "prədʒɛk",
+          "meaning": "投射"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "过程或结果"
+        }
+      ],
+      "combined": "墙上出现的那幅画面，就是投影。"
+    },
+    {
+      "id": "ject.projector",
+      "word": "projector",
+      "partOfSpeech": "名词",
+      "meaning": "投影仪",
+      "explanation": "把图像投到幕布或墙面的设备。",
+      "example": "The projector stopped working just before the talk.",
+      "translation": "演讲前投影仪突然坏了。",
+      "rootRelation": "project 加 -or 可指执行投映的设备。",
+      "acceptedAnswers": [
+        "投影仪",
+        "投影机"
+      ],
+      "formation": "project（投射）+ or（工具）= 投影仪",
+      "pronunciation": "prəˈdʒɛktɚ",
+      "memoryCue": "project 是投射。把画面投出来的设备就是投影仪。",
+      "parts": [
+        {
+          "text": "project",
+          "ipa": "prədʒɛkt",
+          "meaning": "投射"
+        },
+        {
+          "text": "-or",
+          "ipa": "ɚ",
+          "meaning": "工具"
+        }
+      ],
+      "combined": "能把电脑画面投到墙上的那台机器，就是投影仪。"
+    },
+    {
+      "id": "ject.injection",
+      "word": "injection",
+      "partOfSpeech": "名词",
+      "meaning": "注射；一针",
+      "explanation": "指把液体注入的过程，或指一次注射。",
+      "example": "The injection took only a few seconds.",
+      "translation": "打这一针只用了几秒钟。",
+      "rootRelation": "inject 的名词形式。",
+      "acceptedAnswers": [
+        "注射",
+        "打针",
+        "一针"
+      ],
+      "formation": "inject（注射）+ ion（过程）= 注射",
+      "pronunciation": "ˌɪnˈdʒɛkʃən",
+      "memoryCue": "inject 是注射。打一针的这次注射叫 an injection。",
+      "parts": [
+        {
+          "text": "inject",
+          "ipa": "ɪndʒɛk",
+          "meaning": "注射"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "过程"
+        }
+      ],
+      "combined": "护士刚给你打的那一针，就是一次注射。"
+    },
+    {
+      "id": "ject.rejection",
+      "word": "rejection",
+      "partOfSpeech": "名词",
+      "meaning": "拒绝；驳回",
+      "explanation": "指申请、想法或提议被拒绝这一结果。",
+      "example": "After the rejection, she revised her application.",
+      "translation": "被拒之后，她修改了申请。",
+      "rootRelation": "reject 加 -ion。",
+      "acceptedAnswers": [
+        "拒绝",
+        "驳回",
+        "被拒"
+      ],
+      "formation": "reject（拒绝）+ ion（行为）= 拒绝",
+      "pronunciation": "rɪˈdʒɛkʃən",
+      "memoryCue": "reject 是拒绝。收到的那次拒绝叫 a rejection。",
+      "parts": [
+        {
+          "text": "reject",
+          "ipa": "rɪdʒɛk",
+          "meaning": "拒绝"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "行为"
+        }
+      ],
+      "combined": "申请没被接收，你得到的这个答复就是一次拒绝。"
+    },
+    {
+      "id": "ject.eject",
+      "word": "eject",
+      "partOfSpeech": "动词",
+      "meaning": "弹出；逐出",
+      "explanation": "让物体从内部跳出，也可指把某人赶出场所。",
+      "example": "Press the button to eject the disc.",
+      "translation": "按一下按钮，把光盘弹出来。",
+      "rootRelation": "e-（向外）与 ject-（投掷）有历史联系。",
+      "acceptedAnswers": [
+        "弹出",
+        "逐出"
+      ],
+      "formation": "e（向外）+ ject（投）= 弹出",
+      "pronunciation": "ɪˈdʒɛkt",
+      "memoryCue": "e- 是向外，ject 是投。把东西向外弹出，就是 eject。",
+      "parts": [
+        {
+          "text": "e-",
+          "ipa": "ɪ",
+          "meaning": "向外"
+        },
+        {
+          "text": "ject",
+          "ipa": "dʒɛkt",
+          "meaning": "投"
+        }
+      ],
+      "combined": "按一下键，卡片从机器里弹出来，这个动作就是弹出。"
+    },
+    {
+      "id": "ject.ejection",
+      "word": "ejection",
+      "partOfSpeech": "名词",
+      "meaning": "弹出；逐出",
+      "explanation": "指某物被弹出或某人因违规被逐出。",
+      "example": "The player argued with the referee after his ejection.",
+      "translation": "这名球员被罚下场后和裁判争辩起来。",
+      "rootRelation": "eject 加 -ion。",
+      "acceptedAnswers": [
+        "弹出",
+        "逐出",
+        "罚下场"
+      ],
+      "formation": "eject（弹出）+ ion（过程）= 弹出",
+      "pronunciation": "ɪˈdʒɛkʃən",
+      "memoryCue": "eject 是弹出。说弹出去这件事，用 ejection。",
+      "parts": [
+        {
+          "text": "eject",
+          "ipa": "ɪdʒɛk",
+          "meaning": "弹出"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "过程"
+        }
+      ],
+      "combined": "卡片刚才弹出来的那一下，就是一次弹出。"
+    },
+    {
+      "id": "ject.objection",
+      "word": "objection",
+      "partOfSpeech": "名词",
+      "meaning": "反对意见；异议",
+      "explanation": "指明确说出的反对意见，常用 objection to。",
+      "example": "Her main objection was the extra cost.",
+      "translation": "她主要反对的是额外的费用。",
+      "rootRelation": "object 作反对解时的名词。",
+      "acceptedAnswers": [
+        "异议",
+        "反对意见",
+        "反对"
+      ],
+      "formation": "object（提出反对）+ ion（结果）= 反对意见",
+      "pronunciation": "əbˈdʒɛkʃən",
+      "memoryCue": "object 是表示反对。说出来的那条反对理由叫 an objection。",
+      "parts": [
+        {
+          "text": "object",
+          "ipa": "əbdʒɛk",
+          "meaning": "提出反对"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "结果"
+        }
+      ],
+      "combined": "大家提出一个办法，你觉得太贵、举手表示不同意，这就是提出异议。"
+    },
+    {
+      "id": "ject.interject",
+      "word": "interject",
+      "partOfSpeech": "动词",
+      "meaning": "插话；插入一句",
+      "explanation": "在别人正说话时插入一句话，通常很短。",
+      "example": "He interjected a quick question before I could finish.",
+      "translation": "我还没说完，他就插进来问了个简短的问题。",
+      "rootRelation": "inter-（在中间）加 ject- 相关词形。",
+      "acceptedAnswers": [
+        "插话",
+        "插嘴",
+        "插一句"
+      ],
+      "formation": "inter（在中间）+ ject（投）→ 插话",
+      "pronunciation": "ˌɪntɚˈdʒɛkt",
+      "memoryCue": "inter- 是中间。在别人说话中间插入一句，就是插话。",
+      "parts": [
+        {
+          "text": "inter-",
+          "ipa": "ɪntɚ",
+          "meaning": "在中间"
+        },
+        {
+          "text": "ject",
+          "ipa": "dʒɛkt",
+          "meaning": "投"
+        }
+      ],
+      "combined": "别人正谈着，你插进去说了一句话，这叫插话。"
+    },
+    {
+      "id": "ject.subject",
+      "word": "subject",
+      "partOfSpeech": "动词",
+      "meaning": "使经受；使遭受",
+      "explanation": "subject A to B 表示让 A 经受测试、压力或某种对待。此义重音在第二音节。",
+      "example": "Engineers subjected the cable to extreme heat.",
+      "translation": "工程师让这根电缆经受高温测试。",
+      "rootRelation": "词源中有「置于下方」的成分。",
+      "acceptedAnswers": [
+        "使经受",
+        "使遭受",
+        "使承受"
+      ],
+      "pronunciation": "səbˈdʒɛkt",
+      "formation": "sub（在下）+ ject（置入）→ 使某人经受某事",
+      "memoryCue": "一段话围着什么讲，那个对象就是主题。",
+      "parts": [
+        {
+          "text": "sub-",
+          "ipa": "səb",
+          "meaning": "在下"
+        },
+        {
+          "text": "ject",
+          "ipa": "dʒɛkt",
+          "meaning": "置入"
+        }
+      ],
+      "combined": "让机器在高温下连续运行，就是让它经受高温考验。"
+    },
+    {
+      "id": "ject.turn_down",
+      "word": "turn down",
+      "partOfSpeech": "动词",
+      "meaning": "拒绝；婉拒",
+      "explanation": "拒绝邀请、提议或工作机会。代词放在中间，例如 turn it down。",
+      "example": "She had to turn down the invitation.",
+      "translation": "她不得不谢绝邀请。",
+      "rootRelation": null,
+      "acceptedAnswers": [
+        "拒绝",
+        "婉拒",
+        "谢绝"
+      ],
+      "formation": "turn down an offer = 拒绝一个提议",
+      "pronunciation": "tɝn ˈdaʊn",
+      "memoryCue": "把别人提出的事婉言回绝，可以说 turn down。",
+      "parts": [
+        {
+          "text": "turn",
+          "ipa": "tɝn",
+          "meaning": "转弯"
+        },
+        {
+          "text": "down",
+          "ipa": "daʊn",
+          "meaning": "向下"
+        }
+      ],
+      "combined": "别人邀请你，你有礼貌地说这次去不了，就是婉拒。"
+    }
+  ],
+  "links": [
+    {
+      "from": "ject.project",
+      "to": "ject.projection",
+      "kind": "派生关系",
+      "note": "project 是投映的动作，projection 是投映过程或投出的画面。"
+    },
+    {
+      "from": "ject.projection",
+      "to": "ject.projector",
+      "kind": "语境关联",
+      "note": "投影仪把图像投到墙或屏幕上，由此产生 projection。"
+    },
+    {
+      "from": "ject.inject",
+      "to": "ject.injection",
+      "kind": "派生关系",
+      "note": "inject 是注射，injection 是注射这件事或打的一针。"
+    },
+    {
+      "from": "ject.inject",
+      "to": "ject.eject",
+      "kind": "用法对照",
+      "note": "inject 强调送入内部，eject 强调从内部弹出去。"
+    },
+    {
+      "from": "ject.eject",
+      "to": "ject.ejection",
+      "kind": "派生关系",
+      "note": "eject 作逐出或弹出解，ejection 是相应的行为。"
+    },
+    {
+      "from": "ject.reject",
+      "to": "ject.rejection",
+      "kind": "派生关系",
+      "note": "reject 是拒绝，rejection 指遭到拒绝或拒绝这个结果。"
+    },
+    {
+      "from": "ject.reject",
+      "to": "ject.turn_down",
+      "kind": "语义联系",
+      "note": "两词都能用于拒绝邀请或提议，turn down 常用于日常交流。"
+    },
+    {
+      "from": "ject.reject",
+      "to": "ject.object",
+      "kind": "用法对照",
+      "note": "object 表达反对意见，reject 表示最终拒绝接受。"
+    },
+    {
+      "from": "ject.object",
+      "to": "ject.objection",
+      "kind": "派生关系",
+      "note": "object to 是反对，objection 是提出的异议。"
+    },
+    {
+      "from": "ject.object",
+      "to": "ject.interject",
+      "kind": "语境关联",
+      "note": "讨论中可以插入一句话，也可以专门提出反对意见。"
+    },
+    {
+      "from": "ject.inject",
+      "to": "ject.subject",
+      "kind": "同词根",
+      "note": "两词都保留 ject 的历史成分。inject 是把东西送入，subject A to B 是让 A 经受 B。"
+    },
+    {
+      "from": "ject.project",
+      "to": "ject.reject",
+      "kind": "同词根",
+      "note": "词源里都可看到 ject 的成分，英文一个用于投影，另一个用于拒绝。"
+    }
+  ],
+  "rootIPA": "dʒɛkt",
+  "rootSpoken": "ject",
+  "rootContext": "在 inject 里",
+  "rootIntro": "把东西投出去，方向一换，整词的意思也会变。",
+  "rootKind": "词根"
+}

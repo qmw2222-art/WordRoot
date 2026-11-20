@@ -1,0 +1,106 @@
+{
+  "id": "family.book",
+  "root": "book",
+  "meaning": "预订",
+  "explanation": "book 在订票时表示预订。订好了有一笔 booking，改时间可以重新订。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "book.book",
+      "word": "book",
+      "partOfSpeech": "动词",
+      "meaning": "预订",
+      "formation": "在酒店和车站，book 表示预订",
+      "rootRelation": "book 在订票时表示预订。订好了有一笔 booking，改时间可以重新订。",
+      "explanation": "例句中的 book 取“预订”这个意思。",
+      "example": "Can I book a room?",
+      "translation": "我能订一个房间吗？",
+      "acceptedAnswers": [
+        "预订"
+      ],
+      "pronunciation": "bʊk",
+      "memoryCue": "和 a room 连起来记，book a room 就是订房。这个用法里的它是动作。",
+      "plainCue": "提前留好房间或座位，就是预订。"
+    },
+    {
+      "id": "book.booking",
+      "word": "booking",
+      "partOfSpeech": "名词",
+      "meaning": "预订",
+      "formation": "book（预订） + -ing（动作或结果名词后缀） → 预订",
+      "rootRelation": "book 在订票时表示预订。订好了有一笔 booking，改时间可以重新订。",
+      "explanation": "例句中的 booking 取“预订”这个意思。",
+      "example": "I have a booking.",
+      "translation": "我预订过了。",
+      "acceptedAnswers": [
+        "预订"
+      ],
+      "pronunciation": "ˈbʊkɪŋ",
+      "memoryCue": "从 book 的「预订」来记。完成后留下的一笔记录，就是一笔预订。",
+      "parts": [
+        {
+          "text": "book",
+          "ipa": "bʊk",
+          "meaning": "预订"
+        },
+        {
+          "text": "-ing",
+          "ipa": "ɪŋ",
+          "meaning": "动作或结果名词后缀",
+          "notes": [
+            "这里指预订这件事或预订记录"
+          ]
+        }
+      ],
+      "combined": "提前订下来的安排，就是预订。"
+    },
+    {
+      "id": "book.rebook",
+      "word": "rebook",
+      "partOfSpeech": "动词",
+      "meaning": "重新预订",
+      "formation": "re（再）+ book（预订）= 重新预订",
+      "rootRelation": "book 在订票时表示预订。订好了有一笔 booking，改时间可以重新订。",
+      "explanation": "例句中的 rebook 取“重新预订”这个意思。",
+      "example": "Can I rebook my flight?",
+      "translation": "我能改订航班吗？",
+      "acceptedAnswers": [
+        "重新预订"
+      ],
+      "pronunciation": "riˈbʊk",
+      "memoryCue": "re- 是再，book 是预订。两部分合起来就是重新预订。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "再一次"
+        },
+        {
+          "text": "book",
+          "ipa": "bʊk",
+          "meaning": "预订"
+        }
+      ],
+      "combined": "原来的安排变了，再订一次。"
+    }
+  ],
+  "links": [
+    {
+      "from": "book.book",
+      "to": "book.booking",
+      "kind": "同一词族",
+      "note": "book（预订）+ ing = 一笔预订"
+    },
+    {
+      "from": "book.book",
+      "to": "book.rebook",
+      "kind": "同一词族",
+      "note": "re（再）+ book（预订）= 重新预订"
+    }
+  ],
+  "rootIPA": "bʊk",
+  "rootSpoken": "book",
+  "rootContext": "",
+  "rootIntro": "这里的意思是预订。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

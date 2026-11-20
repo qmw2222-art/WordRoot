@@ -1,0 +1,480 @@
+{
+  "id": "family.chron",
+  "root": "chron",
+  "meaning": "时间、先后",
+  "explanation": "chron- 关联希腊语 chronos「时间」，既可以涉及排列先后、测量时间，也可以指某事持续了很久。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "chron.chronic.1",
+      "word": "chronic",
+      "partOfSpeech": "形容词",
+      "meaning": "长期的；慢性的",
+      "explanation": "持续很久或反复出现，医学中指慢性病症。",
+      "example": "She manages chronic back pain with regular exercise.",
+      "translation": "她通过规律锻炼来管理长期背痛。",
+      "rootRelation": "chron（时间）加形容词后缀 -ic。",
+      "acceptedAnswers": [
+        "长期的"
+      ],
+      "formation": "chron（时间）→ 持续时间长的",
+      "pronunciation": "ˈkrɑnɪk",
+      "memoryCue": "一直拖很久的病或问题，就是慢性、长期的。"
+    },
+    {
+      "id": "chron.chronology.2",
+      "word": "chronology",
+      "partOfSpeech": "名词",
+      "meaning": "年代顺序；编年表",
+      "explanation": "按事件发生的时间先后排列的次序或记录。",
+      "example": "The report presents a chronology of the negotiations.",
+      "translation": "报告按时间顺序梳理了谈判过程。",
+      "rootRelation": "chron（时间）与 -logy（记录、研究）组成。",
+      "acceptedAnswers": [
+        "年代顺序"
+      ],
+      "formation": "chrono-（时间） + -logy（学科或整理体系） → 年代顺序",
+      "pronunciation": "krəˈnɑlədʒi",
+      "memoryCue": "按时间串起一连串事件，这个先后顺序就是 chronology。",
+      "plainCue": "按事件发生的时间先后排列的次序或记录。",
+      "parts": [
+        {
+          "text": "chrono-",
+          "ipa": "krə",
+          "meaning": "时间",
+          "notes": [
+            "在 chronology 中读弱化的 /krə/"
+          ]
+        },
+        {
+          "text": "-logy",
+          "ipa": "ˈnɑlədʒi",
+          "meaning": "学科或整理体系",
+          "notes": [
+            "年代顺序的整理"
+          ]
+        }
+      ],
+      "combined": "把事件按先后排好，或这样的记录。"
+    },
+    {
+      "id": "chron.synchronize.5",
+      "word": "synchronize",
+      "partOfSpeech": "动词",
+      "meaning": "使同步；同时发生",
+      "explanation": "调整多个动作或设备，使它们在相同时间配合。",
+      "example": "The dancers synchronize their steps with the music.",
+      "translation": "舞者让步伐与音乐同步。",
+      "rootRelation": "syn-（共同）与 chron（时间）相关构词。",
+      "acceptedAnswers": [
+        "使同步"
+      ],
+      "formation": "syn-（共同、同时） + chron-（时间） + -ize（使成为） → 使同步",
+      "pronunciation": "ˈsɪŋkrəˌnaɪz",
+      "memoryCue": "syn- 是一起，chron 是时间。让两边时间一致，就是使同步。",
+      "parts": [
+        {
+          "text": "syn-",
+          "ipa": "ˈsɪŋ",
+          "meaning": "共同、同时",
+          "notes": [
+            "n 在 k 前同化为 /ŋ/"
+          ]
+        },
+        {
+          "text": "chron-",
+          "ipa": "krə",
+          "meaning": "时间"
+        },
+        {
+          "text": "-ize",
+          "ipa": "ˌnaɪz",
+          "meaning": "使成为",
+          "notes": [
+            "使同步"
+          ]
+        }
+      ],
+      "combined": "把几只钟调到同一时间，就是让它们同步。"
+    },
+    {
+      "id": "chron.anachronism.7",
+      "word": "anachronism",
+      "partOfSpeech": "名词",
+      "meaning": "时代错误；不合时代的事物",
+      "explanation": "把事物放在不属于它的历史时期，或与时代不合。",
+      "example": "A digital watch in the historical film was an obvious anachronism.",
+      "translation": "历史电影里出现的电子表是明显的时代错误。",
+      "rootRelation": "ana- 与 chron（时间）相关，指时间位置错置。",
+      "acceptedAnswers": [
+        "时代错误"
+      ],
+      "formation": "chron（时间）→ 与所处年代不符的事物",
+      "pronunciation": "əˈnækrəˌnɪzəm",
+      "memoryCue": "在古代故事里看到手机，这种放错年代的事物就是 anachronism。",
+      "plainCue": "古装戏里出现手机，就是不合时代的错误。"
+    },
+    {
+      "id": "chron.chronological.3",
+      "word": "chronological",
+      "partOfSpeech": "形容词",
+      "meaning": "按时间顺序的",
+      "explanation": "按事情发生的先后排列。",
+      "example": "Put the photographs in chronological order.",
+      "translation": "把照片按时间顺序排列。",
+      "rootRelation": "chronology 加 -ical。",
+      "acceptedAnswers": [
+        "按时间顺序的"
+      ],
+      "formation": "chron-（时间） + -ological（按某学科或关系构成的形容词） → 按时间顺序的",
+      "pronunciation": "ˌkrɑnəˈlɑdʒɪkəl",
+      "memoryCue": "chronology 是年代顺序。照这个顺序排，就是按时间先后的。",
+      "parts": [
+        {
+          "text": "chron-",
+          "ipa": "ˌkrɑn",
+          "meaning": "时间"
+        },
+        {
+          "text": "-ological",
+          "ipa": "əˈlɑdʒɪkəl",
+          "meaning": "按某学科或关系构成的形容词"
+        }
+      ],
+      "combined": "先发生的排前面，就是按时间顺序。"
+    },
+    {
+      "id": "chron.chronicle.4",
+      "word": "chronicle",
+      "partOfSpeech": "名词",
+      "meaning": "编年史；大事记",
+      "explanation": "按时间顺序记录一段时期内的事件。",
+      "example": "The diary is a chronicle of her first year abroad.",
+      "translation": "这本日记记录了她在国外的第一年。",
+      "rootRelation": "chron（时间）相关的记录词。",
+      "acceptedAnswers": [
+        "编年史"
+      ],
+      "formation": "chron（时间）→ 按时间记录的史事",
+      "pronunciation": "ˈkrɑnɪkəl",
+      "memoryCue": "按时间把发生过的事记下来，就是大事记。"
+    },
+    {
+      "id": "chron.synchronous.6",
+      "word": "synchronous",
+      "partOfSpeech": "形容词",
+      "meaning": "同步的；同时发生的",
+      "explanation": "在同一时间发生或按相同节奏进行。",
+      "example": "The course offers synchronous online classes each Friday.",
+      "translation": "课程每周五提供同步线上课。",
+      "rootRelation": "syn- 与 chron（时间）构成。",
+      "acceptedAnswers": [
+        "同步的"
+      ],
+      "formation": "syn-（共同、同时） + chron-（时间） + -ous（具有……性质的） → 同步的",
+      "pronunciation": "ˈsɪŋkrənəs",
+      "memoryCue": "syn- 是一起。两件事在同一时间发生，就是同步的。",
+      "parts": [
+        {
+          "text": "syn-",
+          "ipa": "ˈsɪŋ",
+          "meaning": "共同、同时",
+          "notes": [
+            "n 在 k 前同化为 /ŋ/"
+          ]
+        },
+        {
+          "text": "chron-",
+          "ipa": "krə",
+          "meaning": "时间"
+        },
+        {
+          "text": "-ous",
+          "ipa": "nəs",
+          "meaning": "具有……性质的",
+          "notes": [
+            "同步的"
+          ]
+        }
+      ],
+      "combined": "同一时间发生，或按同一节奏进行。"
+    },
+    {
+      "id": "chron.chronometer.8",
+      "word": "chronometer",
+      "partOfSpeech": "名词",
+      "meaning": "精密计时器",
+      "explanation": "用于准确测量时间的仪器。",
+      "example": "The ship’s chronometer helped the crew calculate their position.",
+      "translation": "船上的精密计时器帮助船员计算位置。",
+      "rootRelation": "chron（时间）与 -meter（测量器）组成。",
+      "acceptedAnswers": [
+        "精密计时器"
+      ],
+      "formation": "chrono-（时间） + -meter（测量器） → 精密计时器",
+      "pronunciation": "krəˈnɑmətɚ",
+      "memoryCue": "chrono 是时间，meter 是测量仪。准确测量时间的就是精密计时器。",
+      "parts": [
+        {
+          "text": "chrono-",
+          "ipa": "krəˈnɑ",
+          "meaning": "时间",
+          "notes": [
+            "在 chronometer 中读 /krəˈnɑ/"
+          ]
+        },
+        {
+          "text": "-meter",
+          "ipa": "mɪtɚ",
+          "meaning": "测量器",
+          "notes": [
+            "计时器"
+          ]
+        }
+      ],
+      "combined": "用来精确测量时间的仪器。"
+    },
+    {
+      "id": "chron.chronicle.extra1",
+      "word": "chronicle",
+      "partOfSpeech": "动词",
+      "meaning": "按时间记载；记录",
+      "explanation": "按事件发生顺序把事情写下来。",
+      "example": "The photographer chronicled the town’s recovery.",
+      "translation": "摄影师记录了小镇的重建过程。",
+      "rootRelation": "chronicle 作动词，表示按时间记录。",
+      "acceptedAnswers": [
+        "按时间记载"
+      ],
+      "formation": "chronicle（编年记录）→ 按时间记载",
+      "pronunciation": "ˈkrɑnɪkəl",
+      "memoryCue": "把发生的事按时间顺序记下来，chronicle 在这里是动词。",
+      "plainCue": "照事情发生的先后，把它们写下来。"
+    },
+    {
+      "id": "chron.chronicler.extra2",
+      "word": "chronicler",
+      "partOfSpeech": "名词",
+      "meaning": "编年史作者；记录者",
+      "explanation": "持续按时间记录事件的人。",
+      "example": "The chronicler kept notes of every council meeting.",
+      "translation": "记录者记下了每次委员会会议。",
+      "rootRelation": "chronicle 加表示人的 -er。",
+      "acceptedAnswers": [
+        "编年史作者"
+      ],
+      "formation": "chronicle（按时间记载）+ r（做的人）= 编年史作者",
+      "pronunciation": "ˈkrɑnɪklɚ",
+      "memoryCue": "chronicle 是按时间记载。写这类记录的人就是编年史作者。",
+      "parts": [
+        {
+          "text": "chronicle",
+          "ipa": "krɑnɪkl",
+          "meaning": "按时间记载"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "长期按时间记录事情的人，就是编年史作者。"
+    },
+    {
+      "id": "chron.chronically.extra3",
+      "word": "chronically",
+      "partOfSpeech": "副词",
+      "meaning": "长期地；慢性地",
+      "explanation": "说明某种状态持续很久或反复发生。",
+      "example": "The road is chronically congested at rush hour.",
+      "translation": "这条路在高峰期长期拥堵。",
+      "rootRelation": "chronic 加副词后缀 -ally。",
+      "acceptedAnswers": [
+        "长期地"
+      ],
+      "formation": "chronic（长期的） + -ally（以……方式） → 长期地",
+      "pronunciation": "ˈkrɑnɪkəli",
+      "memoryCue": "chronic 是长期的。加上 -ally，表示长时间、反复地。",
+      "parts": [
+        {
+          "text": "chronic",
+          "ipa": "ˈkrɑnɪk",
+          "meaning": "长期的"
+        },
+        {
+          "text": "-ally",
+          "ipa": "ɪkəli",
+          "meaning": "以……方式",
+          "notes": [
+            "此处表示长期地"
+          ]
+        }
+      ],
+      "combined": "症状持续很久或反复出现，就是长期地发生。"
+    },
+    {
+      "id": "chron.chronobiology.extra4",
+      "word": "chronobiology",
+      "partOfSpeech": "名词",
+      "meaning": "时间生物学",
+      "explanation": "研究生物节律与时间关系的学科。",
+      "example": "Chronobiology studies how light affects sleep cycles.",
+      "translation": "时间生物学研究光线如何影响睡眠周期。",
+      "rootRelation": "chrono-（时间）与 biology（生物学）组成。",
+      "acceptedAnswers": [
+        "时间生物学"
+      ],
+      "formation": "chrono（时间）+ biology（生物学）= 时间生物学",
+      "pronunciation": "ˌkrɑnoʊbaɪˈɑlədʒi",
+      "memoryCue": "chrono 是时间，biology 是生物学。研究生物作息节律的学科就是时间生物学。",
+      "parts": [
+        {
+          "text": "chrono",
+          "ipa": "krɑnoʊ",
+          "meaning": "时间"
+        },
+        {
+          "text": "biology",
+          "ipa": "baɪɑlədʒi",
+          "meaning": "生物学"
+        }
+      ],
+      "combined": "研究生物节律与时间关系的学科。"
+    },
+    {
+      "id": "chron.chronobiological.extra5",
+      "word": "chronobiological",
+      "partOfSpeech": "形容词",
+      "meaning": "时间生物学的",
+      "explanation": "与生物节律及时间因素有关。",
+      "example": "The study measured chronobiological changes across seasons.",
+      "translation": "研究测量了跨季节的时间生物学变化。",
+      "rootRelation": "由 chronobiology 加 -ical 构成。",
+      "acceptedAnswers": [
+        "时间生物学的"
+      ],
+      "formation": "chrono-（时间） + biological（生物学的） → 时间生物学的",
+      "pronunciation": "ˌkrɑnoʊˌbaɪəˈlɑdʒɪkəl",
+      "memoryCue": "chronobiology 研究生物节律。描述这方面的事，用 chronobiological。",
+      "plainCue": "与生物节律及时间因素有关。",
+      "parts": [
+        {
+          "text": "chrono-",
+          "ipa": "ˌkrɑnoʊ",
+          "meaning": "时间"
+        },
+        {
+          "text": "biological",
+          "ipa": "ˌbaɪəˈlɑdʒɪkəl",
+          "meaning": "生物学的",
+          "notes": [
+            "生命相关的"
+          ]
+        }
+      ],
+      "combined": "跟生物节律和时间因素有关的。"
+    },
+    {
+      "id": "chron.chronograph.extra6",
+      "word": "chronograph",
+      "partOfSpeech": "名词",
+      "meaning": "计时器；计时仪",
+      "explanation": "用于精确记录时间间隔的装置或功能。",
+      "example": "The referee used a chronograph to time each lap.",
+      "translation": "裁判用计时器记录每圈用时。",
+      "rootRelation": "chrono-（时间）与 graph（记录）组成。",
+      "acceptedAnswers": [
+        "计时器"
+      ],
+      "formation": "chrono（时间）+ graph（记录）= 计时器",
+      "pronunciation": "ˈkrɑnəˌɡræf",
+      "memoryCue": "chrono 是时间，graph 是记录。能记录一段用时的计时器叫 chronograph。",
+      "parts": [
+        {
+          "text": "chrono",
+          "ipa": "krɑnə",
+          "meaning": "时间"
+        },
+        {
+          "text": "graph",
+          "ipa": "ɡræf",
+          "meaning": "记录"
+        }
+      ],
+      "combined": "准确记下时间间隔的仪器，可以用来计时。"
+    }
+  ],
+  "links": [
+    {
+      "to": "chron.chronically.extra3",
+      "kind": "派生关系",
+      "note": "chronic 是长期持续的，chronically 描述长期处于某种状态。",
+      "from": "chron.chronic.1"
+    },
+    {
+      "to": "chron.chronological.3",
+      "kind": "派生关系",
+      "note": "chronology 是时间顺序或按时间排列的记录，chronological 是形容词。",
+      "from": "chron.chronology.2"
+    },
+    {
+      "to": "chron.chronicle.4",
+      "kind": "用法对照",
+      "note": "chronology 侧重事件先后，chronicle 往往按先后讲述实际事件。",
+      "from": "chron.chronology.2"
+    },
+    {
+      "to": "chron.chronicle.extra1",
+      "kind": "用法对照",
+      "note": "chronicle 作名词时指大事记，作动词时表示把事情记录下来。",
+      "from": "chron.chronicle.4"
+    },
+    {
+      "to": "chron.chronicler.extra2",
+      "kind": "派生关系",
+      "note": "chronicle 是编年记录，chronicler 是做这类记录的人。",
+      "from": "chron.chronicle.4"
+    },
+    {
+      "to": "chron.anachronism.7",
+      "kind": "用法对照",
+      "note": "了解 chronology 有助于识别 anachronism，例如年代错误的道具。",
+      "from": "chron.chronology.2"
+    },
+    {
+      "to": "chron.synchronous.6",
+      "kind": "语义联系",
+      "note": "synchronize 是把时间对齐，synchronous 形容同步发生。",
+      "from": "chron.synchronize.5"
+    },
+    {
+      "to": "chron.chronometer.8",
+      "kind": "语境关联",
+      "note": "准确计时的 chronometer 能用来比对时间，帮助多个设备对时。",
+      "from": "chron.synchronize.5"
+    },
+    {
+      "to": "chron.chronograph.extra6",
+      "kind": "用法对照",
+      "note": "chronometer 强调精度，chronograph 侧重测量或记录经过的时长。",
+      "from": "chron.chronometer.8"
+    },
+    {
+      "to": "chron.chronobiology.extra4",
+      "kind": "语境关联",
+      "note": "chronobiology 研究生物如何与昼夜等时间周期保持同步。",
+      "from": "chron.synchronous.6"
+    },
+    {
+      "to": "chron.chronobiological.extra5",
+      "kind": "派生关系",
+      "note": "chronobiology 是学科，chronobiological 形容和生物时间规律有关。",
+      "from": "chron.chronobiology.extra4"
+    }
+  ],
+  "rootIPA": "krɑn",
+  "rootSpoken": "chron",
+  "rootContext": "在 chronic 里",
+  "rootIntro": "想到时间，再看事情是持续很久，还是按先后发生。",
+  "rootKind": "词根"
+}

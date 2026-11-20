@@ -1,0 +1,476 @@
+{
+  "id": "family.rupt",
+  "root": "rupt",
+  "meaning": "破裂、打断",
+  "explanation": "rupt- 关联拉丁语中表示「打破、破开」的形式。可以联想说话被打断、活动受干扰，或者火山物质突然冲出来。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "rupt.interrupt",
+      "word": "interrupt",
+      "partOfSpeech": "动词",
+      "meaning": "打断；中断",
+      "explanation": "插入正在进行的谈话或活动，让它暂时停下来。",
+      "example": "I didn't want to interrupt her while she was speaking.",
+      "translation": "她说话时我不想打断她。",
+      "rootRelation": "inter- 与 rupt-（破开）形成从中间打断的线索。",
+      "acceptedAnswers": [
+        "打断",
+        "中断"
+      ],
+      "formation": "inter（中间）+ rupt（破开） = 中途打断",
+      "pronunciation": "ˌɪntɚˈʌpt",
+      "memoryCue": "inter- 是在中间。别人的话还在中间，你插进来，就是打断。",
+      "parts": [
+        {
+          "text": "inter-",
+          "ipa": "ɪntɚ",
+          "meaning": "中间"
+        },
+        {
+          "text": "rupt",
+          "ipa": "ʌpt",
+          "meaning": "破开"
+        }
+      ],
+      "combined": "别人一句话没讲完，你插了进来，这就叫打断。"
+    },
+    {
+      "id": "rupt.disrupt",
+      "word": "disrupt",
+      "partOfSpeech": "动词",
+      "meaning": "扰乱；使无法正常进行",
+      "explanation": "比 interrupt 更侧重让整个安排、系统或过程陷入混乱。",
+      "example": "Heavy snow disrupted train services all morning.",
+      "translation": "大雪造成整个上午的列车服务中断。",
+      "rootRelation": "dis- 有分开、破坏原来秩序的线索。",
+      "acceptedAnswers": [
+        "扰乱",
+        "打乱",
+        "使中断"
+      ],
+      "formation": "dis（分开）+ rupt（破坏） = 打散 → 扰乱",
+      "pronunciation": "dɪsˈrʌpt",
+      "memoryCue": "把原来顺顺当当的事打散，就是扰乱。",
+      "parts": [
+        {
+          "text": "dis-",
+          "ipa": "dɪs",
+          "meaning": "分开"
+        },
+        {
+          "text": "rupt",
+          "ipa": "rʌpt",
+          "meaning": "破坏"
+        }
+      ],
+      "combined": "大雪把火车的运行打乱了，就可以用这个词。"
+    },
+    {
+      "id": "rupt.erupt",
+      "word": "erupt",
+      "partOfSpeech": "动词",
+      "meaning": "喷发；突然爆发",
+      "explanation": "用于火山喷发，也用于冲突、笑声等突然出现。",
+      "example": "The volcano erupted shortly before dawn.",
+      "translation": "火山在黎明前不久喷发了。",
+      "rootRelation": "e-（向外）与 rupt- 的历史形式，联想破开而出。",
+      "acceptedAnswers": [
+        "喷发",
+        "爆发"
+      ],
+      "formation": "e（向外）+ rupt（破开） = 破开而出 → 喷发",
+      "pronunciation": "ɪˈrʌpt",
+      "memoryCue": "e- 是向外，rupt 是破开。岩浆从里面喷出来，就是喷发。",
+      "parts": [
+        {
+          "text": "e-",
+          "ipa": "ɪ",
+          "meaning": "向外"
+        },
+        {
+          "text": "rupt",
+          "ipa": "rʌpt",
+          "meaning": "破开"
+        }
+      ],
+      "combined": "想象火山里的东西一下子冲出来，这个动作叫喷发。"
+    },
+    {
+      "id": "rupt.rupture",
+      "word": "rupture",
+      "partOfSpeech": "名词",
+      "meaning": "破裂；裂口",
+      "explanation": "指器官、物体或管道破裂，也可表示关系出现严重破裂。",
+      "example": "A rupture in the pipe flooded the basement.",
+      "translation": "水管破裂，地下室被淹了。",
+      "rootRelation": "rupt-（破裂）保留了较直接的含义。",
+      "acceptedAnswers": [
+        "破裂",
+        "裂口"
+      ],
+      "formation": "rupture · 破裂",
+      "pronunciation": "ˈrʌptʃɚ",
+      "memoryCue": "指器官、物体或管道破裂，也可表示关系出现严重破裂。",
+      "plainCue": "水管裂开，水从裂口往外流，就能记住破裂的意思。"
+    },
+    {
+      "id": "rupt.interruption",
+      "word": "interruption",
+      "partOfSpeech": "名词",
+      "meaning": "打断；中断",
+      "explanation": "指导致活动或服务停下来的一个插曲或一段间歇。",
+      "example": "The broadcast resumed after a brief interruption.",
+      "translation": "短暂中断后，节目继续播出。",
+      "rootRelation": "interrupt 加 -ion。",
+      "acceptedAnswers": [
+        "中断",
+        "打断"
+      ],
+      "formation": "interrupt + -ion = 打断 → 中断",
+      "pronunciation": "ˌɪntɚˈʌpʃən",
+      "memoryCue": "interrupt 是打断。说那一次打断或中断，用 interruption。",
+      "parts": [
+        {
+          "text": "interrupt",
+          "ipa": "ɪntɚʌp",
+          "meaning": "打断"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "广播停了一小会儿又接着播。中间停的那一段，就是中断。"
+    },
+    {
+      "id": "rupt.disruptive",
+      "word": "disruptive",
+      "partOfSpeech": "形容词",
+      "meaning": "扰乱秩序的；造成干扰的",
+      "explanation": "形容行为或变化影响别人正常学习、工作或运行。",
+      "example": "Constant interruptions were disruptive to the class.",
+      "translation": "不断被打断让课堂秩序受到了干扰。",
+      "rootRelation": "disrupt 加 -ive。",
+      "acceptedAnswers": [
+        "造成干扰的",
+        "扰乱秩序的"
+      ],
+      "formation": "disrupt + -ive = 扰乱 → 造成干扰的",
+      "pronunciation": "dɪsˈrʌptɪv",
+      "memoryCue": "disrupt 是扰乱。会让别人的工作停下来的，就是干扰性的。",
+      "parts": [
+        {
+          "text": "disrupt",
+          "ipa": "dɪsrʌpt",
+          "meaning": "扰乱"
+        },
+        {
+          "text": "-ive",
+          "ipa": "ɪv",
+          "meaning": "带有这种特点的"
+        }
+      ],
+      "combined": "上课时手机一直响，把大家打断了，这铃声就很扰人。"
+    },
+    {
+      "id": "rupt.disruption",
+      "word": "disruption",
+      "partOfSpeech": "名词",
+      "meaning": "扰乱；中断",
+      "explanation": "描述有秩序的活动被打乱，常用于交通、上课或供应。",
+      "example": "The road repairs caused weeks of disruption.",
+      "translation": "道路维修让通行秩序受影响好几周。",
+      "rootRelation": "disrupt 加 -ion。",
+      "acceptedAnswers": [
+        "扰乱",
+        "中断",
+        "受到干扰"
+      ],
+      "formation": "disrupt + -ion = 扰乱 → 中断",
+      "pronunciation": "dɪsˈrʌpʃən",
+      "memoryCue": "disrupt 是扰乱。说某次行程的中断，就用名词 disruption。",
+      "parts": [
+        {
+          "text": "disrupt",
+          "ipa": "dɪsrʌp",
+          "meaning": "扰乱"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "路修到一半，来往的车得绕行，这就是交通受到干扰。"
+    },
+    {
+      "id": "rupt.eruption",
+      "word": "eruption",
+      "partOfSpeech": "名词",
+      "meaning": "喷发；爆发",
+      "explanation": "通常指一次火山喷发，也可描述某些突然出现的状况。",
+      "example": "The eruption covered the nearby town in ash.",
+      "translation": "火山喷发使附近的城镇蒙上了灰。",
+      "rootRelation": "erupt 加 -ion。",
+      "acceptedAnswers": [
+        "喷发",
+        "火山喷发",
+        "爆发"
+      ],
+      "formation": "erupt + -ion = 喷发 → 喷发事件",
+      "pronunciation": "ˌiˈrʌpʃən",
+      "memoryCue": "erupt 是喷发。说火山的那一次喷发，用 eruption。",
+      "parts": [
+        {
+          "text": "erupt",
+          "ipa": "irʌp",
+          "meaning": "喷发"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "火山喷出来的那一回，就是一次喷发。"
+    },
+    {
+      "id": "rupt.eruptive",
+      "word": "eruptive",
+      "partOfSpeech": "形容词",
+      "meaning": "喷发的；与喷发有关的",
+      "explanation": "在描述火山活动时使用，常修饰 activity、phase 或 event。",
+      "example": "Scientists recorded two eruptive phases last year.",
+      "translation": "科学家去年记录了两个喷发阶段。",
+      "rootRelation": "与 erupt 同族的形容词。",
+      "acceptedAnswers": [
+        "喷发的",
+        "与喷发有关的"
+      ],
+      "formation": "erupt + -ive = 喷发 → 喷发的",
+      "pronunciation": "ˌiˈrʌptɪv",
+      "memoryCue": "erupt 是喷发。描述喷发这种性质时，用 eruptive。",
+      "parts": [
+        {
+          "text": "erupt",
+          "ipa": "irʌpt",
+          "meaning": "喷发"
+        },
+        {
+          "text": "-ive",
+          "ipa": "ɪv",
+          "meaning": "带有这种特点的"
+        }
+      ],
+      "combined": "说的是火山正在往外喷，比如它喷发的那段时间。"
+    },
+    {
+      "id": "rupt.abrupt",
+      "word": "abrupt",
+      "partOfSpeech": "形容词",
+      "meaning": "突然的；唐突的",
+      "explanation": "形容某事出乎意料地停止或改变，也可形容说话不客气。",
+      "example": "The meeting came to an abrupt end.",
+      "translation": "会议突然结束了。",
+      "rootRelation": "历史词源有关突然断开。",
+      "acceptedAnswers": [
+        "突然的",
+        "唐突的"
+      ],
+      "formation": "ab（离开）+ rupt（断开） = 断然中止 → 突然的",
+      "pronunciation": "əˈbrʌpt",
+      "memoryCue": "事情像一下子断开，没有过渡。这样的变化就很突然。",
+      "parts": [
+        {
+          "text": "ab-",
+          "ipa": "əb",
+          "meaning": "离开"
+        },
+        {
+          "text": "rupt",
+          "ipa": "rʌpt",
+          "meaning": "断开"
+        }
+      ],
+      "combined": "对方还没讲完，电话突然就挂了，这样的结束就很突然。"
+    },
+    {
+      "id": "rupt.abruptly",
+      "word": "abruptly",
+      "partOfSpeech": "副词",
+      "meaning": "突然地；唐突地",
+      "explanation": "描述变化来得快且没有预告，或某人说话过于直接。",
+      "example": "The bus stopped abruptly at the corner.",
+      "translation": "公交车在路口突然停住了。",
+      "rootRelation": "abrupt 加 -ly。",
+      "acceptedAnswers": [
+        "突然地",
+        "突然",
+        "唐突地"
+      ],
+      "formation": "abrupt + -ly = 突然的 → 突然地",
+      "pronunciation": "əˈbrʌptli",
+      "memoryCue": "abrupt 是突然的。动作没有预兆地发生，就是 abruptly。",
+      "parts": [
+        {
+          "text": "abrupt",
+          "ipa": "əbrʌpt",
+          "meaning": "突然的"
+        },
+        {
+          "text": "-ly",
+          "ipa": "li",
+          "meaning": "用这样的方式"
+        }
+      ],
+      "combined": "两个人本来聊得好好的，他一下子转身离开，就是突然地离开。"
+    },
+    {
+      "id": "rupt.corrupt",
+      "word": "corrupt",
+      "partOfSpeech": "形容词",
+      "meaning": "腐败的；贪污的",
+      "explanation": "形容掌握权力的人或组织以不诚实方式谋取私利。",
+      "example": "The investigation exposed a corrupt official.",
+      "translation": "调查揭露了一名腐败官员。",
+      "rootRelation": "历史词源含破坏、败坏的联想。",
+      "acceptedAnswers": [
+        "腐败的",
+        "腐败",
+        "贪污的"
+      ],
+      "formation": "corrupt · 腐败的",
+      "pronunciation": "kɚˈʌpt",
+      "memoryCue": "形容掌握权力的人或组织以不诚实方式谋取私利。",
+      "plainCue": "手里有权，却用它给自己捞钱，这样的官员就是腐败的。"
+    },
+    {
+      "id": "rupt.corruption",
+      "word": "corruption",
+      "partOfSpeech": "名词",
+      "meaning": "腐败；贪污",
+      "explanation": "利用公共职责或职权谋取个人利益的行为。",
+      "example": "The laws were introduced to reduce corruption.",
+      "translation": "这些法律是为了减少腐败而出台的。",
+      "rootRelation": "与 corrupt 同族的名词。",
+      "acceptedAnswers": [
+        "腐败",
+        "贪污"
+      ],
+      "formation": "corrupt + -ion = 腐败 → 腐败行为",
+      "pronunciation": "kɚˈʌpʃən",
+      "memoryCue": "corrupt 是腐败的。说这种行为或现象，用 corruption。",
+      "parts": [
+        {
+          "text": "corrupt",
+          "ipa": "kɚʌp",
+          "meaning": "腐败的"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "用公家的权力给自己捞好处，这种事叫腐败。"
+    },
+    {
+      "id": "rupt.bankrupt",
+      "word": "bankrupt",
+      "partOfSpeech": "形容词",
+      "meaning": "破产的",
+      "explanation": "企业或个人因无法清偿债务而破产，常用 go bankrupt。",
+      "example": "The shop went bankrupt after losing its biggest customer.",
+      "translation": "那家店失去最大的客户后破产了。",
+      "rootRelation": "词源中的 rupt 成分与破裂相关。",
+      "acceptedAnswers": [
+        "破产",
+        "破产的"
+      ],
+      "formation": "bankrupt ← rupt（破裂） = 经营破裂 → 破产",
+      "pronunciation": "ˈbæŋkrəpt",
+      "memoryCue": "店里的钱用光，欠下的债也还不上了，就是破产。"
+    }
+  ],
+  "links": [
+    {
+      "from": "rupt.interrupt",
+      "to": "rupt.interruption",
+      "kind": "派生关系",
+      "note": "interrupt 是打断，interruption 指一次中断或中断这件事。"
+    },
+    {
+      "from": "rupt.interrupt",
+      "to": "rupt.disrupt",
+      "kind": "用法对照",
+      "note": "interrupt 可短暂打断，disrupt 往往打乱较大范围或使事情无法正常进行。"
+    },
+    {
+      "from": "rupt.disrupt",
+      "to": "rupt.disruptive",
+      "kind": "派生关系",
+      "note": "disrupt 表示造成干扰，disruptive 描述容易扰乱秩序的行为或变化。"
+    },
+    {
+      "from": "rupt.disrupt",
+      "to": "rupt.disruption",
+      "kind": "派生关系",
+      "note": "disrupt 是扰乱，disruption 是扰乱的过程或影响。"
+    },
+    {
+      "from": "rupt.erupt",
+      "to": "rupt.eruption",
+      "kind": "派生关系",
+      "note": "erupt 是喷发，eruption 指一次喷发或爆发。"
+    },
+    {
+      "from": "rupt.eruption",
+      "to": "rupt.eruptive",
+      "kind": "派生关系",
+      "note": "eruption 是喷发事件，eruptive 描述和喷发有关的过程或阶段。"
+    },
+    {
+      "from": "rupt.erupt",
+      "to": "rupt.rupture",
+      "kind": "用法对照",
+      "note": "erupt 强调突然涌出，rupture 强调承载或包围物体的部分破裂。"
+    },
+    {
+      "from": "rupt.rupture",
+      "to": "rupt.abrupt",
+      "kind": "语义联系",
+      "note": "rupture 指破裂，abrupt 形容事情突然中止或改变。"
+    },
+    {
+      "from": "rupt.abrupt",
+      "to": "rupt.abruptly",
+      "kind": "派生关系",
+      "note": "abrupt 是突然的，abruptly 说明某事突然发生。"
+    },
+    {
+      "from": "rupt.corrupt",
+      "to": "rupt.corruption",
+      "kind": "派生关系",
+      "note": "corrupt 形容行为或人员腐败，corruption 指腐败行为。"
+    },
+    {
+      "from": "rupt.disrupt",
+      "to": "rupt.corruption",
+      "kind": "语境关联",
+      "note": "腐败会 disrupt 一套制度的正常运转。"
+    },
+    {
+      "from": "rupt.disruption",
+      "to": "rupt.bankrupt",
+      "kind": "语境关联",
+      "note": "持续供货中断可能让经营困难的公司走到破产。"
+    }
+  ],
+  "rootIPA": "rʌpt",
+  "rootSpoken": "rupt",
+  "rootContext": "在 disrupt 里",
+  "rootIntro": "这一块有断开、破开的意思。",
+  "rootKind": "词根"
+}

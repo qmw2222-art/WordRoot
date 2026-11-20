@@ -1,0 +1,103 @@
+{
+  "id": "family.serve",
+  "root": "serve",
+  "meaning": "供应、服务",
+  "explanation": "在餐厅里，serve 是供应餐食，接待客人的人和端上的一份食物都从它延伸。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "serve.serve",
+      "word": "serve",
+      "partOfSpeech": "动词",
+      "meaning": "供应",
+      "formation": "serve 在餐厅里可以指供应食物",
+      "rootRelation": "在餐厅里，serve 是供应餐食，接待客人的人和端上的一份食物都从它延伸。",
+      "explanation": "例句中的 serve 取“供应”这个意思。",
+      "example": "Do you serve breakfast?",
+      "translation": "你们供应早餐吗？",
+      "acceptedAnswers": [
+        "供应"
+      ],
+      "pronunciation": "sɝv",
+      "memoryCue": "餐厅把饭端给你，这个供应食物的动作就是 serve。",
+      "plainCue": "早上住店，问有没有早餐，就是问这里供不供应早餐。"
+    },
+    {
+      "id": "serve.server",
+      "word": "server",
+      "partOfSpeech": "名词",
+      "meaning": "餐厅服务员",
+      "formation": "serve（服务）去掉末尾 e，加 er（人）= 服务员",
+      "rootRelation": "在餐厅里，serve 是供应餐食，接待客人的人和端上的一份食物都从它延伸。",
+      "explanation": "例句中的 server 取“餐厅服务员”这个意思。",
+      "example": "Our server brought water.",
+      "translation": "服务员给我们端来了水。",
+      "acceptedAnswers": [
+        "餐厅服务员"
+      ],
+      "pronunciation": "ˈsɝvɚ",
+      "memoryCue": "serve 是服务，-er 可以表示人。为客人端菜的人就是服务员。",
+      "parts": [
+        {
+          "text": "serve",
+          "ipa": "sɝv",
+          "meaning": "供应"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "在餐厅里帮你点菜、把餐送到桌上的人，就是服务员。"
+    },
+    {
+      "id": "serve.serving",
+      "word": "serving",
+      "partOfSpeech": "名词",
+      "meaning": "一份食物",
+      "formation": "serve（供应）去掉末尾 e，加 ing = 端上的一份",
+      "rootRelation": "在餐厅里，serve 是供应餐食，接待客人的人和端上的一份食物都从它延伸。",
+      "explanation": "例句中的 serving 取“一份食物”这个意思。",
+      "example": "One serving is enough.",
+      "translation": "一份就够了。",
+      "acceptedAnswers": [
+        "一份食物"
+      ],
+      "pronunciation": "ˈsɝvɪŋ",
+      "memoryCue": "把菜端给一个人，一人那份就是 a serving。",
+      "parts": [
+        {
+          "text": "serve",
+          "ipa": "sɝv",
+          "meaning": "供应"
+        },
+        {
+          "text": "-ing",
+          "ipa": "ɪŋ",
+          "meaning": "正在做或做这件事"
+        }
+      ],
+      "combined": "一锅汤分给四个人，每个人分到的就是一份。"
+    }
+  ],
+  "links": [
+    {
+      "from": "serve.serve",
+      "to": "serve.server",
+      "kind": "同一词族",
+      "note": "serve（服务）去掉末尾 e，加 er（人）= 服务员"
+    },
+    {
+      "from": "serve.serve",
+      "to": "serve.serving",
+      "kind": "同一词族",
+      "note": "serve（供应）去掉末尾 e，加 ing = 端上的一份"
+    }
+  ],
+  "rootIPA": "sɝv",
+  "rootSpoken": "serve",
+  "rootContext": "",
+  "rootIntro": "这里的意思是供应、服务。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

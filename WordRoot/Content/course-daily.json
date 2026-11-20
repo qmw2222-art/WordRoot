@@ -1,0 +1,2608 @@
+[
+  {
+    "id": 1,
+    "familyID": "family.port",
+    "title": "把东西带进来，带出去",
+    "guide": "port 是「带、运」。这一组都留着 port，看开头就知道往哪儿运。",
+    "wordIDs": [
+      "sense.import.goods",
+      "sense.export.goods",
+      "sense.transport.carry",
+      "sense.portable.easy-carry"
+    ],
+    "extraIDs": [],
+    "scene": "你在店里挑一盏能放进背包的小灯。",
+    "roles": [
+      "顾客",
+      "店员"
+    ],
+    "dialogue": [
+      {
+        "text": "Is this lamp portable?",
+        "translation": "这盏灯方便携带吗？"
+      },
+      {
+        "text": "Yes. It fits in your bag.",
+        "translation": "方便，能放进你的包里。"
+      }
+    ],
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.i",
+      "basic.take",
+      "basic.this",
+      "basic.bag",
+      "basic.you",
+      "basic.please",
+      "basic.give",
+      "basic.of",
+      "basic.small"
+    ],
+    "mission": {
+      "goal": "给灯买个袋子，说清要几个。",
+      "turns": [
+        {
+          "partner": "Would you like a bag for your lamp?",
+          "partnerZH": "这盏灯需要装袋吗？",
+          "reply": "Yes, please. Is this bag strong enough?",
+          "replyZH": "需要，谢谢。这个袋子够结实吗？"
+        },
+        {
+          "partner": "Would you like one bag or two?",
+          "partnerZH": "你要一个袋子还是两个？",
+          "reply": "Just one, please.",
+          "replyZH": "一个就好，谢谢。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "sense.portable.easy-carry",
+      "basicID": "basic.small",
+      "text": "It's small and portable.",
+      "translation": "它小巧，带着走也方便。"
+    }
+  },
+  {
+    "id": 2,
+    "familyID": "family.cook",
+    "title": "在自己的厨房做顿饭",
+    "guide": "把 cook 整个记成「做饭」。再看后面接的是器具还是书。",
+    "wordIDs": [
+      "cook.cook",
+      "cook.cooker",
+      "cook.cookbook"
+    ],
+    "extraIDs": [],
+    "scene": "晚饭前，你和家人一起翻食谱。",
+    "roles": [
+      "你",
+      "家人"
+    ],
+    "dialogue": [
+      {
+        "text": "What can we cook tonight?",
+        "translation": "今晚我们能做点什么？"
+      },
+      {
+        "text": "Let's open the cookbook.",
+        "translation": "我们翻翻食谱吧。"
+      }
+    ],
+    "recallDay": 1,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.a",
+      "basic.egg",
+      "basic.pot",
+      "basic.put",
+      "basic.in",
+      "basic.make",
+      "basic.bread",
+      "basic.oven",
+      "basic.cook",
+      "basic.heat",
+      "basic.boiling",
+      "basic.kettle"
+    ],
+    "mission": {
+      "goal": "在自己的厨房做顿饭",
+      "turns": [
+        {
+          "partner": "What can we cook tonight?",
+          "partnerZH": "今晚我们能做点什么？",
+          "reply": "Let's open the cookbook.",
+          "replyZH": "我们翻翻食谱吧。"
+        },
+        {
+          "partner": "Do we have any eggs?",
+          "partnerZH": "家里有鸡蛋吗？",
+          "reply": "Yes. I'll put two in the pot.",
+          "replyZH": "有，我会往锅里放两个。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "cook.cook",
+      "basicID": "basic.egg",
+      "text": "I can cook an egg.",
+      "translation": "我会煮鸡蛋。"
+    }
+  },
+  {
+    "id": 3,
+    "familyID": "family.wash",
+    "title": "洗手和洗碗",
+    "guide": "wash 是洗。保留「洗」，再看谁在洗、洗什么。",
+    "wordIDs": [
+      "wash.wash",
+      "wash.washer",
+      "wash.dishwasher"
+    ],
+    "extraIDs": [],
+    "scene": "饭后收桌子时，朋友拿着空盘子。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Shall I wash the plates?",
+        "translation": "要我洗盘子吗？"
+      },
+      {
+        "text": "Put them in the dishwasher.",
+        "translation": "把它们放进洗碗机吧。"
+      }
+    ],
+    "recallDay": 2,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.wash",
+      "basic.soap",
+      "basic.with",
+      "basic.under",
+      "basic.basin",
+      "basic.brush",
+      "basic.dry",
+      "basic.wet",
+      "basic.rub",
+      "basic.skin",
+      "basic.rough"
+    ],
+    "mission": {
+      "goal": "洗手和洗碗",
+      "turns": [
+        {
+          "partner": "Shall I wash the plates?",
+          "partnerZH": "要我洗盘子吗？",
+          "reply": "Put them in the dishwasher.",
+          "replyZH": "把它们放进洗碗机吧。"
+        },
+        {
+          "partner": "Where's the soap?",
+          "partnerZH": "肥皂在哪儿？",
+          "reply": "It's by the basin.",
+          "replyZH": "在洗手盆旁。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "wash.wash",
+      "basicID": "basic.soap",
+      "text": "Wash your hands with soap.",
+      "translation": "用肥皂洗手。"
+    }
+  },
+  {
+    "id": 4,
+    "familyID": "family.drink",
+    "title": "找一杯能喝的水",
+    "guide": "drink 是喝。认出它，再看后面是水还是「能」。",
+    "wordIDs": [
+      "drink.drink",
+      "drink.drinking-water",
+      "drink.drinkable"
+    ],
+    "extraIDs": [],
+    "scene": "你在公园的水龙头旁停下来。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Is this water drinkable?",
+        "translation": "这水能喝吗？"
+      },
+      {
+        "text": "Yes. It's drinking water.",
+        "translation": "可以，这是饮用水。"
+      }
+    ],
+    "recallDay": 1,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.water",
+      "basic.some",
+      "basic.may",
+      "basic.have",
+      "basic.glass",
+      "basic.cold",
+      "basic.ice",
+      "basic.bottle",
+      "basic.full",
+      "basic.drop",
+      "basic.liquid",
+      "basic.no",
+      "basic.out"
+    ],
+    "mission": {
+      "goal": "找一杯能喝的水",
+      "turns": [
+        {
+          "partner": "Is this water drinkable?",
+          "partnerZH": "这水能喝吗？",
+          "reply": "Yes. It's drinking water.",
+          "replyZH": "可以，这是饮用水。"
+        },
+        {
+          "partner": "Would you like some ice?",
+          "partnerZH": "要加冰吗？",
+          "reply": "No ice, thanks.",
+          "replyZH": "不用加冰，谢谢。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "drink.drinkable",
+      "basicID": "basic.water",
+      "text": "Is this water drinkable?",
+      "translation": "这水能喝吗？"
+    }
+  },
+  {
+    "id": 5,
+    "familyID": "family.eat",
+    "title": "在家吃还是出去吃",
+    "guide": "eat 是吃。词尾可以带出「谁在吃」，out 可以带出「在哪儿吃」。",
+    "wordIDs": [
+      "eat.eat",
+      "eat.eater",
+      "eat.eat-out"
+    ],
+    "extraIDs": [],
+    "scene": "周五傍晚，两个人商量晚饭。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Shall we eat out?",
+        "translation": "我们出去吃吗？"
+      },
+      {
+        "text": "Yes. Let's try the café downstairs.",
+        "translation": "好啊，去试试楼下那家小餐馆吧。"
+      }
+    ],
+    "recallDay": 3,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.food",
+      "basic.good",
+      "basic.here",
+      "basic.rice",
+      "basic.fish",
+      "basic.and",
+      "basic.or",
+      "basic.meat",
+      "basic.soup",
+      "basic.potato",
+      "basic.salt",
+      "basic.fat",
+      "basic.bite",
+      "basic.bit"
+    ],
+    "mission": {
+      "goal": "在家吃还是出去吃",
+      "turns": [
+        {
+          "partner": "Shall we eat out?",
+          "partnerZH": "我们出去吃吗？",
+          "reply": "Yes. Let's try the café downstairs.",
+          "replyZH": "好啊，去试试楼下那家小餐馆吧。"
+        },
+        {
+          "partner": "What would you like to eat?",
+          "partnerZH": "你想吃什么？",
+          "reply": "Rice and fish, please.",
+          "replyZH": "米饭和鱼，谢谢。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "eat.eat",
+      "basicID": "basic.rice",
+      "text": "I eat rice every day.",
+      "translation": "我每天都吃米饭。"
+    }
+  },
+  {
+    "id": 6,
+    "familyID": "family.read",
+    "title": "读一遍，再读一遍",
+    "guide": "read 是读。-er 帮你找人，re- 帮你认出「再来一次」。",
+    "wordIDs": [
+      "read.read",
+      "read.reader",
+      "read.reread"
+    ],
+    "extraIDs": [],
+    "scene": "你在看故事书，看到一句喜欢的话。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "I want to reread that line.",
+        "translation": "我想把那一行再读一遍。"
+      },
+      {
+        "text": "Go ahead. I'll wait.",
+        "translation": "读吧，我等你。"
+      }
+    ],
+    "recallDay": 2,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.book",
+      "basic.page",
+      "basic.the",
+      "basic.say",
+      "basic.reading",
+      "basic.quiet",
+      "basic.library",
+      "basic.about",
+      "basic.why",
+      "basic.end"
+    ],
+    "mission": {
+      "goal": "读一遍，再读一遍",
+      "turns": [
+        {
+          "partner": "I want to reread that line.",
+          "partnerZH": "我想把那一行再读一遍。",
+          "reply": "Go ahead. I'll wait.",
+          "replyZH": "读吧，我等你。"
+        },
+        {
+          "partner": "Which word was difficult?",
+          "partnerZH": "哪个词比较难？",
+          "reply": "The last word. Can you say it again?",
+          "replyZH": "最后那个词。你能再说一次吗？"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "read.read",
+      "basicID": "basic.book",
+      "text": "I like to read this book.",
+      "translation": "我喜欢读这本书。"
+    }
+  },
+  {
+    "id": 7,
+    "familyID": "family.play",
+    "title": "把刚才那一段再放一次",
+    "guide": "保留 play，换一个位置看。后面加 -er 是人，前面加 re- 是再来一次。",
+    "wordIDs": [
+      "play.play",
+      "play.player",
+      "play.replay"
+    ],
+    "extraIDs": [],
+    "scene": "两个人看球时差点错过一个进球。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Can you replay the goal?",
+        "translation": "你能重放一下那个进球吗？"
+      },
+      {
+        "text": "Sure. Watch the player in blue.",
+        "translation": "可以，看那个穿蓝衣服的球员。"
+      }
+    ],
+    "recallDay": 6,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.see",
+      "basic.on",
+      "basic.loud",
+      "basic.play",
+      "basic.music",
+      "basic.ever",
+      "basic.seem",
+      "basic.so",
+      "basic.bad"
+    ],
+    "mission": {
+      "goal": "把刚才那一段再放一次",
+      "turns": [
+        {
+          "partner": "Can you replay the goal?",
+          "partnerZH": "你能重放一下那个进球吗？",
+          "reply": "Sure. Watch the player in blue.",
+          "replyZH": "可以，看那个穿蓝衣服的球员。"
+        },
+        {
+          "partner": "Is the sound all right now?",
+          "partnerZH": "现在声音合适吗？",
+          "reply": "It's still a little loud.",
+          "replyZH": "还是有点响。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "play.play",
+      "basicID": "basic.music",
+      "text": "Can you play some music?",
+      "translation": "能放点音乐吗？"
+    }
+  },
+  {
+    "id": 8,
+    "familyID": "family.help",
+    "title": "帮个忙",
+    "guide": "help 是帮忙。-er 指帮忙的人，-ful 形容有没有帮助。",
+    "wordIDs": [
+      "help.help",
+      "help.helper",
+      "help.helpful",
+      "help.self-help"
+    ],
+    "extraIDs": [],
+    "scene": "搬箱子时，邻居过来帮忙。",
+    "roles": [
+      "你",
+      "邻居"
+    ],
+    "dialogue": [
+      {
+        "text": "Thanks for your help.",
+        "translation": "谢谢你帮忙。"
+      },
+      {
+        "text": "I'm glad I could be helpful.",
+        "translation": "能帮上忙我很高兴。"
+      }
+    ],
+    "recallDay": 6,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.help",
+      "basic.need",
+      "basic.little",
+      "basic.box",
+      "basic.up",
+      "basic.lift",
+      "basic.yes",
+      "basic.together",
+      "basic.care",
+      "basic.rest",
+      "basic.support"
+    ],
+    "mission": {
+      "goal": "帮个忙",
+      "turns": [
+        {
+          "partner": "Thanks for your help.",
+          "partnerZH": "谢谢你帮忙。",
+          "reply": "I'm glad I could be helpful.",
+          "replyZH": "能帮上忙我很高兴。"
+        },
+        {
+          "partner": "Can you lift the other end?",
+          "partnerZH": "你能抬另一头吗？",
+          "reply": "Yes. Let's lift it together.",
+          "replyZH": "可以，我们一起抬。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "help.help",
+      "basicID": "basic.box",
+      "text": "Can you help me lift this box?",
+      "translation": "你能帮我抬这个箱子吗？"
+    }
+  },
+  {
+    "id": 9,
+    "familyID": "family.shop",
+    "title": "去商店买东西",
+    "guide": "shop 是购物。认出开头，再分清买东西的人和装东西的袋子。",
+    "wordIDs": [
+      "shop.shop",
+      "shop.shopper",
+      "shop.shopping-bag"
+    ],
+    "extraIDs": [],
+    "scene": "收银台旁，店员看见你带了袋子。",
+    "roles": [
+      "店员",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Do you need a shopping bag?",
+        "translation": "你需要购物袋吗？"
+      },
+      {
+        "text": "No, thanks. I brought one.",
+        "translation": "不用，谢谢。我带了一个。"
+      }
+    ],
+    "recallDay": 8,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.store",
+      "basic.market",
+      "basic.near",
+      "basic.apple",
+      "basic.orange",
+      "basic.basket",
+      "basic.cheap",
+      "basic.price",
+      "basic.cotton",
+      "basic.silk",
+      "basic.wool"
+    ],
+    "mission": {
+      "goal": "去商店买东西",
+      "turns": [
+        {
+          "partner": "Do you need a shopping bag?",
+          "partnerZH": "你需要购物袋吗？",
+          "reply": "No, thanks. I brought one.",
+          "replyZH": "不用，谢谢。我带了一个。"
+        },
+        {
+          "partner": "Which fruit would you like?",
+          "partnerZH": "你想要哪种水果？",
+          "reply": "Two apples, please.",
+          "replyZH": "请给我两个苹果。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "shop.shopping-bag",
+      "basicID": "basic.market",
+      "text": "Take a shopping bag to the market.",
+      "translation": "带个购物袋去市场吧。"
+    }
+  },
+  {
+    "id": 10,
+    "familyID": "family.pay",
+    "title": "结账和发工资",
+    "guide": "pay 是付钱。看后面接的是「这笔钱」还是「哪一天」。",
+    "wordIDs": [
+      "pay.pay",
+      "pay.payment",
+      "pay.payday"
+    ],
+    "extraIDs": [],
+    "scene": "买好面包，你拿出银行卡。",
+    "roles": [
+      "你",
+      "店员"
+    ],
+    "dialogue": [
+      {
+        "text": "Can I pay by card?",
+        "translation": "我能刷卡吗？"
+      },
+      {
+        "text": "Yes. Your payment went through.",
+        "translation": "可以，付款成功了。"
+      }
+    ],
+    "recallDay": 9,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.how",
+      "basic.much",
+      "basic.money",
+      "basic.card",
+      "basic.receipt",
+      "basic.keep",
+      "basic.quality",
+      "basic.profit",
+      "basic.increase"
+    ],
+    "mission": {
+      "goal": "结账和发工资",
+      "turns": [
+        {
+          "partner": "Can I pay by card?",
+          "partnerZH": "我能刷卡吗？",
+          "reply": "Yes. Your payment went through.",
+          "replyZH": "可以，付款成功了。"
+        },
+        {
+          "partner": "Would you like your receipt?",
+          "partnerZH": "你需要收据吗？",
+          "reply": "Yes, please. I'll keep it.",
+          "replyZH": "需要，谢谢。我会留好。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "pay.pay",
+      "basicID": "basic.card",
+      "text": "Can I pay by card?",
+      "translation": "可以刷卡吗？"
+    }
+  },
+  {
+    "id": 11,
+    "familyID": "family.form",
+    "title": "填表时看懂格式",
+    "guide": "记住三个中文搭配。填表格，看格式，穿正式的衣服。",
+    "wordIDs": [
+      "form.form.0",
+      "form.format",
+      "form.formal"
+    ],
+    "extraIDs": [],
+    "scene": "你在填写社区课程的报名表。",
+    "roles": [
+      "学员",
+      "前台"
+    ],
+    "dialogue": [
+      {
+        "text": "Is this the right form?",
+        "translation": "这是我要填的表吗？"
+      },
+      {
+        "text": "Yes. Please use this date format.",
+        "translation": "是的，日期请用这个格式。"
+      }
+    ],
+    "recallDay": 10,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.name",
+      "basic.form",
+      "basic.pen",
+      "basic.number",
+      "basic.line",
+      "basic.paper",
+      "basic.copy",
+      "basic.level",
+      "basic.general",
+      "basic.degree"
+    ],
+    "mission": {
+      "goal": "填表时看懂格式",
+      "turns": [
+        {
+          "partner": "Is this the right form?",
+          "partnerZH": "这是我要填的表吗？",
+          "reply": "Yes. Please use this date format.",
+          "replyZH": "是的，日期请用这个格式。"
+        },
+        {
+          "partner": "Where should I write my number?",
+          "partnerZH": "号码填在哪里？",
+          "reply": "On this line, under your name.",
+          "replyZH": "这条横线上，在名字下面。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "form.form.0",
+      "basicID": "basic.name",
+      "text": "Write your name on the form.",
+      "translation": "把你的名字写在表格上。"
+    }
+  },
+  {
+    "id": 12,
+    "familyID": "family.act",
+    "title": "把想法变成行动",
+    "guide": "act 是做。注意词尾，是做的事、爱动的样子，还是做这件事的人。",
+    "wordIDs": [
+      "act.act",
+      "act.action",
+      "act.active",
+      "act.actor"
+    ],
+    "extraIDs": [],
+    "scene": "朋友正在筹备邻里清扫活动。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "It's time to act.",
+        "translation": "该行动了。"
+      },
+      {
+        "text": "Yes. Let's take action today.",
+        "translation": "对，我们今天就动手吧。"
+      }
+    ],
+    "recallDay": 8,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.do",
+      "basic.now",
+      "basic.first",
+      "basic.act",
+      "basic.ready",
+      "basic.start",
+      "basic.impulse",
+      "basic.desire",
+      "basic.behavior"
+    ],
+    "mission": {
+      "goal": "把想法变成行动",
+      "turns": [
+        {
+          "partner": "It's time to act.",
+          "partnerZH": "该行动了。",
+          "reply": "Yes. Let's take action today.",
+          "replyZH": "对，我们今天就动手吧。"
+        },
+        {
+          "partner": "What shall we do first?",
+          "partnerZH": "我们先做什么？",
+          "reply": "Let's make a list.",
+          "replyZH": "先列张清单。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "act.act",
+      "basicID": "basic.now",
+      "text": "We need to act now.",
+      "translation": "我们得马上行动。"
+    }
+  },
+  {
+    "id": 13,
+    "familyID": "family.light",
+    "title": "白天的光和手里的灯",
+    "guide": "light 在这一组是光。前面的词告诉你光从哪里来。",
+    "wordIDs": [
+      "light.light",
+      "light.daylight",
+      "light.flashlight"
+    ],
+    "extraIDs": [],
+    "scene": "出发散步时，天快黑了。",
+    "roles": [
+      "你",
+      "家人"
+    ],
+    "dialogue": [
+      {
+        "text": "Do we need a flashlight?",
+        "translation": "我们需要手电筒吗？"
+      },
+      {
+        "text": "Yes. There's very little daylight left.",
+        "translation": "需要，天快黑了。"
+      }
+    ],
+    "recallDay": 4,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.bright",
+      "basic.window",
+      "basic.bulb",
+      "basic.electric",
+      "basic.dark",
+      "basic.off",
+      "basic.sun",
+      "basic.moon",
+      "basic.star"
+    ],
+    "mission": {
+      "goal": "白天的光和手里的灯",
+      "turns": [
+        {
+          "partner": "Do we need a flashlight?",
+          "partnerZH": "我们需要手电筒吗？",
+          "reply": "Yes. There's very little daylight left.",
+          "replyZH": "需要，天快黑了。"
+        },
+        {
+          "partner": "Where did you leave the light?",
+          "partnerZH": "你把灯放哪儿了？",
+          "reply": "By the window.",
+          "replyZH": "窗户旁边。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "light.light",
+      "basicID": "basic.bright",
+      "text": "The light is too bright.",
+      "translation": "这灯光太亮了。"
+    }
+  },
+  {
+    "id": 14,
+    "familyID": "family.hand",
+    "title": "用手提、用手写",
+    "guide": "hand 是手。把它后面的熟词读出来，就能认出手提包和笔迹。",
+    "wordIDs": [
+      "hand.hand",
+      "hand.handbag",
+      "hand.handwriting"
+    ],
+    "extraIDs": [],
+    "scene": "你从包里抽出一张手写便条。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Is that your handwriting?",
+        "translation": "那是你的笔迹吗？"
+      },
+      {
+        "text": "Yes. I kept the note in my handbag.",
+        "translation": "是的，我把便条放在手提包里了。"
+      }
+    ],
+    "recallDay": 13,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.pocket",
+      "basic.left",
+      "basic.finger",
+      "basic.thumb",
+      "basic.ring",
+      "basic.glove",
+      "basic.soft",
+      "basic.needle",
+      "basic.thread",
+      "basic.stitch"
+    ],
+    "mission": {
+      "goal": "用手提、用手写",
+      "turns": [
+        {
+          "partner": "Is that your handwriting?",
+          "partnerZH": "那是你的笔迹吗？",
+          "reply": "Yes. I kept the note in my handbag.",
+          "replyZH": "是的，我把便条放在手提包里了。"
+        },
+        {
+          "partner": "Which pocket did you check?",
+          "partnerZH": "你找过哪个口袋了？",
+          "reply": "The left one. My key was there.",
+          "replyZH": "左边那个，钥匙就在里面。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "hand.handbag",
+      "basicID": "basic.pocket",
+      "text": "My handbag has a small pocket.",
+      "translation": "我的手提包有个小口袋。"
+    }
+  },
+  {
+    "id": 15,
+    "familyID": "family.clean",
+    "title": "把厨房收拾干净",
+    "guide": "clean 可以是干净，也可以是清洁。看看词尾，是东西还是动作。",
+    "wordIDs": [
+      "clean.clean",
+      "clean.cleaner",
+      "clean.clean-up"
+    ],
+    "extraIDs": [],
+    "scene": "晚餐后，你和朋友分工打扫。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Can we clean up now?",
+        "translation": "我们现在开始收拾好吗？"
+      },
+      {
+        "text": "Sure. I'll get the cleaner.",
+        "translation": "好，我去拿清洁剂。"
+      }
+    ],
+    "recallDay": 3,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.dirty",
+      "basic.floor",
+      "basic.bucket",
+      "basic.sponge",
+      "basic.dust",
+      "basic.cloth",
+      "basic.shelf",
+      "basic.polish",
+      "basic.wax",
+      "basic.smell",
+      "basic.drain",
+      "basic.pipe",
+      "basic.hole"
+    ],
+    "mission": {
+      "goal": "把厨房收拾干净",
+      "turns": [
+        {
+          "partner": "Can we clean up now?",
+          "partnerZH": "我们现在开始收拾好吗？",
+          "reply": "Sure. I'll get the cleaner.",
+          "replyZH": "好，我去拿清洁剂。"
+        },
+        {
+          "partner": "Where should I start cleaning?",
+          "partnerZH": "我先打扫哪里？",
+          "reply": "Start with the floor. I'll clean the shelf.",
+          "replyZH": "先打扫地板。我擦架子。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "clean.clean",
+      "basicID": "basic.floor",
+      "text": "Please clean the floor.",
+      "translation": "请把地板擦干净。"
+    }
+  },
+  {
+    "id": 16,
+    "familyID": "family.home",
+    "title": "家里做的、带回家的",
+    "guide": "home 是家。把「在家」放到下一半前面，两个长词就好记了。",
+    "wordIDs": [
+      "home.home",
+      "home.homemade",
+      "home.homework"
+    ],
+    "extraIDs": [],
+    "scene": "朋友尝了你带去的饼干。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Are these cookies homemade?",
+        "translation": "这些饼干是自己做的吗？"
+      },
+      {
+        "text": "Yes. I baked them at home.",
+        "translation": "是的，我在家烤的。"
+      }
+    ],
+    "recallDay": 14,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.house",
+      "basic.family",
+      "basic.living",
+      "basic.mother",
+      "basic.father",
+      "basic.brother",
+      "basic.sister",
+      "basic.cat",
+      "basic.dog",
+      "basic.tail",
+      "basic.boy",
+      "basic.girl",
+      "basic.kiss"
+    ],
+    "mission": {
+      "goal": "家里做的、带回家的",
+      "turns": [
+        {
+          "partner": "Are these cookies homemade?",
+          "partnerZH": "这些饼干是自己做的吗？",
+          "reply": "Yes. I baked them at home.",
+          "replyZH": "是的，我在家烤的。"
+        },
+        {
+          "partner": "Who made them with you?",
+          "partnerZH": "谁和你一起做的？",
+          "reply": "My sister helped me.",
+          "replyZH": "我姐姐帮了我。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "home.home",
+      "basicID": "basic.family",
+      "text": "My family is at home.",
+      "translation": "我的家人在家。"
+    }
+  },
+  {
+    "id": 17,
+    "familyID": "family.phon",
+    "title": "从电话认出声音",
+    "guide": "这一组抓住「声音」。tele- 是远，远距离传声就是打电话。",
+    "wordIDs": [
+      "phon.phone.1",
+      "phon.telephone.2",
+      "phon.microphone.3",
+      "phon.phonograph.extra5"
+    ],
+    "extraIDs": [],
+    "scene": "你用手机和朋友通话。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Is your microphone on?",
+        "translation": "你的麦克风开了吗？"
+      },
+      {
+        "text": "Yes. I'm using my phone.",
+        "translation": "开了，我在用手机。"
+      }
+    ],
+    "recallDay": 8,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.clear",
+      "basic.hearing",
+      "basic.trouble",
+      "basic.well",
+      "basic.still",
+      "basic.nose",
+      "basic.sneeze",
+      "basic.blow"
+    ],
+    "mission": {
+      "goal": "从电话认出声音",
+      "turns": [
+        {
+          "partner": "Is your microphone on?",
+          "partnerZH": "你的麦克风开了吗？",
+          "reply": "Yes. I'm using my phone.",
+          "replyZH": "开了，我在用手机。"
+        },
+        {
+          "partner": "How does my voice sound now?",
+          "partnerZH": "我现在说话听着怎样？",
+          "reply": "Much clearer, thanks.",
+          "replyZH": "清楚多了，谢谢。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "phon.phone.1",
+      "basicID": "basic.trouble",
+      "text": "I'm having trouble with my phone.",
+      "translation": "我的电话出了点问题。"
+    }
+  },
+  {
+    "id": 18,
+    "familyID": "family.aud",
+    "title": "把耳朵听到的串起来",
+    "guide": "aud 这段和「听」有关。后面是书，就成了可以听的书。",
+    "wordIDs": [
+      "aud.audio.1",
+      "aud.audiobook.8",
+      "aud.audible.1",
+      "aud.audibility.3",
+      "aud.auditory.6",
+      "aud.inaudible.6"
+    ],
+    "extraIDs": [],
+    "scene": "两个人在厨房听有声书。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Is the audiobook audible from here?",
+        "translation": "从这儿听得见有声书吗？"
+      },
+      {
+        "text": "Yes. I can hear it clearly.",
+        "translation": "听得见，很清楚。"
+      }
+    ],
+    "recallDay": 16,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.while",
+      "basic.bell",
+      "basic.noise",
+      "basic.low",
+      "basic.high",
+      "basic.whistle",
+      "basic.horn",
+      "basic.among",
+      "basic.harmony"
+    ],
+    "mission": {
+      "goal": "把耳朵听到的串起来",
+      "turns": [
+        {
+          "partner": "Is the audiobook audible from here?",
+          "partnerZH": "从这儿听得见有声书吗？",
+          "reply": "Yes. I can hear it clearly.",
+          "replyZH": "听得见，很清楚。"
+        },
+        {
+          "partner": "Should I turn it down?",
+          "partnerZH": "要我把声音调小吗？",
+          "reply": "Just a little, please.",
+          "replyZH": "调低一点点就好。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "aud.audiobook.8",
+      "basicID": "basic.while",
+      "text": "I listen to an audiobook while I walk.",
+      "translation": "我边走边听有声书。"
+    }
+  },
+  {
+    "id": 19,
+    "familyID": "family.sign",
+    "title": "看得见的标记",
+    "guide": "sign 是标记。拿来提醒是信号，亲手签下的标记是签名。",
+    "wordIDs": [
+      "sign.sign.1",
+      "sign.signal.2",
+      "sign.signature.4",
+      "sign.signatory.5"
+    ],
+    "extraIDs": [],
+    "scene": "你替邻居签收一个包裹。",
+    "roles": [
+      "快递员",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "I need your signature here.",
+        "translation": "这里需要你签名。"
+      },
+      {
+        "text": "Sure. I'll sign here.",
+        "translation": "好，我在这里签。"
+      }
+    ],
+    "recallDay": 11,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.that",
+      "basic.green",
+      "basic.red",
+      "basic.circle",
+      "basic.mark",
+      "basic.flag",
+      "basic.design"
+    ],
+    "mission": {
+      "goal": "看得见的标记",
+      "turns": [
+        {
+          "partner": "I need your signature here.",
+          "partnerZH": "这里需要你签名。",
+          "reply": "Sure. I'll sign here.",
+          "replyZH": "好，我在这里签。"
+        },
+        {
+          "partner": "Should I use the red pen or the green one?",
+          "partnerZH": "我用红笔还是绿笔？",
+          "reply": "The green one, please.",
+          "replyZH": "请用绿笔。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "sign.sign.1",
+      "basicID": "basic.green",
+      "text": "Look for the green sign.",
+      "translation": "找那个绿色标牌。"
+    }
+  },
+  {
+    "id": 20,
+    "familyID": "family.vis",
+    "title": "看得见和看不见",
+    "guide": "vis 这一段和看有关。在前面加 in-，就把意思变成「不」。",
+    "wordIDs": [
+      "vis.visible.2",
+      "vis.invisible.3",
+      "vis.visual.4",
+      "vis.vision.1",
+      "vis.visually.6"
+    ],
+    "extraIDs": [],
+    "scene": "你隔着窗户向朋友指一盏灯。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Is the light visible from here?",
+        "translation": "从这里看得到那盏灯吗？"
+      },
+      {
+        "text": "Yes, just above the door.",
+        "translation": "看得到，就在门上方。"
+      }
+    ],
+    "recallDay": 4,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.where",
+      "basic.far",
+      "basic.there",
+      "basic.eye",
+      "basic.open",
+      "basic.shut",
+      "basic.almost",
+      "basic.across",
+      "basic.head",
+      "basic.hair",
+      "basic.face"
+    ],
+    "mission": {
+      "goal": "看得见和看不见",
+      "turns": [
+        {
+          "partner": "Is the light visible from here?",
+          "partnerZH": "从这里看得到那盏灯吗？",
+          "reply": "Yes, just above the door.",
+          "replyZH": "看得到，就在门上方。"
+        },
+        {
+          "partner": "Which side of the door is it on?",
+          "partnerZH": "在门的哪边？",
+          "reply": "On your left, above the box.",
+          "replyZH": "在你左边，箱子上方。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "vis.visible.2",
+      "basicID": "basic.there",
+      "text": "Is the sign visible from there?",
+      "translation": "从那儿看得见标牌吗？"
+    }
+  },
+  {
+    "id": 21,
+    "familyID": "family.press",
+    "title": "按一下门铃",
+    "guide": "press 是按。用力按有压力，被时间逼着走就觉得紧迫。",
+    "wordIDs": [
+      "press.press",
+      "press.pressure",
+      "press.pressing",
+      "press.compress",
+      "press.depress"
+    ],
+    "extraIDs": [],
+    "scene": "门铃按钮有些松，朋友教你怎么按。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Press the button gently.",
+        "translation": "轻轻按一下按钮。"
+      },
+      {
+        "text": "So it only needs a little pressure.",
+        "translation": "原来只要稍微用点力。"
+      }
+    ],
+    "recallDay": 12,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.door",
+      "basic.button",
+      "basic.by",
+      "basic.push",
+      "basic.pull",
+      "basic.lock",
+      "basic.broken",
+      "basic.wire",
+      "basic.spring",
+      "basic.bent",
+      "basic.force",
+      "basic.stiff"
+    ],
+    "mission": {
+      "goal": "按一下门铃",
+      "turns": [
+        {
+          "partner": "Press the button gently.",
+          "partnerZH": "轻轻按一下按钮。",
+          "reply": "So it only needs a little pressure.",
+          "replyZH": "原来只要稍微用点力。"
+        },
+        {
+          "partner": "What if the door stays shut?",
+          "partnerZH": "如果门还是关着呢？",
+          "reply": "Ring the bell and I'll open it.",
+          "replyZH": "按铃，我来开。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "press.press",
+      "basicID": "basic.button",
+      "text": "Press the button to open the door.",
+      "translation": "按按钮就能开门。"
+    }
+  },
+  {
+    "id": 22,
+    "familyID": "family.dict",
+    "title": "把听到的话写下来",
+    "guide": "dict 和说话有关。把说的动作、听写这件事和查词的书分开记。",
+    "wordIDs": [
+      "dict.dictate",
+      "dict.dictation",
+      "dict.dictionary",
+      "dict.diction",
+      "dict.dictate.order"
+    ],
+    "extraIDs": [],
+    "scene": "朋友帮你把地址写在纸上。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Can you dictate the address?",
+        "translation": "你能把地址念给我写吗？"
+      },
+      {
+        "text": "Sure. I'll say it slowly.",
+        "translation": "当然，我会慢慢念。"
+      }
+    ],
+    "recallDay": 6,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.answer",
+      "basic.question",
+      "basic.short",
+      "basic.note",
+      "basic.slow",
+      "basic.enough",
+      "basic.chalk",
+      "basic.secret",
+      "basic.trick"
+    ],
+    "mission": {
+      "goal": "把听到的话写下来",
+      "turns": [
+        {
+          "partner": "Can you dictate the address?",
+          "partnerZH": "你能把地址念给我写吗？",
+          "reply": "Sure. I'll say it slowly.",
+          "replyZH": "当然，我会慢慢念。"
+        },
+        {
+          "partner": "Should I read it back to you?",
+          "partnerZH": "要我念回来让你确认吗？",
+          "reply": "Yes. Please start with the street name.",
+          "replyZH": "要，请从街名开始念。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "dict.dictate",
+      "basicID": "basic.short",
+      "text": "Could you dictate a short note?",
+      "translation": "能把一段简短留言口述给我记下来吗？"
+    }
+  },
+  {
+    "id": 23,
+    "familyID": "family.write",
+    "title": "把名字写清楚",
+    "guide": "write 是写。re- 表示再，-er 可以找到写的人。",
+    "wordIDs": [
+      "write.write",
+      "write.writer",
+      "write.rewrite"
+    ],
+    "extraIDs": [],
+    "scene": "名字写得太挤，你想重新写一张。",
+    "roles": [
+      "你",
+      "前台"
+    ],
+    "dialogue": [
+      {
+        "text": "Can I rewrite my name?",
+        "translation": "我能把名字重写一遍吗？"
+      },
+      {
+        "text": "Of course. Here's a new form.",
+        "translation": "当然，这里有张新表。"
+      }
+    ],
+    "recallDay": 6,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.pencil",
+      "basic.ink",
+      "basic.letter",
+      "basic.wrong",
+      "basic.right",
+      "basic.same",
+      "basic.paste",
+      "basic.sticky",
+      "basic.scissors",
+      "basic.such",
+      "basic.delicate"
+    ],
+    "mission": {
+      "goal": "把名字写清楚",
+      "turns": [
+        {
+          "partner": "Can I rewrite my name?",
+          "partnerZH": "我能把名字重写一遍吗？",
+          "reply": "Of course. Here's a new form.",
+          "replyZH": "当然，这里有张新表。"
+        },
+        {
+          "partner": "Could you spell your name for me?",
+          "partnerZH": "能拼一下你的名字吗？",
+          "reply": "Sure. It's Lin, L-I-N.",
+          "replyZH": "可以。我叫 Lin，L-I-N。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "write.write",
+      "basicID": "basic.pencil",
+      "text": "Can I write in pencil?",
+      "translation": "我可以用铅笔写吗？"
+    }
+  },
+  {
+    "id": 24,
+    "familyID": "family.day",
+    "title": "日历上的三种日子",
+    "guide": "day 是一天。看前半段，就知道说的是哪种日子。",
+    "wordIDs": [
+      "day.day",
+      "day.weekday",
+      "day.birthday"
+    ],
+    "extraIDs": [],
+    "scene": "约见面时，你和朋友一起看日历。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Is your birthday on a weekday?",
+        "translation": "你的生日在工作日吗？"
+      },
+      {
+        "text": "Yes, it's on Monday.",
+        "translation": "对，在星期一。"
+      }
+    ],
+    "recallDay": 13,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.week",
+      "basic.every",
+      "basic.morning",
+      "basic.night",
+      "basic.tomorrow",
+      "basic.yesterday",
+      "basic.sleep",
+      "basic.normal"
+    ],
+    "mission": {
+      "goal": "日历上的三种日子",
+      "turns": [
+        {
+          "partner": "Is your birthday on a weekday?",
+          "partnerZH": "你的生日在工作日吗？",
+          "reply": "Yes, it's on Monday.",
+          "replyZH": "对，在星期一。"
+        },
+        {
+          "partner": "Would you like to meet that night?",
+          "partnerZH": "那天晚上要见面吗？",
+          "reply": "Yes. Let's meet after work.",
+          "replyZH": "好，我们下班后见。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "day.weekday",
+      "basicID": "basic.morning",
+      "text": "I leave early every weekday morning.",
+      "translation": "工作日我每天早上都早出门。"
+    }
+  },
+  {
+    "id": 25,
+    "familyID": "family.time",
+    "title": "从时间看到时间表",
+    "guide": "time 是时间。前后各接一个熟词，便能认出睡觉时间和时间表。",
+    "wordIDs": [
+      "time.time",
+      "time.bedtime",
+      "time.timetable"
+    ],
+    "extraIDs": [],
+    "scene": "你想看看明早第一班公交几点开。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Do you have the timetable?",
+        "translation": "你有时间表吗？"
+      },
+      {
+        "text": "Yes. The first bus leaves at seven.",
+        "translation": "有，第一班车七点开。"
+      }
+    ],
+    "recallDay": 24,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.clock",
+      "basic.when",
+      "basic.hour",
+      "basic.minute",
+      "basic.before",
+      "basic.after",
+      "basic.run",
+      "basic.swim"
+    ],
+    "mission": {
+      "goal": "从时间看到时间表",
+      "turns": [
+        {
+          "partner": "Do you have the timetable?",
+          "partnerZH": "你有时间表吗？",
+          "reply": "Yes. The first bus leaves at seven.",
+          "replyZH": "有，第一班车七点开。"
+        },
+        {
+          "partner": "What time should we leave home?",
+          "partnerZH": "我们几点离开家？",
+          "reply": "At six thirty. It takes ten minutes to walk there.",
+          "replyZH": "六点半。走过去要十分钟。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "time.time",
+      "basicID": "basic.clock",
+      "text": "What time does that clock show?",
+      "translation": "那只钟显示几点？"
+    }
+  },
+  {
+    "id": 26,
+    "familyID": "family.work",
+    "title": "工作的人和地方",
+    "guide": "work 是工作。用 -er 找做事的人，用 place 找做事的地方。",
+    "wordIDs": [
+      "work.work",
+      "work.worker",
+      "work.workplace"
+    ],
+    "extraIDs": [],
+    "scene": "新同事和你聊通勤。",
+    "roles": [
+      "同事",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Is your workplace close to home?",
+        "translation": "你工作的地方离家近吗？"
+      },
+      {
+        "text": "Yes. I walk to work.",
+        "translation": "是的，我走路上班。"
+      }
+    ],
+    "recallDay": 12,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.office",
+      "basic.manager",
+      "basic.company",
+      "basic.man",
+      "basic.woman",
+      "basic.chief",
+      "basic.committee"
+    ],
+    "mission": {
+      "goal": "工作的人和地方",
+      "turns": [
+        {
+          "partner": "Is your workplace close to home?",
+          "partnerZH": "你工作的地方离家近吗？",
+          "reply": "Yes. I walk to work.",
+          "replyZH": "是的，我走路上班。"
+        },
+        {
+          "partner": "How long is your walk?",
+          "partnerZH": "你走多久？",
+          "reply": "About fifteen minutes.",
+          "replyZH": "大约十五分钟。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "work.work",
+      "basicID": "basic.office",
+      "text": "I work in this office.",
+      "translation": "我在这间办公室工作。"
+    }
+  },
+  {
+    "id": 27,
+    "familyID": "family.pack",
+    "title": "装起来，把它拿出来",
+    "guide": "pack 是装好。前面换成 un-，动作的方向就翻过来了。",
+    "wordIDs": [
+      "pack.pack",
+      "pack.unpack",
+      "pack.backpack"
+    ],
+    "extraIDs": [],
+    "scene": "周末出门前，你把东西装进背包。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Did you pack your backpack?",
+        "translation": "你把背包装好了吗？"
+      },
+      {
+        "text": "Yes. It's by the door.",
+        "translation": "装好了，在门边。"
+      }
+    ],
+    "recallDay": 14,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.cord",
+      "basic.knot",
+      "basic.fold",
+      "basic.cover",
+      "basic.tight",
+      "basic.loose",
+      "basic.elastic",
+      "basic.stretch",
+      "basic.twist"
+    ],
+    "mission": {
+      "goal": "装起来，把它拿出来",
+      "turns": [
+        {
+          "partner": "Did you pack your backpack?",
+          "partnerZH": "你把背包装好了吗？",
+          "reply": "Yes. It's by the door.",
+          "replyZH": "装好了，在门边。"
+        },
+        {
+          "partner": "Did you leave space for this parcel?",
+          "partnerZH": "你给这个包裹留位置了吗？",
+          "reply": "Yes. Put it on top.",
+          "replyZH": "留了，放在最上面。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "pack.pack",
+      "basicID": "basic.fold",
+      "text": "Fold the shirt before you pack it.",
+      "translation": "装箱前先把衬衫叠好。"
+    }
+  },
+  {
+    "id": 28,
+    "familyID": "family.use",
+    "title": "这件东西可以再用",
+    "guide": "use 是用。re- 指再一次，-ful 形容有用处。",
+    "wordIDs": [
+      "use.use",
+      "use.reuse",
+      "use.useful"
+    ],
+    "extraIDs": [],
+    "scene": "你们喝完果酱，留下了玻璃罐。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Can we reuse this jar?",
+        "translation": "这个罐子能再用吗？"
+      },
+      {
+        "text": "Yes. It's useful for storing tea.",
+        "translation": "能，用它装茶叶很方便。"
+      }
+    ],
+    "recallDay": 7,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.use",
+      "basic.thing",
+      "basic.other",
+      "basic.waste",
+      "basic.only",
+      "basic.metal",
+      "basic.wood",
+      "basic.material",
+      "basic.tin",
+      "basic.brass",
+      "basic.hollow"
+    ],
+    "mission": {
+      "goal": "这件东西可以再用",
+      "turns": [
+        {
+          "partner": "Can we reuse this jar?",
+          "partnerZH": "这个罐子能再用吗？",
+          "reply": "Yes. It's useful for storing tea.",
+          "replyZH": "能，用它装茶叶很方便。"
+        },
+        {
+          "partner": "What else can we put in it?",
+          "partnerZH": "我们还能用它装什么？",
+          "reply": "We can use it for sugar.",
+          "replyZH": "我们可以用它装糖。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "use.reuse",
+      "basicID": "basic.metal",
+      "text": "We can reuse this metal box.",
+      "translation": "这个金属盒还能再用。"
+    }
+  },
+  {
+    "id": 29,
+    "familyID": "family.duc",
+    "title": "从生产到成品",
+    "guide": "看相同的 produc，再分动作、成品和过程。",
+    "wordIDs": [
+      "duc.produce",
+      "duc.product",
+      "duc.production",
+      "duc.reduce"
+    ],
+    "extraIDs": [],
+    "scene": "周末集市上，你问蜂蜜从哪里来。",
+    "roles": [
+      "你",
+      "摊主"
+    ],
+    "dialogue": [
+      {
+        "text": "Do you produce this honey locally?",
+        "translation": "这蜂蜜是你们本地生产的吗？"
+      },
+      {
+        "text": "Yes. It's our most popular product.",
+        "translation": "是的，这是我们最受欢迎的产品。"
+      }
+    ],
+    "recallDay": 2,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.produce",
+      "basic.farm",
+      "basic.milk",
+      "basic.cow",
+      "basic.cheese",
+      "basic.fruit",
+      "basic.berry",
+      "basic.sweet",
+      "basic.grain",
+      "basic.seed",
+      "basic.fertile",
+      "basic.pig",
+      "basic.sheep",
+      "basic.goat"
+    ],
+    "mission": {
+      "goal": "从生产到成品",
+      "turns": [
+        {
+          "partner": "Do you produce this honey locally?",
+          "partnerZH": "这蜂蜜是你们本地生产的吗？",
+          "reply": "Yes. It's our most popular product.",
+          "replyZH": "是的，这是我们最受欢迎的产品。"
+        },
+        {
+          "partner": "Do you also have fresh fruit?",
+          "partnerZH": "你们也卖新鲜水果吗？",
+          "reply": "Yes. The berries came in this morning.",
+          "replyZH": "卖，浆果是今天早上到的。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "duc.produce",
+      "basicID": "basic.milk",
+      "text": "These cows produce milk.",
+      "translation": "这些奶牛产奶。"
+    }
+  },
+  {
+    "id": 30,
+    "familyID": "family.fer",
+    "title": "说出自己的偏好",
+    "guide": "两对词一起记。先认「更喜欢」和「不同」，再看各自的名词。",
+    "wordIDs": [
+      "fer.prefer",
+      "fer.preference",
+      "fer.differ",
+      "fer.difference",
+      "fer.confer"
+    ],
+    "extraIDs": [],
+    "scene": "朋友端出茶和咖啡。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Which do you prefer?",
+        "translation": "你更喜欢哪个？"
+      },
+      {
+        "text": "I prefer tea to coffee.",
+        "translation": "比起咖啡，我更喜欢茶。"
+      }
+    ],
+    "recallDay": 10,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.like",
+      "basic.taste",
+      "basic.bitter",
+      "basic.butter",
+      "basic.sugar",
+      "basic.cake",
+      "basic.than",
+      "basic.jelly",
+      "basic.nut",
+      "basic.acid"
+    ],
+    "mission": {
+      "goal": "说出自己的偏好",
+      "turns": [
+        {
+          "partner": "Which do you prefer?",
+          "partnerZH": "你更喜欢哪个？",
+          "reply": "I prefer tea to coffee.",
+          "replyZH": "比起咖啡，我更喜欢茶。"
+        },
+        {
+          "partner": "Would you like sugar with that?",
+          "partnerZH": "要加糖吗？",
+          "reply": "Just a little, please.",
+          "replyZH": "一点点就好。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "fer.prefer",
+      "basicID": "basic.sugar",
+      "text": "I prefer tea without sugar.",
+      "translation": "我更喜欢不加糖的茶。"
+    }
+  },
+  {
+    "id": 31,
+    "familyID": "family.pend",
+    "title": "依靠谁，自己能不能做",
+    "guide": "先抓住 depend 的「依靠」。在 dependent 前面加 in-，意思就变成相反。",
+    "wordIDs": [
+      "pend.depend",
+      "pend.dependent",
+      "pend.independent",
+      "pend.dependence",
+      "pend.dependable",
+      "pend.independence"
+    ],
+    "extraIDs": [],
+    "scene": "朋友第一次自己坐公交上班。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "I don't depend on a ride anymore.",
+        "translation": "我现在不用靠别人搭载了。"
+      },
+      {
+        "text": "That makes you more independent.",
+        "translation": "这样你就更独立了。"
+      }
+    ],
+    "recallDay": 20,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.be",
+      "basic.able",
+      "basic.if",
+      "basic.let",
+      "basic.self",
+      "basic.comfort"
+    ],
+    "mission": {
+      "goal": "依靠谁，自己能不能做",
+      "turns": [
+        {
+          "partner": "I don't depend on a ride anymore.",
+          "partnerZH": "我现在不用靠别人搭载了。",
+          "reply": "That makes you more independent.",
+          "replyZH": "这样你就更独立了。"
+        },
+        {
+          "partner": "How do you get home now?",
+          "partnerZH": "那你现在怎么回家？",
+          "reply": "I take the bus.",
+          "replyZH": "我坐公交。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "pend.depend",
+      "basicID": "basic.if",
+      "text": "You can depend on me if you need help.",
+      "translation": "需要帮忙时，你可以靠我。"
+    }
+  },
+  {
+    "id": 32,
+    "familyID": "family.voc",
+    "title": "自己的声音",
+    "guide": "把嗓音、与嗓音有关、发出声音这三种意思放在一起记。",
+    "wordIDs": [
+      "voc.voice.1",
+      "voc.vocal.2",
+      "voc.vocalize.3",
+      "voc.vocabulary.4",
+      "voc.vocalization.extra2",
+      "voc.vocative.extra3",
+      "voc.vociferous.extra5"
+    ],
+    "extraIDs": [],
+    "scene": "合唱排练刚开始。",
+    "roles": [
+      "教练",
+      "学员"
+    ],
+    "dialogue": [
+      {
+        "text": "Let's warm up our voices.",
+        "translation": "我们来开开嗓。"
+      },
+      {
+        "text": "Do we start with a vocal exercise?",
+        "translation": "先做发声练习吗？"
+      }
+    ],
+    "recallDay": 17,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.mouth",
+      "basic.lip",
+      "basic.tongue",
+      "basic.throat",
+      "basic.cough",
+      "basic.breath",
+      "basic.deep",
+      "basic.chin",
+      "basic.neck",
+      "basic.tooth"
+    ],
+    "mission": {
+      "goal": "自己的声音",
+      "turns": [
+        {
+          "partner": "Let's warm up our voices.",
+          "partnerZH": "我们来开开嗓。",
+          "reply": "Do we start with a vocal exercise?",
+          "replyZH": "先做发声练习吗？"
+        },
+        {
+          "partner": "Does your throat feel better?",
+          "partnerZH": "你的喉咙好点了吗？",
+          "reply": "A little. I'd like some water.",
+          "replyZH": "好了一点，我想喝点水。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "voc.voice.1",
+      "basicID": "basic.deep",
+      "text": "He has a deep voice.",
+      "translation": "他的嗓音很低沉。"
+    }
+  },
+  {
+    "id": 33,
+    "familyID": "family.graph",
+    "title": "照片和亲笔签名",
+    "guide": "graph 和写下、画下有关。看它前面，是光留下的，还是自己写的。",
+    "wordIDs": [
+      "graph.photograph.7",
+      "graph.autograph.4",
+      "graph.graphic.1",
+      "graph.seismograph.extra4"
+    ],
+    "extraIDs": [],
+    "scene": "一场小型演出结束，你想留个纪念。",
+    "roles": [
+      "你",
+      "演员"
+    ],
+    "dialogue": [
+      {
+        "text": "Could I have your autograph?",
+        "translation": "能给我签个名吗？"
+      },
+      {
+        "text": "Sure. I'll sign the photograph.",
+        "translation": "可以，我签在照片上。"
+      }
+    ],
+    "recallDay": 23,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.camera",
+      "basic.smile",
+      "basic.frame",
+      "basic.square",
+      "basic.color",
+      "basic.black",
+      "basic.white",
+      "basic.hat",
+      "basic.dress",
+      "basic.skirt"
+    ],
+    "mission": {
+      "goal": "照片和亲笔签名",
+      "turns": [
+        {
+          "partner": "Could I have your autograph?",
+          "partnerZH": "能给我签个名吗？",
+          "reply": "Sure. I'll sign the photograph.",
+          "replyZH": "可以，我签在照片上。"
+        },
+        {
+          "partner": "Where should I sign?",
+          "partnerZH": "我在哪里签？",
+          "reply": "Under the picture, please.",
+          "replyZH": "请签在照片下面。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "graph.photograph.7",
+      "basicID": "basic.camera",
+      "text": "Use this camera to take a photograph.",
+      "translation": "用这台相机拍张照片。"
+    }
+  },
+  {
+    "id": 34,
+    "familyID": "family.log",
+    "title": "两个人说还是一个人说",
+    "guide": "词尾 -logue 和说话有关。看前面，就分得清独白、对话和序言。",
+    "wordIDs": [
+      "log.dialogue.1",
+      "log.monologue.2",
+      "log.prologue.4",
+      "log.catalogue.3",
+      "log.epilogue.5"
+    ],
+    "extraIDs": [],
+    "scene": "你和朋友一起读一段戏。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Is this a monologue?",
+        "translation": "这是一段独白吗？"
+      },
+      {
+        "text": "No. It's a dialogue between two friends.",
+        "translation": "这是一段两个朋友之间的对话。"
+      }
+    ],
+    "recallDay": 22,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.friend",
+      "basic.who",
+      "basic.he",
+      "basic.story",
+      "basic.laugh",
+      "basic.humor",
+      "basic.because",
+      "basic.but",
+      "basic.cry",
+      "basic.dear"
+    ],
+    "mission": {
+      "goal": "两个人说还是一个人说",
+      "turns": [
+        {
+          "partner": "Is this a monologue?",
+          "partnerZH": "这是一段独白吗？",
+          "reply": "No. It's a dialogue between two friends.",
+          "replyZH": "这是一段两个朋友之间的对话。"
+        },
+        {
+          "partner": "What are the friends talking about?",
+          "partnerZH": "这两个朋友在聊什么？",
+          "reply": "They're talking about their families.",
+          "replyZH": "他们在聊自己的家人。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "log.dialogue.1",
+      "basicID": "basic.story",
+      "text": "This story has a lot of dialogue.",
+      "translation": "这个故事里有很多对话。"
+    }
+  },
+  {
+    "id": 35,
+    "familyID": "family.mot",
+    "title": "从动到一动不动",
+    "guide": "mot 和动有关。给 motion 加上 -less，运动就变成了静止。",
+    "wordIDs": [
+      "mot.motion.1",
+      "mot.motionless.2",
+      "mot.motor.5",
+      "mot.movement.8",
+      "mot.locomotion.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "你看着风扇慢慢停下。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Is the motor still running?",
+        "translation": "马达还在转吗？"
+      },
+      {
+        "text": "No. The blades are motionless now.",
+        "translation": "停了，扇叶现在一动不动。"
+      }
+    ],
+    "recallDay": 12,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.move",
+      "basic.step",
+      "basic.jump",
+      "basic.kick",
+      "basic.ball",
+      "basic.arm",
+      "basic.leg",
+      "basic.foot",
+      "basic.toe",
+      "basic.knee",
+      "basic.balance",
+      "basic.grip"
+    ],
+    "mission": {
+      "goal": "从动到一动不动",
+      "turns": [
+        {
+          "partner": "Is the motor still running?",
+          "partnerZH": "马达还在转吗？",
+          "reply": "No. The blades are motionless now.",
+          "replyZH": "停了，扇叶现在一动不动。"
+        },
+        {
+          "partner": "Can we move it now?",
+          "partnerZH": "我们现在能搬它吗？",
+          "reply": "Let's wait till it stops completely.",
+          "replyZH": "等它完全停下来再搬。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "mot.motion.1",
+      "basicID": "basic.ball",
+      "text": "The ball is in motion.",
+      "translation": "球在运动。"
+    }
+  },
+  {
+    "id": 36,
+    "familyID": "family.spect",
+    "title": "抬头看一场表演",
+    "guide": "spect 和看有关。分清看的人、看的景象和景象的特点。",
+    "wordIDs": [
+      "spect.spectator",
+      "spect.spectacle",
+      "spect.spectacular",
+      "spect.prospect"
+    ],
+    "extraIDs": [],
+    "scene": "夜里的烟花刚刚结束。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "That was spectacular!",
+        "translation": "真壮观！"
+      },
+      {
+        "text": "Yes. What a spectacle!",
+        "translation": "是啊，真是场盛景！"
+      }
+    ],
+    "recallDay": 20,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.ticket",
+      "basic.seat",
+      "basic.stage",
+      "basic.band",
+      "basic.song",
+      "basic.beautiful",
+      "basic.rhythm",
+      "basic.shake",
+      "basic.roll"
+    ],
+    "mission": {
+      "goal": "抬头看一场表演",
+      "turns": [
+        {
+          "partner": "That was spectacular!",
+          "partnerZH": "真壮观！",
+          "reply": "Yes. What a spectacle!",
+          "replyZH": "是啊，真是场盛景！"
+        },
+        {
+          "partner": "Which song did you like best?",
+          "partnerZH": "你最喜欢哪首歌？",
+          "reply": "The last one. I loved the rhythm.",
+          "replyZH": "最后一首，我喜欢它的节奏。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "spect.spectator",
+      "basicID": "basic.seat",
+      "text": "There is a seat for every spectator.",
+      "translation": "每位观众都有座位。"
+    }
+  },
+  {
+    "id": 37,
+    "familyID": "family.ten",
+    "title": "我打算去，我会出席",
+    "guide": "把动作和名词配成对。打算对应意图，留心对应注意力。",
+    "wordIDs": [
+      "ten.intend.4",
+      "ten.intention.5",
+      "ten.attend.7",
+      "ten.attention.8",
+      "ten.pretend.6"
+    ],
+    "extraIDs": [],
+    "scene": "你和邻居提起周末的社区会议。",
+    "roles": [
+      "邻居",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Do you intend to attend the meeting?",
+        "translation": "你打算出席会议吗？"
+      },
+      {
+        "text": "Yes. I'll be there at ten.",
+        "translation": "去，我十点到。"
+      }
+    ],
+    "recallDay": 25,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.come",
+      "basic.will",
+      "basic.meeting",
+      "basic.at",
+      "basic.early",
+      "basic.late",
+      "basic.waiting",
+      "basic.person",
+      "basic.collar",
+      "basic.shoe",
+      "basic.boot"
+    ],
+    "mission": {
+      "goal": "我打算去，我会出席",
+      "turns": [
+        {
+          "partner": "Do you intend to attend the meeting?",
+          "partnerZH": "你打算出席会议吗？",
+          "reply": "Yes. I'll be there at ten.",
+          "replyZH": "去，我十点到。"
+        },
+        {
+          "partner": "Could we start half an hour earlier?",
+          "partnerZH": "能提前半小时开始吗？",
+          "reply": "Yes. I can be there at nine thirty.",
+          "replyZH": "可以，我九点半能到。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "ten.attend.7",
+      "basicID": "basic.meeting",
+      "text": "Can you attend the meeting?",
+      "translation": "你能来开会吗？"
+    }
+  },
+  {
+    "id": 38,
+    "familyID": "family.tract",
+    "title": "是什么吸引了你",
+    "guide": "tract 有拉的意思。把人拉过来是吸引，让人想靠近就是有吸引力。",
+    "wordIDs": [
+      "tract.attract",
+      "tract.attraction",
+      "tract.attractive",
+      "tract.distract"
+    ],
+    "extraIDs": [],
+    "scene": "你和朋友经过一家新开的面包店。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "What attracts you to this place?",
+        "translation": "这地方哪里吸引你？"
+      },
+      {
+        "text": "The smell of fresh bread.",
+        "translation": "是刚出炉的面包香。"
+      }
+    ],
+    "recallDay": 35,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.interest",
+      "basic.art",
+      "basic.yellow",
+      "basic.blue",
+      "basic.round",
+      "basic.flat",
+      "basic.flower",
+      "basic.garden",
+      "basic.bee",
+      "basic.ornament",
+      "basic.paint"
+    ],
+    "mission": {
+      "goal": "是什么吸引了你",
+      "turns": [
+        {
+          "partner": "What attracts you to this place?",
+          "partnerZH": "这地方哪里吸引你？",
+          "reply": "The smell of fresh bread.",
+          "replyZH": "是刚出炉的面包香。"
+        },
+        {
+          "partner": "Would you like to go inside?",
+          "partnerZH": "你想进去看看吗？",
+          "reply": "Yes. I'd like to try the bread.",
+          "replyZH": "想，我想尝尝面包。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "tract.attract",
+      "basicID": "basic.bee",
+      "text": "These flowers attract bees.",
+      "translation": "这些花招蜜蜂。"
+    }
+  },
+  {
+    "id": 39,
+    "familyID": "family.scrib",
+    "title": "把丢的东西描述出来",
+    "guide": "把 describe 和 description 配成一对，分别记动作和写出来的描述。",
+    "wordIDs": [
+      "scrib.describe",
+      "scrib.description",
+      "scrib.scribble",
+      "scrib.prescribe",
+      "scrib.script",
+      "scrib.inscription",
+      "scrib.ascribe"
+    ],
+    "extraIDs": [],
+    "scene": "你在社区前台找一把丢失的雨伞。",
+    "roles": [
+      "前台",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Could you describe your umbrella?",
+        "translation": "你能描述一下你的伞吗？"
+      },
+      {
+        "text": "It's green with a wooden handle.",
+        "translation": "它是绿色的，木头手柄。"
+      }
+    ],
+    "recallDay": 23,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.look",
+      "basic.size",
+      "basic.brown",
+      "basic.long",
+      "basic.thin",
+      "basic.coat",
+      "basic.leather",
+      "basic.gray",
+      "basic.stick",
+      "basic.stocking"
+    ],
+    "mission": {
+      "goal": "把丢的东西描述出来",
+      "turns": [
+        {
+          "partner": "Could you describe your umbrella?",
+          "partnerZH": "你能描述一下你的伞吗？",
+          "reply": "It's green with a wooden handle.",
+          "replyZH": "它是绿色的，木头手柄。"
+        },
+        {
+          "partner": "When did you last see it?",
+          "partnerZH": "你最后一次看见它是什么时候？",
+          "reply": "This morning, at the bus stop.",
+          "replyZH": "今天早上，在公交站。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "scrib.describe",
+      "basicID": "basic.coat",
+      "text": "Can you describe your coat?",
+      "translation": "你能说说你的外套长什么样吗？"
+    }
+  },
+  {
+    "id": 40,
+    "familyID": "family.path",
+    "title": "听懂朋友的感受",
+    "guide": "这组里的 path 和感受有关。比较体会别人的心情和漠不关心。",
+    "wordIDs": [
+      "path.sympathy.1",
+      "path.empathy.2",
+      "path.apathetic.3",
+      "path.antipathy.7",
+      "path.pathetic.4",
+      "path.telepathy.8"
+    ],
+    "extraIDs": [],
+    "scene": "朋友正在经历难过的事，你们聊到怎样陪伴他。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "He needs our sympathy.",
+        "translation": "他需要我们的关心和同情。"
+      },
+      {
+        "text": "Yes. Let's listen with empathy.",
+        "translation": "对，我们体谅他的感受，听他说说。"
+      }
+    ],
+    "recallDay": 8,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.feeling",
+      "basic.happy",
+      "basic.sad",
+      "basic.angry",
+      "basic.tired",
+      "basic.love",
+      "basic.hope",
+      "basic.fear",
+      "basic.hate",
+      "basic.disgust",
+      "basic.cruel"
+    ],
+    "mission": {
+      "goal": "听懂朋友的感受",
+      "turns": [
+        {
+          "partner": "He needs our sympathy.",
+          "partnerZH": "他需要我们的关心和同情。",
+          "reply": "Yes. Let's listen with empathy.",
+          "replyZH": "对，我们体谅他的感受，听他说说。"
+        },
+        {
+          "partner": "What could I say to him?",
+          "partnerZH": "我可以对他说什么？",
+          "reply": "You can say, “I'm here if you need me.”",
+          "replyZH": "可以说，如果你需要我，我就在。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "path.sympathy.1",
+      "basicID": "basic.sad",
+      "text": "She showed sympathy when I was sad.",
+      "translation": "我难过时，她表示了关心。"
+    }
+  }
+]

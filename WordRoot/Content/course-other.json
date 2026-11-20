@@ -1,0 +1,1608 @@
+[
+  {
+    "id": 76,
+    "familyID": "family.act",
+    "title": "开会时怎样互动",
+    "guide": "act 是行动。看是谁跟谁一起动，动作后又有什么反应。",
+    "wordIDs": [
+      "act.interact",
+      "act.reaction",
+      "act.activity",
+      "act.activate"
+    ],
+    "extraIDs": [],
+    "scene": "同事展示一个可以互动的屏幕。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "How do we activate the screen?",
+        "translation": "怎么启动这块屏幕？"
+      },
+      {
+        "text": "Touch it, and you'll be able to interact with the map.",
+        "translation": "碰一下，就可以跟地图互动。"
+      }
+    ],
+    "recallDay": 12,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.discussion",
+      "basic.opinion",
+      "basic.agreement",
+      "basic.join"
+    ],
+    "mission": {
+      "goal": "开会时怎样互动",
+      "turns": [
+        {
+          "partner": "How do we activate the screen?",
+          "partnerZH": "怎么启动这块屏幕？",
+          "reply": "Touch it, and you'll be able to interact with the map.",
+          "replyZH": "碰一下，就可以跟地图互动。"
+        },
+        {
+          "partner": "Which place should I touch first?",
+          "partnerZH": "我应该先点哪里？",
+          "reply": "Touch the green circle near the top.",
+          "replyZH": "点靠上方的绿色圆圈。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "act.interact",
+      "basicID": "basic.discussion",
+      "text": "We interact during the discussion.",
+      "translation": "我们在讨论时互相交流。"
+    }
+  },
+  {
+    "id": 77,
+    "familyID": "family.form",
+    "title": "告诉别人事情发生了变化",
+    "guide": "form 是形态。留意告知、信息和改变形态这两组词。",
+    "wordIDs": [
+      "form.inform",
+      "form.information",
+      "form.transform",
+      "form.transformation",
+      "form.reform"
+    ],
+    "extraIDs": [],
+    "scene": "会议时间改了，你想通知同组的人。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "Can you inform the team?",
+        "translation": "你能通知团队吗？"
+      },
+      {
+        "text": "Yes. I'll send the updated information.",
+        "translation": "可以，我会把更新的信息发出去。"
+      }
+    ],
+    "recallDay": 11,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.news",
+      "basic.statement",
+      "basic.detail",
+      "basic.current",
+      "basic.connection"
+    ],
+    "mission": {
+      "goal": "告诉别人事情发生了变化",
+      "turns": [
+        {
+          "partner": "Can you inform the team?",
+          "partnerZH": "你能通知团队吗？",
+          "reply": "Yes. I'll send the updated information.",
+          "replyZH": "可以，我会把更新的信息发出去。"
+        },
+        {
+          "partner": "Who else should get the message?",
+          "partnerZH": "还有谁应该收到这个消息？",
+          "reply": "Please send it to our manager too.",
+          "replyZH": "也请发给我们的经理。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "form.information",
+      "basicID": "basic.detail",
+      "text": "This detail gives us useful information.",
+      "translation": "这个细节提供了有用的信息。"
+    }
+  },
+  {
+    "id": 78,
+    "familyID": "family.dict",
+    "title": "说说接下来会发生什么",
+    "guide": "dict 有说的意思。pre- 表示预先，事先说会发生什么就是预测。",
+    "wordIDs": [
+      "dict.predict",
+      "dict.prediction",
+      "dict.predictable",
+      "dict.unpredictable",
+      "dict.contradict",
+      "dict.verdict",
+      "dict.contradiction",
+      "dict.contradictory",
+      "dict.dictator"
+    ],
+    "extraIDs": [],
+    "scene": "你和同事在讨论周末的客流量。",
+    "roles": [
+      "同事",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Can we predict how busy it will be?",
+        "translation": "能预测会有多忙吗？"
+      },
+      {
+        "text": "It's hard. The weather is unpredictable.",
+        "translation": "很难，天气很难预料。"
+      }
+    ],
+    "recallDay": 22,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.probable",
+      "basic.certain",
+      "basic.test",
+      "basic.effect",
+      "basic.observation",
+      "basic.existence"
+    ],
+    "mission": {
+      "goal": "说说接下来会发生什么",
+      "turns": [
+        {
+          "partner": "Can we predict how busy it will be?",
+          "partnerZH": "能预测会有多忙吗？",
+          "reply": "It's hard. The weather is unpredictable.",
+          "replyZH": "很难，天气很难预料。"
+        },
+        {
+          "partner": "What should we do if it rains?",
+          "partnerZH": "如果下雨，我们该怎么办？",
+          "reply": "Let's move the meeting indoors.",
+          "replyZH": "我们把活动挪到室内吧。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "dict.predict",
+      "basicID": "basic.effect",
+      "text": "Can you predict the effect?",
+      "translation": "你能预料会有什么影响吗？"
+    }
+  },
+  {
+    "id": 79,
+    "familyID": "family.duc",
+    "title": "带新人熟悉工作",
+    "guide": "把一个人领进来介绍给大家。先记动作，再记介绍和教育。",
+    "wordIDs": [
+      "duc.introduce",
+      "duc.introduction",
+      "duc.educate",
+      "duc.educational",
+      "duc.conduct",
+      "duc.conductor",
+      "duc.conduct.behavior",
+      "duc.reduction",
+      "duc.deduce",
+      "duc.deduction"
+    ],
+    "extraIDs": [],
+    "scene": "新同事第一天报到。",
+    "roles": [
+      "你",
+      "新同事"
+    ],
+    "dialogue": [
+      {
+        "text": "Let me introduce you to the team.",
+        "translation": "我带你认识一下团队。"
+      },
+      {
+        "text": "Thanks for the introduction.",
+        "translation": "谢谢你介绍。"
+      }
+    ],
+    "recallDay": 29,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.education",
+      "basic.school",
+      "basic.teaching",
+      "basic.learning",
+      "basic.knowledge",
+      "basic.experience",
+      "basic.new",
+      "basic.young"
+    ],
+    "mission": {
+      "goal": "带新人熟悉工作",
+      "turns": [
+        {
+          "partner": "Let me introduce you to the team.",
+          "partnerZH": "我带你认识一下团队。",
+          "reply": "Thanks for the introduction.",
+          "replyZH": "谢谢你介绍。"
+        },
+        {
+          "partner": "Could you tell us a little about yourself?",
+          "partnerZH": "能简单介绍一下自己吗？",
+          "reply": "I'm Lin. I work with the design team.",
+          "replyZH": "我叫 Lin，和设计团队一起工作。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "duc.introduce",
+      "basicID": "basic.new",
+      "text": "Let me introduce our new teacher.",
+      "translation": "我来介绍一下我们的新老师。"
+    }
+  },
+  {
+    "id": 80,
+    "familyID": "family.mit",
+    "title": "把申请交上去",
+    "guide": "mit 有送交的意思。交申请用 submit，作承诺用 commit。",
+    "wordIDs": [
+      "mit.submit",
+      "mit.submission",
+      "mit.commit",
+      "mit.commitment",
+      "mit.transmit",
+      "mit.transmitter",
+      "mit.transmission",
+      "mit.dismissal",
+      "mit.emit"
+    ],
+    "extraIDs": [],
+    "scene": "你正在申请一门周末课程。",
+    "roles": [
+      "你",
+      "教务员"
+    ],
+    "dialogue": [
+      {
+        "text": "Can I submit the form online?",
+        "translation": "我能在线提交表格吗？"
+      },
+      {
+        "text": "Yes. We'll confirm your submission by email.",
+        "translation": "可以，我们会发邮件确认收到。"
+      }
+    ],
+    "recallDay": 57,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.approval",
+      "basic.decision",
+      "basic.responsible",
+      "basic.authority",
+      "basic.division"
+    ],
+    "mission": {
+      "goal": "把申请交上去",
+      "turns": [
+        {
+          "partner": "Can I submit the form online?",
+          "partnerZH": "我能在线提交表格吗？",
+          "reply": "Yes. We'll confirm your submission by email.",
+          "replyZH": "可以，我们会发邮件确认收到。"
+        },
+        {
+          "partner": "How will I know you received it?",
+          "partnerZH": "我怎么知道你们收到了？",
+          "reply": "We'll send a confirmation to this address.",
+          "replyZH": "我们会向这个地址发一封确认邮件。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "mit.submit",
+      "basicID": "basic.approval",
+      "text": "Please submit the plan for approval.",
+      "translation": "请提交方案，以便审批。"
+    }
+  },
+  {
+    "id": 81,
+    "familyID": "family.ject",
+    "title": "提出不同意见",
+    "guide": "ject 是投。把不同意见抛出来，或者把提议退回去。",
+    "wordIDs": [
+      "ject.object",
+      "ject.objection",
+      "ject.reject",
+      "ject.rejection",
+      "ject.inject",
+      "ject.injection",
+      "ject.eject",
+      "ject.ejection",
+      "ject.interject",
+      "ject.subject",
+      "ject.turn_down"
+    ],
+    "extraIDs": [],
+    "scene": "大家在讨论一个新排班，你想知道同事的顾虑。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "Do you object to the change?",
+        "translation": "你反对这个改动吗？"
+      },
+      {
+        "text": "I have one objection. Friday is too late.",
+        "translation": "我有一点异议，周五太晚了。"
+      }
+    ],
+    "recallDay": 73,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.point",
+      "basic.argument",
+      "basic.protest",
+      "basic.respect",
+      "basic.peace",
+      "basic.not"
+    ],
+    "mission": {
+      "goal": "提出不同意见",
+      "turns": [
+        {
+          "partner": "Do you object to the change?",
+          "partnerZH": "你反对这个改动吗？",
+          "reply": "I have one objection. Friday is too late.",
+          "replyZH": "我有一点异议，周五太晚了。"
+        },
+        {
+          "partner": "What day would be better for you?",
+          "partnerZH": "你觉得哪一天更好？",
+          "reply": "Thursday morning would work for me.",
+          "replyZH": "我周四上午方便。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "ject.objection",
+      "basicID": "basic.point",
+      "text": "I have an objection to that point.",
+      "translation": "对于那一点，我有异议。"
+    }
+  },
+  {
+    "id": 82,
+    "familyID": "family.struct",
+    "title": "听教练讲步骤",
+    "guide": "instruct 是教别人怎么做。分清指导、说明和指导你的人。",
+    "wordIDs": [
+      "struct.instruct",
+      "struct.instruction",
+      "struct.instructor",
+      "struct.structure",
+      "struct.structural",
+      "struct.restructure",
+      "struct.obstruction",
+      "struct.infrastructure"
+    ],
+    "extraIDs": [],
+    "scene": "你第一次参加健身课。",
+    "roles": [
+      "你",
+      "教练"
+    ],
+    "dialogue": [
+      {
+        "text": "Are you the instructor?",
+        "translation": "你是这节课的教练吗？"
+      },
+      {
+        "text": "Yes. Follow my instructions and we'll start slowly.",
+        "translation": "是的，跟我说的步骤来，我们慢慢开始。"
+      }
+    ],
+    "recallDay": 68,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.order",
+      "basic.attempt",
+      "basic.quick",
+      "basic.apparatus",
+      "basic.instrument",
+      "basic.expert",
+      "basic.servant"
+    ],
+    "mission": {
+      "goal": "听教练讲步骤",
+      "turns": [
+        {
+          "partner": "Are you the instructor?",
+          "partnerZH": "你是这节课的教练吗？",
+          "reply": "Yes. Follow my instructions and we'll start slowly.",
+          "replyZH": "是的，跟我说的步骤来，我们慢慢开始。"
+        },
+        {
+          "partner": "What should I do if the step is too hard?",
+          "partnerZH": "如果这个动作太难，应该怎么办？",
+          "reply": "Stop and tell me. We'll try an easier one.",
+          "replyZH": "先停下来告诉我，我们换个简单的。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "struct.instruction",
+      "basicID": "basic.order",
+      "text": "Follow each instruction in order.",
+      "translation": "按顺序照着每条指示做。"
+    }
+  },
+  {
+    "id": 83,
+    "familyID": "family.scrib",
+    "title": "订阅一份每周简报",
+    "guide": "scribe 和写有关。签名订阅，把声音写下来，就能串起这组词。",
+    "wordIDs": [
+      "scrib.subscribe",
+      "scrib.subscription",
+      "scrib.transcribe",
+      "scrib.transcript",
+      "scrib.prescription",
+      "scrib.manuscript",
+      "scrib.screenplay"
+    ],
+    "extraIDs": [],
+    "scene": "同事推荐了一份附访谈文字稿的简报。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "How do I subscribe?",
+        "translation": "我怎么订阅？"
+      },
+      {
+        "text": "Use this link. Each issue includes a transcript.",
+        "translation": "点这个链接，每一期都附文字稿。"
+      }
+    ],
+    "recallDay": 39,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.advertisement",
+      "basic.frequent",
+      "basic.selection",
+      "basic.fiction"
+    ],
+    "mission": {
+      "goal": "订阅一份每周简报",
+      "turns": [
+        {
+          "partner": "How do I subscribe?",
+          "partnerZH": "我怎么订阅？",
+          "reply": "Use this link. Each issue includes a transcript.",
+          "replyZH": "点这个链接，每一期都附文字稿。"
+        },
+        {
+          "partner": "How often will it arrive?",
+          "partnerZH": "它多久发一次？",
+          "reply": "Once a week, on Friday.",
+          "replyZH": "每周一次，在周五。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "scrib.subscription",
+      "basicID": "basic.advertisement",
+      "text": "I saw an advertisement for a magazine subscription.",
+      "translation": "我看到一则杂志订阅广告。"
+    }
+  },
+  {
+    "id": 84,
+    "familyID": "family.aud",
+    "title": "参加一次试演",
+    "guide": "aud 和听有关。先分清谁在听，再分清试演这个名词和动作。",
+    "wordIDs": [
+      "aud.audience.4",
+      "aud.audition.5",
+      "aud.audition.extra3",
+      "aud.audiovisual.extra4",
+      "aud.auditor.extra1",
+      "aud.audit.9",
+      "aud.audiology.extra5",
+      "aud.audiologist.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "社区剧团正在招募新演员。",
+    "roles": [
+      "你",
+      "负责人"
+    ],
+    "dialogue": [
+      {
+        "text": "Can I audition on Saturday?",
+        "translation": "我可以周六来试演吗？"
+      },
+      {
+        "text": "Yes. Your audition starts at ten.",
+        "translation": "可以，你的试演十点开始。"
+      }
+    ],
+    "recallDay": 18,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.amusement",
+      "basic.competition",
+      "basic.judge",
+      "basic.reward",
+      "basic.verse"
+    ],
+    "mission": {
+      "goal": "参加一次试演",
+      "turns": [
+        {
+          "partner": "Can I audition on Saturday?",
+          "partnerZH": "我可以周六来试演吗？",
+          "reply": "Yes. Your audition starts at ten.",
+          "replyZH": "可以，你的试演十点开始。"
+        },
+        {
+          "partner": "What should I bring with me?",
+          "partnerZH": "我需要带什么？",
+          "reply": "Bring your music and a copy of your name and number.",
+          "replyZH": "带上你的乐谱，还有写着姓名和电话号码的纸条。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "aud.audience.4",
+      "basicID": "basic.judge",
+      "text": "The judge spoke to the audience.",
+      "translation": "评委向观众讲话。"
+    }
+  },
+  {
+    "id": 85,
+    "familyID": "family.cred",
+    "title": "判断消息是否可信",
+    "guide": "cred 和相信有关。问「有多可信」和问「怎么说」用不同词尾。",
+    "wordIDs": [
+      "cred.credible",
+      "cred.credibility",
+      "cred.credibly",
+      "cred.discredit",
+      "cred.incredible",
+      "cred.accreditation",
+      "cred.credulous",
+      "cred.incredulous",
+      "cred.creed"
+    ],
+    "extraIDs": [],
+    "scene": "你和同事要转发一条消息。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "Is this source credible?",
+        "translation": "这个消息来源可靠吗？"
+      },
+      {
+        "text": "Let's check its credibility first.",
+        "translation": "我们先核实一下它的可信度。"
+      }
+    ],
+    "recallDay": 72,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.fact",
+      "basic.doubt",
+      "basic.belief",
+      "basic.true",
+      "basic.false",
+      "basic.record"
+    ],
+    "mission": {
+      "goal": "判断消息是否可信",
+      "turns": [
+        {
+          "partner": "Is this source credible?",
+          "partnerZH": "这个消息来源可靠吗？",
+          "reply": "Let's check its credibility first.",
+          "replyZH": "我们先核实一下它的可信度。"
+        },
+        {
+          "partner": "How could we check that date?",
+          "partnerZH": "我们怎样核实那个日期？",
+          "reply": "Let's look at the original record.",
+          "replyZH": "看看原始记录吧。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "cred.credible",
+      "basicID": "basic.fact",
+      "text": "Check each fact to see if the story is credible.",
+      "translation": "逐项核对事实，看看这件事是否可信。"
+    }
+  },
+  {
+    "id": 86,
+    "familyID": "family.tract",
+    "title": "一个拼法，两种重音",
+    "guide": "contract 有两种重音。说一份合同，重音在前；说收缩，重音在后。",
+    "wordIDs": [
+      "tract.contract.agreement",
+      "tract.contract",
+      "tract.retract",
+      "tract.extract",
+      "tract.extraction",
+      "tract.distraction",
+      "tract.abstract",
+      "tract.traction",
+      "tract.tractor",
+      "tract.subtract"
+    ],
+    "extraIDs": [],
+    "scene": "团队要先看一份合同，再决定是否接受修改。",
+    "roles": [
+      "同事",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Have you read the contract?",
+        "translation": "你看过合同了吗？"
+      },
+      {
+        "text": "Yes. I'll ask them to retract that claim.",
+        "translation": "看过了，我会请他们收回那个说法。"
+      }
+    ],
+    "recallDay": 38,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.trade",
+      "basic.law",
+      "basic.property",
+      "basic.owner",
+      "basic.part"
+    ],
+    "mission": {
+      "goal": "一个拼法，两种重音",
+      "turns": [
+        {
+          "partner": "Have you read the contract?",
+          "partnerZH": "你看过合同了吗？",
+          "reply": "Yes. I'll ask them to retract that claim.",
+          "replyZH": "看过了，我会请他们收回那个说法。"
+        },
+        {
+          "partner": "Which part would you like to change?",
+          "partnerZH": "你想改哪一部分？",
+          "reply": "The payment date in the last paragraph.",
+          "replyZH": "最后一段的付款日期。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "tract.contract",
+      "basicID": "basic.trade",
+      "text": "We signed a trade contract.",
+      "translation": "我们签了一份贸易合同。"
+    }
+  },
+  {
+    "id": 87,
+    "familyID": "family.vers",
+    "title": "把文件换一种形式",
+    "guide": "vers 有转变的意思。一个版本、一回转换、一次逆转，结果各不同。",
+    "wordIDs": [
+      "vers.version.6",
+      "vers.conversion.7",
+      "vers.reversal.extra2",
+      "vers.reversible.extra1",
+      "vers.reverse.0",
+      "vers.versatile.8",
+      "vers.reverse.4",
+      "vers.irreversible.extra3",
+      "vers.converse.extra4",
+      "vers.diverse.extra5"
+    ],
+    "extraIDs": [],
+    "scene": "你正要转换一份工作文件。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "Is the conversion reversible?",
+        "translation": "这次转换能撤回吗？"
+      },
+      {
+        "text": "Yes. I saved the original version.",
+        "translation": "能，我保存了原始版本。"
+      }
+    ],
+    "recallDay": 64,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.change",
+      "basic.automatic",
+      "basic.fixed",
+      "basic.system",
+      "basic.process",
+      "basic.adjustment",
+      "basic.complete",
+      "basic.mixed"
+    ],
+    "mission": {
+      "goal": "把文件换一种形式",
+      "turns": [
+        {
+          "partner": "Is the conversion reversible?",
+          "partnerZH": "这次转换能撤回吗？",
+          "reply": "Yes. I saved the original version.",
+          "replyZH": "能，我保存了原始版本。"
+        },
+        {
+          "partner": "Can you send me both files?",
+          "partnerZH": "可以把两个文件都发我吗？",
+          "reply": "Yes. I'll send the original and the small copy.",
+          "replyZH": "可以，我把原件和小文件都发给你。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "vers.version.6",
+      "basicID": "basic.system",
+      "text": "Which version of the system do you use?",
+      "translation": "你用的是哪个版本的系统？"
+    }
+  },
+  {
+    "id": 88,
+    "familyID": "family.bio",
+    "title": "读懂关于生命的一页",
+    "guide": "bio 是生命，也可以指一个人的生平。看后半截是在写、研究还是应用。",
+    "wordIDs": [
+      "bio.biography.1",
+      "bio.biological.4",
+      "bio.biotechnology.extra2",
+      "bio.biodegradable.6",
+      "bio.biofuel.extra3",
+      "bio.biochemistry.extra4",
+      "bio.biometric.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "你在图书馆挑了一本科学家的传记。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Is that a biology textbook?",
+        "translation": "那是本生物课本吗？"
+      },
+      {
+        "text": "It's a biography of a scientist who worked in biotechnology.",
+        "translation": "这是一本从事生物技术研究的科学家的传记。"
+      }
+    ],
+    "recallDay": 70,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.growth",
+      "basic.development",
+      "basic.daughter",
+      "basic.son",
+      "basic.dead"
+    ],
+    "mission": {
+      "goal": "读懂关于生命的一页",
+      "turns": [
+        {
+          "partner": "Is that a biology textbook?",
+          "partnerZH": "那是本生物课本吗？",
+          "reply": "It's a biography of a scientist who worked in biotechnology.",
+          "replyZH": "这是一本从事生物技术研究的科学家的传记。"
+        },
+        {
+          "partner": "Would you recommend it to a beginner?",
+          "partnerZH": "你会推荐给初学者吗？",
+          "reply": "Yes. The first chapter is very clear.",
+          "replyZH": "会，第一章讲得很明白。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "bio.biography.1",
+      "basicID": "basic.daughter",
+      "text": "His daughter wrote his biography.",
+      "translation": "他的女儿为他写了传记。"
+    }
+  },
+  {
+    "id": 89,
+    "familyID": "family.chron",
+    "title": "把团队的时间对齐",
+    "guide": "chron 是时间。对齐大家的钟就是同步，量时间则要用计时器。",
+    "wordIDs": [
+      "chron.synchronize.5",
+      "chron.synchronous.6",
+      "chron.chronometer.8",
+      "chron.chronic.1",
+      "chron.chronically.extra3",
+      "chron.chronobiology.extra4",
+      "chron.chronobiological.extra5",
+      "chron.chronograph.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "准备录音前，两个人先对表。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "Let's synchronize our clocks.",
+        "translation": "我们把钟对一下吧。"
+      },
+      {
+        "text": "Mine is ten seconds ahead.",
+        "translation": "我的快了十秒。"
+      }
+    ],
+    "recallDay": 69,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.watch",
+      "basic.equal",
+      "basic.unit"
+    ],
+    "mission": {
+      "goal": "把团队的时间对齐",
+      "turns": [
+        {
+          "partner": "Let's synchronize our clocks.",
+          "partnerZH": "我们把钟对一下吧。",
+          "reply": "Mine is ten seconds ahead.",
+          "replyZH": "我的快了十秒。"
+        },
+        {
+          "partner": "What time should we all use?",
+          "partnerZH": "我们统一用什么时间？",
+          "reply": "Let's use the time on the office clock.",
+          "replyZH": "用办公室那座钟的时间吧。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "chron.synchronize.5",
+      "basicID": "basic.watch",
+      "text": "Can we synchronize our watches?",
+      "translation": "我们来对一下表好吗？"
+    }
+  },
+  {
+    "id": 90,
+    "familyID": "family.geo",
+    "title": "看懂岩石展的说明",
+    "guide": "geo 是地球。研究地球、做研究的人和相关性质可以一起记。",
+    "wordIDs": [
+      "geo.geology.1",
+      "geo.geologist.2",
+      "geo.geological.extra3",
+      "geo.geothermal.5",
+      "geo.geosphere.5",
+      "geo.geocentric.7",
+      "geo.geodesy.9",
+      "geo.geopolitical.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "你带家人逛本地的小型地质展。",
+    "roles": [
+      "家人",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Who collected these rocks?",
+        "translation": "这些岩石是谁收集的？"
+      },
+      {
+        "text": "A geologist from the local university.",
+        "translation": "本地大学的一位地质学家。"
+      }
+    ],
+    "recallDay": 53,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.solid",
+      "basic.coal",
+      "basic.iron",
+      "basic.gold",
+      "basic.silver",
+      "basic.copper",
+      "basic.mass"
+    ],
+    "mission": {
+      "goal": "看懂岩石展的说明",
+      "turns": [
+        {
+          "partner": "Who collected these rocks?",
+          "partnerZH": "这些岩石是谁收集的？",
+          "reply": "A geologist from the local university.",
+          "replyZH": "本地大学的一位地质学家。"
+        },
+        {
+          "partner": "How can I tell these two apart?",
+          "partnerZH": "我怎么区分这两块石头？",
+          "reply": "Look at their color and feel their weight.",
+          "replyZH": "看颜色，再掂掂重量。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "geo.geologist.2",
+      "basicID": "basic.coal",
+      "text": "The geologist found coal here.",
+      "translation": "地质学家在这里发现了煤。"
+    }
+  },
+  {
+    "id": 91,
+    "familyID": "family.voc",
+    "title": "聊自己的职业方向",
+    "guide": "voc 和声音、呼唤有关。把愿意投入的工作和为某事发声分开记。",
+    "wordIDs": [
+      "voc.vocation.5",
+      "voc.vocational.6",
+      "voc.advocate.7",
+      "voc.invocation.8",
+      "voc.invoke.8",
+      "voc.vocative.extra4",
+      "voc.vociferously.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "朋友打算学习一门新手艺。",
+    "roles": [
+      "你",
+      "朋友"
+    ],
+    "dialogue": [
+      {
+        "text": "Are you looking for vocational training?",
+        "translation": "你在找职业技能培训吗？"
+      },
+      {
+        "text": "Yes. I'd like to train as a carpenter.",
+        "translation": "对，我想学做木工。"
+      }
+    ],
+    "recallDay": 32,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.work",
+      "basic.business",
+      "basic.offer",
+      "basic.secretary",
+      "basic.representative",
+      "basic.organization",
+      "basic.purpose",
+      "basic.important",
+      "basic.industry"
+    ],
+    "mission": {
+      "goal": "聊自己的职业方向",
+      "turns": [
+        {
+          "partner": "Are you looking for vocational training?",
+          "partnerZH": "你在找职业技能培训吗？",
+          "reply": "Yes. I'd like to train as a carpenter.",
+          "replyZH": "对，我想学做木工。"
+        },
+        {
+          "partner": "What kind of work would you like to do?",
+          "partnerZH": "你想做哪一类工作？",
+          "reply": "I'd like to make wooden tables.",
+          "replyZH": "我想做木桌。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "voc.vocational.6",
+      "basicID": "basic.work",
+      "text": "This vocational course prepares you for work.",
+      "translation": "这门职业课程帮你为工作做准备。"
+    }
+  },
+  {
+    "id": 92,
+    "familyID": "family.phon",
+    "title": "同样的声音，不同的拼法",
+    "guide": "phon 是声音。先想到怎么发声，再听两个词是不是同音。",
+    "wordIDs": [
+      "phon.phonetic.4",
+      "phon.phonetics.5",
+      "phon.homophone.extra6",
+      "phon.symphony.7",
+      "phon.phonics.6",
+      "phon.euphonious.8",
+      "phon.phoneme.extra1",
+      "phon.phonology.extra2",
+      "phon.phonological.extra3",
+      "phon.phonologist.extra4"
+    ],
+    "extraIDs": [],
+    "scene": "同事学英语时，把 hear 和 here 听混了。",
+    "roles": [
+      "同事",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Do “hear” and “here” sound the same?",
+        "translation": "hear 和 here 读起来一样吗？"
+      },
+      {
+        "text": "Yes. They're homophones.",
+        "translation": "是的，它们是同音异义词。"
+      }
+    ],
+    "recallDay": 17,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.word",
+      "basic.sound",
+      "basic.ear",
+      "basic.common",
+      "basic.comparison",
+      "basic.sort"
+    ],
+    "mission": {
+      "goal": "同样的声音，不同的拼法",
+      "turns": [
+        {
+          "partner": "Do “hear” and “here” sound the same?",
+          "partnerZH": "hear 和 here 读起来一样吗？",
+          "reply": "Yes. They're homophones.",
+          "replyZH": "是的，它们是同音异义词。"
+        },
+        {
+          "partner": "Could you use “here” in a sentence?",
+          "partnerZH": "你能用 here 说一句话吗？",
+          "reply": "Please put your bag here.",
+          "replyZH": "请把包放在这里。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "phon.homophone.extra6",
+      "basicID": "basic.sound",
+      "text": "A homophone has the same sound as another word but a different meaning.",
+      "translation": "同音异义词和另一个词读音相同，但意思不同。"
+    }
+  },
+  {
+    "id": 93,
+    "familyID": "family.path",
+    "title": "听懂自然展的疾病词汇",
+    "guide": "patho- 是疾病。后面告诉你是在研究疾病，还是在说引起疾病的东西。",
+    "wordIDs": [
+      "path.pathology.5",
+      "path.pathological.6",
+      "path.pathogen.extra1",
+      "path.pathogenic.extra2",
+      "path.pathogenesis.extra3",
+      "path.psychopath.extra4",
+      "path.psychopathic.extra5",
+      "path.pathetic.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "你在科学馆看到一张讲疾病的展板。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "What does “pathogen” mean on this sign?",
+        "translation": "展板上的 pathogen 是什么意思？"
+      },
+      {
+        "text": "It means something that can cause disease.",
+        "translation": "它指能引起疾病的病原体。"
+      }
+    ],
+    "recallDay": 40,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.disease",
+      "basic.healthy",
+      "basic.body",
+      "basic.blood",
+      "basic.muscle",
+      "basic.nerve",
+      "basic.chemical",
+      "basic.substance",
+      "basic.natural",
+      "basic.digestion",
+      "basic.poison",
+      "basic.brain"
+    ],
+    "mission": {
+      "goal": "听懂自然展的疾病词汇",
+      "turns": [
+        {
+          "partner": "What does “pathogen” mean on this sign?",
+          "partnerZH": "展板上的 pathogen 是什么意思？",
+          "reply": "It means something that can cause disease.",
+          "replyZH": "它指能引起疾病的病原体。"
+        },
+        {
+          "partner": "Where in the display can I learn more?",
+          "partnerZH": "展览里我还能在哪里多了解一些？",
+          "reply": "The next panel has a simple example.",
+          "replyZH": "下一块展板上有个简单的例子。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "path.pathogen.extra1",
+      "basicID": "basic.disease",
+      "text": "This pathogen can cause disease.",
+      "translation": "这种病原体会引起疾病。"
+    }
+  },
+  {
+    "id": 94,
+    "familyID": "family.log",
+    "title": "用类比解释陌生事物",
+    "guide": "通过相似点来解释新东西，就是类比。再认识两个表示研究领域的词。",
+    "wordIDs": [
+      "log.analogy.extra1",
+      "log.analogous.extra2",
+      "log.psychology.7",
+      "log.technology.8",
+      "log.logarithm.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "同事用厨房收纳来解释怎样整理文件。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "That's a helpful analogy.",
+        "translation": "这个类比很有帮助。"
+      },
+      {
+        "text": "Yes. The two systems are analogous.",
+        "translation": "是啊，两种系统有相似之处。"
+      }
+    ],
+    "recallDay": 75,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.theory",
+      "basic.idea",
+      "basic.mind",
+      "basic.complex",
+      "basic.invention",
+      "basic.science",
+      "basic.discovery",
+      "basic.touch"
+    ],
+    "mission": {
+      "goal": "用类比解释陌生事物",
+      "turns": [
+        {
+          "partner": "That's a helpful analogy.",
+          "partnerZH": "这个类比很有帮助。",
+          "reply": "Yes. The two systems are analogous.",
+          "replyZH": "是啊，两种系统有相似之处。"
+        },
+        {
+          "partner": "Can you think of one more example?",
+          "partnerZH": "你还能想出另一个例子吗？",
+          "reply": "A map is like a picture of a place from above.",
+          "replyZH": "地图就像是从上方看到的一个地方的图画。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "log.analogy.extra1",
+      "basicID": "basic.idea",
+      "text": "An analogy can make an idea clearer.",
+      "translation": "打个比方能把想法说得更清楚。"
+    }
+  },
+  {
+    "id": 95,
+    "familyID": "family.rupt",
+    "title": "说话被打断时",
+    "guide": "rupt 是断开。正在说的话从中间断开，就是被打断。",
+    "wordIDs": [
+      "rupt.interrupt",
+      "rupt.interruption",
+      "rupt.disruptive",
+      "rupt.erupt",
+      "rupt.eruption",
+      "rupt.eruptive",
+      "rupt.corrupt"
+    ],
+    "extraIDs": [],
+    "scene": "你想在会议中补充一条消息。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "May I interrupt for a moment?",
+        "translation": "我能打断一下吗？"
+      },
+      {
+        "text": "Of course. A brief interruption is fine.",
+        "translation": "当然，简短插一句没问题。"
+      }
+    ],
+    "recallDay": 67,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.again",
+      "basic.talk",
+      "basic.surprise",
+      "basic.shock"
+    ],
+    "mission": {
+      "goal": "说话被打断时",
+      "turns": [
+        {
+          "partner": "May I interrupt for a moment?",
+          "partnerZH": "我能打断一下吗？",
+          "reply": "Of course. A brief interruption is fine.",
+          "replyZH": "当然，简短插一句没问题。"
+        },
+        {
+          "partner": "What did you want to add?",
+          "partnerZH": "你想补充什么？",
+          "reply": "Just one detail about the time.",
+          "replyZH": "我只想补充一个关于时间的细节。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "rupt.interrupt",
+      "basicID": "basic.talk",
+      "text": "Please don't interrupt my talk.",
+      "translation": "请先让我把话讲完。"
+    }
+  },
+  {
+    "id": 96,
+    "familyID": "family.graph",
+    "title": "把文字排成段落",
+    "guide": "graph 和写有关。把一句句话排成段，再把字排在页面上。",
+    "wordIDs": [
+      "graph.paragraph.3",
+      "graph.paragraphing.8",
+      "graph.typography.extra5",
+      "graph.paragraph.8",
+      "graph.calligraphy.extra2",
+      "graph.calligrapher.extra3",
+      "graph.typographical.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "你和同事在看一份活动单页。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "Can we shorten this paragraph?",
+        "translation": "我们能把这一段缩短一点吗？"
+      },
+      {
+        "text": "Yes. The paragraphing will be clearer that way.",
+        "translation": "可以，这样分段会更清楚。"
+      }
+    ],
+    "recallDay": 66,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.writing",
+      "basic.print",
+      "basic.prose",
+      "basic.space"
+    ],
+    "mission": {
+      "goal": "把文字排成段落",
+      "turns": [
+        {
+          "partner": "Can we shorten this paragraph?",
+          "partnerZH": "我们能把这一段缩短一点吗？",
+          "reply": "Yes. The paragraphing will be clearer that way.",
+          "replyZH": "可以，这样分段会更清楚。"
+        },
+        {
+          "partner": "Which sentence can we leave out?",
+          "partnerZH": "我们可以删去哪句？",
+          "reply": "The second one. It says the same thing twice.",
+          "replyZH": "第二句，它把同一件事说了两遍。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "graph.paragraph.3",
+      "basicID": "basic.writing",
+      "text": "I'm writing the last paragraph.",
+      "translation": "我正在写最后一段。"
+    }
+  },
+  {
+    "id": 97,
+    "familyID": "family.vis",
+    "title": "看过以后再修改",
+    "guide": "vis 和看有关。再看一次去改，是修订；从整体上看，是监督。",
+    "wordIDs": [
+      "vis.revise.extra1",
+      "vis.revision.extra2",
+      "vis.supervise.7",
+      "vis.supervisor.8",
+      "vis.review.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "报告发出去之前，你想再改一处。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "Can I revise the report?",
+        "translation": "我能再改一下报告吗？"
+      },
+      {
+        "text": "Yes. Send the revision to your supervisor.",
+        "translation": "可以，把修订稿发给你的主管。"
+      }
+    ],
+    "recallDay": 54,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.addition",
+      "basic.error",
+      "basic.suggestion",
+      "basic.wise",
+      "basic.foolish"
+    ],
+    "mission": {
+      "goal": "看过以后再修改",
+      "turns": [
+        {
+          "partner": "Can I revise the report?",
+          "partnerZH": "我能再改一下报告吗？",
+          "reply": "Yes. Send the revision to your supervisor.",
+          "replyZH": "可以，把修订稿发给你的主管。"
+        },
+        {
+          "partner": "When can you send the new copy?",
+          "partnerZH": "你什么时候能发新版？",
+          "reply": "Tomorrow morning, before the meeting.",
+          "replyZH": "明天上午，会议之前。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "vis.revise.extra1",
+      "basicID": "basic.suggestion",
+      "text": "I'll revise the text using your suggestion.",
+      "translation": "我会按你的建议改这段文字。"
+    }
+  },
+  {
+    "id": 98,
+    "familyID": "family.press",
+    "title": "给人留下印象",
+    "guide": "press 是压。把印记留在别人心里，就是留下印象。",
+    "wordIDs": [
+      "press.impress",
+      "press.impression",
+      "press.impressive",
+      "press.compression",
+      "press.depression"
+    ],
+    "extraIDs": [],
+    "scene": "活动结束后，两个人聊起一场精彩的演示。",
+    "roles": [
+      "你",
+      "同事"
+    ],
+    "dialogue": [
+      {
+        "text": "That was an impressive presentation.",
+        "translation": "那场演示真让人印象深刻。"
+      },
+      {
+        "text": "Yes. It left a strong impression on me.",
+        "translation": "是的，它给我留下了深刻印象。"
+      }
+    ],
+    "recallDay": 62,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.memory",
+      "basic.pleasure",
+      "basic.special",
+      "basic.great",
+      "basic.even"
+    ],
+    "mission": {
+      "goal": "给人留下印象",
+      "turns": [
+        {
+          "partner": "That was an impressive presentation.",
+          "partnerZH": "那场演示真让人印象深刻。",
+          "reply": "Yes. It left a strong impression on me.",
+          "replyZH": "是的，它给我留下了深刻印象。"
+        },
+        {
+          "partner": "Which part will you remember?",
+          "partnerZH": "你会记住哪一部分？",
+          "reply": "The story at the end. It felt very real.",
+          "replyZH": "结尾的故事，听起来特别真实。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "press.impression",
+      "basicID": "basic.great",
+      "text": "You made a great impression.",
+      "translation": "你给人留下了很好的印象。"
+    }
+  },
+  {
+    "id": 99,
+    "familyID": "family.plan",
+    "title": "自己安排下一次行程",
+    "guide": "plan 是计划。换个词尾，可以说规划的人，也能说规划这件事。",
+    "wordIDs": [
+      "plan.plan",
+      "plan.planner",
+      "plan.planning"
+    ],
+    "extraIDs": [],
+    "scene": "你和朋友准备下一次短途旅行。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Who will do the planning?",
+        "translation": "谁来做规划？"
+      },
+      {
+        "text": "I will. I already have a plan.",
+        "translation": "我来，我已经有个计划了。"
+      }
+    ],
+    "recallDay": 41,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.journey",
+      "basic.weather",
+      "basic.summer",
+      "basic.warm",
+      "basic.umbrella",
+      "basic.spade",
+      "basic.plow"
+    ],
+    "mission": {
+      "goal": "自己安排下一次行程",
+      "turns": [
+        {
+          "partner": "Who will do the planning?",
+          "partnerZH": "谁来做规划？",
+          "reply": "I will. I already have a plan.",
+          "replyZH": "我来，我已经有个计划了。"
+        },
+        {
+          "partner": "What will you do if the train is late?",
+          "partnerZH": "火车晚点的话你会怎么做？",
+          "reply": "I'll take the bus and call the hotel.",
+          "replyZH": "我会改坐公交，再给酒店打电话。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "plan.plan",
+      "basicID": "basic.journey",
+      "text": "Let's plan our journey.",
+      "translation": "我们来安排一下行程吧。"
+    }
+  },
+  {
+    "id": 100,
+    "familyID": "family.port",
+    "title": "把第一天的携带换个场景",
+    "guide": "回到 port。记住货往哪运，再看后面指人还是指特点。",
+    "wordIDs": [
+      "sense.portable.easy-carry",
+      "port.importer",
+      "port.exporter",
+      "port.portability"
+    ],
+    "extraIDs": [],
+    "scene": "你给国外的朋友挑礼物，最后在两款音箱中做选择。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Why did you choose the portable speaker?",
+        "translation": "你为什么选了这款便携音箱？"
+      },
+      {
+        "text": "Portability matters to me. I can take it anywhere.",
+        "translation": "我很看重便携性，走到哪里都能带上。"
+      }
+    ],
+    "recallDay": 1,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.parcel",
+      "basic.porter",
+      "basic.vessel"
+    ],
+    "mission": {
+      "goal": "在车站说明目的地和行李，遇到误车再问换乘。",
+      "turns": [
+        {
+          "partner": "Where are you going, and what are you taking?",
+          "partnerZH": "你要去哪里，带了什么？",
+          "reply": "I'm going to the airport with one small bag.",
+          "replyZH": "我要去机场，只带一个小包。"
+        },
+        {
+          "partner": "That train has just left. What would you like to do?",
+          "partnerZH": "那趟火车刚开走。你想怎么办？",
+          "reply": "When is the next one? Can I use the same ticket?",
+          "replyZH": "下一班几点？我还能用这张票吗？"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "port.exporter",
+      "basicID": "basic.parcel",
+      "text": "The exporter sent us a parcel.",
+      "translation": "出口商给我们寄来了一个包裹。"
+    }
+  }
+]

@@ -1,0 +1,354 @@
+{
+  "id": "family.sign",
+  "root": "sign",
+  "meaning": "标记、信号",
+  "explanation": "sign 关联拉丁语 signum「标记、信号」。标记可以指路、传达意思，也可以证明是谁签了字。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "sign.sign.1",
+      "word": "sign",
+      "partOfSpeech": "名词",
+      "meaning": "标志；迹象；符号",
+      "explanation": "用来传达信息的标记，也可指某事存在的迹象。",
+      "example": "A sign near the bridge warns drivers about ice.",
+      "translation": "桥边的标志提醒司机注意结冰。",
+      "rootRelation": "sign（标记）词族核心词。",
+      "acceptedAnswers": [
+        "标志"
+      ],
+      "formation": "sign（标记） = 标记；迹象",
+      "pronunciation": "saɪn",
+      "memoryCue": "看见前面写着出口的牌子就知道往哪走，这块牌子就是标志。"
+    },
+    {
+      "id": "sign.signal.2",
+      "word": "signal",
+      "partOfSpeech": "名词",
+      "meaning": "信号；示意",
+      "explanation": "传递信息或提示行动的声音、动作或装置。",
+      "example": "She raised her hand as a signal to begin.",
+      "translation": "她举手示意开始。",
+      "rootRelation": "sign（标记）相关词形，现代词义发展为传递提示。",
+      "acceptedAnswers": [
+        "信号"
+      ],
+      "formation": "signal · 信号",
+      "pronunciation": "ˈsɪɡnəl",
+      "memoryCue": "传递信息或提示行动的声音、动作或装置。",
+      "plainCue": "红灯一亮，你知道该停下，红灯给你的就是信号。"
+    },
+    {
+      "id": "sign.signature.4",
+      "word": "signature",
+      "partOfSpeech": "名词",
+      "meaning": "签名；署名",
+      "explanation": "某人亲手写下的姓名，用以确认身份或同意。",
+      "example": "Your signature is needed at the bottom of the form.",
+      "translation": "表格底部需要你的签名。",
+      "rootRelation": "sign 加 -ature 构成名词。",
+      "acceptedAnswers": [
+        "签名"
+      ],
+      "formation": "sign-（标记） + -ature（行为或结果） → 签名",
+      "pronunciation": "ˈsɪɡnətʃɚ",
+      "memoryCue": "从 sign 的「签字」来记。签字留下的名字就是签名。",
+      "parts": [
+        {
+          "text": "sign-",
+          "ipa": "ˈsɪɡn",
+          "meaning": "标记",
+          "notes": [
+            "在 signature 中读 /sɪɡn/，不是单独 sign 的 /saɪn/"
+          ]
+        },
+        {
+          "text": "-ature",
+          "ipa": "ətʃɚ",
+          "meaning": "行为或结果",
+          "notes": [
+            "签下的名字"
+          ]
+        }
+      ],
+      "combined": "在文件末尾写下你自己的名字，那个名字就是你的签名。"
+    },
+    {
+      "id": "sign.signify.6",
+      "word": "signify",
+      "partOfSpeech": "动词",
+      "meaning": "表示；意味着",
+      "explanation": "作为某事的标记或信号，表达某种意思。",
+      "example": "A red light signifies that the battery is low.",
+      "translation": "红灯表示电量不足。",
+      "rootRelation": "sign 加动词后缀 -ify。",
+      "acceptedAnswers": [
+        "表示"
+      ],
+      "formation": "sign-（标记） + -ify（使成为、表示） → 表示",
+      "pronunciation": "ˈsɪɡnəˌfaɪ",
+      "memoryCue": "sign 是标记。一个标志指向某种意思，就是表示。",
+      "parts": [
+        {
+          "text": "sign-",
+          "ipa": "ˈsɪɡn",
+          "meaning": "标记",
+          "notes": [
+            "在 signify 中读 /sɪɡn/"
+          ]
+        },
+        {
+          "text": "-ify",
+          "ipa": "əˌfaɪ",
+          "meaning": "使成为、表示"
+        }
+      ],
+      "combined": "绿灯一亮就能走。这里说的是绿灯意味着什么。"
+    },
+    {
+      "id": "sign.signal.3",
+      "word": "signal",
+      "partOfSpeech": "动词",
+      "meaning": "发信号；示意",
+      "explanation": "用动作、灯光或声音传达信息。",
+      "example": "The pilot signaled the crew to close the doors.",
+      "translation": "飞行员示意机组人员关门。",
+      "rootRelation": "与 signal 名词同形的动词用法。",
+      "acceptedAnswers": [
+        "发信号"
+      ],
+      "formation": "signal · 发信号",
+      "pronunciation": "ˈsɪɡnəl",
+      "memoryCue": "用动作、灯光或声音传达信息。",
+      "plainCue": "朝司机招招手让他停下，这个动作就是发信号。"
+    },
+    {
+      "id": "sign.signatory.5",
+      "word": "signatory",
+      "partOfSpeech": "名词",
+      "meaning": "签署方；签约者",
+      "explanation": "在协议或文件上签字的人或组织。",
+      "example": "Each signatory received a copy of the agreement.",
+      "translation": "每个签约方都收到了一份协议副本。",
+      "rootRelation": "sign 加表示身份的 -atory。",
+      "acceptedAnswers": [
+        "签署方"
+      ],
+      "formation": "signatory · 签署方",
+      "pronunciation": "ˈsɪɡnəˌtɔri",
+      "memoryCue": "在协议或文件上签字的人或组织。",
+      "plainCue": "协议最后签下名字的人，就是签署者。"
+    },
+    {
+      "id": "sign.significant.7",
+      "word": "significant",
+      "partOfSpeech": "形容词",
+      "meaning": "重要的；显著的",
+      "explanation": "足以引起注意或对结果产生影响的。",
+      "example": "The repair led to a significant reduction in noise.",
+      "translation": "维修后噪声明显降低。",
+      "rootRelation": "与 signify 同族，发展出表示有意义、重要的用法。",
+      "acceptedAnswers": [
+        "重要的"
+      ],
+      "formation": "signify → significant = 表示 → 重要的",
+      "pronunciation": "səɡˈnɪfɪkənt",
+      "memoryCue": "一个决定让事情有了很大变化，就说它很重要、影响显著。"
+    },
+    {
+      "id": "sign.insignificant.8",
+      "word": "insignificant",
+      "partOfSpeech": "形容词",
+      "meaning": "不重要的；微不足道的",
+      "explanation": "影响或意义很小，不值得特别关注。",
+      "example": "The scratch was insignificant and easy to fix.",
+      "translation": "这道划痕不严重，很容易修复。",
+      "rootRelation": "in-（不）加 significant。",
+      "acceptedAnswers": [
+        "不重要的"
+      ],
+      "formation": "insignificant · 不重要的",
+      "pronunciation": "ˌɪnsɪɡnˈjɪfɪkənt",
+      "memoryCue": "影响或意义很小，不值得特别关注。",
+      "plainCue": "少一粒盐也尝不出区别，这一点影响就叫微不足道。"
+    },
+    {
+      "id": "sign.signage.extra1",
+      "word": "signage",
+      "partOfSpeech": "名词",
+      "meaning": "标识系统；标牌",
+      "explanation": "一个地点内用于指路或说明规则的一组标牌。",
+      "example": "The hospital replaced its confusing signage.",
+      "translation": "医院更换了原先令人困惑的标识系统。",
+      "rootRelation": "sign（标记）加集合名词后缀 -age。",
+      "acceptedAnswers": [
+        "标识系统"
+      ],
+      "formation": "signage · 标识系统",
+      "pronunciation": "ˈsaɪnɪdʒ",
+      "memoryCue": "一个地点内用于指路或说明规则的一组标牌。",
+      "plainCue": "医院里指向挂号处、药房和出口的那些牌子，合起来就是标识。"
+    },
+    {
+      "id": "sign.signpost.extra2",
+      "word": "signpost",
+      "partOfSpeech": "名词",
+      "meaning": "路标；指示牌",
+      "explanation": "立在路边帮助人确定方向的标志。",
+      "example": "A signpost at the fork points toward the lake.",
+      "translation": "岔路口的路标指向湖边。",
+      "rootRelation": "sign 与 post 组成复合词。",
+      "acceptedAnswers": [
+        "路标"
+      ],
+      "formation": "signpost · 路标",
+      "pronunciation": "ˈsaɪnˌpoʊst",
+      "memoryCue": "立在路边帮助人确定方向的标志。",
+      "plainCue": "路口那块箭头指向车站的牌子，就是路标。"
+    },
+    {
+      "id": "sign.significantly.10",
+      "word": "significantly",
+      "partOfSpeech": "副词",
+      "meaning": "显著地；明显地",
+      "explanation": "用于描述变化在程度上大到容易被注意到。",
+      "example": "Travel times dropped significantly after the bridge reopened.",
+      "translation": "大桥重新开放后，出行时间明显缩短。",
+      "rootRelation": "significant 加副词后缀 -ly。",
+      "acceptedAnswers": [
+        "显著地",
+        "明显地",
+        "明显",
+        "显著"
+      ],
+      "formation": "significant + -ly = 重要的 → 显著地",
+      "pronunciation": "sɪɡˈnɪfɪkəntli",
+      "memoryCue": "significant 是显著的。说变化很明显，用 significantly。",
+      "parts": [
+        {
+          "text": "significant",
+          "ipa": "sɪɡnɪfɪkənt",
+          "meaning": "重要的"
+        },
+        {
+          "text": "-ly",
+          "ipa": "li",
+          "meaning": "用这样的方式"
+        }
+      ],
+      "combined": "原本要等一小时，现在只等十分钟，就是明显地快了。"
+    },
+    {
+      "id": "sign.designate.extra4",
+      "word": "designate",
+      "partOfSpeech": "动词",
+      "meaning": "指定；任命",
+      "explanation": "正式选择某人承担职位，或把某物标为特定用途。",
+      "example": "The council designated the building as a public shelter.",
+      "translation": "委员会指定这栋建筑作为公共避难所。",
+      "rootRelation": "de- 与 sign（标记）词源相关，现代意为标定、指定。",
+      "acceptedAnswers": [
+        "指定"
+      ],
+      "formation": "designate ← sign（标记） = 标明 → 指定",
+      "pronunciation": "ˈdɛzəɡˌneɪt",
+      "memoryCue": "当着大家的面点出谁来负责，这就叫指定负责人。"
+    },
+    {
+      "id": "sign.designation.extra5",
+      "word": "designation",
+      "partOfSpeech": "名词",
+      "meaning": "名称；指定的身份",
+      "explanation": "正式给予某物或某人的名称、类别或职务。",
+      "example": "The trail received a protected-area designation.",
+      "translation": "这条步道获得了保护区的指定身份。",
+      "rootRelation": "由 designate 加 -ion 构成。",
+      "acceptedAnswers": [
+        "名称"
+      ],
+      "formation": "designation · 名称",
+      "pronunciation": "ˌdɛzəɡˈneɪʃən",
+      "memoryCue": "正式给予某物或某人的名称、类别或职务。",
+      "plainCue": "名牌上写着你是安全负责人，这就是指定给你的身份。"
+    }
+  ],
+  "links": [
+    {
+      "to": "sign.signal.2",
+      "kind": "用法对照",
+      "note": "sign 可以是静态标志或迹象，signal 常传达立即可以采取行动的提示。",
+      "from": "sign.sign.1"
+    },
+    {
+      "to": "sign.signal.3",
+      "kind": "用法对照",
+      "note": "signal 作名词指信号，作动词表示给出信号。",
+      "from": "sign.signal.2"
+    },
+    {
+      "to": "sign.signature.4",
+      "kind": "同词根",
+      "note": "sign 作动词可以指签字，signature 指写下的签名。",
+      "from": "sign.sign.1"
+    },
+    {
+      "to": "sign.signatory.5",
+      "kind": "语义联系",
+      "note": "signature 是签名，signatory 是签署文件的人或机构。",
+      "from": "sign.signature.4"
+    },
+    {
+      "to": "sign.signify.6",
+      "kind": "语义联系",
+      "note": "sign 可以是一种迹象，signify 描述某事物表示或意味着什么。",
+      "from": "sign.sign.1"
+    },
+    {
+      "to": "sign.significant.7",
+      "kind": "同词根",
+      "note": "signify 是表示含义，significant 常说某事重要或显著。",
+      "from": "sign.signify.6"
+    },
+    {
+      "to": "sign.insignificant.8",
+      "kind": "用法对照",
+      "note": "significant 是重要或明显的，insignificant 是微不足道的。",
+      "from": "sign.significant.7"
+    },
+    {
+      "to": "sign.signage.extra1",
+      "kind": "派生关系",
+      "note": "一个 sign 可是单块标牌，signage 通常指整体标识系统。",
+      "from": "sign.sign.1"
+    },
+    {
+      "to": "sign.signpost.extra2",
+      "kind": "派生关系",
+      "note": "signpost 是显示方向的路标，也可比喻给人明确指引的标志。",
+      "from": "sign.sign.1"
+    },
+    {
+      "to": "sign.significantly.10",
+      "kind": "派生关系",
+      "note": "significant 是形容词，significantly 是副词，常修饰程度变化。",
+      "from": "sign.significant.7"
+    },
+    {
+      "to": "sign.designate.extra4",
+      "kind": "同词根",
+      "note": "signify 指表示含义，designate 指明确指定人、场所或用途。",
+      "from": "sign.signify.6"
+    },
+    {
+      "to": "sign.designation.extra5",
+      "kind": "派生关系",
+      "note": "designate 是指定，designation 是指定或所赋予的称谓。",
+      "from": "sign.designate.extra4"
+    }
+  ],
+  "rootIPA": "saɪn",
+  "rootSpoken": "sign",
+  "rootContext": "",
+  "rootIntro": "这里的意思是标记、信号。接下来的词都跟它有关。",
+  "rootKind": "词根"
+}

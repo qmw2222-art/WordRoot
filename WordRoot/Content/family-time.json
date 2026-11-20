@@ -1,0 +1,102 @@
+{
+  "id": "family.time",
+  "root": "time",
+  "meaning": "时间",
+  "explanation": "看看钟表，想想到了睡觉的时间，还是要查一下时间表。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "time.time",
+      "word": "time",
+      "partOfSpeech": "名词",
+      "meaning": "时间",
+      "formation": "time 表示时间",
+      "rootRelation": "看看钟表，想想到了睡觉的时间，还是要查一下时间表。",
+      "explanation": "例句中的 time 取“时间”这个意思。",
+      "example": "What time is it?",
+      "translation": "现在几点？",
+      "acceptedAnswers": [
+        "时间"
+      ],
+      "pronunciation": "taɪm",
+      "memoryCue": "问现在几点、还要等多久，问的都是时间。"
+    },
+    {
+      "id": "time.bedtime",
+      "word": "bedtime",
+      "partOfSpeech": "名词",
+      "meaning": "就寝时间",
+      "formation": "bed（床）+ time（时间）= 睡觉的时间",
+      "rootRelation": "看看钟表，想想到了睡觉的时间，还是要查一下时间表。",
+      "explanation": "例句中的 bedtime 取“就寝时间”这个意思。",
+      "example": "It's almost bedtime.",
+      "translation": "快到睡觉时间了。",
+      "acceptedAnswers": [
+        "就寝时间"
+      ],
+      "pronunciation": "ˈbɛdˌtaɪm",
+      "memoryCue": "bed 是床，time 是时间。该上床的时间就是睡觉时间。",
+      "parts": [
+        {
+          "text": "bed",
+          "ipa": "bɛd",
+          "meaning": "床"
+        },
+        {
+          "text": "time",
+          "ipa": "taɪm",
+          "meaning": "时间"
+        }
+      ],
+      "combined": "晚上该上床睡觉的时候，就是就寝时间。"
+    },
+    {
+      "id": "time.timetable",
+      "word": "timetable",
+      "partOfSpeech": "名词",
+      "meaning": "时间表",
+      "formation": "time（时间）+ table（表）= 时间表",
+      "rootRelation": "看看钟表，想想到了睡觉的时间，还是要查一下时间表。",
+      "explanation": "例句中的 timetable 取“时间表”这个意思。",
+      "example": "Let's check the timetable.",
+      "translation": "我们看看时间表吧。",
+      "acceptedAnswers": [
+        "时间表"
+      ],
+      "pronunciation": "ˈtaɪmˌteɪbəl",
+      "memoryCue": "time 是时间，table 在这里是表。把时间列成的表就是时间表。",
+      "parts": [
+        {
+          "text": "time",
+          "ipa": "taɪm",
+          "meaning": "时间"
+        },
+        {
+          "text": "table",
+          "ipa": "teɪbəl",
+          "meaning": "表"
+        }
+      ],
+      "combined": "把每班车几点出发列在一张表上，就是时刻表。"
+    }
+  ],
+  "links": [
+    {
+      "from": "time.time",
+      "to": "time.bedtime",
+      "kind": "同一词族",
+      "note": "bed（床）+ time（时间）= 睡觉的时间"
+    },
+    {
+      "from": "time.time",
+      "to": "time.timetable",
+      "kind": "同一词族",
+      "note": "time（时间）+ table（表）= 时间表"
+    }
+  ],
+  "rootIPA": "taɪm",
+  "rootSpoken": "time",
+  "rootContext": "",
+  "rootIntro": "这里的意思是时间。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

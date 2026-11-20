@@ -1,0 +1,102 @@
+{
+  "id": "family.day",
+  "root": "day",
+  "meaning": "天",
+  "explanation": "给 day 添上一个熟悉的词，就能把日历上的日子说得更具体。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "day.day",
+      "word": "day",
+      "partOfSpeech": "名词",
+      "meaning": "一天",
+      "formation": "day 可以指一整天",
+      "rootRelation": "给 day 添上一个熟悉的词，就能把日历上的日子说得更具体。",
+      "explanation": "例句中的 day 取“一天”这个意思。",
+      "example": "We have one day.",
+      "translation": "我们有一天时间。",
+      "acceptedAnswers": [
+        "一天"
+      ],
+      "pronunciation": "deɪ",
+      "memoryCue": "从早到晚的一天；有时也指白天。"
+    },
+    {
+      "id": "day.weekday",
+      "word": "weekday",
+      "partOfSpeech": "名词",
+      "meaning": "工作日",
+      "formation": "week（一周）+ day（天）= 周一到周五中的一天",
+      "rootRelation": "给 day 添上一个熟悉的词，就能把日历上的日子说得更具体。",
+      "explanation": "例句中的 weekday 取“工作日”这个意思。",
+      "example": "Come on a weekday.",
+      "translation": "工作日来吧。",
+      "acceptedAnswers": [
+        "工作日"
+      ],
+      "pronunciation": "ˈwikˌdeɪ",
+      "memoryCue": "week 是星期，day 是天。习惯上合指周一到周五的某一天。",
+      "parts": [
+        {
+          "text": "week",
+          "ipa": "wik",
+          "meaning": "一周"
+        },
+        {
+          "text": "day",
+          "ipa": "deɪ",
+          "meaning": "天"
+        }
+      ],
+      "combined": "一周里通常上班或上学的日子。"
+    },
+    {
+      "id": "day.birthday",
+      "word": "birthday",
+      "partOfSpeech": "名词",
+      "meaning": "生日",
+      "formation": "birth（出生）+ day（日子）= 生日",
+      "rootRelation": "给 day 添上一个熟悉的词，就能把日历上的日子说得更具体。",
+      "explanation": "例句中的 birthday 取“生日”这个意思。",
+      "example": "Today is my birthday.",
+      "translation": "今天是我的生日。",
+      "acceptedAnswers": [
+        "生日"
+      ],
+      "pronunciation": "ˈbɝθˌdeɪ",
+      "memoryCue": "birth 是出生，day 是日子。出生的纪念日就是生日。",
+      "parts": [
+        {
+          "text": "birth",
+          "ipa": "bɝθ",
+          "meaning": "出生"
+        },
+        {
+          "text": "day",
+          "ipa": "deɪ",
+          "meaning": "日子"
+        }
+      ],
+      "combined": "出生的那一天，就是生日。"
+    }
+  ],
+  "links": [
+    {
+      "from": "day.day",
+      "to": "day.weekday",
+      "kind": "同一词族",
+      "note": "week（一周）+ day（天）= 周一到周五中的一天"
+    },
+    {
+      "from": "day.day",
+      "to": "day.birthday",
+      "kind": "同一词族",
+      "note": "birth（出生）+ day（日子）= 生日"
+    }
+  ],
+  "rootIPA": "deɪ",
+  "rootSpoken": "day",
+  "rootContext": "",
+  "rootIntro": "这里的意思是天。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

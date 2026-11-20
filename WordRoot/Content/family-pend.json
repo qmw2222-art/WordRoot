@@ -1,0 +1,433 @@
+{
+  "id": "family.pend",
+  "root": "pend",
+  "meaning": "悬挂、依靠",
+  "explanation": "pend-、pens- 可追溯到表示「悬挂、称量」的拉丁语形式。物体可以挂在钩子上，决定也可以暂时悬而未决。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "pend.depend",
+      "word": "depend",
+      "partOfSpeech": "动词",
+      "meaning": "依靠；取决于",
+      "explanation": "depend on 可以说需要某人或某物，也可以说结果由某个条件决定。",
+      "example": "Our plans depend on the weather.",
+      "translation": "我们的安排取决于天气。",
+      "rootRelation": "de- 与 pend- 的历史组合带有「挂在某处」的线索。",
+      "acceptedAnswers": [
+        "依靠",
+        "依赖",
+        "取决于"
+      ],
+      "formation": "depend · 依靠",
+      "pronunciation": "dɪˈpɛnd",
+      "memoryCue": "在这里，这个词表示「依靠」。",
+      "plainCue": "出门带不带伞，要看天气，这就是取决于天气。"
+    },
+    {
+      "id": "pend.suspend",
+      "word": "suspend",
+      "partOfSpeech": "动词",
+      "meaning": "暂停；暂时中止",
+      "explanation": "让服务、活动或资格暂时停止，可因安全、检修或纪律原因。",
+      "example": "They suspended the ferry service during the storm.",
+      "translation": "暴风雨期间他们暂停了渡轮服务。",
+      "rootRelation": "词源与「悬挂」相关，现代可引申为让进程停在某处。",
+      "acceptedAnswers": [
+        "暂停",
+        "中止",
+        "暂时停止"
+      ],
+      "formation": "sus（向上）+ pend（悬挂） = 悬着 → 暂停",
+      "pronunciation": "səˈspɛnd",
+      "memoryCue": "把一件事挂起来、先不做，就是暂停。",
+      "parts": [
+        {
+          "text": "sus-",
+          "ipa": "səs",
+          "meaning": "向上"
+        },
+        {
+          "text": "pend",
+          "ipa": "pɛnd",
+          "meaning": "悬挂"
+        }
+      ],
+      "combined": "事情先放一放，等过一阵再继续，这个动作就是暂停。"
+    },
+    {
+      "id": "pend.pending",
+      "word": "pending",
+      "partOfSpeech": "形容词",
+      "meaning": "尚未决定的；待处理的",
+      "explanation": "形容申请、付款或问题还在等待处理或获得确认。",
+      "example": "Your request is still pending.",
+      "translation": "你的申请还在等待处理。",
+      "rootRelation": "和 pend（悬着）相关，可联想悬而未决。",
+      "acceptedAnswers": [
+        "待处理的",
+        "尚未决定的",
+        "等待处理"
+      ],
+      "formation": "pending · 尚未决定的",
+      "pronunciation": "ˈpɛndɪŋ",
+      "memoryCue": "形容申请、付款或问题还在等待处理或获得确认。",
+      "plainCue": "申请已经交了，结果还悬着没定下来，就是待处理。"
+    },
+    {
+      "id": "pend.pendant",
+      "word": "pendant",
+      "partOfSpeech": "名词",
+      "meaning": "吊坠；挂饰",
+      "explanation": "挂在项链上的部件；也可用于吊挂式的灯具名称。",
+      "example": "She wore a silver pendant on a thin chain.",
+      "translation": "她戴着一根细链，上面挂着银色吊坠。",
+      "rootRelation": "与 pend（悬挂）的词源联系较直接。",
+      "acceptedAnswers": [
+        "吊坠",
+        "挂饰"
+      ],
+      "formation": "pendant · 吊坠",
+      "pronunciation": "ˈpɛndənt",
+      "memoryCue": "挂在项链上的部件；也可用于吊挂式的灯具名称。",
+      "plainCue": "想想项链上垂下来的那颗小石头，它就是吊坠。"
+    },
+    {
+      "id": "pend.dependence",
+      "word": "dependence",
+      "partOfSpeech": "名词",
+      "meaning": "依赖；依靠",
+      "explanation": "需要某人或某物来满足需求的状态，常用 dependence on。",
+      "example": "The store wants to reduce its dependence on a single supplier.",
+      "translation": "这家店想减少对单一供应商的依赖。",
+      "rootRelation": "depend 的相关名词。",
+      "acceptedAnswers": [
+        "依赖",
+        "依靠"
+      ],
+      "formation": "depend + -ence = 依赖 → 依赖状态",
+      "pronunciation": "dɪˈpɛndəns",
+      "memoryCue": "depend 是依靠。离不开某个人或某样东西，这种状态就是依赖。",
+      "parts": [
+        {
+          "text": "depend",
+          "ipa": "dɪpɛnd",
+          "meaning": "依靠"
+        },
+        {
+          "text": "-ence",
+          "ipa": "əns",
+          "meaning": "这种状态"
+        }
+      ],
+      "combined": "一件事总得靠别人才能做成，这种关系就是依赖。"
+    },
+    {
+      "id": "pend.dependent",
+      "word": "dependent",
+      "partOfSpeech": "形容词",
+      "meaning": "依靠的；取决于…的",
+      "explanation": "描述事物离不开某条件，或某人依赖另一个人的支持。",
+      "example": "The project is dependent on outside funding.",
+      "translation": "这个项目依赖外部资金。",
+      "rootRelation": "与 depend 同族的形容词。",
+      "acceptedAnswers": [
+        "依赖的",
+        "取决于",
+        "依赖"
+      ],
+      "formation": "dependent · 依靠的",
+      "pronunciation": "dɪˈpɛndənt",
+      "memoryCue": "描述事物离不开某条件，或某人依赖另一个人的支持。",
+      "plainCue": "小苗得靠水才能长。这里说的是它需要依靠什么。"
+    },
+    {
+      "id": "pend.dependable",
+      "word": "dependable",
+      "partOfSpeech": "形容词",
+      "meaning": "可靠的；靠得住的",
+      "explanation": "形容人或物可以信赖，例如能按时做事或经常正常运行。",
+      "example": "We need a dependable internet connection.",
+      "translation": "我们需要一条可靠的网络连接。",
+      "rootRelation": "depend 加 -able，指值得依靠。",
+      "acceptedAnswers": [
+        "可靠的",
+        "靠得住的",
+        "可靠"
+      ],
+      "formation": "depend + -able = 可依赖 → 可靠的",
+      "pronunciation": "dɪˈpɛndəbəl",
+      "memoryCue": "depend 是依靠，-able 是能。能让你放心依靠，就是可靠的。",
+      "parts": [
+        {
+          "text": "depend",
+          "ipa": "dɪpɛnd",
+          "meaning": "依靠"
+        },
+        {
+          "text": "-able",
+          "ipa": "əbəl",
+          "meaning": "能……的"
+        }
+      ],
+      "combined": "约好来接你，他总是按时到，这样的人就靠得住。"
+    },
+    {
+      "id": "pend.independent",
+      "word": "independent",
+      "partOfSpeech": "形容词",
+      "meaning": "独立的；不依赖的",
+      "explanation": "强调可自主行动、判断或运营，例如独立经营的公司。",
+      "example": "The town has a small independent bookshop.",
+      "translation": "镇上有一家小型独立书店。",
+      "rootRelation": "in-（不）和 dependent。",
+      "acceptedAnswers": [
+        "独立的",
+        "独立",
+        "不依赖的"
+      ],
+      "formation": "in-（不、相反） + dependent（依靠的） → 独立的",
+      "pronunciation": "ˌɪndɪˈpɛndənt",
+      "memoryCue": "dependent 是依赖的，in- 表示不。不依赖别人，就是独立的。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ˌɪn",
+          "meaning": "不、相反"
+        },
+        {
+          "text": "dependent",
+          "ipa": "dɪˈpɛndənt",
+          "meaning": "依靠的",
+          "notes": [
+            "不依靠的"
+          ]
+        }
+      ],
+      "combined": "事情能自己办，不用依靠别人，就可以说是独立的。"
+    },
+    {
+      "id": "pend.independence",
+      "word": "independence",
+      "partOfSpeech": "名词",
+      "meaning": "独立；自主",
+      "explanation": "能够自己作决定、行动或维持运转的状态。",
+      "example": "Living on her own gave her more independence.",
+      "translation": "独自生活让她更加自主。",
+      "rootRelation": "independent 的相关名词。",
+      "acceptedAnswers": [
+        "独立",
+        "自主"
+      ],
+      "formation": "in-（不） + depend（依靠） + -ence（状态） → 独立",
+      "pronunciation": "ˌɪndɪˈpɛndəns",
+      "memoryCue": "independent 是独立的。能自己作主的状态叫独立。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ˌɪn",
+          "meaning": "不"
+        },
+        {
+          "text": "depend",
+          "ipa": "dɪˈpɛnd",
+          "meaning": "依靠",
+          "notes": [
+            "此处与 -ence 连用"
+          ]
+        },
+        {
+          "text": "-ence",
+          "ipa": "əns",
+          "meaning": "状态",
+          "notes": [
+            "独立状态"
+          ]
+        }
+      ],
+      "combined": "生活中的事能自己拿主意、自己办，这种状态就是独立。"
+    },
+    {
+      "id": "pend.suspension",
+      "word": "suspension",
+      "partOfSpeech": "名词",
+      "meaning": "暂停；暂时停止",
+      "explanation": "描述活动、服务或某项权利暂时被停止的状态。",
+      "example": "The temporary suspension of flights lasted two days.",
+      "translation": "航班临时停飞持续了两天。",
+      "rootRelation": "与 suspend 对应的名词。",
+      "acceptedAnswers": [
+        "暂停",
+        "暂时停止",
+        "中止"
+      ],
+      "formation": "suspension · 暂停",
+      "pronunciation": "səˈspɛnʃən",
+      "memoryCue": "描述活动、服务或某项权利暂时被停止的状态。",
+      "plainCue": "因为大雨，比赛停了一段时间，这段暂时停止就叫暂停。"
+    },
+    {
+      "id": "pend.suspense",
+      "word": "suspense",
+      "partOfSpeech": "名词",
+      "meaning": "悬念；焦急等待",
+      "explanation": "不知道接下来会发生什么时产生的紧张感，常见 keep someone in suspense。",
+      "example": "The director keeps us in suspense until the final scene.",
+      "translation": "导演把悬念保留到了最后一个场景。",
+      "rootRelation": "与表示悬而未决的历史词形相关。",
+      "acceptedAnswers": [
+        "悬念",
+        "焦急等待",
+        "紧张等待"
+      ],
+      "formation": "suspend → suspense = 悬而未决 → 悬念",
+      "pronunciation": "səˈspɛns",
+      "memoryCue": "结果还悬着，你忍不住想知道后来怎样，这就是悬念。"
+    },
+    {
+      "id": "pend.pendulum",
+      "word": "pendulum",
+      "partOfSpeech": "名词",
+      "meaning": "摆；摆锤",
+      "explanation": "挂着并来回摆动的部件，例如某些钟里用来保持节奏的摆。",
+      "example": "The clock stopped when its pendulum became stuck.",
+      "translation": "钟摆卡住后，这座钟停了。",
+      "rootRelation": "词根与悬挂相关。",
+      "acceptedAnswers": [
+        "摆",
+        "摆锤",
+        "钟摆"
+      ],
+      "formation": "pendulum · 摆",
+      "pronunciation": "ˈpɛndʒələm",
+      "memoryCue": "挂着并来回摆动的部件，例如某些钟里用来保持节奏的摆。",
+      "plainCue": "钟下面挂着、从左到右来回晃的那块东西，就是摆锤。"
+    },
+    {
+      "id": "pend.append",
+      "word": "append",
+      "partOfSpeech": "动词",
+      "meaning": "附加在末尾；追加",
+      "explanation": "把文字、文件或数据加在已经存在的内容后面。",
+      "example": "Please append the results to the end of the report.",
+      "translation": "请把结果附在报告末尾。",
+      "rootRelation": "历史形式中有挂到某物上、附加的意思。",
+      "acceptedAnswers": [
+        "附加",
+        "追加",
+        "附在末尾"
+      ],
+      "formation": "ap（附上）+ pend（挂） = 挂上 → 附加",
+      "pronunciation": "əˈpɛnd",
+      "memoryCue": "把东西接在已有内容的后面，就是附加。",
+      "parts": [
+        {
+          "text": "ap",
+          "ipa": "ə",
+          "meaning": "附上"
+        },
+        {
+          "text": "pend",
+          "ipa": "pɛnd",
+          "meaning": "挂"
+        }
+      ],
+      "combined": "已经写完的名单，末尾再添一个名字，这叫追加。"
+    },
+    {
+      "id": "pend.appendix",
+      "word": "appendix",
+      "partOfSpeech": "名词",
+      "meaning": "附录",
+      "explanation": "书或报告正文之后的补充内容，常放原始数据或图表。",
+      "example": "The full list of questions is in the appendix.",
+      "translation": "完整的问题列表在附录里。",
+      "rootRelation": "与 append 共享附加、接上的历史线索。",
+      "acceptedAnswers": [
+        "附录"
+      ],
+      "formation": "append → appendix = 附加 → 附录",
+      "pronunciation": "əˈpɛndɪks",
+      "memoryCue": "正文结束后，书末另外附上的那几页资料，就是附录。"
+    }
+  ],
+  "links": [
+    {
+      "from": "pend.depend",
+      "to": "pend.dependence",
+      "kind": "派生关系",
+      "note": "depend 是依靠或取决于，dependence 指依靠某物的状态。"
+    },
+    {
+      "from": "pend.depend",
+      "to": "pend.dependent",
+      "kind": "派生关系",
+      "note": "depend 是动词，dependent 描述需要依靠某个条件的人或事物。"
+    },
+    {
+      "from": "pend.depend",
+      "to": "pend.dependable",
+      "kind": "派生关系",
+      "note": "depend on 是依靠，dependable 描述值得依靠的对象。"
+    },
+    {
+      "from": "pend.dependent",
+      "to": "pend.independent",
+      "kind": "用法对照",
+      "note": "dependent 强调依赖其他条件，independent 强调能够自主。"
+    },
+    {
+      "from": "pend.independent",
+      "to": "pend.independence",
+      "kind": "派生关系",
+      "note": "independent 是形容词，independence 指独立状态或能力。"
+    },
+    {
+      "from": "pend.suspend",
+      "to": "pend.suspension",
+      "kind": "派生关系",
+      "note": "suspend 表示使之暂停，suspension 指暂停本身。"
+    },
+    {
+      "from": "pend.suspension",
+      "to": "pend.suspense",
+      "kind": "用法对照",
+      "note": "suspension 指服务或事项暂时停止，suspense 是等待结果的紧张感。"
+    },
+    {
+      "from": "pend.pending",
+      "to": "pend.suspense",
+      "kind": "语义联系",
+      "note": "pending 说事情还未定，suspense 说结果未定时人可能感到的紧张。"
+    },
+    {
+      "from": "pend.pending",
+      "to": "pend.suspend",
+      "kind": "用法对照",
+      "note": "pending 表示还在等决定，suspend 表示已主动暂停一个活动。"
+    },
+    {
+      "from": "pend.pendant",
+      "to": "pend.pendulum",
+      "kind": "用法对照",
+      "note": "pendant 是挂饰，pendulum 是挂起来有规律地摆动的部件。"
+    },
+    {
+      "from": "pend.pendant",
+      "to": "pend.append",
+      "kind": "同词根",
+      "note": "pendant 是挂着的东西，append 把内容接到末尾；词源都涉及附着或悬挂。"
+    },
+    {
+      "from": "pend.append",
+      "to": "pend.appendix",
+      "kind": "同词根",
+      "note": "append 是把材料附到末尾，appendix 是书或报告末尾的补充部分。"
+    }
+  ],
+  "rootIPA": "pɛnd",
+  "rootSpoken": "pend",
+  "rootContext": "在 depend 里",
+  "rootIntro": "先想一件东西挂着，再看它靠着什么。",
+  "rootKind": "词根"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "family.hand",
+  "root": "hand",
+  "meaning": "手",
+  "explanation": "从自己的手开始，想象包拎在手上，字写在纸上。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "hand.hand",
+      "word": "hand",
+      "partOfSpeech": "名词",
+      "meaning": "手",
+      "formation": "hand 是手",
+      "rootRelation": "从自己的手开始，想象包拎在手上，字写在纸上。",
+      "explanation": "例句中的 hand 取“手”这个意思。",
+      "example": "Raise your hand.",
+      "translation": "请举手。",
+      "acceptedAnswers": [
+        "手"
+      ],
+      "pronunciation": "hænd",
+      "memoryCue": "现在举起来打招呼的，就是你的手。"
+    },
+    {
+      "id": "hand.handbag",
+      "word": "handbag",
+      "partOfSpeech": "名词",
+      "meaning": "手提包",
+      "formation": "hand（手）+ bag（包）= 手提包",
+      "rootRelation": "从自己的手开始，想象包拎在手上，字写在纸上。",
+      "explanation": "例句中的 handbag 取“手提包”这个意思。",
+      "example": "My keys are in my handbag.",
+      "translation": "钥匙在我的手提包里。",
+      "acceptedAnswers": [
+        "手提包"
+      ],
+      "pronunciation": "ˈhændˌbæɡ",
+      "memoryCue": "hand 是手，bag 是包。用手提的包就是手提包。",
+      "parts": [
+        {
+          "text": "hand",
+          "ipa": "hænd",
+          "meaning": "手"
+        },
+        {
+          "text": "bag",
+          "ipa": "bæɡ",
+          "meaning": "包"
+        }
+      ],
+      "combined": "用手提着、里面装零钱和随身物品的小包，就是手提包。"
+    },
+    {
+      "id": "hand.handwriting",
+      "word": "handwriting",
+      "partOfSpeech": "名词",
+      "meaning": "笔迹",
+      "formation": "hand（手）+ writing（书写）= 手写的笔迹",
+      "rootRelation": "从自己的手开始，想象包拎在手上，字写在纸上。",
+      "explanation": "例句中的 handwriting 取“笔迹”这个意思。",
+      "example": "I know your handwriting.",
+      "translation": "我认得你的笔迹。",
+      "acceptedAnswers": [
+        "笔迹"
+      ],
+      "pronunciation": "ˈhændˌraɪtɪŋ",
+      "memoryCue": "hand 是手，writing 是书写。手写出来的字，就是笔迹。",
+      "parts": [
+        {
+          "text": "hand",
+          "ipa": "hænd",
+          "meaning": "手"
+        },
+        {
+          "text": "writing",
+          "ipa": "raɪtɪŋ",
+          "meaning": "书写"
+        }
+      ],
+      "combined": "一看那几个字，就认出是谁写的，你认出来的是笔迹。"
+    }
+  ],
+  "links": [
+    {
+      "from": "hand.hand",
+      "to": "hand.handbag",
+      "kind": "同一词族",
+      "note": "hand（手）+ bag（包）= 手提包"
+    },
+    {
+      "from": "hand.hand",
+      "to": "hand.handwriting",
+      "kind": "同一词族",
+      "note": "hand（手）+ writing（书写）= 手写的笔迹"
+    }
+  ],
+  "rootIPA": "hænd",
+  "rootSpoken": "hand",
+  "rootContext": "",
+  "rootIntro": "这里的意思是手。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

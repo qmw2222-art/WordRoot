@@ -1,0 +1,419 @@
+{
+  "id": "family.vers",
+  "root": "vers",
+  "meaning": "转动、转向",
+  "explanation": "vers-、vert- 与拉丁语中「转动、转向」的词有关。转向一方面可以是物理反转，另一方面也可以是决定、形式或话题的变化。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "vers.reverse.0",
+      "word": "reverse",
+      "partOfSpeech": "动词",
+      "meaning": "撤销；推翻决定",
+      "explanation": "把已经作出的决定或政策改回去，常搭配 decision、ruling 或 policy。",
+      "example": "The board reversed its decision after hearing from staff.",
+      "translation": "听取员工意见后，董事会撤销了原决定。",
+      "rootRelation": "re-（回）与 vers（转）构成「转回」的历史线索。",
+      "acceptedAnswers": [
+        "撤销",
+        "推翻",
+        "撤销决定"
+      ],
+      "formation": "reverse · 撤销",
+      "pronunciation": "rɪˈvɝs",
+      "memoryCue": "在这里，这个词表示「撤销」。",
+      "plainCue": "本来已经作了决定，现在又把决定收回，这个动作就是撤销。"
+    },
+    {
+      "id": "vers.version.6",
+      "word": "version",
+      "partOfSpeech": "名词",
+      "meaning": "版本；改编本",
+      "explanation": "某作品或软件在某次发布时的形式，也指对内容的改写。",
+      "example": "This version of the guide includes the new map.",
+      "translation": "这个版本的指南加入了新地图。",
+      "rootRelation": "vers（转变、形成）相关词，表示一种呈现形式。",
+      "acceptedAnswers": [
+        "版本"
+      ],
+      "formation": "vers-（转、变化） + -ion（结果或形式） → 版本",
+      "pronunciation": "ˈvɝʒən",
+      "memoryCue": "把同一份内容改出一种样子，那就是它的一个版本。",
+      "parts": [
+        {
+          "text": "vers-",
+          "ipa": "ˈvɝʒ",
+          "meaning": "转、变化",
+          "notes": [
+            "在 version 中读 /vɝʒ/"
+          ]
+        },
+        {
+          "text": "-ion",
+          "ipa": "ən",
+          "meaning": "结果或形式",
+          "notes": [
+            "一种版本"
+          ]
+        }
+      ],
+      "combined": "同一本指南，旧本少一张图，新本多一张图，这是两个版本。"
+    },
+    {
+      "id": "vers.conversion.7",
+      "word": "conversion",
+      "partOfSpeech": "名词",
+      "meaning": "转换；改造",
+      "explanation": "把事物从一种形式、用途或状态变成另一种。",
+      "example": "The conversion of the garage created a small office.",
+      "translation": "车库改造后成了一间小办公室。",
+      "rootRelation": "con- 与 vers（转变）加 -ion。",
+      "acceptedAnswers": [
+        "转换"
+      ],
+      "formation": "con-（一起、完全） + vers-（转变） → 转换",
+      "pronunciation": "kənˈvɝʒən",
+      "memoryCue": "把文件从一种格式转成另一种，这次转换叫 conversion。",
+      "plainCue": "把事物从一种形式、用途或状态变成另一种。",
+      "parts": [
+        {
+          "text": "con-",
+          "ipa": "kən",
+          "meaning": "一起、完全"
+        },
+        {
+          "text": "vers-",
+          "ipa": "ˈvɝʒ",
+          "meaning": "转变",
+          "notes": [
+            "conversion 是转变的过程/结果"
+          ]
+        }
+      ],
+      "combined": "旧仓库改成住房，从一个用途换成另一个用途，就是改造。"
+    },
+    {
+      "id": "vers.versatile.8",
+      "word": "versatile",
+      "partOfSpeech": "形容词",
+      "meaning": "多才多用的；用途广的",
+      "explanation": "能够适应多种任务或场合。",
+      "example": "A versatile jacket works for both rain and wind.",
+      "translation": "一件多用途夹克既能挡雨也能防风。",
+      "rootRelation": "vers（转向、变化）相关，现代义强调适应变化。",
+      "acceptedAnswers": [
+        "多才多用的"
+      ],
+      "formation": "vers（转变）→ versatile → 灵活变换 → 多才多用的",
+      "pronunciation": "ˈvɝsətəl",
+      "memoryCue": "一把工具能派上好几种用场，就可以说它用途广。"
+    },
+    {
+      "id": "vers.reverse.2",
+      "word": "reverse",
+      "partOfSpeech": "名词",
+      "meaning": "反面；相反情况",
+      "explanation": "事物与正面相对的一面，也指相反结果。",
+      "example": "Write your phone number on the reverse of the card.",
+      "translation": "把电话号码写在卡片背面。",
+      "rootRelation": "与 reverse 动词同形的名词义。",
+      "acceptedAnswers": [
+        "反面"
+      ],
+      "formation": "reverse（反转） = 反转 → 反面",
+      "pronunciation": "rɪˈvɝs",
+      "memoryCue": "把纸翻过去，看到的另一面就是 the reverse。",
+      "plainCue": "把卡片翻过去，你看到的那一面就是反面。"
+    },
+    {
+      "id": "vers.reverse.3",
+      "word": "reverse",
+      "partOfSpeech": "形容词",
+      "meaning": "反向的；相反的",
+      "explanation": "方向或次序与通常情况相反。",
+      "example": "The second train follows the reverse route.",
+      "translation": "第二班列车走相反路线。",
+      "rootRelation": "与 reverse 同形的形容词用法。",
+      "acceptedAnswers": [
+        "反向的"
+      ],
+      "formation": "reverse（反转） = 反转 → 反向的",
+      "pronunciation": "rɪˈvɝs",
+      "memoryCue": "这次把 reverse 放在名词前，表示方向反过来的。",
+      "plainCue": "一辆车往北，另一辆车往南，两辆车走的是相反的方向。"
+    },
+    {
+      "id": "vers.reverse.gear",
+      "word": "reverse",
+      "partOfSpeech": "名词",
+      "meaning": "倒档；倒车挡",
+      "explanation": "车辆中使车轮向后转动的档位。",
+      "example": "Put the car in reverse before backing out.",
+      "translation": "倒车驶出前，把车挂入倒档。",
+      "rootRelation": "reverse 的特定交通工具用法。",
+      "acceptedAnswers": [
+        "倒档"
+      ],
+      "formation": "reverse（方向相反） = 倒车 → 倒档",
+      "pronunciation": "rɪˈvɝs",
+      "memoryCue": "车朝前开是前进。挂上 reverse，车就能往后倒。",
+      "plainCue": "要让汽车往后退，就把挡位挂到倒挡。"
+    },
+    {
+      "id": "vers.reverse.4",
+      "word": "reverse",
+      "partOfSpeech": "动词",
+      "meaning": "倒转；把顺序调换",
+      "explanation": "让原本排列在前面的内容来到后面，或让运动方向转为相反方向。",
+      "example": "Reverse the order of these two steps.",
+      "translation": "把这两个步骤的顺序调过来。",
+      "rootRelation": "re-（回）与 vers（转）构成「转回」的历史线索。",
+      "acceptedAnswers": [
+        "倒转",
+        "颠倒",
+        "调换顺序",
+        "反转"
+      ],
+      "formation": "reverse · 倒转",
+      "pronunciation": "rɪˈvɝs",
+      "memoryCue": "让原本排列在前面的内容来到后面，或让运动方向转为相反方向。",
+      "plainCue": "把最后一步调到最前面，让顺序反过来，这就叫倒转。"
+    },
+    {
+      "id": "vers.reversible.extra1",
+      "word": "reversible",
+      "partOfSpeech": "形容词",
+      "meaning": "可逆的；可翻面的",
+      "explanation": "可以恢复原状，或正反两面都能使用。",
+      "example": "The jacket is reversible, with blue on one side and gray on the other.",
+      "translation": "这件夹克可以两面穿，一面蓝色，一面灰色。",
+      "rootRelation": "reverse 加 -ible，表示能够反转。",
+      "acceptedAnswers": [
+        "可逆的"
+      ],
+      "formation": "reverse + -ible = 可反转的",
+      "pronunciation": "rɪˈvɝsəbəl",
+      "memoryCue": "-ible 是能。能翻过来、反过来用，就是可反转的。",
+      "parts": [
+        {
+          "text": "reverse",
+          "ipa": "rɪvɝs",
+          "meaning": "倒转"
+        },
+        {
+          "text": "-ible",
+          "ipa": "əbəl",
+          "meaning": "能……的"
+        }
+      ],
+      "combined": "外套翻个面还能穿，两面都能用，就叫可翻面的。"
+    },
+    {
+      "id": "vers.reversal.extra2",
+      "word": "reversal",
+      "partOfSpeech": "名词",
+      "meaning": "逆转；撤销",
+      "explanation": "方向、决定或局势转向相反结果。",
+      "example": "The court announced a reversal of its earlier ruling.",
+      "translation": "法院宣布撤销先前的裁决。",
+      "rootRelation": "由 reverse 加 -al 构成。",
+      "acceptedAnswers": [
+        "逆转"
+      ],
+      "formation": "reverse + -al = 逆转 → 逆转结果",
+      "pronunciation": "rɪˈvɝsəl",
+      "memoryCue": "reverse 是反转。事情转向相反的结果，就是逆转。",
+      "parts": [
+        {
+          "text": "reverse",
+          "ipa": "rɪvɝs",
+          "meaning": "倒转"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与它有关的"
+        }
+      ],
+      "combined": "原本落后的一方最后赢了，局面掉了个头，就是逆转。"
+    },
+    {
+      "id": "vers.irreversible.extra3",
+      "word": "irreversible",
+      "partOfSpeech": "形容词",
+      "meaning": "不可逆的",
+      "explanation": "发生后无法恢复到原有状态。",
+      "example": "The chemical change is irreversible at room temperature.",
+      "translation": "这种化学变化在室温下不可逆。",
+      "rootRelation": "ir-（不）加 reversible。",
+      "acceptedAnswers": [
+        "不可逆的"
+      ],
+      "formation": "ir-（不） + reversible（可倒转的） → 不可逆的",
+      "pronunciation": "ˌɪrɪˈvɝsəbəl",
+      "memoryCue": "ir- 是否定，reversible 是能逆转的。回不去就是不可逆转的。",
+      "parts": [
+        {
+          "text": "ir-",
+          "ipa": "ˌɪr",
+          "meaning": "不",
+          "notes": [
+            "在 r 前为 ir-"
+          ]
+        },
+        {
+          "text": "reversible",
+          "ipa": "rɪˈvɝsəbəl",
+          "meaning": "可倒转的",
+          "notes": [
+            "不可逆"
+          ]
+        }
+      ],
+      "combined": "蛋煮熟了再也变不回生蛋，这样的变化叫不可逆。"
+    },
+    {
+      "id": "vers.converse.extra4",
+      "word": "converse",
+      "partOfSpeech": "动词",
+      "meaning": "交谈；谈话",
+      "explanation": "与他人进行交谈。",
+      "example": "The guests conversed quietly after dinner.",
+      "translation": "晚餐后，客人们轻声交谈。",
+      "rootRelation": "con- 与 vers（转向、相互转动）相关的历史构词。",
+      "acceptedAnswers": [
+        "交谈"
+      ],
+      "formation": "con-（共同） + verse（交谈） → 交谈",
+      "pronunciation": "kənˈvɝs",
+      "memoryCue": "想象两个人轮流转过去听对方说，一来一回就是交谈。",
+      "parts": [
+        {
+          "text": "con-",
+          "ipa": "kən",
+          "meaning": "共同"
+        },
+        {
+          "text": "verse",
+          "ipa": "ˈvɝs",
+          "meaning": "交谈",
+          "notes": [
+            "现代词义记作交谈"
+          ]
+        }
+      ],
+      "combined": "你说一句，我接一句，像这样来回说话就叫交谈。"
+    },
+    {
+      "id": "vers.diverse.extra5",
+      "word": "diverse",
+      "partOfSpeech": "形容词",
+      "meaning": "多种多样的；不同的",
+      "explanation": "由彼此不同的成员或部分构成。",
+      "example": "The neighborhood has a diverse mix of restaurants.",
+      "translation": "这个街区有各种不同风格的餐馆。",
+      "rootRelation": "di- 与 vers（转向、变化）相关，表示多样。",
+      "acceptedAnswers": [
+        "多种多样的"
+      ],
+      "formation": "di-（分开、不同） + verse（转向） → 多种多样的",
+      "pronunciation": "daɪˈvɝs",
+      "memoryCue": "事物朝不同方向发展，有了不同面貌，就是多样的。",
+      "parts": [
+        {
+          "text": "di-",
+          "ipa": "dɪ",
+          "meaning": "分开、不同"
+        },
+        {
+          "text": "verse",
+          "ipa": "ˈvɝs",
+          "meaning": "转向",
+          "notes": [
+            "现代词义记作多样的"
+          ]
+        }
+      ],
+      "combined": "桌上摆着好多不同口味的菜，可以说选择很多样。"
+    }
+  ],
+  "links": [
+    {
+      "to": "vers.reverse.2",
+      "kind": "用法对照",
+      "note": "reverse 作动词可撤销决定，名词 the reverse 表示相反情形。",
+      "from": "vers.reverse.0"
+    },
+    {
+      "to": "vers.reverse.3",
+      "kind": "用法对照",
+      "note": "reverse 作动词指反转，作形容词说明顺序或方向反过来了。",
+      "from": "vers.reverse.0"
+    },
+    {
+      "to": "vers.reverse.gear",
+      "kind": "语义联系",
+      "note": "reverse order 是相反的顺序，车辆的 reverse 则是倒车挡。",
+      "from": "vers.reverse.3"
+    },
+    {
+      "to": "vers.reverse.4",
+      "kind": "用法对照",
+      "note": "撤销决定和倒排顺序都用 reverse，宾语决定这里的具体含义。",
+      "from": "vers.reverse.0"
+    },
+    {
+      "to": "vers.reversible.extra1",
+      "kind": "派生关系",
+      "note": "reverse 是使顺序或方向反过来，reversible 形容可以反向或恢复原状。",
+      "from": "vers.reverse.4"
+    },
+    {
+      "to": "vers.irreversible.extra3",
+      "kind": "用法对照",
+      "note": "reversible 表示可逆，irreversible 表示无法恢复原状。",
+      "from": "vers.reversible.extra1"
+    },
+    {
+      "to": "vers.reversal.extra2",
+      "kind": "派生关系",
+      "note": "reverse 作动词表示逆转，reversal 可指已经发生的逆转或撤销。",
+      "from": "vers.reverse.0"
+    },
+    {
+      "to": "vers.conversion.7",
+      "kind": "同词根",
+      "note": "version 是一种呈现形式，conversion 是从一种形式转换成另一种的过程。",
+      "from": "vers.version.6"
+    },
+    {
+      "to": "vers.reverse.4",
+      "kind": "用法对照",
+      "note": "conversion 侧重变成另一形式，reverse 侧重调换次序或方向。",
+      "from": "vers.conversion.7"
+    },
+    {
+      "to": "vers.diverse.extra5",
+      "kind": "用法对照",
+      "note": "versatile 说一个人或工具用途多，diverse 说一群事物各不一样。",
+      "from": "vers.versatile.8"
+    },
+    {
+      "to": "vers.versatile.8",
+      "kind": "同词根",
+      "note": "version 说一种形式，versatile 说能适应多种用途，两词都可追溯到转动相关的词。",
+      "from": "vers.version.6"
+    },
+    {
+      "to": "vers.converse.extra4",
+      "kind": "同词根",
+      "note": "versatile 现代形容适应不同工作，converse 是交谈，两词共享转动相关的历史成分。",
+      "from": "vers.versatile.8"
+    }
+  ],
+  "rootIPA": "vɝs",
+  "rootSpoken": "vers",
+  "rootContext": "在 reverse 里",
+  "rootIntro": "转个方向、反过来，都能帮你记住这一块。",
+  "rootKind": "词根"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "family.pack",
+  "root": "pack",
+  "meaning": "打包",
+  "explanation": "把衣服放进行李箱是 pack，拿出来时，前面加 un。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "pack.pack",
+      "word": "pack",
+      "partOfSpeech": "动词",
+      "meaning": "打包",
+      "formation": "pack 表示收拾行李或装箱",
+      "rootRelation": "把衣服放进行李箱是 pack，拿出来时，前面加 un。",
+      "explanation": "例句中的 pack 取“打包”这个意思。",
+      "example": "I need to pack my bag.",
+      "translation": "我得收拾包了。",
+      "acceptedAnswers": [
+        "打包"
+      ],
+      "pronunciation": "pæk",
+      "memoryCue": "出门前把衣服和用品装好，这个动作叫打包。"
+    },
+    {
+      "id": "pack.unpack",
+      "word": "unpack",
+      "partOfSpeech": "动词",
+      "meaning": "打开行李取东西",
+      "formation": "un（反向动作）+ pack（装好）= 把东西拿出来",
+      "rootRelation": "把衣服放进行李箱是 pack，拿出来时，前面加 un。",
+      "explanation": "例句中的 unpack 取“打开行李取东西”这个意思。",
+      "example": "Let's unpack our bags.",
+      "translation": "我们把行李打开吧。",
+      "acceptedAnswers": [
+        "打开行李取东西"
+      ],
+      "pronunciation": "ʌnˈpæk",
+      "memoryCue": "un- 把动作反过来，pack 是装好。反过来把东西取出，就是拆包。",
+      "parts": [
+        {
+          "text": "un-",
+          "ipa": "ʌn",
+          "meaning": "把动作倒过来"
+        },
+        {
+          "text": "pack",
+          "ipa": "pæk",
+          "meaning": "打包"
+        }
+      ],
+      "combined": "到酒店后打开箱子，把衣服一件件取出来，就是打开行李。"
+    },
+    {
+      "id": "pack.backpack",
+      "word": "backpack",
+      "partOfSpeech": "名词",
+      "meaning": "双肩背包",
+      "formation": "back（背）+ pack（包）= 背在背上的包",
+      "rootRelation": "把衣服放进行李箱是 pack，拿出来时，前面加 un。",
+      "explanation": "例句中的 backpack 取“双肩背包”这个意思。",
+      "example": "My backpack is light.",
+      "translation": "我的背包很轻。",
+      "acceptedAnswers": [
+        "双肩背包"
+      ],
+      "pronunciation": "ˈbækˌpæk",
+      "memoryCue": "back 是背，pack 在这里是包。背在背上的包就是背包。",
+      "parts": [
+        {
+          "text": "back",
+          "ipa": "bæk",
+          "meaning": "背"
+        },
+        {
+          "text": "pack",
+          "ipa": "pæk",
+          "meaning": "包"
+        }
+      ],
+      "combined": "两条带子挂在肩上，包背在身后，就是双肩背包。"
+    }
+  ],
+  "links": [
+    {
+      "from": "pack.pack",
+      "to": "pack.unpack",
+      "kind": "同一词族",
+      "note": "un（反向动作）+ pack（装好）= 把东西拿出来"
+    },
+    {
+      "from": "pack.pack",
+      "to": "pack.backpack",
+      "kind": "同一词族",
+      "note": "back（背）+ pack（包）= 背在背上的包"
+    }
+  ],
+  "rootIPA": "pæk",
+  "rootSpoken": "pack",
+  "rootContext": "",
+  "rootIntro": "这里的意思是打包。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

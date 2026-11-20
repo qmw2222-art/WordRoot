@@ -1,0 +1,102 @@
+{
+  "id": "family.land",
+  "root": "land",
+  "meaning": "陆地、着陆",
+  "explanation": "看到 land，想想飞机碰到地面的那一刻，以及它会落在哪里。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "land.land",
+      "word": "land",
+      "partOfSpeech": "动词",
+      "meaning": "降落",
+      "formation": "land 作动词表示着陆",
+      "rootRelation": "看到 land，想想飞机碰到地面的那一刻，以及它会落在哪里。",
+      "explanation": "例句中的 land 取“降落”这个意思。",
+      "example": "We land at noon.",
+      "translation": "我们中午降落。",
+      "acceptedAnswers": [
+        "降落"
+      ],
+      "pronunciation": "lænd",
+      "memoryCue": "飞机从空中回到地面，这个动作就是降落。"
+    },
+    {
+      "id": "land.landing",
+      "word": "landing",
+      "partOfSpeech": "名词",
+      "meaning": "着陆",
+      "formation": "land（着陆）+ ing = 着陆这件事",
+      "rootRelation": "看到 land，想想飞机碰到地面的那一刻，以及它会落在哪里。",
+      "explanation": "例句中的 landing 取“着陆”这个意思。",
+      "example": "It was a smooth landing.",
+      "translation": "飞机很平稳地降落了。",
+      "acceptedAnswers": [
+        "着陆"
+      ],
+      "pronunciation": "ˈlændɪŋ",
+      "memoryCue": "land 是着陆，后面加 -ing，可以说着陆这件事。",
+      "parts": [
+        {
+          "text": "land",
+          "ipa": "lænd",
+          "meaning": "降落"
+        },
+        {
+          "text": "-ing",
+          "ipa": "ɪŋ",
+          "meaning": "正在做或做这件事"
+        }
+      ],
+      "combined": "飞机的轮子碰到地面，刚才完成的就是一次着陆。"
+    },
+    {
+      "id": "land.landing-area",
+      "word": "landing area",
+      "partOfSpeech": "名词短语",
+      "meaning": "着陆区",
+      "formation": "landing（着陆）+ area（区域）= 着陆区",
+      "rootRelation": "看到 land，想想飞机碰到地面的那一刻，以及它会落在哪里。",
+      "explanation": "例句中的 landing area 取“着陆区”这个意思。",
+      "example": "Keep the landing area clear.",
+      "translation": "请保持着陆区畅通。",
+      "acceptedAnswers": [
+        "着陆区"
+      ],
+      "pronunciation": "ˈlændɪŋ ˌɛriə",
+      "memoryCue": "landing 是着陆，area 是区域。合起来就是着陆区。",
+      "parts": [
+        {
+          "text": "landing",
+          "ipa": "lændɪŋ",
+          "meaning": "着陆"
+        },
+        {
+          "text": "area",
+          "ipa": "ɛriə",
+          "meaning": "区域"
+        }
+      ],
+      "combined": "飞机可以安全降下来的那块地方，就是着陆区。"
+    }
+  ],
+  "links": [
+    {
+      "from": "land.land",
+      "to": "land.landing",
+      "kind": "同一词族",
+      "note": "land（着陆）+ ing = 着陆这件事"
+    },
+    {
+      "from": "land.land",
+      "to": "land.landing-area",
+      "kind": "同一词族",
+      "note": "landing（着陆）+ area（区域）= 着陆区"
+    }
+  ],
+  "rootIPA": "lænd",
+  "rootSpoken": "land",
+  "rootContext": "",
+  "rootIntro": "这里的意思是陆地、着陆。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

@@ -1,0 +1,466 @@
+{
+  "id": "family.dict",
+  "root": "dict",
+  "meaning": "说、宣告",
+  "explanation": "dict- 关联拉丁语 dicere「说、宣告」。把话说出来、对未来作判断、与另一个说法相冲突，分别可以用不同的同族词。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "dict.dictate",
+      "word": "dictate",
+      "partOfSpeech": "动词",
+      "meaning": "口授；听写前朗读",
+      "explanation": "读出一段话，让别人记录或让设备将语音转成文字。",
+      "example": "She dictated a short message into her phone.",
+      "translation": "她对着手机口述了一条短消息。",
+      "rootRelation": "dict- 与「说」的历史词形有关。",
+      "acceptedAnswers": [
+        "口授",
+        "口述"
+      ],
+      "formation": "dict（说）→ 把内容说出来，让别人写",
+      "pronunciation": "dɪkˈteɪt",
+      "memoryCue": "把话说给别人写下来，就是口授。"
+    },
+    {
+      "id": "dict.predict",
+      "word": "predict",
+      "partOfSpeech": "动词",
+      "meaning": "预测；预料",
+      "explanation": "根据线索说某件事将来可能发生，常接 that 从句。",
+      "example": "The forecast predicts rain after midnight.",
+      "translation": "预报说午夜之后会下雨。",
+      "rootRelation": "pre-（之前）与 dict-（说）构成在事情发生前作判断的线索。",
+      "acceptedAnswers": [
+        "预测",
+        "预料"
+      ],
+      "formation": "pre（预先）+ dict（说）= 预测",
+      "pronunciation": "prɪˈdɪkt",
+      "memoryCue": "pre- 是预先，dict 是说。事先说将要发生什么，就是预测。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "prɪ",
+          "meaning": "在前面"
+        },
+        {
+          "text": "dict",
+          "ipa": "dɪkt",
+          "meaning": "说出来"
+        }
+      ],
+      "combined": "根据线索先判断还没发生的事，就是预测。"
+    },
+    {
+      "id": "dict.contradict",
+      "word": "contradict",
+      "partOfSpeech": "动词",
+      "meaning": "反驳；与…相矛盾",
+      "explanation": "可能是直接反驳别人，也可能是证据与某种说法无法同时成立。",
+      "example": "The receipt contradicts his account of the purchase.",
+      "translation": "收据和他对这次购买的描述对不上。",
+      "rootRelation": "contra-（相反）与 dict-（说）有「说法相反」的联系。",
+      "acceptedAnswers": [
+        "反驳",
+        "相矛盾",
+        "相冲突"
+      ],
+      "formation": "contra（相反）+ dict（说）= 反驳",
+      "pronunciation": "ˌkɑntrəˈdɪkt",
+      "memoryCue": "contra- 是相反，dict 是说。和前面的话说反了，就是反驳。",
+      "parts": [
+        {
+          "text": "contra-",
+          "ipa": "kɑntrə",
+          "meaning": "相反"
+        },
+        {
+          "text": "dict",
+          "ipa": "dɪkt",
+          "meaning": "说"
+        }
+      ],
+      "combined": "说法正相反，或证据互相冲突，就是反驳、矛盾。"
+    },
+    {
+      "id": "dict.verdict",
+      "word": "verdict",
+      "partOfSpeech": "名词",
+      "meaning": "裁决；定论",
+      "explanation": "正式语境可指陪审团的裁决，日常也可比喻综合评价。",
+      "example": "The jury reached a verdict on Thursday.",
+      "translation": "陪审团周四作出了裁决。",
+      "rootRelation": "历史词源有「说出真实判断」的线索。",
+      "acceptedAnswers": [
+        "裁决",
+        "判决",
+        "定论"
+      ],
+      "formation": "dict（宣告）→ 正式宣告的裁决",
+      "pronunciation": "ˈvɝdɪkt",
+      "memoryCue": "法庭正式说出判决，这个结果就是 verdict。",
+      "plainCue": "审理后作出的正式结论，就是裁决。"
+    },
+    {
+      "id": "dict.dictation",
+      "word": "dictation",
+      "partOfSpeech": "名词",
+      "meaning": "听写；口授",
+      "explanation": "一个人说、另一个人把词句写下来的练习或活动。",
+      "example": "Our teacher started the lesson with a short dictation.",
+      "translation": "老师用一小段听写开始了这节课。",
+      "rootRelation": "与表示口授的 dictate 同族。",
+      "acceptedAnswers": [
+        "听写",
+        "口授"
+      ],
+      "formation": "dict-（说、口述） + -ation（过程或结果） → 听写",
+      "pronunciation": "dɪkˈteɪʃən",
+      "memoryCue": "从 dictate 的「口授」来记。说的人在口授，写的人在听写。",
+      "parts": [
+        {
+          "text": "dict-",
+          "ipa": "dɪk",
+          "meaning": "说、口述"
+        },
+        {
+          "text": "-ation",
+          "ipa": "ˈteɪʃən",
+          "meaning": "过程或结果",
+          "notes": [
+            "此词指口述/听写，不是“支配”"
+          ]
+        }
+      ],
+      "combined": "一个人说，另一个人写下来，就是听写。"
+    },
+    {
+      "id": "dict.prediction",
+      "word": "prediction",
+      "partOfSpeech": "名词",
+      "meaning": "预测；预言",
+      "explanation": "根据事实作出的预测，也可指提前说出的具体结果。",
+      "example": "Her prediction about the election was accurate.",
+      "translation": "她对选举的预测很准确。",
+      "rootRelation": "predict 加 -ion。",
+      "acceptedAnswers": [
+        "预测",
+        "预言"
+      ],
+      "formation": "pre-（预先） + dict-（说、判断） + -tion（行为或结果） → 预测",
+      "pronunciation": "priˈdɪkʃən",
+      "memoryCue": "predict 是预测。说出来的那个预测叫 a prediction。",
+      "parts": [
+        {
+          "text": "pre-",
+          "ipa": "pri",
+          "meaning": "预先"
+        },
+        {
+          "text": "dict-",
+          "ipa": "ˈdɪk",
+          "meaning": "说、判断",
+          "notes": [
+            "此词中的音段"
+          ]
+        },
+        {
+          "text": "-tion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "预测"
+          ]
+        }
+      ],
+      "combined": "根据线索先说出的结果，就是预测。"
+    },
+    {
+      "id": "dict.predictable",
+      "word": "predictable",
+      "partOfSpeech": "形容词",
+      "meaning": "可预见的；意料之中的",
+      "explanation": "形容某事的发展有规律，或结局不出乎意料。",
+      "example": "The ending was predictable, but I enjoyed the film.",
+      "translation": "结局在意料之中，但我还是很喜欢这部电影。",
+      "rootRelation": "predict 加 -able。",
+      "acceptedAnswers": [
+        "可预测的",
+        "可预见的",
+        "意料之中的"
+      ],
+      "formation": "predict（预测）+ able（能）= 可预见的",
+      "pronunciation": "prɪˈdɪktəbəl",
+      "memoryCue": "-able 是能。能事先想到，就叫可以预见的。",
+      "parts": [
+        {
+          "text": "predict",
+          "ipa": "prɪdɪkt",
+          "meaning": "预测"
+        },
+        {
+          "text": "-able",
+          "ipa": "əbəl",
+          "meaning": "能……的"
+        }
+      ],
+      "combined": "结果容易事先猜到，就是可预见的。"
+    },
+    {
+      "id": "dict.unpredictable",
+      "word": "unpredictable",
+      "partOfSpeech": "形容词",
+      "meaning": "难以预测的；不可预料的",
+      "explanation": "常形容变化快、规律不明显的人或事物。",
+      "example": "The weather can be unpredictable in the mountains.",
+      "translation": "山区的天气可能难以预测。",
+      "rootRelation": "un-（不）加 predictable。",
+      "acceptedAnswers": [
+        "难以预测的",
+        "不可预测的",
+        "难以预料"
+      ],
+      "formation": "un（不）+ predictable（可预见的）= 难以预测的",
+      "pronunciation": "ˌʌnprɪˈdɪktəbəl",
+      "memoryCue": "un- 是否定。很难事先想到，就叫难以预测的。",
+      "parts": [
+        {
+          "text": "un-",
+          "ipa": "ʌn",
+          "meaning": "不"
+        },
+        {
+          "text": "predictable",
+          "ipa": "prɪdɪktəbəl",
+          "meaning": "能预料的"
+        }
+      ],
+      "combined": "结果很难提前猜到，就是难以预测的。"
+    },
+    {
+      "id": "dict.contradiction",
+      "word": "contradiction",
+      "partOfSpeech": "名词",
+      "meaning": "矛盾；相互冲突",
+      "explanation": "两个陈述或证据互相冲突，不能同时成立。",
+      "example": "There is a contradiction between the two reports.",
+      "translation": "两份报告有相互矛盾之处。",
+      "rootRelation": "contradict 加 -ion。",
+      "acceptedAnswers": [
+        "矛盾",
+        "冲突"
+      ],
+      "formation": "contradict（反驳）+ ion（结果）= 矛盾",
+      "pronunciation": "ˌkɑntrəˈdɪkʃən",
+      "memoryCue": "两句话互相冲突，合不到一起，这个矛盾叫 contradiction。",
+      "parts": [
+        {
+          "text": "contradict",
+          "ipa": "kɑntrədɪk",
+          "meaning": "反驳"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "结果"
+        }
+      ],
+      "combined": "两种说法不能同时成立，就是矛盾。"
+    },
+    {
+      "id": "dict.contradictory",
+      "word": "contradictory",
+      "partOfSpeech": "形容词",
+      "meaning": "互相矛盾的",
+      "explanation": "形容两种信息、说法或指示相互冲突。",
+      "example": "We received contradictory instructions from two offices.",
+      "translation": "我们从两个部门收到了互相矛盾的指示。",
+      "rootRelation": "与 contradict 和 contradiction 同族。",
+      "acceptedAnswers": [
+        "互相矛盾的",
+        "矛盾的"
+      ],
+      "formation": "contradict（相矛盾）+ ory（形容词词尾）= 互相矛盾的",
+      "pronunciation": "ˌkɑntrəˈdɪktɚi",
+      "memoryCue": "contradict 是相矛盾。两种说法合不到一起，就说它们互相矛盾。",
+      "parts": [
+        {
+          "text": "contradict",
+          "ipa": "kɑntrədɪkt",
+          "meaning": "相矛盾"
+        },
+        {
+          "text": "-ory",
+          "ipa": "ɚi",
+          "meaning": "形容词词尾"
+        }
+      ],
+      "combined": "两个说法彼此冲突，就是相互矛盾的。"
+    },
+    {
+      "id": "dict.dictionary",
+      "word": "dictionary",
+      "partOfSpeech": "名词",
+      "meaning": "词典；字典",
+      "explanation": "提供词义、用法、发音或译法等信息的参考书或工具。",
+      "example": "I looked up the spelling in a dictionary.",
+      "translation": "我查了词典，确认这个词的拼写。",
+      "rootRelation": "历史词形与用词、言语相关。",
+      "acceptedAnswers": [
+        "词典",
+        "字典"
+      ],
+      "formation": "dict（说）→ 收录词语并解释它们的词典",
+      "pronunciation": "ˈdɪkʃəˌnɛri",
+      "memoryCue": "能查词义、拼写和用法的书或工具。"
+    },
+    {
+      "id": "dict.diction",
+      "word": "diction",
+      "partOfSpeech": "名词",
+      "meaning": "吐字；用词",
+      "explanation": "在演讲或演唱中可以指发音、吐字方式；写作中也可指措辞方式。",
+      "example": "Her diction was clear even in the fastest song.",
+      "translation": "即使唱最快的歌，她也吐字清晰。",
+      "rootRelation": "dict- 关联说话或表达。",
+      "acceptedAnswers": [
+        "吐字",
+        "咬字",
+        "措辞",
+        "用词"
+      ],
+      "formation": "dict（说）→ 说话时的吐字",
+      "pronunciation": "ˈdɪkʃən",
+      "memoryCue": "dict 是说。说话怎样咬字吐音，就是 diction。",
+      "plainCue": "说话时咬字清不清；写作时用词怎么选。"
+    },
+    {
+      "id": "dict.dictate.order",
+      "word": "dictate",
+      "partOfSpeech": "动词",
+      "meaning": "支配；规定",
+      "explanation": "强势规定别人必须怎么做，也可以指条件决定某种安排。",
+      "example": "The terms of the contract dictate when we can cancel.",
+      "translation": "合同条款规定了我们可以在何时取消。",
+      "rootRelation": "dictate 的命令、规定义。",
+      "acceptedAnswers": [
+        "规定",
+        "支配",
+        "决定"
+      ],
+      "formation": "dict（发话）→ 发号施令，支配",
+      "pronunciation": "dɪkˈteɪt",
+      "memoryCue": "dictate 除了口述，也能指一个人发号施令，决定别人怎么做。",
+      "plainCue": "强势规定别人该怎么做，就是支配或命令。"
+    },
+    {
+      "id": "dict.dictator",
+      "word": "dictator",
+      "partOfSpeech": "名词",
+      "meaning": "独裁者",
+      "explanation": "指掌握极大统治权、权力少受制约的人。",
+      "example": "The dictator ruled the country for twenty years.",
+      "translation": "那位独裁者统治了这个国家二十年。",
+      "rootRelation": "与 dictate 的命令义同族。",
+      "acceptedAnswers": [
+        "独裁者"
+      ],
+      "formation": "dict（发号施令）→ 独揽权力的人",
+      "pronunciation": "dɪkˈteɪtɚ",
+      "memoryCue": "dictate 是发号施令。一个人独揽权力就是独裁者。",
+      "parts": [
+        {
+          "text": "dictate",
+          "ipa": "dɪkteɪt",
+          "meaning": "支配"
+        },
+        {
+          "text": "-or",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "不受约束地掌握统治权的人，就是独裁者。"
+    }
+  ],
+  "links": [
+    {
+      "from": "dict.dictate",
+      "to": "dict.dictation",
+      "kind": "派生关系",
+      "note": "dictate 是读出词句供人记录，dictation 指口授活动或听写练习。"
+    },
+    {
+      "from": "dict.dictate",
+      "to": "dict.dictate.order",
+      "kind": "用法对照",
+      "note": "同一个 dictate 可以指口授，也可以指支配或规定；宾语常能提示是哪一个意思。"
+    },
+    {
+      "from": "dict.dictate.order",
+      "to": "dict.dictator",
+      "kind": "同词根",
+      "note": "dictate 可说发号施令，dictator 指统治权力很少受制约的独裁者。"
+    },
+    {
+      "from": "dict.predict",
+      "to": "dict.prediction",
+      "kind": "派生关系",
+      "note": "predict 是作出预测，prediction 是一个预测或结果。"
+    },
+    {
+      "from": "dict.predict",
+      "to": "dict.predictable",
+      "kind": "派生关系",
+      "note": "predict 是预测，predictable 说明一件事可以预料。"
+    },
+    {
+      "from": "dict.predictable",
+      "to": "dict.unpredictable",
+      "kind": "用法对照",
+      "note": "两词分别说明一件事是否能事先估计。"
+    },
+    {
+      "from": "dict.contradict",
+      "to": "dict.contradiction",
+      "kind": "派生关系",
+      "note": "contradict 表示与说法冲突，contradiction 是两者之间的矛盾。"
+    },
+    {
+      "from": "dict.contradiction",
+      "to": "dict.contradictory",
+      "kind": "派生关系",
+      "note": "contradiction 是矛盾本身，contradictory 描述互相冲突的说法。"
+    },
+    {
+      "from": "dict.dictate",
+      "to": "dict.diction",
+      "kind": "语境关联",
+      "note": "口授时，吐字清楚能帮助别人听懂并记录。"
+    },
+    {
+      "from": "dict.diction",
+      "to": "dict.dictionary",
+      "kind": "语境关联",
+      "note": "为了练习 diction，可以用词典核对读音或学习准确用词。"
+    },
+    {
+      "from": "dict.verdict",
+      "to": "dict.contradict",
+      "kind": "语境关联",
+      "note": "在作出 verdict 前，需要判断相互 contradict 的陈述是否可靠。"
+    },
+    {
+      "from": "dict.verdict",
+      "to": "dict.predict",
+      "kind": "用法对照",
+      "note": "predict 是事先估计，verdict 是审议之后作出的判断。"
+    }
+  ],
+  "rootIPA": "dɪkt",
+  "rootSpoken": "dict",
+  "rootContext": "在 predict 里",
+  "rootIntro": "这一块跟说话有关。看清谁在说、什么时候说。",
+  "rootKind": "词根"
+}

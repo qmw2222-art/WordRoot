@@ -1,0 +1,482 @@
+{
+  "id": "family.log",
+  "root": "log",
+  "meaning": "言语、论述",
+  "explanation": "log- 关联希腊语 logos「话语、论述、关系」。有些词用于说话或叙述，有些词中的 -logy 发展为「研究领域」。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "log.dialogue.1",
+      "word": "dialogue",
+      "partOfSpeech": "名词",
+      "meaning": "对话；对白",
+      "explanation": "两人或多人之间的交谈，也指戏剧中的对白。",
+      "example": "The dialogue between the neighbors helped resolve the dispute.",
+      "translation": "邻居之间的对话帮助解决了争执。",
+      "rootRelation": "dia-（相互、穿过）与 log（言语）组合。",
+      "acceptedAnswers": [
+        "对话"
+      ],
+      "formation": "dia-（通过、相互） + -logue（话语） → 对话",
+      "pronunciation": "ˈdaɪəˌlɔɡ",
+      "memoryCue": "和 monologue 对着记。一个人说是独白，彼此交谈就是对话。",
+      "parts": [
+        {
+          "text": "dia-",
+          "ipa": "ˈdaɪə",
+          "meaning": "通过、相互"
+        },
+        {
+          "text": "-logue",
+          "ipa": "lɔɡ",
+          "meaning": "话语",
+          "notes": [
+            "合起来指交谈"
+          ]
+        }
+      ],
+      "combined": "你问我答，两个人来回说的话就是对话。"
+    },
+    {
+      "id": "log.monologue.2",
+      "word": "monologue",
+      "partOfSpeech": "名词",
+      "meaning": "独白；长篇发言",
+      "explanation": "一个人连续说话的一段内容。",
+      "example": "The actor delivered a short monologue at the audition.",
+      "translation": "演员在试演时说了一段简短独白。",
+      "rootRelation": "mono-（单一）与 log（言语）组合。",
+      "acceptedAnswers": [
+        "独白"
+      ],
+      "formation": "mono-（一个、单独） + -logue（话语） → 独白",
+      "pronunciation": "ˈmɑnəˌlɔɡ",
+      "memoryCue": "mono- 是单一，-logue 和说话有关。一个人说，就是独白。",
+      "parts": [
+        {
+          "text": "mono-",
+          "ipa": "ˈmɑnoʊ",
+          "meaning": "一个、单独"
+        },
+        {
+          "text": "-logue",
+          "ipa": "lɔɡ",
+          "meaning": "话语",
+          "notes": [
+            "合起来指独白"
+          ]
+        }
+      ],
+      "combined": "舞台上只有一个人开口，讲着自己的心事，这叫独白。"
+    },
+    {
+      "id": "log.apology.5",
+      "word": "apology",
+      "partOfSpeech": "名词",
+      "meaning": "道歉；致歉",
+      "explanation": "承认造成不便或伤害并表达歉意的话语。",
+      "example": "He offered an apology for arriving late.",
+      "translation": "他为迟到道了歉。",
+      "rootRelation": "apologia 词族，历史上有“辩解、答辩”之义，现代 apology 常指道歉。",
+      "acceptedAnswers": [
+        "道歉"
+      ],
+      "formation": "把歉意说出口 → an apology，一句道歉",
+      "pronunciation": "əˈpɑləˌdʒi",
+      "memoryCue": "做错了说声对不起，这一句道歉叫 an apology。",
+      "plainCue": "迟到后你说的那句对不起，就是一次道歉。"
+    },
+    {
+      "id": "log.psychology.7",
+      "word": "psychology",
+      "partOfSpeech": "名词",
+      "meaning": "心理学",
+      "explanation": "研究心理、思维和行为的学科。",
+      "example": "She studies psychology and works with young athletes.",
+      "translation": "她学习心理学，并与年轻运动员合作。",
+      "rootRelation": "psycho-（心灵）与 -logy（研究）组合。",
+      "acceptedAnswers": [
+        "心理学"
+      ],
+      "formation": "psycho（心灵）+ -logy（研究） = 心理学",
+      "pronunciation": "saɪˈkɑlədʒi",
+      "memoryCue": "psycho 和心理有关，-logy 表示学科。研究心理的学科是心理学。",
+      "parts": [
+        {
+          "text": "psycho",
+          "ipa": "saɪkɑ",
+          "meaning": "心灵"
+        },
+        {
+          "text": "-logy",
+          "ipa": "lədʒi",
+          "meaning": "研究"
+        }
+      ],
+      "combined": "研究人怎样想、怎样感受和行动的学问，叫心理学。"
+    },
+    {
+      "id": "log.catalogue.3",
+      "word": "catalogue",
+      "partOfSpeech": "名词",
+      "meaning": "目录；产品目录",
+      "explanation": "按一定次序列出书籍、商品或资料的清单。",
+      "example": "The museum catalogue lists every piece in the exhibition.",
+      "translation": "博物馆目录列出了展览中的每件作品。",
+      "rootRelation": "kata-（逐项）与 log（列举、叙述）历史相关。",
+      "acceptedAnswers": [
+        "目录"
+      ],
+      "formation": "cata-（逐项、按类） + -logue（列出的内容） → 目录",
+      "pronunciation": "ˈkætəˌlɔɡ",
+      "memoryCue": "catalogue 像把东西列成一本册子。作为名词，指目录。",
+      "plainCue": "按一定次序列出书籍、商品或资料的清单。",
+      "parts": [
+        {
+          "text": "cata-",
+          "ipa": "ˈkætə",
+          "meaning": "逐项、按类"
+        },
+        {
+          "text": "-logue",
+          "ipa": "lɔɡ",
+          "meaning": "列出的内容",
+          "notes": [
+            "合起来指目录"
+          ]
+        }
+      ],
+      "combined": "商店把卖的东西一项项列给你看，这份清单就是商品目录。"
+    },
+    {
+      "id": "log.prologue.4",
+      "word": "prologue",
+      "partOfSpeech": "名词",
+      "meaning": "序言；开场白",
+      "explanation": "作品正文前的引言，或故事开始前的场景。",
+      "example": "The prologue introduces the family before the main story begins.",
+      "translation": "序言在正文开始前介绍了这个家庭。",
+      "rootRelation": "pro-（在前）与 log（话语）组合。",
+      "acceptedAnswers": [
+        "序言"
+      ],
+      "formation": "pro（在前）+ -logue（话语） = 序言",
+      "pronunciation": "ˈproʊlɑɡ",
+      "memoryCue": "pro- 是在前，-logue 和话有关。放在正文前的一段话就是序言。",
+      "parts": [
+        {
+          "text": "pro-",
+          "ipa": "proʊ",
+          "meaning": "在前"
+        },
+        {
+          "text": "logue",
+          "ipa": "lɑɡ",
+          "meaning": "话语"
+        }
+      ],
+      "combined": "故事真正开始前，先说几句带你入戏，这几句就是开场白。"
+    },
+    {
+      "id": "log.epilogue.5",
+      "word": "epilogue",
+      "partOfSpeech": "名词",
+      "meaning": "尾声；后记",
+      "explanation": "放在故事结尾之后，交代故事结束以后的情况。",
+      "example": "An epilogue follows the characters ten years later.",
+      "translation": "尾声讲述了这些人物十年后的生活。",
+      "rootRelation": "epi- 在此表示附加或在后，-logue 与言语相关。",
+      "acceptedAnswers": [
+        "尾声",
+        "后记"
+      ],
+      "formation": "epi（之后）+ -logue（话语） = 尾声",
+      "pronunciation": "ˈɛpəˌlɔɡ",
+      "memoryCue": "故事结束后作者再说的一段话，就是尾声。",
+      "parts": [
+        {
+          "text": "epi",
+          "ipa": "ɛpə",
+          "meaning": "之后"
+        },
+        {
+          "text": "logue",
+          "ipa": "lɔɡ",
+          "meaning": "话语"
+        }
+      ],
+      "combined": "故事结束后，又写了后来怎么样，末尾这一小段就是尾声。"
+    },
+    {
+      "id": "log.technology.8",
+      "word": "technology",
+      "partOfSpeech": "名词",
+      "meaning": "技术；科技",
+      "explanation": "为解决实际问题而应用的知识、工具和方法。",
+      "example": "The clinic uses technology to keep patient records organized.",
+      "translation": "诊所用技术来整理患者记录。",
+      "rootRelation": "techno- 与 -logy 构成学科或技术领域名称。",
+      "acceptedAnswers": [
+        "技术"
+      ],
+      "formation": "techn-（技术、技艺） + -ology（学科或系统） → 技术",
+      "pronunciation": "tɛkˈnɑlədʒi",
+      "memoryCue": "techno 和技艺有关。把方法和工具用来解决问题，说的就是技术。",
+      "parts": [
+        {
+          "text": "techn-",
+          "ipa": "tɛk",
+          "meaning": "技术、技艺"
+        },
+        {
+          "text": "-ology",
+          "ipa": "ˈnɑlədʒi",
+          "meaning": "学科或系统",
+          "notes": [
+            "technology 是技术体系"
+          ]
+        }
+      ],
+      "combined": "把知识用来造东西、解决问题，比如造出能导航的手机，这就是技术。"
+    },
+    {
+      "id": "log.analogy.extra1",
+      "word": "analogy",
+      "partOfSpeech": "名词",
+      "meaning": "类比；相似之处",
+      "explanation": "通过两个事物的相似点来解释或推理。",
+      "example": "The teacher used an analogy between a cell and a factory.",
+      "translation": "老师用细胞和工厂作类比。",
+      "rootRelation": "ana- 与 log（关系、论述）历史相关。",
+      "acceptedAnswers": [
+        "类比"
+      ],
+      "formation": "analog-（相似、对应） + -y（名词形式） → 类比",
+      "pronunciation": "əˈnælədʒi",
+      "memoryCue": "用熟悉的东西解释陌生的东西，抓它们的相似点，就是类比。",
+      "parts": [
+        {
+          "text": "analog-",
+          "ipa": "əˈnɑlədʒ",
+          "meaning": "相似、对应"
+        },
+        {
+          "text": "-y",
+          "ipa": "i",
+          "meaning": "名词形式",
+          "notes": [
+            "指类比关系"
+          ]
+        }
+      ],
+      "combined": "用水管里的水流解释电流，是用一件熟悉的事打比方，这就是类比。"
+    },
+    {
+      "id": "log.analogous.extra2",
+      "word": "analogous",
+      "partOfSpeech": "形容词",
+      "meaning": "类似的；可类比的",
+      "explanation": "在某个重要方面与另一事物相似。",
+      "example": "The two repair methods are analogous but use different tools.",
+      "translation": "这两种维修方法相似，但用的工具不同。",
+      "rootRelation": "由 analogy 加 -ous 构成。",
+      "acceptedAnswers": [
+        "类似的"
+      ],
+      "formation": "analog-（相似、对应） + -ous（具有……性质的） → 类似的",
+      "pronunciation": "əˈnæləɡəs",
+      "memoryCue": "两件事有足够的相似之处，能放在一起作类比，就叫类似的。",
+      "parts": [
+        {
+          "text": "analog-",
+          "ipa": "əˈnɑlədʒ",
+          "meaning": "相似、对应"
+        },
+        {
+          "text": "-ous",
+          "ipa": "əs",
+          "meaning": "具有……性质的"
+        }
+      ],
+      "combined": "两件事有相像的地方，可以拿来作比较，就叫类似的。"
+    },
+    {
+      "id": "log.apologue.extra3",
+      "word": "apologue",
+      "partOfSpeech": "名词",
+      "meaning": "寓言故事",
+      "explanation": "通过故事传达道德或观点的短篇叙事。",
+      "example": "The fable is an apologue about patience.",
+      "translation": "这个寓言故事讲的是耐心。",
+      "rootRelation": "apo- 与 log（故事、言说）组成的文学术语。",
+      "acceptedAnswers": [
+        "寓言故事"
+      ],
+      "formation": "apologue · 寓言故事",
+      "pronunciation": "ˈæpəlɔɡ",
+      "memoryCue": "通过故事传达道德或观点的短篇叙事。",
+      "plainCue": "讲狐狸吃不到葡萄的小故事，让人明白一个道理，这样的故事叫寓言。"
+    },
+    {
+      "id": "log.apologize.extra4",
+      "word": "apologize",
+      "partOfSpeech": "动词",
+      "meaning": "道歉",
+      "explanation": "承认自己的言行造成问题并表达歉意。",
+      "example": "I apologized for interrupting the meeting.",
+      "translation": "我为打断会议道了歉。",
+      "rootRelation": "由 apology 词族动词化。",
+      "acceptedAnswers": [
+        "道歉"
+      ],
+      "formation": "apolog-（道歉） + -ize（做出、表达） → 道歉",
+      "pronunciation": "əˈpɑləˌdʒaɪz",
+      "memoryCue": "apology 是道歉，加上表示动作的词尾，就变成向人道歉。",
+      "parts": [
+        {
+          "text": "apolog-",
+          "ipa": "əˈpɑlədʒ",
+          "meaning": "道歉",
+          "notes": [
+            "在 apologize 中实际读作 /əˈpɑlədʒ/"
+          ]
+        },
+        {
+          "text": "-ize",
+          "ipa": "aɪz",
+          "meaning": "做出、表达",
+          "notes": [
+            "表示道歉"
+          ]
+        }
+      ],
+      "combined": "做错了事，当面说声对不起，这个动作就是道歉。"
+    },
+    {
+      "id": "log.apologetic.extra5",
+      "word": "apologetic",
+      "partOfSpeech": "形容词",
+      "meaning": "表示歉意的；道歉的",
+      "explanation": "说话或行为流露出歉疚。",
+      "example": "He gave an apologetic smile after spilling the tea.",
+      "translation": "茶洒出来后，他露出歉意的微笑。",
+      "rootRelation": "由 apology 加 -etic 构成。",
+      "acceptedAnswers": [
+        "表示歉意的"
+      ],
+      "formation": "apolog-（道歉） + -etic（具有……性质的） → 表示歉意的",
+      "pronunciation": "əˌpɑləˈdʒɛtɪk",
+      "memoryCue": "apology 是道歉。一个人神情里带着歉意，就用 apologetic。",
+      "plainCue": "说话或行为流露出歉疚。",
+      "parts": [
+        {
+          "text": "apolog-",
+          "ipa": "əˌpɑlədʒ",
+          "meaning": "道歉",
+          "notes": [
+            "在 apologetic 中实际读作 /əˌpɑlədʒ/"
+          ]
+        },
+        {
+          "text": "-etic",
+          "ipa": "ˈɛtɪk",
+          "meaning": "具有……性质的",
+          "notes": [
+            "表示歉意的"
+          ]
+        }
+      ],
+      "combined": "说话时让人听出你很过意不去，就是带着歉意。"
+    },
+    {
+      "id": "log.logarithm.extra6",
+      "word": "logarithm",
+      "partOfSpeech": "名词",
+      "meaning": "对数",
+      "explanation": "数学中描述乘方关系的一种量。",
+      "example": "We used a logarithm to simplify the calculation.",
+      "translation": "我们用对数简化了计算。",
+      "rootRelation": "logarithm 是数学术语，含 logos（比例、关系）词源，不等同普通的 -logy。",
+      "acceptedAnswers": [
+        "对数"
+      ],
+      "formation": "logos（比例）→ logarithm = 比例关系 → 对数",
+      "pronunciation": "ˈlɑɡɚˌɪðəm",
+      "memoryCue": "logarithm 通常简写成 log。数学里说某个数的对数，就用这个词。",
+      "plainCue": "二连乘三次得到八。问要乘几次，这里的答案三，就是八以二为底的对数。"
+    }
+  ],
+  "links": [
+    {
+      "to": "log.monologue.2",
+      "kind": "用法对照",
+      "note": "dialogue 是两方或多方交流，monologue 通常由一个人连续发言。",
+      "from": "log.dialogue.1"
+    },
+    {
+      "to": "log.prologue.4",
+      "kind": "语境关联",
+      "note": "一部戏的 prologue 可以先交代背景，正剧中用 dialogue 展开人物交流。",
+      "from": "log.dialogue.1"
+    },
+    {
+      "to": "log.epilogue.5",
+      "kind": "用法对照",
+      "note": "prologue 在正文前，epilogue 在故事结束后补充后续。",
+      "from": "log.prologue.4"
+    },
+    {
+      "to": "log.dialogue.1",
+      "kind": "同词根",
+      "note": "catalogue 把事物逐项列出，dialogue 是相互说话，两词保留不同的词源线索。",
+      "from": "log.catalogue.3"
+    },
+    {
+      "to": "log.apologize.extra4",
+      "kind": "派生关系",
+      "note": "apology 是道歉，apologize 是道歉的动作。",
+      "from": "log.apology.5"
+    },
+    {
+      "to": "log.apologetic.extra5",
+      "kind": "派生关系",
+      "note": "apology 是道歉，apologetic 形容带有歉意的语气或态度。",
+      "from": "log.apology.5"
+    },
+    {
+      "to": "log.apologue.extra3",
+      "kind": "用法对照",
+      "note": "apology 现代通常指出于歉意的表达，apologue 是带教训的寓言。",
+      "from": "log.apology.5"
+    },
+    {
+      "to": "log.technology.8",
+      "kind": "同词根",
+      "note": "psychology 研究心理和行为，technology 指可用的技术，两词的 -logy 发展方向有所不同。",
+      "from": "log.psychology.7"
+    },
+    {
+      "to": "log.analogous.extra2",
+      "kind": "派生关系",
+      "note": "analogy 是类比，analogous 形容在某一点上有可比结构。",
+      "from": "log.analogy.extra1"
+    },
+    {
+      "to": "log.analogy.extra1",
+      "kind": "语境关联",
+      "note": "用熟悉例子作 analogy，有助于理解心理学中的抽象概念。",
+      "from": "log.psychology.7"
+    },
+    {
+      "to": "log.logarithm.extra6",
+      "kind": "同词根",
+      "note": "analogy 表示类比，logarithm 是描述指数关系的数学词，两者的历史词形都与关系或比例有关。",
+      "from": "log.analogy.extra1"
+    }
+  ],
+  "rootIPA": "lɔɡ",
+  "rootSpoken": "logue",
+  "rootContext": "在 monologue 里",
+  "rootIntro": "这一块和说话有关。看前面，就知道有几个人说。",
+  "rootKind": "词根"
+}

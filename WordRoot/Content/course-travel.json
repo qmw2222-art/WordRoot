@@ -1,0 +1,2232 @@
+[
+  {
+    "id": 41,
+    "familyID": "family.book",
+    "title": "先订房，再改订",
+    "guide": "book 也能表示预订。在前面加 re-，就是把同一个动作再做一次。",
+    "wordIDs": [
+      "book.book",
+      "book.booking",
+      "book.rebook"
+    ],
+    "extraIDs": [],
+    "scene": "行程推迟了，你打电话给酒店。",
+    "roles": [
+      "你",
+      "前台"
+    ],
+    "dialogue": [
+      {
+        "text": "Can I rebook my room for Friday?",
+        "translation": "我能把房间改订到星期五吗？"
+      },
+      {
+        "text": "Yes. I can change your booking.",
+        "translation": "可以，我能帮你改预订。"
+      }
+    ],
+    "recallDay": 6,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.private",
+      "basic.for",
+      "basic.free",
+      "basic.month",
+      "basic.any",
+      "basic.tall",
+      "basic.wide",
+      "basic.hard"
+    ],
+    "mission": {
+      "goal": "先订房，再改订",
+      "turns": [
+        {
+          "partner": "Can I rebook my room for Friday?",
+          "partnerZH": "我能把房间改订到星期五吗？",
+          "reply": "Yes. I can change your booking.",
+          "replyZH": "可以，我能帮你改预订。"
+        },
+        {
+          "partner": "How many nights would you like to stay?",
+          "partnerZH": "你想住几晚？",
+          "reply": "Two nights, in a room for one.",
+          "replyZH": "两晚，要一间单人房。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "book.book",
+      "basicID": "basic.for",
+      "text": "I'd like to book a room for two.",
+      "translation": "我想订一间双人房。"
+    }
+  },
+  {
+    "id": 42,
+    "familyID": "family.port",
+    "title": "把第一天的词带去旅行",
+    "guide": "沿用第 1 天的 port。transport 是运，词尾换成 -ation，就可以说运输服务。",
+    "wordIDs": [
+      "sense.portable.easy-carry",
+      "sense.transport.carry",
+      "port.transportation"
+    ],
+    "extraIDs": [],
+    "scene": "下飞机后，你想把行李带进城。",
+    "roles": [
+      "你",
+      "工作人员"
+    ],
+    "dialogue": [
+      {
+        "text": "Is there public transportation to the city?",
+        "translation": "有到市区的公共交通吗？"
+      },
+      {
+        "text": "Yes, and you can take your bags on the train.",
+        "translation": "有，行李可以带上火车。"
+      }
+    ],
+    "recallDay": 1,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.transport",
+      "basic.public",
+      "basic.way",
+      "basic.go",
+      "basic.from",
+      "basic.to",
+      "basic.train",
+      "basic.station",
+      "basic.rail",
+      "basic.harbor",
+      "basic.boat",
+      "basic.ship"
+    ],
+    "mission": {
+      "goal": "把第一天的词带去旅行",
+      "turns": [
+        {
+          "partner": "Is there public transportation to the city?",
+          "partnerZH": "有到市区的公共交通吗？",
+          "reply": "Yes, and you can take your bags on the train.",
+          "replyZH": "有，行李可以带上火车。"
+        },
+        {
+          "partner": "Do I need a separate ticket for my bag?",
+          "partnerZH": "行李需要单独买票吗？",
+          "reply": "No. It's included.",
+          "replyZH": "不用，已经包含了。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "port.transportation",
+      "basicID": "basic.public",
+      "text": "Is there public transportation to the station?",
+      "translation": "有公共交通能到车站吗？"
+    }
+  },
+  {
+    "id": 43,
+    "familyID": "family.fly",
+    "title": "起飞和飞越",
+    "guide": "fly 是飞。加 -er 找乘机的人，接 over 找飞过的位置。",
+    "wordIDs": [
+      "fly.fly",
+      "fly.flyer",
+      "fly.fly-over"
+    ],
+    "extraIDs": [],
+    "scene": "机上看见一大片水面。",
+    "roles": [
+      "你",
+      "同伴"
+    ],
+    "dialogue": [
+      {
+        "text": "Do we fly over the lake?",
+        "translation": "我们会飞过那片湖吗？"
+      },
+      {
+        "text": "Yes. Look out the window.",
+        "translation": "会，看看窗外。"
+      }
+    ],
+    "recallDay": 41,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.plane",
+      "basic.flight",
+      "basic.air",
+      "basic.wing",
+      "basic.cloud",
+      "basic.over",
+      "basic.sky",
+      "basic.wind",
+      "basic.mist",
+      "basic.thick"
+    ],
+    "mission": {
+      "goal": "起飞和飞越",
+      "turns": [
+        {
+          "partner": "Do we fly over the lake?",
+          "partnerZH": "我们会飞过那片湖吗？",
+          "reply": "Yes. Look out the window.",
+          "replyZH": "会，看看窗外。"
+        },
+        {
+          "partner": "Which side has the better view?",
+          "partnerZH": "哪一侧看得更清楚？",
+          "reply": "The left side. You can see the lake.",
+          "replyZH": "左侧，可以看见湖。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "fly.fly",
+      "basicID": "basic.plane",
+      "text": "I often fly on planes like this.",
+      "translation": "我常坐这种飞机。"
+    }
+  },
+  {
+    "id": 44,
+    "familyID": "family.board",
+    "title": "听懂登机提醒",
+    "guide": "boarding 是登机。后面接 pass 是凭证，接 time 是时间。",
+    "wordIDs": [
+      "board.board",
+      "board.boarding-pass",
+      "board.boarding-time"
+    ],
+    "extraIDs": [],
+    "scene": "登机口的工作人员开始验票。",
+    "roles": [
+      "工作人员",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "May I see your boarding pass?",
+        "translation": "能看一下你的登机牌吗？"
+      },
+      {
+        "text": "Here it is. Can I board now?",
+        "translation": "给你。我现在能登机吗？"
+      }
+    ],
+    "recallDay": 43,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.group",
+      "basic.forward",
+      "basic.all",
+      "basic.board",
+      "basic.carriage"
+    ],
+    "mission": {
+      "goal": "听懂登机提醒",
+      "turns": [
+        {
+          "partner": "May I see your boarding pass?",
+          "partnerZH": "能看一下你的登机牌吗？",
+          "reply": "Here it is. Can I board now?",
+          "replyZH": "给你。我现在能登机吗？"
+        },
+        {
+          "partner": "How many bags are you taking on board?",
+          "partnerZH": "你要带几个包登机？",
+          "reply": "Just this small bag.",
+          "replyZH": "就这个小包。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "board.board",
+      "basicID": "basic.group",
+      "text": "Our group can board now.",
+      "translation": "现在轮到我们这组登机了。"
+    }
+  },
+  {
+    "id": 45,
+    "familyID": "family.check",
+    "title": "登记和离店",
+    "guide": "把 in 和 out 对着记。一个是进来登记，一个是离开办手续。",
+    "wordIDs": [
+      "check.check",
+      "check.check-in",
+      "check.check-out"
+    ],
+    "extraIDs": [],
+    "scene": "到酒店后，你想问退房时间。",
+    "roles": [
+      "你",
+      "前台"
+    ],
+    "dialogue": [
+      {
+        "text": "We'd like to check in.",
+        "translation": "我们想办理入住。"
+      },
+      {
+        "text": "Welcome. You can check out by noon tomorrow.",
+        "translation": "欢迎，明天中午前退房就可以。"
+      }
+    ],
+    "recallDay": 27,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.get",
+      "basic.list",
+      "basic.request",
+      "basic.different",
+      "basic.comb",
+      "basic.powder"
+    ],
+    "mission": {
+      "goal": "登记和离店",
+      "turns": [
+        {
+          "partner": "We'd like to check in.",
+          "partnerZH": "我们想办理入住。",
+          "reply": "Welcome. You can check out by noon tomorrow.",
+          "replyZH": "欢迎，明天中午前退房就可以。"
+        },
+        {
+          "partner": "Would you like one key or two?",
+          "partnerZH": "你想要一张房卡还是两张？",
+          "reply": "Two, please. We're sharing the room.",
+          "replyZH": "请给两张，我们两个人住。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "check.check",
+      "basicID": "basic.list",
+      "text": "Please check the list.",
+      "translation": "请核对一下清单。"
+    }
+  },
+  {
+    "id": 46,
+    "familyID": "family.gate",
+    "title": "找到正确的登机口",
+    "guide": "gate 是进出的口。前后搭上别的词，就知道是号码还是出发处。",
+    "wordIDs": [
+      "gate.gate",
+      "gate.gate-number",
+      "gate.departure-gate"
+    ],
+    "extraIDs": [],
+    "scene": "登机牌上的号码有点模糊，你走到问讯处。",
+    "roles": [
+      "你",
+      "工作人员"
+    ],
+    "dialogue": [
+      {
+        "text": "Has our gate number changed?",
+        "translation": "我们的登机口号码变了吗？"
+      },
+      {
+        "text": "Yes. Your departure gate is now twelve.",
+        "translation": "对，现在请去十二号登机口。"
+      }
+    ],
+    "recallDay": 44,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.east",
+      "basic.west",
+      "basic.north",
+      "basic.south",
+      "basic.side",
+      "basic.place",
+      "basic.base",
+      "basic.slope"
+    ],
+    "mission": {
+      "goal": "找到正确的登机口",
+      "turns": [
+        {
+          "partner": "Has our gate number changed?",
+          "partnerZH": "我们的登机口号码变了吗？",
+          "reply": "Yes. Your departure gate is now twelve.",
+          "replyZH": "对，现在请去十二号登机口。"
+        },
+        {
+          "partner": "Can I walk there in five minutes?",
+          "partnerZH": "五分钟能走到吗？",
+          "reply": "Yes. It's just past the shops.",
+          "replyZH": "可以，就在商店再过去一点。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "gate.gate",
+      "basicID": "basic.east",
+      "text": "Meet me at the east gate.",
+      "translation": "到东门跟我碰面。"
+    }
+  },
+  {
+    "id": 47,
+    "familyID": "family.pass",
+    "title": "一张票能通过几次",
+    "guide": "从 pass 的「通过」出发。能让人通过的是票，供人通过的是通道。",
+    "wordIDs": [
+      "pass.pass",
+      "pass.day-pass",
+      "pass.passage"
+    ],
+    "extraIDs": [],
+    "scene": "你想坐公交游览一天。",
+    "roles": [
+      "你",
+      "售票员"
+    ],
+    "dialogue": [
+      {
+        "text": "Can I buy a day pass here?",
+        "translation": "这里可以买一日通票吗？"
+      },
+      {
+        "text": "Yes. You can use it all day.",
+        "translation": "可以，这张票全天都能用。"
+      }
+    ],
+    "recallDay": 24,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.through",
+      "basic.second",
+      "basic.limit",
+      "basic.sail",
+      "basic.wave"
+    ],
+    "mission": {
+      "goal": "一张票能通过几次",
+      "turns": [
+        {
+          "partner": "Can I buy a day pass here?",
+          "partnerZH": "这里可以买一日通票吗？",
+          "reply": "Yes. You can use it all day.",
+          "replyZH": "可以，这张票全天都能用。"
+        },
+        {
+          "partner": "Could I use it again this evening?",
+          "partnerZH": "我今晚还能再用吗？",
+          "reply": "Yes, until midnight.",
+          "replyZH": "可以，一直到午夜。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "pass.pass",
+      "basicID": "basic.through",
+      "text": "Can we pass through here?",
+      "translation": "我们可以从这里过去吗？"
+    }
+  },
+  {
+    "id": 48,
+    "familyID": "family.land",
+    "title": "飞机落地的那一刻",
+    "guide": "land 既能指陆地，也能说降落。抓住「回到地面」，再认另外两个词。",
+    "wordIDs": [
+      "land.land",
+      "land.landing",
+      "land.landing-area"
+    ],
+    "extraIDs": [],
+    "scene": "飞机快到目的地，你看了一眼时间。",
+    "roles": [
+      "你",
+      "同伴"
+    ],
+    "dialogue": [
+      {
+        "text": "When do we land?",
+        "translation": "我们几点降落？"
+      },
+      {
+        "text": "In ten minutes. Get ready for landing.",
+        "translation": "还有十分钟，准备降落了。"
+      }
+    ],
+    "recallDay": 43,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.land",
+      "basic.sea",
+      "basic.island",
+      "basic.down",
+      "basic.wheel",
+      "basic.safe",
+      "basic.smooth",
+      "basic.sudden",
+      "basic.slip",
+      "basic.fall"
+    ],
+    "mission": {
+      "goal": "飞机落地的那一刻",
+      "turns": [
+        {
+          "partner": "When do we land?",
+          "partnerZH": "我们几点降落？",
+          "reply": "In ten minutes. Get ready for landing.",
+          "replyZH": "还有十分钟，准备降落了。"
+        },
+        {
+          "partner": "Should I put my bag away now?",
+          "partnerZH": "我现在要把包收好吗？",
+          "reply": "Yes, under the seat in front of you.",
+          "replyZH": "要，放在前排座椅下面。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "land.land",
+      "basicID": "basic.island",
+      "text": "We land on the island at noon.",
+      "translation": "我们中午在岛上降落。"
+    }
+  },
+  {
+    "id": 49,
+    "familyID": "family.travel",
+    "title": "旅行者的随身包",
+    "guide": "travel 是旅行。后面接 -er 指人，接 bag 指包。",
+    "wordIDs": [
+      "travel.travel",
+      "travel.traveler",
+      "travel.travel-bag"
+    ],
+    "extraIDs": [],
+    "scene": "你在列车入口问能否放包。",
+    "roles": [
+      "你",
+      "乘务员"
+    ],
+    "dialogue": [
+      {
+        "text": "Where can I put my travel bag?",
+        "translation": "我的旅行包放哪里好？"
+      },
+      {
+        "text": "There's space under your seat.",
+        "translation": "座位下面有空位。"
+      }
+    ],
+    "recallDay": 26,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.cart",
+      "basic.weight",
+      "basic.measure",
+      "basic.shirt",
+      "basic.trousers",
+      "basic.sock",
+      "basic.canvas",
+      "basic.pin"
+    ],
+    "mission": {
+      "goal": "旅行者的随身包",
+      "turns": [
+        {
+          "partner": "Where can I put my travel bag?",
+          "partnerZH": "我的旅行包放哪里好？",
+          "reply": "There's space under your seat.",
+          "replyZH": "座位下面有空位。"
+        },
+        {
+          "partner": "What if it doesn't fit?",
+          "partnerZH": "要是放不下呢？",
+          "reply": "Put it on the shelf above us.",
+          "replyZH": "放在我们头顶的架子上。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "travel.travel-bag",
+      "basicID": "basic.weight",
+      "text": "What's the weight of this travel bag?",
+      "translation": "这个旅行包有多重？"
+    }
+  },
+  {
+    "id": 50,
+    "familyID": "family.stop",
+    "title": "停车还是直达",
+    "guide": "stop 是停。看前面，是谁停，还是一路都不停。",
+    "wordIDs": [
+      "stop.stop",
+      "stop.bus-stop",
+      "stop.nonstop"
+    ],
+    "extraIDs": [],
+    "scene": "你拿着地图问司机。",
+    "roles": [
+      "你",
+      "司机"
+    ],
+    "dialogue": [
+      {
+        "text": "Is the next bus stop near the museum?",
+        "translation": "下一站靠近博物馆吗？"
+      },
+      {
+        "text": "Yes. I'll stop by the main entrance.",
+        "translation": "靠近，我会在正门旁停车。"
+      }
+    ],
+    "recallDay": 47,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.stop",
+      "basic.road",
+      "basic.street",
+      "basic.town",
+      "basic.walk",
+      "basic.distance",
+      "basic.horse",
+      "basic.whip"
+    ],
+    "mission": {
+      "goal": "停车还是直达",
+      "turns": [
+        {
+          "partner": "Is the next bus stop near the museum?",
+          "partnerZH": "下一站靠近博物馆吗？",
+          "reply": "Yes. I'll stop by the main entrance.",
+          "replyZH": "靠近，我会在正门旁停车。"
+        },
+        {
+          "partner": "How will I know when to get off?",
+          "partnerZH": "我怎么知道什么时候下车？",
+          "reply": "Look for the big clock on the left.",
+          "replyZH": "留意左边那座大钟。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "stop.bus-stop",
+      "basicID": "basic.street",
+      "text": "The bus stop is across the street.",
+      "translation": "公交车站在街对面。"
+    }
+  },
+  {
+    "id": 51,
+    "familyID": "family.direct",
+    "title": "请人指个方向",
+    "guide": "direct 是指路。先想手指的方向，再看词尾。",
+    "wordIDs": [
+      "direct.direct",
+      "direct.direction",
+      "direct.redirect"
+    ],
+    "extraIDs": [],
+    "scene": "路口有一条街正在施工。",
+    "roles": [
+      "你",
+      "路人"
+    ],
+    "dialogue": [
+      {
+        "text": "Can you direct me to the hotel?",
+        "translation": "能告诉我去酒店怎么走吗？"
+      },
+      {
+        "text": "Yes. Follow the signs in that direction.",
+        "translation": "可以，跟着那个方向的标志走。"
+      }
+    ],
+    "recallDay": 23,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.turn",
+      "basic.straight",
+      "basic.between",
+      "basic.bridge",
+      "basic.church",
+      "basic.opposite",
+      "basic.building",
+      "basic.branch"
+    ],
+    "mission": {
+      "goal": "请人指个方向",
+      "turns": [
+        {
+          "partner": "Can you direct me to the hotel?",
+          "partnerZH": "能告诉我去酒店怎么走吗？",
+          "reply": "Yes. Follow the signs in that direction.",
+          "replyZH": "可以，跟着那个方向的标志走。"
+        },
+        {
+          "partner": "Do I turn before the bridge or after it?",
+          "partnerZH": "在桥前转弯还是过桥后转？",
+          "reply": "After the bridge, turn right.",
+          "replyZH": "过桥之后右转。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "direct.direction",
+      "basicID": "basic.bridge",
+      "text": "Which direction is the bridge in?",
+      "translation": "桥在哪个方向？"
+    }
+  },
+  {
+    "id": 52,
+    "familyID": "family.sign",
+    "title": "顺着路标走",
+    "guide": "sign 是标志。加上柱子可以指路，加上不同的词尾还能表示信号。",
+    "wordIDs": [
+      "sign.signpost.extra2",
+      "sign.signage.extra1",
+      "sign.sign.1",
+      "sign.signal.3",
+      "sign.signify.6",
+      "sign.significant.7",
+      "sign.insignificant.8",
+      "sign.significantly.10",
+      "sign.designate.extra4",
+      "sign.designation.extra5"
+    ],
+    "extraIDs": [],
+    "scene": "在步道岔路处，你找不到湖。",
+    "roles": [
+      "同伴",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "What does the signpost say?",
+        "translation": "路标上写什么？"
+      },
+      {
+        "text": "It says the lake is to the left.",
+        "translation": "写着湖在左边。"
+      }
+    ],
+    "recallDay": 19,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.parallel",
+      "basic.narrow",
+      "basic.edge",
+      "basic.curve",
+      "basic.shade",
+      "basic.tree",
+      "basic.front",
+      "basic.steel",
+      "basic.rod"
+    ],
+    "mission": {
+      "goal": "顺着路标走",
+      "turns": [
+        {
+          "partner": "What does the signpost say?",
+          "partnerZH": "路标上写什么？",
+          "reply": "It says the lake is to the left.",
+          "replyZH": "写着湖在左边。"
+        },
+        {
+          "partner": "Is the path by the river open?",
+          "partnerZH": "河边的小路开放吗？",
+          "reply": "Yes. It's narrow but easy to follow.",
+          "replyZH": "开放。路窄，但很容易走。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "sign.signpost.extra2",
+      "basicID": "basic.tree",
+      "text": "Look for the signpost by the tree.",
+      "translation": "找树旁的路标。"
+    }
+  },
+  {
+    "id": 53,
+    "familyID": "family.geo",
+    "title": "给旅行照片标个位置",
+    "guide": "geo- 表示地球或地理位置。后半截告诉你跟地理有什么关系。",
+    "wordIDs": [
+      "geo.geography.3",
+      "geo.geographic.4",
+      "geo.geotag.8",
+      "geo.geometry.extra1",
+      "geo.geographical.extra4",
+      "geo.geopolitics.extra5"
+    ],
+    "extraIDs": [],
+    "scene": "朋友想知道你那张山景照是在哪儿拍的。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Did you geotag the photo?",
+        "translation": "你给这张照片加了地理位置吗？"
+      },
+      {
+        "text": "Yes. You can see the spot on the map.",
+        "translation": "加了，地图上能看到那个地方。"
+      }
+    ],
+    "recallDay": 52,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.mountain",
+      "basic.river",
+      "basic.field",
+      "basic.earth",
+      "basic.grass",
+      "basic.sand",
+      "basic.stone",
+      "basic.worm",
+      "basic.ant",
+      "basic.insect"
+    ],
+    "mission": {
+      "goal": "给旅行照片标个位置",
+      "turns": [
+        {
+          "partner": "Did you geotag the photo?",
+          "partnerZH": "你给这张照片加了地理位置吗？",
+          "reply": "Yes. You can see the spot on the map.",
+          "replyZH": "加了，地图上能看到那个地方。"
+        },
+        {
+          "partner": "Could you send me the location?",
+          "partnerZH": "能把地点发给我吗？",
+          "reply": "Sure. I'll send the map now.",
+          "replyZH": "可以，我这就把地图发给你。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "geo.geography.3",
+      "basicID": "basic.river",
+      "text": "This river shapes the geography of the area.",
+      "translation": "这条河影响着这一带的地形。"
+    }
+  },
+  {
+    "id": 54,
+    "familyID": "family.vis",
+    "title": "先预览，再回看",
+    "guide": "view 是看。开头的 pre- 和 re- 告诉你在什么时候看。",
+    "wordIDs": [
+      "vis.preview.extra3",
+      "vis.review.extra5",
+      "vis.visualize.5",
+      "vis.preview.extra4"
+    ],
+    "extraIDs": [],
+    "scene": "你和同伴在手机上查看明天的徒步路线。",
+    "roles": [
+      "你",
+      "同伴"
+    ],
+    "dialogue": [
+      {
+        "text": "Let's preview the route.",
+        "translation": "先预览一下路线吧。"
+      },
+      {
+        "text": "Good idea. I can visualize the walk now.",
+        "translation": "好主意，我现在能想象这段路怎么走了。"
+      }
+    ],
+    "recallDay": 20,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.view",
+      "basic.guide",
+      "basic.history",
+      "basic.old",
+      "basic.arch",
+      "basic.religion",
+      "basic.society"
+    ],
+    "mission": {
+      "goal": "先预览，再回看",
+      "turns": [
+        {
+          "partner": "Let's preview the route.",
+          "partnerZH": "先预览一下路线吧。",
+          "reply": "Good idea. I can visualize the walk now.",
+          "replyZH": "好主意，我现在能想象这段路怎么走了。"
+        },
+        {
+          "partner": "How long will the walk take?",
+          "partnerZH": "步行需要多久？",
+          "reply": "About half an hour, with one short stop.",
+          "replyZH": "大约半小时，中间稍微歇一下。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "vis.preview.extra3",
+      "basicID": "basic.guide",
+      "text": "The guide gives us a preview of the tour.",
+      "translation": "导游先给我们介绍了游览的大致内容。"
+    }
+  },
+  {
+    "id": 55,
+    "familyID": "family.fer",
+    "title": "能否把票转给别人",
+    "guide": "fer 有带的意思。先看带到哪里，再看能不能转给别人。",
+    "wordIDs": [
+      "fer.transfer",
+      "fer.transferable",
+      "fer.refer",
+      "fer.reference",
+      "fer.referral",
+      "fer.infer",
+      "fer.inference",
+      "fer.offer",
+      "fer.suffer"
+    ],
+    "extraIDs": [],
+    "scene": "朋友没法出发，你问车票能否转给别人。",
+    "roles": [
+      "你",
+      "售票员"
+    ],
+    "dialogue": [
+      {
+        "text": "Is this ticket transferable?",
+        "translation": "这张票可以转让吗？"
+      },
+      {
+        "text": "Yes. You can transfer it to a friend.",
+        "translation": "可以，你能把它转给朋友。"
+      }
+    ],
+    "recallDay": 30,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.send",
+      "basic.stamp",
+      "basic.exchange",
+      "basic.value",
+      "basic.rate",
+      "basic.possible",
+      "basic.separate",
+      "basic.account",
+      "basic.distribution",
+      "basic.loss"
+    ],
+    "mission": {
+      "goal": "能否把票转给别人",
+      "turns": [
+        {
+          "partner": "Is this ticket transferable?",
+          "partnerZH": "这张票可以转让吗？",
+          "reply": "Yes. You can transfer it to a friend.",
+          "replyZH": "可以，你能把它转给朋友。"
+        },
+        {
+          "partner": "What name should I put on it?",
+          "partnerZH": "我应该在上面写什么名字？",
+          "reply": "Use your friend's full name.",
+          "replyZH": "写你朋友的全名。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "fer.transfer",
+      "basicID": "basic.account",
+      "text": "Can I transfer money to this account?",
+      "translation": "我能把钱转到这个账户吗？"
+    }
+  },
+  {
+    "id": 56,
+    "familyID": "family.pend",
+    "title": "看懂临时暂停的通知",
+    "guide": "pend 可以想成悬着。事情悬着没办完，就是待处理。",
+    "wordIDs": [
+      "pend.pending",
+      "pend.suspend",
+      "pend.suspension",
+      "pend.pendant",
+      "pend.suspense",
+      "pend.pendulum",
+      "pend.append",
+      "pend.appendix"
+    ],
+    "extraIDs": [],
+    "scene": "码头的轮渡因天气临时停航。",
+    "roles": [
+      "你",
+      "工作人员"
+    ],
+    "dialogue": [
+      {
+        "text": "How long is the suspension?",
+        "translation": "停航会持续多久？"
+      },
+      {
+        "text": "We're still waiting. A decision is pending.",
+        "translation": "我们还在等，决定还没下来。"
+      }
+    ],
+    "recallDay": 31,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.reason",
+      "basic.cause",
+      "basic.then",
+      "basic.power",
+      "basic.burst"
+    ],
+    "mission": {
+      "goal": "看懂临时暂停的通知",
+      "turns": [
+        {
+          "partner": "How long is the suspension?",
+          "partnerZH": "停航会持续多久？",
+          "reply": "We're still waiting. A decision is pending.",
+          "replyZH": "我们还在等，决定还没下来。"
+        },
+        {
+          "partner": "Where should we wait for news?",
+          "partnerZH": "我们在哪儿等消息？",
+          "reply": "By the desk. They'll call us there.",
+          "replyZH": "在服务台旁，他们会到那儿叫我们。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "pend.pending",
+      "basicID": "basic.reason",
+      "text": "Is there a reason my request is still pending?",
+      "translation": "我的申请还没处理，是什么原因？"
+    }
+  },
+  {
+    "id": 57,
+    "familyID": "family.mit",
+    "title": "门票和入场许可",
+    "guide": "mit 有送的意思。看进门时是谁放行，就能记住准入和许可。",
+    "wordIDs": [
+      "mit.admit",
+      "mit.admission",
+      "mit.permit",
+      "mit.permission",
+      "mit.dismiss"
+    ],
+    "extraIDs": [],
+    "scene": "到博物馆门口，你拿出通票。",
+    "roles": [
+      "你",
+      "工作人员"
+    ],
+    "dialogue": [
+      {
+        "text": "Does this pass include admission?",
+        "translation": "这张通票包含入场资格吗？"
+      },
+      {
+        "text": "Yes. It admits one adult.",
+        "translation": "是的，可以让一位成人入场。"
+      }
+    ],
+    "recallDay": 56,
+    "legacyWordCount": 4,
+    "basicIDs": [
+      "basic.rule",
+      "basic.baby",
+      "basic.operation",
+      "basic.physical",
+      "basic.prison",
+      "basic.crime",
+      "basic.punishment"
+    ],
+    "mission": {
+      "goal": "门票和入场许可",
+      "turns": [
+        {
+          "partner": "Does this pass include admission?",
+          "partnerZH": "这张通票包含入场资格吗？",
+          "reply": "Yes. It admits one adult.",
+          "replyZH": "是的，可以让一位成人入场。"
+        },
+        {
+          "partner": "What about my baby?",
+          "partnerZH": "那我的宝宝呢？",
+          "reply": "Your baby can come in with you.",
+          "replyZH": "您的宝宝可以跟您一起进去。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "mit.permit",
+      "basicID": "basic.rule",
+      "text": "The rules do not permit pets inside.",
+      "translation": "按规定，宠物不能入内。"
+    }
+  },
+  {
+    "id": 58,
+    "familyID": "family.room",
+    "title": "房间里面有什么",
+    "guide": "room 是房间。放在它前面的词告诉你这间房用来做什么。",
+    "wordIDs": [
+      "room.room",
+      "room.bedroom",
+      "room.bathroom"
+    ],
+    "extraIDs": [],
+    "scene": "你在前台确认房间设施。",
+    "roles": [
+      "你",
+      "前台"
+    ],
+    "dialogue": [
+      {
+        "text": "Does the room have its own bathroom?",
+        "translation": "这个房间有独立卫生间吗？"
+      },
+      {
+        "text": "Yes. It's next to the bedroom.",
+        "translation": "有，就在卧室旁边。"
+      }
+    ],
+    "recallDay": 16,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.bed",
+      "basic.bath",
+      "basic.curtain",
+      "basic.cushion",
+      "basic.linen",
+      "basic.match",
+      "basic.flame",
+      "basic.fire",
+      "basic.smoke",
+      "basic.burn"
+    ],
+    "mission": {
+      "goal": "房间里面有什么",
+      "turns": [
+        {
+          "partner": "Does the room have its own bathroom?",
+          "partnerZH": "这个房间有独立卫生间吗？",
+          "reply": "Yes. It's next to the bedroom.",
+          "replyZH": "有，就在卧室旁边。"
+        },
+        {
+          "partner": "Could we have fresh linen, too?",
+          "partnerZH": "也能给我们换一套干净床品吗？",
+          "reply": "Of course. I'll bring it up.",
+          "replyZH": "当然，我拿上来。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "room.bedroom",
+      "basicID": "basic.bed",
+      "text": "The bedroom has one bed.",
+      "translation": "这间卧室里有一张床。"
+    }
+  },
+  {
+    "id": 59,
+    "familyID": "family.key",
+    "title": "拿错房卡的时候",
+    "guide": "key 是钥匙。后面接的东西告诉你钥匙是什么形状或放在哪里。",
+    "wordIDs": [
+      "key.key",
+      "key.key-card",
+      "key.key-ring"
+    ],
+    "extraIDs": [],
+    "scene": "回到酒店时，房门上的读卡器亮了红灯。",
+    "roles": [
+      "你",
+      "前台"
+    ],
+    "dialogue": [
+      {
+        "text": "My key card won't open the door.",
+        "translation": "我的门卡打不开门。"
+      },
+      {
+        "text": "I'll get you a new one.",
+        "translation": "我给你换一张。"
+      }
+    ],
+    "recallDay": 14,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.drawer",
+      "basic.table",
+      "basic.mine",
+      "basic.chain",
+      "basic.hook",
+      "basic.hammer",
+      "basic.nail",
+      "basic.screw"
+    ],
+    "mission": {
+      "goal": "拿错房卡的时候",
+      "turns": [
+        {
+          "partner": "My key card won't open the door.",
+          "partnerZH": "我的门卡打不开门。",
+          "reply": "I'll get you a new one.",
+          "replyZH": "我给你换一张。"
+        },
+        {
+          "partner": "What's your room number?",
+          "partnerZH": "你的房间号是多少？",
+          "reply": "Room two oh six. Here's my ID.",
+          "replyZH": "二〇六，这是我的证件。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "key.key",
+      "basicID": "basic.drawer",
+      "text": "The key is in the drawer.",
+      "translation": "钥匙在抽屉里。"
+    }
+  },
+  {
+    "id": 60,
+    "familyID": "family.serve",
+    "title": "餐厅里的一份早餐",
+    "guide": "serve 在餐桌上是把吃的端给别人。记住人和分量的区别。",
+    "wordIDs": [
+      "serve.serve",
+      "serve.server",
+      "serve.serving"
+    ],
+    "extraIDs": [],
+    "scene": "早餐菜单上写着一份可丽饼。",
+    "roles": [
+      "你",
+      "服务员"
+    ],
+    "dialogue": [
+      {
+        "text": "How many pancakes are in one serving?",
+        "translation": "一份有几张薄煎饼？"
+      },
+      {
+        "text": "Two. We serve them with fruit.",
+        "translation": "两张，会配水果。"
+      }
+    ],
+    "recallDay": 5,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.meal",
+      "basic.plate",
+      "basic.fork",
+      "basic.spoon",
+      "basic.knife",
+      "basic.tray",
+      "basic.cup",
+      "basic.drink",
+      "basic.wine",
+      "basic.steam",
+      "basic.cork"
+    ],
+    "mission": {
+      "goal": "餐厅里的一份早餐",
+      "turns": [
+        {
+          "partner": "How many pancakes are in one serving?",
+          "partnerZH": "一份有几张薄煎饼？",
+          "reply": "Two. We serve them with fruit.",
+          "replyZH": "两张，会配水果。"
+        },
+        {
+          "partner": "Is there anything without milk?",
+          "partnerZH": "有不含牛奶的吗？",
+          "reply": "Yes. We have fruit and rice.",
+          "replyZH": "有，我们有水果和米饭。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "serve.serve",
+      "basicID": "basic.meal",
+      "text": "What time do you serve the meal?",
+      "translation": "你们几点开饭？"
+    }
+  },
+  {
+    "id": 61,
+    "familyID": "family.pay",
+    "title": "把餐费预先付清",
+    "guide": "pay 是付钱。看看钱是在事先付，还是付回去。",
+    "wordIDs": [
+      "pay.prepay",
+      "pay.prepaid",
+      "pay.repay"
+    ],
+    "extraIDs": [],
+    "scene": "你想买一张当地交通卡。",
+    "roles": [
+      "你",
+      "售票员"
+    ],
+    "dialogue": [
+      {
+        "text": "Is this a prepaid card?",
+        "translation": "这是一张预付卡吗？"
+      },
+      {
+        "text": "Yes. You pay before you travel.",
+        "translation": "是的，出行前先付费。"
+      }
+    ],
+    "recallDay": 10,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.amount",
+      "basic.tax",
+      "basic.debt",
+      "basic.poor"
+    ],
+    "mission": {
+      "goal": "把餐费预先付清",
+      "turns": [
+        {
+          "partner": "Is this a prepaid card?",
+          "partnerZH": "这是一张预付卡吗？",
+          "reply": "Yes. You pay before you travel.",
+          "replyZH": "是的，出行前先付费。"
+        },
+        {
+          "partner": "Can I check how much is left?",
+          "partnerZH": "可以查一下还剩多少钱吗？",
+          "reply": "Yes. The amount is on the receipt.",
+          "replyZH": "可以，收据上有余额。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "pay.prepay",
+      "basicID": "basic.amount",
+      "text": "Do I need to prepay the full amount?",
+      "translation": "我需要预付全款吗？"
+    }
+  },
+  {
+    "id": 62,
+    "familyID": "family.press",
+    "title": "把想说的话表达出来",
+    "guide": "press 是压。把心里的话送到外面，就表达出来了。",
+    "wordIDs": [
+      "press.express",
+      "press.expression",
+      "press.expressive",
+      "press.suppress"
+    ],
+    "extraIDs": [],
+    "scene": "同伴教你一句当地常用的感谢语。",
+    "roles": [
+      "你",
+      "同伴"
+    ],
+    "dialogue": [
+      {
+        "text": "What expression can I use to say thanks?",
+        "translation": "我可以用什么说法来道谢？"
+      },
+      {
+        "text": "You can say, “I really appreciate it.”",
+        "translation": "你可以说“我真的很感激”。"
+      }
+    ],
+    "recallDay": 21,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.language",
+      "basic.simple",
+      "basic.example",
+      "basic.sense",
+      "basic.thought",
+      "basic.as",
+      "basic.strange"
+    ],
+    "mission": {
+      "goal": "把想说的话表达出来",
+      "turns": [
+        {
+          "partner": "What expression can I use to say thanks?",
+          "partnerZH": "我可以用什么说法来道谢？",
+          "reply": "You can say, “I really appreciate it.”",
+          "replyZH": "你可以说“我真的很感激”。"
+        },
+        {
+          "partner": "How would you thank someone who helped with your bag?",
+          "partnerZH": "别人帮你提包，你会怎样道谢？",
+          "reply": "Thank you for carrying my bag.",
+          "replyZH": "谢谢你帮我提包。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "press.express",
+      "basicID": "basic.language",
+      "text": "Can you express it in simple language?",
+      "translation": "你能用简单的话说出来吗？"
+    }
+  },
+  {
+    "id": 63,
+    "familyID": "family.mot",
+    "title": "租车时看看发动机",
+    "guide": "motor 是马达。先想到靠它移动的车，再区分车和人。",
+    "wordIDs": [
+      "mot.motor.5",
+      "mot.motorist.6",
+      "mot.automotive.11",
+      "mot.promote.3",
+      "mot.motive.7",
+      "mot.promotion.4",
+      "mot.motivate.8",
+      "mot.motivation.extra2",
+      "mot.motivated.extra3",
+      "mot.demotion.extra5"
+    ],
+    "extraIDs": [],
+    "scene": "租车前，你和工作人员站在一台电动车边。",
+    "roles": [
+      "你",
+      "工作人员"
+    ],
+    "dialogue": [
+      {
+        "text": "Does this car have an electric motor?",
+        "translation": "这辆车用的是电动机吗？"
+      },
+      {
+        "text": "Yes. It's very quiet.",
+        "translation": "是的，开起来很安静。"
+      }
+    ],
+    "recallDay": 35,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.engine",
+      "basic.brake",
+      "basic.driving",
+      "basic.oil",
+      "basic.pump",
+      "basic.machine",
+      "basic.control",
+      "basic.lead"
+    ],
+    "mission": {
+      "goal": "租车时看看发动机",
+      "turns": [
+        {
+          "partner": "Does this car have an electric motor?",
+          "partnerZH": "这辆车用的是电动机吗？",
+          "reply": "Yes. It's very quiet.",
+          "replyZH": "是的，开起来很安静。"
+        },
+        {
+          "partner": "What should I check before I leave?",
+          "partnerZH": "出发前我应该检查什么？",
+          "reply": "Check the brakes and the battery level.",
+          "replyZH": "检查刹车和电量。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "mot.motor.5",
+      "basicID": "basic.oil",
+      "text": "Does the motor need oil?",
+      "translation": "这个电机需要加润滑油吗？"
+    }
+  },
+  {
+    "id": 64,
+    "familyID": "family.vers",
+    "title": "倒车和反面",
+    "guide": "reverse 的方向是相反的。车往回走，纸翻过去，都有这个意思。",
+    "wordIDs": [
+      "vers.reverse.gear",
+      "vers.reverse.2",
+      "vers.reversible.extra1",
+      "vers.reverse.3"
+    ],
+    "extraIDs": [],
+    "scene": "租来的汽车挡位和你平时的不一样。",
+    "roles": [
+      "你",
+      "工作人员"
+    ],
+    "dialogue": [
+      {
+        "text": "How do I put it in reverse?",
+        "translation": "怎么挂倒档？"
+      },
+      {
+        "text": "Press this button first.",
+        "translation": "先按这个按钮。"
+      }
+    ],
+    "recallDay": 63,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.back",
+      "basic.position",
+      "basic.angle",
+      "basic.crush"
+    ],
+    "mission": {
+      "goal": "倒车和反面",
+      "turns": [
+        {
+          "partner": "How do I put it in reverse?",
+          "partnerZH": "怎么挂倒档？",
+          "reply": "Press this button first.",
+          "replyZH": "先按这个按钮。"
+        },
+        {
+          "partner": "Where should I park when we arrive?",
+          "partnerZH": "到了以后我应该停在哪里？",
+          "reply": "In the space on the left.",
+          "replyZH": "停在左边的车位里。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "vers.reverse.2",
+      "basicID": "basic.position",
+      "text": "Put the switch back in the reverse position.",
+      "translation": "把开关拨回倒挡位置。"
+    }
+  },
+  {
+    "id": 65,
+    "familyID": "family.spect",
+    "title": "过关时接受检查",
+    "guide": "spect 和看有关。仔细看是检查，心里起疑就是怀疑。",
+    "wordIDs": [
+      "spect.inspect",
+      "spect.inspection",
+      "spect.suspect",
+      "spect.respect",
+      "spect.perspective",
+      "spect.respectful",
+      "spect.suspicion",
+      "spect.retrospect",
+      "spect.introspective",
+      "spect.aspect"
+    ],
+    "extraIDs": [],
+    "scene": "工作人员请你把行李放上台面。",
+    "roles": [
+      "工作人员",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "May I inspect your bag?",
+        "translation": "我可以检查你的包吗？"
+      },
+      {
+        "text": "Of course. I'll open it for inspection.",
+        "translation": "当然，我打开给你检查。"
+      }
+    ],
+    "recallDay": 36,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.insurance",
+      "basic.damage",
+      "basic.condition",
+      "basic.crack",
+      "basic.necessary",
+      "basic.blade",
+      "basic.sharp",
+      "basic.cut"
+    ],
+    "mission": {
+      "goal": "过关时接受检查",
+      "turns": [
+        {
+          "partner": "May I inspect your bag?",
+          "partnerZH": "我可以检查你的包吗？",
+          "reply": "Of course. I'll open it for inspection.",
+          "replyZH": "当然，我打开给你检查。"
+        },
+        {
+          "partner": "Is there anything sharp inside?",
+          "partnerZH": "里面有锋利物品吗？",
+          "reply": "No. Just clothes and a book.",
+          "replyZH": "没有，只有衣服和一本书。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "spect.inspect",
+      "basicID": "basic.damage",
+      "text": "Could you inspect the car for damage?",
+      "translation": "能帮我检查一下车有没有损坏吗？"
+    }
+  },
+  {
+    "id": 66,
+    "familyID": "family.graph",
+    "title": "从图上找到路线",
+    "guide": "graph 和画下来的图有关。图上画的是数据，还是各种信息？",
+    "wordIDs": [
+      "graph.graph.2",
+      "graph.graphics.4",
+      "graph.infographic.5"
+    ],
+    "extraIDs": [],
+    "scene": "车站墙上有一张讲解换乘的图。",
+    "roles": [
+      "你",
+      "同伴"
+    ],
+    "dialogue": [
+      {
+        "text": "Does this infographic show the transfer?",
+        "translation": "这张信息图里有换乘方法吗？"
+      },
+      {
+        "text": "Yes. Follow the blue arrows.",
+        "translation": "有，跟着蓝色箭头走。"
+      }
+    ],
+    "recallDay": 33,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.map",
+      "basic.middle",
+      "basic.top",
+      "basic.scale",
+      "basic.range",
+      "basic.net"
+    ],
+    "mission": {
+      "goal": "从图上找到路线",
+      "turns": [
+        {
+          "partner": "Does this infographic show the transfer?",
+          "partnerZH": "这张信息图里有换乘方法吗？",
+          "reply": "Yes. Follow the blue arrows.",
+          "replyZH": "有，跟着蓝色箭头走。"
+        },
+        {
+          "partner": "Which line should I take after that?",
+          "partnerZH": "然后换乘哪条线？",
+          "reply": "Take the green line to the last stop.",
+          "replyZH": "坐绿线到终点。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "graph.graph.2",
+      "basicID": "basic.top",
+      "text": "Our total is at the top of the graph.",
+      "translation": "我们的总数在图表顶部。"
+    }
+  },
+  {
+    "id": 67,
+    "familyID": "family.rupt",
+    "title": "行程突然被打断",
+    "guide": "rupt 可以记成断开。先后连着的事断了，就被打乱了。",
+    "wordIDs": [
+      "rupt.disrupt",
+      "rupt.disruption",
+      "rupt.abrupt",
+      "rupt.rupture",
+      "rupt.abruptly",
+      "rupt.corruption",
+      "rupt.bankrupt"
+    ],
+    "extraIDs": [],
+    "scene": "暴雨让山区的火车暂时停运。",
+    "roles": [
+      "你",
+      "工作人员"
+    ],
+    "dialogue": [
+      {
+        "text": "Is there a disruption on this line?",
+        "translation": "这条线路运行中断了吗？"
+      },
+      {
+        "text": "Yes. The storm disrupted service this morning.",
+        "translation": "是的，今早暴雨打乱了班次。"
+      }
+    ],
+    "recallDay": 50,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.rain",
+      "basic.thunder",
+      "basic.snow",
+      "basic.winter",
+      "basic.chance",
+      "basic.attack",
+      "basic.violent"
+    ],
+    "mission": {
+      "goal": "行程突然被打断",
+      "turns": [
+        {
+          "partner": "Is there a disruption on this line?",
+          "partnerZH": "这条线路运行中断了吗？",
+          "reply": "Yes. The storm disrupted service this morning.",
+          "replyZH": "是的，今早暴雨打乱了班次。"
+        },
+        {
+          "partner": "Is there another way to get there?",
+          "partnerZH": "还有别的办法到那里吗？",
+          "reply": "Yes. Take the bus across the street.",
+          "replyZH": "有，到马路对面坐公交。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "rupt.disrupt",
+      "basicID": "basic.rain",
+      "text": "Heavy rain can disrupt our trip.",
+      "translation": "大雨会打乱我们的行程。"
+    }
+  },
+  {
+    "id": 68,
+    "familyID": "family.struct",
+    "title": "施工时绕过路障",
+    "guide": "struct 和搭建有关。一点点搭起来，就是建造。",
+    "wordIDs": [
+      "struct.construct",
+      "struct.construction",
+      "struct.reconstruct",
+      "struct.obstruct",
+      "struct.constructive",
+      "struct.destruction"
+    ],
+    "extraIDs": [],
+    "scene": "你经过一座正在维修的桥。",
+    "roles": [
+      "你",
+      "路人"
+    ],
+    "dialogue": [
+      {
+        "text": "Is the bridge under construction?",
+        "translation": "桥在施工吗？"
+      },
+      {
+        "text": "Yes. They're reconstructing part of it.",
+        "translation": "对，他们在重建其中一段。"
+      }
+    ],
+    "recallDay": 48,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.brick",
+      "basic.wall",
+      "basic.roof",
+      "basic.danger",
+      "basic.against",
+      "basic.smash"
+    ],
+    "mission": {
+      "goal": "施工时绕过路障",
+      "turns": [
+        {
+          "partner": "Is the bridge under construction?",
+          "partnerZH": "桥在施工吗？",
+          "reply": "Yes. They're reconstructing part of it.",
+          "replyZH": "对，他们在重建其中一段。"
+        },
+        {
+          "partner": "Can I cross the river on foot?",
+          "partnerZH": "我能步行过河吗？",
+          "reply": "Yes. Use the smaller bridge to the east.",
+          "replyZH": "可以，走东边那座小桥。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "struct.construction",
+      "basicID": "basic.wall",
+      "text": "The wall is under construction.",
+      "translation": "这堵墙正在施工。"
+    }
+  },
+  {
+    "id": 69,
+    "familyID": "family.chron",
+    "title": "按年代看展览",
+    "guide": "chron 是时间。用一条时间线记日期、顺序和记录。",
+    "wordIDs": [
+      "chron.chronology.2",
+      "chron.chronological.3",
+      "chron.chronicle.4",
+      "chron.anachronism.7",
+      "chron.chronicle.extra1",
+      "chron.chronicler.extra2"
+    ],
+    "extraIDs": [],
+    "scene": "展厅入口提示从左到右参观。",
+    "roles": [
+      "你",
+      "讲解员"
+    ],
+    "dialogue": [
+      {
+        "text": "Are the pictures in chronological order?",
+        "translation": "这些画是按年代顺序排列的吗？"
+      },
+      {
+        "text": "Yes. The oldest one is on the left.",
+        "translation": "对，最早的那幅在左边。"
+      }
+    ],
+    "recallDay": 25,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.past",
+      "basic.present",
+      "basic.future",
+      "basic.year",
+      "basic.event",
+      "basic.birth",
+      "basic.death",
+      "basic.war",
+      "basic.army",
+      "basic.military",
+      "basic.gun"
+    ],
+    "mission": {
+      "goal": "按年代看展览",
+      "turns": [
+        {
+          "partner": "Are the pictures in chronological order?",
+          "partnerZH": "这些画是按年代顺序排列的吗？",
+          "reply": "Yes. The oldest one is on the left.",
+          "replyZH": "对，最早的那幅在左边。"
+        },
+        {
+          "partner": "Which part would you like to see next?",
+          "partnerZH": "你接下来想看哪一部分？",
+          "reply": "The room with the old pictures.",
+          "replyZH": "有老照片的那个展厅。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "chron.chronological.3",
+      "basicID": "basic.event",
+      "text": "Put the events in chronological order.",
+      "translation": "把这些事件按时间先后排列。"
+    }
+  },
+  {
+    "id": 70,
+    "familyID": "family.bio",
+    "title": "走进自然保护区",
+    "guide": "bio- 是生命。再看后面是在说学科、研究者，还是种类。",
+    "wordIDs": [
+      "bio.biology.1",
+      "bio.biologist.5",
+      "bio.biodiversity.extra1",
+      "bio.biography.3",
+      "bio.microbiology.6",
+      "bio.biopsy.8",
+      "bio.biome.extra5"
+    ],
+    "extraIDs": [],
+    "scene": "你跟着向导穿过一片湿地。",
+    "roles": [
+      "你",
+      "向导"
+    ],
+    "dialogue": [
+      {
+        "text": "Are you a biologist?",
+        "translation": "你是生物学家吗？"
+      },
+      {
+        "text": "Yes. I study the biodiversity of this wetland.",
+        "translation": "是的，我研究这片湿地的生物多样性。"
+      }
+    ],
+    "recallDay": 36,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.animal",
+      "basic.plant",
+      "basic.leaf",
+      "basic.stem",
+      "basic.root",
+      "basic.bird",
+      "basic.feather",
+      "basic.snake",
+      "basic.monkey",
+      "basic.rat",
+      "basic.fly",
+      "basic.fowl"
+    ],
+    "mission": {
+      "goal": "走进自然保护区",
+      "turns": [
+        {
+          "partner": "Are you a biologist?",
+          "partnerZH": "你是生物学家吗？",
+          "reply": "Yes. I study the biodiversity of this wetland.",
+          "replyZH": "是的，我研究这片湿地的生物多样性。"
+        },
+        {
+          "partner": "Which animals live here?",
+          "partnerZH": "哪些动物生活在这里？",
+          "reply": "Many birds and a few small snakes.",
+          "replyZH": "很多鸟，还有一些小蛇。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "bio.biology.1",
+      "basicID": "basic.plant",
+      "text": "I study plant biology.",
+      "translation": "我学生物学，研究植物。"
+    }
+  },
+  {
+    "id": 71,
+    "familyID": "family.help",
+    "title": "在陌生车站求助",
+    "guide": "help 是帮助。后面接 desk 是地方，接 -less 就表示缺少。",
+    "wordIDs": [
+      "help.help-desk",
+      "help.helpful",
+      "help.helpless"
+    ],
+    "extraIDs": [],
+    "scene": "在换乘站找不到站台，你看到一个柜台。",
+    "roles": [
+      "你",
+      "站务员"
+    ],
+    "dialogue": [
+      {
+        "text": "Is this the help desk?",
+        "translation": "这里是服务台吗？"
+      },
+      {
+        "text": "Yes. How can I help?",
+        "translation": "是的，有什么我能帮忙的？"
+      }
+    ],
+    "recallDay": 8,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.hospital",
+      "basic.medical",
+      "basic.ill",
+      "basic.pain",
+      "basic.chest",
+      "basic.stomach",
+      "basic.serious",
+      "basic.awake",
+      "basic.wound",
+      "basic.bone",
+      "basic.conscious",
+      "basic.feeble",
+      "basic.strong",
+      "basic.heart"
+    ],
+    "mission": {
+      "goal": "在陌生车站求助",
+      "turns": [
+        {
+          "partner": "Is this the help desk?",
+          "partnerZH": "这里是服务台吗？",
+          "reply": "Yes. How can I help?",
+          "replyZH": "是的，有什么我能帮忙的？"
+        },
+        {
+          "partner": "What do you need help with?",
+          "partnerZH": "你需要什么帮助？",
+          "reply": "I've lost my bag. Where can I report it?",
+          "replyZH": "我的包丢了。去哪里登记？"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "help.help-desk",
+      "basicID": "basic.hospital",
+      "text": "Where is the hospital help desk?",
+      "translation": "医院的服务台在哪儿？"
+    }
+  },
+  {
+    "id": 72,
+    "familyID": "family.cred",
+    "title": "旅行付款和身份凭证",
+    "guide": "cred 和信任有关。能相信的是人或消息，能拿出来证明的是凭据。",
+    "wordIDs": [
+      "cred.credit",
+      "cred.credential",
+      "cred.credible",
+      "cred.credit.attribute",
+      "cred.creditor",
+      "cred.accredit"
+    ],
+    "extraIDs": [],
+    "scene": "参加旅行团前，朋友想核实向导的资格。",
+    "roles": [
+      "朋友",
+      "你"
+    ],
+    "dialogue": [
+      {
+        "text": "Does the guide have a professional credential?",
+        "translation": "这位向导有专业资质证明吗？"
+      },
+      {
+        "text": "Yes. The visitor center checked it.",
+        "translation": "有，游客中心已经核实过。"
+      }
+    ],
+    "recallDay": 10,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.male",
+      "basic.female",
+      "basic.married",
+      "basic.sex",
+      "basic.country",
+      "basic.nation",
+      "basic.government",
+      "basic.political",
+      "basic.relation"
+    ],
+    "mission": {
+      "goal": "旅行付款和身份凭证",
+      "turns": [
+        {
+          "partner": "Does the guide have a professional credential?",
+          "partnerZH": "这位向导有专业资质证明吗？",
+          "reply": "Yes. The visitor center checked it.",
+          "replyZH": "有，游客中心已经核实过。"
+        },
+        {
+          "partner": "Where can I check the name on the card?",
+          "partnerZH": "我在哪里可以核对卡上的姓名？",
+          "reply": "At the desk near the entrance.",
+          "replyZH": "在入口附近的柜台。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "cred.credential",
+      "basicID": "basic.country",
+      "text": "Will this country accept my teaching credential?",
+      "translation": "这个国家认可我的教师资格证吗？"
+    }
+  },
+  {
+    "id": 73,
+    "familyID": "family.ject",
+    "title": "让影像投在墙上",
+    "guide": "ject 有投、扔的意思。把光向前投到墙上，就有了投影。",
+    "wordIDs": [
+      "ject.project",
+      "ject.projector",
+      "ject.projection"
+    ],
+    "extraIDs": [],
+    "scene": "酒店在院子里放露天电影。",
+    "roles": [
+      "你",
+      "工作人员"
+    ],
+    "dialogue": [
+      {
+        "text": "Where will you project the film?",
+        "translation": "你们会把电影投到哪里？"
+      },
+      {
+        "text": "The projector will point at that wall.",
+        "translation": "投影机会对着那面墙。"
+      }
+    ],
+    "recallDay": 33,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.picture",
+      "basic.ray",
+      "basic.hanging",
+      "basic.jewel"
+    ],
+    "mission": {
+      "goal": "让影像投在墙上",
+      "turns": [
+        {
+          "partner": "Where will you project the film?",
+          "partnerZH": "你们会把电影投到哪里？",
+          "reply": "The projector will point at that wall.",
+          "replyZH": "投影机会对着那面墙。"
+        },
+        {
+          "partner": "Where should we sit to see it clearly?",
+          "partnerZH": "我们坐哪里能看清？",
+          "reply": "Near the middle, two rows back.",
+          "replyZH": "靠中间，往后两排。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "ject.project",
+      "basicID": "basic.picture",
+      "text": "Can you project the picture onto the wall?",
+      "translation": "能把这张图片投到墙上吗？"
+    }
+  },
+  {
+    "id": 74,
+    "familyID": "family.ten",
+    "title": "多住一晚",
+    "guide": "tend 有伸展的意思。时间往后伸，就能多住一天。",
+    "wordIDs": [
+      "ten.extend.1",
+      "ten.extension.2",
+      "ten.extendable.3",
+      "ten.tend.extra1",
+      "ten.tendency.extra2",
+      "ten.tendentious.extra3",
+      "ten.contend.extra4",
+      "ten.contention.extra5",
+      "ten.contender.extra6"
+    ],
+    "extraIDs": [],
+    "scene": "你想把住宿延长到周日。",
+    "roles": [
+      "你",
+      "前台"
+    ],
+    "dialogue": [
+      {
+        "text": "Can I extend my stay by one night?",
+        "translation": "我能多住一晚吗？"
+      },
+      {
+        "text": "Yes. I'll arrange the extension.",
+        "translation": "可以，我帮你办理续住。"
+      }
+    ],
+    "recallDay": 37,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.last",
+      "basic.till",
+      "basic.regular",
+      "basic.though",
+      "basic.expansion"
+    ],
+    "mission": {
+      "goal": "多住一晚",
+      "turns": [
+        {
+          "partner": "Can I extend my stay by one night?",
+          "partnerZH": "我能多住一晚吗？",
+          "reply": "Yes. I'll arrange the extension.",
+          "replyZH": "可以，我帮你办理续住。"
+        },
+        {
+          "partner": "Would you like to keep the same room?",
+          "partnerZH": "你想继续住原来那间吗？",
+          "reply": "Yes, if the price is the same.",
+          "replyZH": "想，如果价格相同的话。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "ten.extend.1",
+      "basicID": "basic.till",
+      "text": "Could you extend my stay till Friday?",
+      "translation": "我能续住到周五吗？"
+    }
+  },
+  {
+    "id": 75,
+    "familyID": "family.log",
+    "title": "为迟到道歉",
+    "guide": "apology 是一句道歉。换词尾，就能说出道歉这个动作或态度。",
+    "wordIDs": [
+      "log.apology.5",
+      "log.apologize.extra4",
+      "log.apologetic.extra5",
+      "log.apologue.extra3"
+    ],
+    "extraIDs": [],
+    "scene": "因为公交晚点，你迟到了几分钟。",
+    "roles": [
+      "你",
+      "向导"
+    ],
+    "dialogue": [
+      {
+        "text": "I apologize for being late.",
+        "translation": "很抱歉我迟到了。"
+      },
+      {
+        "text": "Thank you for the apology. We can still catch the boat.",
+        "translation": "谢谢你道歉，我们还赶得上船。"
+      }
+    ],
+    "recallDay": 34,
+    "legacyWordCount": 3,
+    "basicIDs": [
+      "basic.kind",
+      "basic.regret",
+      "basic.quite",
+      "basic.very",
+      "basic.shame",
+      "basic.fight"
+    ],
+    "mission": {
+      "goal": "为迟到道歉",
+      "turns": [
+        {
+          "partner": "I apologize for being late.",
+          "partnerZH": "很抱歉我迟到了。",
+          "reply": "Thank you for the apology. We can still catch the boat.",
+          "replyZH": "谢谢你道歉，我们还赶得上船。"
+        },
+        {
+          "partner": "How soon can you get to the harbor?",
+          "partnerZH": "你多久能到港口？",
+          "reply": "In ten minutes. Thank you for waiting.",
+          "replyZH": "十分钟后到。谢谢你等我。"
+        }
+      ]
+    },
+    "bridge": {
+      "familyID": "log.apology.5",
+      "basicID": "basic.regret",
+      "text": "I regret my words. Please accept my apology.",
+      "translation": "我后悔说了那样的话，请接受我的道歉。"
+    }
+  }
+]

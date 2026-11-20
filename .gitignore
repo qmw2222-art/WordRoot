@@ -1,0 +1,13 @@
+.DS_Store
+DerivedData/
+.build/
+xcuserdata/
+*.xcuserstate
+*.xcresult/
+*.mobileprovision
+*.p12
+*.p8
+*.key
+Evidence/
+work/
+STATUS.md

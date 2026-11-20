@@ -1,0 +1,105 @@
+{
+  "id": "family.drink",
+  "root": "drink",
+  "meaning": "喝",
+  "explanation": "拿起杯子是 drink；换个结尾，可以说这个东西能不能喝。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "drink.drink",
+      "word": "drink",
+      "partOfSpeech": "动词",
+      "meaning": "喝",
+      "formation": "drink 表示喝下去",
+      "rootRelation": "拿起杯子是 drink；换个结尾，可以说这个东西能不能喝。",
+      "explanation": "例句中的 drink 取“喝”这个意思。",
+      "example": "I drink water.",
+      "translation": "我喝水。",
+      "acceptedAnswers": [
+        "喝"
+      ],
+      "pronunciation": "drɪŋk",
+      "memoryCue": "把水或饮料喝下去，就是喝。"
+    },
+    {
+      "id": "drink.drinking-water",
+      "word": "drinking water",
+      "partOfSpeech": "名词短语",
+      "meaning": "饮用水",
+      "formation": "drinking（供饮用的）+ water（水）= 饮用水",
+      "rootRelation": "拿起杯子是 drink；换个结尾，可以说这个东西能不能喝。",
+      "explanation": "例句中的 drinking water 取“饮用水”这个意思。",
+      "example": "We need drinking water.",
+      "translation": "我们需要饮用水。",
+      "acceptedAnswers": [
+        "饮用水"
+      ],
+      "pronunciation": "ˈdrɪŋkɪŋ ˌwɔtɚ",
+      "memoryCue": "water 是水，前面的 drinking 说明用途。供人喝的水就是饮用水。",
+      "parts": [
+        {
+          "text": "drinking",
+          "ipa": "drɪŋkɪŋ",
+          "meaning": "用来喝的"
+        },
+        {
+          "text": "water",
+          "ipa": "wɔtɚ",
+          "meaning": "水"
+        }
+      ],
+      "combined": "给人喝的水，叫饮用水。"
+    },
+    {
+      "id": "drink.drinkable",
+      "word": "drinkable",
+      "partOfSpeech": "形容词",
+      "meaning": "可饮用的",
+      "formation": "drink（喝） + -able（能够……的） → 可饮用的",
+      "rootRelation": "拿起杯子是 drink；换个结尾，可以说这个东西能不能喝。",
+      "explanation": "例句中的 drinkable 取“可饮用的”这个意思。",
+      "example": "Is this water drinkable?",
+      "translation": "这水能喝吗？",
+      "acceptedAnswers": [
+        "可饮用的"
+      ],
+      "pronunciation": "ˈdrɪnkəbəl",
+      "memoryCue": "drink 是喝，-able 是能。能喝的，就是可饮用的。",
+      "parts": [
+        {
+          "text": "drink",
+          "ipa": "drɪŋk",
+          "meaning": "喝",
+          "notes": [
+            "此词中 n 在 k 前同化为 /ŋ/"
+          ]
+        },
+        {
+          "text": "-able",
+          "ipa": "əbəl",
+          "meaning": "能够……的"
+        }
+      ],
+      "combined": "水或饮料适合安全饮用，就是可饮用的。"
+    }
+  ],
+  "links": [
+    {
+      "from": "drink.drink",
+      "to": "drink.drinking-water",
+      "kind": "同一词族",
+      "note": "drinking（供饮用的）+ water（水）= 饮用水"
+    },
+    {
+      "from": "drink.drink",
+      "to": "drink.drinkable",
+      "kind": "同一词族",
+      "note": "drink（喝）+ able（可以）= 可以喝的"
+    }
+  ],
+  "rootIPA": "drɪŋk",
+  "rootSpoken": "drink",
+  "rootContext": "",
+  "rootIntro": "这里的意思是喝。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

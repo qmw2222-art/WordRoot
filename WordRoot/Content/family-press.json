@@ -1,0 +1,500 @@
+{
+  "id": "family.press",
+  "root": "press",
+  "meaning": "按、挤、施压",
+  "explanation": "press- 关联拉丁语 premere 的相关形式，表示按、挤。按压可以用手进行，也可以延伸到心理压力、表达和留下印象。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "press.press",
+      "word": "press",
+      "partOfSpeech": "动词",
+      "meaning": "按；压",
+      "explanation": "用手或工具向某个表面施力，常用 press a button。",
+      "example": "Press the green button to start the machine.",
+      "translation": "按下绿色按钮启动机器。",
+      "rootRelation": "press 的常用动词义，表示施加力。",
+      "acceptedAnswers": [
+        "按",
+        "按下",
+        "压"
+      ],
+      "formation": "press（按压） = 按压",
+      "pronunciation": "prɛs",
+      "memoryCue": "手指放上电梯按钮，再往里按一下，这个动作就是按。"
+    },
+    {
+      "id": "press.express",
+      "word": "express",
+      "partOfSpeech": "动词",
+      "meaning": "表达；表示",
+      "explanation": "用语言、行为或其他方式让别人了解感受或观点。",
+      "example": "She expressed her concerns at the meeting.",
+      "translation": "她在会上表达了她的顾虑。",
+      "rootRelation": "ex-（向外）与 press- 的历史联系可以联想向外表达。",
+      "acceptedAnswers": [
+        "表达",
+        "表示"
+      ],
+      "formation": "ex（向外）+ press（压出） = 表达",
+      "pronunciation": "ɪkˈsprɛs",
+      "memoryCue": "ex- 是向外。把心里的话说出来，就是表达。",
+      "parts": [
+        {
+          "text": "ex-",
+          "ipa": "ɪks",
+          "meaning": "向外"
+        },
+        {
+          "text": "press",
+          "ipa": "prɛs",
+          "meaning": "压出"
+        }
+      ],
+      "combined": "把心里想的说出来，或用动作表示出来，这就叫表达。"
+    },
+    {
+      "id": "press.impress",
+      "word": "impress",
+      "partOfSpeech": "动词",
+      "meaning": "给…留下深刻印象",
+      "explanation": "令人佩服或让人记住，常见 impress someone with something。",
+      "example": "He impressed the panel with a clear explanation.",
+      "translation": "他清晰的解释给评委留下了深刻印象。",
+      "rootRelation": "词源有压出印记的联想，现代义常是让人留下印象。",
+      "acceptedAnswers": [
+        "留下深刻印象",
+        "使印象深刻",
+        "打动"
+      ],
+      "formation": "im（压入）+ press（压） = 留下印记 → 留下印象",
+      "pronunciation": "ˌɪmˈprɛs",
+      "memoryCue": "把记号压进去，就留下一道印。给人留下深刻印象叫 impress。",
+      "parts": [
+        {
+          "text": "im-",
+          "ipa": "ɪm",
+          "meaning": "压入"
+        },
+        {
+          "text": "press",
+          "ipa": "prɛs",
+          "meaning": "压"
+        }
+      ],
+      "combined": "她唱得太好，你回家还记得。这就是给人留下深刻印象。"
+    },
+    {
+      "id": "press.compress",
+      "word": "compress",
+      "partOfSpeech": "动词",
+      "meaning": "压缩；压紧",
+      "explanation": "让物体体积变小，也可指减小数字文件占用的空间。",
+      "example": "Compress the files before sending them by email.",
+      "translation": "把文件压缩后再用邮件发送。",
+      "rootRelation": "com-（一起）与 press-（挤压）构成聚拢压紧的联想。",
+      "acceptedAnswers": [
+        "压缩",
+        "压紧"
+      ],
+      "formation": "com（一起）+ press（压） = 压在一起 → 压缩",
+      "pronunciation": "kəmˈprɛs",
+      "memoryCue": "com- 是一起，press 是压。往一起挤就是压缩。",
+      "parts": [
+        {
+          "text": "com-",
+          "ipa": "kəm",
+          "meaning": "一起"
+        },
+        {
+          "text": "press",
+          "ipa": "prɛs",
+          "meaning": "压"
+        }
+      ],
+      "combined": "把衣服往小袋子里紧紧地压，这个动作就是压缩。"
+    },
+    {
+      "id": "press.pressure",
+      "word": "pressure",
+      "partOfSpeech": "名词",
+      "meaning": "压力；压强",
+      "explanation": "可指物体受到的物理作用，也可指工作、期待等带来的紧张。",
+      "example": "She works well under pressure.",
+      "translation": "她在压力下也能把工作做好。",
+      "rootRelation": "与 press（按压）同族。",
+      "acceptedAnswers": [
+        "压力",
+        "压强"
+      ],
+      "formation": "press（按、压） + -ure（状态或结果） → 压力",
+      "pronunciation": "ˈprɛʃɚ",
+      "memoryCue": "从 press 的「按」去记。按下去产生的力，就是压力。",
+      "parts": [
+        {
+          "text": "press",
+          "ipa": "prɛs",
+          "meaning": "按、压"
+        },
+        {
+          "text": "-ure",
+          "ipa": "ɚ",
+          "meaning": "状态或结果",
+          "notes": [
+            "这里是压力"
+          ]
+        }
+      ],
+      "combined": "手越用力往下按，桌面受到的压力就越大。"
+    },
+    {
+      "id": "press.pressing",
+      "word": "pressing",
+      "partOfSpeech": "形容词",
+      "meaning": "紧迫的；急需处理的",
+      "explanation": "形容一个问题或需求时间上很紧，不能继续拖。",
+      "example": "We have a pressing problem with the water supply.",
+      "translation": "我们有个急需解决的供水问题。",
+      "rootRelation": "pressing 由 press 变来，可以联想压力催着人处理。",
+      "acceptedAnswers": [
+        "紧迫的",
+        "急需处理的",
+        "紧急的"
+      ],
+      "formation": "press + -ing = 施压 → 紧迫的",
+      "pronunciation": "ˈprɛsɪŋ",
+      "memoryCue": "从 press 的「逼紧」来联想。催着你马上处理的事，就是紧迫的。",
+      "parts": [
+        {
+          "text": "press",
+          "ipa": "prɛs",
+          "meaning": "按"
+        },
+        {
+          "text": "-ing",
+          "ipa": "ɪŋ",
+          "meaning": "正在做或做这件事"
+        }
+      ],
+      "combined": "今天再不修水管，屋里就会进水，这事儿就很紧迫。"
+    },
+    {
+      "id": "press.expression",
+      "word": "expression",
+      "partOfSpeech": "名词",
+      "meaning": "表达；表情",
+      "explanation": "可指表达意见的方式，也可指脸上显露出的情绪。",
+      "example": "I noticed a worried expression on his face.",
+      "translation": "我注意到他脸上露出担忧的神色。",
+      "rootRelation": "express 的相关名词。",
+      "acceptedAnswers": [
+        "表情",
+        "神情",
+        "表露"
+      ],
+      "formation": "express + -ion = 表达 → 表达；表情",
+      "pronunciation": "ɪkˈsprɛʃən",
+      "memoryCue": "express 是表达。说出的话、脸上的表情都能算一种 expression。",
+      "parts": [
+        {
+          "text": "express",
+          "ipa": "ɪksprɛ",
+          "meaning": "表达"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "笑容能让别人看出你的心情，脸上的这个样子就是表情。"
+    },
+    {
+      "id": "press.expressive",
+      "word": "expressive",
+      "partOfSpeech": "形容词",
+      "meaning": "富有表现力的",
+      "explanation": "形容声音、面部表情或创作能传达较丰富的情感。",
+      "example": "Her expressive voice made the story come alive.",
+      "translation": "她富有表现力的声音让故事活了起来。",
+      "rootRelation": "express 加 -ive。",
+      "acceptedAnswers": [
+        "富有表现力的",
+        "有表现力的"
+      ],
+      "formation": "express + -ive = 表达 → 有表现力的",
+      "pronunciation": "ɪkˈsprɛsɪv",
+      "memoryCue": "express 是表达。能很清楚地传达感受，就是有表现力的。",
+      "parts": [
+        {
+          "text": "express",
+          "ipa": "ɪksprɛs",
+          "meaning": "表达"
+        },
+        {
+          "text": "-ive",
+          "ipa": "ɪv",
+          "meaning": "带有这种特点的"
+        }
+      ],
+      "combined": "一看他的脸就知道他多高兴，这样的表情就很有表现力。"
+    },
+    {
+      "id": "press.impression",
+      "word": "impression",
+      "partOfSpeech": "名词",
+      "meaning": "印象",
+      "explanation": "某事或某人给你形成的看法或感受，常见 first impression。",
+      "example": "My first impression of the neighbourhood was positive.",
+      "translation": "我对这个社区的第一印象不错。",
+      "rootRelation": "与 impress 同族的名词。",
+      "acceptedAnswers": [
+        "印象"
+      ],
+      "formation": "impress + -ion = 留下印象 → 印象",
+      "pronunciation": "ˌɪmˈprɛʃən",
+      "memoryCue": "impress 是留下印象。留在心里的那个印象叫 an impression。",
+      "parts": [
+        {
+          "text": "impress",
+          "ipa": "ɪmprɛ",
+          "meaning": "给…留下深刻印象"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "初次见面后，你心里留下的那个感觉，就是印象。"
+    },
+    {
+      "id": "press.impressive",
+      "word": "impressive",
+      "partOfSpeech": "形容词",
+      "meaning": "令人印象深刻的",
+      "explanation": "形容表现、成绩或景象出色，让人赞叹或记得住。",
+      "example": "The team made impressive progress in a week.",
+      "translation": "团队在一周内取得了令人印象深刻的进展。",
+      "rootRelation": "impress 加 -ive。",
+      "acceptedAnswers": [
+        "令人印象深刻的",
+        "出色的"
+      ],
+      "formation": "impress + -ive = 留下印象 → 令人印象深刻的",
+      "pronunciation": "ˌɪmˈprɛsɪv",
+      "memoryCue": "一件事能给你留下很深的印象，就叫 impressive。",
+      "parts": [
+        {
+          "text": "impress",
+          "ipa": "ɪmprɛs",
+          "meaning": "给…留下深刻印象"
+        },
+        {
+          "text": "-ive",
+          "ipa": "ɪv",
+          "meaning": "带有这种特点的"
+        }
+      ],
+      "combined": "一座桥漂亮得让你过目难忘，就可以说它令人印象深刻。"
+    },
+    {
+      "id": "press.compression",
+      "word": "compression",
+      "partOfSpeech": "名词",
+      "meaning": "压缩；压紧",
+      "explanation": "指压缩材料、空气或数字文件的过程。",
+      "example": "Better compression allowed the images to load faster.",
+      "translation": "更好的压缩技术让图片加载得更快。",
+      "rootRelation": "compress 的名词形式。",
+      "acceptedAnswers": [
+        "压缩",
+        "压紧"
+      ],
+      "formation": "compress + -ion = 压缩 → 压缩过程",
+      "pronunciation": "kəmˈprɛʃən",
+      "memoryCue": "compress 是压缩。说压小文件或物体的过程，用 compression。",
+      "parts": [
+        {
+          "text": "compress",
+          "ipa": "kəmprɛ",
+          "meaning": "压缩"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "衣服被压得更小，刚才经历的这个过程就叫压缩。"
+    },
+    {
+      "id": "press.depress",
+      "word": "depress",
+      "partOfSpeech": "动词",
+      "meaning": "使减少；压低",
+      "explanation": "当主语是某个因素时，可指让价格、需求等水平下降。",
+      "example": "The extra supply depressed prices for months.",
+      "translation": "供应增加让价格低迷了几个月。",
+      "rootRelation": "de-（向下）和 press-（压）的联系在这个义项中清楚。",
+      "acceptedAnswers": [
+        "压低",
+        "降低",
+        "使下降"
+      ],
+      "formation": "de（向下）+ press（压） = 向下压 → 压低",
+      "pronunciation": "dɪˈprɛs",
+      "memoryCue": "de- 有向下的意思。把按钮压下去或把价格压低，都叫 depress。",
+      "parts": [
+        {
+          "text": "de-",
+          "ipa": "dɪ",
+          "meaning": "向下"
+        },
+        {
+          "text": "press",
+          "ipa": "prɛs",
+          "meaning": "压"
+        }
+      ],
+      "combined": "买的人少了，价格被压低。这里说的是让价格下降。"
+    },
+    {
+      "id": "press.depression",
+      "word": "depression",
+      "partOfSpeech": "名词",
+      "meaning": "经济萧条",
+      "explanation": "经济活动严重、持续低迷的时期，常伴随失业上升。",
+      "example": "The family lost its business during the depression.",
+      "translation": "经济萧条期间，这家人的生意倒闭了。",
+      "rootRelation": "与 depress 的下降、低迷义相关。",
+      "acceptedAnswers": [
+        "经济萧条",
+        "萧条"
+      ],
+      "formation": "depress + -ion = 压低 → 低迷；萧条",
+      "pronunciation": "dɪˈprɛʃən",
+      "memoryCue": "想成往下落。经济活动落到低谷，就是经济萧条。",
+      "parts": [
+        {
+          "text": "depress",
+          "ipa": "dɪprɛ",
+          "meaning": "使减少"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "工厂停工，许多人找不到工作，生意也长期不好，这叫经济萧条。"
+    },
+    {
+      "id": "press.suppress",
+      "word": "suppress",
+      "partOfSpeech": "动词",
+      "meaning": "压制；抑制",
+      "explanation": "用力量、权力或自制力阻止某物产生或继续，常见 suppress a laugh。",
+      "example": "He tried to suppress a laugh during the interview.",
+      "translation": "他在面试中努力忍住笑。",
+      "rootRelation": "词源中有压在下面的线索。",
+      "acceptedAnswers": [
+        "压制",
+        "抑制",
+        "忍住"
+      ],
+      "formation": "sub-（向下、压住） + press（压） → 压制",
+      "pronunciation": "səˈprɛs",
+      "memoryCue": "press 是压。把某件事压住，让它无法继续，就是压制。",
+      "parts": [
+        {
+          "text": "sub-",
+          "ipa": "sə",
+          "meaning": "向下、压住"
+        },
+        {
+          "text": "press",
+          "ipa": "ˈprɛs",
+          "meaning": "压",
+          "notes": [
+            "合起来是压制、抑制"
+          ]
+        }
+      ],
+      "combined": "快要笑出声，却使劲忍住，这个动作就是把笑意压下去。"
+    }
+  ],
+  "links": [
+    {
+      "from": "press.press",
+      "to": "press.pressure",
+      "kind": "同词根",
+      "note": "press 是按压，pressure 可以指受到的压力，也常用于心理压力。"
+    },
+    {
+      "from": "press.pressure",
+      "to": "press.pressing",
+      "kind": "语义联系",
+      "note": "有压力不一定时间紧，pressing 专指事情需要尽快处理。"
+    },
+    {
+      "from": "press.express",
+      "to": "press.expression",
+      "kind": "派生关系",
+      "note": "express 是表达，expression 可以指表达本身或显现在脸上的表情。"
+    },
+    {
+      "from": "press.expression",
+      "to": "press.expressive",
+      "kind": "派生关系",
+      "note": "expression 是表达或表情，expressive 形容很能表现感情。"
+    },
+    {
+      "from": "press.impress",
+      "to": "press.impression",
+      "kind": "派生关系",
+      "note": "impress 是给人留下印象，impression 是形成的那个印象。"
+    },
+    {
+      "from": "press.impress",
+      "to": "press.impressive",
+      "kind": "派生关系",
+      "note": "impress 是让人印象深刻，impressive 是能够产生这种效果的。"
+    },
+    {
+      "from": "press.compress",
+      "to": "press.compression",
+      "kind": "派生关系",
+      "note": "compress 是使体积或大小减小，compression 是压缩的过程。"
+    },
+    {
+      "from": "press.press",
+      "to": "press.compress",
+      "kind": "用法对照",
+      "note": "press 只是施力按压，compress 特别强调挤压后变得更小或紧密。"
+    },
+    {
+      "from": "press.press",
+      "to": "press.depress",
+      "kind": "同词根",
+      "note": "press 是按压，depress 可以指把某个水平或价格压低。"
+    },
+    {
+      "from": "press.depress",
+      "to": "press.depression",
+      "kind": "语义联系",
+      "note": "某些因素 depress 经济活动，严重且长期的低迷时期可以叫 depression。"
+    },
+    {
+      "from": "press.express",
+      "to": "press.suppress",
+      "kind": "用法对照",
+      "note": "express 是把感受表现出来，suppress 是阻止它表现出来。"
+    }
+  ],
+  "rootIPA": "prɛs",
+  "rootSpoken": "press",
+  "rootContext": "",
+  "rootIntro": "这里的意思是按、挤、施压。接下来的词都跟它有关。",
+  "rootKind": "词根"
+}

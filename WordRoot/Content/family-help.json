@@ -1,0 +1,207 @@
+{
+  "id": "family.help",
+  "root": "help",
+  "meaning": "帮忙",
+  "explanation": "有人伸手帮忙是 help；结尾变一下，就能说谁帮了忙、东西有没有用。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "help.help",
+      "word": "help",
+      "partOfSpeech": "动词",
+      "meaning": "帮助",
+      "formation": "help 表示帮人做事",
+      "rootRelation": "有人伸手帮忙是 help；结尾变一下，就能说谁帮了忙、东西有没有用。",
+      "explanation": "例句中的 help 取“帮助”这个意思。",
+      "example": "Can you help me?",
+      "translation": "你能帮帮我吗？",
+      "acceptedAnswers": [
+        "帮助"
+      ],
+      "pronunciation": "hɛlp",
+      "memoryCue": "一个人搬不动，你伸手抬一下，这就是帮助。"
+    },
+    {
+      "id": "help.helper",
+      "word": "helper",
+      "partOfSpeech": "名词",
+      "meaning": "帮手",
+      "formation": "help（帮忙）+ er（人）= 帮手",
+      "rootRelation": "有人伸手帮忙是 help；结尾变一下，就能说谁帮了忙、东西有没有用。",
+      "explanation": "例句中的 helper 取“帮手”这个意思。",
+      "example": "We need one more helper.",
+      "translation": "我们还需要一个帮手。",
+      "acceptedAnswers": [
+        "帮手"
+      ],
+      "pronunciation": "ˈhɛlpɚ",
+      "memoryCue": "help 是帮忙，-er 指人。帮忙的人就是帮手。",
+      "parts": [
+        {
+          "text": "help",
+          "ipa": "hɛlp",
+          "meaning": "帮忙"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "一起出力、帮你把事情办成的那个人，就是帮手。"
+    },
+    {
+      "id": "help.helpful",
+      "word": "helpful",
+      "partOfSpeech": "形容词",
+      "meaning": "有帮助的",
+      "formation": "help（帮助）+ ful（有这种性质）= 有帮助的",
+      "rootRelation": "有人伸手帮忙是 help；结尾变一下，就能说谁帮了忙、东西有没有用。",
+      "explanation": "例句中的 helpful 取“有帮助的”这个意思。",
+      "example": "That map is helpful.",
+      "translation": "那张地图很有用。",
+      "acceptedAnswers": [
+        "有帮助的"
+      ],
+      "pronunciation": "ˈhɛlpfəl",
+      "memoryCue": "help 是帮助，-ful 在这里表示有这种作用。合起来就是有帮助的。",
+      "parts": [
+        {
+          "text": "help",
+          "ipa": "hɛlp",
+          "meaning": "帮助"
+        },
+        {
+          "text": "-ful",
+          "ipa": "fəl",
+          "meaning": "有这种作用的"
+        }
+      ],
+      "combined": "听了同事的提醒，你一下就找到了地方，这条提醒就很有帮助。"
+    },
+    {
+      "id": "help.helpless",
+      "word": "helpless",
+      "partOfSpeech": "形容词",
+      "meaning": "无助的",
+      "formation": "help（帮助）+ less（没有）= 无助的",
+      "rootRelation": "有人伸手帮忙是 help；结尾变一下，就能说谁帮了忙、东西有没有用。",
+      "explanation": "例句中的 helpless 取“无助的”这个意思。",
+      "example": "I felt helpless without my phone.",
+      "translation": "手机不在身边，我觉得很无助。",
+      "acceptedAnswers": [
+        "无助的"
+      ],
+      "pronunciation": "ˈhɛlpləs",
+      "memoryCue": "-less 是缺少。想做点什么却帮不上忙，就是无助的。",
+      "parts": [
+        {
+          "text": "help",
+          "ipa": "hɛlp",
+          "meaning": "帮助"
+        },
+        {
+          "text": "-less",
+          "ipa": "ləs",
+          "meaning": "缺少的"
+        }
+      ],
+      "combined": "遇到困难，想做点什么又使不上力，那种感受就是无助。"
+    },
+    {
+      "id": "help.help-desk",
+      "word": "help desk",
+      "partOfSpeech": "名词",
+      "meaning": "服务台",
+      "formation": "help（帮助）+ desk（柜台）= 提供帮助的柜台",
+      "rootRelation": "有人伸手帮忙是 help；结尾变一下，就能说谁帮了忙、东西有没有用。",
+      "explanation": "例句中的 help desk 取“服务台”这个意思。",
+      "example": "The help desk is over there.",
+      "translation": "服务台在那边。",
+      "acceptedAnswers": [
+        "服务台"
+      ],
+      "pronunciation": "ˈhɛlp ˌdɛsk",
+      "memoryCue": "desk 是服务台。去那里找人帮忙，就是去问讯处。",
+      "parts": [
+        {
+          "text": "help",
+          "ipa": "hɛlp",
+          "meaning": "帮助"
+        },
+        {
+          "text": "desk",
+          "ipa": "dɛsk",
+          "meaning": "柜台"
+        }
+      ],
+      "combined": "在车站想找人问路，可以去提供帮助的那个柜台，也就是服务台。"
+    },
+    {
+      "id": "help.self-help",
+      "word": "self-help",
+      "partOfSpeech": "形容词",
+      "meaning": "自助的",
+      "formation": "self（自己）+ help（帮助）= 自助的",
+      "rootRelation": "有人伸手帮忙是 help；结尾变一下，就能说谁帮了忙、东西有没有用。",
+      "explanation": "例句中的 self-help 取“自助的”这个意思。",
+      "example": "I bought a self-help book.",
+      "translation": "我买了一本自助类书籍。",
+      "acceptedAnswers": [
+        "自助的"
+      ],
+      "pronunciation": "ˌsɛlfˈhɛlp",
+      "memoryCue": "self 是自己，help 是帮助。自己动手解决问题，就是自助。",
+      "parts": [
+        {
+          "text": "self",
+          "ipa": "sɛlf",
+          "meaning": "自己"
+        },
+        {
+          "text": "help",
+          "ipa": "hɛlp",
+          "meaning": "帮助"
+        }
+      ],
+      "combined": "靠自己动手解决问题，就可以说是自助的。"
+    }
+  ],
+  "links": [
+    {
+      "from": "help.help",
+      "to": "help.helper",
+      "kind": "同一词族",
+      "note": "help（帮忙）+ er（人）= 帮手"
+    },
+    {
+      "from": "help.help",
+      "to": "help.helpful",
+      "kind": "同一词族",
+      "note": "help（帮助）+ ful（有这种性质）= 有帮助的"
+    },
+    {
+      "from": "help.help",
+      "to": "help.helpless",
+      "kind": "同一词族",
+      "note": "help（帮助）+ less（没有）= 无助的"
+    },
+    {
+      "from": "help.help",
+      "to": "help.help-desk",
+      "kind": "同一词族",
+      "note": "help（帮助）+ desk（柜台）= 提供帮助的柜台"
+    },
+    {
+      "from": "help.help",
+      "to": "help.self-help",
+      "kind": "同一词族",
+      "note": "self（自己）+ help（帮助）= 自助的"
+    }
+  ],
+  "rootIPA": "hɛlp",
+  "rootSpoken": "help",
+  "rootContext": "",
+  "rootIntro": "这里的意思是帮忙。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

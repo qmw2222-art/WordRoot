@@ -1,0 +1,460 @@
+{
+  "id": "family.cred",
+  "root": "cred",
+  "meaning": "相信、信任",
+  "explanation": "cred- 关联拉丁语 credere「相信、信任」。可以相信的是 credible；被相信能按期还款，也能获得 credit。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "cred.credit",
+      "word": "credit",
+      "partOfSpeech": "名词",
+      "meaning": "信用；赊购机会",
+      "explanation": "商家或银行因相信你日后会付款，允许先消费后结算，常用 on credit。",
+      "example": "We bought the furniture on credit.",
+      "translation": "我们赊购了这套家具。",
+      "rootRelation": "cred- 的信任概念延伸到偿还能力。",
+      "acceptedAnswers": [
+        "信用",
+        "赊购",
+        "赊账"
+      ],
+      "formation": "cred（相信）→ 对偿付能力的信任，信用",
+      "pronunciation": "ˈkrɛdət",
+      "memoryCue": "商家信你以后会还钱，这份信用就是 credit。",
+      "plainCue": "先拿商品、以后付款，属于赊购信用。"
+    },
+    {
+      "id": "cred.credible",
+      "word": "credible",
+      "partOfSpeech": "形容词",
+      "meaning": "可信的；可靠的",
+      "explanation": "形容说法、证据或消息来源值得相信。",
+      "example": "We need credible evidence before making a decision.",
+      "translation": "在决定前，我们需要可信的证据。",
+      "rootRelation": "cred-（相信）和表示可以的 -ible。",
+      "acceptedAnswers": [
+        "可信的",
+        "可信",
+        "可靠的"
+      ],
+      "formation": "cred（相信）+ ible（能）= 可信的",
+      "pronunciation": "ˈkrɛdəbəl",
+      "memoryCue": "cred 是相信，-ible 是能。让人能相信，就是可信的。",
+      "parts": [
+        {
+          "text": "cred",
+          "ipa": "krɛd",
+          "meaning": "相信"
+        },
+        {
+          "text": "-ible",
+          "ipa": "əbəl",
+          "meaning": "能……的"
+        }
+      ],
+      "combined": "有事实根据、让人愿意相信，就是可信的。"
+    },
+    {
+      "id": "cred.incredible",
+      "word": "incredible",
+      "partOfSpeech": "形容词",
+      "meaning": "惊人的；难以置信的",
+      "explanation": "常用来形容某件事的程度超乎想象，也能是积极赞叹。",
+      "example": "The view from the top was incredible.",
+      "translation": "从山顶看到的景色令人惊叹。",
+      "rootRelation": "in-（不）加 credible；日常语义可引申为惊人。",
+      "acceptedAnswers": [
+        "难以置信的",
+        "令人惊叹的",
+        "惊人的"
+      ],
+      "formation": "in（不）+ credible（可信的）= 难以置信的",
+      "pronunciation": "ɪnˈkrɛdəbəl",
+      "memoryCue": "in- 是否定，credible 是可信的。好得难以相信，就是难以置信的。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "不"
+        },
+        {
+          "text": "credible",
+          "ipa": "krɛdəbəl",
+          "meaning": "可信的"
+        }
+      ],
+      "combined": "听起来难以相信；也可形容非常惊人。"
+    },
+    {
+      "id": "cred.credential",
+      "word": "credential",
+      "partOfSpeech": "名词",
+      "meaning": "资格证明；证件",
+      "explanation": "证明某人有特定资格、身份或权限的文件或记录，常用复数。",
+      "example": "The hospital checks each doctor's credentials.",
+      "translation": "医院会核查每位医生的资质。",
+      "rootRelation": "历史词源中含可受信任的概念。",
+      "acceptedAnswers": [
+        "资格证明",
+        "资质",
+        "证件"
+      ],
+      "formation": "cred（信任）→ 能证明资格的凭据",
+      "pronunciation": "krɪˈdɛnʃəl",
+      "memoryCue": "能让别人相信你有某种资格的证明，就是 credential。",
+      "plainCue": "证明身份、资格或权限的文件，就是证件。"
+    },
+    {
+      "id": "cred.credibility",
+      "word": "credibility",
+      "partOfSpeech": "名词",
+      "meaning": "可信度；公信力",
+      "explanation": "指别人愿意相信某个说法、机构或人的程度。",
+      "example": "The repeated errors damaged the report's credibility.",
+      "translation": "反复出现的错误损害了报告的可信度。",
+      "rootRelation": "与 credible 对应的名词。",
+      "acceptedAnswers": [
+        "可信度",
+        "公信力"
+      ],
+      "formation": "cred-（可信） + -ibility（性质） → 可信度",
+      "pronunciation": "ˌkrɛdəˈbɪlɪti",
+      "memoryCue": "credible 是可信的。问有多值得相信，说的就是可信度。",
+      "parts": [
+        {
+          "text": "cred-",
+          "ipa": "ˌkrɛdə",
+          "meaning": "可信",
+          "notes": [
+            "在 credibility 中读 /krɛdə/"
+          ]
+        },
+        {
+          "text": "-ibility",
+          "ipa": "ˈbɪləti",
+          "meaning": "性质",
+          "notes": [
+            "可信度"
+          ]
+        }
+      ],
+      "combined": "别人有多相信一项说法或一个机构，就是可信度。"
+    },
+    {
+      "id": "cred.credibly",
+      "word": "credibly",
+      "partOfSpeech": "副词",
+      "meaning": "可信地；有说服力地",
+      "explanation": "描述一种说法、解释或展示是否能让人相信。",
+      "example": "The company could not credibly explain the missing funds.",
+      "translation": "这家公司无法对缺失的资金给出可信解释。",
+      "rootRelation": "credible 的副词形式。",
+      "acceptedAnswers": [
+        "可信地",
+        "有说服力地"
+      ],
+      "formation": "cred-（可信） + -ly（以某种方式） → 可信地",
+      "pronunciation": "ˈkrɛdəbli",
+      "memoryCue": "credible 是可信的。-ly 表示方式，credibly 就是令人信服地。",
+      "plainCue": "描述一种说法、解释或展示是否能让人相信。",
+      "parts": [
+        {
+          "text": "cred-",
+          "ipa": "ˈkrɛdəb",
+          "meaning": "可信",
+          "notes": [
+            "在 credibly 中读 /krɛdəb/"
+          ]
+        },
+        {
+          "text": "-ly",
+          "ipa": "li",
+          "meaning": "以某种方式",
+          "notes": [
+            "可信地"
+          ]
+        }
+      ],
+      "combined": "说得有根据，让人信服，就是可信地。"
+    },
+    {
+      "id": "cred.discredit",
+      "word": "discredit",
+      "partOfSpeech": "动词",
+      "meaning": "使失去信誉；使不再可信",
+      "explanation": "指出问题或提供反证，使人不再相信某人或某项主张。",
+      "example": "New evidence discredited the original account.",
+      "translation": "新证据让最初的描述变得不再可信。",
+      "rootRelation": "dis-（否定、去除）加 credit。",
+      "acceptedAnswers": [
+        "使失去信誉",
+        "使不可信"
+      ],
+      "formation": "dis（否定）+ credit（信誉）= 使失去信誉",
+      "pronunciation": "dɪsˈkrɛdɪt",
+      "memoryCue": "dis- 表示否定。让别人不再相信某个人，就是使他失去信誉。",
+      "parts": [
+        {
+          "text": "dis-",
+          "ipa": "dɪs",
+          "meaning": "否定"
+        },
+        {
+          "text": "credit",
+          "ipa": "krɛdɪt",
+          "meaning": "信誉"
+        }
+      ],
+      "combined": "让别人不再信任某人或说法，就是损害信誉。"
+    },
+    {
+      "id": "cred.credit.attribute",
+      "word": "credit",
+      "partOfSpeech": "动词",
+      "meaning": "把功劳归给；认为由…带来",
+      "explanation": "credit A with B 表示认为 A 做出了成果 B 或对它负责。",
+      "example": "The coach credited teamwork with the win.",
+      "translation": "教练把胜利归功于团队合作。",
+      "rootRelation": "credit 另有认可他人贡献的用法。",
+      "acceptedAnswers": [
+        "归功于",
+        "把功劳归给"
+      ],
+      "formation": "credit（认可）→ 把功劳归给某人",
+      "pronunciation": "ˈkrɛdət",
+      "memoryCue": "把做成一件事的功劳记到某人名下，就是 credit someone。",
+      "plainCue": "认为某项成果是某人做的，就把功劳归给他。"
+    },
+    {
+      "id": "cred.creditor",
+      "word": "creditor",
+      "partOfSpeech": "名词",
+      "meaning": "债权人；债权方",
+      "explanation": "有权要求欠债者还款的个人或机构。",
+      "example": "The creditor agreed to give them another month to pay.",
+      "translation": "债权方同意再给他们一个月还款。",
+      "rootRelation": "与 credit 的信贷义直接相关。",
+      "acceptedAnswers": [
+        "债权人",
+        "债权方"
+      ],
+      "formation": "credit（信用、认可） + -or（做这类事情的人） → 债权人",
+      "pronunciation": "ˈkrɛdətɚ",
+      "memoryCue": "给别人授信、以后有权收回钱的人，就是债权人。",
+      "parts": [
+        {
+          "text": "credit",
+          "ipa": "ˈkrɛdɪt",
+          "meaning": "信用、认可",
+          "notes": [
+            "在 creditor 中 /t/ 弱化/省略，词干为 /krɛdɪt/"
+          ]
+        },
+        {
+          "text": "-or",
+          "ipa": "ɚ",
+          "meaning": "做这类事情的人",
+          "notes": [
+            "债权人"
+          ]
+        }
+      ],
+      "combined": "借出钱后有权要求还款的一方，就是债权人。"
+    },
+    {
+      "id": "cred.accredit",
+      "word": "accredit",
+      "partOfSpeech": "动词",
+      "meaning": "认证；认可资格",
+      "explanation": "机构依照标准正式确认某学校、项目或组织符合要求。",
+      "example": "The board accredits laboratories that meet its standards.",
+      "translation": "委员会认证那些达到标准的实验室。",
+      "rootRelation": "词源和给予信用、承认资格有关。",
+      "acceptedAnswers": [
+        "认证",
+        "认可资格"
+      ],
+      "formation": "credit（信任）→ 正式认可资格",
+      "pronunciation": "əˌkrɛdət",
+      "memoryCue": "正式承认一家机构或一个人具备资格，就是 accredit。",
+      "plainCue": "按标准正式确认某机构或项目合格，就是认证。"
+    },
+    {
+      "id": "cred.accreditation",
+      "word": "accreditation",
+      "partOfSpeech": "名词",
+      "meaning": "认证；资质认可",
+      "explanation": "专业机构确认某组织或项目符合规范的正式过程或结果。",
+      "example": "The course gained accreditation last year.",
+      "translation": "这门课程去年获得了认证。",
+      "rootRelation": "accredit 加 -ation。",
+      "acceptedAnswers": [
+        "认证",
+        "资质认可"
+      ],
+      "formation": "accredit（正式认可）+ ation（过程）= 认证",
+      "pronunciation": "əˌkrɛdəˈteɪʃən",
+      "memoryCue": "accredit 是正式认可。这种认可资格的过程就是认证。",
+      "parts": [
+        {
+          "text": "accredit",
+          "ipa": "əkrɛdət",
+          "meaning": "正式认可"
+        },
+        {
+          "text": "-ation",
+          "ipa": "eɪʃən",
+          "meaning": "过程"
+        }
+      ],
+      "combined": "机构按标准检查并正式认可，就是资质认证。"
+    },
+    {
+      "id": "cred.credulous",
+      "word": "credulous",
+      "partOfSpeech": "形容词",
+      "meaning": "轻信的；容易受骗的",
+      "explanation": "批评某人没核实就愿意相信不合理的说法。",
+      "example": "The advert was aimed at credulous buyers.",
+      "translation": "那则广告瞄准了容易轻信的买家。",
+      "rootRelation": "cred- 指相信，现代义强调相信得太容易。",
+      "acceptedAnswers": [
+        "轻信的",
+        "轻信",
+        "容易受骗的"
+      ],
+      "formation": "cred（相信）→ 别人一说就信的",
+      "pronunciation": "ˈkrɛdʒələs",
+      "memoryCue": "别人一说就相信，容易受骗，就是轻信的。"
+    },
+    {
+      "id": "cred.incredulous",
+      "word": "incredulous",
+      "partOfSpeech": "形容词",
+      "meaning": "不愿相信的；表示怀疑的",
+      "explanation": "尤其形容人看到意外情况后露出难以相信的神情或用这种语气说话。",
+      "example": "She gave me an incredulous look when I told her the price.",
+      "translation": "我告诉她价格时，她露出了难以置信的神情。",
+      "rootRelation": "in-（不）与 credulous 相关，形容不肯相信的态度。",
+      "acceptedAnswers": [
+        "不愿相信的",
+        "难以置信的",
+        "表示怀疑的"
+      ],
+      "formation": "in（不）+ credulous（轻信的）→ 表示不相信的",
+      "pronunciation": "ˌɪnˈkrɛdʒələs",
+      "memoryCue": "in- 是否定。如果你听完满脸不信，就是 incredulous。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "不"
+        },
+        {
+          "text": "credulous",
+          "ipa": "krɛdʒələs",
+          "meaning": "轻信的"
+        }
+      ],
+      "combined": "听后不太相信、带着怀疑，就是不愿相信的。"
+    },
+    {
+      "id": "cred.creed",
+      "word": "creed",
+      "partOfSpeech": "名词",
+      "meaning": "信条；信念",
+      "explanation": "一套由共同体或个人奉行的宗教信念或原则。",
+      "example": "Fair treatment was central to the organisation's creed.",
+      "translation": "公平对待他人是这个组织的核心信条。",
+      "rootRelation": "历史上与拉丁语 credo「我相信」相关。",
+      "acceptedAnswers": [
+        "信条",
+        "信念"
+      ],
+      "formation": "cred（相信）→ 一套信奉的原则",
+      "pronunciation": "krid",
+      "memoryCue": "你深信并照着生活的一套原则，就是你的 creed。",
+      "plainCue": "一个人或团体坚持的一套信念，就是信条。"
+    }
+  ],
+  "links": [
+    {
+      "from": "cred.credit",
+      "to": "cred.creditor",
+      "kind": "派生关系",
+      "note": "credit 指信用或赊购安排，creditor 是有权收回款项的一方。"
+    },
+    {
+      "from": "cred.credit",
+      "to": "cred.credit.attribute",
+      "kind": "用法对照",
+      "note": "credit 的交易义关乎信贷，动词 credit someone with something 关乎把成果归给某人。"
+    },
+    {
+      "from": "cred.credible",
+      "to": "cred.credibility",
+      "kind": "派生关系",
+      "note": "credible 形容可信，credibility 是可被信任的程度。"
+    },
+    {
+      "from": "cred.credible",
+      "to": "cred.credibly",
+      "kind": "派生关系",
+      "note": "credible 是形容词，credibly 描述一种做法或说法是否可信。"
+    },
+    {
+      "from": "cred.credible",
+      "to": "cred.incredible",
+      "kind": "用法对照",
+      "note": "credible 通常指可信，incredible 在日常语境中常指让人惊叹或难以相信。"
+    },
+    {
+      "from": "cred.credibility",
+      "to": "cred.discredit",
+      "kind": "用法对照",
+      "note": "credibility 是可信度，discredit 会让陈述或个人失去这种可信度。"
+    },
+    {
+      "from": "cred.incredible",
+      "to": "cred.incredulous",
+      "kind": "用法对照",
+      "note": "incredible 多形容让人难以置信的事，incredulous 多形容不敢相信的人或态度。"
+    },
+    {
+      "from": "cred.credulous",
+      "to": "cred.incredulous",
+      "kind": "用法对照",
+      "note": "credulous 常指容易相信，incredulous 表示难以相信。"
+    },
+    {
+      "from": "cred.credible",
+      "to": "cred.credulous",
+      "kind": "用法对照",
+      "note": "credible 形容值得被相信的东西，credulous 形容愿意轻易相信的人。"
+    },
+    {
+      "from": "cred.credential",
+      "to": "cred.accredit",
+      "kind": "语境关联",
+      "note": "机构 accredits 一个课程后，结业证书可用作相关 credential。"
+    },
+    {
+      "from": "cred.accredit",
+      "to": "cred.accreditation",
+      "kind": "派生关系",
+      "note": "accredit 是正式认证，accreditation 是认证过程或取得的认证。"
+    },
+    {
+      "from": "cred.credulous",
+      "to": "cred.creed",
+      "kind": "同词根",
+      "note": "两词的历史词形都和相信有关。credulous 说轻信的态度，creed 是一套奉行的原则。"
+    }
+  ],
+  "rootIPA": "krɛd",
+  "rootSpoken": "cred",
+  "rootContext": "在 credit 里",
+  "rootIntro": "这一块跟相信有关。接着看，事情值不值得相信。",
+  "rootKind": "词根"
+}

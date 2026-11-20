@@ -1,0 +1,102 @@
+{
+  "id": "family.cook",
+  "root": "cook",
+  "meaning": "做饭",
+  "explanation": "在厨房里想三个画面：动手做菜、煮饭的锅、翻开的食谱。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "cook.cook",
+      "word": "cook",
+      "partOfSpeech": "动词",
+      "meaning": "做饭",
+      "formation": "cook 表示把食物做熟",
+      "rootRelation": "在厨房里想三个画面：动手做菜、煮饭的锅、翻开的食谱。",
+      "explanation": "例句中的 cook 取“做饭”这个意思。",
+      "example": "I cook at home.",
+      "translation": "我在家做饭。",
+      "acceptedAnswers": [
+        "做饭"
+      ],
+      "pronunciation": "kʊk",
+      "memoryCue": "在厨房把食物做熟，就是做饭。"
+    },
+    {
+      "id": "cook.cooker",
+      "word": "cooker",
+      "partOfSpeech": "名词",
+      "meaning": "炊具",
+      "formation": "cook（做饭）+ er（器具）= 炊具。做饭的人也可以直接叫 cook",
+      "rootRelation": "在厨房里想三个画面：动手做菜、煮饭的锅、翻开的食谱。",
+      "explanation": "例句中的 cooker 取“炊具”这个意思。",
+      "example": "This rice cooker is small.",
+      "translation": "这个电饭锅很小。",
+      "acceptedAnswers": [
+        "炊具"
+      ],
+      "pronunciation": "ˈkʊkɚ",
+      "memoryCue": "cook 是做饭，这里的 -er 指器具。用来做饭的就是炊具。",
+      "parts": [
+        {
+          "text": "cook",
+          "ipa": "kʊk",
+          "meaning": "做饭"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的器具"
+        }
+      ],
+      "combined": "用来煮、烤或加热食物的器具。"
+    },
+    {
+      "id": "cook.cookbook",
+      "word": "cookbook",
+      "partOfSpeech": "名词",
+      "meaning": "食谱书",
+      "formation": "cook（做饭）+ book（书）= 食谱书",
+      "rootRelation": "在厨房里想三个画面：动手做菜、煮饭的锅、翻开的食谱。",
+      "explanation": "例句中的 cookbook 取“食谱书”这个意思。",
+      "example": "Open the cookbook.",
+      "translation": "翻开食谱书。",
+      "acceptedAnswers": [
+        "食谱书"
+      ],
+      "pronunciation": "ˈkʊkˌbʊk",
+      "memoryCue": "cook 是做饭，book 是书。教你做饭的书，就是食谱。",
+      "parts": [
+        {
+          "text": "cook",
+          "ipa": "kʊk",
+          "meaning": "做饭"
+        },
+        {
+          "text": "book",
+          "ipa": "bʊk",
+          "meaning": "书"
+        }
+      ],
+      "combined": "教你怎么做菜的书，就是食谱。"
+    }
+  ],
+  "links": [
+    {
+      "from": "cook.cook",
+      "to": "cook.cooker",
+      "kind": "同一词族",
+      "note": "cook（做饭）+ er（器具）= 炊具。做饭的人也可以直接叫 cook"
+    },
+    {
+      "from": "cook.cook",
+      "to": "cook.cookbook",
+      "kind": "同一词族",
+      "note": "cook（做饭）+ book（书）= 食谱书"
+    }
+  ],
+  "rootIPA": "kʊk",
+  "rootSpoken": "cook",
+  "rootContext": "",
+  "rootIntro": "这里的意思是做饭。接下来的词都跟它有关。",
+  "rootKind": "熟词"
+}

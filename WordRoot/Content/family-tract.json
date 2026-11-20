@@ -1,0 +1,518 @@
+{
+  "id": "family.tract",
+  "root": "tract",
+  "meaning": "拉、牵引",
+  "explanation": "tract- 与拉丁语 trahere「拉、拖」的词形有关。拉向某物、从整体取出和把注意力牵走，分别能帮助理解不同词义。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "tract.attract",
+      "word": "attract",
+      "partOfSpeech": "动词",
+      "meaning": "吸引；引来",
+      "explanation": "让人、注意力等被某事物吸引，也可描述磁铁的吸引。",
+      "example": "The new café attracts people from across town.",
+      "translation": "这家新咖啡馆吸引了城里各处的人。",
+      "rootRelation": "at-（朝向）与 tract-（拉）构成历史线索。",
+      "acceptedAnswers": [
+        "吸引",
+        "引来"
+      ],
+      "formation": "at（朝向）+ tract（拉） = 拉向 → 吸引",
+      "pronunciation": "əˈtrækt",
+      "memoryCue": "借 tract 的「拉」来记。把别人的目光拉过来，就是吸引。",
+      "parts": [
+        {
+          "text": "at-",
+          "ipa": "ə",
+          "meaning": "朝向"
+        },
+        {
+          "text": "tract",
+          "ipa": "trækt",
+          "meaning": "拉"
+        }
+      ],
+      "combined": "面包香让路人走过来，像把人拉过来一样，这就是吸引。"
+    },
+    {
+      "id": "tract.extract",
+      "word": "extract",
+      "partOfSpeech": "动词",
+      "meaning": "提取；取出",
+      "explanation": "把成分、资料或物体从原先包含它的东西里取出来。",
+      "example": "The machine extracts juice from oranges.",
+      "translation": "这台机器从橙子中榨出果汁。",
+      "rootRelation": "ex-（向外）与 tract-（拉）关联取出的意思。",
+      "acceptedAnswers": [
+        "提取",
+        "取出",
+        "抽取"
+      ],
+      "pronunciation": "ɪkˈstrækt",
+      "formation": "ex（向外）+ tract（拉） = 向外拉 → 提取",
+      "memoryCue": "ex- 是向外，tract 是拉。从里面拉出需要的东西，就是提取。",
+      "parts": [
+        {
+          "text": "ex-",
+          "ipa": "ɪks",
+          "meaning": "向外"
+        },
+        {
+          "text": "tract",
+          "ipa": "trækt",
+          "meaning": "拉"
+        }
+      ],
+      "combined": "把卡住的刺从手指里取出来，这个动作就是取出。"
+    },
+    {
+      "id": "tract.contract",
+      "word": "contract",
+      "partOfSpeech": "动词",
+      "meaning": "收缩；缩小",
+      "explanation": "身体组织、材料或范围变得更小或更短。此义动词重音通常在第二音节。",
+      "example": "Metal contracts when it cools.",
+      "translation": "金属冷却时会收缩。",
+      "rootRelation": "con-（一起）与 tract-（拉）提供拉到一起的联想。",
+      "acceptedAnswers": [
+        "收缩",
+        "缩小"
+      ],
+      "pronunciation": "kənˈtrækt",
+      "formation": "con（一起）+ tract（拉） = 拉到一起 → 收缩",
+      "memoryCue": "con- 是一起，tract 是拉。向一起拉就是收缩。动词重读后半。",
+      "parts": [
+        {
+          "text": "con-",
+          "ipa": "kən",
+          "meaning": "一起"
+        },
+        {
+          "text": "tract",
+          "ipa": "trækt",
+          "meaning": "拉"
+        }
+      ],
+      "combined": "金属冷下来，往里缩了一点，这个动作叫收缩。"
+    },
+    {
+      "id": "tract.distract",
+      "word": "distract",
+      "partOfSpeech": "动词",
+      "meaning": "使分心；转移注意",
+      "explanation": "让人离开原本专注的事，常用 distract someone from。",
+      "example": "The noise outside distracted me from my work.",
+      "translation": "外面的噪声让我工作时分了心。",
+      "rootRelation": "dis-（分开）与 tract-（拉）关联把注意力拉开。",
+      "acceptedAnswers": [
+        "分心",
+        "使分心",
+        "转移注意"
+      ],
+      "formation": "dis（分开）+ tract（拉） = 拉开注意 → 使分心",
+      "pronunciation": "dɪˈstrækt",
+      "memoryCue": "把注意力拉向另一边，你就分心了。",
+      "parts": [
+        {
+          "text": "dis-",
+          "ipa": "dɪs",
+          "meaning": "分开"
+        },
+        {
+          "text": "tract",
+          "ipa": "trækt",
+          "meaning": "拉"
+        }
+      ],
+      "combined": "原本在听课，手机一响，注意力被拉走了，这就叫分心。"
+    },
+    {
+      "id": "tract.attraction",
+      "word": "attraction",
+      "partOfSpeech": "名词",
+      "meaning": "吸引力；诱因",
+      "explanation": "使人想接近或参与的一种吸引力，也可指吸引游客的事物。",
+      "example": "The main attraction of this job is the flexible schedule.",
+      "translation": "这份工作最吸引人的地方是时间安排灵活。",
+      "rootRelation": "attract 加 -ion。",
+      "acceptedAnswers": [
+        "吸引力",
+        "诱因"
+      ],
+      "formation": "attract + -ion = 吸引 → 吸引力",
+      "pronunciation": "əˈtrækʃən",
+      "memoryCue": "从 attract 的「吸引」来记。让人靠近的那股力量就是吸引力。",
+      "parts": [
+        {
+          "text": "attract",
+          "ipa": "ətræk",
+          "meaning": "吸引"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "为什么大家都爱来？能把人吸引来的那一点，就是吸引力。"
+    },
+    {
+      "id": "tract.attractive",
+      "word": "attractive",
+      "partOfSpeech": "形容词",
+      "meaning": "有吸引力的",
+      "explanation": "形容外表、价格、条件或构想让人感兴趣。",
+      "example": "The offer looks attractive at first.",
+      "translation": "这项提议乍看挺有吸引力。",
+      "rootRelation": "attract 加 -ive。",
+      "acceptedAnswers": [
+        "有吸引力的",
+        "有吸引力",
+        "吸引人的"
+      ],
+      "formation": "attract + -ive = 吸引 → 有吸引力的",
+      "pronunciation": "əˈtræktɪv",
+      "memoryCue": "attract 是吸引，-ive 形容特点。能吸引人的，就是有吸引力的。",
+      "parts": [
+        {
+          "text": "attract",
+          "ipa": "ətrækt",
+          "meaning": "吸引"
+        },
+        {
+          "text": "-ive",
+          "ipa": "ɪv",
+          "meaning": "带有这种特点的"
+        }
+      ],
+      "combined": "橱窗里的东西让你想走近看看，就说明它有吸引力。"
+    },
+    {
+      "id": "tract.extraction",
+      "word": "extraction",
+      "partOfSpeech": "名词",
+      "meaning": "提取；抽取",
+      "explanation": "把某种成分或物体从原材料、原来位置分离出来的过程。",
+      "example": "The next step is the extraction of oil from the seeds.",
+      "translation": "下一步是从种子中提取油脂。",
+      "rootRelation": "extract 加 -ion。",
+      "acceptedAnswers": [
+        "提取",
+        "抽取"
+      ],
+      "formation": "extract + -ion = 提取 → 提取过程",
+      "pronunciation": "ɛkˈstrækʃən",
+      "memoryCue": "extract 是提取或拔出。说拔牙或提取的过程，用 extraction。",
+      "parts": [
+        {
+          "text": "extract",
+          "ipa": "ɛkstræk",
+          "meaning": "提取"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "东西原本藏在里面，把它取出来的过程就叫提取。"
+    },
+    {
+      "id": "tract.distraction",
+      "word": "distraction",
+      "partOfSpeech": "名词",
+      "meaning": "让人分心的事物",
+      "explanation": "占据注意力、让人难以集中精力的声音、通知或活动。",
+      "example": "The constant notifications were a distraction.",
+      "translation": "不断弹出的通知让人分心。",
+      "rootRelation": "distract 加 -ion。",
+      "acceptedAnswers": [
+        "干扰",
+        "让人分心的事物",
+        "分心"
+      ],
+      "formation": "distract + -ion = 分心 → 干扰；分心事物",
+      "pronunciation": "dɪˈstrækʃən",
+      "memoryCue": "distract 是让人分心。把你的注意力拉开的事，就是干扰。",
+      "parts": [
+        {
+          "text": "distract",
+          "ipa": "dɪstræk",
+          "meaning": "使分心"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "让你从书上移开目光的那声提示音，就是让你分心的东西。"
+    },
+    {
+      "id": "tract.abstract",
+      "word": "abstract",
+      "partOfSpeech": "名词",
+      "meaning": "摘要",
+      "explanation": "研究文章或报告前用来概述内容的一小段文字。此义重音在第一音节。",
+      "example": "Read the abstract before downloading the full paper.",
+      "translation": "下载整篇论文前，先读一下摘要。",
+      "rootRelation": "历史词源含「拉开、抽出」，可联想提取要点。",
+      "acceptedAnswers": [
+        "摘要",
+        "概要"
+      ],
+      "pronunciation": "ˈæbstrækt",
+      "formation": "ab-（离开、抽离） + tract（拉） → 摘要",
+      "memoryCue": "从长文中抽出要点，浓缩成的一小段就是摘要。",
+      "parts": [
+        {
+          "text": "ab-",
+          "ipa": "æb",
+          "meaning": "离开、抽离"
+        },
+        {
+          "text": "tract",
+          "ipa": "ˈstrækt",
+          "meaning": "拉",
+          "notes": [
+            "从具体事物中抽取概念"
+          ]
+        }
+      ],
+      "combined": "从长文章里抽出要点，放在开头的那一小段就是摘要。"
+    },
+    {
+      "id": "tract.retract",
+      "word": "retract",
+      "partOfSpeech": "动词",
+      "meaning": "撤回；收回",
+      "explanation": "公开收回先前的说法，也可指部件缩回。",
+      "example": "The newspaper retracted the claim the next day.",
+      "translation": "报社第二天撤回了那项说法。",
+      "rootRelation": "re-（向回）与 tract-（拉）联系拉回。",
+      "acceptedAnswers": [
+        "撤回",
+        "收回"
+      ],
+      "formation": "re（向回）+ tract（拉） = 向回拉 → 撤回",
+      "pronunciation": "riˈtrækt",
+      "memoryCue": "re- 是往回，tract 是拉。把说过的话拉回来，就是撤回。",
+      "parts": [
+        {
+          "text": "re-",
+          "ipa": "ri",
+          "meaning": "向回"
+        },
+        {
+          "text": "tract",
+          "ipa": "trækt",
+          "meaning": "拉"
+        }
+      ],
+      "combined": "说出口的话又收回来，或伸出去的手又缩回来，都是收回。"
+    },
+    {
+      "id": "tract.traction",
+      "word": "traction",
+      "partOfSpeech": "名词",
+      "meaning": "抓地力；牵引力",
+      "explanation": "轮胎或鞋底与地面接触时产生的抓地效果。",
+      "example": "These tyres provide better traction on wet roads.",
+      "translation": "这些轮胎在湿路上抓地力更好。",
+      "rootRelation": "与表示拉、牵引的 tract- 有关。",
+      "acceptedAnswers": [
+        "抓地力",
+        "牵引力"
+      ],
+      "formation": "tract-（拉、牵引） + -ion（行为或结果） → 抓地力",
+      "pronunciation": "ˈtrækʃən",
+      "memoryCue": "轮胎紧贴地面，能带动车往前，这种抓地力叫 traction。",
+      "plainCue": "轮胎或鞋底与地面接触时产生的抓地效果。",
+      "parts": [
+        {
+          "text": "tract-",
+          "ipa": "ˈtræk",
+          "meaning": "拉、牵引"
+        },
+        {
+          "text": "-ion",
+          "ipa": "ʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "牵引"
+          ]
+        }
+      ],
+      "combined": "轮胎在湿地上还能抓牢路面，靠的就是抓地力。"
+    },
+    {
+      "id": "tract.tractor",
+      "word": "tractor",
+      "partOfSpeech": "名词",
+      "meaning": "拖拉机",
+      "explanation": "农用车辆，常用于拖拉犁、拖车等设备。",
+      "example": "A tractor pulled the trailer across the field.",
+      "translation": "一台拖拉机把拖车拉过田地。",
+      "rootRelation": "tract（拉）与表示装置的 -or。",
+      "acceptedAnswers": [
+        "拖拉机"
+      ],
+      "formation": "tract-（拉、牵引） + -or（器具） → 拖拉机",
+      "pronunciation": "ˈtræktɚ",
+      "memoryCue": "tract 是拉。能拖着农具走的车就是拖拉机。",
+      "parts": [
+        {
+          "text": "tract-",
+          "ipa": "ˈtræk",
+          "meaning": "拉、牵引"
+        },
+        {
+          "text": "-or",
+          "ipa": "tɚ",
+          "meaning": "器具",
+          "notes": [
+            "牵引车辆"
+          ]
+        }
+      ],
+      "combined": "田里拖着犁往前走的那辆车，就是拖拉机。"
+    },
+    {
+      "id": "tract.subtract",
+      "word": "subtract",
+      "partOfSpeech": "动词",
+      "meaning": "减去；扣除",
+      "explanation": "从数值中拿走另一数值，常用 subtract A from B。",
+      "example": "Subtract the shipping fee from the total.",
+      "translation": "从总额中扣除运费。",
+      "rootRelation": "sub- 与 tract- 的历史形式可联想从总数中拿走。",
+      "acceptedAnswers": [
+        "减去",
+        "扣除"
+      ],
+      "formation": "sub（离开）+ tract（拉） = 从总量拿走 → 减去",
+      "pronunciation": "səbˈtrækt",
+      "memoryCue": "从一堆东西里拿走一部分，就是减去。",
+      "parts": [
+        {
+          "text": "sub-",
+          "ipa": "səb",
+          "meaning": "离开"
+        },
+        {
+          "text": "tract",
+          "ipa": "trækt",
+          "meaning": "拉"
+        }
+      ],
+      "combined": "十元里拿走三元，算剩下多少，这个动作就是减去。"
+    },
+    {
+      "id": "tract.contract.agreement",
+      "word": "contract",
+      "partOfSpeech": "名词",
+      "meaning": "合同；正式协议",
+      "explanation": "有法律效力的正式约定，可以签署、续签或终止。此义重音在第一音节。",
+      "example": "We signed a new contract with the supplier.",
+      "translation": "我们和供应商签了一份新合同。",
+      "rootRelation": "历史上有把双方约束在一起的联想，现代用法指正式约定。",
+      "acceptedAnswers": [
+        "合同",
+        "正式协议"
+      ],
+      "pronunciation": "ˈkɑntrækt",
+      "formation": "con-（一起、共同） + tract（拉） → 合同",
+      "memoryCue": "把双方约定写进一份文件，就是合同。作名词时，重读前半。",
+      "parts": [
+        {
+          "text": "con-",
+          "ipa": "kən",
+          "meaning": "一起、共同"
+        },
+        {
+          "text": "tract",
+          "ipa": "ˈtrækt",
+          "meaning": "拉",
+          "notes": [
+            "双方共同约定"
+          ]
+        }
+      ],
+      "combined": "两方商量好条件，签字留下的正式文件，就是合同。"
+    }
+  ],
+  "links": [
+    {
+      "from": "tract.attract",
+      "to": "tract.attraction",
+      "kind": "派生关系",
+      "note": "attract 是吸引，attraction 指吸引力或吸引人的事物。"
+    },
+    {
+      "from": "tract.attract",
+      "to": "tract.attractive",
+      "kind": "派生关系",
+      "note": "attract 是吸引，attractive 形容让人想接近或尝试的东西。"
+    },
+    {
+      "from": "tract.attract",
+      "to": "tract.distract",
+      "kind": "用法对照",
+      "note": "attract 把注意力吸引过来，distract 常指注意力被从眼前要做的事拉走。"
+    },
+    {
+      "from": "tract.distract",
+      "to": "tract.distraction",
+      "kind": "派生关系",
+      "note": "distract 是使分心，distraction 可指使人分心的东西。"
+    },
+    {
+      "from": "tract.extract",
+      "to": "tract.extraction",
+      "kind": "派生关系",
+      "note": "extract 是提取，extraction 指把某物提取出来的过程。"
+    },
+    {
+      "from": "tract.extract",
+      "to": "tract.abstract",
+      "kind": "语义联系",
+      "note": "阅读论文时，abstract 把关键信息抽出来，先告诉读者文章在说什么。"
+    },
+    {
+      "from": "tract.extract",
+      "to": "tract.subtract",
+      "kind": "用法对照",
+      "note": "extract 强调从来源取出实物、成分或资料，subtract 强调数量相减。"
+    },
+    {
+      "from": "tract.contract",
+      "to": "tract.contract.agreement",
+      "kind": "用法对照",
+      "note": "contract 的收缩义是动词，正式协议是名词，两义的重音也不同。"
+    },
+    {
+      "from": "tract.contract",
+      "to": "tract.retract",
+      "kind": "用法对照",
+      "note": "物体可以 contract 而整体变小，某个活动部件可以 retract 而缩回。"
+    },
+    {
+      "from": "tract.retract",
+      "to": "tract.tractor",
+      "kind": "同词根",
+      "note": "retract 可指拉回，tractor 是用来拖拉设备的机器。"
+    },
+    {
+      "from": "tract.tractor",
+      "to": "tract.traction",
+      "kind": "语境关联",
+      "note": "拖拉机在泥地拖重物时，需要足够的 traction 才不会打滑。"
+    }
+  ],
+  "rootIPA": "trækt",
+  "rootSpoken": "tract",
+  "rootContext": "在 attract 里",
+  "rootIntro": "这一块有拉的意思。看开头，就知道往哪儿拉。",
+  "rootKind": "词根"
+}

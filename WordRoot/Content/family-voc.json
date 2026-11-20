@@ -1,0 +1,440 @@
+{
+  "id": "family.voc",
+  "root": "voc",
+  "meaning": "呼唤、声音",
+  "explanation": "voc- 关联拉丁语「呼唤、声音」的词。它延伸到表达态度、公开支持，并留下看待职业如同召唤的词源线索。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "voc.voice.1",
+      "word": "voice",
+      "partOfSpeech": "名词",
+      "meaning": "声音；嗓音",
+      "explanation": "人说话或唱歌发出的声音，也可表示表达意见的权利。",
+      "example": "Her voice carried across the quiet hall.",
+      "translation": "她的声音传遍了安静的大厅。",
+      "rootRelation": "voc（声音、呼唤）相关词形。",
+      "acceptedAnswers": [
+        "声音"
+      ],
+      "formation": "voc（声音、呼唤）→ voice = 声音 → 嗓音",
+      "pronunciation": "vɔɪs",
+      "memoryCue": "接电话一听就知道是谁，你认出来的是那个人的嗓音。"
+    },
+    {
+      "id": "voc.vocal.2",
+      "word": "vocal",
+      "partOfSpeech": "形容词",
+      "meaning": "嗓音的；直言不讳的",
+      "explanation": "与说话或歌唱的声音有关，也可指积极表达意见。",
+      "example": "Residents were vocal about the need for safer crossings.",
+      "translation": "居民直言不讳地提出需要更安全的过街设施。",
+      "rootRelation": "voc（声音）加 -al。",
+      "acceptedAnswers": [
+        "嗓音的"
+      ],
+      "formation": "voc-（声音、说话） + -al（与……有关的） → 嗓音的",
+      "pronunciation": "ˈvoʊkəl",
+      "memoryCue": "与 voice 的嗓音连起来记。形容跟人的嗓音有关，就用这个词。",
+      "parts": [
+        {
+          "text": "voc-",
+          "ipa": "ˈvoʊk",
+          "meaning": "声音、说话"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与……有关的",
+          "notes": [
+            "嗓音的"
+          ]
+        }
+      ],
+      "combined": "别人只在心里想，你把意见说了出来，这里说的是敢于直言。"
+    },
+    {
+      "id": "voc.vocabulary.4",
+      "word": "vocabulary",
+      "partOfSpeech": "名词",
+      "meaning": "词汇；词汇量",
+      "explanation": "某种语言、主题或个人掌握的一组词。",
+      "example": "Reading every day expanded her vocabulary.",
+      "translation": "每天阅读扩大了她的词汇量。",
+      "rootRelation": "词源与拉丁语 vocabulum（名称、词）有关。",
+      "acceptedAnswers": [
+        "词汇"
+      ],
+      "formation": "vocabulum（名称）→ vocabulary → 名称 → 词汇",
+      "pronunciation": "voʊˈkæbjəˌlɛri",
+      "memoryCue": "一个人认识、会用的那些词合在一起，就是他的词汇量。"
+    },
+    {
+      "id": "voc.vocation.5",
+      "word": "vocation",
+      "partOfSpeech": "名词",
+      "meaning": "职业志向；使命感",
+      "explanation": "使人感到特别适合或愿意长期投入的工作。",
+      "example": "He found his vocation in teaching adults to read.",
+      "translation": "他发现教成年人识字是自己的志业。",
+      "rootRelation": "vocare（呼唤）词族，隐含召唤之意。",
+      "acceptedAnswers": [
+        "职业志向"
+      ],
+      "formation": "vocare（呼唤）→ vocation = 呼唤 → 职业志向",
+      "pronunciation": "voʊˈkeɪʃən",
+      "memoryCue": "想成一项工作在召唤自己。愿意投入的职业志向就是 vocation。",
+      "plainCue": "觉得自己一生都想教书，这种想做一份工作的心愿就是职业志向。"
+    },
+    {
+      "id": "voc.vocalize.3",
+      "word": "vocalize",
+      "partOfSpeech": "动词",
+      "meaning": "发声；用声音表达",
+      "explanation": "把声音发出来，也可指清楚表达情绪或想法。",
+      "example": "The baby began to vocalize when the music started.",
+      "translation": "音乐响起时，宝宝开始咿呀发声。",
+      "rootRelation": "vocal 加 -ize。",
+      "acceptedAnswers": [
+        "发声"
+      ],
+      "formation": "vocal + -ize = 嗓音 → 发声；表达",
+      "pronunciation": "ˈvoʊkəˌlaɪz",
+      "memoryCue": "vocal 和嗓音有关，-ize 可以把词变成动作。合起来就是发声。",
+      "parts": [
+        {
+          "text": "vocal",
+          "ipa": "voʊkəl",
+          "meaning": "嗓音的"
+        },
+        {
+          "text": "-ize",
+          "ipa": "aɪz",
+          "meaning": "使它变成这样"
+        }
+      ],
+      "combined": "把心里的感受用嗓子发出声音来，就是用声音表达。"
+    },
+    {
+      "id": "voc.vocational.6",
+      "word": "vocational",
+      "partOfSpeech": "形容词",
+      "meaning": "职业技能的；职业教育的",
+      "explanation": "与具体工作技能训练或职业教育有关。",
+      "example": "She enrolled in a vocational course in electrical repair.",
+      "translation": "她报名参加了电器维修职业课程。",
+      "rootRelation": "vocation 加 -al。",
+      "acceptedAnswers": [
+        "职业技能的"
+      ],
+      "formation": "vocation + -al = 职业志向 → 职业的",
+      "pronunciation": "voʊˈkeɪʃənəl",
+      "memoryCue": "vocation 是职业志向。为一门职业做准备的培训叫 vocational training。",
+      "parts": [
+        {
+          "text": "vocation",
+          "ipa": "voʊkeɪʃən",
+          "meaning": "职业志向"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与它有关的"
+        }
+      ],
+      "combined": "教你修车、做饭等工作本领的课程，属于职业教育。"
+    },
+    {
+      "id": "voc.advocate.7",
+      "word": "advocate",
+      "partOfSpeech": "动词",
+      "meaning": "提倡；支持",
+      "explanation": "公开表达支持，推动某项想法或权益。",
+      "example": "The group advocates better access to public libraries.",
+      "translation": "该团体倡导改善公众使用图书馆的条件。",
+      "rootRelation": "历史词源含 ad- 与 vocare（呼唤），现代词义是公开支持。",
+      "acceptedAnswers": [
+        "提倡"
+      ],
+      "formation": "ad-（朝向、支持） + voc-（说、发声） + -ate（动词词尾） → 提倡",
+      "pronunciation": "ˈædvəkeɪt",
+      "memoryCue": "站出来为一种做法发声，就是倡导它。这里 advocate 是动作。",
+      "plainCue": "公开表达支持，推动某项想法或权益。",
+      "parts": [
+        {
+          "text": "ad-",
+          "ipa": "ˈæd",
+          "meaning": "朝向、支持"
+        },
+        {
+          "text": "voc-",
+          "ipa": "və",
+          "meaning": "说、发声"
+        },
+        {
+          "text": "-ate",
+          "ipa": "ˌkeɪt",
+          "meaning": "动词词尾",
+          "notes": [
+            "公开支持"
+          ]
+        }
+      ],
+      "combined": "你觉得图书馆应该开得更久，还公开支持这件事，这就是提倡。"
+    },
+    {
+      "id": "voc.invocation.8",
+      "word": "invocation",
+      "partOfSpeech": "名词",
+      "meaning": "祈请；调用",
+      "explanation": "正式请求援助或支持，也可指计算机中调用程序。",
+      "example": "The ceremony began with an invocation for peace.",
+      "translation": "仪式以祈求和平的祷词开始。",
+      "rootRelation": "in- 与 vocare 词族，表示召唤或调用。",
+      "acceptedAnswers": [
+        "祈请"
+      ],
+      "formation": "invoke（援引、调用） + -ation（行为或结果） → 祈请",
+      "pronunciation": "ˌɪnvəˈkeɪʃən",
+      "memoryCue": "invoke 可以是呼请。正式的祈请或程序中的调用叫 invocation。",
+      "plainCue": "正式请求援助或支持，也可指计算机中调用程序。",
+      "parts": [
+        {
+          "text": "invoke",
+          "ipa": "ˌɪnˈvoʊk",
+          "meaning": "援引、调用"
+        },
+        {
+          "text": "-ation",
+          "ipa": "ˈkeɪʃən",
+          "meaning": "行为或结果",
+          "notes": [
+            "祈请或调用"
+          ]
+        }
+      ],
+      "combined": "仪式开始时，大家开口祈求平安，这样的一段祷词就是祈请。"
+    },
+    {
+      "id": "voc.invoke.8",
+      "word": "invoke",
+      "partOfSpeech": "动词",
+      "meaning": "援引；引用作为依据",
+      "explanation": "在争论、法律或正式说明中，拿某条规则或原则作依据。",
+      "example": "The lawyer invoked a rule that protects witnesses.",
+      "translation": "律师援引了一条保护证人的规则。",
+      "rootRelation": "in- 与 vocare（召唤）有关，此处可记为把理由叫到面前。",
+      "acceptedAnswers": [
+        "援引",
+        "引用"
+      ],
+      "formation": "in-（向内、援引） + voc-（呼叫、说） → 援引",
+      "pronunciation": "ˌɪnˈvoʊk",
+      "memoryCue": "为支持自己的说法援引规则，或要求程序运行，都可以用 invoke。",
+      "plainCue": "在争论、法律或正式说明中，拿某条规则或原则作依据。",
+      "parts": [
+        {
+          "text": "in-",
+          "ipa": "ɪn",
+          "meaning": "向内、援引"
+        },
+        {
+          "text": "voc-",
+          "ipa": "ˈvoʊk",
+          "meaning": "呼叫、说",
+          "notes": [
+            "援引某项依据"
+          ]
+        }
+      ],
+      "combined": "说明为什么这样做时，把一条规定拿出来作依据，就是援引。"
+    },
+    {
+      "id": "voc.vocalization.extra2",
+      "word": "vocalization",
+      "partOfSpeech": "名词",
+      "meaning": "发声；声音表达",
+      "explanation": "发出声音或用声音表达的行为。",
+      "example": "The baby’s vocalization changed as she grew.",
+      "translation": "宝宝长大后发声方式也发生了变化。",
+      "rootRelation": "vocalize 加 -ation。",
+      "acceptedAnswers": [
+        "发声"
+      ],
+      "formation": "vocalize + -ation = 发声 → 发声过程",
+      "pronunciation": "ˌvoʊkələˈzeɪʃən",
+      "memoryCue": "vocalize 是发声。发出声音的过程就是 vocalization。",
+      "parts": [
+        {
+          "text": "vocalize",
+          "ipa": "voʊkələz",
+          "meaning": "发声"
+        },
+        {
+          "text": "-ation",
+          "ipa": "eɪʃən",
+          "meaning": "这件事或它的结果"
+        }
+      ],
+      "combined": "小宝宝还不会说话，已经会咿咿呀呀，这些声音就是发声。"
+    },
+    {
+      "id": "voc.vocative.extra3",
+      "word": "vocative",
+      "partOfSpeech": "名词",
+      "meaning": "呼格",
+      "explanation": "语法中用于直接称呼某人的形式。",
+      "example": "The sentence uses a vocative when it begins with “Maria”.",
+      "translation": "句子以 Maria 开头时使用了呼格。",
+      "rootRelation": "voc（呼唤）相关的语法术语。",
+      "acceptedAnswers": [
+        "呼格"
+      ],
+      "formation": "voc（呼唤）→ vocative = 称呼 → 呼格",
+      "pronunciation": "ˈvɑkətɪv",
+      "memoryCue": "说「小林，过来」时，小林是你直接叫的人。有些语言把这种用法叫呼格。"
+    },
+    {
+      "id": "voc.vocative.extra4",
+      "word": "vocative",
+      "partOfSpeech": "形容词",
+      "meaning": "呼格的；称呼用的",
+      "explanation": "用于直接称呼听者或对象的。",
+      "example": "The vocative phrase makes the invitation sound personal.",
+      "translation": "称呼语让邀请听起来更亲切。",
+      "rootRelation": "vocative 作形容词的用法。",
+      "acceptedAnswers": [
+        "呼格的"
+      ],
+      "formation": "vocative（呼格） = 呼格 → 呼格的",
+      "pronunciation": "ˈvɑkətɪv",
+      "memoryCue": "vocative 作形容词，表示用来直接称呼对方的。",
+      "plainCue": "在「朋友，请进」里，「朋友」用来称呼对方，是称呼用的。"
+    },
+    {
+      "id": "voc.vociferous.extra5",
+      "word": "vociferous",
+      "partOfSpeech": "形容词",
+      "meaning": "大声疾呼的；喧嚷的",
+      "explanation": "以很大声音表达强烈意见。",
+      "example": "A vociferous crowd gathered outside the hall.",
+      "translation": "一群大声表达诉求的人聚集在大厅外。",
+      "rootRelation": "voci-（声音）与 fer（带来）构成。",
+      "acceptedAnswers": [
+        "大声疾呼的"
+      ],
+      "formation": "vociferous · 大声疾呼的",
+      "pronunciation": "voʊˈsɪfɚəs",
+      "memoryCue": "以很大声音表达强烈意见。",
+      "plainCue": "一群人扯开嗓子强烈反对，就能用这个词形容他们。"
+    },
+    {
+      "id": "voc.vociferously.extra6",
+      "word": "vociferously",
+      "partOfSpeech": "副词",
+      "meaning": "大声地；强烈地表达地",
+      "explanation": "说明某人以响亮、激烈的方式表达意见。",
+      "example": "Residents vociferously opposed the late-night noise.",
+      "translation": "居民强烈反对深夜噪声。",
+      "rootRelation": "vociferous 加副词后缀 -ly。",
+      "acceptedAnswers": [
+        "大声地"
+      ],
+      "formation": "vociferous + -ly = 大声疾呼的 → 大声地",
+      "pronunciation": "vəˈsɪfɚəsli",
+      "memoryCue": "vociferous 是大声疾呼的。加上 -ly，就表示大声疾呼地。",
+      "parts": [
+        {
+          "text": "vociferous",
+          "ipa": "vəsɪfɚəs",
+          "meaning": "大声疾呼的"
+        },
+        {
+          "text": "-ly",
+          "ipa": "li",
+          "meaning": "用这样的方式"
+        }
+      ],
+      "combined": "居民大声说出反对意见，这个词说的是他们反对时声音大、态度强烈。"
+    }
+  ],
+  "links": [
+    {
+      "to": "voc.vocal.2",
+      "kind": "同词根",
+      "note": "voice 指嗓音或发出的声音，vocal 常形容与嗓音有关，有时也指公开表达看法的。",
+      "from": "voc.voice.1"
+    },
+    {
+      "to": "voc.vocalize.3",
+      "kind": "派生关系",
+      "note": "vocal 形容和声音有关，vocalize 是发出声音或把感受说出来。",
+      "from": "voc.vocal.2"
+    },
+    {
+      "to": "voc.vocalization.extra2",
+      "kind": "派生关系",
+      "note": "vocalize 是发声的动作，vocalization 是发声本身或声音形式。",
+      "from": "voc.vocalize.3"
+    },
+    {
+      "to": "voc.vocabulary.4",
+      "kind": "同词根",
+      "note": "voice 和 vocabulary 可追溯到声音与称呼的成分；vocabulary 指一组词或个人已知词汇。",
+      "from": "voc.voice.1"
+    },
+    {
+      "to": "voc.vocational.6",
+      "kind": "派生关系",
+      "note": "vocation 指适合或有使命感去做的职业，vocational 强调职业技能和职业教育。",
+      "from": "voc.vocation.5"
+    },
+    {
+      "to": "voc.invocation.8",
+      "kind": "同词根",
+      "note": "vocation 保留「受到召唤」的联想，invocation 可以指祈请或调用。",
+      "from": "voc.vocation.5"
+    },
+    {
+      "to": "voc.invoke.8",
+      "kind": "派生关系",
+      "note": "invoke 是求助于某物、引用或调用，invocation 是动作本身。",
+      "from": "voc.invocation.8"
+    },
+    {
+      "to": "voc.invoke.8",
+      "kind": "用法对照",
+      "note": "advocate 是公开支持主张，invoke 可以是援引法律或原则来支持观点。",
+      "from": "voc.advocate.7"
+    },
+    {
+      "to": "voc.vocative.extra3",
+      "kind": "同词根",
+      "note": "voice 是声音，vocative 是直接叫某人的一种语法形式。",
+      "from": "voc.voice.1"
+    },
+    {
+      "to": "voc.vocative.extra4",
+      "kind": "用法对照",
+      "note": "vocative 可作名词称呼格，也可作形容词修饰这种称呼形式。",
+      "from": "voc.vocative.extra3"
+    },
+    {
+      "to": "voc.vociferous.extra5",
+      "kind": "用法对照",
+      "note": "vocal 常指公开表达，vociferous 尤其强调大声、强烈的表达。",
+      "from": "voc.vocal.2"
+    },
+    {
+      "to": "voc.vociferously.extra6",
+      "kind": "派生关系",
+      "note": "vociferous 是形容词，vociferously 是副词。",
+      "from": "voc.vociferous.extra5"
+    }
+  ],
+  "rootIPA": "voʊk",
+  "rootSpoken": "voc",
+  "rootContext": "在 vocal 里",
+  "rootIntro": "开口呼唤会发出声音。这组词就从声音出发。",
+  "rootKind": "词根"
+}

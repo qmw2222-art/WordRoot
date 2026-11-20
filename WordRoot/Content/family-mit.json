@@ -1,0 +1,464 @@
+{
+  "id": "family.mit",
+  "root": "mit",
+  "meaning": "送出、放行",
+  "explanation": "mit-、miss- 来自与「送、放出」有关的拉丁语形式。把材料发交给机构、把信号传到远处，或准许某人进入，可以帮助区分这几组词。",
+  "isFree": false,
+  "words": [
+    {
+      "id": "mit.submit",
+      "word": "submit",
+      "partOfSpeech": "动词",
+      "meaning": "提交；呈交",
+      "explanation": "把表格、申请、文章等交给机构或负责人审核，常接 to。",
+      "example": "Please submit your application by Friday.",
+      "translation": "请在周五前提交申请。",
+      "rootRelation": "sub- 与 mit- 的历史形式关联呈送。",
+      "acceptedAnswers": [
+        "提交",
+        "呈交"
+      ],
+      "formation": "sub（下）+ mit（送） = 呈交",
+      "pronunciation": "səbˈmɪt",
+      "memoryCue": "把材料交给负责受理的人，就是提交。",
+      "parts": [
+        {
+          "text": "sub-",
+          "ipa": "səb",
+          "meaning": "下"
+        },
+        {
+          "text": "mit",
+          "ipa": "mɪt",
+          "meaning": "送"
+        }
+      ],
+      "combined": "把填好的申请表交给对方，这个动作就是提交。"
+    },
+    {
+      "id": "mit.transmit",
+      "word": "transmit",
+      "partOfSpeech": "动词",
+      "meaning": "传送；传输",
+      "explanation": "把信号、数据等从一处传到另一处。也可以用来讲疾病传播。",
+      "example": "The sensor transmits data every minute.",
+      "translation": "传感器每分钟传输一次数据。",
+      "rootRelation": "trans-（跨过）和 mit-（送）提供记忆线索。",
+      "acceptedAnswers": [
+        "传输",
+        "传送"
+      ],
+      "formation": "trans（跨过）+ mit（送） = 传送",
+      "pronunciation": "trænzˈmɪt",
+      "memoryCue": "trans- 是跨过去，mit 是送。把信号送到另一边，就是传输。",
+      "parts": [
+        {
+          "text": "trans-",
+          "ipa": "trænz",
+          "meaning": "跨过"
+        },
+        {
+          "text": "mit",
+          "ipa": "mɪt",
+          "meaning": "送"
+        }
+      ],
+      "combined": "把一段声音从这里送到远方，这个动作就是传送。"
+    },
+    {
+      "id": "mit.admit",
+      "word": "admit",
+      "partOfSpeech": "动词",
+      "meaning": "准许进入；接收",
+      "explanation": "允许某人进入场地、学校或医院等。",
+      "example": "They admit visitors from nine in the morning.",
+      "translation": "他们从上午九点起允许访客入内。",
+      "rootRelation": "ad-（朝向）与 mit-（送）关联允许入内的用法。",
+      "acceptedAnswers": [
+        "准许进入",
+        "允许进入",
+        "接收"
+      ],
+      "formation": "ad（朝向）+ mit（送） = 准许进入",
+      "pronunciation": "ədˈmɪt",
+      "memoryCue": "朝里面放行，让人进来，就是准许进入。",
+      "parts": [
+        {
+          "text": "ad-",
+          "ipa": "əd",
+          "meaning": "朝向"
+        },
+        {
+          "text": "mit",
+          "ipa": "mɪt",
+          "meaning": "送"
+        }
+      ],
+      "combined": "门口核过票，工作人员让你进去，这个动作就是准许进入。"
+    },
+    {
+      "id": "mit.permit",
+      "word": "permit",
+      "partOfSpeech": "动词",
+      "meaning": "准许；允许",
+      "explanation": "依据规定允许做某事，常说 permit someone to do something。",
+      "example": "The museum permits visitors to take photos without flash.",
+      "translation": "博物馆允许游客在不开闪光灯的情况下拍照。",
+      "rootRelation": "per- 与 mit- 的历史形式有放行的线索。",
+      "acceptedAnswers": [
+        "准许",
+        "允许",
+        "许可"
+      ],
+      "pronunciation": "pɚˈmɪt",
+      "formation": "permit ← mit（放行） = 允许",
+      "memoryCue": "别人问能不能做，你说可以。这个允许的动作叫 permit。",
+      "plainCue": "店主说你可以在店里拍照，这个动作就是允许。"
+    },
+    {
+      "id": "mit.submission",
+      "word": "submission",
+      "partOfSpeech": "名词",
+      "meaning": "提交；提交的材料",
+      "explanation": "可以指提交这个动作，也可以指送审的那一份材料。",
+      "example": "We received twelve submissions for the design competition.",
+      "translation": "我们收到了十二份设计竞赛投稿。",
+      "rootRelation": "submit 的相关名词，词干出现 miss。",
+      "acceptedAnswers": [
+        "提交",
+        "提交的材料",
+        "投稿"
+      ],
+      "formation": "submit → submission = 提交 → 提交材料",
+      "pronunciation": "səbˈmɪʃən",
+      "memoryCue": "submit 是提交。交上去的那份申请或材料，就是 a submission。",
+      "plainCue": "申请表交上去了。这里可以指提交这件事，也可以指交上去的材料。"
+    },
+    {
+      "id": "mit.transmitter",
+      "word": "transmitter",
+      "partOfSpeech": "名词",
+      "meaning": "发射器",
+      "explanation": "把无线电等信号发出去的设备。",
+      "example": "The transmitter is mounted on the roof.",
+      "translation": "发射器装在屋顶上。",
+      "rootRelation": "transmit 加表示执行者或装置的 -er。",
+      "acceptedAnswers": [
+        "发射器",
+        "发射机"
+      ],
+      "formation": "transmit + -er = 传输 → 发射器",
+      "pronunciation": "trænˈsmɪtɚ",
+      "memoryCue": "transmit 是传送。发出无线信号的设备就是发射器。",
+      "parts": [
+        {
+          "text": "transmit",
+          "ipa": "trænsmɪt",
+          "meaning": "传送"
+        },
+        {
+          "text": "-er",
+          "ipa": "ɚ",
+          "meaning": "做这件事的人"
+        }
+      ],
+      "combined": "把无线信号发出去的那台设备，就是发射器。"
+    },
+    {
+      "id": "mit.transmission",
+      "word": "transmission",
+      "partOfSpeech": "名词",
+      "meaning": "传输；传送",
+      "explanation": "描述信号或信息被传到另一处的过程。",
+      "example": "A broken cable interrupted the transmission of the signal.",
+      "translation": "一根损坏的电缆中断了信号传输。",
+      "rootRelation": "transmit 的相关名词，使用 miss 词形。",
+      "acceptedAnswers": [
+        "传输",
+        "传送"
+      ],
+      "formation": "transmit → transmission → 传送 → 传输过程",
+      "pronunciation": "trænˈsmɪʃən",
+      "memoryCue": "transmit 是传输。信号传过去这件事叫 transmission。",
+      "plainCue": "电话那头的声音传到你这里，这个过程就是传输。"
+    },
+    {
+      "id": "mit.admission",
+      "word": "admission",
+      "partOfSpeech": "名词",
+      "meaning": "准许进入；入场",
+      "explanation": "指有资格进入某地，或进入学校等机构的许可。",
+      "example": "Admission to the gallery is free on Sundays.",
+      "translation": "画廊周日免费入场。",
+      "rootRelation": "admit 的相关名词。",
+      "acceptedAnswers": [
+        "入场",
+        "准入",
+        "入场许可"
+      ],
+      "formation": "admit → admission = 准入 → 入场许可",
+      "pronunciation": "ædˈmɪʃən",
+      "memoryCue": "admit 是让人进来。门口需要的入场许可就是 admission。",
+      "plainCue": "一张票让你能进场，票上说的就是入场资格。"
+    },
+    {
+      "id": "mit.permission",
+      "word": "permission",
+      "partOfSpeech": "名词",
+      "meaning": "许可；同意",
+      "explanation": "意思是得到别人或规定的允许，常用 permission to do。",
+      "example": "We asked for permission to use the photo.",
+      "translation": "我们请求获得使用那张照片的许可。",
+      "rootRelation": "permit 的相关名词。",
+      "acceptedAnswers": [
+        "许可",
+        "允许",
+        "同意"
+      ],
+      "formation": "per-（通过、允许） + -mission（许可、准入） → 许可",
+      "pronunciation": "pɚˈmɪʃən",
+      "memoryCue": "permit 是允许。得到的许可叫 permission。",
+      "plainCue": "这里说的是许可；同意。",
+      "parts": [
+        {
+          "text": "per-",
+          "ipa": "pɚ",
+          "meaning": "通过、允许",
+          "notes": [
+            "该前缀为词源线索"
+          ]
+        },
+        {
+          "text": "-mission",
+          "ipa": "ˈmɪʃən",
+          "meaning": "许可、准入",
+          "notes": [
+            "现代词形与 permit 有词源联系，但不按 permit + ion 拼读"
+          ]
+        }
+      ],
+      "combined": "拍照前问店主，他点头同意了，你就得到了许可。"
+    },
+    {
+      "id": "mit.dismiss",
+      "word": "dismiss",
+      "partOfSpeech": "动词",
+      "meaning": "解雇；免职",
+      "explanation": "结束某人的任职，常接 from，指出被撤离哪个职位。",
+      "example": "The director was dismissed after the inquiry.",
+      "translation": "调查结束后，那位主管被免职了。",
+      "rootRelation": "dis-（分开）与 miss（送）关联送走的历史线索。",
+      "acceptedAnswers": [
+        "解雇",
+        "辞退",
+        "免职"
+      ],
+      "formation": "dis（分开）+ miss（送） = 解雇；让离开",
+      "pronunciation": "dɪˈsmɪs",
+      "memoryCue": "让人离开岗位或让人散去，都可以用 dismiss。",
+      "parts": [
+        {
+          "text": "dis-",
+          "ipa": "dɪs",
+          "meaning": "分开"
+        },
+        {
+          "text": "miss",
+          "ipa": "mɪs",
+          "meaning": "送"
+        }
+      ],
+      "combined": "公司通知一位员工不用再来上班，这叫解雇。"
+    },
+    {
+      "id": "mit.dismissal",
+      "word": "dismissal",
+      "partOfSpeech": "名词",
+      "meaning": "解雇；免职",
+      "explanation": "描述雇佣关系被终止这一决定或结果。",
+      "example": "The union challenged the dismissal in court.",
+      "translation": "工会在法庭上对这次解雇提出异议。",
+      "rootRelation": "dismiss 加 -al 形成名词。",
+      "acceptedAnswers": [
+        "解雇",
+        "辞退",
+        "免职"
+      ],
+      "formation": "dismiss + -al = 解雇 → 解雇决定",
+      "pronunciation": "dɪˈsmɪsəl",
+      "memoryCue": "dismiss 是解雇。一次正式的解雇或解雇决定叫 dismissal。",
+      "parts": [
+        {
+          "text": "dismiss",
+          "ipa": "dɪsmɪs",
+          "meaning": "解雇"
+        },
+        {
+          "text": "-al",
+          "ipa": "əl",
+          "meaning": "与它有关的"
+        }
+      ],
+      "combined": "员工失去这份工作，公司作出的这个决定就是解雇。"
+    },
+    {
+      "id": "mit.commit",
+      "word": "commit",
+      "partOfSpeech": "动词",
+      "meaning": "承诺；投入做某事",
+      "explanation": "表示认真决定承担任务，常用 commit to 加名词或动名词。",
+      "example": "She committed to finishing the report by noon.",
+      "translation": "她承诺在中午前完成报告。",
+      "rootRelation": "历史词源包含 com- 和 mit- 的形式；现在常用于作出承诺。",
+      "acceptedAnswers": [
+        "承诺",
+        "保证",
+        "承诺投入"
+      ],
+      "exampleForm": "committed",
+      "formation": "把承诺交出去 → commit，承诺做某件事",
+      "pronunciation": "kəˈmɪt",
+      "memoryCue": "把自己的承诺交出去，答应认真做某事，就是 commit。",
+      "plainCue": "你答应每周来帮忙，而且愿意投入时间，这就叫作出承诺。"
+    },
+    {
+      "id": "mit.commitment",
+      "word": "commitment",
+      "partOfSpeech": "名词",
+      "meaning": "承诺；投入",
+      "explanation": "既可指答应承担的义务，也可指持续投入的态度。",
+      "example": "The new job requires a two-year commitment.",
+      "translation": "这份新工作要求承诺任职两年。",
+      "rootRelation": "commit 加 -ment。",
+      "acceptedAnswers": [
+        "承诺",
+        "投入"
+      ],
+      "formation": "commit（承诺）+ ment（行为或结果）= 承诺",
+      "pronunciation": "kəˈmɪtmənt",
+      "memoryCue": "commit 是作承诺。自己作下的那份承诺叫 commitment。",
+      "parts": [
+        {
+          "text": "commit",
+          "ipa": "kəmɪt",
+          "meaning": "承诺"
+        },
+        {
+          "text": "-ment",
+          "ipa": "mənt",
+          "meaning": "行为或结果"
+        }
+      ],
+      "combined": "答应每周来帮忙，你承担下来的这件事就是承诺。"
+    },
+    {
+      "id": "mit.emit",
+      "word": "emit",
+      "partOfSpeech": "动词",
+      "meaning": "发出；排放",
+      "explanation": "释放热、光、声音等，主语往往是设备或物体。",
+      "example": "The device emits a brief tone when it starts.",
+      "translation": "设备启动时会发出一声短音。",
+      "rootRelation": "e-（出）加与 mit-（送）相关的词形。",
+      "acceptedAnswers": [
+        "发出",
+        "排放"
+      ],
+      "formation": "e（向外）+ mit（送） = 发出",
+      "pronunciation": "ɪˈmɪt",
+      "memoryCue": "e- 是向外，mit 是送。发出光、声音或气体，就是 emit。",
+      "parts": [
+        {
+          "text": "e-",
+          "ipa": "ɪ",
+          "meaning": "向外"
+        },
+        {
+          "text": "mit",
+          "ipa": "mɪt",
+          "meaning": "送"
+        }
+      ],
+      "combined": "灯发出光，汽车排出尾气，都是把东西向外发出。"
+    }
+  ],
+  "links": [
+    {
+      "from": "mit.submit",
+      "to": "mit.submission",
+      "kind": "派生关系",
+      "note": "submit 是提交，submission 是提交行为或提交的材料。"
+    },
+    {
+      "from": "mit.transmit",
+      "to": "mit.transmitter",
+      "kind": "派生关系",
+      "note": "transmit 是传输信号，transmitter 是发出信号的设备。"
+    },
+    {
+      "from": "mit.transmit",
+      "to": "mit.transmission",
+      "kind": "派生关系",
+      "note": "transmit 作动词，transmission 是传送或传播的过程。"
+    },
+    {
+      "from": "mit.admit",
+      "to": "mit.admission",
+      "kind": "派生关系",
+      "note": "admit 是准许进入，admission 是许可或进入的资格。"
+    },
+    {
+      "from": "mit.permit",
+      "to": "mit.permission",
+      "kind": "派生关系",
+      "note": "permit 是准许，permission 指得到的允许。"
+    },
+    {
+      "from": "mit.admit",
+      "to": "mit.permit",
+      "kind": "用法对照",
+      "note": "admit 强调准入某个场所或机构，permit 泛指准许一件事。"
+    },
+    {
+      "from": "mit.dismiss",
+      "to": "mit.dismissal",
+      "kind": "派生关系",
+      "note": "dismiss 作动词表示解雇，dismissal 表示解雇这件事。"
+    },
+    {
+      "from": "mit.admit",
+      "to": "mit.dismiss",
+      "kind": "用法对照",
+      "note": "在人员去留的语境中，admit 表示接收，dismiss 可表示让人离开或免职。"
+    },
+    {
+      "from": "mit.commit",
+      "to": "mit.commitment",
+      "kind": "派生关系",
+      "note": "commit 是作出承诺，commitment 指承诺本身。"
+    },
+    {
+      "from": "mit.submit",
+      "to": "mit.commit",
+      "kind": "语境关联",
+      "note": "报名提交申请后，项目可能要求你承诺参加一定时长。"
+    },
+    {
+      "from": "mit.emit",
+      "to": "mit.transmit",
+      "kind": "用法对照",
+      "note": "emit 强调发出，transmit 强调把信号或数据传递到别处。"
+    },
+    {
+      "from": "mit.submit",
+      "to": "mit.transmit",
+      "kind": "用法对照",
+      "note": "submit 侧重把材料正式交给审核方，transmit 侧重资料传输过程。"
+    }
+  ],
+  "rootIPA": "mɪt",
+  "rootSpoken": "mit",
+  "rootContext": "在 submit 里",
+  "rootIntro": "这一块有送出去的意思。再看从哪儿送、送到哪儿。",
+  "rootKind": "词根"
+}
