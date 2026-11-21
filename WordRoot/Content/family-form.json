@@ -3,7 +3,7 @@
   "root": "form",
   "meaning": "形状、形式",
   "explanation": "form 关联拉丁语 forma「形状、形式」。词族中的许多词说的是给事物某种形态、采用某种格式或改变原来的形态。",
-  "isFree": true,
+  "isFree": false,
   "words": [
     {
       "id": "form.form.0",

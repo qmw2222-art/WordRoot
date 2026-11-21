@@ -3,7 +3,7 @@
   "root": "pay",
   "meaning": "付钱",
   "explanation": "先记结账时的 pay。预先付和事后还，差别就在 pay 前面。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "pay.pay",

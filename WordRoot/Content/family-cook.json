@@ -3,7 +3,7 @@
   "root": "cook",
   "meaning": "做饭",
   "explanation": "在厨房里想三个画面：动手做菜、煮饭的锅、翻开的食谱。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "cook.cook",

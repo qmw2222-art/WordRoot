@@ -3,7 +3,7 @@
   "root": "help",
   "meaning": "帮忙",
   "explanation": "有人伸手帮忙是 help；结尾变一下，就能说谁帮了忙、东西有没有用。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "help.help",

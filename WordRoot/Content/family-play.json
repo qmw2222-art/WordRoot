@@ -3,7 +3,7 @@
   "root": "play",
   "meaning": "玩、比赛、播放",
   "explanation": "同一个 play，换到球场上是打球，换到屏幕上是播放。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "play.play",

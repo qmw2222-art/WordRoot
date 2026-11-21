@@ -12,7 +12,8 @@ final class FeedbackUpgradeTests: XCTestCase {
         app.launch()
     }
 
-    func testDay79KeepsRootOnNewAndPlaysInPlace() {
+    func testDay79KeepsRootOnNewAndPlaysInPlace() async throws {
+        try await usePurchasedCourse()
         tap("course.phase.other")
         tap("course.day.79")
         tap("course.branch.duc.introduce")

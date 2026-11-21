@@ -3,7 +3,7 @@
   "root": "eat",
   "meaning": "吃",
   "explanation": "从“吃”出发，先说谁在吃，再说去哪里吃。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "eat.eat",

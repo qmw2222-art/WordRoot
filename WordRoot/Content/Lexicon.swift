@@ -86,13 +86,8 @@ struct Lexicon {
               Set(basic.map { $0.word.lowercased() }).count == basic.count else {
             throw CocoaError(.fileReadCorruptFile)
         }
-        let introductoryRoots = ["port", "form", "act"]
-        let introduction = introductoryRoots.compactMap { root in
-            families.first { $0.root == root }
-        }
-        let remainder = families.filter { !introductoryRoots.contains($0.root) }
         return Self(
-            families: introduction + remainder, unavailableFamilyCount: unavailableFamilyCount,
+            families: families, unavailableFamilyCount: unavailableFamilyCount,
             basicWords: Dictionary(uniqueKeysWithValues: basic.map { ($0.id, $0) }),
             familiesByID: familiesByID, entriesByID: entriesByID
         )
@@ -109,7 +104,6 @@ struct WordFamily: Decodable, Identifiable {
     let rootKind: String
     let meaning: String
     let explanation: String
-    let isFree: Bool
     let words: [Word]
     let links: [WordLink]
 

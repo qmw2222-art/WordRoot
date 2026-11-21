@@ -3,7 +3,7 @@
   "root": "act",
   "meaning": "做、行动",
   "explanation": "act 关联拉丁语中「做、驱使」的词。由行动本身延伸到行动的人、活跃的状态、对事情的回应。",
-  "isFree": true,
+  "isFree": false,
   "words": [
     {
       "id": "act.act",

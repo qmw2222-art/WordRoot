@@ -49,8 +49,9 @@ struct DataSettingsView: View {
                 Button("删除本机学习记录", role: .destructive) { confirmingDelete = true }
                 if let message { Text(message).foregroundStyle(.secondary) }
             }
-            Section("订阅") {
-                NavigationLink("查看方案、管理订阅与恢复购买") { SubscriptionView() }
+            Section("课程与购买") {
+                NavigationLink("开通完整课程与恢复购买") { SubscriptionView() }
+                    .accessibilityIdentifier("settings.membership")
             }
         }
         .navigationTitle("设置")
@@ -85,7 +86,7 @@ struct DataSettingsView: View {
             Button("先导出备份") { export() }
             Button("取消", role: .cancel) {}
         } message: {
-            Text("将删除课程进度、作答和复习卡片。Apple 订阅仍然有效。")
+            Text("将删除课程进度、作答和复习卡片。已购买的课程权益由 Apple 账户保存。")
         }
     }
 

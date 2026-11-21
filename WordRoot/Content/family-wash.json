@@ -3,7 +3,7 @@
   "root": "wash",
   "meaning": "洗",
   "explanation": "先记手上“洗”的动作，再看看水里洗的是衣服还是盘子。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "wash.wash",

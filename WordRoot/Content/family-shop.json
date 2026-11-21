@@ -3,7 +3,7 @@
   "root": "shop",
   "meaning": "购物",
   "explanation": "想一想进店的人手里拿着什么。顾客、购物袋和购物这件事都有 shop。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "shop.shop",

@@ -58,7 +58,8 @@ final class WordMapTests: XCTestCase {
         assertWord("transportation")
     }
 
-    func testSearchAndAnotherFamilyUseTheSameDetails() {
+    func testSearchAndAnotherFamilyUseTheSameDetails() async throws {
+        try await usePurchasedCourse()
         selectFamily("form")
         tap("branch.form.transform")
         assertWord("transform")
@@ -89,7 +90,8 @@ final class WordMapTests: XCTestCase {
         assertWord("importer")
     }
 
-    func testFullCatalogIsBrowsableOnOwnerBuild() {
+    func testFullCatalogIsBrowsableWithFullAccess() async throws {
+        try await usePurchasedCourse()
         app.tabBars.buttons["地图"].tap()
         let search = app.textFields["map.search"]
         XCTAssertTrue(search.waitForExistence(timeout: 8))
@@ -225,7 +227,8 @@ final class WordMapTests: XCTestCase {
         XCTAssertEqual(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: ""), "已学 17 / 1335 个用法")
     }
 
-    func testCourseStagesAndLinkToWordMap() {
+    func testCourseStagesAndLinkToWordMap() async throws {
+        try await usePurchasedCourse()
         tap("course.phase.travel")
         tap("course.day.42")
         XCTAssertEqual(app.staticTexts["course.root"].label, "port")
@@ -243,7 +246,8 @@ final class WordMapTests: XCTestCase {
         XCTAssertEqual(app.staticTexts["course.root"].label, "act")
     }
 
-    func testLastDayReturnsToPlan() {
+    func testLastDayReturnsToPlan() async throws {
+        try await usePurchasedCourse()
         tap("course.phase.other")
         let lastDay = app.buttons["course.day.100"]
         for _ in 0..<16 where !lastDay.isHittable { app.swipeUp() }

@@ -89,7 +89,8 @@ final class MnemonicCourseTests: XCTestCase {
         XCTAssertEqual(app.staticTexts["course.word"].label, "I")
     }
 
-    func testEntireFourteenEntryFamilyCanBeLearnedInSequence() {
+    func testEntireFourteenEntryFamilyCanBeLearnedInSequence() async throws {
+        try await usePurchasedCourse()
         tap("course.phase.daily")
         tap("course.day.18")
         tap("course.family.all")

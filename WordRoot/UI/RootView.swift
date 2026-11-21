@@ -3,6 +3,7 @@ import SwiftUI
 
 struct RootView: View {
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(SubscriptionService.self) private var subscription
     @State private var speaker = SpeechPlayer()
     @State private var tab: Tab = .course
     @State private var requestedWord: String?
@@ -31,7 +32,7 @@ struct RootView: View {
                 }
                 .tabItem { Label("课程", systemImage: "book") }
                 .tag(Tab.course)
-                FamilyMapView(lexicon: lexicon, requestedWord: $requestedWord)
+                FamilyMapView(lexicon: lexicon, course: try? DailyCourse.bundled.get(), requestedWord: $requestedWord)
                     .tabItem { Label("地图", systemImage: "map") }
                     .tag(Tab.map)
                 HistoryView(lexicon: lexicon)
@@ -43,6 +44,7 @@ struct RootView: View {
             }
             .environment(speaker)
             .onChange(of: scenePhase) { _, phase in
+                if phase == .active { Task { await subscription.refresh() } }
                 if phase == .background, let id = speaker.activeID { speaker.stop(id: id) }
             }
             .tint(MapStyle.pine)

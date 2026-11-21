@@ -40,7 +40,9 @@ enum CoursePhase: String, CaseIterable, Identifiable {
 }
 
 struct DailyCourse {
+    static let freeDays = 1...10
     let days: [CourseDay]
+    let firstDayByFamily: [String: Int]
     let firstDayBySense: [String: Int]
 
     init(days: [CourseDay]) {
@@ -50,6 +52,15 @@ struct DailyCourse {
             for id in day.lessonIDs where firstDay[id] == nil { firstDay[id] = day.id }
         }
         firstDayBySense = firstDay
+        firstDayByFamily = Dictionary(days.map { ($0.familyID, $0.id) }, uniquingKeysWith: min)
+    }
+
+    func isFree(wordID: String) -> Bool {
+        firstDayBySense[wordID].map(Self.freeDays.contains) ?? false
+    }
+
+    func isFree(familyID: String) -> Bool {
+        firstDayByFamily[familyID].map(Self.freeDays.contains) ?? false
     }
 
     func loadDescription(for day: CourseDay) -> String {

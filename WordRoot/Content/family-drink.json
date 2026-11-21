@@ -3,7 +3,7 @@
   "root": "drink",
   "meaning": "喝",
   "explanation": "拿起杯子是 drink；换个结尾，可以说这个东西能不能喝。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "drink.drink",

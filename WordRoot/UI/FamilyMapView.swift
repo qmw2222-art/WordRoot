@@ -10,15 +10,22 @@ struct FamilyMapView: View {
     @State private var query = ""
     @State private var showingDirectory = false
     let lexicon: Lexicon
+    let course: DailyCourse?
     @Binding var requestedWord: String?
 
     private enum Route: Hashable {
         case word(String)
         case practice(String)
-        case subscription
+        case familyStudy(String)
     }
 
     private var family: WordFamily { lexicon.family(id: familyID) ?? lexicon.families[0] }
+    private var orderedFamilies: [WordFamily] {
+        lexicon.families.sorted {
+            (course?.firstDayByFamily[$0.id] ?? Int.max, $0.root) <
+            (course?.firstDayByFamily[$1.id] ?? Int.max, $1.root)
+        }
+    }
     private var searchTerm: String { query.trimmingCharacters(in: .whitespacesAndNewlines) }
 
     var body: some View {
@@ -49,45 +56,54 @@ struct FamilyMapView: View {
             .navigationDestination(for: Route.self) { route in
                 switch route {
                 case .word(let id):
-                    if let entry = lexicon.entry(id: id) {
-                        WordDetailView(
-                            word: entry.word,
-                            family: entry.family,
-                            openWord: { openWord($0, in: entry.family) },
-                            returnToFamily: { selectFamily(entry.family) },
-                            practice: { path.append(.practice(id)) }
-                        )
-                        .task {
-                            lastReadWord = id
-                            familyID = entry.family.id
+                    MembershipGate(free: course?.isFree(wordID: id) == true, context: "学习这个词和它的用法") {
+                        if let entry = lexicon.entry(id: id) {
+                            WordDetailView(
+                                word: entry.word,
+                                family: entry.family,
+                                openWord: { openWord($0) },
+                                returnToFamily: { selectFamily(entry.family) },
+                                practice: { path.append(.practice(id)) }
+                            )
+                            .task {
+                                lastReadWord = id
+                                familyID = entry.family.id
+                            }
+                        }
+                        else if let basic = lexicon.basicWords[id] {
+                            ScrollView {
+                                VStack(alignment: .leading, spacing: 14) {
+                                    StudyCard(word: basic, prefix: "word", soundID: "map.word." + id)
+                                    Button("用记忆卡练这个词") { path.append(.practice(id)) }
+                                        .buttonStyle(.bordered).accessibilityIdentifier("word.practice")
+                                }.frame(maxWidth: .infinity, alignment: .leading).padding(20)
+                            }.navigationTitle(basic.word).navigationBarTitleDisplayMode(.inline)
+                                .toolbar(.visible, for: .navigationBar).background(MapStyle.page.ignoresSafeArea())
                         }
                     }
-                    else if let basic = lexicon.basicWords[id] {
-                        ScrollView {
-                            VStack(alignment: .leading, spacing: 14) {
-                                StudyCard(word: basic, prefix: "word", soundID: "map.word." + id)
-                                Button("用记忆卡练这个词") { path.append(.practice(id)) }
-                                    .buttonStyle(.bordered).accessibilityIdentifier("word.practice")
-                            }.frame(maxWidth: .infinity, alignment: .leading).padding(20)
-                        }.navigationTitle(basic.word).navigationBarTitleDisplayMode(.inline)
-                            .toolbar(.visible, for: .navigationBar).background(MapStyle.page.ignoresSafeArea())
-                    }
                 case .practice(let id):
-                    if let word = lexicon.word(id: id) { MemoryCardsView(words: [word], lexicon: lexicon) }
-                case .subscription:
-                    SubscriptionView()
+                    MembershipGate(free: course?.isFree(wordID: id) == true, context: "练习这个词的听音卡") {
+                        if let word = lexicon.word(id: id) { MemoryCardsView(words: [word], lexicon: lexicon) }
+                    }
+                case .familyStudy(let familyID):
+                    if let selected = lexicon.family(id: familyID) {
+                        MembershipGate(free: course?.isFree(familyID: familyID) == true, context: "学习 \(selected.root) 词族") {
+                            FamilyStudyView(family: selected, lexicon: lexicon)
+                        }
+                    }
                 }
             }
         }
         .onChange(of: requestedWord, initial: true) { _, id in
-            guard let id, let entry = lexicon.entry(id: id) else { return }
+            guard let id, let word = lexicon.word(id: id) else { return }
             requestedWord = nil
-            selectFamily(entry.family)
-            openWord(entry.word, in: entry.family)
+            path.removeAll()
+            if let entry = lexicon.entry(id: id) { selectFamily(entry.family) }
+            openWord(word)
         }
         .sheet(isPresented: $showingDirectory) {
             NavigationStack {
-                FamilyDirectory(families: lexicon.families, isLocked: { !canOpen($0) }) { next in
+                FamilyDirectory(families: orderedFamilies, isLocked: { !canOpen($0) }) { next in
                     showingDirectory = false
                     selectFamily(next)
                 }
@@ -168,18 +184,19 @@ struct FamilyMapView: View {
             if canOpen(family) {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("\(family.root) · \(family.meaning)").font(.headline).foregroundStyle(MapStyle.pine)
-                    WordOverviewGrid(words: family.words, prefix: "catalog.") { openWord($0, in: family) }
+                    WordOverviewGrid(words: family.words, prefix: "catalog.") { openWord($0) }
                 }
-                NavigationLink { FamilyStudyView(family: family, lexicon: lexicon) } label: {
+                NavigationLink(value: Route.familyStudy(family.id)) {
                     Label("从头到尾学 \(family.words.count) 个用法", systemImage: "book").frame(minHeight: 44)
                 }.accessibilityIdentifier("map.family.all")
-                FamilyDiagram(family: family, openWord: { openWord($0, in: family) })
+                FamilyDiagram(family: family, openWord: { openWord($0) })
             } else {
                 MapPanel {
                     VStack(alignment: .leading, spacing: 12) {
                         Text(family.root).font(.system(.title, design: .serif, weight: .bold))
                         Text(family.meaning)
-                        Button("了解订阅", systemImage: "lock") { path.append(.subscription) }
+                        Button("开通后学习这个词族", systemImage: "lock") { path.append(.familyStudy(family.id)) }
+                            .accessibilityIdentifier("map.membership")
                             .buttonStyle(.borderedProminent)
                     }
                 }
@@ -196,7 +213,7 @@ struct FamilyMapView: View {
             }
             if let entry = lexicon.entry(id: lastReadWord), canOpen(entry.family) {
                 Button {
-                    openWord(entry.word, in: entry.family)
+                    openWord(entry.word)
                 } label: {
                     MapListRow(title: "继续学 \(entry.word.word)", subtitle: entry.family.root, symbol: "bookmark")
                 }
@@ -215,7 +232,7 @@ struct FamilyMapView: View {
     private var familyPicker: some View {
         ScrollView(.horizontal) {
             HStack(spacing: 8) {
-                ForEach(lexicon.families) { candidate in
+                ForEach(orderedFamilies) { candidate in
                     let isCurrent = candidate.id == family.id
                     Button {
                         selectFamily(candidate)
@@ -284,13 +301,13 @@ struct FamilyMapView: View {
             searchFocused = false
             path.append(.word(word.id))
         } label: {
-            MapListRow(title: word.word, subtitle: word.meaning, symbol: nil)
+            MapListRow(title: word.word, subtitle: word.meaning, symbol: subscription.hasAccess || course?.isFree(wordID: word.id) == true ? nil : "lock")
         }.buttonStyle(.plain).accessibilityIdentifier("search." + word.id)
     }
 
     private func wordRow(_ word: Word, in family: WordFamily, identifierPrefix: String) -> some View {
         Button {
-            openWord(word, in: family)
+            openWord(word)
         } label: {
             MapListRow(title: word.word, subtitle: word.formation,
                        symbol: canOpen(family) ? nil : "lock")
@@ -300,16 +317,12 @@ struct FamilyMapView: View {
     }
 
     private func canOpen(_ family: WordFamily) -> Bool {
-        #if DEBUG && WORDROOT_OWNER_PREVIEW
-        return true
-        #else
-        return family.isFree || subscription.hasAccess
-        #endif
+        subscription.hasAccess || course?.isFree(familyID: family.id) == true
     }
 
-    private func openWord(_ word: Word, in family: WordFamily) {
+    private func openWord(_ word: Word) {
         searchFocused = false
-        path.append(canOpen(family) ? .word(word.id) : .subscription)
+        path.append(.word(word.id))
     }
 
     private func selectFamily(_ family: WordFamily) {

@@ -1,7 +1,28 @@
 {
   "identifier": "a2a603c4-0f33-499b-8784-35d3af91a569",
   "nonRenewingSubscriptions": [],
-  "products": [],
+  "products": [
+    {
+      "displayPrice": "48",
+      "familyShareable": false,
+      "internalID": "87763d7a-7c2e-53cc-bb44-d12fc6a3b4ff",
+      "localizations": [
+        {
+          "locale": "en_US",
+          "displayName": "WordRoot Lifetime",
+          "description": "Unlock the full 100-day course and word families."
+        },
+        {
+          "locale": "zh_CN",
+          "displayName": "词根地图永久买断",
+          "description": "解锁全部 100 天课程、词根地图和练习。"
+        }
+      ],
+      "productID": "local.wordroot.ios.lifetime",
+      "referenceName": "WordRoot Lifetime",
+      "type": "NonConsumable"
+    }
+  ],
   "settings": {
     "_failTransactionsEnabled": false,
     "_locale": "zh_CN",
@@ -17,16 +38,21 @@
         {
           "adHocOffers": [],
           "codeOffers": [],
-          "displayPrice": "19.9",
+          "displayPrice": "6",
           "familyShareable": false,
           "groupNumber": 1,
           "internalID": "ace7d93d-7295-44f2-9bb2-e618351a0aa1",
           "introductoryOffer": null,
           "localizations": [
             {
-              "description": "Access the full WordRoot course and exercises",
+              "locale": "en_US",
               "displayName": "WordRoot Monthly",
-              "locale": "en_US"
+              "description": "Unlock the full 100-day course and word families."
+            },
+            {
+              "locale": "zh_CN",
+              "displayName": "词根地图月订阅",
+              "description": "解锁全部 100 天课程、词根地图和练习。"
             }
           ],
           "productID": "local.wordroot.ios.monthly",
@@ -34,9 +60,38 @@
           "referenceName": "WordRoot Monthly",
           "subscriptionGroupID": "bcbd6331-8227-4b4c-bac1-2dbd8c65fc08",
           "type": "RecurringSubscription"
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "26",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "24c059d0-3268-5033-85e6-8307a5d69e20",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "locale": "en_US",
+              "displayName": "WordRoot Yearly",
+              "description": "Unlock the full 100-day course and word families."
+            },
+            {
+              "locale": "zh_CN",
+              "displayName": "词根地图年订阅",
+              "description": "解锁全部 100 天课程、词根地图和练习。"
+            }
+          ],
+          "productID": "local.wordroot.ios.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "WordRoot Yearly",
+          "subscriptionGroupID": "bcbd6331-8227-4b4c-bac1-2dbd8c65fc08",
+          "type": "RecurringSubscription"
         }
       ]
     }
   ],
-  "version": { "major": 3, "minor": 0 }
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
 }

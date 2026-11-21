@@ -4,6 +4,7 @@ import SwiftUI
 struct CourseView: View {
     @Query(filter: #Predicate<CourseDayRecord> { $0.day > 1000 && $0.day <= 1100 },
            sort: \CourseDayRecord.updatedAt, order: .reverse) private var records: [CourseDayRecord]
+    @Environment(SubscriptionService.self) private var subscription
     @State private var path: [Route] = []
     @State private var review: ReviewRound?
     @AppStorage("wordroot.course.autoGuide") private var autoGuide = true
@@ -59,25 +60,27 @@ struct CourseView: View {
                     phaseDays(phase)
                 case let .day(number, fromBeginning):
                     if let day = course[number], let family = lexicon.family(id: day.familyID) {
-                        CourseLessonView(
-                            day: day, fromBeginning: fromBeginning,
-                            nextFamily: course[number + 1].flatMap { lexicon.family(id: $0.familyID) },
-                            family: family, lexicon: lexicon,
-                            openWord: openWord, returnToCourse: { path.removeAll() },
-                            nextDay: {
-                                guard path.last == route else { return }
-                                if course[number + 1] != nil {
-                                    path.removeLast()
-                                    if case .phase(let phase) = path.last, !phase.days.contains(number + 1) {
+                        MembershipGate(free: DailyCourse.freeDays.contains(number), context: "接着学第 \(number) 天 · \(family.root)") {
+                            CourseLessonView(
+                                day: day, fromBeginning: fromBeginning,
+                                nextFamily: course[number + 1].flatMap { lexicon.family(id: $0.familyID) },
+                                family: family, lexicon: lexicon,
+                                openWord: openWord, returnToCourse: { path.removeAll() },
+                                nextDay: {
+                                    guard path.last == route else { return }
+                                    if course[number + 1] != nil {
                                         path.removeLast()
+                                        if case .phase(let phase) = path.last, !phase.days.contains(number + 1) {
+                                            path.removeLast()
+                                        }
+                                        path.append(.day(number + 1))
+                                    } else {
+                                        path.removeAll()
                                     }
-                                    path.append(.day(number + 1))
-                                } else {
-                                    path.removeAll()
                                 }
-                            }
-                        )
-                        .id(day.id)
+                            )
+                            .id(day.id)
+                        }
                     }
                 }
             }
@@ -174,6 +177,7 @@ struct CourseView: View {
     }
 
     private func startTitle(day: CourseDay, words: [Word], step: Int) -> String {
+        if !DailyCourse.freeDays.contains(day.id) && !subscription.hasAccess { return "开通后学第 \(day.id) 天" }
         if step == 0 { return day.id == 1 ? "跟我学第一课" : "跟我学第 \(day.id) 天" }
         if step <= words.count { return "继续学 \(words[step - 1].word)" }
         return "继续第 \(day.id) 天的小结"
@@ -213,7 +217,7 @@ struct CourseView: View {
                         VStack(alignment: .leading, spacing: 5) {
                             Label(
                                 "第 \(day.id) 天 · \(day.title)",
-                                systemImage: completedDays.contains(day.id) ? "checkmark.circle.fill" : "circle"
+                                systemImage: !DailyCourse.freeDays.contains(day.id) && !subscription.hasAccess ? "lock" : completedDays.contains(day.id) ? "checkmark.circle.fill" : "circle"
                             )
                             .font(.headline)
                             .foregroundStyle(MapStyle.pine)
@@ -223,7 +227,7 @@ struct CourseView: View {
                         .padding(.vertical, 7)
                     }
                     .listRowBackground(MapStyle.surface)
-                    .accessibilityValue(completedDays.contains(day.id) ? "已完成" : "")
+                    .accessibilityValue(!DailyCourse.freeDays.contains(day.id) && !subscription.hasAccess ? "开通后学习" : completedDays.contains(day.id) ? "已完成" : "")
                     .accessibilityIdentifier("course.day.\(day.id)")
                 }
             } header: {

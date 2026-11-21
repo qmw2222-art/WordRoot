@@ -40,7 +40,8 @@ final class WordFlowTests: XCTestCase {
         XCTAssertFalse(app.staticTexts.containing(NSPredicate(format: "label CONTAINS %@", "词骨")).firstMatch.exists)
     }
 
-    func testTransportPronunciationFollowsTheMeaningOnDay42() {
+    func testTransportPronunciationFollowsTheMeaningOnDay42() async throws {
+        try await usePurchasedCourse()
         launch()
         tap("course.phase.travel")
         tap("course.day.42")
@@ -56,7 +57,8 @@ final class WordFlowTests: XCTestCase {
         XCTAssertFalse(app.alerts.firstMatch.exists)
     }
 
-    func testIntroductionDistinguishesTheWholeWordFromItsStemOnDay79() {
+    func testIntroductionDistinguishesTheWholeWordFromItsStemOnDay79() async throws {
+        try await usePurchasedCourse()
         launch()
         tap("course.phase.other")
         tap("course.day.79")

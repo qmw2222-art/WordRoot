@@ -225,7 +225,8 @@ final class ListeningCourseTests: XCTestCase {
         snapshot("entire-port-map")
     }
 
-    func testLargestLessonShowsAll28UsesWithoutScrolling() {
+    func testLargestLessonShowsAll28UsesWithoutScrolling() async throws {
+        try await usePurchasedCourse()
         tap("course.phase.daily")
         let lesson = app.buttons["course.day.29"]
         for _ in 0..<12 where !lesson.isHittable { app.swipeUp() }

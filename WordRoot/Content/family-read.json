@@ -3,7 +3,7 @@
   "root": "read",
   "meaning": "读",
   "explanation": "把书翻开是 read；读书的人和读第二遍都用得到它。",
-  "isFree": false,
+  "isFree": true,
   "words": [
     {
       "id": "read.read",
