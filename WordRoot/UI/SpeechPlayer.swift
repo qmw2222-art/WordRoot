@@ -11,6 +11,8 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
     @ObservationIgnored private var usesPlaybackSession = false
     private(set) var activeID: String?
     private(set) var speakingID: String?
+    private(set) var highlightedPart: Int?
+    @ObservationIgnored private var partTiming: Task<Void, Never>?
     private(set) var segmentIndex: Int?
     private(set) var lastCompletedID: String?
     @ObservationIgnored private var recordedIndex = 0
@@ -41,6 +43,31 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
     }
 
     @discardableResult
+    func togglePart(id: String, wordID: String, index: Int) -> Bool {
+        if activeID == id { stop(id: id); return true }
+        guard let clip = recordings.wordPart(wordID: wordID, index: index),
+              startRecordings(id: id, data: [clip.whole, clip.excerpt], pauses: [0, 0.14])
+        else { return false }
+        partTiming?.cancel()
+        partTiming = Task { [weak self] in
+            while !Task.isCancelled {
+                guard let self, self.activeID == id, self.segmentIndex == 0, let player = self.player else { return }
+                let ms = Int((player.currentTime * 1000).rounded())
+                let inside = (clip.startMS..<clip.endMS).contains(ms)
+                if inside, self.highlightedPart != index {
+                    self.highlightedPart = index
+                    LessonPlaybackTrace.note("context-window \(id) \(wordID) \(index) \(clip.startMS) \(clip.endMS) \(ms)")
+                } else if !inside, self.highlightedPart != nil {
+                    self.highlightedPart = nil
+                }
+                if ms >= clip.endMS { return }
+                try? await Task.sleep(for: .milliseconds(16))
+            }
+        }
+        return true
+    }
+
+    @discardableResult
     func toggle(id: String, dialogue: [String]) -> Bool {
         toggleGuide(id: id, lines: dialogue.enumerated().map { index, text in
             .english(text, pauseBefore: index == 0 ? 0 : 0.25)
@@ -56,6 +83,8 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
             let clip: Data?
             switch line {
             case .mandarin(let text): clip = recordings.mandarin(text)
+            case let .wordPart(wordID, position):
+                clip = recordings.wordPart(wordID: wordID, index: position)?.excerpt
             case let .english(text, ipa, _):
                 let english = recordings.recording(text, pronunciation: ipa)
                 clip = english?.bytes
@@ -79,7 +108,7 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
     private func startRecordings(id: String, data: [Data], pauses: [TimeInterval] = []) -> Bool {
         if let activeID { stop(id: activeID) }
         do {
-            let players = try data.map { try AVAudioPlayer(data: $0, fileTypeHint: AVFileType.mp3.rawValue) }
+            let players = try data.map { try AVAudioPlayer(data: $0) }
             let session = AVAudioSession.sharedInstance()
             try session.setCategory(.playback, mode: .spokenAudio, options: [.mixWithOthers])
             try session.setActive(true)
@@ -165,6 +194,9 @@ final class SpeechPlayer: NSObject, AVAudioPlayerDelegate {
     }
 
     private func clearPlayback() {
+        partTiming?.cancel()
+        partTiming = nil
+        highlightedPart = nil
         activeID = nil
         speakingID = nil
         segmentIndex = nil

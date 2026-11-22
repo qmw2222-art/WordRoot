@@ -62,13 +62,13 @@
       "acceptedAnswers": [
         "语音的"
       ],
-      "formation": "phon-（声音） + -ic（与……有关的） → 语音的",
+      "formation": "phonet-（声音） + -ic（与……有关的） → 语音的",
       "pronunciation": "fəˈnɛtɪk",
       "memoryCue": "phon 是声音。描述一个词怎么发音，用 phonetic。",
       "plainCue": "描述语音本身或用符号记录发音的方式。",
       "parts": [
         {
-          "text": "phon-",
+          "text": "phonet-",
           "ipa": "fəˈnɛt",
           "meaning": "声音"
         },
@@ -337,12 +337,12 @@
       "parts": [
         {
           "text": "phono-",
-          "ipa": "ˈfoʊnoʊ",
+          "ipa": "ˈfoʊnə",
           "meaning": "声音"
         },
         {
           "text": "-graph",
-          "ipa": "ɡræf",
+          "ipa": "ˌɡræf",
           "meaning": "记录",
           "notes": [
             "留声机"

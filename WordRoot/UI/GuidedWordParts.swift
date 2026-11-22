@@ -24,6 +24,7 @@ struct RootPronunciationRow: View {
 
 struct WordPartsView: View {
     @Environment(SpeechPlayer.self) private var speaker
+    let word: Word
     let parts: [WordPart]
     let combined: String
     let formation: String
@@ -31,7 +32,9 @@ struct WordPartsView: View {
     let prefix: String
 
     private func isCurrent(_ index: Int) -> Bool {
-        if speaker.activeID == soundID + ".part.\(index)" { return true }
+        if speaker.activeID == soundID + ".part.\(index)" {
+            return speaker.segmentIndex == 1 || speaker.highlightedPart == index
+        }
         guard speaker.activeID == soundID, let line = speaker.segmentIndex, line >= 2 else { return false }
         let partStart = 2 + index * 2
         return line == partStart || line == partStart + 1
@@ -41,6 +44,8 @@ struct WordPartsView: View {
         VStack(alignment: .leading, spacing: 4) {
             Text(parts.map(\.text).joined(separator: "  +  ")).font(.system(.title3, design: .serif, weight: .semibold))
                 .foregroundStyle(MapStyle.pine).accessibilityLabel(formation).accessibilityIdentifier(prefix + ".formation")
+            Text("点喇叭，先听整词，再听亮起的部分。")
+                .font(.caption).foregroundStyle(MapStyle.secondary)
             ForEach(parts.indices, id: \.self) { index in
                 let part = parts[index]
                 HStack(spacing: 6) {
@@ -51,8 +56,8 @@ struct WordPartsView: View {
                     Spacer(minLength: 4)
                     Text(verbatim: "/\(part.ipa)/").font(.system(.body, design: .serif))
                         .accessibilityIdentifier(prefix + ".partIPA.\(index)")
-                    SpeechButton(id: soundID + ".part.\(index)", text: part.text, pronunciation: part.ipa,
-                                 label: "听 \(part.text) 在这个词里的读音", identifier: prefix + ".partAudio.\(index)")
+                    SpeechButton(id: soundID + ".part.\(index)", wordPart: (word.id, index),
+                                 label: "听 \(part.text) 在 \(word.word) 里的读音", identifier: prefix + ".partAudio.\(index)")
                         .labelStyle(.iconOnly)
                 }
                 .padding(.horizontal, 8)
@@ -76,6 +81,8 @@ struct SentenceInStudy: View {
     let current: String?
     let soundID: String
     let open: (String) -> Void
+    var pieces: [LessonPhrase.Piece] = []
+    @State private var showingPieces = false
 
     var body: some View {
         MapPanel {
@@ -88,6 +95,22 @@ struct SentenceInStudy: View {
                         .labelStyle(.iconOnly)
                 }
                 Text(translation).font(.subheadline).foregroundStyle(MapStyle.secondary)
+                if !pieces.isEmpty {
+                    Button { showingPieces.toggle() } label: {
+                        Label("逐段看意思", systemImage: showingPieces ? "chevron.up" : "chevron.down")
+                            .font(.subheadline).frame(minHeight: 44)
+                    }
+                    .buttonStyle(.plain).foregroundStyle(MapStyle.pine)
+                    .accessibilityIdentifier("course.context.pieces")
+                    .accessibilityValue(showingPieces ? "已展开" : "已收起")
+                    if showingPieces {
+                        ForEach(pieces.indices, id: \.self) { index in
+                            let piece = pieces[index]
+                            Text(piece.text.trimmingCharacters(in: CharacterSet(charactersIn: ".,?!")) + " · " + piece.meaning)
+                                .font(.subheadline).accessibilityIdentifier("course.context.piece.\(index)")
+                        }
+                    }
+                }
                 let others = neighbors.filter { $0.id != current }
                 if !others.isEmpty {
                     ViewThatFits(in: .horizontal) {
@@ -99,11 +122,17 @@ struct SentenceInStudy: View {
         }
     }
 
+    private func formInSentence(_ word: Word) -> String {
+        guard let form = word.exampleForm else { return word.word }
+        let tokens = text.lowercased().split { !$0.isLetter }
+        return tokens.contains(Substring(form.lowercased())) ? form : word.word
+    }
+
     @ViewBuilder private func wordLinks(_ words: [Word]) -> some View {
         ForEach(words) { word in
             Button { open(word.id) } label: {
                 HStack(spacing: 4) {
-                    Text("\(word.exampleForm ?? word.word)（\(word.primaryMeaning)）").font(.system(.body, design: .serif, weight: .semibold))
+                    Text("\(formInSentence(word))（\(word.primaryMeaning)）").font(.system(.body, design: .serif, weight: .semibold))
                     Image(systemName: "arrow.up.right").font(.caption2)
                 }.fixedSize(horizontal: false, vertical: true).padding(.horizontal, 7).frame(minHeight: 44)
             }.buttonStyle(.plain).foregroundStyle(MapStyle.pine)

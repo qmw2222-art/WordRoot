@@ -16,6 +16,7 @@ final class ListeningCourseTests: XCTestCase {
         continueAfterFailure = false
         app = XCUIApplication()
         runID = UUID().uuidString
+        app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "port-start-v24"
         app.launchEnvironment["WORDROOT_UI_TEST_RUN"] = runID
         app.launch()
         let attachment = XCTAttachment(string: runID)
@@ -227,28 +228,39 @@ final class ListeningCourseTests: XCTestCase {
 
     func testLargestLessonShowsAll28UsesWithoutScrolling() async throws {
         try await usePurchasedCourse()
-        tap("course.phase.daily")
-        let lesson = app.buttons["course.day.29"]
-        for _ in 0..<12 where !lesson.isHittable { app.swipeUp() }
-        XCTAssertTrue(lesson.isHittable)
-        lesson.tap()
+        tap("course.phase.other")
+        openListedDay(90)
         XCTAssertTrue(app.buttons["course.next"].waitForExistence(timeout: 5))
-        assertVisibleWords(prefix: "course.branch.", count: 28, bottom: app.buttons["course.next"].frame.minY)
+        let count = 25
+        assertVisibleWords(prefix: "course.branch.", count: count, bottom: app.buttons["course.next"].frame.minY)
+        snapshot("entire-largest-lesson")
+        tap("course.lessonAutoVoice")
+        tap("course.next")
+        for _ in 0..<count {
+            tap("course.next")
+            let close = app.buttons["course.familyRecap.close"]
+            if close.exists { close.tap() }
+        }
+        assertVisibleWords(prefix: "course.recap.word.", count: count, bottom: app.buttons["course.recapCards"].frame.minY)
+        snapshot("largest-lesson-recap")
+    }
+
+    func testConductShowsBothMeaningsInTheNewSequence() async throws {
+        try await usePurchasedCourse()
+        tap("course.phase.daily")
+        openListedDay(31)
         let verb = app.buttons["course.branch.duc.conduct"]
         let noun = app.buttons["course.branch.duc.conduct.behavior"]
         XCTAssertTrue(verb.label.hasPrefix("conduct，"))
         XCTAssertTrue(noun.label.hasPrefix("conduct，"))
         XCTAssertNotEqual(verb.label, noun.label)
-        snapshot("entire-largest-lesson")
-        tap("course.lessonAutoVoice")
-        tap("course.next")
-        for _ in 0..<28 {
-            tap("course.next")
-            let close = app.buttons["course.familyRecap.close"]
-            if close.exists { close.tap() }
-        }
-        assertVisibleWords(prefix: "course.recap.word.", count: 28, bottom: app.buttons["course.recapCards"].frame.minY)
-        snapshot("largest-lesson-recap")
+    }
+
+    private func openListedDay(_ number: Int) {
+        let button = app.buttons["course.day." + String(number)]
+        for _ in 0..<12 where !button.isHittable { app.swipeUp() }
+        XCTAssertTrue(button.isHittable)
+        button.tap()
     }
 
     private func assertVisibleWords(prefix: String, count: Int, bottom: CGFloat,

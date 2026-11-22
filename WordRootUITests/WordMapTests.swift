@@ -8,6 +8,7 @@ final class WordMapTests: XCTestCase {
         try await super.setUp()
         continueAfterFailure = false
         app = XCUIApplication()
+        app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "port-start-v24"
         app.launchEnvironment["WORDROOT_UI_TEST_RUN"] = UUID().uuidString
         app.launch()
     }
@@ -144,7 +145,7 @@ final class WordMapTests: XCTestCase {
         tap("course.next")
         app.terminate()
         app.launch()
-        XCTAssertEqual(start.label, "继续学 export")
+        XCTAssertEqual(start.label, "继续学 export（出口）")
         tap("course.start")
         XCTAssertEqual(app.staticTexts["course.word"].label, "export")
         XCTAssertEqual(app.buttons["course.demo"].value as? String, "可播放")
@@ -156,7 +157,7 @@ final class WordMapTests: XCTestCase {
         tap("course.next")
         app.terminate()
         app.launch()
-        XCTAssertEqual(app.buttons["course.start"].label, "继续学 exporter")
+        XCTAssertEqual(app.buttons["course.start"].label, "继续学 exporter（出口商）")
         tap("course.restart")
         XCTAssertEqual(app.staticTexts["course.root"].label, "port")
         tap("course.next")
@@ -170,7 +171,7 @@ final class WordMapTests: XCTestCase {
         app.launch()
         XCTAssertEqual(app.staticTexts["course.suggestedDay"].label, "第 2 天")
         tap("course.start")
-        XCTAssertEqual(app.staticTexts["course.root"].label, "cook")
+        XCTAssertEqual(app.staticTexts["course.root"].label, "help")
         XCTAssertEqual(app.buttons["course.demo"].value as? String, "带读中")
     }
 
@@ -215,11 +216,11 @@ final class WordMapTests: XCTestCase {
         navigateBack()
         finishCurrentDay()
         XCTAssertEqual(app.staticTexts["course.done"].label, "第 1 天学完了")
-        XCTAssertTrue(app.staticTexts["course.tomorrow"].label.contains("cook"))
+        XCTAssertTrue(app.staticTexts["course.tomorrow"].label.contains("help"))
         XCTAssertTrue(app.buttons["course.rest"].exists)
         tap("course.followingDay")
         XCTAssertTrue(app.navigationBars["第 2 天"].waitForExistence(timeout: 4))
-        XCTAssertEqual(app.staticTexts["course.root"].label, "cook")
+        XCTAssertEqual(app.staticTexts["course.root"].label, "help")
         app.terminate()
         app.launch()
         XCTAssertEqual(app.staticTexts["course.completedCount"].label, "已完成 1 / 100 天")

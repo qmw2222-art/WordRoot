@@ -17,6 +17,7 @@ final class MembershipTests: XCTestCase {
         store.locale = Locale(identifier: "zh_CN")
         store.timeRate = .realTime
         store.clearTransactions()
+        app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "port-start-v24"
         app.launchEnvironment["WORDROOT_UI_TEST_RUN"] = UUID().uuidString
         app.launchArguments = ["-wordroot.course.autoGuide", "NO"]
     }
@@ -29,7 +30,7 @@ final class MembershipTests: XCTestCase {
     func testFreeDayTenThenNextDayAndMapBoundaries() {
         app.launch()
         openDay(10)
-        XCTAssertEqual(app.staticTexts["course.root"].label, "pay")
+        XCTAssertEqual(app.staticTexts["course.root"].label, "play")
         for _ in 0..<45 {
             if app.buttons["course.familyRecap.close"].exists { tap("course.familyRecap.close") }
             if app.buttons["course.followingDay"].exists { break }

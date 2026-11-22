@@ -2,8 +2,9 @@ import SwiftData
 import SwiftUI
 
 struct CourseView: View {
-    @Query(filter: #Predicate<CourseDayRecord> { $0.day > 1000 && $0.day <= 1100 },
-           sort: \CourseDayRecord.updatedAt, order: .reverse) private var records: [CourseDayRecord]
+    @Query(sort: \CourseDayRecord.updatedAt, order: .reverse) private var storedLessons: [CourseDayRecord]
+    private var records: [CourseDayRecord] { storedLessons.filter { course.day(forRecord: $0.day) != nil } }
+    @Query(sort: \FamilyPracticeRecord.key) private var familyPractice: [FamilyPracticeRecord]
     @Environment(SubscriptionService.self) private var subscription
     @State private var path: [Route] = []
     @State private var review: ReviewRound?
@@ -20,13 +21,13 @@ struct CourseView: View {
 
     private var completedDays: Set<Int> {
         Set(records.compactMap { row in
-            guard let day = course[row.day - CourseDay.recordOffset], row.isFinished(in: day) else { return nil }
+            guard let day = course.day(forRecord: row.day), row.isFinished(in: day) else { return nil }
             return day.id
         })
     }
 
     private var suggestedDay: CourseDay? {
-        if let lastOpened = records.first, let day = course[lastOpened.day - CourseDay.recordOffset],
+        if let lastOpened = records.first, let day = course.day(forRecord: lastOpened.day),
            !lastOpened.isFinished(in: day) { return day }
         return course.days.first { !completedDays.contains($0.id) }
     }
@@ -85,7 +86,7 @@ struct CourseView: View {
                 }
             }
         }
-        .sheet(item: $review) { MemoryCardsSheet(words: $0.words, lexicon: lexicon) }
+        .sheet(item: $review) { MemoryCardsSheet(words: $0.words, lexicon: lexicon, family: $0.family) }
     }
 
     private var header: some View {
@@ -95,7 +96,7 @@ struct CourseView: View {
                 .foregroundStyle(MapStyle.pine)
                 .accessibilityAddTraits(.isHeader)
                 .accessibilityIdentifier("course.title")
-            Text("每天从一个词根或熟词出发，听读音，拆开记，再把词用进一句话。")
+            Text("先听一个完整的词，再看怎么记。学完整个词族，再听单词选中文意思。")
                 .font(.subheadline)
                 .foregroundStyle(MapStyle.secondary)
         }
@@ -103,6 +104,30 @@ struct CourseView: View {
 
     private var today: some View {
         VStack(alignment: .leading, spacing: 12) {
+            ForEach(familyPractice, id: \.key) { saved in
+                if let progress = try? saved.progress(in: lexicon),
+                   let first = progress.targetIDs.first, let family = lexicon.entry(id: first)?.family {
+                    Button {
+                        review = ReviewRound(words: progress.targetIDs.compactMap { lexicon.word(id: $0) },
+                                             family: family)
+                    } label: {
+                        VStack(alignment: .leading, spacing: 3) {
+                            Label("继续 \(family.root) 听音卡 · 第 \(progress.nextIndex + 1) 张",
+                                  systemImage: "speaker.wave.2")
+                                .font(.headline)
+                            if progress.targetIDs.count < family.words.count, let word = lexicon.word(id: first) {
+                                Text("\(word.studyLabel) 等 \(progress.targetIDs.count) 个词").font(.footnote)
+                            }
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.horizontal, 15).frame(minHeight: 48)
+                        .foregroundStyle(MapStyle.pine)
+                        .background(MapStyle.surface, in: RoundedRectangle(cornerRadius: 13))
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("home.resumeCards." + saved.key)
+                }
+            }
             if let day = suggestedDay, let family = lexicon.family(id: day.familyID) {
                 let words = day.words(in: lexicon)
                 let step = records.first { $0.day == day.recordID }?.position(in: day) ?? 0
@@ -113,8 +138,14 @@ struct CourseView: View {
                     .font(.system(.title, design: .serif, weight: .bold))
                     .accessibilityAddTraits(.isHeader)
                 Text(day.title).font(.headline)
-                if day.id == 1 {
-                    Text("先记住 port 是「带、运」。在前面加一小段，就能看懂进口和出口。").font(.subheadline)
+                if let group = day.studyGroup(at: max(1, step)) {
+                    let covered = records.first { $0.day == day.recordID }?.credited(in: day) ?? []
+                    let labels = group.filter { $0 >= step && ($0 == step || !covered.contains(words[$0 - 1].id)) }
+                        .map { words[$0 - 1].studyLabel }
+                    if !labels.isEmpty {
+                        Text((step == 0 ? "先学 " : "这组接着学 ") + labels.joined(separator: "、") + "。")
+                            .font(.subheadline).accessibilityIdentifier("course.focus")
+                    }
                 } else {
                     Text(course.loadDescription(for: day)).font(.subheadline)
                 }
@@ -153,22 +184,11 @@ struct CourseView: View {
                     .font(.title2.weight(.bold))
                 Text("回到下面的课程路线，就能重温任何一组词。")
             }
-            HomeDuePractice(lexicon: lexicon, course: course, lessons: records, studyDefaults: studyDefaults) { words in
+            HomeLearningProgress(lexicon: lexicon, course: course, lessons: records,
+                                 studyDefaults: studyDefaults, completedDayCount: completedDays.count) { words in
                 review = ReviewRound(words: words)
             }
-            Divider().overlay(MapStyle.onAccent.opacity(0.24))
-            Text("已完成 \(completedDays.count) / \(course.days.count) 天")
-                .font(.footnote)
-                .accessibilityIdentifier("course.completedCount")
-            let studied = records.reduce(into: Set<String>()) { result, row in
-                if let day = course[row.day - CourseDay.recordOffset] { result.formUnion(row.credited(in: day)) }
-            }
-            let total = lexicon.familySenseIDs.union(lexicon.basicWords.keys).count
-            Text("已学 \(studied.count) / \(total) 个用法")
-                .font(.footnote).accessibilityIdentifier("course.learnedSenses")
-            ProgressView(value: Double(completedDays.count), total: Double(course.days.count))
-                .tint(MapStyle.onAccent)
-                .accessibilityHidden(true)
+
         }
         .foregroundStyle(MapStyle.onAccent)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -179,7 +199,7 @@ struct CourseView: View {
     private func startTitle(day: CourseDay, words: [Word], step: Int) -> String {
         if !DailyCourse.freeDays.contains(day.id) && !subscription.hasAccess { return "开通后学第 \(day.id) 天" }
         if step == 0 { return day.id == 1 ? "跟我学第一课" : "跟我学第 \(day.id) 天" }
-        if step <= words.count { return "继续学 \(words[step - 1].word)" }
+        if step <= words.count { return "继续学 \(words[step - 1].studyLabel)" }
         return "继续第 \(day.id) 天的小结"
     }
 
@@ -221,7 +241,7 @@ struct CourseView: View {
                             )
                             .font(.headline)
                             .foregroundStyle(MapStyle.pine)
-                            Text(day.wordIDs.compactMap { lexicon.word(id: $0)?.word }.joined(separator: " · "))
+                            Text(day.taughtFamilyIDs.prefix(day.wordIDs.count).compactMap { lexicon.word(id: $0)?.word }.joined(separator: " · "))
                                 .font(.subheadline).foregroundStyle(MapStyle.secondary)
                         }
                         .padding(.vertical, 7)

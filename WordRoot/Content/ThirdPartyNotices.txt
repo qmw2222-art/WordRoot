@@ -17,7 +17,7 @@ SwiftFSRS 6.0.0，Copyright (c) 2023 Ben Smiley，以 MIT 许可提供。随附�
 https://github.com/open-spaced-repetition/swift-fsrs/tree/74cb02977ba94dd505aa2a13149238b5f5d48a1b
 
 离线课程朗读
-录音由课程文本合成。英文使用 Kokoro v1.0 的 af_heart，中文讲解使用 zf_xiaoxiao。仓库中的 LessonAudio.sqlite 存放合成的 MP3。模型与声线的上游发布使用 Apache-2.0，权重由开发者自行获取。这里仅对项目享有的录音与脚本权利授予项目许可。上游模型卡列有 Koniwa、SIWIS 等训练素材署名与许可。
+录音由课程文本合成。英文使用 Kokoro v1.0 的 af_heart，中文讲解使用 zf_xiaoxiao。课程音库 LessonAudio.sqlite 存放合成的 MP3，以及保留原声的 WAV 短词和构词片段。模型与声线的上游发布使用 Apache-2.0，权重由开发者自行获取。这里仅对项目享有的录音与脚本权利授予项目许可。上游模型卡列有 Koniwa、SIWIS 等训练素材署名与许可。
 https://huggingface.co/hexgrad/Kokoro-82M
 https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
 https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0

@@ -110,10 +110,10 @@
       "parts": [
         {
           "text": "trans-",
-          "ipa": "træns",
+          "ipa": "træn",
           "meaning": "转写、跨越",
           "notes": [
-            "在 s 前实际读 /træns/"
+            "两段交界的 s 连读一次。"
           ]
         },
         {
@@ -186,7 +186,7 @@
       "parts": [
         {
           "text": "pre-",
-          "ipa": "prɪ",
+          "ipa": "prə",
           "meaning": "预先、事先"
         },
         {
@@ -299,8 +299,11 @@
       "parts": [
         {
           "text": "trans-",
-          "ipa": "ˈtræns",
-          "meaning": "转写、跨越"
+          "ipa": "ˈtræn",
+          "meaning": "转写、跨越",
+          "notes": [
+            "两段交界的 s 连读一次。"
+          ]
         },
         {
           "text": "script",

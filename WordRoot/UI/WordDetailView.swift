@@ -90,7 +90,7 @@ struct WordDetailView: View {
             VStack(alignment: .leading, spacing: 9) {
                 MapSectionTitle(title: "怎么理解", symbol: "text.book.closed")
                 if let parts = word.parts, let combined = word.combined {
-                    WordPartsView(parts: parts, combined: combined, formation: word.formation,
+                    WordPartsView(word: word, parts: parts, combined: combined, formation: word.formation,
                                   soundID: word.id + ".detail", prefix: "detail.parts")
                 } else {
                     Text(word.plainCue ?? word.memoryCue)
@@ -205,6 +205,7 @@ struct SpeechButton: View {
     let id: String
     var text = ""
     var dialogue: [String]? = nil
+    var wordPart: (wordID: String, index: Int)? = nil
     var pronunciation: String? = nil
     let label: String
     let identifier: String
@@ -214,7 +215,9 @@ struct SpeechButton: View {
 
     var body: some View {
         Button {
-            if let dialogue {
+            if let wordPart {
+                unavailable = !speaker.togglePart(id: id, wordID: wordPart.wordID, index: wordPart.index)
+            } else if let dialogue {
                 unavailable = !speaker.toggle(id: id, dialogue: dialogue)
             } else {
                 unavailable = !speaker.toggle(id: id, text: text, pronunciation: pronunciation)

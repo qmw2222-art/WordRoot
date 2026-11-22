@@ -3,7 +3,7 @@
     "id": 1,
     "familyID": "family.port",
     "title": "把东西带进来，带出去",
-    "guide": "port 是「带、运」。这一组都留着 port，看开头就知道往哪儿运。",
+    "guide": "port 是带、运。前面加 ex-，向外运，export 就是出口。后面加 -able，能带着走，portable 就是便携的。",
     "wordIDs": [
       "sense.import.goods",
       "sense.export.goods",
@@ -60,6 +60,23 @@
       "basicID": "basic.small",
       "text": "It's small and portable.",
       "translation": "它小巧，带着走也方便。"
+    },
+    "beginnerMission": {
+      "goal": "拿一个袋子，说清要几个。",
+      "turns": [
+        {
+          "partner": "Would you like a bag?",
+          "partnerZH": "你要袋子吗？",
+          "reply": "Yes, please.",
+          "replyZH": "要的，谢谢。"
+        },
+        {
+          "partner": "One bag or two?",
+          "partnerZH": "一个袋子还是两个？",
+          "reply": "Just one, please.",
+          "replyZH": "一个就好，谢谢。"
+        }
+      ]
     }
   },
   {
@@ -126,6 +143,23 @@
       "basicID": "basic.egg",
       "text": "I can cook an egg.",
       "translation": "我会煮鸡蛋。"
+    },
+    "beginnerMission": {
+      "goal": "在厨房问要做什么，找出需要的食材。",
+      "turns": [
+        {
+          "partner": "What can we cook?",
+          "partnerZH": "我们可以做什么吃的？",
+          "reply": "We can cook rice.",
+          "replyZH": "我们可以煮米饭。"
+        },
+        {
+          "partner": "Do we need an egg?",
+          "partnerZH": "我们需要一个鸡蛋吗？",
+          "reply": "Yes, just one.",
+          "replyZH": "是的，一个就够。"
+        }
+      ]
     }
   },
   {
@@ -191,6 +225,23 @@
       "basicID": "basic.soap",
       "text": "Wash your hands with soap.",
       "translation": "用肥皂洗手。"
+    },
+    "beginnerMission": {
+      "goal": "洗手前找到肥皂和水。",
+      "turns": [
+        {
+          "partner": "Do you need anything?",
+          "partnerZH": "你需要什么吗？",
+          "reply": "I need soap, please.",
+          "replyZH": "请给我肥皂。"
+        },
+        {
+          "partner": "Is the water cold?",
+          "partnerZH": "水凉吗？",
+          "reply": "Yes, it is.",
+          "replyZH": "是的，水是凉的。"
+        }
+      ]
     }
   },
   {
@@ -258,6 +309,23 @@
       "basicID": "basic.water",
       "text": "Is this water drinkable?",
       "translation": "这水能喝吗？"
+    },
+    "beginnerMission": {
+      "goal": "点一杯水，听懂对方问要不要加冰。",
+      "turns": [
+        {
+          "partner": "What would you like?",
+          "partnerZH": "你想喝什么？",
+          "reply": "Water, please.",
+          "replyZH": "请给我水。"
+        },
+        {
+          "partner": "With ice?",
+          "partnerZH": "要加冰吗？",
+          "reply": "No, thank you.",
+          "replyZH": "不用，谢谢。"
+        }
+      ]
     }
   },
   {
@@ -326,6 +394,23 @@
       "basicID": "basic.rice",
       "text": "I eat rice every day.",
       "translation": "我每天都吃米饭。"
+    },
+    "beginnerMission": {
+      "goal": "点一份米饭，说清在哪里吃。",
+      "turns": [
+        {
+          "partner": "Rice or soup?",
+          "partnerZH": "要米饭还是汤？",
+          "reply": "Rice, please.",
+          "replyZH": "请给我米饭。"
+        },
+        {
+          "partner": "To go?",
+          "partnerZH": "要带走吗？",
+          "reply": "No, I’ll eat here.",
+          "replyZH": "不用，我在这里吃。"
+        }
+      ]
     }
   },
   {
@@ -390,6 +475,23 @@
       "basicID": "basic.book",
       "text": "I like to read this book.",
       "translation": "我喜欢读这本书。"
+    },
+    "beginnerMission": {
+      "goal": "读书时请别人把一行再念一遍。",
+      "turns": [
+        {
+          "partner": "Which book?",
+          "partnerZH": "哪一本书？",
+          "reply": "This book, please.",
+          "replyZH": "请给我这本。"
+        },
+        {
+          "partner": "Can you read this line?",
+          "partnerZH": "你能读一下这一行吗？",
+          "reply": "Please read it again.",
+          "replyZH": "请再读一遍。"
+        }
+      ]
     }
   },
   {
@@ -453,13 +555,30 @@
       "basicID": "basic.music",
       "text": "We play games while we listen to music.",
       "translation": "我们边听音乐边玩游戏。"
+    },
+    "beginnerMission": {
+      "goal": "一起听音乐，请对方再放一次。",
+      "turns": [
+        {
+          "partner": "Would you like some music?",
+          "partnerZH": "你想听点音乐吗？",
+          "reply": "Yes, please.",
+          "replyZH": "想听，谢谢。"
+        },
+        {
+          "partner": "Did you like that song?",
+          "partnerZH": "你喜欢刚才那首歌吗？",
+          "reply": "Yes. Play it again, please.",
+          "replyZH": "喜欢。请再放一遍。"
+        }
+      ]
     }
   },
   {
     "id": 8,
     "familyID": "family.help",
     "title": "帮个忙",
-    "guide": "help 是帮忙。-er 指帮忙的人，-ful 形容有没有帮助。",
+    "guide": "help 是帮忙。加 -er 得到 helper，指帮忙的人。加 -ful 得到 helpful，意思是有帮助的。换成 -less 得到 helpless，意思是无助的。",
     "wordIDs": [
       "help.help",
       "help.helper",
@@ -519,6 +638,23 @@
       "basicID": "basic.box",
       "text": "Can you help me lift this box?",
       "translation": "你能帮我抬这个箱子吗？"
+    },
+    "beginnerMission": {
+      "goal": "开口求助，没听清就请对方再说一次。",
+      "turns": [
+        {
+          "partner": "Do you need help?",
+          "partnerZH": "你需要帮忙吗？",
+          "reply": "Yes, please.",
+          "replyZH": "需要，谢谢。"
+        },
+        {
+          "partner": "Go to the help desk.",
+          "partnerZH": "请去服务台。",
+          "reply": "Can you say that again, please?",
+          "replyZH": "请你再说一遍，好吗？"
+        }
+      ]
     }
   },
   {
@@ -584,6 +720,23 @@
       "basicID": "basic.market",
       "text": "Take a shopping bag to the market.",
       "translation": "带个购物袋去市场吧。"
+    },
+    "beginnerMission": {
+      "goal": "问市场在哪里，再问苹果的产地。",
+      "turns": [
+        {
+          "partner": "Can I help you?",
+          "partnerZH": "需要帮忙吗？",
+          "reply": "Where is the market?",
+          "replyZH": "市场在哪里？"
+        },
+        {
+          "partner": "Would you like some apples?",
+          "partnerZH": "你想要一些苹果吗？",
+          "reply": "Where are they from?",
+          "replyZH": "这些苹果是哪里产的？"
+        }
+      ]
     }
   },
   {
@@ -647,6 +800,23 @@
       "basicID": "basic.card",
       "text": "Can I pay by card?",
       "translation": "可以刷卡吗？"
+    },
+    "beginnerMission": {
+      "goal": "问价格，再说你想用卡付款。",
+      "turns": [
+        {
+          "partner": "Can I help you?",
+          "partnerZH": "需要帮忙吗？",
+          "reply": "How much is this?",
+          "replyZH": "这个多少钱？"
+        },
+        {
+          "partner": "Cash or card?",
+          "partnerZH": "付现金还是刷卡？",
+          "reply": "Card, please.",
+          "replyZH": "我想刷卡，谢谢。"
+        }
+      ]
     }
   },
   {
@@ -993,8 +1163,8 @@
         "translation": "这些饼干是自己做的吗？"
       },
       {
-        "text": "Yes. I baked them at home.",
-        "translation": "是的，我在家烤的。"
+        "text": "Yes. I baked all of them at home.",
+        "translation": "是的，这些都是我在家烤的。"
       }
     ],
     "recallDay": 14,
@@ -1020,8 +1190,8 @@
         {
           "partner": "Are these cookies homemade?",
           "partnerZH": "这些饼干是自己做的吗？",
-          "reply": "Yes. I baked them at home.",
-          "replyZH": "是的，我在家烤的。"
+          "reply": "Yes. I baked all of them at home.",
+          "replyZH": "是的，这些都是我在家烤的。"
         },
         {
           "partner": "Who made them with you?",
@@ -1483,7 +1653,8 @@
           "partner": "Could you spell your name for me?",
           "partnerZH": "能拼一下你的名字吗？",
           "reply": "Sure. It's Lin, L-I-N.",
-          "replyZH": "可以。我叫 Lin，L-I-N。"
+          "replyZH": "可以。我叫 Lin，L-I-N。",
+          "replyReading": "Sure. It's Lin, [L-I-N](/ˈɛl. ˈI. ˈɛn/)."
         }
       ]
     },

@@ -202,7 +202,8 @@
       "formation": "telepathy · 心灵感应",
       "pronunciation": "təˈlɛpəθi",
       "memoryCue": "一种未经常规语言或感官交流思想的假设能力。",
-      "plainCue": "故事里的人不用说话，也能知道另一个人在想什么，这叫心灵感应。"
+      "plainCue": "故事里的人不用说话，也能知道另一个人在想什么，这叫心灵感应。",
+      "exampleReading": "The novel [imagines](/ɪmˈæʤɪnz/) a world where twins communicate by telepathy."
     },
     {
       "id": "path.pathogen.extra1",
@@ -222,7 +223,7 @@
       "parts": [
         {
           "text": "patho-",
-          "ipa": "ˈpæθoʊ",
+          "ipa": "ˈpæθə",
           "meaning": "疾病"
         },
         {
@@ -283,7 +284,7 @@
       "parts": [
         {
           "text": "patho-",
-          "ipa": "ˌpæθoʊ",
+          "ipa": "ˌpæθə",
           "meaning": "疾病"
         },
         {

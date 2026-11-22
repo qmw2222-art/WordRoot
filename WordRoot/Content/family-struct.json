@@ -141,8 +141,8 @@
       "partOfSpeech": "形容词",
       "meaning": "结构的；涉及结构的",
       "explanation": "强调事情与承重、基本构造或制度的基础安排有关。",
-      "example": "Engineers checked the building for structural damage.",
-      "translation": "工程师检查了建筑是否有结构损伤。",
+      "example": "Engineers checked a building for structural damage.",
+      "translation": "工程师检查了一栋建筑有没有结构损伤。",
       "rootRelation": "structure 的形容词形式。",
       "acceptedAnswers": [
         "结构的",

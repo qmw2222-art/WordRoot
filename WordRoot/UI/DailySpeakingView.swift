@@ -13,10 +13,10 @@ struct DailySpeakingView: View {
 
     init(day: CourseDay) {
         self.day = day
-        _saved = AppStorage(wrappedValue: Data(), "wordroot.talk.\(day.id)")
+        _saved = AppStorage(wrappedValue: Data(), "wordroot.talk.\(day.unitID)")
     }
 
-    private var turn: SpeakingMission.Turn { day.mission.turns[index] }
+    private var turn: SpeakingMission.Turn { day.speakingMission.turns[index] }
     private var replies: [String: String] { (try? JSONDecoder().decode([String: String].self, from: saved)) ?? [:] }
     private var key: String { String(index) }
     private var sound: String { "talk.\(day.id).\(index)" }
@@ -24,8 +24,8 @@ struct DailySpeakingView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 13) {
-                Text(day.mission.goal).font(.title2.bold()).foregroundStyle(MapStyle.pine).accessibilityIdentifier("talk.goal")
-                Text("第 \(index + 1) / \(day.mission.turns.count) 句").font(.caption).foregroundStyle(MapStyle.secondary)
+                Text(day.speakingMission.goal).font(.title2.bold()).foregroundStyle(MapStyle.pine).accessibilityIdentifier("talk.goal")
+                Text("第 \(index + 1) / \(day.speakingMission.turns.count) 句").font(.caption).foregroundStyle(MapStyle.secondary)
                 Text(turn.partner).font(.system(.title2, design: .serif))
                 SpeechButton(id: sound, text: turn.partner, label: "听对方说", identifier: "talk.listen")
                 DisclosureGroup("看这句话的中文", isExpanded: $translation) { Text(turn.partnerZH).frame(maxWidth: .infinity, alignment: .leading) }

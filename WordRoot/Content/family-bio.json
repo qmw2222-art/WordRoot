@@ -216,8 +216,8 @@
       "partOfSpeech": "形容词",
       "meaning": "可生物降解的",
       "explanation": "能被微生物分解而回归自然环境。",
-      "example": "We packed the lunch in biodegradable containers.",
-      "translation": "我们用可生物降解的容器装午餐。",
+      "example": "We packed our lunch in biodegradable containers.",
+      "translation": "我们把午餐装进了可生物降解的容器。",
       "rootRelation": "bio-（生物）与 degrade（分解）和 -able 组合。",
       "acceptedAnswers": [
         "可生物降解的"
@@ -396,12 +396,12 @@
       "parts": [
         {
           "text": "bio-",
-          "ipa": "ˌbaɪoʊ",
+          "ipa": "ˌbaɪə",
           "meaning": "生物、生命"
         },
         {
           "text": "metric",
-          "ipa": "ˈmɛtrɪk",
+          "ipa": "ˈmɛtrək",
           "meaning": "测量的",
           "notes": [
             "合起来指生物特征测量"

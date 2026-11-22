@@ -4,14 +4,16 @@ import SwiftUI
 struct ReviewRound: Identifiable {
     let id = UUID()
     let words: [Word]
+    var family: WordFamily? = nil
 }
 
-struct HomeDuePractice: View {
+struct HomeLearningProgress: View {
     @Query private var cards: [ReviewCardRecord]
     let lexicon: Lexicon
     let course: DailyCourse
     let lessons: [CourseDayRecord]
     let studyDefaults: UserDefaults
+    let completedDayCount: Int
     let start: ([Word]) -> Void
 
     private struct Item {
@@ -24,7 +26,7 @@ struct HomeDuePractice: View {
     private var scheduledWords: [Item] {
         var studied = Set<String>()
         for row in lessons {
-            if let day = course[row.day - CourseDay.recordOffset] { studied.formUnion(row.credited(in: day)) }
+            if let day = course.day(forRecord: row.day) { studied.formUnion(row.credited(in: day)) }
         }
         // Earlier versions stored the last word of a family in preferences only.
         for family in lexicon.families {
@@ -62,6 +64,16 @@ struct HomeDuePractice: View {
                     .accessibilityHint("每轮最多练十个词")
             }
         }
+        Divider().overlay(MapStyle.onAccent.opacity(0.24))
+        Text("已完成 \(completedDayCount) / \(course.days.count) 天")
+            .font(.footnote)
+            .accessibilityIdentifier("course.completedCount")
+        let total = lexicon.familySenseIDs.union(lexicon.basicWords.keys).count
+        Text("已学 \(items.count) / \(total) 个用法")
+            .font(.footnote).accessibilityIdentifier("course.learnedSenses")
+        ProgressView(value: Double(completedDayCount), total: Double(course.days.count))
+            .tint(MapStyle.onAccent)
+            .accessibilityHidden(true)
     }
 }
 

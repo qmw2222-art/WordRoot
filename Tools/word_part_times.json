@@ -1,0 +1,4783 @@
+{
+ "act.action": {
+  "ranges": [
+   [
+    122,
+    350
+   ],
+   [
+    350,
+    688
+   ]
+  ],
+  "sha256": "ee61965951a5b8fa9e43ecf95894de8e096660d8836b7d195726ff873d291acf"
+ },
+ "act.active": {
+  "ranges": [
+   [
+    127,
+    440
+   ],
+   [
+    440,
+    733
+   ]
+  ],
+  "sha256": "a9a51609d39754782798f7fe7387ab1c002dc58b28c5c9eee34a66d5ef095582"
+ },
+ "act.activity": {
+  "ranges": [
+   [
+    127,
+    510
+   ],
+   [
+    510,
+    858
+   ]
+  ],
+  "sha256": "962fc52e9ac8dca175195df6cd0c130c47eb1bbb170315370a10678ff3b929c1"
+ },
+ "act.actor": {
+  "ranges": [
+   [
+    127,
+    430
+   ],
+   [
+    430,
+    663
+   ]
+  ],
+  "sha256": "63eb951286a5d9a2b3c78f2556a05e23214036de79a88fa90eeb04c4a66824c4"
+ },
+ "act.interact": {
+  "ranges": [
+   [
+    122,
+    460
+   ],
+   [
+    460,
+    823
+   ]
+  ],
+  "sha256": "441ab3953af863bbcb483038c34bed819131d1ed4b4b82e98855d64763a33d17"
+ },
+ "act.reaction": {
+  "ranges": [
+   [
+    107,
+    280
+   ],
+   [
+    280,
+    470
+   ],
+   [
+    470,
+    768
+   ]
+  ],
+  "sha256": "8fce2d1b3c6b482101ed40b5e1637360e272c195f62110e64129ab8684e88d4f"
+ },
+ "aud.audibility.3": {
+  "ranges": [
+   [
+    117,
+    520
+   ],
+   [
+    520,
+    883
+   ]
+  ],
+  "sha256": "0eb175ad4df5da05f1bb79071054670db1f7e7b3e0473a6c3e64502160ebf6ad"
+ },
+ "aud.audible.1": {
+  "ranges": [
+   [
+    127,
+    330
+   ],
+   [
+    330,
+    658
+   ]
+  ],
+  "sha256": "d0ff81f9db443e858777cf76d31f8b3bf5e88affa41291d6dccce56c1067947e"
+ },
+ "aud.audience.4": {
+  "ranges": [
+   [
+    122,
+    450
+   ],
+   [
+    450,
+    728
+   ]
+  ],
+  "sha256": "bef6d6574acff5674fe05e4df961eba8885f2086095362adcf71b95ea80e541e"
+ },
+ "aud.audiobook.8": {
+  "ranges": [
+   [
+    127,
+    500
+   ],
+   [
+    500,
+    788
+   ]
+  ],
+  "sha256": "8f41e1b3f9369555baee34b3b023ac1d2dc51179a0e9246d5a1be3471b1178a0"
+ },
+ "aud.audiologist.extra6": {
+  "ranges": [
+   [
+    122,
+    490
+   ],
+   [
+    490,
+    968
+   ]
+  ],
+  "sha256": "b740cc642d3f246fd0107f98a1860a26d7701bcf201fdaa4da0ff7f0109908e1"
+ },
+ "aud.audiology.extra5": {
+  "ranges": [
+   [
+    117,
+    400
+   ],
+   [
+    400,
+    828
+   ]
+  ],
+  "sha256": "44585a9c95b1a4b006dda9324034c1ba6bc86c0d436e2b2d2e5bc46fa4104025"
+ },
+ "aud.audiovisual.extra4": {
+  "ranges": [
+   [
+    117,
+    430
+   ],
+   [
+    430,
+    898
+   ]
+  ],
+  "sha256": "944789b712519e42c90789d37b71006490126c83bf15eae8127d462dcecc2bbf"
+ },
+ "aud.auditor.extra1": {
+  "ranges": [
+   [
+    122,
+    470
+   ],
+   [
+    470,
+    698
+   ]
+  ],
+  "sha256": "09b8d1bb16a5c7381cc08aef4e8e995a55355e56d479e47e1b82c4fabcfebb18"
+ },
+ "aud.inaudible.6": {
+  "ranges": [
+   [
+    102,
+    320
+   ],
+   [
+    320,
+    768
+   ]
+  ],
+  "sha256": "e334ae660fdaa7d1278f35cbf651b19ecbbf739133881e7f7bcb3dcc90f76f14"
+ },
+ "bio.biochemistry.extra4": {
+  "ranges": [
+   [
+    117,
+    370
+   ],
+   [
+    370,
+    1018
+   ]
+  ],
+  "sha256": "66a0aa74e7867e9bf93fa4b8e45d8c99c2c461f9f20f3f8f5090e1c436004c09"
+ },
+ "bio.biodegradable.6": {
+  "ranges": [
+   [
+    122,
+    410
+   ],
+   [
+    410,
+    1063
+   ]
+  ],
+  "sha256": "dcbd2146e4fed46eb80ed68def0595cbc1f85f9e1e17b0a97a48f1f0ce1004c6"
+ },
+ "bio.biodiversity.extra1": {
+  "ranges": [
+   [
+    122,
+    330
+   ],
+   [
+    330,
+    1073
+   ]
+  ],
+  "sha256": "5f9a4e6eb35877453d3f884932f7b8383989a2e2c2498483c7bf3fc475e467f0"
+ },
+ "bio.biofuel.extra3": {
+  "ranges": [
+   [
+    117,
+    410
+   ],
+   [
+    410,
+    843
+   ]
+  ],
+  "sha256": "2d76efe74c18d170158322ab92201b6257316c59fdec5eab4701b915b1745ccb"
+ },
+ "bio.biography.1": {
+  "ranges": [
+   [
+    137,
+    350
+   ],
+   [
+    350,
+    853
+   ]
+  ],
+  "sha256": "cca839060fe4e078a4df3e3f6d8ed558d2d381ae289659d0f486e3b972bf7dba"
+ },
+ "bio.biography.3": {
+  "ranges": [
+   [
+    127,
+    390
+   ],
+   [
+    390,
+    773
+   ]
+  ],
+  "sha256": "08fbe009957718d37596644a56ec37558155d28cfd0ed2fc5b23255035b3a668"
+ },
+ "bio.biological.4": {
+  "ranges": [
+   [
+    107,
+    370
+   ],
+   [
+    370,
+    923
+   ]
+  ],
+  "sha256": "d0b9745f35a22bca47933c84efb38cc36a18f81fba3050d2d41d6cc2fe295bbc"
+ },
+ "bio.biologist.5": {
+  "ranges": [
+   [
+    122,
+    580
+   ],
+   [
+    580,
+    863
+   ]
+  ],
+  "sha256": "a2a6742ed0b001ccf35b6c397e214926a1c791db1076f94f7534ba2aadb77254"
+ },
+ "bio.biology.1": {
+  "ranges": [
+   [
+    117,
+    390
+   ],
+   [
+    390,
+    733
+   ]
+  ],
+  "sha256": "12fea480620a45bc325d95de895e3b07f3043e6b0631534049be4156df361eb7"
+ },
+ "bio.biometric.extra6": {
+  "ranges": [
+   [
+    112,
+    390
+   ],
+   [
+    390,
+    873
+   ]
+  ],
+  "sha256": "cdc9d8a278e39bc1454181b056ceb145d28927c229b49517ef8a01507d1b4517"
+ },
+ "bio.biopsy.8": {
+  "ranges": [
+   [
+    127,
+    310
+   ],
+   [
+    310,
+    728
+   ]
+  ],
+  "sha256": "6fe9cbc1cb215f772bf64efea8167095e9e395c39b3c704a50bcc33ef4d1a4a3"
+ },
+ "bio.biotechnology.extra2": {
+  "ranges": [
+   [
+    127,
+    410
+   ],
+   [
+    410,
+    1148
+   ]
+  ],
+  "sha256": "92fcf2282c738b693dcaee252b20f27211741671295b30c78c2798b963220eaa"
+ },
+ "bio.microbiology.6": {
+  "ranges": [
+   [
+    112,
+    490
+   ],
+   [
+    490,
+    1118
+   ]
+  ],
+  "sha256": "85911bdaa528c1c8042d52c01f7da5f3ae1d7927e4f26f3de7c6f6c3d2178740"
+ },
+ "board.boarding-pass": {
+  "ranges": [
+   [
+    112,
+    520
+   ],
+   [
+    520,
+    1008
+   ]
+  ],
+  "sha256": "5021a167e363f5f63522fa38cef664a80d56218acd9deed122ccd8f5cf73416c"
+ },
+ "board.boarding-time": {
+  "ranges": [
+   [
+    112,
+    530
+   ],
+   [
+    530,
+    903
+   ]
+  ],
+  "sha256": "af7766b98c3ea26cb9367dae93b874b6a19ed6bec26260f73b4b7deb6892c1a1"
+ },
+ "book.booking": {
+  "ranges": [
+   [
+    107,
+    380
+   ],
+   [
+    380,
+    693
+   ]
+  ],
+  "sha256": "4a2e32e6a6c994befd70daffb8acee70fb7cbabc1b4b4ad2a9be9068888c67dc"
+ },
+ "book.rebook": {
+  "ranges": [
+   [
+    122,
+    320
+   ],
+   [
+    320,
+    683
+   ]
+  ],
+  "sha256": "362fa7b866d7564e334a61f98041b13e90aa184ffeb1b41150f9a416056bbacc"
+ },
+ "check.check-in": {
+  "ranges": [
+   [
+    122,
+    360
+   ],
+   [
+    360,
+    673
+   ]
+  ],
+  "sha256": "c71b58f1d1d156ca920b8b02ded82937558fa056fa7c6aa96e1eceaabd723584"
+ },
+ "check.check-out": {
+  "ranges": [
+   [
+    122,
+    320
+   ],
+   [
+    320,
+    693
+   ]
+  ],
+  "sha256": "71858ca17bae28f49a3a69731849907d22a1622f1da6265a1d7e87e2724dbd6b"
+ },
+ "chron.chronically.extra3": {
+  "ranges": [
+   [
+    112,
+    480
+   ],
+   [
+    480,
+    783
+   ]
+  ],
+  "sha256": "6cf193b9769fc3f7797b7bcd260fcc26007d648b25c345bd4f5f0143fc0699da"
+ },
+ "chron.chronicler.extra2": {
+  "ranges": [
+   [
+    107,
+    590
+   ],
+   [
+    590,
+    758
+   ]
+  ],
+  "sha256": "0d4c98567aab6a211e0161c2502b0c35fe78a34047a98ea5fd7beecb1b97f20f"
+ },
+ "chron.chronobiological.extra5": {
+  "ranges": [
+   [
+    127,
+    430
+   ],
+   [
+    430,
+    1168
+   ]
+  ],
+  "sha256": "532f3e321aa7a29afa77759ee72ef0d86a1893f6eb9cf96fea2228364bac89ca"
+ },
+ "chron.chronobiology.extra4": {
+  "ranges": [
+   [
+    112,
+    420
+   ],
+   [
+    420,
+    1053
+   ]
+  ],
+  "sha256": "2d6f34a193ead94134723f85a04d68da311c2715dc70f908dc83b826766ed039"
+ },
+ "chron.chronograph.extra6": {
+  "ranges": [
+   [
+    107,
+    410
+   ],
+   [
+    410,
+    813
+   ]
+  ],
+  "sha256": "c1559ba1393404855fae79faba84e15c1572de68cffd6a6717275754df596586"
+ },
+ "chron.chronological.3": {
+  "ranges": [
+   [
+    102,
+    370
+   ],
+   [
+    370,
+    963
+   ]
+  ],
+  "sha256": "1d0db9a097489337ee4ba85f4066b389a266c64ab32156e248748060ebb94c6e"
+ },
+ "chron.chronology.2": {
+  "ranges": [
+   [
+    117,
+    450
+   ],
+   [
+    450,
+    848
+   ]
+  ],
+  "sha256": "b90fd9184cdad2ba220c4edfb4a22fa6651de7d71f60aad822111693f567c1af"
+ },
+ "chron.chronometer.8": {
+  "ranges": [
+   [
+    112,
+    420
+   ],
+   [
+    420,
+    838
+   ]
+  ],
+  "sha256": "4821d85f241744b27b29a848db0db237f4687922e893d918f4d2b889c567d85e"
+ },
+ "chron.synchronize.5": {
+  "ranges": [
+   [
+    117,
+    330
+   ],
+   [
+    330,
+    470
+   ],
+   [
+    470,
+    858
+   ]
+  ],
+  "sha256": "e6dfdcb7a1fe0a769924331375c6a6fb9e675d87096d888b4e34a9450e804b94"
+ },
+ "chron.synchronous.6": {
+  "ranges": [
+   [
+    112,
+    360
+   ],
+   [
+    360,
+    560
+   ],
+   [
+    560,
+    823
+   ]
+  ],
+  "sha256": "04361f7161c4bd0577be209ecb2f9c8c90d4776b4a51d0022e4b8bca37e8d812"
+ },
+ "clean.clean-up": {
+  "ranges": [
+   [
+    102,
+    390
+   ],
+   [
+    390,
+    613
+   ]
+  ],
+  "sha256": "c6ec91c4763415534262e9e536a58f145b90707629c7c6003dbc57a53c3bc700"
+ },
+ "clean.cleaner": {
+  "ranges": [
+   [
+    122,
+    420
+   ],
+   [
+    420,
+    638
+   ]
+  ],
+  "sha256": "031ab7ef1e570a0912204f32d5edca7dccbbfc2962941c441b0f8da4635628fc"
+ },
+ "cook.cookbook": {
+  "ranges": [
+   [
+    462,
+    680
+   ],
+   [
+    680,
+    1038
+   ]
+  ],
+  "sha256": "b2fa43c00489c4bc000a4fe3ce75bf79323c87796bf7556b5768fbf9d71b2e15"
+ },
+ "cook.cooker": {
+  "ranges": [
+   [
+    122,
+    360
+   ],
+   [
+    360,
+    563
+   ]
+  ],
+  "sha256": "72fb23b329d51a6d73416efa0a04764f4fcdedbbd2da2edd97c4dfccd3e66e03"
+ },
+ "cred.accreditation": {
+  "ranges": [
+   [
+    122,
+    520
+   ],
+   [
+    520,
+    993
+   ]
+  ],
+  "sha256": "609a0865a98e4b80083c7574f53faae8c35f67efd8d65de19e1f200193a96a09"
+ },
+ "cred.credibility": {
+  "ranges": [
+   [
+    112,
+    290
+   ],
+   [
+    290,
+    928
+   ]
+  ],
+  "sha256": "6b7f3e872f2eca4e50bb35e8902d970230388ebd317927ae64b204c706d7ccb6"
+ },
+ "cred.credible": {
+  "ranges": [
+   [
+    122,
+    370
+   ],
+   [
+    370,
+    708
+   ]
+  ],
+  "sha256": "2212f2d772eb4488afbfe17700d40e4f03049755b5066d973e9155b6825aad4f"
+ },
+ "cred.credibly": {
+  "ranges": [
+   [
+    107,
+    420
+   ],
+   [
+    420,
+    698
+   ]
+  ],
+  "sha256": "829dd134badd6d767f21c656bce5586ad09a1a369ec88df4a7b65281b85eaaea"
+ },
+ "cred.creditor": {
+  "ranges": [
+   [
+    112,
+    510
+   ],
+   [
+    510,
+    733
+   ]
+  ],
+  "sha256": "f7f56b05ff386a16d36558e99477a29e012b5d7ee69d5fddd4a89d9e8c9c2be2"
+ },
+ "cred.discredit": {
+  "ranges": [
+   [
+    127,
+    360
+   ],
+   [
+    360,
+    838
+   ]
+  ],
+  "sha256": "916e145e97e65eddfae80551e7a7d94bdf95f81c27487ecf4a0f40033f564319"
+ },
+ "cred.incredible": {
+  "ranges": [
+   [
+    122,
+    290
+   ],
+   [
+    290,
+    878
+   ]
+  ],
+  "sha256": "16965a630c59881ba50f0a8b3969e2679bc81df8fb939105ad70d39ce1b8acce"
+ },
+ "cred.incredulous": {
+  "ranges": [
+   [
+    117,
+    280
+   ],
+   [
+    280,
+    938
+   ]
+  ],
+  "sha256": "ae90ad277ad4f09ba194e8ac456a8d3c7da779076c0d941d77bed216d84449f8"
+ },
+ "day.birthday": {
+  "ranges": [
+   [
+    117,
+    460
+   ],
+   [
+    460,
+    748
+   ]
+  ],
+  "sha256": "cad756928a8dfdb89470fc8dedcff2b6bd17e25f179039ec38e11a8d7bb88566"
+ },
+ "day.weekday": {
+  "ranges": [
+   [
+    122,
+    410
+   ],
+   [
+    410,
+    743
+   ]
+  ],
+  "sha256": "f5582a2274073250acf8a1b56651621ab440adf1975c79f768832861bd17ea14"
+ },
+ "dict.contradict": {
+  "ranges": [
+   [
+    127,
+    490
+   ],
+   [
+    490,
+    858
+   ]
+  ],
+  "sha256": "cabd7f431e92fd77b1724595b3e315a33e460935749bd05c08cd8a41501115d9"
+ },
+ "dict.contradiction": {
+  "ranges": [
+   [
+    112,
+    610
+   ],
+   [
+    610,
+    933
+   ]
+  ],
+  "sha256": "3d18a62c24e33d6b5a75500ca7a4263d44c1892f6a612dd6b5498d02e61843e4"
+ },
+ "dict.contradictory": {
+  "ranges": [
+   [
+    107,
+    650
+   ],
+   [
+    650,
+    948
+   ]
+  ],
+  "sha256": "041f0dc504aa011932a95d7d9973f54a12ec7fc1fbcd3129e14a8a992e8575b8"
+ },
+ "dict.dictation": {
+  "ranges": [
+   [
+    117,
+    370
+   ],
+   [
+    370,
+    853
+   ]
+  ],
+  "sha256": "011432da2a3a9cab6559ef13ace6f7d61d1bcd8eb25c2961c1ac7b15721d3e8b"
+ },
+ "dict.dictator": {
+  "ranges": [
+   [
+    112,
+    630
+   ],
+   [
+    630,
+    868
+   ]
+  ],
+  "sha256": "04e67cd1e39f380fa01785d3035c62232c115243122df17fe61dc30a965f5a90"
+ },
+ "dict.predict": {
+  "ranges": [
+   [
+    122,
+    260
+   ],
+   [
+    260,
+    688
+   ]
+  ],
+  "sha256": "d1f77ec7af0e0acc901a64f762354087952427867463a244220ba3ed12e95420"
+ },
+ "dict.predictable": {
+  "ranges": [
+   [
+    122,
+    540
+   ],
+   [
+    540,
+    873
+   ]
+  ],
+  "sha256": "e7d1abe339bd7f4669ec14485fd57868a6fd18eb77de6902092ed9bc09e09de2"
+ },
+ "dict.prediction": {
+  "ranges": [
+   [
+    122,
+    300
+   ],
+   [
+    300,
+    480
+   ],
+   [
+    480,
+    823
+   ]
+  ],
+  "sha256": "5d044f79232f18907e07180e4e7f93693262d9e434f3710155d839f9b7f2ae14"
+ },
+ "dict.unpredictable": {
+  "ranges": [
+   [
+    137,
+    350
+   ],
+   [
+    350,
+    1043
+   ]
+  ],
+  "sha256": "56baa47a139647c76ec92e99082ada00ec99199efb32a05792a06883d9df7b1c"
+ },
+ "direct.redirect": {
+  "ranges": [
+   [
+    117,
+    340
+   ],
+   [
+    340,
+    838
+   ]
+  ],
+  "sha256": "a8111a84151ea1d335d46d01d3bf399dc96044b81a2591a7031a18eccf3069ec"
+ },
+ "drink.drinkable": {
+  "ranges": [
+   [
+    117,
+    430
+   ],
+   [
+    430,
+    773
+   ]
+  ],
+  "sha256": "09f4417570da5faafefd2cec9128e7118d2e8d5a492e3996af9c643a2e43d77e"
+ },
+ "drink.drinking-water": {
+  "ranges": [
+   [
+    112,
+    540
+   ],
+   [
+    540,
+    953
+   ]
+  ],
+  "sha256": "de61a9d75fbde95845bc61c106ead310abcc6bfb3160bc8b159459453993f05a"
+ },
+ "duc.conduct": {
+  "ranges": [
+   [
+    112,
+    290
+   ],
+   [
+    290,
+    688
+   ]
+  ],
+  "sha256": "6af9f6952a1fa350c43d35d010ece1a3bf5778682cc831447b189ae584ea3f05"
+ },
+ "duc.conductor": {
+  "ranges": [
+   [
+    112,
+    570
+   ],
+   [
+    570,
+    803
+   ]
+  ],
+  "sha256": "41c58056e8d5a0bd06b300a70450ffa60e1007f085a29ad8102b649c951b8312"
+ },
+ "duc.deduce": {
+  "ranges": [
+   [
+    127,
+    210
+   ],
+   [
+    210,
+    658
+   ]
+  ],
+  "sha256": "84d9b246123bfdf1c91585a7688a73b03058466a57d1fa7265d70ab2197ed0e1"
+ },
+ "duc.deduction": {
+  "ranges": [
+   [
+    127,
+    460
+   ],
+   [
+    460,
+    743
+   ]
+  ],
+  "sha256": "5799e5551aecf8011ac7362fee91efda85fea94071e9c34651ab756917cde7c4"
+ },
+ "duc.educational": {
+  "ranges": [
+   [
+    117,
+    730
+   ],
+   [
+    730,
+    903
+   ]
+  ],
+  "sha256": "c73222a4a7ca938a13eda62e6053c5cbb639cbfcdc5bbb5cdea08ef1ce93dc48"
+ },
+ "duc.introduce": {
+  "ranges": [
+   [
+    117,
+    440
+   ],
+   [
+    440,
+    873
+   ]
+  ],
+  "sha256": "4d0f437b184ed93a6f50f7b77bd4bf0cc25cf23865bbc6fb845393db83c1b744"
+ },
+ "duc.introduction": {
+  "ranges": [
+   [
+    112,
+    570
+   ],
+   [
+    570,
+    898
+   ]
+  ],
+  "sha256": "8d8c8b2f5aa42d1fc68c03fa508a5d3e0ddeb0d131b5ee6f7ff05c5127e48279"
+ },
+ "duc.produce": {
+  "ranges": [
+   [
+    107,
+    240
+   ],
+   [
+    240,
+    703
+   ]
+  ],
+  "sha256": "d45e3926ad5cc950c8c3cc1a72ad20d8591891faa330b5056f8a06624ffacb8d"
+ },
+ "duc.production": {
+  "ranges": [
+   [
+    122,
+    440
+   ],
+   [
+    440,
+    783
+   ]
+  ],
+  "sha256": "749c2d29968edf657d150aa8f022e9625713e9d8bae47660e99df7b2c598d8ab"
+ },
+ "duc.reduce": {
+  "ranges": [
+   [
+    107,
+    250
+   ],
+   [
+    250,
+    733
+   ]
+  ],
+  "sha256": "4229bb374148a38bd1630f7f91929b3c48695e769c76bf09886dc9cfd698520f"
+ },
+ "duc.reduction": {
+  "ranges": [
+   [
+    122,
+    480
+   ],
+   [
+    480,
+    823
+   ]
+  ],
+  "sha256": "32defcf4760f9c36bd00bddc972abd2848b79c33339f21454fe6b978d5e36188"
+ },
+ "eat.eat-out": {
+  "ranges": [
+   [
+    117,
+    320
+   ],
+   [
+    320,
+    738
+   ]
+  ],
+  "sha256": "cc73bdd3ae545f4fe0ffbe056b9daced99d3d41acd353fbfd8301fba9af4d8d4"
+ },
+ "eat.eater": {
+  "ranges": [
+   [
+    122,
+    360
+   ],
+   [
+    360,
+    623
+   ]
+  ],
+  "sha256": "1c46fbf49995fa40c901abb0cc46a031bca13038f99f5d2399af112c33ed0570"
+ },
+ "fer.confer": {
+  "ranges": [
+   [
+    127,
+    300
+   ],
+   [
+    300,
+    688
+   ]
+  ],
+  "sha256": "663bcd8561e335d3d36e7027c4b631c036405f1c030957c139dc8c6095ddb7e8"
+ },
+ "fer.difference": {
+  "ranges": [
+   [
+    107,
+    510
+   ],
+   [
+    510,
+    798
+   ]
+  ],
+  "sha256": "842f207c9a8041c015478911d468463aa0c3e9c2a7ae1ff9a78bbc041a446ea6"
+ },
+ "fer.inference": {
+  "ranges": [
+   [
+    112,
+    480
+   ],
+   [
+    480,
+    763
+   ]
+  ],
+  "sha256": "0fe2e7fbc2972a5882d73bfd3b9689e2ba05366a40df34259e751a59abd38164"
+ },
+ "fer.prefer": {
+  "ranges": [
+   [
+    122,
+    260
+   ],
+   [
+    260,
+    708
+   ]
+  ],
+  "sha256": "0011a7bd94887d9643a744c6b7bc80f453387b5bf3abab7bcdabe72e62b37c64"
+ },
+ "fer.preference": {
+  "ranges": [
+   [
+    117,
+    500
+   ],
+   [
+    500,
+    808
+   ]
+  ],
+  "sha256": "02f83da602ce33bdc89fa966ddb34737988a17ee4791abb2c017756afc02dd8c"
+ },
+ "fer.reference": {
+  "ranges": [
+   [
+    107,
+    530
+   ],
+   [
+    530,
+    823
+   ]
+  ],
+  "sha256": "690708e75ec2f8ecaacd02688466ad0dc3bd2700fbdcd453c334c403926b7a39"
+ },
+ "fer.referral": {
+  "ranges": [
+   [
+    122,
+    560
+   ],
+   [
+    560,
+    773
+   ]
+  ],
+  "sha256": "ceb6bcaf338b881c56dbc03b1a0ce0bcbe1d1a1d41cdfc73fcd1fe443fc1bbb9"
+ },
+ "fer.transfer": {
+  "ranges": [
+   [
+    107,
+    480
+   ],
+   [
+    480,
+    768
+   ]
+  ],
+  "sha256": "85c3879dd13e0a55efaa0c5699af76615cd8835db8a78c976d74471cfc4a4505"
+ },
+ "fer.transferable": {
+  "ranges": [
+   [
+    102,
+    650
+   ],
+   [
+    650,
+    938
+   ]
+  ],
+  "sha256": "4de675a51c664ed48b5c4bddc5748f9dc5fcee99ad4fe3574cc17857a1b06864"
+ },
+ "fly.fly-over": {
+  "ranges": [
+   [
+    132,
+    370
+   ],
+   [
+    370,
+    783
+   ]
+  ],
+  "sha256": "ccfcf41809d16cbcf0a35548bd5027b094ba1623d391000fcd2666a535bc06f1"
+ },
+ "fly.flyer": {
+  "ranges": [
+   [
+    117,
+    440
+   ],
+   [
+    440,
+    633
+   ]
+  ],
+  "sha256": "e78f95bb3f50c20e72ce45d8d0f4ffbe5d28388c15e4e11d96b0b929e07ad8d7"
+ },
+ "form.formal": {
+  "ranges": [
+   [
+    132,
+    440
+   ],
+   [
+    440,
+    638
+   ]
+  ],
+  "sha256": "3ddc3f4c914ca59d6d2e2ee341ae8b0bd3d34ef3d2c5d31847ed74b5bfb00f65"
+ },
+ "form.information": {
+  "ranges": [
+   [
+    122,
+    440
+   ],
+   [
+    440,
+    923
+   ]
+  ],
+  "sha256": "cbf8f1bdaacb2fec6831a70e9f750f791f5fd5f6324e93586840500f807189f3"
+ },
+ "form.reform": {
+  "ranges": [
+   [
+    122,
+    250
+   ],
+   [
+    250,
+    728
+   ]
+  ],
+  "sha256": "3140fd54f2eccda4ef78d44696836bae07078b9c687e26c02a17a1b73ec41205"
+ },
+ "form.transform": {
+  "ranges": [
+   [
+    112,
+    450
+   ],
+   [
+    450,
+    848
+   ]
+  ],
+  "sha256": "8b2bf24c878ebd1dfc69f0da66f96388cd2eda6102a02aa1ce43c0d57ef2ac6e"
+ },
+ "form.transformation": {
+  "ranges": [
+   [
+    112,
+    560
+   ],
+   [
+    560,
+    1043
+   ]
+  ],
+  "sha256": "7edd53942935e53474277a5f2a948631010bf4a900010ab7113a38ed38b0ee31"
+ },
+ "gate.departure-gate": {
+  "ranges": [
+   [
+    122,
+    660
+   ],
+   [
+    660,
+    1053
+   ]
+  ],
+  "sha256": "cf20c2e1a4c613d42ad705735551320ce5990c42c654ea74445357284e54b0b9"
+ },
+ "gate.gate-number": {
+  "ranges": [
+   [
+    112,
+    350
+   ],
+   [
+    350,
+    813
+   ]
+  ],
+  "sha256": "3559c0a97a16323a99aa20441337f5785ac1745bc9dc31de98789f95d50f2b00"
+ },
+ "geo.geocentric.7": {
+  "ranges": [
+   [
+    122,
+    360
+   ],
+   [
+    360,
+    883
+   ]
+  ],
+  "sha256": "b448caf5077b92e3efd6089ce932ead8b59fb472c7668ddbe75e2785e2f8fc12"
+ },
+ "geo.geographic.4": {
+  "ranges": [
+   [
+    127,
+    310
+   ],
+   [
+    310,
+    838
+   ]
+  ],
+  "sha256": "344568be5197ea2a2299dac07e80b18b45bdd321da812311cd052f70fbedd389"
+ },
+ "geo.geographical.extra4": {
+  "ranges": [
+   [
+    117,
+    690
+   ],
+   [
+    690,
+    918
+   ]
+  ],
+  "sha256": "6a236cb64b3385582db2af70339e6c3e7b0c6890ad2f5305853404339d4acaa5"
+ },
+ "geo.geography.3": {
+  "ranges": [
+   [
+    117,
+    370
+   ],
+   [
+    370,
+    843
+   ]
+  ],
+  "sha256": "85a5a5f6f869ff3e148af462b891ab61f1ad3b9da535fb995d0fffe5c592f7ec"
+ },
+ "geo.geological.extra3": {
+  "ranges": [
+   [
+    107,
+    550
+   ],
+   [
+    550,
+    883
+   ]
+  ],
+  "sha256": "53e139fb05c0054800f5417f4c8f5ea5e4767d0919cc2c2f122a9c4fcf60fb8f"
+ },
+ "geo.geologist.2": {
+  "ranges": [
+   [
+    117,
+    340
+   ],
+   [
+    340,
+    813
+   ]
+  ],
+  "sha256": "96535101dae04ff1421233f9f9e51c7e4785ad3e7bd7f0f76893ffd410d8c780"
+ },
+ "geo.geology.1": {
+  "ranges": [
+   [
+    102,
+    320
+   ],
+   [
+    320,
+    708
+   ]
+  ],
+  "sha256": "5143d02650bdbc6be5f8ba46a591fe0bd19bc77a8f0b9ab8e5a200813a10e8ed"
+ },
+ "geo.geometry.extra1": {
+  "ranges": [
+   [
+    127,
+    370
+   ],
+   [
+    370,
+    818
+   ]
+  ],
+  "sha256": "d37b74e186e6fd17445eaa6ace0c0fe4845688b2bad3d8e712fd00d1681f57ed"
+ },
+ "geo.geopolitical.extra6": {
+  "ranges": [
+   [
+    112,
+    350
+   ],
+   [
+    350,
+    988
+   ]
+  ],
+  "sha256": "1f28c29a6470239179a6c8d0676f1c2074226f983ee5394136c8b87a5aae0d76"
+ },
+ "geo.geopolitics.extra5": {
+  "ranges": [
+   [
+    112,
+    330
+   ],
+   [
+    330,
+    1003
+   ]
+  ],
+  "sha256": "8a51734e01ca4110d83e81c143fd43f1346115fb5a614778ddb691e9706c8918"
+ },
+ "geo.geosphere.5": {
+  "ranges": [
+   [
+    112,
+    370
+   ],
+   [
+    370,
+    763
+   ]
+  ],
+  "sha256": "f799fa307ff076ccfe961e714a746cef03ae75677387813168dcee34fc52d196"
+ },
+ "geo.geotag.8": {
+  "ranges": [
+   [
+    107,
+    320
+   ],
+   [
+    320,
+    738
+   ]
+  ],
+  "sha256": "5de8a90facc11b86c0b5256ce9b885b6fce51bbe67c90f920754a0fed58301ad"
+ },
+ "geo.geothermal.5": {
+  "ranges": [
+   [
+    122,
+    330
+   ],
+   [
+    330,
+    813
+   ]
+  ],
+  "sha256": "1cbd08431fa91d410bc124a29ce257bda35fb34239b33af21d3390a1703e7efb"
+ },
+ "graph.autograph.4": {
+  "ranges": [
+   [
+    122,
+    340
+   ],
+   [
+    340,
+    698
+   ]
+  ],
+  "sha256": "4727e1017c8ce0a30880962bcf1befe1b914767cdc0c1e3f627157ec26ae9644"
+ },
+ "graph.calligraphy.extra2": {
+  "ranges": [
+   [
+    117,
+    330
+   ],
+   [
+    330,
+    848
+   ]
+  ],
+  "sha256": "d85785e9d355824ba44081a2215cd2051c1fb87375f944701ffa68248c2d3a12"
+ },
+ "graph.graphic.1": {
+  "ranges": [
+   [
+    122,
+    450
+   ],
+   [
+    450,
+    663
+   ]
+  ],
+  "sha256": "0215667bba168834ea4bd6874683314feef40a286977e95da5b50a05b02bbb91"
+ },
+ "graph.infographic.5": {
+  "ranges": [
+   [
+    122,
+    440
+   ],
+   [
+    440,
+    988
+   ]
+  ],
+  "sha256": "3855abbf565e0a8f7bcde8f87a932a54722a09068c329b97b2c9a50ffdc850f4"
+ },
+ "graph.paragraphing.8": {
+  "ranges": [
+   [
+    117,
+    650
+   ],
+   [
+    650,
+    883
+   ]
+  ],
+  "sha256": "c83aabbdaa0b8b6cf8e4a5c1f10a9467c3f3912bad144efdb2279a0c42f9a51f"
+ },
+ "graph.photograph.7": {
+  "ranges": [
+   [
+    192,
+    390
+   ],
+   [
+    390,
+    748
+   ]
+  ],
+  "sha256": "c74bb0de3c401e5a26bd433cb28c55e1d2562bf10b9a8577fd9e910b19a0a6ec"
+ },
+ "graph.seismograph.extra4": {
+  "ranges": [
+   [
+    112,
+    490
+   ],
+   [
+    490,
+    773
+   ]
+  ],
+  "sha256": "0edffba024e25c019d3c8196550976ff29c7df9c31168e84f8a8a0f0ad6da8c1"
+ },
+ "graph.typography.extra5": {
+  "ranges": [
+   [
+    117,
+    440
+   ],
+   [
+    440,
+    923
+   ]
+  ],
+  "sha256": "68dfcef3cf7afa05d37822ef58425ff2945d1dfc1589982fa19c2efcace67e86"
+ },
+ "hand.handbag": {
+  "ranges": [
+   [
+    117,
+    420
+   ],
+   [
+    420,
+    778
+   ]
+  ],
+  "sha256": "ea9d6f05d3882faf2fcb0ad8120acd2727b50408c21d6242a2451e633d53cbb2"
+ },
+ "hand.handwriting": {
+  "ranges": [
+   [
+    117,
+    400
+   ],
+   [
+    400,
+    893
+   ]
+  ],
+  "sha256": "4233d6059dae2a91f0be658d74cb38d4e2d8005d3d9b4faef7ded251c1c32a52"
+ },
+ "help.help-desk": {
+  "ranges": [
+   [
+    122,
+    390
+   ],
+   [
+    390,
+    848
+   ]
+  ],
+  "sha256": "ce63ba10fd1c550d8d23d65dfcf126390be97f9b1a99ae0f993d2a4094c0cb57"
+ },
+ "help.helper": {
+  "ranges": [
+   [
+    112,
+    420
+   ],
+   [
+    420,
+    683
+   ]
+  ],
+  "sha256": "14a80eeb748afc90a3e4c415449d5058028478d71c849b062984acf967275a9f"
+ },
+ "help.helpful": {
+  "ranges": [
+   [
+    117,
+    370
+   ],
+   [
+    370,
+    723
+   ]
+  ],
+  "sha256": "711f8e2723ee79ac4abd9ff4517572eddddde25a27f602d00628d67bb0aaeeb3"
+ },
+ "help.helpless": {
+  "ranges": [
+   [
+    117,
+    420
+   ],
+   [
+    420,
+    788
+   ]
+  ],
+  "sha256": "c57ded772f88de63ab7d426dc729aadd7f7d3f0d321c30bd318d411e268527e5"
+ },
+ "help.self-help": {
+  "ranges": [
+   [
+    127,
+    450
+   ],
+   [
+    450,
+    788
+   ]
+  ],
+  "sha256": "1dac1aa5206f1400e42e0bfced470408b54f9fe3bb7b60960c02ffa88b9a7c93"
+ },
+ "home.homemade": {
+  "ranges": [
+   [
+    122,
+    380
+   ],
+   [
+    380,
+    768
+   ]
+  ],
+  "sha256": "0f105dd56fe2e776dbfdb6a6f81f2a1eb0d586b109a295c99d37c8d160b68811"
+ },
+ "home.homework": {
+  "ranges": [
+   [
+    132,
+    380
+   ],
+   [
+    380,
+    723
+   ]
+  ],
+  "sha256": "62841fa5359c76aa5f6e7c39f59ff8732094dba1673af1110bfc502c96ea5576"
+ },
+ "ject.eject": {
+  "ranges": [
+   [
+    122,
+    220
+   ],
+   [
+    220,
+    688
+   ]
+  ],
+  "sha256": "535e20d36b169810efba7ddfcc24b04080ee3b267d615c8ca03eeee24b6d87ae"
+ },
+ "ject.ejection": {
+  "ranges": [
+   [
+    112,
+    480
+   ],
+   [
+    480,
+    818
+   ]
+  ],
+  "sha256": "eedf9a750d16632b8b1ab5a97434a8b293b90b9345a4e2d0914c53171df2dcc3"
+ },
+ "ject.inject": {
+  "ranges": [
+   [
+    122,
+    310
+   ],
+   [
+    310,
+    748
+   ]
+  ],
+  "sha256": "8729ab417dfa01822abe7095fa6e3f7e562dc0856e608c915c0bfcf5038ee28b"
+ },
+ "ject.injection": {
+  "ranges": [
+   [
+    122,
+    520
+   ],
+   [
+    520,
+    843
+   ]
+  ],
+  "sha256": "dc2f309267668f4548b4aaf50c4682bd98823c7bdd48ca484243a1c1b6d3a0f7"
+ },
+ "ject.interject": {
+  "ranges": [
+   [
+    112,
+    410
+   ],
+   [
+    410,
+    848
+   ]
+  ],
+  "sha256": "67bd4647a0cee7ea67df49aa5093af07764c1aa5eb7d7fa2fdeba1529eec260a"
+ },
+ "ject.object": {
+  "ranges": [
+   [
+    127,
+    250
+   ],
+   [
+    250,
+    683
+   ]
+  ],
+  "sha256": "6926f755f2db58c9eddeaec68e10ab7b1c7c915314b2b8ea7e05f3bdd6c4341a"
+ },
+ "ject.objection": {
+  "ranges": [
+   [
+    127,
+    490
+   ],
+   [
+    490,
+    813
+   ]
+  ],
+  "sha256": "fa65a44d603fa6a8d542f4d5d426662d3d3a529e230e7ae04b30896b62293af9"
+ },
+ "ject.project": {
+  "ranges": [
+   [
+    122,
+    260
+   ],
+   [
+    260,
+    738
+   ]
+  ],
+  "sha256": "5da129ade24955b5b27835cd321e5f5032e3eed69fece58aa1fdfc57c239c5cb"
+ },
+ "ject.projection": {
+  "ranges": [
+   [
+    122,
+    510
+   ],
+   [
+    510,
+    843
+   ]
+  ],
+  "sha256": "d88a66aea295d4dcaf1e2b59fee8bf377b02d49b7d2eb55667fdb437e07e2c60"
+ },
+ "ject.projector": {
+  "ranges": [
+   [
+    122,
+    600
+   ],
+   [
+    600,
+    848
+   ]
+  ],
+  "sha256": "bf5130d30d1918afb93a28deedf2e8ebb514603c4ccf7330d7668b1208dc7279"
+ },
+ "ject.reject": {
+  "ranges": [
+   [
+    117,
+    260
+   ],
+   [
+    260,
+    733
+   ]
+  ],
+  "sha256": "32cc07a5ca14e81792ce808ad56aa337ec6376ceb330ab5be3472039e25ae49f"
+ },
+ "ject.rejection": {
+  "ranges": [
+   [
+    122,
+    490
+   ],
+   [
+    490,
+    813
+   ]
+  ],
+  "sha256": "9354724926f8c27a78c147f1af23c39739e260f1781b4506fca76fa8fb0ede4a"
+ },
+ "ject.subject": {
+  "ranges": [
+   [
+    127,
+    320
+   ],
+   [
+    320,
+    748
+   ]
+  ],
+  "sha256": "4346fac0105e8dd12bbfdc9078a59e68836e8d623b2a8de1dab02612e6897d78"
+ },
+ "ject.turn_down": {
+  "ranges": [
+   [
+    117,
+    410
+   ],
+   [
+    410,
+    828
+   ]
+  ],
+  "sha256": "deb3a9f17e15885da8fb14034aaf94f3698867605d517e4f3d57e7bc4882a444"
+ },
+ "key.key-card": {
+  "ranges": [
+   [
+    127,
+    290
+   ],
+   [
+    290,
+    673
+   ]
+  ],
+  "sha256": "c9a4e0e524fcbd20a4188cb6aac898a4e9f0cd8f777dc4c8a4f695f24047cb37"
+ },
+ "key.key-ring": {
+  "ranges": [
+   [
+    122,
+    320
+   ],
+   [
+    320,
+    653
+   ]
+  ],
+  "sha256": "719c5cddf6659924c55f876973ca2b0e80e52a78eeb8bff3c058cf74d0b22bd2"
+ },
+ "land.landing": {
+  "ranges": [
+   [
+    137,
+    460
+   ],
+   [
+    460,
+    678
+   ]
+  ],
+  "sha256": "0dec3ddc3dedef520d8d0d68c87b80a6bb62d3c6606150f5291d17083838e15c"
+ },
+ "land.landing-area": {
+  "ranges": [
+   [
+    142,
+    570
+   ],
+   [
+    570,
+    958
+   ]
+  ],
+  "sha256": "f2b6952ec17225d8a834581d64daf3ecfe0794491986730a5b9586719910e8db"
+ },
+ "light.daylight": {
+  "ranges": [
+   [
+    122,
+    350
+   ],
+   [
+    350,
+    738
+   ]
+  ],
+  "sha256": "f624f51a44f5e1260c42069ae77f877a83b4b407ca8187cf2793cb3ee489a437"
+ },
+ "light.flashlight": {
+  "ranges": [
+   [
+    122,
+    500
+   ],
+   [
+    500,
+    783
+   ]
+  ],
+  "sha256": "a02fc90eda34f2cc8942f040ff703e3c1703d152760b5ed899aee710d8c92c41"
+ },
+ "log.analogous.extra2": {
+  "ranges": [
+   [
+    117,
+    540
+   ],
+   [
+    540,
+    823
+   ]
+  ],
+  "sha256": "d27838b0aa17be8a55f0f7a588b0b248dfc8620767dabd375e34e70845bfb990"
+ },
+ "log.analogy.extra1": {
+  "ranges": [
+   [
+    122,
+    550
+   ],
+   [
+    550,
+    723
+   ]
+  ],
+  "sha256": "536d9dbd125afd2abd31a675afe5597f8c0801e4db4fb9f98d2866f586ebf33c"
+ },
+ "log.apologetic.extra5": {
+  "ranges": [
+   [
+    122,
+    530
+   ],
+   [
+    530,
+    918
+   ]
+  ],
+  "sha256": "295f516926e28930e601da22eaffb5af423d14ba821902d04b8c95b2fae46b2b"
+ },
+ "log.apologize.extra4": {
+  "ranges": [
+   [
+    122,
+    590
+   ],
+   [
+    590,
+    963
+   ]
+  ],
+  "sha256": "ea4ea02844e1b162847ea01ede0af5be4921f7cb9934c3e35c9a1b87b64ee60e"
+ },
+ "log.catalogue.3": {
+  "ranges": [
+   [
+    122,
+    360
+   ],
+   [
+    360,
+    713
+   ]
+  ],
+  "sha256": "61f430000b19b1786157aa0f8b49cc4aca21e4e145944f4bf34215f08acd7de2"
+ },
+ "log.dialogue.1": {
+  "ranges": [
+   [
+    117,
+    360
+   ],
+   [
+    360,
+    728
+   ]
+  ],
+  "sha256": "7862d1ded615cd3618140b6b1002712b7e26dd4b10f4a0f5e506f79d64f64b80"
+ },
+ "log.epilogue.5": {
+  "ranges": [
+   [
+    122,
+    320
+   ],
+   [
+    320,
+    708
+   ]
+  ],
+  "sha256": "6d34de92abb69d4e11b88dd52425ef0737781fe54098bbfb8b22d7c1bb068245"
+ },
+ "log.monologue.2": {
+  "ranges": [
+   [
+    127,
+    420
+   ],
+   [
+    420,
+    728
+   ]
+  ],
+  "sha256": "cc6ca17a0dadf842b73cbfc5af4a59984d85c51d7b66f3b9e7b69d0b9b32846f"
+ },
+ "log.prologue.4": {
+  "ranges": [
+   [
+    117,
+    300
+   ],
+   [
+    300,
+    683
+   ]
+  ],
+  "sha256": "99044b704363804e2231a096bfabd47e60f82ee30c78a9a46091d0e854454d78"
+ },
+ "log.psychology.7": {
+  "ranges": [
+   [
+    122,
+    410
+   ],
+   [
+    410,
+    783
+   ]
+  ],
+  "sha256": "8d78df274168e5803cc0a3b347a4bbcbe40605a6a006579027a15e282a86bb78"
+ },
+ "log.technology.8": {
+  "ranges": [
+   [
+    117,
+    370
+   ],
+   [
+    370,
+    853
+   ]
+  ],
+  "sha256": "9ac3b41694a483909ac3f3fa3e17f947645a79b5f001b3692244ad8241bb2cc7"
+ },
+ "mit.admit": {
+  "ranges": [
+   [
+    122,
+    280
+   ],
+   [
+    280,
+    658
+   ]
+  ],
+  "sha256": "f920ee47e5945fe778dc745f4565819a3586cae327241c17d3e0b95f09b251a2"
+ },
+ "mit.commitment": {
+  "ranges": [
+   [
+    122,
+    420
+   ],
+   [
+    420,
+    763
+   ]
+  ],
+  "sha256": "03c695dda47a1a4dc0efd0675270511b89e6e5d719ae4ef094f0b1bf2181dc88"
+ },
+ "mit.dismiss": {
+  "ranges": [
+   [
+    117,
+    340
+   ],
+   [
+    340,
+    733
+   ]
+  ],
+  "sha256": "c96c53fdf9b27f5741e5fd4072d2089dab5119f3d295f0ab29904b3b7213877d"
+ },
+ "mit.dismissal": {
+  "ranges": [
+   [
+    117,
+    600
+   ],
+   [
+    600,
+    823
+   ]
+  ],
+  "sha256": "91138eaeeff500f95ec2e697b70f06ee8d389f7388fa3b2f9926e32194d425e0"
+ },
+ "mit.emit": {
+  "ranges": [
+   [
+    487,
+    610
+   ],
+   [
+    610,
+    1053
+   ]
+  ],
+  "sha256": "ac670dffd4200ff16b53f6d020f6bcff83315aeb4457ec5c00da761b00b13613"
+ },
+ "mit.permission": {
+  "ranges": [
+   [
+    122,
+    250
+   ],
+   [
+    250,
+    788
+   ]
+  ],
+  "sha256": "7d7d69add8a3bcef7a3723c69eb1de9d225f4badc543aaa6fdd93df7a101f28f"
+ },
+ "mit.submit": {
+  "ranges": [
+   [
+    117,
+    330
+   ],
+   [
+    330,
+    693
+   ]
+  ],
+  "sha256": "448573e89ce191c8dfbd6f9711399256cbd3345aa8ce7184ec8334cffe0c2be6"
+ },
+ "mit.transmit": {
+  "ranges": [
+   [
+    112,
+    430
+   ],
+   [
+    430,
+    743
+   ]
+  ],
+  "sha256": "962bebd36222ce22f3f3279485b66ea935c5bb6d089bd1dc7724a099beb809d8"
+ },
+ "mit.transmitter": {
+  "ranges": [
+   [
+    107,
+    610
+   ],
+   [
+    610,
+    823
+   ]
+  ],
+  "sha256": "ebda0a586eb5ee1a56b6f7457007b8f34b0115697446cd7df82e6c0afb9a4ac0"
+ },
+ "mot.automotive.11": {
+  "ranges": [
+   [
+    112,
+    340
+   ],
+   [
+    340,
+    858
+   ]
+  ],
+  "sha256": "d9e71d3b8b48037d4de3aeedcc39e134b0866243cbc977bf5a698381db484be2"
+ },
+ "mot.demotion.extra5": {
+  "ranges": [
+   [
+    112,
+    210
+   ],
+   [
+    210,
+    783
+   ]
+  ],
+  "sha256": "f5fcb3dc0e41828870de30290e70bea2c312669300e6d8b6164487d6167d070b"
+ },
+ "mot.locomotion.extra6": {
+  "ranges": [
+   [
+    122,
+    400
+   ],
+   [
+    400,
+    943
+   ]
+  ],
+  "sha256": "66cabd59ca8b5c9b67c2e70c5f149fd080e31fd44d5d566e74c52100074ae026"
+ },
+ "mot.motion.1": {
+  "ranges": [
+   [
+    107,
+    330
+   ],
+   [
+    330,
+    728
+   ]
+  ],
+  "sha256": "8a841e387765a09d9a87fec3d90d2ec68032e9cf067b25515116801a602a4c21"
+ },
+ "mot.motionless.2": {
+  "ranges": [
+   [
+    107,
+    580
+   ],
+   [
+    580,
+    898
+   ]
+  ],
+  "sha256": "4f274434ec201ec69e536a0fbcccb72f50a1fdf6dcad887fe26ea0b5becedb40"
+ },
+ "mot.motivate.8": {
+  "ranges": [
+   [
+    117,
+    480
+   ],
+   [
+    480,
+    793
+   ]
+  ],
+  "sha256": "0966add677900354dc55a8bd2df171ec5080d0091bd1510e172b37a9fe5b9005"
+ },
+ "mot.motivated.extra3": {
+  "ranges": [
+   [
+    117,
+    680
+   ],
+   [
+    680,
+    893
+   ]
+  ],
+  "sha256": "7ecaa45fd8272393bb457c52151e5253c0d586401a1d78fcc7e70651429744b5"
+ },
+ "mot.motivation.extra2": {
+  "ranges": [
+   [
+    122,
+    590
+   ],
+   [
+    590,
+    943
+   ]
+  ],
+  "sha256": "96453e86c54d4dd0782772c17d200bc156112ec476e9b8012ad0460dfafd0241"
+ },
+ "mot.motive.7": {
+  "ranges": [
+   [
+    102,
+    450
+   ],
+   [
+    450,
+    738
+   ]
+  ],
+  "sha256": "995fd7a70a71508d83e4a5b5d9313ccd6764e3026a041cb41bf3180abe4a3b77"
+ },
+ "mot.motor.5": {
+  "ranges": [
+   [
+    122,
+    460
+   ],
+   [
+    460,
+    683
+   ]
+  ],
+  "sha256": "a91c1c25ecbde87b9ead3ebceba270e387501e9abfe58f5be441d430e9463616"
+ },
+ "mot.motorist.6": {
+  "ranges": [
+   [
+    112,
+    510
+   ],
+   [
+    510,
+    798
+   ]
+  ],
+  "sha256": "42b9f62c817c167f5fcf030fbabc8be32bd9726a20aa74a2c4bb5208c7477580"
+ },
+ "mot.movement.8": {
+  "ranges": [
+   [
+    122,
+    410
+   ],
+   [
+    410,
+    763
+   ]
+  ],
+  "sha256": "9afee31e866ee6c4912944202580728ff46e9a6b31f360f0e9b9ccb1db1ce665"
+ },
+ "mot.promote.3": {
+  "ranges": [
+   [
+    122,
+    250
+   ],
+   [
+    250,
+    688
+   ]
+  ],
+  "sha256": "448469042d3b42922ab498bb5c4c326439f30166a3b29eb1180ff3538ad1f70a"
+ },
+ "mot.promotion.4": {
+  "ranges": [
+   [
+    102,
+    380
+   ],
+   [
+    380,
+    768
+   ]
+  ],
+  "sha256": "61950fdcf22861fe158bef5506898405d3dbf3288fe08170145bc102d587ada5"
+ },
+ "pack.backpack": {
+  "ranges": [
+   [
+    127,
+    400
+   ],
+   [
+    400,
+    778
+   ]
+  ],
+  "sha256": "ae710d8a46e91132e5b303d959b4710bb903eeb83de4eee4735cc32223093afd"
+ },
+ "pack.unpack": {
+  "ranges": [
+   [
+    112,
+    330
+   ],
+   [
+    330,
+    783
+   ]
+  ],
+  "sha256": "178b18548808b43e002ad5618a0529c891179ff6054f40f16c28d5b226f0d06a"
+ },
+ "pass.day-pass": {
+  "ranges": [
+   [
+    122,
+    340
+   ],
+   [
+    340,
+    783
+   ]
+  ],
+  "sha256": "1c27686add652b80431ef6ddfcf0cf60a8d172cd412370d97533db467849c86f"
+ },
+ "pass.passage": {
+  "ranges": [
+   [
+    122,
+    450
+   ],
+   [
+    450,
+    748
+   ]
+  ],
+  "sha256": "79082b1587a8da19fdcea86cf3c7fe5bc62b62b7b7d0b8813473881d913a5239"
+ },
+ "path.antipathy.7": {
+  "ranges": [
+   [
+    122,
+    410
+   ],
+   [
+    410,
+    848
+   ]
+  ],
+  "sha256": "192b45a37917fa9fc6c4e5cb8378093fc6908a4a16059e9e87c3e73dfc7380d7"
+ },
+ "path.empathy.2": {
+  "ranges": [
+   [
+    122,
+    250
+   ],
+   [
+    250,
+    683
+   ]
+  ],
+  "sha256": "505e18ed9ad277c14e2587c1ab4a33fd0e109ea30357a09e3db5edb3e32c9bb4"
+ },
+ "path.pathogen.extra1": {
+  "ranges": [
+   [
+    117,
+    450
+   ],
+   [
+    450,
+    743
+   ]
+  ],
+  "sha256": "07839049cf3aced04f63b9bb83d2632b3b14e32641012d38ecf55f8d888b2a75"
+ },
+ "path.pathogenesis.extra3": {
+  "ranges": [
+   [
+    127,
+    360
+   ],
+   [
+    360,
+    1003
+   ]
+  ],
+  "sha256": "04ab804d0160a1d47426b2b1ad8509fbd3f7afed84d5d93c3df7e4c842e32c16"
+ },
+ "path.pathogenic.extra2": {
+  "ranges": [
+   [
+    112,
+    590
+   ],
+   [
+    590,
+    778
+   ]
+  ],
+  "sha256": "eee6dc2d48a051abe4d0599cdaf9efdd5093c84d3bf21a0a0602c0296953c8ee"
+ },
+ "path.pathology.5": {
+  "ranges": [
+   [
+    107,
+    390
+   ],
+   [
+    390,
+    788
+   ]
+  ],
+  "sha256": "b072420865f7d1dc36697436c1d4cfee7fde1af7b602e996445d210a344826a0"
+ },
+ "path.psychopath.extra4": {
+  "ranges": [
+   [
+    122,
+    480
+   ],
+   [
+    480,
+    763
+   ]
+  ],
+  "sha256": "c0b6aa68ec199b54417daf225a1b389ad26d48e66b79bc82e55bc8b710a18f18"
+ },
+ "path.psychopathic.extra5": {
+  "ranges": [
+   [
+    112,
+    720
+   ],
+   [
+    720,
+    948
+   ]
+  ],
+  "sha256": "36c88432885df676db10cabdf72f3f03c7b5b7fba172eda209aee1794bcc789b"
+ },
+ "path.sympathy.1": {
+  "ranges": [
+   [
+    117,
+    330
+   ],
+   [
+    330,
+    758
+   ]
+  ],
+  "sha256": "4f88cd14afa6c09c480c82c245233424b33d81e0402b26f86acbfc3ed7879f0d"
+ },
+ "pay.payday": {
+  "ranges": [
+   [
+    102,
+    310
+   ],
+   [
+    310,
+    633
+   ]
+  ],
+  "sha256": "34e91f4e0f3e9461151ca338c784e02217e39affefdc946499b799c6da3c9b2f"
+ },
+ "pay.payment": {
+  "ranges": [
+   [
+    117,
+    300
+   ],
+   [
+    300,
+    638
+   ]
+  ],
+  "sha256": "21ea801be579de4f2c50aea1a540f44bb7ed124000e2022520f67f46c40c1c4c"
+ },
+ "pay.prepaid": {
+  "ranges": [
+   [
+    102,
+    250
+   ],
+   [
+    250,
+    758
+   ]
+  ],
+  "sha256": "a43874c31df164e4d5e0c4f3680eab2dec52350d5c37419b11f93756eec81cd5"
+ },
+ "pay.prepay": {
+  "ranges": [
+   [
+    102,
+    280
+   ],
+   [
+    280,
+    728
+   ]
+  ],
+  "sha256": "1fe55dbf40f8c76d80114b4f2ae3de336a33d036634a31995172309b1d5e7de0"
+ },
+ "pay.repay": {
+  "ranges": [
+   [
+    122,
+    320
+   ],
+   [
+    320,
+    728
+   ]
+  ],
+  "sha256": "f0a08c9ee984bb1c950ce0edccef78f79da1ac89f61d57614c5de43f75dbf6d5"
+ },
+ "pend.append": {
+  "ranges": [
+   [
+    122,
+    210
+   ],
+   [
+    210,
+    653
+   ]
+  ],
+  "sha256": "003c72ef0279e6f95caf999a873c618f5e67d71cfe83532d869892675722a4ee"
+ },
+ "pend.dependable": {
+  "ranges": [
+   [
+    107,
+    540
+   ],
+   [
+    540,
+    863
+   ]
+  ],
+  "sha256": "d837fdce2bd6128caf5e42bc0b0d0868f61d75aa106291ed8ba0f9a67db61735"
+ },
+ "pend.dependence": {
+  "ranges": [
+   [
+    117,
+    540
+   ],
+   [
+    540,
+    888
+   ]
+  ],
+  "sha256": "d9841e0b07dc2d477f8d9d4482314137e93f6a992e6fc4d15ddb1459ae916080"
+ },
+ "pend.independence": {
+  "ranges": [
+   [
+    122,
+    270
+   ],
+   [
+    270,
+    660
+   ],
+   [
+    660,
+    1013
+   ]
+  ],
+  "sha256": "5a773c04d49ac4205c442bdecdb98bc9abeb0b17e68b499eb8f44c9b33eba86b"
+ },
+ "pend.independent": {
+  "ranges": [
+   [
+    467,
+    610
+   ],
+   [
+    610,
+    1283
+   ]
+  ],
+  "sha256": "978b551763713ed3994691da61c12b37ccb6a84d58cb8c9efa5c6c3e2cdf92d3"
+ },
+ "pend.suspend": {
+  "ranges": [
+   [
+    117,
+    370
+   ],
+   [
+    370,
+    823
+   ]
+  ],
+  "sha256": "a7a9a9209dc4a0464c7db4d77847b0ce138be1cddd748a36a10afffebfb79a2f"
+ },
+ "phon.homophone.extra6": {
+  "ranges": [
+   [
+    122,
+    380
+   ],
+   [
+    380,
+    798
+   ]
+  ],
+  "sha256": "10fd326c452c28e7ef95c3a019d5e29a7b76c26a951e7cb7e9d2639eacfb0e0c"
+ },
+ "phon.microphone.3": {
+  "ranges": [
+   [
+    112,
+    470
+   ],
+   [
+    470,
+    873
+   ]
+  ],
+  "sha256": "228d793c830a19033215d2b424a48552a1d237814655fb227b54991d45781ecf"
+ },
+ "phon.phoneme.extra1": {
+  "ranges": [
+   [
+    137,
+    380
+   ],
+   [
+    380,
+    668
+   ]
+  ],
+  "sha256": "dabddda976507bc9175cc761b0a6d8e8883f0c5e72802a635b82619c05f91cdc"
+ },
+ "phon.phonetic.4": {
+  "ranges": [
+   [
+    362,
+    720
+   ],
+   [
+    720,
+    1038
+   ]
+  ],
+  "sha256": "ae4724a4f0944a9090681dc2ee4b265fd9cbb53231e18e8ca429db2d4fb4ed7e"
+ },
+ "phon.phonetics.5": {
+  "ranges": [
+   [
+    147,
+    750
+   ],
+   [
+    750,
+    953
+   ]
+  ],
+  "sha256": "d1740ae3b9a5bb50630d68fe8c6dceb691ccffea1463d79662f23f1922a3fa7e"
+ },
+ "phon.phonics.6": {
+  "ranges": [
+   [
+    157,
+    340
+   ],
+   [
+    340,
+    643
+   ]
+  ],
+  "sha256": "9d6e67177b7dd205a326c360fbef0d746154b0be68e5543f70e335bf79d11a3e"
+ },
+ "phon.phonograph.extra5": {
+  "ranges": [
+   [
+    132,
+    410
+   ],
+   [
+    410,
+    823
+   ]
+  ],
+  "sha256": "89f6d368c30982b22e2a1c16794baa693196bf12b25745c909592931c15dfea2"
+ },
+ "phon.phonological.extra3": {
+  "ranges": [
+   [
+    132,
+    650
+   ],
+   [
+    650,
+    983
+   ]
+  ],
+  "sha256": "f6d06429b911748ff48c01f6e2fd424d6e10085798cdee73228e3962fbe87c88"
+ },
+ "phon.phonologist.extra4": {
+  "ranges": [
+   [
+    132,
+    600
+   ],
+   [
+    600,
+    888
+   ]
+  ],
+  "sha256": "2451ed05c67628bfb10a780d97d814725cbd87936288b914d21c27808114ea5a"
+ },
+ "phon.telephone.2": {
+  "ranges": [
+   [
+    112,
+    350
+   ],
+   [
+    350,
+    758
+   ]
+  ],
+  "sha256": "0e18f1bdb67aab73e14e26d898f896e3cece78e567430f7db2bbb96c19fd55b8"
+ },
+ "plan.planner": {
+  "ranges": [
+   [
+    132,
+    410
+   ],
+   [
+    410,
+    613
+   ]
+  ],
+  "sha256": "61afec617051582d9fc2a8b209d8f6b6f10266f391022dcf3436879cbf9dc9c4"
+ },
+ "plan.planning": {
+  "ranges": [
+   [
+    117,
+    410
+   ],
+   [
+    410,
+    673
+   ]
+  ],
+  "sha256": "ff721aef152857d00b9848a30b87f14bbd75f2723a72e1b02a7725f6a22eadce"
+ },
+ "play.player": {
+  "ranges": [
+   [
+    122,
+    420
+   ],
+   [
+    420,
+    618
+   ]
+  ],
+  "sha256": "fbb09d3d974c0a3de4d6827717929ac3ee2b5ae60ca54af0dab435e60279efb8"
+ },
+ "play.replay": {
+  "ranges": [
+   [
+    122,
+    320
+   ],
+   [
+    320,
+    763
+   ]
+  ],
+  "sha256": "a43e6ee2363a32f31981a9d28fde5be3417015c3e4735ab4fd0df8f94ccf4f0e"
+ },
+ "port.exporter": {
+  "ranges": [
+   [
+    132,
+    570
+   ],
+   [
+    570,
+    818
+   ]
+  ],
+  "sha256": "5fd88e2b319b66ab3b635899431cd920e1bcdd87c7e13dc1b1784879b372ea59"
+ },
+ "port.importer": {
+  "ranges": [
+   [
+    122,
+    540
+   ],
+   [
+    540,
+    763
+   ]
+  ],
+  "sha256": "5d82afbe0450659f731d427a0a8ae2f008e3eb0e54828394d793cf711dc51ed9"
+ },
+ "port.portability": {
+  "ranges": [
+   [
+    127,
+    300
+   ],
+   [
+    300,
+    868
+   ]
+  ],
+  "sha256": "3eec2fd82702929bb7f6f1141e1c5db44012fcb8f58ade037d010ba60a22680e"
+ },
+ "port.transportation": {
+  "ranges": [
+   [
+    107,
+    540
+   ],
+   [
+    540,
+    1023
+   ]
+  ],
+  "sha256": "2ff0a63e7d8bfce709e58ba014ea07fffd447153f1c1bfcfa9b10bfd4af4e6ad"
+ },
+ "press.compress": {
+  "ranges": [
+   [
+    122,
+    280
+   ],
+   [
+    280,
+    798
+   ]
+  ],
+  "sha256": "0cad88391a3ec2bff1dcdce63fafb17a18b913d15e9f56ed4a0b9cca88543342"
+ },
+ "press.compression": {
+  "ranges": [
+   [
+    112,
+    470
+   ],
+   [
+    470,
+    823
+   ]
+  ],
+  "sha256": "725fd56495e2713d0df0c3ba8331bc36d9912d0a1ee4f09dd31c547707c1bedb"
+ },
+ "press.depress": {
+  "ranges": [
+   [
+    117,
+    250
+   ],
+   [
+    250,
+    768
+   ]
+  ],
+  "sha256": "2cf11248ed1819c0215ee9bf5abcd4afa8c7fa5246681b6472603e6a8774b9ab"
+ },
+ "press.depression": {
+  "ranges": [
+   [
+    112,
+    440
+   ],
+   [
+    440,
+    763
+   ]
+  ],
+  "sha256": "c849284020054e8af41d19bb1936bc4230edf2ec59aaa573826562b1a09988ce"
+ },
+ "press.express": {
+  "ranges": [
+   [
+    112,
+    360
+   ],
+   [
+    360,
+    813
+   ]
+  ],
+  "sha256": "a8558253a6641700035663dcd6d23e366bfafb65d2d4c7facc9a3df782039f14"
+ },
+ "press.expression": {
+  "ranges": [
+   [
+    127,
+    490
+   ],
+   [
+    490,
+    853
+   ]
+  ],
+  "sha256": "394fd264437e8dd0ecfa49467f8e36fed6e0f73c622d539cff26aa368d686370"
+ },
+ "press.expressive": {
+  "ranges": [
+   [
+    117,
+    630
+   ],
+   [
+    630,
+    898
+   ]
+  ],
+  "sha256": "60adeefce4f0f895eb2d938f37f349b34aa3322ac686bafe32c416080bbb49c8"
+ },
+ "press.impress": {
+  "ranges": [
+   [
+    122,
+    290
+   ],
+   [
+    290,
+    773
+   ]
+  ],
+  "sha256": "d147516c4221bb1887f95b13642f40d313f4061612f79d706f1b76936c505128"
+ },
+ "press.impression": {
+  "ranges": [
+   [
+    122,
+    470
+   ],
+   [
+    470,
+    858
+   ]
+  ],
+  "sha256": "698ea84f1400b6ee96298c80dc745b91767f52ac5fb49351a6d8c4e67c644069"
+ },
+ "press.impressive": {
+  "ranges": [
+   [
+    122,
+    590
+   ],
+   [
+    590,
+    798
+   ]
+  ],
+  "sha256": "7fc5eeaa29e157385751872dcc66968a4b681e7ac772fd46869a38e5ee626b2a"
+ },
+ "press.pressing": {
+  "ranges": [
+   [
+    122,
+    410
+   ],
+   [
+    410,
+    693
+   ]
+  ],
+  "sha256": "fdeef7ef92fe04db55e9a893d662ebf0ac2edace9655c7f024a4c4a8a1107cb6"
+ },
+ "press.pressure": {
+  "ranges": [
+   [
+    122,
+    430
+   ],
+   [
+    430,
+    678
+   ]
+  ],
+  "sha256": "6e2456c122bf58633284d601c7f9cfa168835437b84e2e9abcbb6344583312f7"
+ },
+ "press.suppress": {
+  "ranges": [
+   [
+    127,
+    260
+   ],
+   [
+    260,
+    753
+   ]
+  ],
+  "sha256": "437e3f43ce9324c7eda2ed9f34e8a11c2f80539fcce55589e4cfb52cf30024f2"
+ },
+ "read.reader": {
+  "ranges": [
+   [
+    117,
+    380
+   ],
+   [
+    380,
+    603
+   ]
+  ],
+  "sha256": "81f29369c3c294ca718119676b997b1f05c63e11c9edfaaf0573618f76315adc"
+ },
+ "read.reread": {
+  "ranges": [
+   [
+    127,
+    290
+   ],
+   [
+    290,
+    683
+   ]
+  ],
+  "sha256": "5fe2e6dd2f22a0d81e7c15d40cc57ba93a6c454c429bf50d7d1b51372bf52e8c"
+ },
+ "room.bathroom": {
+  "ranges": [
+   [
+    112,
+    440
+   ],
+   [
+    440,
+    748
+   ]
+  ],
+  "sha256": "edb8722b104a50fdd3556bc337ac13104caba43bf84cef5b119412da423095ad"
+ },
+ "room.bedroom": {
+  "ranges": [
+   [
+    107,
+    350
+   ],
+   [
+    350,
+    663
+   ]
+  ],
+  "sha256": "aaaf0ae1d2462e7c96ae53257689e86c555833188eb1673516692488966b9413"
+ },
+ "rupt.abrupt": {
+  "ranges": [
+   [
+    137,
+    310
+   ],
+   [
+    310,
+    668
+   ]
+  ],
+  "sha256": "86a73ad4d3571fcc61d4ddfb2536748c00faf83a4934dd2f20052e7e73d04c6f"
+ },
+ "rupt.abruptly": {
+  "ranges": [
+   [
+    117,
+    500
+   ],
+   [
+    500,
+    803
+   ]
+  ],
+  "sha256": "ab440c66e7307188392326a5cbfe7ffcd66e3d790dc33a951c1b7a5af0a4e22c"
+ },
+ "rupt.corruption": {
+  "ranges": [
+   [
+    112,
+    400
+   ],
+   [
+    400,
+    753
+   ]
+  ],
+  "sha256": "038fa73752e5f1f69fe327c2518fb0acd5159e4b73c2886510273bd42cfc173c"
+ },
+ "rupt.disrupt": {
+  "ranges": [
+   [
+    122,
+    310
+   ],
+   [
+    310,
+    678
+   ]
+  ],
+  "sha256": "f7aa5d43ef97a2d4764860c26d4cee8ff338046f81c297420b34dcf41c6256da"
+ },
+ "rupt.disruption": {
+  "ranges": [
+   [
+    112,
+    520
+   ],
+   [
+    520,
+    868
+   ]
+  ],
+  "sha256": "42c86d7d64addc80c342ab3747dee244b17b4a4e826b1900d5e8cd89f794578c"
+ },
+ "rupt.disruptive": {
+  "ranges": [
+   [
+    107,
+    610
+   ],
+   [
+    610,
+    828
+   ]
+  ],
+  "sha256": "996af8f85af7bf25b35738825fc6a1780e9dbbcd6f6a1c41ac520e9656506354"
+ },
+ "rupt.erupt": {
+  "ranges": [
+   [
+    122,
+    230
+   ],
+   [
+    230,
+    708
+   ]
+  ],
+  "sha256": "2de0c0a0514382b5644637ab649fe1a94856f1e59c6299aa5756e0a184aa0198"
+ },
+ "rupt.eruption": {
+  "ranges": [
+   [
+    122,
+    480
+   ],
+   [
+    480,
+    833
+   ]
+  ],
+  "sha256": "cc70453840a8a48c593bbe105c7ddd8bc2f05a41d57e70ac4c5411da317e9a3a"
+ },
+ "rupt.eruptive": {
+  "ranges": [
+   [
+    102,
+    540
+   ],
+   [
+    540,
+    838
+   ]
+  ],
+  "sha256": "ee1731f7c85e79bc5c9f6248a8fd2b32255fff53ebab336d07fe1ff8a590e07e"
+ },
+ "rupt.interrupt": {
+  "ranges": [
+   [
+    132,
+    460
+   ],
+   [
+    460,
+    738
+   ]
+  ],
+  "sha256": "b76811f182cfa42306b9e86940e45a5c2cef6ccd38567c175177a59e72d15df3"
+ },
+ "rupt.interruption": {
+  "ranges": [
+   [
+    122,
+    540
+   ],
+   [
+    540,
+    878
+   ]
+  ],
+  "sha256": "ee76c1d0d3591caa4f0e4c5b40e8926df48a411a68622ebbd74c8aa0fd2971f3"
+ },
+ "scrib.ascribe": {
+  "ranges": [
+   [
+    127,
+    170
+   ],
+   [
+    170,
+    718
+   ]
+  ],
+  "sha256": "aa5e366c20583e3151de91c845b387241535bf7020fe7996ce55491c94350226"
+ },
+ "scrib.describe": {
+  "ranges": [
+   [
+    122,
+    230
+   ],
+   [
+    230,
+    823
+   ]
+  ],
+  "sha256": "088d795a63b6ed0cb4a8699eb6d112135a9bd0686eea5a2ffb3fb5511ded7ec3"
+ },
+ "scrib.description": {
+  "ranges": [
+   [
+    122,
+    230
+   ],
+   [
+    230,
+    520
+   ],
+   [
+    520,
+    873
+   ]
+  ],
+  "sha256": "81d53ba2a22ed10b69e965785c4aeb03f20aa04f43086b3c6130d7afbbefdf52"
+ },
+ "scrib.manuscript": {
+  "ranges": [
+   [
+    127,
+    500
+   ],
+   [
+    500,
+    933
+   ]
+  ],
+  "sha256": "0f90762137a18a7b6c25c17a33638c873cd3127e67b89735e745f50faf9eb500"
+ },
+ "scrib.prescribe": {
+  "ranges": [
+   [
+    127,
+    230
+   ],
+   [
+    230,
+    823
+   ]
+  ],
+  "sha256": "68ddb6f0ffc3187bd1a89159a18dfd44052b0310e19d112dc30a6f71f1edbac5"
+ },
+ "scrib.prescription": {
+  "ranges": [
+   [
+    122,
+    260
+   ],
+   [
+    260,
+    560
+   ],
+   [
+    560,
+    898
+   ]
+  ],
+  "sha256": "20af898a94c92918b9990b29c8805c5f33a2489902d4ca01148d0d5dd66781a8"
+ },
+ "scrib.screenplay": {
+  "ranges": [
+   [
+    112,
+    460
+   ],
+   [
+    460,
+    843
+   ]
+  ],
+  "sha256": "cc78cc211726d977cf45d3b37288a09fb62d453a29c9d4469737bbad54706d73"
+ },
+ "scrib.subscribe": {
+  "ranges": [
+   [
+    122,
+    310
+   ],
+   [
+    310,
+    888
+   ]
+  ],
+  "sha256": "fbf38ec99c86988b81397ae5845fef1103b4e9a6bf48c944245e771090159016"
+ },
+ "scrib.subscription": {
+  "ranges": [
+   [
+    122,
+    330
+   ],
+   [
+    330,
+    610
+   ],
+   [
+    610,
+    953
+   ]
+  ],
+  "sha256": "ca9edc09c688c0d97ac44db1c5c76361db533548019a5d5119e557a14372338e"
+ },
+ "scrib.transcribe": {
+  "ranges": [
+   [
+    112,
+    360
+   ],
+   [
+    360,
+    888
+   ]
+  ],
+  "sha256": "2f805f72b2245fbed93e86ab027b81bf549afe88c6e2054af4c6fac7f953f062"
+ },
+ "scrib.transcript": {
+  "ranges": [
+   [
+    117,
+    440
+   ],
+   [
+    440,
+    863
+   ]
+  ],
+  "sha256": "e4043d7bfce6ac1d210fb4041835a4985ef03160642b8a47611f0a0c1619065d"
+ },
+ "sense.export.goods": {
+  "ranges": [
+   [
+    112,
+    360
+   ],
+   [
+    360,
+    733
+   ]
+  ],
+  "sha256": "bc0a4b1a3c7bcea04e59913076d69ae10f838c00049a17c0a7458807d5cf3c8d"
+ },
+ "sense.import.goods": {
+  "ranges": [
+   [
+    117,
+    280
+   ],
+   [
+    280,
+    738
+   ]
+  ],
+  "sha256": "ba80d6191267552cd3b91cae94b96e0fd8ec170f050ad4364c28b5683bb9acdb"
+ },
+ "sense.portable.easy-carry": {
+  "ranges": [
+   [
+    117,
+    360
+   ],
+   [
+    360,
+    688
+   ]
+  ],
+  "sha256": "dca935d85399295ba0859cab6046f440d7163e7f45d641004b7051db66a9835b"
+ },
+ "sense.transport.carry": {
+  "ranges": [
+   [
+    107,
+    430
+   ],
+   [
+    430,
+    823
+   ]
+  ],
+  "sha256": "c8957efbf96a2f3efefa8ff42ca3ef0946e2527cd2408d994013a8c84144b933"
+ },
+ "serve.server": {
+  "ranges": [
+   [
+    127,
+    430
+   ],
+   [
+    430,
+    653
+   ]
+  ],
+  "sha256": "f9060ab920e59f665d4fa4374e514ff6aa9b406a71f7f363820d3c2cf68e78f3"
+ },
+ "serve.serving": {
+  "ranges": [
+   [
+    117,
+    430
+   ],
+   [
+    430,
+    688
+   ]
+  ],
+  "sha256": "3b5dcf6d129ae3abf60fdb45b57a045ab6b787f9ffb53889adad5bb504bd3e4d"
+ },
+ "shop.shopper": {
+  "ranges": [
+   [
+    117,
+    450
+   ],
+   [
+    450,
+    678
+   ]
+  ],
+  "sha256": "21c934cee6ca38442e7ed423c616404dc1efa01d451bd2130e18d5cf1262ccaf"
+ },
+ "shop.shopping-bag": {
+  "ranges": [
+   [
+    117,
+    570
+   ],
+   [
+    570,
+    908
+   ]
+  ],
+  "sha256": "4e29d06a728ea97e7b17771108dbd08e996efd51288f2ba1fcc38299b86176ba"
+ },
+ "sign.signature.4": {
+  "ranges": [
+   [
+    112,
+    390
+   ],
+   [
+    390,
+    763
+   ]
+  ],
+  "sha256": "9321adaaa84b124d9d9b81585af0e5383a98816085e5919354d10435ec3288fe"
+ },
+ "sign.significantly.10": {
+  "ranges": [
+   [
+    112,
+    780
+   ],
+   [
+    780,
+    1038
+   ]
+  ],
+  "sha256": "9ec225e4f08241d7d176674d796c5996820485f03c63c9b65436390e523b9986"
+ },
+ "sign.signify.6": {
+  "ranges": [
+   [
+    112,
+    400
+   ],
+   [
+    400,
+    828
+   ]
+  ],
+  "sha256": "0c96d3ef3324602da1a47af732fefd91be63efee163f3121bc57b05de6b7d284"
+ },
+ "spect.aspect": {
+  "ranges": [
+   [
+    122,
+    310
+   ],
+   [
+    310,
+    763
+   ]
+  ],
+  "sha256": "39d71ac318de7ed663bf131282375365076dd9f5c7f733d3a383a1722f47f37e"
+ },
+ "spect.inspect": {
+  "ranges": [
+   [
+    117,
+    310
+   ],
+   [
+    310,
+    788
+   ]
+  ],
+  "sha256": "5a5813fcbb90afebf9aee38a20b420e9ddd2e104db1dd84f48add9acffaa5450"
+ },
+ "spect.inspection": {
+  "ranges": [
+   [
+    117,
+    570
+   ],
+   [
+    570,
+    893
+   ]
+  ],
+  "sha256": "81205ed57d2f7ee3ae364f0d951ca894ec63eacd78ecf90a2f217e4420bc92de"
+ },
+ "spect.prospect": {
+  "ranges": [
+   [
+    117,
+    330
+   ],
+   [
+    330,
+    783
+   ]
+  ],
+  "sha256": "9efce377f69bc570cb7f8f01e861fcf5e8844d8c72fb5e431daa69b6804dc302"
+ },
+ "spect.respectful": {
+  "ranges": [
+   [
+    122,
+    610
+   ],
+   [
+    610,
+    903
+   ]
+  ],
+  "sha256": "295a1810eb5a7e4feb8e3a86ab204161dca960b7068e79661e35ac7d68211bd7"
+ },
+ "spect.retrospect": {
+  "ranges": [
+   [
+    122,
+    450
+   ],
+   [
+    450,
+    903
+   ]
+  ],
+  "sha256": "93d1154f751b9270b2a7049d3208092db0650257e8182cd80559e2a6c97cb8a4"
+ },
+ "spect.spectator": {
+  "ranges": [
+   [
+    117,
+    470
+   ],
+   [
+    470,
+    863
+   ]
+  ],
+  "sha256": "e421e3da5f46c0a1f2c3ea52bc85dc9b59a2dc83e39533fa2bd659787f790fee"
+ },
+ "stop.bus-stop": {
+  "ranges": [
+   [
+    122,
+    360
+   ],
+   [
+    360,
+    813
+   ]
+  ],
+  "sha256": "4da7dca9784daf581f9afe6c5a388c1ea81c6fddebc900b2b601a56e4355b377"
+ },
+ "stop.nonstop": {
+  "ranges": [
+   [
+    122,
+    400
+   ],
+   [
+    400,
+    843
+   ]
+  ],
+  "sha256": "b38f97f63e00bf5e3b1446f6b0612bfbd305bc884403ae5a0a9aaf42ef455021"
+ },
+ "struct.construct": {
+  "ranges": [
+   [
+    112,
+    280
+   ],
+   [
+    280,
+    788
+   ]
+  ],
+  "sha256": "27db86214ed7b1539b0e5d6e4d5b5b86c7bad472d344a950111807e21a2f93fc"
+ },
+ "struct.construction": {
+  "ranges": [
+   [
+    107,
+    580
+   ],
+   [
+    580,
+    908
+   ]
+  ],
+  "sha256": "b68a504a1149440ba2fe35e5b943d9ea0c8456d8fed6175ed9c0f21ef92caba8"
+ },
+ "struct.constructive": {
+  "ranges": [
+   [
+    107,
+    630
+   ],
+   [
+    630,
+    853
+   ]
+  ],
+  "sha256": "9b99d73005e2fdbe4e23879f9a9af801c7e654a87212e6903a7b8ee5719f997d"
+ },
+ "struct.infrastructure": {
+  "ranges": [
+   [
+    117,
+    400
+   ],
+   [
+    400,
+    993
+   ]
+  ],
+  "sha256": "a0541106960fe6791d9fa8bf424114493ce88760207a31e63a19d5759fb37640"
+ },
+ "struct.instruct": {
+  "ranges": [
+   [
+    112,
+    300
+   ],
+   [
+    300,
+    813
+   ]
+  ],
+  "sha256": "9b66e4400bbc7d0454457673f33aa4df4387d3839d0d83d5c01b687fa44aad7f"
+ },
+ "struct.instruction": {
+  "ranges": [
+   [
+    102,
+    570
+   ],
+   [
+    570,
+    843
+   ]
+  ],
+  "sha256": "f3b687556528ebe617fa020f11d8dc3545d14abd61d5e3915f4f3163c649d37a"
+ },
+ "struct.instructor": {
+  "ranges": [
+   [
+    107,
+    660
+   ],
+   [
+    660,
+    883
+   ]
+  ],
+  "sha256": "b89502ddfc3766db3a88f901c443c569bcd063d4e39b79e60223d725dc034a22"
+ },
+ "struct.obstruct": {
+  "ranges": [
+   [
+    177,
+    300
+   ],
+   [
+    300,
+    873
+   ]
+  ],
+  "sha256": "bc415b7dee408f1b1c6d172abf1b6a3e4d4d698770f81fcd4be54fc2ebce2d7d"
+ },
+ "struct.obstruction": {
+  "ranges": [
+   [
+    112,
+    550
+   ],
+   [
+    550,
+    838
+   ]
+  ],
+  "sha256": "a60abd1a0fc0ed70a2f2efb819e5c337d457a9587ee077ec32d4f444a5127620"
+ },
+ "struct.reconstruct": {
+  "ranges": [
+   [
+    127,
+    330
+   ],
+   [
+    330,
+    983
+   ]
+  ],
+  "sha256": "1559253bea0a7d52f9c70119fcce12df30948abd6cdff8bfadd3bc4b305a4303"
+ },
+ "struct.restructure": {
+  "ranges": [
+   [
+    107,
+    270
+   ],
+   [
+    270,
+    883
+   ]
+  ],
+  "sha256": "ea7e26a454cb7fe258d46570c42287e65542e19468e1bf462005cecf88888c3d"
+ },
+ "struct.structural": {
+  "ranges": [
+   [
+    117,
+    620
+   ],
+   [
+    620,
+    803
+   ]
+  ],
+  "sha256": "3c37c88be024ad2541a7465cca1e480aaaa70d9b227728e0973146fafecd8638"
+ },
+ "struct.structure": {
+  "ranges": [
+   [
+    127,
+    460
+   ],
+   [
+    460,
+    743
+   ]
+  ],
+  "sha256": "657a94822315fc5fba1d295ca0325bb1c2b31d2727e40a849556550acc072c17"
+ },
+ "ten.attend.7": {
+  "ranges": [
+   [
+    127,
+    220
+   ],
+   [
+    220,
+    663
+   ]
+  ],
+  "sha256": "d7fc11573e24183241295f9060c404b483f38c9d0e2d02c282e3cbabb573ea2d"
+ },
+ "ten.attention.8": {
+  "ranges": [
+   [
+    122,
+    460
+   ],
+   [
+    460,
+    828
+   ]
+  ],
+  "sha256": "f5d82bb8f35b1d683902d58c3a22cc3ba080432867376d2426d0fde2d2aba29a"
+ },
+ "ten.contend.extra4": {
+  "ranges": [
+   [
+    117,
+    300
+   ],
+   [
+    300,
+    758
+   ]
+  ],
+  "sha256": "a6f8ecf757405f745fea5d256f2bc27c0ea57e70ece378a8456b4f21f4a68cae"
+ },
+ "ten.contender.extra6": {
+  "ranges": [
+   [
+    122,
+    560
+   ],
+   [
+    560,
+    743
+   ]
+  ],
+  "sha256": "136b9dec585ae58767a5df09871a0c44e7c48216e03d52a7724c0a6ecc20d1f5"
+ },
+ "ten.contention.extra5": {
+  "ranges": [
+   [
+    117,
+    530
+   ],
+   [
+    530,
+    873
+   ]
+  ],
+  "sha256": "77e3df550ae29554b149188e84a85d991efdc9ee5bd757e0830906e26b64edad"
+ },
+ "ten.extend.1": {
+  "ranges": [
+   [
+    117,
+    360
+   ],
+   [
+    360,
+    753
+   ]
+  ],
+  "sha256": "f5622cdd6bf2fceef15d550143e911fa5698091610c9d094b56e5576c40783b6"
+ },
+ "ten.extendable.3": {
+  "ranges": [
+   [
+    127,
+    590
+   ],
+   [
+    590,
+    893
+   ]
+  ],
+  "sha256": "d255fc1f9047c9fa514e9f84257aae49fa11a19c4c1ad210d9ed741163d37424"
+ },
+ "ten.extension.2": {
+  "ranges": [
+   [
+    117,
+    530
+   ],
+   [
+    530,
+    888
+   ]
+  ],
+  "sha256": "35e12b523f1749b5656e3c1adab9726cd1aa8e85bb0173569b361e2b2bcbcce6"
+ },
+ "ten.intend.4": {
+  "ranges": [
+   [
+    107,
+    290
+   ],
+   [
+    290,
+    738
+   ]
+  ],
+  "sha256": "21fb0a2ff31ab9e035ba7f9de0c115f42b7a18e86c203d233d3180328da95475"
+ },
+ "ten.intention.5": {
+  "ranges": [
+   [
+    112,
+    480
+   ],
+   [
+    480,
+    828
+   ]
+  ],
+  "sha256": "d3b251be6181c69976db4a832c49af97ccaa6c412b027f1fb5cfffea5cabd209"
+ },
+ "ten.tendency.extra2": {
+  "ranges": [
+   [
+    117,
+    340
+   ],
+   [
+    340,
+    808
+   ]
+  ],
+  "sha256": "6f554eb24eb1dec1dc898acb374653f99d17c8298ccb974b62dc2cafb35a0bc6"
+ },
+ "time.bedtime": {
+  "ranges": [
+   [
+    122,
+    380
+   ],
+   [
+    380,
+    793
+   ]
+  ],
+  "sha256": "e154788f2135de9b1d01ae567f8e41f5a8422d86444359581a09e6c6dc0ab22c"
+ },
+ "time.timetable": {
+  "ranges": [
+   [
+    112,
+    350
+   ],
+   [
+    350,
+    768
+   ]
+  ],
+  "sha256": "7f1a5162985154db95287053ca147439a037fadd9ddede5c91ce8be46a3216a6"
+ },
+ "tract.abstract": {
+  "ranges": [
+   [
+    122,
+    410
+   ],
+   [
+    410,
+    798
+   ]
+  ],
+  "sha256": "24cb520c10df9106bb67112acff4542a24f8ea830d719c7d9672f1685d684ad4"
+ },
+ "tract.attract": {
+  "ranges": [
+   [
+    122,
+    230
+   ],
+   [
+    230,
+    723
+   ]
+  ],
+  "sha256": "c4b8bec6acd363aba14115ac8df43235b6e50667b00d937feb3b09ad61457016"
+ },
+ "tract.attraction": {
+  "ranges": [
+   [
+    117,
+    530
+   ],
+   [
+    530,
+    808
+   ]
+  ],
+  "sha256": "4ac010499d3313bc1743315d7016c475634c8c8d629a029f67021f8488fd2dcb"
+ },
+ "tract.attractive": {
+  "ranges": [
+   [
+    117,
+    590
+   ],
+   [
+    590,
+    858
+   ]
+  ],
+  "sha256": "528007f3f980e65bcfc356cf6e902b2dcbc425eb347e95b4ae8ca20551722a6b"
+ },
+ "tract.contract": {
+  "ranges": [
+   [
+    112,
+    280
+   ],
+   [
+    280,
+    773
+   ]
+  ],
+  "sha256": "83ea0cc5088a7e3ace133395d06dc0d5b073f3fb4b0bd3f1395239e58771a0fd"
+ },
+ "tract.contract.agreement": {
+  "ranges": [
+   [
+    127,
+    380
+   ],
+   [
+    380,
+    813
+   ]
+  ],
+  "sha256": "760646c93c6680d72486657eb6fa54e9e49fc509dc513e6ed1f8327b9419ba63"
+ },
+ "tract.distract": {
+  "ranges": [
+   [
+    132,
+    360
+   ],
+   [
+    360,
+    813
+   ]
+  ],
+  "sha256": "f3657f84251955822403d71d19af1200952adb64747c471dbb89614b54e3b0b7"
+ },
+ "tract.distraction": {
+  "ranges": [
+   [
+    122,
+    590
+   ],
+   [
+    590,
+    883
+   ]
+  ],
+  "sha256": "7e888413a0166e786a2596c0ec6a033df20c86e3e22b0009a0f517e6c10b091c"
+ },
+ "tract.extract": {
+  "ranges": [
+   [
+    122,
+    350
+   ],
+   [
+    350,
+    763
+   ]
+  ],
+  "sha256": "a3434867817def955af3299ec0da86c889c7301417ecb8d3a122caa4954bb28b"
+ },
+ "tract.extraction": {
+  "ranges": [
+   [
+    112,
+    570
+   ],
+   [
+    570,
+    873
+   ]
+  ],
+  "sha256": "165a2e2c3c0035464f72a8cf7de727443e23dab35ea5772389abf98d945caa9b"
+ },
+ "tract.retract": {
+  "ranges": [
+   [
+    117,
+    290
+   ],
+   [
+    290,
+    773
+   ]
+  ],
+  "sha256": "c6dc32851b7876d3ada671c8b43b9feef0091cf98960c309bb423f055c6ea20e"
+ },
+ "tract.subtract": {
+  "ranges": [
+   [
+    122,
+    330
+   ],
+   [
+    330,
+    823
+   ]
+  ],
+  "sha256": "72bdc431a49a8ec5f8d1c3f343fc003412c46632aab5da9e85303c68903727fe"
+ },
+ "tract.traction": {
+  "ranges": [
+   [
+    122,
+    400
+   ],
+   [
+    400,
+    703
+   ]
+  ],
+  "sha256": "2d43fbaacb1d12eee54db83675a9b66836f65f878f1cec180cea40d74e2a7d6f"
+ },
+ "tract.tractor": {
+  "ranges": [
+   [
+    117,
+    500
+   ],
+   [
+    500,
+    738
+   ]
+  ],
+  "sha256": "79bbfa70fb394c78333e2f916adb4fc55bc6d61380e9629a9893edb72ae90c06"
+ },
+ "travel.travel-bag": {
+  "ranges": [
+   [
+    107,
+    510
+   ],
+   [
+    510,
+    888
+   ]
+  ],
+  "sha256": "68523d350c75963130978d2a08c53313f5edc975f84f1caeddbd6fcb458df8d4"
+ },
+ "travel.traveler": {
+  "ranges": [
+   [
+    102,
+    520
+   ],
+   [
+    520,
+    663
+   ]
+  ],
+  "sha256": "df052b1527704770c3dcc4a24e2718e6c8a305d00990f4bb54ebe984cf149bd8"
+ },
+ "use.reuse": {
+  "ranges": [
+   [
+    127,
+    300
+   ],
+   [
+    300,
+    743
+   ]
+  ],
+  "sha256": "170cbf1c686921ca5c9914890184c57a320c95d8a21654930d9f0eb5c0510700"
+ },
+ "use.useful": {
+  "ranges": [
+   [
+    122,
+    460
+   ],
+   [
+    460,
+    748
+   ]
+  ],
+  "sha256": "21029527ce3dd706b9f5fb2ffde2ba8940112aa2a67bddb9a593e63d8a96312e"
+ },
+ "vers.converse.extra4": {
+  "ranges": [
+   [
+    117,
+    290
+   ],
+   [
+    290,
+    768
+   ]
+  ],
+  "sha256": "4cb27e0d3c845800f6a219966bd05ce6f74ae5770a06a4100449afa4ef5f4089"
+ },
+ "vers.conversion.7": {
+  "ranges": [
+   [
+    112,
+    490
+   ],
+   [
+    490,
+    803
+   ]
+  ],
+  "sha256": "c3351ec879352ffd798c79cb27bbec13034c3fd6a14c9d59fafedd68c273008d"
+ },
+ "vers.diverse.extra5": {
+  "ranges": [
+   [
+    127,
+    280
+   ],
+   [
+    280,
+    788
+   ]
+  ],
+  "sha256": "cbb7f78add0c7d4db08348e528ccf9ace60b48258726c68afd86327a454976f4"
+ },
+ "vers.irreversible.extra3": {
+  "ranges": [
+   [
+    117,
+    200
+   ],
+   [
+    200,
+    903
+   ]
+  ],
+  "sha256": "465bb37430b05d56fc13ec4bc6c01dd5524c1ca0f7105c66277d99fc7c61f10c"
+ },
+ "vers.reversal.extra2": {
+  "ranges": [
+   [
+    122,
+    560
+   ],
+   [
+    560,
+    768
+   ]
+  ],
+  "sha256": "15de44621215a8d15bb04fb07a6618f0cf1cd49ead1030cb1e012f9d9c823954"
+ },
+ "vers.reversible.extra1": {
+  "ranges": [
+   [
+    122,
+    570
+   ],
+   [
+    570,
+    853
+   ]
+  ],
+  "sha256": "b8ef8592ad2a6cb1ba99d69466ad77ad489ab726baa41826f719379928402d22"
+ },
+ "vers.version.6": {
+  "ranges": [
+   [
+    127,
+    460
+   ],
+   [
+    460,
+    663
+   ]
+  ],
+  "sha256": "99fff5219b92c53b3d9d2106814f25853c4869abacfacbae526d1de48934c36e"
+ },
+ "vis.invisible.3": {
+  "ranges": [
+   [
+    122,
+    310
+   ],
+   [
+    310,
+    808
+   ]
+  ],
+  "sha256": "bc2002a08d5e5313296e9a50c0088dcfe32e5e8f8123b23deca9c99575869e8d"
+ },
+ "vis.preview.extra3": {
+  "ranges": [
+   [
+    117,
+    340
+   ],
+   [
+    340,
+    713
+   ]
+  ],
+  "sha256": "081dce77b7a725f8884330de3f68308639b4e59fc478f482f01cd8eb48edccea"
+ },
+ "vis.preview.extra4": {
+  "ranges": [
+   [
+    117,
+    340
+   ],
+   [
+    340,
+    713
+   ]
+  ],
+  "sha256": "081dce77b7a725f8884330de3f68308639b4e59fc478f482f01cd8eb48edccea"
+ },
+ "vis.review.extra5": {
+  "ranges": [
+   [
+    122,
+    330
+   ],
+   [
+    330,
+    733
+   ]
+  ],
+  "sha256": "68dfa8f8e53730a8d950f13347f02bafa118d79317d19d11ba819503892810f2"
+ },
+ "vis.review.extra6": {
+  "ranges": [
+   [
+    122,
+    330
+   ],
+   [
+    330,
+    733
+   ]
+  ],
+  "sha256": "68dfa8f8e53730a8d950f13347f02bafa118d79317d19d11ba819503892810f2"
+ },
+ "vis.revise.extra1": {
+  "ranges": [
+   [
+    112,
+    230
+   ],
+   [
+    230,
+    748
+   ]
+  ],
+  "sha256": "5a0df71e22c93e3158547157aea7e4faf40f264a39bfea13d54ed49bc5450148"
+ },
+ "vis.revision.extra2": {
+  "ranges": [
+   [
+    122,
+    390
+   ],
+   [
+    390,
+    753
+   ]
+  ],
+  "sha256": "0a8bf0a731ce0a7e4b60c13aeca64ec5da92d1ebfed70fcd0ab9e1d35ffeb319"
+ },
+ "vis.supervise.7": {
+  "ranges": [
+   [
+    117,
+    420
+   ],
+   [
+    420,
+    873
+   ]
+  ],
+  "sha256": "43f621ce6897e06d2a29a05d81fd8acdeb59b61939067f228b4af4d73ca63052"
+ },
+ "vis.supervisor.8": {
+  "ranges": [
+   [
+    127,
+    720
+   ],
+   [
+    720,
+    883
+   ]
+  ],
+  "sha256": "1065675b50d10302102468ac6d589982b1a0cca4829b3f25dbc00313925631a1"
+ },
+ "vis.visible.2": {
+  "ranges": [
+   [
+    112,
+    370
+   ],
+   [
+    370,
+    678
+   ]
+  ],
+  "sha256": "9aa417ceb34e3f5eee2f496eeb50a7b4f1c2033dbe91be75b7927d49d8fc46fd"
+ },
+ "vis.vision.1": {
+  "ranges": [
+   [
+    127,
+    410
+   ],
+   [
+    410,
+    618
+   ]
+  ],
+  "sha256": "56abed6500bc0e28b08f96209210f453584850e68100ed9ceffecca412050405"
+ },
+ "vis.visual.4": {
+  "ranges": [
+   [
+    122,
+    400
+   ],
+   [
+    400,
+    658
+   ]
+  ],
+  "sha256": "bae82305525c409aa99f4b7909ca8d362b48748239602b956edda54c3160eb3f"
+ },
+ "vis.visualize.5": {
+  "ranges": [
+   [
+    122,
+    530
+   ],
+   [
+    530,
+    888
+   ]
+  ],
+  "sha256": "744bc2b1da7d4b3d72ce57d5abe037623efc109d0e1b288cf43051ab184c2182"
+ },
+ "vis.visually.6": {
+  "ranges": [
+   [
+    117,
+    480
+   ],
+   [
+    480,
+    733
+   ]
+  ],
+  "sha256": "aac115831e237497b14696210447b36a64e61fba66363e676bc4aa37110829a5"
+ },
+ "voc.advocate.7": {
+  "ranges": [
+   [
+    122,
+    360
+   ],
+   [
+    360,
+    560
+   ],
+   [
+    560,
+    798
+   ]
+  ],
+  "sha256": "eb13e13edd18d177e0bb382122906e0b5387844287542ec692bacb49a3914177"
+ },
+ "voc.invocation.8": {
+  "ranges": [
+   [
+    107,
+    460
+   ],
+   [
+    460,
+    943
+   ]
+  ],
+  "sha256": "b246c0ba0e037fff7b6374ee51b6fb3819e5e69999e74ec3057015cc1e309cdc"
+ },
+ "voc.invoke.8": {
+  "ranges": [
+   [
+    122,
+    310
+   ],
+   [
+    310,
+    718
+   ]
+  ],
+  "sha256": "bd5cca5bcf689227706697605d3270d78e29169c20058cb47a71d35340aadfd0"
+ },
+ "voc.vocal.2": {
+  "ranges": [
+   [
+    122,
+    420
+   ],
+   [
+    420,
+    673
+   ]
+  ],
+  "sha256": "65f3dbac0a2c944058523875ef77aeb9932752421b40d79271c115c6e11de004"
+ },
+ "voc.vocalization.extra2": {
+  "ranges": [
+   [
+    122,
+    570
+   ],
+   [
+    570,
+    1023
+   ]
+  ],
+  "sha256": "86d8afa41ef2d8fad4b3bc7c59dc598baa9338fc2db17f35c717aa1944c075b7"
+ },
+ "voc.vocalize.3": {
+  "ranges": [
+   [
+    102,
+    480
+   ],
+   [
+    480,
+    863
+   ]
+  ],
+  "sha256": "8489d009a497c2254e9b8dd0bc7b11651fee38f0ba5160d691bea2d37b3b8788"
+ },
+ "voc.vocational.6": {
+  "ranges": [
+   [
+    112,
+    680
+   ],
+   [
+    680,
+    848
+   ]
+  ],
+  "sha256": "b5d705f398d85e5e3a2bcdeb8fe8a0d972b3de554feca1bd6886711e0c2877b0"
+ },
+ "voc.vociferously.extra6": {
+  "ranges": [
+   [
+    187,
+    870
+   ],
+   [
+    870,
+    1198
+   ]
+  ],
+  "sha256": "4d9990f4d15d70812f5b77bdbc09d2e79aa7b0fa7cbd742ad75abb29387e28dc"
+ },
+ "wash.dishwasher": {
+  "ranges": [
+   [
+    107,
+    360
+   ],
+   [
+    360,
+    813
+   ]
+  ],
+  "sha256": "6b4a89ab3f4a19000ca44b494eee70796cc3338331bf25571026884924114315"
+ },
+ "wash.washer": {
+  "ranges": [
+   [
+    122,
+    460
+   ],
+   [
+    460,
+    688
+   ]
+  ],
+  "sha256": "a26e1683828b82b1c14e5b553409ae10132adae8aa9f15e9aead2ec642260b6a"
+ },
+ "work.worker": {
+  "ranges": [
+   [
+    122,
+    460
+   ],
+   [
+    460,
+    698
+   ]
+  ],
+  "sha256": "0a1c3b337fe1e59a3aae525153bcf49c7adc04ab2672f3a29cd7df014ee44501"
+ },
+ "work.workplace": {
+  "ranges": [
+   [
+    117,
+    430
+   ],
+   [
+    430,
+    888
+   ]
+  ],
+  "sha256": "ecb85a23b51eaecab63db796bc89ed619885a443b4f20dcd321f469cda780c67"
+ },
+ "write.rewrite": {
+  "ranges": [
+   [
+    127,
+    340
+   ],
+   [
+    340,
+    733
+   ]
+  ],
+  "sha256": "4d176951f710c6e66453f4e3823cb29841c070b435bae4d8547f10d08642e849"
+ },
+ "write.writer": {
+  "ranges": [
+   [
+    122,
+    420
+   ],
+   [
+    420,
+    603
+   ]
+  ],
+  "sha256": "3de23d968b1f754870e6268a138a8c22c931e84f8ce0ef5f1f3ca9db53ff43f2"
+ }
+}

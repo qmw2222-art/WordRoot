@@ -7,6 +7,7 @@ struct RootView: View {
     @State private var speaker = SpeechPlayer()
     @State private var tab: Tab = .course
     @State private var requestedWord: String?
+    @Query private var courseRecords: [CourseDayRecord]
 
     let studyDefaults: UserDefaults
 
@@ -17,28 +18,28 @@ struct RootView: View {
     var body: some View {
         switch Lexicon.bundled {
         case .success(let lexicon):
+            let course = (try? DailyCourse.bundled.get())?.preservingLegacyRecords(Set(courseRecords.map(\.day)))
             TabView(selection: $tab) {
                 Group {
-                    switch DailyCourse.bundled {
-                    case .success(let course):
+                    if let course {
                         CourseView(course: course, lexicon: lexicon, studyDefaults: studyDefaults) { id in
                             requestedWord = id
                             tab = .map
                         }
-                    case .failure:
+                    } else {
                         ContentUnavailableView("无法载入课程", systemImage: "book",
                                                description: Text("应用内的课程文件缺失或损坏。"))
                     }
                 }
                 .tabItem { Label("课程", systemImage: "book") }
                 .tag(Tab.course)
-                FamilyMapView(lexicon: lexicon, course: try? DailyCourse.bundled.get(), requestedWord: $requestedWord)
+                FamilyMapView(lexicon: lexicon, course: course, requestedWord: $requestedWord)
                     .tabItem { Label("地图", systemImage: "map") }
                     .tag(Tab.map)
-                HistoryView(lexicon: lexicon)
+                HistoryView(lexicon: lexicon, course: course)
                     .tabItem { Label("记录", systemImage: "chart.bar.xaxis") }
                     .tag(Tab.history)
-                NavigationStack { DataSettingsView() }
+                NavigationStack { DataSettingsView(studyDefaults: studyDefaults) }
                     .tabItem { Label("设置", systemImage: "gearshape") }
                     .tag(Tab.settings)
             }
@@ -58,14 +59,15 @@ private struct HistoryView: View {
     @Query(sort: \LearningAttemptRecord.answeredAt, order: .reverse) private var records: [LearningAttemptRecord]
     @Query(sort: \CourseDayRecord.updatedAt, order: .reverse) private var lessons: [CourseDayRecord]
     let lexicon: Lexicon
+    let course: DailyCourse?
 
     var body: some View {
         NavigationStack {
             List {
-                if case .success(let course) = DailyCourse.bundled, !lessons.isEmpty {
+                if let course, !lessons.isEmpty {
                     Section("课程进度") {
                         ForEach(lessons) { record in
-                            if let day = course[record.day - CourseDay.recordOffset] {
+                            if let day = course.day(forRecord: record.day) {
                                 VStack(alignment: .leading, spacing: 5) {
                                     Text("第 \(day.id) 天 · \(day.title)").font(.headline)
                                     Text(record.isFinished(in: day) ? "已完成" : "学习中")

@@ -8,6 +8,7 @@ final class MnemonicCourseTests: XCTestCase {
         super.setUp()
         continueAfterFailure = false
         app = XCUIApplication()
+        app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "port-start-v24"
         app.launchEnvironment["WORDROOT_UI_TEST_RUN"] = UUID().uuidString
         app.launch()
     }
@@ -92,7 +93,7 @@ final class MnemonicCourseTests: XCTestCase {
     func testEntireFourteenEntryFamilyCanBeLearnedInSequence() async throws {
         try await usePurchasedCourse()
         tap("course.phase.daily")
-        tap("course.day.18")
+        tap("course.day.19")
         tap("course.family.all")
         let expected = ["audio","audible","audience","audition","audibility","auditory","inaudible","audiobook","auditor","audit","audition","audiovisual","audiology","audiologist"]
         for (index, headword) in expected.enumerated() {

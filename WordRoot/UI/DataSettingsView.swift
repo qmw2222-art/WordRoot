@@ -24,6 +24,7 @@ struct DataSettingsView: View {
     @Environment(\.modelContext) private var context
     @Environment(SubscriptionService.self) private var subscription
     @Environment(SpeechPlayer.self) private var speaker
+    let studyDefaults: UserDefaults
     @State private var document: SnapshotDocument?
     @State private var exporting = false
     @State private var importing = false
@@ -37,8 +38,8 @@ struct DataSettingsView: View {
         Form {
             Section("英语发音") {
                 Text("Heart · 美式女声").accessibilityIdentifier("settings.voice")
-                Text("点音标旁的喇叭，就能在当前页听到这个词。老师用 Heart 美式女声讲解。").font(.footnote)
-                NavigationLink("整词录音来源与许可") { WordAudioSources() }
+                Text("单词、词根、例句和听音卡都由 Heart 朗读。点音标旁的喇叭，可以再听一遍。").font(.footnote)
+                NavigationLink("朗读声音") { WordAudioSources() }
                 SpeechButton(id: SpeechPlayer.auditionID,
                              text: "Hello. It’s nice to meet you. How are you today?",
                              label: "试听声音", identifier: SpeechPlayer.auditionID)
@@ -92,7 +93,7 @@ struct DataSettingsView: View {
 
     private func export() {
         do {
-            document = SnapshotDocument(data: try BackupService.export(from: context))
+            document = SnapshotDocument(data: try BackupService.export(from: context, defaults: studyDefaults))
             exporting = true
         } catch {
             message = "无法生成备份。"
@@ -103,12 +104,12 @@ struct DataSettingsView: View {
         guard let pendingRestore else { return }
         defer { self.pendingRestore = nil }
         do {
-            let before = try BackupService.export(from: context)
+            let before = try BackupService.export(from: context, defaults: studyDefaults)
             let directory = try FileManager.default.url(
                 for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true
             )
             try before.write(to: directory.appendingPathComponent("WordRoot-BeforeRestore.json"), options: .atomic)
-            try BackupService.restore(pendingRestore, into: context)
+            try BackupService.restore(pendingRestore, into: context, defaults: studyDefaults)
             message = "已恢复学习记录。"
             Task { await subscription.refresh() }
         } catch {
@@ -121,7 +122,9 @@ struct DataSettingsView: View {
             try context.fetch(FetchDescriptor<LearningAttemptRecord>()).forEach(context.delete)
             try context.fetch(FetchDescriptor<ReviewCardRecord>()).forEach(context.delete)
             try context.fetch(FetchDescriptor<CourseDayRecord>()).forEach(context.delete)
+            try context.fetch(FetchDescriptor<FamilyPracticeRecord>()).forEach(context.delete)
             try context.save()
+            BackupService.replaceFamilyCursors(with: [:], defaults: studyDefaults)
             message = "已删除本机学习记录。"
             Task { await subscription.refresh() }
         } catch {

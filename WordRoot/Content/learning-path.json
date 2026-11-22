@@ -1,0 +1,3497 @@
+[
+  {
+    "unit": 4,
+    "basicIDs": [
+      "basic.i",
+      "basic.water",
+      "basic.no",
+      "basic.some",
+      "basic.have",
+      "basic.get",
+      "basic.ice",
+      "basic.cold",
+      "basic.may",
+      "basic.glass",
+      "basic.bottle",
+      "basic.out",
+      "basic.please"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "drink.drink",
+          "basic.i"
+        ],
+        "translation": "我喝水。",
+        "pieces": [
+          {
+            "text": "I",
+            "meaning": "我"
+          },
+          {
+            "text": "drink",
+            "meaning": "喝"
+          },
+          {
+            "text": "water.",
+            "meaning": "水"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "drink.drinking-water"
+        ],
+        "translation": "这是饮用水。",
+        "pieces": [
+          {
+            "text": "This is",
+            "meaning": "这是"
+          },
+          {
+            "text": "drinking water.",
+            "meaning": "饮用水"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "drink.drinkable",
+          "basic.water"
+        ],
+        "translation": "这水能喝吗？",
+        "pieces": [
+          {
+            "text": "Is this water",
+            "meaning": "这水"
+          },
+          {
+            "text": "drinkable?",
+            "meaning": "能喝吗"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.some",
+          "basic.have",
+          "basic.may"
+        ],
+        "translation": "我可以喝点水吗？",
+        "pieces": [
+          {
+            "text": "May I have",
+            "meaning": "我可以喝"
+          },
+          {
+            "text": "some water?",
+            "meaning": "一些水吗"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.get",
+          "basic.ice"
+        ],
+        "translation": "我可以拿些冰块吗？",
+        "pieces": [
+          {
+            "text": "Can I get",
+            "meaning": "我可以拿"
+          },
+          {
+            "text": "some ice?",
+            "meaning": "一些冰块吗"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.no"
+        ],
+        "translation": "不加冰，谢谢。",
+        "pieces": [
+          {
+            "text": "No ice,",
+            "meaning": "不加冰"
+          },
+          {
+            "text": "please.",
+            "meaning": "谢谢"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.cold"
+        ],
+        "translation": "水是凉的。",
+        "pieces": [
+          {
+            "text": "The water",
+            "meaning": "这水"
+          },
+          {
+            "text": "is cold.",
+            "meaning": "是凉的"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.glass",
+          "basic.please"
+        ],
+        "translation": "请给我一个玻璃杯。",
+        "pieces": [
+          {
+            "text": "A glass,",
+            "meaning": "一个玻璃杯"
+          },
+          {
+            "text": "please.",
+            "meaning": "麻烦了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.bottle"
+        ],
+        "translation": "这个瓶子空了。",
+        "pieces": [
+          {
+            "text": "This bottle",
+            "meaning": "这个瓶子"
+          },
+          {
+            "text": "is empty.",
+            "meaning": "是空的"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.out"
+        ],
+        "translation": "我们的水用完了。",
+        "pieces": [
+          {
+            "text": "We're out of",
+            "meaning": "我们用完了"
+          },
+          {
+            "text": "water.",
+            "meaning": "水"
+          }
+        ]
+      }
+    ],
+    "previousDay": 3,
+    "previousBasicIDs": [
+      "basic.water",
+      "basic.no",
+      "basic.some",
+      "basic.have",
+      "basic.get",
+      "basic.ice",
+      "basic.cold",
+      "basic.may",
+      "basic.glass",
+      "basic.bottle",
+      "basic.out",
+      "basic.please"
+    ],
+    "previousFamilyIDs": [
+      "drink.drink",
+      "drink.drinking-water",
+      "drink.drinkable"
+    ],
+    "familyIDs": [
+      "drink.drink",
+      "drink.drinkable",
+      "drink.drinking-water"
+    ]
+  },
+  {
+    "unit": 8,
+    "basicIDs": [
+      "basic.need",
+      "basic.yes",
+      "basic.go",
+      "basic.to",
+      "basic.again",
+      "basic.little",
+      "basic.box",
+      "basic.help",
+      "basic.please"
+    ],
+    "familyIDs": [
+      "help.help",
+      "help.helper",
+      "help.helpful",
+      "help.helpless",
+      "help.help-desk",
+      "help.self-help"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "help.help",
+          "basic.box"
+        ],
+        "translation": "帮我抬一下这个箱子。",
+        "pieces": [
+          {
+            "text": "Help me",
+            "meaning": "帮我"
+          },
+          {
+            "text": "lift",
+            "meaning": "抬起"
+          },
+          {
+            "text": "this box.",
+            "meaning": "这个箱子"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "help.helper"
+        ],
+        "translation": "我需要一个帮手。",
+        "pieces": [
+          {
+            "text": "I need",
+            "meaning": "我需要"
+          },
+          {
+            "text": "a helper.",
+            "meaning": "一个帮手"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "help.helpful"
+        ],
+        "translation": "这张地图很有用。",
+        "pieces": [
+          {
+            "text": "This map",
+            "meaning": "这张地图"
+          },
+          {
+            "text": "is helpful.",
+            "meaning": "很有用"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "help.helpless"
+        ],
+        "translation": "我觉得自己很无助。",
+        "pieces": [
+          {
+            "text": "I feel",
+            "meaning": "我觉得自己"
+          },
+          {
+            "text": "helpless.",
+            "meaning": "很无助"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "help.help-desk",
+          "basic.go",
+          "basic.to"
+        ],
+        "translation": "去服务台吧。",
+        "pieces": [
+          {
+            "text": "Go to",
+            "meaning": "去"
+          },
+          {
+            "text": "the help desk.",
+            "meaning": "服务台"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "help.self-help"
+        ],
+        "translation": "这是一本自助书。",
+        "pieces": [
+          {
+            "text": "It's",
+            "meaning": "这是"
+          },
+          {
+            "text": "a self-help book.",
+            "meaning": "一本自助书"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.need",
+          "basic.little",
+          "basic.help"
+        ],
+        "translation": "我需要一点帮助。",
+        "pieces": [
+          {
+            "text": "I need",
+            "meaning": "我需要"
+          },
+          {
+            "text": "a little help.",
+            "meaning": "一点帮助"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.yes"
+        ],
+        "translation": "好的，麻烦了。",
+        "pieces": [
+          {
+            "text": "Yes,",
+            "meaning": "好的"
+          },
+          {
+            "text": "please.",
+            "meaning": "麻烦了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.again",
+          "basic.please"
+        ],
+        "translation": "请再说一遍。",
+        "pieces": [
+          {
+            "text": "Please",
+            "meaning": "请"
+          },
+          {
+            "text": "say it",
+            "meaning": "说这句话"
+          },
+          {
+            "text": "again.",
+            "meaning": "再一次"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "unit": 5,
+    "basicIDs": [
+      "basic.food",
+      "basic.rice",
+      "basic.here",
+      "basic.not",
+      "basic.good",
+      "basic.and",
+      "basic.or",
+      "basic.fish",
+      "basic.meat",
+      "basic.soup",
+      "basic.potato",
+      "basic.water"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "eat.eat",
+          "basic.rice"
+        ],
+        "translation": "我每天都吃米饭。",
+        "pieces": [
+          {
+            "text": "I eat",
+            "meaning": "我吃"
+          },
+          {
+            "text": "rice",
+            "meaning": "米饭"
+          },
+          {
+            "text": "every day.",
+            "meaning": "每天"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "eat.eater"
+        ],
+        "translation": "我吃东西很慢。",
+        "pieces": [
+          {
+            "text": "I'm",
+            "meaning": "我是"
+          },
+          {
+            "text": "a slow eater.",
+            "meaning": "吃东西慢的人"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "eat.eat-out"
+        ],
+        "translation": "我们出去吃吧。",
+        "pieces": [
+          {
+            "text": "Let's",
+            "meaning": "咱们来"
+          },
+          {
+            "text": "eat out.",
+            "meaning": "出去吃饭"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.food",
+          "basic.good"
+        ],
+        "translation": "食物很好吃。",
+        "pieces": [
+          {
+            "text": "The food",
+            "meaning": "这些食物"
+          },
+          {
+            "text": "is good.",
+            "meaning": "很好吃"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.here"
+        ],
+        "translation": "我们在这里吃。",
+        "pieces": [
+          {
+            "text": "We eat",
+            "meaning": "我们吃饭"
+          },
+          {
+            "text": "here.",
+            "meaning": "在这里"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.not"
+        ],
+        "translation": "我不饿。",
+        "pieces": [
+          {
+            "text": "I'm not",
+            "meaning": "我不"
+          },
+          {
+            "text": "hungry.",
+            "meaning": "饿"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.fish",
+          "basic.and"
+        ],
+        "translation": "来份鱼和米饭，谢谢。",
+        "pieces": [
+          {
+            "text": "Fish",
+            "meaning": "鱼"
+          },
+          {
+            "text": "and rice,",
+            "meaning": "和米饭"
+          },
+          {
+            "text": "please.",
+            "meaning": "麻烦了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.or",
+          "basic.soup"
+        ],
+        "translation": "要汤还是水？",
+        "pieces": [
+          {
+            "text": "Soup",
+            "meaning": "汤"
+          },
+          {
+            "text": "or water?",
+            "meaning": "还是水"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.meat"
+        ],
+        "translation": "我不吃肉。",
+        "pieces": [
+          {
+            "text": "I don't eat",
+            "meaning": "我不吃"
+          },
+          {
+            "text": "meat.",
+            "meaning": "肉"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.potato"
+        ],
+        "translation": "请给我一个土豆。",
+        "pieces": [
+          {
+            "text": "One potato,",
+            "meaning": "一个土豆"
+          },
+          {
+            "text": "please.",
+            "meaning": "麻烦了"
+          }
+        ]
+      }
+    ],
+    "previousDay": 4
+  },
+  {
+    "unit": 9,
+    "basicIDs": [
+      "basic.where",
+      "basic.market",
+      "basic.store",
+      "basic.near",
+      "basic.from",
+      "basic.price",
+      "basic.cheap",
+      "basic.apple",
+      "basic.orange",
+      "basic.basket",
+      "basic.berry",
+      "basic.this"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "shop.shop"
+        ],
+        "translation": "我在这儿买东西。",
+        "pieces": [
+          {
+            "text": "I shop",
+            "meaning": "我买东西"
+          },
+          {
+            "text": "here.",
+            "meaning": "在这里"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "shop.shopper"
+        ],
+        "translation": "那位顾客需要帮忙。",
+        "pieces": [
+          {
+            "text": "The shopper",
+            "meaning": "那位顾客"
+          },
+          {
+            "text": "needs help.",
+            "meaning": "需要帮忙"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "shop.shopping-bag"
+        ],
+        "translation": "我需要一个购物袋。",
+        "pieces": [
+          {
+            "text": "I need",
+            "meaning": "我需要"
+          },
+          {
+            "text": "a shopping bag.",
+            "meaning": "一个购物袋"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.where",
+          "basic.market"
+        ],
+        "translation": "市场在哪里？",
+        "pieces": [
+          {
+            "text": "Where is",
+            "meaning": "在哪里"
+          },
+          {
+            "text": "the market?",
+            "meaning": "市场"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.store",
+          "basic.near"
+        ],
+        "translation": "商店就在这附近。",
+        "pieces": [
+          {
+            "text": "The store",
+            "meaning": "商店"
+          },
+          {
+            "text": "is near here.",
+            "meaning": "就在这附近"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.from",
+          "basic.apple"
+        ],
+        "translation": "这些苹果来自中国。",
+        "pieces": [
+          {
+            "text": "These apples",
+            "meaning": "这些苹果"
+          },
+          {
+            "text": "are from",
+            "meaning": "来自"
+          },
+          {
+            "text": "China.",
+            "meaning": "中国"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.price"
+        ],
+        "translation": "价格很高。",
+        "pieces": [
+          {
+            "text": "The price",
+            "meaning": "价格"
+          },
+          {
+            "text": "is high.",
+            "meaning": "很高"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.cheap",
+          "basic.this"
+        ],
+        "translation": "这个很便宜。",
+        "pieces": [
+          {
+            "text": "This one",
+            "meaning": "这个"
+          },
+          {
+            "text": "is cheap.",
+            "meaning": "很便宜"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.orange"
+        ],
+        "translation": "请给我一个橙子。",
+        "pieces": [
+          {
+            "text": "One orange,",
+            "meaning": "一个橙子"
+          },
+          {
+            "text": "please.",
+            "meaning": "麻烦了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.basket"
+        ],
+        "translation": "拿个篮子吧。",
+        "pieces": [
+          {
+            "text": "Take",
+            "meaning": "拿"
+          },
+          {
+            "text": "a basket.",
+            "meaning": "一个篮子"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.berry"
+        ],
+        "translation": "这颗浆果很甜。",
+        "pieces": [
+          {
+            "text": "This berry",
+            "meaning": "这颗浆果"
+          },
+          {
+            "text": "is sweet.",
+            "meaning": "很甜"
+          }
+        ]
+      }
+    ],
+    "previousDay": 5
+  },
+  {
+    "unit": 10,
+    "basicIDs": [
+      "basic.how",
+      "basic.much",
+      "basic.money",
+      "basic.card",
+      "basic.do",
+      "basic.receipt",
+      "basic.keep",
+      "basic.price"
+    ],
+    "familyIDs": [
+      "pay.pay",
+      "pay.payment",
+      "pay.repay",
+      "pay.payday",
+      "pay.prepay",
+      "pay.prepaid"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "pay.pay",
+          "basic.card"
+        ],
+        "translation": "我可以刷卡吗？",
+        "pieces": [
+          {
+            "text": "Can I pay",
+            "meaning": "我可以付款吗"
+          },
+          {
+            "text": "by card?",
+            "meaning": "用卡"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "pay.payment"
+        ],
+        "translation": "我收到了你的付款。",
+        "pieces": [
+          {
+            "text": "I got",
+            "meaning": "我收到了"
+          },
+          {
+            "text": "your payment.",
+            "meaning": "你付的钱"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "pay.payday"
+        ],
+        "translation": "今天是发薪日。",
+        "pieces": [
+          {
+            "text": "Today",
+            "meaning": "今天"
+          },
+          {
+            "text": "is payday.",
+            "meaning": "是发薪日"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "pay.prepay"
+        ],
+        "translation": "我可以预付吗？",
+        "pieces": [
+          {
+            "text": "Can I",
+            "meaning": "我可以"
+          },
+          {
+            "text": "prepay?",
+            "meaning": "预先付款吗"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "pay.prepaid"
+        ],
+        "translation": "这是一张预付卡。",
+        "pieces": [
+          {
+            "text": "It's",
+            "meaning": "这是"
+          },
+          {
+            "text": "a prepaid card.",
+            "meaning": "一张预付卡"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "pay.repay"
+        ],
+        "translation": "我明天还你钱。",
+        "pieces": [
+          {
+            "text": "I'll repay you",
+            "meaning": "我会还你钱"
+          },
+          {
+            "text": "tomorrow.",
+            "meaning": "明天"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.how",
+          "basic.much"
+        ],
+        "translation": "这个多少钱？",
+        "pieces": [
+          {
+            "text": "How much",
+            "meaning": "多少钱"
+          },
+          {
+            "text": "is this?",
+            "meaning": "这个东西"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.keep",
+          "basic.receipt"
+        ],
+        "translation": "请留好收据。",
+        "pieces": [
+          {
+            "text": "Keep",
+            "meaning": "留好"
+          },
+          {
+            "text": "the receipt,",
+            "meaning": "这张收据"
+          },
+          {
+            "text": "please.",
+            "meaning": "麻烦了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.money"
+        ],
+        "translation": "这是你的钱。",
+        "pieces": [
+          {
+            "text": "Here's",
+            "meaning": "这是"
+          },
+          {
+            "text": "your money.",
+            "meaning": "你的钱"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.do"
+        ],
+        "translation": "我可以做什么？",
+        "pieces": [
+          {
+            "text": "What",
+            "meaning": "什么"
+          },
+          {
+            "text": "can I do?",
+            "meaning": "我可以做"
+          }
+        ]
+      }
+    ],
+    "previousDay": 6
+  },
+  {
+    "unit": 2,
+    "basicIDs": [
+      "basic.egg",
+      "basic.a",
+      "basic.in",
+      "basic.put",
+      "basic.cook",
+      "basic.make",
+      "basic.pot",
+      "basic.bread",
+      "basic.oven",
+      "basic.heat",
+      "basic.kettle",
+      "basic.be",
+      "basic.rice"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "cook.cook",
+          "basic.egg"
+        ],
+        "translation": "我会煮鸡蛋。",
+        "pieces": [
+          {
+            "text": "I can cook",
+            "meaning": "我会煮"
+          },
+          {
+            "text": "an egg.",
+            "meaning": "一个鸡蛋"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "cook.cooker"
+        ],
+        "translation": "这是电饭锅。",
+        "pieces": [
+          {
+            "text": "This is",
+            "meaning": "这是"
+          },
+          {
+            "text": "a rice cooker.",
+            "meaning": "一个电饭锅"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "cook.cookbook"
+        ],
+        "translation": "打开这本食谱吧。",
+        "pieces": [
+          {
+            "text": "Open",
+            "meaning": "打开"
+          },
+          {
+            "text": "the cookbook.",
+            "meaning": "这本食谱"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.cook"
+        ],
+        "translation": "她是一名厨师。",
+        "pieces": [
+          {
+            "text": "She's",
+            "meaning": "她是"
+          },
+          {
+            "text": "a cook.",
+            "meaning": "一名厨师"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.a",
+          "basic.pot",
+          "basic.in",
+          "basic.put"
+        ],
+        "translation": "把一个鸡蛋放进锅里。",
+        "pieces": [
+          {
+            "text": "Put",
+            "meaning": "放"
+          },
+          {
+            "text": "an egg",
+            "meaning": "一个鸡蛋"
+          },
+          {
+            "text": "in the pot.",
+            "meaning": "进锅里"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.make",
+          "basic.bread"
+        ],
+        "translation": "我们做面包。",
+        "pieces": [
+          {
+            "text": "We make",
+            "meaning": "我们做"
+          },
+          {
+            "text": "bread.",
+            "meaning": "面包"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.oven"
+        ],
+        "translation": "烤箱热了。",
+        "pieces": [
+          {
+            "text": "The oven",
+            "meaning": "烤箱"
+          },
+          {
+            "text": "is hot.",
+            "meaning": "热了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.heat"
+        ],
+        "translation": "火会散发热量。",
+        "pieces": [
+          {
+            "text": "Fire",
+            "meaning": "火"
+          },
+          {
+            "text": "gives off",
+            "meaning": "散发"
+          },
+          {
+            "text": "heat.",
+            "meaning": "热量"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.kettle"
+        ],
+        "translation": "水壶热了。",
+        "pieces": [
+          {
+            "text": "The kettle",
+            "meaning": "水壶"
+          },
+          {
+            "text": "is hot.",
+            "meaning": "热了"
+          }
+        ]
+      }
+    ],
+    "previousDay": 7
+  },
+  {
+    "unit": 3,
+    "basicIDs": [
+      "basic.wash",
+      "basic.soap",
+      "basic.with",
+      "basic.under",
+      "basic.basin",
+      "basic.brush",
+      "basic.dry",
+      "basic.wet",
+      "basic.water"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "wash.wash",
+          "basic.wash",
+          "basic.with",
+          "basic.soap"
+        ],
+        "translation": "用肥皂洗手。",
+        "pieces": [
+          {
+            "text": "Wash",
+            "meaning": "清洗"
+          },
+          {
+            "text": "your hands",
+            "meaning": "你的双手"
+          },
+          {
+            "text": "with soap.",
+            "meaning": "用肥皂"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "wash.washer"
+        ],
+        "translation": "洗衣机装满了。",
+        "pieces": [
+          {
+            "text": "The washer",
+            "meaning": "洗衣机"
+          },
+          {
+            "text": "is full.",
+            "meaning": "装满了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "wash.dishwasher"
+        ],
+        "translation": "把洗碗机打开。",
+        "pieces": [
+          {
+            "text": "Open",
+            "meaning": "打开"
+          },
+          {
+            "text": "the dishwasher.",
+            "meaning": "洗碗机"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.under",
+          "basic.basin"
+        ],
+        "translation": "肥皂在洗手盆下面。",
+        "pieces": [
+          {
+            "text": "The soap",
+            "meaning": "肥皂"
+          },
+          {
+            "text": "is under",
+            "meaning": "在……下面"
+          },
+          {
+            "text": "the basin.",
+            "meaning": "洗手盆"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.brush"
+        ],
+        "translation": "用这把刷子。",
+        "pieces": [
+          {
+            "text": "Use",
+            "meaning": "用"
+          },
+          {
+            "text": "this brush.",
+            "meaning": "这把刷子"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.dry"
+        ],
+        "translation": "我的手干了。",
+        "pieces": [
+          {
+            "text": "My hands",
+            "meaning": "我的手"
+          },
+          {
+            "text": "are dry.",
+            "meaning": "干了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.wet"
+        ],
+        "translation": "我的手湿了。",
+        "pieces": [
+          {
+            "text": "My hands",
+            "meaning": "我的手"
+          },
+          {
+            "text": "are wet.",
+            "meaning": "湿了"
+          }
+        ]
+      }
+    ],
+    "previousDay": 8
+  },
+  {
+    "unit": 6,
+    "basicIDs": [
+      "basic.book",
+      "basic.the",
+      "basic.say",
+      "basic.reading",
+      "basic.page",
+      "basic.library",
+      "basic.about",
+      "basic.why",
+      "basic.end",
+      "basic.slow",
+      "basic.again"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "read.read",
+          "basic.book"
+        ],
+        "translation": "请读这本书。",
+        "pieces": [
+          {
+            "text": "Please read",
+            "meaning": "请读"
+          },
+          {
+            "text": "this book.",
+            "meaning": "这本书"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "read.reader"
+        ],
+        "translation": "她读书很快。",
+        "pieces": [
+          {
+            "text": "She's",
+            "meaning": "她是"
+          },
+          {
+            "text": "a fast reader.",
+            "meaning": "读书很快的人"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "read.reread"
+        ],
+        "translation": "请重读这一行。",
+        "pieces": [
+          {
+            "text": "Please reread",
+            "meaning": "请重读"
+          },
+          {
+            "text": "this line.",
+            "meaning": "这一行"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.say",
+          "basic.again"
+        ],
+        "translation": "请再说一遍。",
+        "pieces": [
+          {
+            "text": "Please",
+            "meaning": "请"
+          },
+          {
+            "text": "say it",
+            "meaning": "说这句话"
+          },
+          {
+            "text": "again.",
+            "meaning": "再一次"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.page",
+          "basic.the"
+        ],
+        "translation": "请翻页。",
+        "pieces": [
+          {
+            "text": "Turn",
+            "meaning": "翻动"
+          },
+          {
+            "text": "the page.",
+            "meaning": "这一页"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.reading"
+        ],
+        "translation": "我喜欢阅读。",
+        "pieces": [
+          {
+            "text": "I like",
+            "meaning": "我喜欢"
+          },
+          {
+            "text": "reading.",
+            "meaning": "阅读"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.library"
+        ],
+        "translation": "图书馆在哪里？",
+        "pieces": [
+          {
+            "text": "Where is",
+            "meaning": "在哪里"
+          },
+          {
+            "text": "the library?",
+            "meaning": "图书馆"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.about"
+        ],
+        "translation": "这本书讲的是猫。",
+        "pieces": [
+          {
+            "text": "It's about",
+            "meaning": "它讲的是"
+          },
+          {
+            "text": "cats.",
+            "meaning": "猫"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.why"
+        ],
+        "translation": "你为什么喜欢它？",
+        "pieces": [
+          {
+            "text": "Why",
+            "meaning": "为什么"
+          },
+          {
+            "text": "do you like it?",
+            "meaning": "你喜欢它"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.end"
+        ],
+        "translation": "这就是结尾。",
+        "pieces": [
+          {
+            "text": "This is",
+            "meaning": "这就是"
+          },
+          {
+            "text": "the end.",
+            "meaning": "结尾"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.slow"
+        ],
+        "translation": "我读得慢。",
+        "pieces": [
+          {
+            "text": "I'm",
+            "meaning": "我是"
+          },
+          {
+            "text": "a slow reader.",
+            "meaning": "读书慢的人"
+          }
+        ]
+      }
+    ],
+    "previousDay": 9
+  },
+  {
+    "unit": 7,
+    "basicIDs": [
+      "basic.play",
+      "basic.music",
+      "basic.on",
+      "basic.see",
+      "basic.ever",
+      "basic.seem",
+      "basic.so",
+      "basic.bad",
+      "basic.together",
+      "basic.ball",
+      "basic.again"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "play.play",
+          "basic.together"
+        ],
+        "translation": "我们一起玩吧。",
+        "pieces": [
+          {
+            "text": "Let's play",
+            "meaning": "我们来玩吧"
+          },
+          {
+            "text": "together.",
+            "meaning": "一起"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "play.player"
+        ],
+        "translation": "她是网球运动员。",
+        "pieces": [
+          {
+            "text": "She's",
+            "meaning": "她是"
+          },
+          {
+            "text": "a tennis player.",
+            "meaning": "一名网球运动员"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "play.replay"
+        ],
+        "translation": "请重放这首歌。",
+        "pieces": [
+          {
+            "text": "Please replay",
+            "meaning": "请重放"
+          },
+          {
+            "text": "the song.",
+            "meaning": "这首歌"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.play"
+        ],
+        "translation": "这出戏很短。",
+        "pieces": [
+          {
+            "text": "The play",
+            "meaning": "这出戏"
+          },
+          {
+            "text": "is short.",
+            "meaning": "很短"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.music",
+          "basic.again"
+        ],
+        "translation": "请再放一遍音乐。",
+        "pieces": [
+          {
+            "text": "Play",
+            "meaning": "播放"
+          },
+          {
+            "text": "the music",
+            "meaning": "音乐"
+          },
+          {
+            "text": "again.",
+            "meaning": "再一次"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.on",
+          "basic.ball"
+        ],
+        "translation": "球在桌子上。",
+        "pieces": [
+          {
+            "text": "The ball",
+            "meaning": "球"
+          },
+          {
+            "text": "is on",
+            "meaning": "在……上"
+          },
+          {
+            "text": "the table.",
+            "meaning": "桌子"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.see"
+        ],
+        "translation": "我能看见球。",
+        "pieces": [
+          {
+            "text": "I can see",
+            "meaning": "我能看见"
+          },
+          {
+            "text": "the ball.",
+            "meaning": "那个球"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.so",
+          "basic.bad"
+        ],
+        "translation": "这个声音太难听了。",
+        "pieces": [
+          {
+            "text": "It sounds",
+            "meaning": "它听起来"
+          },
+          {
+            "text": "so bad.",
+            "meaning": "太差了"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.seem"
+        ],
+        "translation": "你看起来很开心。",
+        "pieces": [
+          {
+            "text": "You seem",
+            "meaning": "你看起来"
+          },
+          {
+            "text": "happy.",
+            "meaning": "很开心"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.ever"
+        ],
+        "translation": "你玩过吗？",
+        "pieces": [
+          {
+            "text": "Have you ever",
+            "meaning": "你曾经"
+          },
+          {
+            "text": "played?",
+            "meaning": "玩过吗"
+          }
+        ]
+      }
+    ],
+    "previousDay": 10
+  },
+  {
+    "unit": 1,
+    "basicIDs": [
+      "basic.i",
+      "basic.take",
+      "basic.this",
+      "basic.bag",
+      "basic.you",
+      "basic.please",
+      "basic.give",
+      "basic.of",
+      "basic.small"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "sense.import.goods"
+        ],
+        "translation": "我们进口茶叶。",
+        "pieces": [
+          {
+            "text": "We",
+            "meaning": "我们"
+          },
+          {
+            "text": "import",
+            "meaning": "进口"
+          },
+          {
+            "text": "tea.",
+            "meaning": "茶叶"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "sense.export.goods"
+        ],
+        "translation": "我们出口茶叶。",
+        "pieces": [
+          {
+            "text": "We",
+            "meaning": "我们"
+          },
+          {
+            "text": "export",
+            "meaning": "出口"
+          },
+          {
+            "text": "tea.",
+            "meaning": "茶叶"
+          }
+        ],
+        "reading": "We [export](/ɛkspˈɔɹt/) tea."
+      },
+      {
+        "ids": [
+          "sense.transport.carry"
+        ],
+        "translation": "我们运送茶叶。",
+        "pieces": [
+          {
+            "text": "We",
+            "meaning": "我们"
+          },
+          {
+            "text": "transport",
+            "meaning": "运送"
+          },
+          {
+            "text": "tea.",
+            "meaning": "茶叶"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "port.exporter"
+        ],
+        "translation": "我是出口商。",
+        "pieces": [
+          {
+            "text": "I'm",
+            "meaning": "我是"
+          },
+          {
+            "text": "an exporter.",
+            "meaning": "一名出口商"
+          }
+        ],
+        "reading": "I'm an [exporter](/ɪkspˈɔɹtəɹ/)."
+      },
+      {
+        "ids": [
+          "port.importer"
+        ],
+        "translation": "我是进口商。",
+        "pieces": [
+          {
+            "text": "I'm",
+            "meaning": "我是"
+          },
+          {
+            "text": "an importer.",
+            "meaning": "一名进口商"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "port.transportation"
+        ],
+        "translation": "运输需要时间。",
+        "pieces": [
+          {
+            "text": "Transportation",
+            "meaning": "运输"
+          },
+          {
+            "text": "takes time.",
+            "meaning": "需要时间"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "port.portability"
+        ],
+        "translation": "我喜欢它方便携带。",
+        "pieces": [
+          {
+            "text": "I like",
+            "meaning": "我喜欢"
+          },
+          {
+            "text": "its portability.",
+            "meaning": "它便于携带这一点"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.give",
+          "basic.please"
+        ],
+        "translation": "请把这个给我。",
+        "pieces": [
+          {
+            "text": "Please",
+            "meaning": "请"
+          },
+          {
+            "text": "give me",
+            "meaning": "给我"
+          },
+          {
+            "text": "this.",
+            "meaning": "这个"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.small"
+        ],
+        "translation": "这个包很小。",
+        "pieces": [
+          {
+            "text": "This bag",
+            "meaning": "这个包"
+          },
+          {
+            "text": "is small.",
+            "meaning": "很小"
+          }
+        ]
+      }
+    ],
+    "previousDay": 1
+  },
+  {
+    "unit": 11,
+    "basicIDs": [
+      "basic.name",
+      "basic.first",
+      "basic.pen",
+      "basic.number",
+      "basic.paper",
+      "basic.level",
+      "basic.general",
+      "basic.degree"
+    ],
+    "familyIDs": [
+      "form.form.0",
+      "form.format",
+      "form.formal",
+      "form.inform",
+      "form.information",
+      "form.transform",
+      "form.transformation",
+      "form.reform"
+    ]
+  },
+  {
+    "unit": 23,
+    "basicIDs": [
+      "basic.letter",
+      "basic.pencil",
+      "basic.wrong",
+      "basic.same",
+      "basic.paste",
+      "basic.sticky",
+      "basic.scissors",
+      "basic.such",
+      "basic.delicate",
+      "basic.chalk"
+    ]
+  },
+  {
+    "unit": 16,
+    "basicIDs": [
+      "basic.house",
+      "basic.family",
+      "basic.mother",
+      "basic.father",
+      "basic.living",
+      "basic.brother",
+      "basic.sister",
+      "basic.cat",
+      "basic.dog",
+      "basic.tail",
+      "basic.boy",
+      "basic.girl",
+      "basic.kiss",
+      "basic.hair",
+      "basic.dear"
+    ]
+  },
+  {
+    "unit": 58,
+    "basicIDs": [
+      "basic.bed",
+      "basic.bath",
+      "basic.quiet",
+      "basic.curtain",
+      "basic.cushion",
+      "basic.linen",
+      "basic.match",
+      "basic.flame",
+      "basic.fire",
+      "basic.smoke",
+      "basic.burn",
+      "basic.rest",
+      "basic.dark"
+    ]
+  },
+  {
+    "unit": 15,
+    "basicIDs": [
+      "basic.dirty",
+      "basic.floor",
+      "basic.bucket",
+      "basic.sponge",
+      "basic.dust",
+      "basic.cloth",
+      "basic.shelf",
+      "basic.polish",
+      "basic.wax",
+      "basic.smell",
+      "basic.drain",
+      "basic.pipe",
+      "basic.rub",
+      "basic.rough",
+      "basic.drop",
+      "basic.liquid"
+    ]
+  },
+  {
+    "unit": 24,
+    "basicIDs": [
+      "basic.morning",
+      "basic.when",
+      "basic.early",
+      "basic.late",
+      "basic.week",
+      "basic.every",
+      "basic.tomorrow",
+      "basic.yesterday",
+      "basic.sleep",
+      "basic.normal"
+    ]
+  },
+  {
+    "unit": 25,
+    "basicIDs": [
+      "basic.hour",
+      "basic.minute",
+      "basic.at",
+      "basic.before",
+      "basic.after",
+      "basic.clock",
+      "basic.run",
+      "basic.swim",
+      "basic.up",
+      "basic.past",
+      "basic.till"
+    ]
+  },
+  {
+    "unit": 17,
+    "basicIDs": [
+      "basic.trouble",
+      "basic.well",
+      "basic.still",
+      "basic.sound"
+    ],
+    "familyIDs": [
+      "phon.phone.1",
+      "phon.telephone.2",
+      "phon.microphone.3",
+      "phon.homophone.extra6",
+      "phon.phonics.6",
+      "phon.phonetic.4",
+      "phon.phonetics.5",
+      "phon.phoneme.extra1",
+      "phon.symphony.7",
+      "phon.phonograph.extra5",
+      "phon.phonology.extra2",
+      "phon.phonological.extra3",
+      "phon.phonologist.extra4",
+      "phon.euphonious.8"
+    ]
+  },
+  {
+    "unit": 18,
+    "basicIDs": [
+      "basic.while",
+      "basic.noise",
+      "basic.among",
+      "basic.hearing"
+    ],
+    "familyIDs": [
+      "aud.audio.1",
+      "aud.audiobook.8",
+      "aud.audiovisual.extra4",
+      "aud.audible.1",
+      "aud.inaudible.6",
+      "aud.audibility.3",
+      "aud.auditory.6",
+      "aud.audience.4",
+      "aud.audition.5",
+      "aud.audition.extra3",
+      "aud.audit.9",
+      "aud.auditor.extra1",
+      "aud.audiology.extra5",
+      "aud.audiologist.extra6"
+    ]
+  },
+  {
+    "unit": 28,
+    "basicIDs": [
+      "basic.use",
+      "basic.thing",
+      "basic.metal",
+      "basic.other",
+      "basic.waste",
+      "basic.only",
+      "basic.wood",
+      "basic.material",
+      "basic.hollow",
+      "basic.bent"
+    ]
+  },
+  {
+    "unit": 13,
+    "basicIDs": [
+      "basic.off",
+      "basic.clear",
+      "basic.bright",
+      "basic.window",
+      "basic.bulb",
+      "basic.electric",
+      "basic.sun",
+      "basic.moon",
+      "basic.star"
+    ]
+  },
+  {
+    "unit": 21,
+    "basicIDs": [
+      "basic.door",
+      "basic.push",
+      "basic.pull",
+      "basic.button",
+      "basic.by",
+      "basic.broken"
+    ],
+    "familyIDs": [
+      "press.press",
+      "press.pressure",
+      "press.pressing",
+      "press.express",
+      "press.expression",
+      "press.expressive",
+      "press.impress",
+      "press.impression",
+      "press.impressive",
+      "press.compress",
+      "press.compression",
+      "press.depress",
+      "press.depression",
+      "press.suppress"
+    ]
+  },
+  {
+    "unit": 14,
+    "basicIDs": [
+      "basic.arm",
+      "basic.pocket",
+      "basic.finger",
+      "basic.thumb",
+      "basic.ring",
+      "basic.glove",
+      "basic.soft",
+      "basic.needle",
+      "basic.thread",
+      "basic.stitch",
+      "basic.skin",
+      "basic.lift",
+      "basic.grip"
+    ]
+  },
+  {
+    "unit": 26,
+    "basicIDs": [
+      "basic.work",
+      "basic.office",
+      "basic.manager",
+      "basic.company",
+      "basic.man",
+      "basic.woman",
+      "basic.committee"
+    ]
+  },
+  {
+    "unit": 12,
+    "basicIDs": [
+      "basic.now",
+      "basic.ready",
+      "basic.start",
+      "basic.act",
+      "basic.desire",
+      "basic.behavior"
+    ],
+    "familyIDs": [
+      "act.act",
+      "act.actor",
+      "act.action",
+      "act.reaction",
+      "act.active",
+      "act.activity",
+      "act.activate",
+      "act.interact"
+    ]
+  },
+  {
+    "unit": 19,
+    "basicIDs": [
+      "basic.that",
+      "basic.green",
+      "basic.red",
+      "basic.circle",
+      "basic.mark",
+      "basic.flag",
+      "basic.design"
+    ],
+    "familyIDs": [
+      "sign.sign.1",
+      "sign.signpost.extra2",
+      "sign.signage.extra1",
+      "sign.signal.2",
+      "sign.signal.3",
+      "sign.signature.4",
+      "sign.signatory.5",
+      "sign.signify.6",
+      "sign.significant.7",
+      "sign.insignificant.8",
+      "sign.significantly.10",
+      "sign.designate.extra4",
+      "sign.designation.extra5"
+    ]
+  },
+  {
+    "unit": 50,
+    "basicIDs": [
+      "basic.stop",
+      "basic.road",
+      "basic.street",
+      "basic.across",
+      "basic.town",
+      "basic.walk",
+      "basic.distance",
+      "basic.horse",
+      "basic.whip"
+    ]
+  },
+  {
+    "unit": 51,
+    "basicIDs": [
+      "basic.turn",
+      "basic.left",
+      "basic.right",
+      "basic.straight",
+      "basic.bridge",
+      "basic.between",
+      "basic.church",
+      "basic.opposite",
+      "basic.building",
+      "basic.branch",
+      "basic.angle",
+      "basic.road"
+    ]
+  },
+  {
+    "unit": 20,
+    "basicIDs": [
+      "basic.there",
+      "basic.eye",
+      "basic.head",
+      "basic.face"
+    ],
+    "familyIDs": [
+      "vis.visible.2",
+      "vis.invisible.3",
+      "vis.vision.1",
+      "vis.visual.4",
+      "vis.visually.6",
+      "vis.visualize.5",
+      "vis.preview.extra3",
+      "vis.preview.extra4",
+      "vis.review.extra5",
+      "vis.review.extra6",
+      "vis.revise.extra1",
+      "vis.revision.extra2",
+      "vis.supervise.7",
+      "vis.supervisor.8"
+    ]
+  },
+  {
+    "unit": 30,
+    "basicIDs": [
+      "basic.like",
+      "basic.sugar",
+      "basic.cake",
+      "basic.jelly",
+      "basic.nut",
+      "basic.acid"
+    ],
+    "familyIDs": [
+      "fer.prefer",
+      "fer.preference",
+      "fer.differ",
+      "fer.difference",
+      "fer.offer",
+      "fer.suffer",
+      "fer.transfer",
+      "fer.transferable",
+      "fer.refer",
+      "fer.reference",
+      "fer.referral",
+      "fer.confer",
+      "fer.infer",
+      "fer.inference"
+    ]
+  },
+  {
+    "unit": 29,
+    "basicIDs": [
+      "basic.milk",
+      "basic.fruit",
+      "basic.produce",
+      "basic.farm",
+      "basic.cheese",
+      "basic.sweet"
+    ],
+    "familyIDs": [
+      "duc.produce",
+      "duc.product",
+      "duc.production",
+      "duc.reduce",
+      "duc.reduction",
+      "duc.introduce",
+      "duc.introduction",
+      "duc.educate",
+      "duc.educational",
+      "duc.conduct",
+      "duc.conductor",
+      "duc.conduct.behavior",
+      "duc.deduce",
+      "duc.deduction"
+    ]
+  },
+  {
+    "unit": 31,
+    "basicIDs": [
+      "basic.if",
+      "basic.let",
+      "basic.able",
+      "basic.self",
+      "basic.comfort"
+    ],
+    "familyIDs": [
+      "pend.depend",
+      "pend.dependent",
+      "pend.independent",
+      "pend.dependence",
+      "pend.independence",
+      "pend.dependable",
+      "pend.pending",
+      "pend.suspend",
+      "pend.suspension",
+      "pend.suspense",
+      "pend.pendant",
+      "pend.pendulum",
+      "pend.append",
+      "pend.appendix"
+    ]
+  },
+  {
+    "unit": 33,
+    "basicIDs": [
+      "basic.color",
+      "basic.dress",
+      "basic.camera",
+      "basic.hat",
+      "basic.skirt",
+      "basic.art"
+    ],
+    "familyIDs": [
+      "graph.photograph.7",
+      "graph.autograph.4",
+      "graph.graph.2",
+      "graph.graphic.1",
+      "graph.graphics.4",
+      "graph.infographic.5",
+      "graph.paragraph.3",
+      "graph.paragraph.8",
+      "graph.paragraphing.8",
+      "graph.calligraphy.extra2",
+      "graph.calligrapher.extra3",
+      "graph.typography.extra5",
+      "graph.typographical.extra6",
+      "graph.seismograph.extra4"
+    ]
+  },
+  {
+    "unit": 34,
+    "basicIDs": [
+      "basic.story",
+      "basic.who",
+      "basic.he",
+      "basic.but",
+      "basic.secret"
+    ],
+    "familyIDs": [
+      "log.dialogue.1",
+      "log.monologue.2",
+      "log.catalogue.3",
+      "log.apology.5",
+      "log.apologize.extra4",
+      "log.apologetic.extra5",
+      "log.prologue.4",
+      "log.epilogue.5",
+      "log.technology.8",
+      "log.psychology.7",
+      "log.analogy.extra1",
+      "log.analogous.extra2",
+      "log.apologue.extra3",
+      "log.logarithm.extra6"
+    ]
+  },
+  {
+    "unit": 22,
+    "basicIDs": [
+      "basic.question",
+      "basic.answer",
+      "basic.short"
+    ],
+    "familyIDs": [
+      "dict.dictate",
+      "dict.dictation",
+      "dict.dictionary",
+      "dict.diction",
+      "dict.dictate.order",
+      "dict.predict",
+      "dict.prediction",
+      "dict.predictable",
+      "dict.unpredictable",
+      "dict.contradict",
+      "dict.contradiction",
+      "dict.contradictory",
+      "dict.verdict",
+      "dict.dictator"
+    ]
+  },
+  {
+    "unit": 32,
+    "basicIDs": [
+      "basic.deep",
+      "basic.cough",
+      "basic.cry"
+    ],
+    "familyIDs": [
+      "voc.voice.1",
+      "voc.vocal.2",
+      "voc.vocabulary.4",
+      "voc.vocalize.3",
+      "voc.vocalization.extra2",
+      "voc.vocation.5",
+      "voc.vocational.6",
+      "voc.advocate.7",
+      "voc.invoke.8",
+      "voc.invocation.8",
+      "voc.vocative.extra3",
+      "voc.vocative.extra4",
+      "voc.vociferous.extra5",
+      "voc.vociferously.extra6"
+    ]
+  },
+  {
+    "unit": 62,
+    "basicIDs": [
+      "basic.language",
+      "basic.simple",
+      "basic.example",
+      "basic.sense",
+      "basic.thought",
+      "basic.as",
+      "basic.strange",
+      "basic.taste",
+      "basic.than"
+    ]
+  },
+  {
+    "unit": 35,
+    "basicIDs": [
+      "basic.step",
+      "basic.ball",
+      "basic.jump",
+      "basic.kick",
+      "basic.leg",
+      "basic.foot",
+      "basic.balance"
+    ],
+    "familyIDs": [
+      "mot.motion.1",
+      "mot.motionless.2",
+      "mot.movement.8",
+      "mot.motor.5",
+      "mot.motorist.6",
+      "mot.automotive.11",
+      "mot.motive.7",
+      "mot.motivate.8",
+      "mot.motivation.extra2",
+      "mot.motivated.extra3",
+      "mot.promote.3",
+      "mot.promotion.4",
+      "mot.demotion.extra5",
+      "mot.locomotion.extra6"
+    ]
+  },
+  {
+    "unit": 27,
+    "basicIDs": [
+      "basic.fold",
+      "basic.cover",
+      "basic.box",
+      "basic.cord",
+      "basic.knot",
+      "basic.tight",
+      "basic.loose",
+      "basic.elastic",
+      "basic.stretch",
+      "basic.twist"
+    ]
+  },
+  {
+    "unit": 99,
+    "basicIDs": [
+      "basic.will",
+      "basic.come",
+      "basic.weather",
+      "basic.journey",
+      "basic.summer",
+      "basic.warm",
+      "basic.umbrella",
+      "basic.spade",
+      "basic.plow"
+    ]
+  },
+  {
+    "unit": 41,
+    "basicIDs": [
+      "basic.for",
+      "basic.night",
+      "basic.private",
+      "basic.free",
+      "basic.any",
+      "basic.tall",
+      "basic.wide",
+      "basic.request"
+    ]
+  },
+  {
+    "unit": 42,
+    "basicIDs": [
+      "basic.way",
+      "basic.train",
+      "basic.station",
+      "basic.public",
+      "basic.transport",
+      "basic.rail",
+      "basic.harbor",
+      "basic.boat",
+      "basic.ship",
+      "basic.forward"
+    ]
+  },
+  {
+    "unit": 71,
+    "basicIDs": [
+      "basic.hospital",
+      "basic.ill",
+      "basic.pain",
+      "basic.medical",
+      "basic.chest",
+      "basic.stomach",
+      "basic.serious",
+      "basic.awake",
+      "basic.bone",
+      "basic.conscious",
+      "basic.feeble",
+      "basic.strong",
+      "basic.heart",
+      "basic.care",
+      "basic.throat",
+      "basic.breath",
+      "basic.tired"
+    ]
+  },
+  {
+    "unit": 49,
+    "basicIDs": [
+      "basic.weight",
+      "basic.cart",
+      "basic.measure",
+      "basic.shirt",
+      "basic.trousers",
+      "basic.sock",
+      "basic.canvas",
+      "basic.pin",
+      "basic.cotton",
+      "basic.silk",
+      "basic.wool",
+      "basic.leather",
+      "basic.stocking"
+    ]
+  },
+  {
+    "unit": 46,
+    "basicIDs": [
+      "basic.place",
+      "basic.open",
+      "basic.shut",
+      "basic.east",
+      "basic.west",
+      "basic.north",
+      "basic.south",
+      "basic.side",
+      "basic.base",
+      "basic.slope",
+      "basic.front"
+    ]
+  },
+  {
+    "unit": 44,
+    "basicIDs": [
+      "basic.group",
+      "basic.all",
+      "basic.board",
+      "basic.carriage"
+    ]
+  },
+  {
+    "unit": 43,
+    "basicIDs": [
+      "basic.plane",
+      "basic.flight",
+      "basic.air",
+      "basic.wing",
+      "basic.cloud",
+      "basic.over",
+      "basic.sky",
+      "basic.mist",
+      "basic.thick",
+      "basic.fly"
+    ]
+  },
+  {
+    "unit": 48,
+    "basicIDs": [
+      "basic.land",
+      "basic.down",
+      "basic.island",
+      "basic.sea",
+      "basic.smooth",
+      "basic.sudden",
+      "basic.slip",
+      "basic.fall"
+    ]
+  },
+  {
+    "unit": 45,
+    "basicIDs": [
+      "basic.list",
+      "basic.different",
+      "basic.comb",
+      "basic.powder",
+      "basic.form"
+    ]
+  },
+  {
+    "unit": 59,
+    "basicIDs": [
+      "basic.lock",
+      "basic.drawer",
+      "basic.table",
+      "basic.mine",
+      "basic.chain",
+      "basic.hook",
+      "basic.hammer",
+      "basic.nail",
+      "basic.screw",
+      "basic.crack",
+      "basic.bed"
+    ]
+  },
+  {
+    "unit": 60,
+    "basicIDs": [
+      "basic.meal",
+      "basic.plate",
+      "basic.fork",
+      "basic.spoon",
+      "basic.knife",
+      "basic.tray",
+      "basic.cup",
+      "basic.drink",
+      "basic.wine",
+      "basic.steam",
+      "basic.cork",
+      "basic.boiling",
+      "basic.salt",
+      "basic.fat",
+      "basic.bite",
+      "basic.bitter",
+      "basic.butter"
+    ]
+  },
+  {
+    "unit": 61,
+    "basicIDs": [
+      "basic.amount",
+      "basic.tax",
+      "basic.debt",
+      "basic.poor",
+      "basic.full",
+      "basic.bit",
+      "basic.money"
+    ]
+  },
+  {
+    "unit": 52,
+    "basicIDs": [
+      "basic.tree",
+      "basic.parallel",
+      "basic.narrow",
+      "basic.edge",
+      "basic.curve",
+      "basic.shade",
+      "basic.rod",
+      "basic.bright",
+      "basic.yellow",
+      "basic.blue"
+    ]
+  },
+  {
+    "unit": 66,
+    "basicIDs": [
+      "basic.top",
+      "basic.map",
+      "basic.middle",
+      "basic.scale",
+      "basic.range",
+      "basic.net",
+      "basic.line",
+      "basic.square",
+      "basic.field",
+      "basic.grass",
+      "basic.left"
+    ]
+  },
+  {
+    "unit": 55,
+    "basicIDs": [
+      "basic.account",
+      "basic.stamp",
+      "basic.exchange",
+      "basic.value",
+      "basic.rate",
+      "basic.possible",
+      "basic.separate",
+      "basic.distribution",
+      "basic.loss"
+    ]
+  },
+  {
+    "unit": 57,
+    "basicIDs": [
+      "basic.rule",
+      "basic.baby",
+      "basic.operation",
+      "basic.physical",
+      "basic.crime",
+      "basic.punishment"
+    ],
+    "familyIDs": [
+      "mit.admit",
+      "mit.admission",
+      "mit.permit",
+      "mit.permission",
+      "mit.submit",
+      "mit.submission",
+      "mit.dismiss",
+      "mit.dismissal",
+      "mit.commit",
+      "mit.commitment",
+      "mit.transmit",
+      "mit.transmission",
+      "mit.transmitter",
+      "mit.emit"
+    ]
+  },
+  {
+    "unit": 47,
+    "basicIDs": [
+      "basic.through",
+      "basic.limit",
+      "basic.sail",
+      "basic.wave",
+      "basic.sharp"
+    ]
+  },
+  {
+    "unit": 36,
+    "basicIDs": [
+      "basic.seat",
+      "basic.ticket",
+      "basic.stage",
+      "basic.ear"
+    ],
+    "familyIDs": [
+      "spect.spectator",
+      "spect.spectacle",
+      "spect.spectacular",
+      "spect.inspect",
+      "spect.inspection",
+      "spect.respect",
+      "spect.respectful",
+      "spect.suspect",
+      "spect.suspicion",
+      "spect.prospect",
+      "spect.perspective",
+      "spect.aspect",
+      "spect.retrospect",
+      "spect.introspective"
+    ]
+  },
+  {
+    "unit": 67,
+    "basicIDs": [
+      "basic.rain",
+      "basic.thunder",
+      "basic.snow",
+      "basic.winter",
+      "basic.chance",
+      "basic.wind"
+    ],
+    "familyIDs": [
+      "rupt.disrupt",
+      "rupt.disruption",
+      "rupt.disruptive",
+      "rupt.interrupt",
+      "rupt.interruption",
+      "rupt.abrupt",
+      "rupt.abruptly",
+      "rupt.erupt",
+      "rupt.eruption",
+      "rupt.eruptive",
+      "rupt.rupture",
+      "rupt.bankrupt",
+      "rupt.corrupt",
+      "rupt.corruption"
+    ]
+  },
+  {
+    "unit": 37,
+    "basicIDs": [
+      "basic.person",
+      "basic.waiting",
+      "basic.meeting",
+      "basic.collar",
+      "basic.shoe",
+      "basic.boot"
+    ],
+    "familyIDs": [
+      "ten.intend.4",
+      "ten.intention.5",
+      "ten.attend.7",
+      "ten.attention.8",
+      "ten.extend.1",
+      "ten.extension.2",
+      "ten.extendable.3",
+      "ten.pretend.6",
+      "ten.tend.extra1",
+      "ten.tendency.extra2",
+      "ten.tendentious.extra3",
+      "ten.contend.extra4",
+      "ten.contender.extra6",
+      "ten.contention.extra5"
+    ]
+  },
+  {
+    "unit": 56,
+    "basicIDs": [
+      "basic.reason",
+      "basic.cause",
+      "basic.power",
+      "basic.burst",
+      "basic.support"
+    ]
+  },
+  {
+    "unit": 63,
+    "basicIDs": [
+      "basic.oil",
+      "basic.engine",
+      "basic.brake",
+      "basic.driving",
+      "basic.pump",
+      "basic.machine",
+      "basic.control",
+      "basic.lead",
+      "basic.wire",
+      "basic.spring",
+      "basic.move",
+      "basic.shake",
+      "basic.wheel"
+    ]
+  },
+  {
+    "unit": 64,
+    "basicIDs": [
+      "basic.position",
+      "basic.back"
+    ]
+  },
+  {
+    "unit": 54,
+    "basicIDs": [
+      "basic.guide",
+      "basic.view",
+      "basic.history",
+      "basic.old",
+      "basic.arch",
+      "basic.religion",
+      "basic.society",
+      "basic.far",
+      "basic.look",
+      "basic.roof"
+    ]
+  },
+  {
+    "unit": 65,
+    "basicIDs": [
+      "basic.damage",
+      "basic.insurance",
+      "basic.condition",
+      "basic.necessary",
+      "basic.blade",
+      "basic.cut",
+      "basic.toe",
+      "basic.knee",
+      "basic.safe",
+      "basic.wound"
+    ]
+  },
+  {
+    "unit": 68,
+    "basicIDs": [
+      "basic.wall",
+      "basic.brick",
+      "basic.danger",
+      "basic.against",
+      "basic.hole",
+      "basic.crush"
+    ],
+    "familyIDs": [
+      "struct.construct",
+      "struct.construction",
+      "struct.constructive",
+      "struct.reconstruct",
+      "struct.structure",
+      "struct.structural",
+      "struct.restructure",
+      "struct.instruct",
+      "struct.instruction",
+      "struct.instructor",
+      "struct.obstruct",
+      "struct.obstruction",
+      "struct.destruction",
+      "struct.infrastructure"
+    ]
+  },
+  {
+    "unit": 39,
+    "basicIDs": [
+      "basic.coat",
+      "basic.size",
+      "basic.brown",
+      "basic.long",
+      "basic.thin"
+    ],
+    "familyIDs": [
+      "scrib.describe",
+      "scrib.description",
+      "scrib.script",
+      "scrib.screenplay",
+      "scrib.scribble",
+      "scrib.subscribe",
+      "scrib.subscription",
+      "scrib.prescribe",
+      "scrib.prescription",
+      "scrib.transcribe",
+      "scrib.transcript",
+      "scrib.manuscript",
+      "scrib.inscription",
+      "scrib.ascribe"
+    ]
+  },
+  {
+    "unit": 74,
+    "basicIDs": [
+      "basic.till",
+      "basic.last",
+      "basic.though",
+      "basic.expansion",
+      "basic.roll",
+      "basic.month"
+    ]
+  },
+  {
+    "unit": 75,
+    "basicIDs": [
+      "basic.regret",
+      "basic.kind",
+      "basic.quite",
+      "basic.very",
+      "basic.shame",
+      "basic.fight",
+      "basic.feeling",
+      "basic.fear"
+    ]
+  },
+  {
+    "unit": 72,
+    "basicIDs": [
+      "basic.country",
+      "basic.male",
+      "basic.female",
+      "basic.married",
+      "basic.nation",
+      "basic.quality"
+    ],
+    "familyIDs": [
+      "cred.credit",
+      "cred.credit.attribute",
+      "cred.creditor",
+      "cred.credential",
+      "cred.credible",
+      "cred.incredible",
+      "cred.credibility",
+      "cred.credibly",
+      "cred.discredit",
+      "cred.accredit",
+      "cred.accreditation",
+      "cred.credulous",
+      "cred.incredulous",
+      "cred.creed"
+    ]
+  },
+  {
+    "unit": 38,
+    "basicIDs": [
+      "basic.bee",
+      "basic.interest",
+      "basic.flower",
+      "basic.garden",
+      "basic.ornament"
+    ],
+    "familyIDs": [
+      "tract.attract",
+      "tract.attraction",
+      "tract.attractive",
+      "tract.distract",
+      "tract.distraction",
+      "tract.contract",
+      "tract.contract.agreement",
+      "tract.extract",
+      "tract.extraction",
+      "tract.subtract",
+      "tract.tractor",
+      "tract.traction",
+      "tract.retract",
+      "tract.abstract"
+    ]
+  },
+  {
+    "unit": 53,
+    "basicIDs": [
+      "basic.river",
+      "basic.mountain",
+      "basic.sand",
+      "basic.ant",
+      "basic.insect",
+      "basic.bee",
+      "basic.root"
+    ]
+  },
+  {
+    "unit": 73,
+    "basicIDs": [
+      "basic.picture",
+      "basic.ray",
+      "basic.hanging",
+      "basic.jewel",
+      "basic.camera",
+      "basic.frame",
+      "basic.beautiful"
+    ],
+    "familyIDs": [
+      "ject.project",
+      "ject.projector",
+      "ject.projection",
+      "ject.reject",
+      "ject.rejection",
+      "ject.object",
+      "ject.objection",
+      "ject.inject",
+      "ject.injection",
+      "ject.eject",
+      "ject.ejection",
+      "ject.interject",
+      "ject.subject",
+      "ject.turn_down"
+    ]
+  },
+  {
+    "unit": 69,
+    "basicIDs": [
+      "basic.event",
+      "basic.present",
+      "basic.death",
+      "basic.army",
+      "basic.military",
+      "basic.gun"
+    ],
+    "familyIDs": [
+      "chron.chronology.2",
+      "chron.chronological.3",
+      "chron.chronicle.4",
+      "chron.chronicle.extra1",
+      "chron.chronicler.extra2",
+      "chron.synchronize.5",
+      "chron.synchronous.6",
+      "chron.chronic.1",
+      "chron.chronically.extra3",
+      "chron.chronometer.8",
+      "chron.chronograph.extra6",
+      "chron.anachronism.7",
+      "chron.chronobiology.extra4",
+      "chron.chronobiological.extra5"
+    ]
+  },
+  {
+    "unit": 70,
+    "basicIDs": [
+      "basic.plant",
+      "basic.animal",
+      "basic.leaf",
+      "basic.stem",
+      "basic.bird"
+    ],
+    "familyIDs": [
+      "bio.biology.1",
+      "bio.biological.4",
+      "bio.biologist.5",
+      "bio.biography.1",
+      "bio.biodiversity.extra1",
+      "bio.biodegradable.6",
+      "bio.biofuel.extra3",
+      "bio.biography.3",
+      "bio.biotechnology.extra2",
+      "bio.microbiology.6",
+      "bio.biochemistry.extra4",
+      "bio.biome.extra5",
+      "bio.biopsy.8",
+      "bio.biometric.extra6"
+    ]
+  },
+  {
+    "unit": 76,
+    "basicIDs": [
+      "basic.join",
+      "basic.agreement",
+      "basic.discussion"
+    ]
+  },
+  {
+    "unit": 77,
+    "basicIDs": [
+      "basic.news",
+      "basic.detail",
+      "basic.statement",
+      "basic.current",
+      "basic.connection"
+    ]
+  },
+  {
+    "unit": 78,
+    "basicIDs": [
+      "basic.effect",
+      "basic.probable",
+      "basic.certain",
+      "basic.test",
+      "basic.observation",
+      "basic.existence",
+      "basic.low",
+      "basic.high",
+      "basic.enough",
+      "basic.then"
+    ]
+  },
+  {
+    "unit": 79,
+    "basicIDs": [
+      "basic.school",
+      "basic.learning",
+      "basic.new",
+      "basic.education",
+      "basic.teaching",
+      "basic.knowledge",
+      "basic.experience",
+      "basic.young",
+      "basic.note"
+    ]
+  },
+  {
+    "unit": 80,
+    "basicIDs": [
+      "basic.approval",
+      "basic.decision",
+      "basic.responsible",
+      "basic.authority",
+      "basic.division",
+      "basic.copy",
+      "basic.send",
+      "basic.letter"
+    ]
+  },
+  {
+    "unit": 81,
+    "basicIDs": [
+      "basic.point",
+      "basic.argument",
+      "basic.protest",
+      "basic.respect",
+      "basic.peace",
+      "basic.war",
+      "basic.government",
+      "basic.political",
+      "basic.relation",
+      "basic.opinion"
+    ]
+  },
+  {
+    "unit": 40,
+    "basicIDs": [
+      "basic.sad",
+      "basic.angry",
+      "basic.friend"
+    ],
+    "familyIDs": [
+      "path.sympathy.1",
+      "path.empathy.2",
+      "path.pathetic.4",
+      "path.pathetic.extra6",
+      "path.apathetic.3",
+      "path.antipathy.7",
+      "path.telepathy.8",
+      "path.pathology.5",
+      "path.pathological.6",
+      "path.pathogen.extra1",
+      "path.pathogenic.extra2",
+      "path.pathogenesis.extra3",
+      "path.psychopath.extra4",
+      "path.psychopathic.extra5"
+    ]
+  },
+  {
+    "unit": 83,
+    "basicIDs": [
+      "basic.advertisement",
+      "basic.frequent",
+      "basic.selection",
+      "basic.fiction",
+      "basic.trick",
+      "basic.writing"
+    ]
+  },
+  {
+    "unit": 84,
+    "basicIDs": [
+      "basic.judge",
+      "basic.amusement",
+      "basic.competition",
+      "basic.reward",
+      "basic.verse",
+      "basic.loud",
+      "basic.bell",
+      "basic.whistle",
+      "basic.harmony",
+      "basic.band",
+      "basic.song",
+      "basic.rhythm"
+    ]
+  },
+  {
+    "unit": 85,
+    "basicIDs": [
+      "basic.fact",
+      "basic.doubt",
+      "basic.belief",
+      "basic.true",
+      "basic.false",
+      "basic.record",
+      "basic.sex"
+    ]
+  },
+  {
+    "unit": 82,
+    "basicIDs": [
+      "basic.order",
+      "basic.attempt",
+      "basic.quick",
+      "basic.apparatus",
+      "basic.instrument",
+      "basic.expert",
+      "basic.servant",
+      "basic.force",
+      "basic.stiff",
+      "basic.smash"
+    ]
+  },
+  {
+    "unit": 86,
+    "basicIDs": [
+      "basic.trade",
+      "basic.law",
+      "basic.property",
+      "basic.owner",
+      "basic.part",
+      "basic.profit",
+      "basic.increase"
+    ]
+  },
+  {
+    "unit": 87,
+    "basicIDs": [
+      "basic.system",
+      "basic.change",
+      "basic.automatic",
+      "basic.fixed",
+      "basic.process",
+      "basic.adjustment",
+      "basic.complete",
+      "basic.mixed"
+    ]
+  },
+  {
+    "unit": 95,
+    "basicIDs": [
+      "basic.talk",
+      "basic.surprise",
+      "basic.shock",
+      "basic.impulse",
+      "basic.mouth",
+      "basic.attack",
+      "basic.violent"
+    ]
+  },
+  {
+    "unit": 88,
+    "basicIDs": [
+      "basic.daughter",
+      "basic.growth",
+      "basic.development",
+      "basic.son",
+      "basic.dead",
+      "basic.cow",
+      "basic.grain",
+      "basic.seed",
+      "basic.fertile",
+      "basic.pig",
+      "basic.sheep",
+      "basic.goat",
+      "basic.birth",
+      "basic.feather",
+      "basic.snake",
+      "basic.monkey",
+      "basic.rat",
+      "basic.fowl"
+    ]
+  },
+  {
+    "unit": 89,
+    "basicIDs": [
+      "basic.watch",
+      "basic.equal",
+      "basic.unit",
+      "basic.second",
+      "basic.future",
+      "basic.year",
+      "basic.event",
+      "basic.regular"
+    ]
+  },
+  {
+    "unit": 90,
+    "basicIDs": [
+      "basic.coal",
+      "basic.solid",
+      "basic.iron",
+      "basic.gold",
+      "basic.silver",
+      "basic.copper",
+      "basic.mass",
+      "basic.tin",
+      "basic.brass",
+      "basic.hard",
+      "basic.steel",
+      "basic.earth",
+      "basic.stone"
+    ]
+  },
+  {
+    "unit": 91,
+    "basicIDs": [
+      "basic.work",
+      "basic.business",
+      "basic.offer",
+      "basic.secretary",
+      "basic.representative",
+      "basic.organization",
+      "basic.purpose",
+      "basic.important",
+      "basic.industry",
+      "basic.chief",
+      "basic.prison"
+    ]
+  },
+  {
+    "unit": 92,
+    "basicIDs": [
+      "basic.sound",
+      "basic.word",
+      "basic.common",
+      "basic.comparison",
+      "basic.sort",
+      "basic.nose",
+      "basic.sneeze",
+      "basic.blow",
+      "basic.horn",
+      "basic.lip"
+    ]
+  },
+  {
+    "unit": 93,
+    "basicIDs": [
+      "basic.disease",
+      "basic.healthy",
+      "basic.body",
+      "basic.blood",
+      "basic.muscle",
+      "basic.nerve",
+      "basic.chemical",
+      "basic.substance",
+      "basic.natural",
+      "basic.digestion",
+      "basic.poison",
+      "basic.brain",
+      "basic.tongue",
+      "basic.chin",
+      "basic.neck",
+      "basic.tooth",
+      "basic.worm"
+    ]
+  },
+  {
+    "unit": 94,
+    "basicIDs": [
+      "basic.idea",
+      "basic.theory",
+      "basic.mind",
+      "basic.complex",
+      "basic.invention",
+      "basic.science",
+      "basic.discovery",
+      "basic.touch",
+      "basic.laugh",
+      "basic.humor",
+      "basic.because",
+      "basic.disgust",
+      "basic.cruel"
+    ]
+  },
+  {
+    "unit": 96,
+    "basicIDs": [
+      "basic.writing",
+      "basic.print",
+      "basic.prose",
+      "basic.space",
+      "basic.ink",
+      "basic.black",
+      "basic.white",
+      "basic.paint",
+      "basic.gray",
+      "basic.stick"
+    ]
+  },
+  {
+    "unit": 97,
+    "basicIDs": [
+      "basic.suggestion",
+      "basic.addition",
+      "basic.error",
+      "basic.wise",
+      "basic.foolish",
+      "basic.almost",
+      "basic.round",
+      "basic.flat",
+      "basic.new",
+      "basic.look"
+    ]
+  },
+  {
+    "unit": 98,
+    "basicIDs": [
+      "basic.great",
+      "basic.memory",
+      "basic.pleasure",
+      "basic.special",
+      "basic.even",
+      "basic.smile",
+      "basic.happy",
+      "basic.love",
+      "basic.hope",
+      "basic.hate"
+    ]
+  },
+  {
+    "unit": 100,
+    "basicIDs": [
+      "basic.parcel",
+      "basic.porter",
+      "basic.vessel"
+    ]
+  }
+]

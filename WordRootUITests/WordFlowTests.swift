@@ -7,6 +7,7 @@ final class WordFlowTests: XCTestCase {
     private func launch(legacy: Bool = false) {
         continueAfterFailure = false
         app = XCUIApplication()
+        app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "port-start-v24"
         app.launchEnvironment["WORDROOT_UI_TEST_RUN"] = UUID().uuidString
         if legacy { app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "1" }
         app.launch()
@@ -38,6 +39,47 @@ final class WordFlowTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["course.word"].waitForExistence(timeout: 6))
         XCTAssertEqual(app.staticTexts["course.word"].label, "bag")
         XCTAssertFalse(app.staticTexts.containing(NSPredicate(format: "label CONTAINS %@", "词骨")).firstMatch.exists)
+    }
+
+    func testBeginnerCanListenThroughMixedLanguageExplanation() async throws {
+        continueAfterFailure = false
+        app = XCUIApplication()
+        let run = UUID().uuidString
+        app.launchEnvironment["WORDROOT_UI_TEST_RUN"] = run
+        app.launchArguments = ["-wordroot.course.autoGuide", "NO"]
+        app.launch()
+        tap("course.start")
+        tap("course.context.basic.i")
+        XCTAssertEqual(app.staticTexts["course.word"].label, "I")
+        tap("course.demo")
+        let guide = app.buttons["course.demo"]
+        let playing = XCTNSPredicateExpectation(predicate: NSPredicate(format: "value == %@", "带读中"), object: guide)
+        XCTAssertEqual(XCTWaiter.wait(for: [playing], timeout: 6), .completed)
+        let finished = XCTNSPredicateExpectation(predicate: NSPredicate(format: "value == %@", "可播放"), object: guide)
+        XCTAssertEqual(XCTWaiter.wait(for: [finished], timeout: 30), .completed)
+        tap("course.context.audio")
+        for _ in 0..<20 {
+            if app.buttons["course.familyRecap.close"].exists { tap("course.familyRecap.close") }
+            if app.staticTexts["course.done"].exists { break }
+            tap("course.next")
+        }
+        // The last missing family word can reveal the daily summary underneath its word-list sheet.
+        let closeList = app.buttons["course.familyRecap.close"]
+        if closeList.waitForExistence(timeout: 2) { tap("course.familyRecap.close") }
+        tap("course.talk")
+        tap("talk.listen")
+        let partner = app.buttons["talk.listen"]
+        let end = XCTNSPredicateExpectation(predicate: NSPredicate(format: "value != %@", "朗读中"), object: partner)
+        XCTAssertEqual(XCTWaiter.wait(for: [end], timeout: 12), .completed)
+        tap("talk.reveal")
+        XCTAssertTrue(app.staticTexts["talk.model"].exists)
+        try await Task.sleep(for: .seconds(6))
+        tap("听这课的完整对话")
+        tap("talk.dialogue")
+        let dialogue = app.buttons["talk.dialogue"]
+        let dialogueEnd = XCTNSPredicateExpectation(predicate: NSPredicate(format: "value != %@", "朗读中"), object: dialogue)
+        XCTAssertEqual(XCTWaiter.wait(for: [dialogueEnd], timeout: 18), .completed)
+        XCTAssertFalse(app.alerts.firstMatch.exists)
     }
 
     func testTransportPronunciationFollowsTheMeaningOnDay42() async throws {

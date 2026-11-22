@@ -1,3 +1,4 @@
-词汇选自 C. K. Ogden 的 Basic English 850。本公开版采用 Simple English Wiktionary 贡献者的字母序词表，按字母列出 850 个词，教学顺序依照项目编排的 100 天课程。中文记法、中英例句与对话按日课编写，读音以美式为准。
-https://simple.wiktionary.org/w/index.php?title=Wiktionary:Basic_English_alphabetical_wordlist&oldid=476871
-该数据文件以 CC BY-SA 4.0 提供。完整署名和变更说明见 ThirdPartyNotices.txt，发音数据条款见 CMUdict-LICENSE.txt。
+词骨日课采用 C. K. Ogden 的 Basic English 850 原词序列。其中操作词 100 个，一般事物 400 个，可描绘事物 200 个，一般性质 100 个，相对性质 50 个。课程统一使用美式拼写，plow 与 plough、gray 与 grey 分别为同一词。
+原词序列：Ogden's Basic English, Word List in His Order
+https://englishes-mooc.org/media/pages/course/module-6-constructed-language/ac63dd8647-1574625141/ogdens-basic-english.pdf
+本课程的中文记法、中英例句和对话按日课编写。读音以美式为准，音标参考 Carnegie Mellon Pronouncing Dictionary，授权详见 CMUdict-LICENSE.txt。

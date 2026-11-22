@@ -133,8 +133,11 @@
       "parts": [
         {
           "text": "press",
-          "ipa": "prɛs",
-          "meaning": "按、压"
+          "ipa": "ˈprɛʃ",
+          "meaning": "按、压",
+          "notes": [
+            "这里的 ss 和后面的 u 连在一起，发英语 sh 的音。"
+          ]
         },
         {
           "text": "-ure",

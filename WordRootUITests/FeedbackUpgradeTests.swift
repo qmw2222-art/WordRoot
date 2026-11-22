@@ -7,6 +7,7 @@ final class FeedbackUpgradeTests: XCTestCase {
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
+        app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "port-start-v24"
         app.launchEnvironment["WORDROOT_UI_TEST_RUN"] = UUID().uuidString
         app.launchArguments = ["-wordroot.course.autoGuide", "NO", "-wordroot.familyStudy.family.port", "finished"]
         app.launch()

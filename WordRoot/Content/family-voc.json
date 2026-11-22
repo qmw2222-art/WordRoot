@@ -168,12 +168,12 @@
         },
         {
           "text": "voc-",
-          "ipa": "və",
+          "ipa": "vək",
           "meaning": "说、发声"
         },
         {
           "text": "-ate",
-          "ipa": "ˌkeɪt",
+          "ipa": "ˌeɪt",
           "meaning": "动词词尾",
           "notes": [
             "公开支持"
@@ -334,8 +334,8 @@
       "partOfSpeech": "副词",
       "meaning": "大声地；强烈地表达地",
       "explanation": "说明某人以响亮、激烈的方式表达意见。",
-      "example": "Residents vociferously opposed the late-night noise.",
-      "translation": "居民强烈反对深夜噪声。",
+      "example": "Residents vociferously opposed a noisy late-night event.",
+      "translation": "居民大声反对一场吵闹的深夜活动。",
       "rootRelation": "vociferous 加副词后缀 -ly。",
       "acceptedAnswers": [
         "大声地"

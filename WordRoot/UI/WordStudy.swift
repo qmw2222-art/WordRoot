@@ -92,7 +92,7 @@ struct StudyCard<Usage: View>: View {
                 Text("词性 · \(word.partOfSpeech)").font(.footnote).foregroundStyle(MapStyle.secondary)
             }
             if let parts = word.parts, let combined = word.combined {
-                WordPartsView(parts: parts, combined: combined, formation: word.formation, soundID: soundID, prefix: prefix)
+                WordPartsView(word: word, parts: parts, combined: combined, formation: word.formation, soundID: soundID, prefix: prefix)
             }
             if word.parts == nil && !word.id.hasPrefix("basic.") {
                 Text(word.formation).font(.title3.weight(.medium)).foregroundStyle(MapStyle.pine)
