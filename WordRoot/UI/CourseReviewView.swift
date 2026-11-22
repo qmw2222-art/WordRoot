@@ -36,7 +36,7 @@ struct HomeLearningProgress: View {
                 studied.formUnion(family.words.prefix(position).map(\.id))
             }
         }
-        let schedules = Dictionary(cards.filter { $0.ability == .meaningRecall }.map { ($0.senseID, $0) },
+        let schedules = Dictionary(cards.filter { $0.ability == .meaningRecall }.map { (WordSense.canonical($0.senseID), $0) },
                                    uniquingKeysWith: { $0.updatedAt > $1.updatedAt ? $0 : $1 })
         return studied.union(schedules.keys).compactMap { id in
             guard let word = lexicon.word(id: id) else { return nil }

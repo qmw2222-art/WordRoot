@@ -1,11 +1,22 @@
 import Foundation
 
+enum WordSense {
+    // These pairs describe the same use. Homographs such as cook (chef / prepare food) stay separate.
+    static let aliases = ["basic.wash": "wash.wash", "basic.form": "form.form.0"]
+    static func canonical(_ id: String) -> String { aliases[id] ?? id }
+
+    static func distinct(_ ids: [String]) -> [String] {
+        var seen = Set<String>()
+        return ids.map(canonical).filter { seen.insert($0).inserted }
+    }
+}
+
 struct Lexicon {
     let families: [WordFamily]
     let unavailableFamilyCount: Int
     let basicWords: [String: Word]
     var familySenseIDs: Set<String> { Set(entriesByID.keys) }
-    func word(id: String) -> Word? { entriesByID[id]?.word ?? basicWords[id] }
+    func word(id: String) -> Word? { entriesByID[WordSense.canonical(id)]?.word ?? basicWords[WordSense.canonical(id)] }
     private let familiesByID: [String: WordFamily]
     private let entriesByID: [String: Entry]
 
@@ -17,7 +28,7 @@ struct Lexicon {
     }
 
     func family(id: String) -> WordFamily? { familiesByID[id] }
-    func entry(id: String) -> Entry? { entriesByID[id] }
+    func entry(id: String) -> Entry? { entriesByID[WordSense.canonical(id)] }
 
     func matchingFamilies(_ query: String) -> [WordFamily] {
         families.filter {
@@ -88,7 +99,7 @@ struct Lexicon {
         }
         return Self(
             families: families, unavailableFamilyCount: unavailableFamilyCount,
-            basicWords: Dictionary(uniqueKeysWithValues: basic.map { ($0.id, $0) }),
+            basicWords: Dictionary(uniqueKeysWithValues: basic.map { (WordSense.canonical($0.id), entriesByID[WordSense.canonical($0.id)]?.word ?? $0) }),
             familiesByID: familiesByID, entriesByID: entriesByID
         )
     }

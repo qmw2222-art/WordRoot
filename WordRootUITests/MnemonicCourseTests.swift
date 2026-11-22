@@ -83,7 +83,7 @@ final class MnemonicCourseTests: XCTestCase {
         app.launchEnvironment["WORDROOT_TEST_LEGACY_DAY"] = "1"
         app.launch()
         XCTAssertTrue(app.staticTexts["course.completedCount"].label.contains("0 / 100"))
-        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("4 / 1335"))
+        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("4 / 1333"))
         XCTAssertFalse(app.staticTexts["course.basicProgress"].exists)
         XCTAssertFalse(app.staticTexts["course.mastered"].exists)
         tap("course.start")

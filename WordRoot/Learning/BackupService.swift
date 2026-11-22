@@ -9,6 +9,7 @@ struct LearningSnapshot: Codable {
     let courseDays: [CourseDaySnapshot]?
     var familyRounds: [FamilyRoundBackup]? = nil
     var familyCursors: [String: String]? = nil
+    var spokenPractice: [String: Data]? = nil
 }
 
 struct FamilyRoundBackup: Codable {
@@ -55,7 +56,7 @@ enum BackupError: Error {
 
 @MainActor
 enum BackupService {
-    static let formatVersion = 7
+    static let formatVersion = 8
 
     static func export(from context: ModelContext, defaults: UserDefaults = .standard) throws -> Data {
         let cards = try context.fetch(FetchDescriptor<ReviewCardRecord>()).map {
@@ -97,7 +98,8 @@ enum BackupService {
                 attempts: attempts,
                 courseDays: courseDays,
                 familyRounds: rounds,
-                familyCursors: cursors
+                familyCursors: cursors,
+                spokenPractice: defaults.dictionaryRepresentation().filter { validPracticeKey($0.key) }.compactMapValues { $0 as? Data }
             )
         )
     }
@@ -125,8 +127,8 @@ enum BackupService {
                       return false
                   }
                   if let ids = $0.studiedIDs {
-                      return snapshot.formatVersion >= 4 && (0...unit.lastStep).contains($0.step)
-                          && Set(ids).count == ids.count && Set(ids).isSubset(of: unit.lessonIDs)
+                      return snapshot.formatVersion >= 4 && (0...unit.maxStoredStep).contains($0.step)
+                          && Set(ids).count == ids.count && Set(ids.map(WordSense.canonical)).isSubset(of: unit.lessonIDs)
                   }
                   return (0...(unit.legacyWordCount + 1)).contains($0.step)
               }) else {
@@ -148,6 +150,18 @@ enum BackupService {
                       return cursor.isEmpty || cursor == "finished" || family.words.contains { $0.id == cursor }
                   }) else { throw BackupError.invalidSnapshot }
         }
+        if let practice = snapshot.spokenPractice {
+            guard snapshot.formatVersion >= 8, practice.allSatisfy({ key, value in
+                guard validPracticeKey(key) else { return false }
+                if key == TransferJournal.storageKey {
+                    guard let journal = try? JSONDecoder().decode([String: TransferEntry].self, from: value) else { return false }
+                    return journal.keys.allSatisfy { key in
+                        CourseDay.dayRange.contains { TransferJournal.key($0, later: true) == key || TransferJournal.key($0, later: false) == key }
+                    }
+                }
+                return (try? JSONDecoder().decode([String: String].self, from: value)) != nil
+            }) else { throw BackupError.invalidSnapshot }
+        }
         return snapshot
     }
 
@@ -155,12 +169,26 @@ enum BackupService {
         let snapshot = try validate(data)
         do {
             try replace(with: snapshot, context: context)
+            try CourseReview.mergeLegacySenses(in: context)
             try context.save()
             replaceFamilyCursors(with: snapshot.familyCursors ?? [:], defaults: defaults)
+            if let practice = snapshot.spokenPractice { replacePractice(with: practice, defaults: defaults) }
         } catch {
             context.rollback()
             throw error
         }
+    }
+
+    private static func validPracticeKey(_ key: String) -> Bool {
+        if key == TransferJournal.storageKey { return true }
+        let prefix = "wordroot.talk."
+        guard key.hasPrefix(prefix), let unit = Int(key.dropFirst(prefix.count)) else { return false }
+        return CourseDay.dayRange.contains(unit) && key == prefix + String(unit)
+    }
+
+    static func replacePractice(with values: [String: Data], defaults: UserDefaults) {
+        for key in defaults.dictionaryRepresentation().keys where validPracticeKey(key) { defaults.removeObject(forKey: key) }
+        for (key, value) in values { defaults.set(value, forKey: key) }
     }
 
     static func replaceFamilyCursors(with cursors: [String: String], defaults: UserDefaults) {

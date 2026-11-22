@@ -147,7 +147,7 @@ final class ListeningCourseTests: XCTestCase {
         XCTAssertTrue(app.buttons["cards.choice.sense.import.goods"].waitForExistence(timeout: 5))
         app.terminate(); app.launch()
         XCTAssertTrue(app.staticTexts["course.completedCount"].label.contains("1 / 100"))
-        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("17 / 1335"))
+        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("17 / 1333"))
     }
 
     func testDayRecapAndClearBagAction() {
@@ -199,7 +199,7 @@ final class ListeningCourseTests: XCTestCase {
         app.terminate(); app.launch()
         XCTAssertFalse(app.tabBars.buttons["复习"].exists)
         XCTAssertFalse(due.exists)
-        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("1 / 1335"))
+        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("1 / 1333"))
         snapshot("restart")
     }
 

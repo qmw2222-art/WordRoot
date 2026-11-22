@@ -125,6 +125,7 @@ struct DataSettingsView: View {
             try context.fetch(FetchDescriptor<FamilyPracticeRecord>()).forEach(context.delete)
             try context.save()
             BackupService.replaceFamilyCursors(with: [:], defaults: studyDefaults)
+            BackupService.replacePractice(with: [:], defaults: studyDefaults)
             message = "已删除本机学习记录。"
             Task { await subscription.refresh() }
         } catch {

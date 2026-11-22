@@ -53,6 +53,10 @@ private struct TestRun {
             cloudKitDatabase: .none
         )
         let isolated = try? ModelContainer(for: schema, configurations: [configuration])
+        if let fixture = ProcessInfo.processInfo.environment["WORDROOT_TEST_COURSE30"], let isolated, let defaults {
+            do { try CourseUpgradeFixture.prepare(fixture, container: isolated, defaults: defaults) }
+            catch { print("Invalid isolated course fixture: \(error)"); container = nil; return }
+        }
         if ProcessInfo.processInfo.environment["WORDROOT_TEST_LEGACY_DAY"] == "wash-v22",
            let isolated, let defaults {
             do { try Self.restoreMixedCourse(in: isolated, defaults: defaults) }

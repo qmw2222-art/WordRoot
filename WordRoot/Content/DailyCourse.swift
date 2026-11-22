@@ -79,14 +79,14 @@ struct DailyCourse {
         // in its original topic. Every mixed course still covers the full vocabulary.
         var scheduled = Set(lessons.flatMap(\.lessonIDs))
         for i in lessons.indices where lessons[i].plannedBasicIDs != nil {
-            let missing = lessons[i].basicIDs.filter { scheduled.insert($0).inserted }
+            let missing = lessons[i].basicIDs.filter { scheduled.insert(WordSense.canonical($0)).inserted }
             lessons[i].plannedBasicIDs?.append(contentsOf: missing)
         }
         return Self(days: lessons)
     }
 
     func isFree(wordID: String) -> Bool {
-        firstDayBySense[wordID].map(Self.freeDays.contains) ?? false
+        firstDayBySense[WordSense.canonical(wordID)].map(Self.freeDays.contains) ?? false
     }
 
     func isFree(familyID: String) -> Bool {
@@ -162,15 +162,19 @@ struct DailyCourse {
             }
             unit.plannedFamilyIDs = entry.familyIDs
             unit.plannedBasicIDs = entry.basicIDs
-            unit.starterExamples = entry.examples
+            unit.starterExamples = entry.examples?.map { phrase in
+                var copy = phrase
+                copy.ids = WordSense.distinct(phrase.ids)
+                return copy
+            }
             let ids = unit.lessonIDs
-            if let examples = entry.examples {
+            if let examples = unit.starterExamples {
                 let targets = examples.flatMap(\.ids)
                 guard Set(targets).count == targets.count, Set(ids).isSuperset(of: targets),
                       examples.allSatisfy(\.isValid) else { throw CocoaError(.fileReadCorruptFile) }
             }
-            guard entry.basicIDs.allSatisfy({ lexicon.basicWords[$0] != nil }),
-                  Set(ids).count == ids.count, ids.contains(unit.bridge.basicID) else {
+            guard entry.basicIDs.allSatisfy({ lexicon.basicWords[WordSense.canonical($0)] != nil }),
+                  Set(ids).count == ids.count, ids.contains(WordSense.canonical(unit.bridge.basicID)) else {
                 throw CocoaError(.fileReadCorruptFile)
             }
             if seenFamilies.insert(unit.familyID).inserted,
@@ -234,7 +238,11 @@ struct CourseDay: Decodable, Identifiable {
         if dailyStart == true { return 3000 + unitID }
         return (plannedBasicIDs == nil ? Self.recordOffset : 2000) + unitID
     }
-    var studyBasicIDs: [String] { plannedBasicIDs ?? basicIDs }
+    private var rawBasicIDs: [String] { plannedBasicIDs ?? basicIDs }
+    var studyBasicIDs: [String] {
+        let family = Set(taughtFamilyIDs)
+        return WordSense.distinct(rawBasicIDs).filter { !family.contains($0) }
+    }
     var speakingMission: SpeakingMission { plannedBasicIDs == nil ? mission : beginnerMission ?? mission }
     var lastStep: Int { lessonIDs.count + 1 }
     var addedFamilyIDs: [String]?   // Derived on loading the first encounter with a family.
@@ -243,7 +251,7 @@ struct CourseDay: Decodable, Identifiable {
         return wordIDs + (addedFamilyIDs ?? [])
     }
     var lessonIDs: [String] { taughtFamilyIDs + studyBasicIDs }
-    var originalLessonIDs: [String] { plannedBasicIDs == nil ? wordIDs + basicIDs : lessonIDs }
+    var originalLessonIDs: [String] { plannedBasicIDs == nil ? WordSense.distinct(wordIDs + basicIDs) : lessonIDs }
 
     func starterExample(for id: String) -> LessonPhrase? {
         starterExamples?.first { $0.ids.contains(id) }
@@ -262,26 +270,47 @@ struct CourseDay: Decodable, Identifiable {
         return first...min(first + 1, section.upperBound)
     }
 
-    // Previously saved steps keep their original meaning, including the recap.
-    // Newly introduced family members use slots after the original recap.
+    // The integer cursor is an on-disk format. Keep both old slots for a merged word.
+    private var storageSlots: [String?] {
+        if plannedBasicIDs != nil { return (taughtFamilyIDs + rawBasicIDs).map(Optional.some) + [nil] }
+        return (wordIDs + basicIDs).map(Optional.some) + [nil] + (addedFamilyIDs ?? []).map(Optional.some)
+    }
+
+    var maxStoredStep: Int { storageSlots.count }
     func storedStep(for position: Int) -> Int {
-        if plannedBasicIDs != nil { return min(max(0, position), lastStep) }
-        let added = addedFamilyIDs?.count ?? 0
-        if position == 0 || position <= wordIDs.count { return position }
-        if position == lastStep { return originalLessonIDs.count + 1 }
-        if position <= taughtFamilyIDs.count {
-            return originalLessonIDs.count + 1 + position - wordIDs.count
-        }
-        return position - added
+        guard position > 0 else { return 0 }
+        let target: String? = position < lastStep ? lessonIDs[position - 1] : nil
+        return storageSlots.firstIndex { $0.map(WordSense.canonical) == target }.map { $0 + 1 } ?? 0
     }
 
     func displayPosition(for step: Int) -> Int {
-        if plannedBasicIDs != nil { return min(max(0, step), lastStep) }
-        let originalEnd = originalLessonIDs.count + 1
-        if step <= wordIDs.count { return max(0, step) }
-        if step == originalEnd { return lastStep }
-        if step > originalEnd { return min(taughtFamilyIDs.count, wordIDs.count + step - originalEnd) }
-        return step + (addedFamilyIDs?.count ?? 0)
+        guard step > 0 else { return 0 }
+        let slots = storageSlots
+        guard step <= slots.count, let id = slots[step - 1],
+              let index = lessonIDs.firstIndex(of: WordSense.canonical(id)) else { return lastStep }
+        return index + 1
+    }
+
+    func teachingPosition(for storagePosition: Int) -> Int {
+        guard (1...lessonIDs.count).contains(storagePosition),
+              let offset = teachingOrder.firstIndex(of: lessonIDs[storagePosition - 1]) else { return storagePosition }
+        return offset + 1
+    }
+
+    func previousPosition(from position: Int) -> Int {
+        let current = teachingPosition(for: position)
+        guard current > 1, current - 2 < teachingOrder.count else { return 0 }
+        return lessonIDs.firstIndex(of: teachingOrder[current - 2]).map { $0 + 1 } ?? 0
+    }
+
+    var firstBoundRoot: Bool { familyID == "family.port" && unitID == 1 }
+
+    // The saved positions above stay stable. The teaching path starts with a useful phrase
+    // and the everyday words the learner needs to understand it.
+    var teachingOrder: [String] {
+        guard dailyStart == true, id > DailyCourse.freeDays.upperBound,
+              let focus = starterExamples?.first else { return lessonIDs }
+        return WordSense.distinct(focus.ids + lessonIDs)
     }
 
     var id: Int
@@ -294,6 +323,9 @@ struct CourseDay: Decodable, Identifiable {
     let bridge: LessonBridge
     let mission: SpeakingMission
     let beginnerMission: SpeakingMission?
+    let speakingRevision: Int?
+    let transfer: TransferPrompt
+    let nextTransfer: TransferPrompt
     let scene: String
     let roles: [String]
     let dialogue: [Line]
@@ -314,9 +346,10 @@ struct CourseDay: Decodable, Identifiable {
             && (3...4).contains(legacyWordCount) && wordIDs.count >= legacyWordCount
             && Set(ids).count == ids.count
             && wordIDs.allSatisfy { lexicon.entry(id: $0)?.family.id == familyID }
-            && wordIDs.contains(bridge.familyID) && ids.contains(bridge.basicID) && lexicon.basicWords[bridge.basicID] != nil
+            && wordIDs.contains(bridge.familyID) && ids.contains(WordSense.canonical(bridge.basicID)) && lexicon.basicWords[WordSense.canonical(bridge.basicID)] != nil
             && !bridge.text.isEmpty && !bridge.translation.isEmpty
-            && basicIDs.allSatisfy { lexicon.basicWords[$0] != nil } && mission.isValid && (beginnerMission?.isValid ?? true)
+            && basicIDs.allSatisfy { lexicon.basicWords[WordSense.canonical($0)] != nil } && mission.isValid && (beginnerMission?.isValid ?? true)
+            && transfer.isValid && nextTransfer.isValid && transfer.prompt != nextTransfer.prompt
             && roles.count == 2 && roles.allSatisfy { !$0.isEmpty }
             && dialogue.count == 2 && dialogue.allSatisfy { !$0.text.isEmpty && !$0.translation.isEmpty }
             && (recallDay.map { (1..<id).contains($0) } ?? (id == 1))
@@ -329,6 +362,13 @@ struct LessonBridge: Decodable {
     let basicID: String
     let text: String
     let translation: String
+}
+
+struct TransferPrompt: Decodable {
+    let prompt: String
+    let answer: String
+    let translation: String
+    var isValid: Bool { !prompt.isEmpty && !answer.isEmpty && !translation.isEmpty }
 }
 
 struct SpeakingMission: Decodable {

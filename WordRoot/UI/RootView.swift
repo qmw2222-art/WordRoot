@@ -5,11 +5,23 @@ struct RootView: View {
     @Environment(\.scenePhase) private var scenePhase
     @Environment(SubscriptionService.self) private var subscription
     @State private var speaker = SpeechPlayer()
+    @Environment(\.modelContext) private var context
+    @State private var migrationFailed = false
     @State private var tab: Tab = .course
     @State private var requestedWord: String?
     @Query private var courseRecords: [CourseDayRecord]
 
     let studyDefaults: UserDefaults
+
+    private func mergeEarlierRecords() {
+        do {
+            try CourseReview.mergeLegacySenses(in: context)
+            if context.hasChanges { try context.save() }
+        } catch {
+            context.rollback()
+            migrationFailed = true
+        }
+    }
 
     private enum Tab: Hashable {
         case course, map, history, settings
@@ -44,6 +56,11 @@ struct RootView: View {
                     .tag(Tab.settings)
             }
             .environment(speaker)
+            .task { mergeEarlierRecords() }
+            .alert("旧版复习记录暂未整理完成", isPresented: $migrationFailed) {
+                Button("重试") { mergeEarlierRecords() }
+                Button("稍后再试", role: .cancel) {}
+            }
             .onChange(of: scenePhase) { _, phase in
                 if phase == .active { Task { await subscription.refresh() } }
                 if phase == .background, let id = speaker.activeID { speaker.stop(id: id) }

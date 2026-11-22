@@ -953,11 +953,11 @@
   {
     "id": "basic.the",
     "word": "the",
-    "meaning": "这个；那个",
+    "meaning": "指双方都知道的人或事物",
     "pronunciation": "ðə",
     "example": "Open the book to page ten.",
     "translation": "把这本书翻到第十页。",
-    "memoryCue": "双方都知道说的是哪一个时，就用 the。the book 是说那本已经提到的书。",
+    "memoryCue": "双方都知道说的是谁或哪样东西时，可以用 the。Turn the page. 就是「请翻页」。",
     "category": "常用小词",
     "assigned": 6,
     "relatedIDs": [
@@ -966,12 +966,13 @@
     ],
     "partOfSpeech": "冠词",
     "acceptedAnswers": [
-      "这个",
-      "那个",
-      "这个；那个"
+      "指双方都知道的人或事物",
+      "特指",
+      "表示特指",
+      "定冠词"
     ],
-    "formation": "the · 这个；那个",
-    "explanation": "双方都知道说的是哪一个时，就用 the。the book 是说那本已经提到的书。"
+    "formation": "the · 用于指明知道是哪一个",
+    "explanation": "the 用在名词前，表示说话人和听话人知道指的是谁或什么。中文常省去这个词。"
   },
   {
     "id": "basic.all",

@@ -8,6 +8,17 @@ struct CourseView: View {
     @Environment(SubscriptionService.self) private var subscription
     @State private var path: [Route] = []
     @State private var review: ReviewRound?
+    @AppStorage(TransferJournal.storageKey) private var recallData = Data()
+    private func nextRecall(at date: Date) -> CourseDay? {
+        let journal = TransferJournal.decode(recallData)
+        let today = Calendar.current.startOfDay(for: date)
+        return records.compactMap { record -> CourseDay? in
+            guard let finished = record.completedAt, finished < today,
+                  let day = course.day(forRecord: record.day), record.isFinished(in: day),
+                  journal[TransferJournal.key(day.unitID, later: true)]?.completed != true else { return nil }
+            return day
+        }.first
+    }
     @AppStorage("wordroot.course.autoGuide") private var autoGuide = true
     let course: DailyCourse
     let lexicon: Lexicon
@@ -138,10 +149,11 @@ struct CourseView: View {
                     .font(.system(.title, design: .serif, weight: .bold))
                     .accessibilityAddTraits(.isHeader)
                 Text(day.title).font(.headline)
-                if let group = day.studyGroup(at: max(1, step)) {
+                let teachingStep = day.teachingPosition(for: step)
+                if let group = day.studyGroup(at: max(1, teachingStep)) {
                     let covered = records.first { $0.day == day.recordID }?.credited(in: day) ?? []
-                    let labels = group.filter { $0 >= step && ($0 == step || !covered.contains(words[$0 - 1].id)) }
-                        .map { words[$0 - 1].studyLabel }
+                    let labels = group.filter { $0 >= teachingStep && ($0 == teachingStep || !covered.contains(day.teachingOrder[$0 - 1])) }
+                        .compactMap { lexicon.word(id: day.teachingOrder[$0 - 1])?.studyLabel }
                     if !labels.isEmpty {
                         Text((step == 0 ? "先学 " : "这组接着学 ") + labels.joined(separator: "、") + "。")
                             .font(.subheadline).accessibilityIdentifier("course.focus")
@@ -183,6 +195,14 @@ struct CourseView: View {
                 Label("100 天课程已完成", systemImage: "checkmark.seal.fill")
                     .font(.title2.weight(.bold))
                 Text("回到下面的课程路线，就能重温任何一组词。")
+            }
+            TimelineView(.everyMinute) { tick in
+                if let day = nextRecall(at: tick.date) {
+                    NavigationLink { TransferPracticeView(day: day, later: true) } label: {
+                        Label("第 \(day.id) 天 · 换个条件再试", systemImage: "bubble.left.and.text.bubble.right")
+                            .frame(minHeight: 44)
+                    }.buttonStyle(.plain).accessibilityIdentifier("home.transfer")
+                }
             }
             HomeLearningProgress(lexicon: lexicon, course: course, lessons: records,
                                  studyDefaults: studyDefaults, completedDayCount: completedDays.count) { words in

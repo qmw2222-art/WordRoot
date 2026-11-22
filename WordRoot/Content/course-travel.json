@@ -10,19 +10,19 @@
       "book.rebook"
     ],
     "extraIDs": [],
-    "scene": "行程推迟了，你打电话给酒店。",
+    "scene": "你已经订了酒店，想把入住改到周五，再说明住几晚。",
     "roles": [
-      "你",
-      "前台"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Can I rebook my room for Friday?",
-        "translation": "我能把房间改订到星期五吗？"
+        "text": "How can I help with your booking?",
+        "translation": "您的预订需要怎么调整？"
       },
       {
-        "text": "Yes. I can change your booking.",
-        "translation": "可以，我能帮你改预订。"
+        "text": "Can I rebook for Friday?",
+        "translation": "我可以改订到周五吗？"
       }
     ],
     "recallDay": 6,
@@ -38,19 +38,19 @@
       "basic.hard"
     ],
     "mission": {
-      "goal": "先订房，再改订",
+      "goal": "你已经订了酒店，想把入住改到周五，再说明住几晚。",
       "turns": [
         {
-          "partner": "Can I rebook my room for Friday?",
-          "partnerZH": "我能把房间改订到星期五吗？",
-          "reply": "Yes. I can change your booking.",
-          "replyZH": "可以，我能帮你改预订。"
+          "partner": "How can I help with your booking?",
+          "partnerZH": "您的预订需要怎么调整？",
+          "reply": "Can I rebook for Friday?",
+          "replyZH": "我可以改订到周五吗？"
         },
         {
-          "partner": "How many nights would you like to stay?",
-          "partnerZH": "你想住几晚？",
-          "reply": "Two nights, in a room for one.",
-          "replyZH": "两晚，要一间单人房。"
+          "partner": "Certainly. How many nights?",
+          "partnerZH": "可以。您要住几晚？",
+          "reply": "Two nights, please.",
+          "replyZH": "请订两晚。"
         }
       ]
     },
@@ -59,12 +59,40 @@
       "basicID": "basic.for",
       "text": "I'd like to book a room for two.",
       "translation": "我想订一间双人房。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你已经订了酒店，想把入住改到周五，再说明住几晚。",
+      "turns": [
+        {
+          "partner": "How can I help with your booking?",
+          "partnerZH": "您的预订需要怎么调整？",
+          "reply": "Can I rebook for Friday?",
+          "replyZH": "我可以改订到周五吗？"
+        },
+        {
+          "partner": "Certainly. How many nights?",
+          "partnerZH": "可以。您要住几晚？",
+          "reply": "Two nights, please.",
+          "replyZH": "请订两晚。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "日期没变，这次想多住一晚。",
+      "answer": "Can I add one more night to my booking?",
+      "translation": "我的预订可以再加一晚吗？"
+    },
+    "nextTransfer": {
+      "prompt": "你还是住客，这次想把预订改到周日。",
+      "answer": "Can I rebook for Sunday?",
+      "translation": "我可以改订到周日吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 42,
     "familyID": "family.port",
-    "title": "把第一天的词带去旅行",
+    "title": "带着行李去车站",
     "guide": "沿用第 1 天的 port。transport 是运，词尾换成 -ation，就可以说运输服务。",
     "wordIDs": [
       "sense.portable.easy-carry",
@@ -72,19 +100,19 @@
       "port.transportation"
     ],
     "extraIDs": [],
-    "scene": "下飞机后，你想把行李带进城。",
+    "scene": "你带着行李进城，想知道怎么去火车站。",
     "roles": [
-      "你",
-      "工作人员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Is there public transportation to the city?",
-        "translation": "有到市区的公共交通吗？"
+        "text": "Where are you going with those bags?",
+        "translation": "你带着这些包要去哪儿？"
       },
       {
-        "text": "Yes, and you can take your bags on the train.",
-        "translation": "有，行李可以带上火车。"
+        "text": "Is there public transportation to the station?",
+        "translation": "有去车站的公共交通吗？"
       }
     ],
     "recallDay": 1,
@@ -104,19 +132,19 @@
       "basic.ship"
     ],
     "mission": {
-      "goal": "把第一天的词带去旅行",
+      "goal": "你带着行李进城，想知道怎么去火车站。",
       "turns": [
         {
-          "partner": "Is there public transportation to the city?",
-          "partnerZH": "有到市区的公共交通吗？",
-          "reply": "Yes, and you can take your bags on the train.",
-          "replyZH": "有，行李可以带上火车。"
+          "partner": "Where are you going with those bags?",
+          "partnerZH": "你带着这些包要去哪儿？",
+          "reply": "Is there public transportation to the station?",
+          "replyZH": "有去车站的公共交通吗？"
         },
         {
-          "partner": "Do I need a separate ticket for my bag?",
-          "partnerZH": "行李需要单独买票吗？",
-          "reply": "No. It's included.",
-          "replyZH": "不用，已经包含了。"
+          "partner": "Yes. You can take the bus.",
+          "partnerZH": "有。你可以坐公共汽车。",
+          "reply": "Where is the bus stop?",
+          "replyZH": "公交站在哪儿？"
         }
       ]
     },
@@ -125,7 +153,35 @@
       "basicID": "basic.public",
       "text": "Is there public transportation to the station?",
       "translation": "有公共交通能到车站吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你带着行李进城，想知道怎么去火车站。",
+      "turns": [
+        {
+          "partner": "Where are you going with those bags?",
+          "partnerZH": "你带着这些包要去哪儿？",
+          "reply": "Is there public transportation to the station?",
+          "replyZH": "有去车站的公共交通吗？"
+        },
+        {
+          "partner": "Yes. You can take the bus.",
+          "partnerZH": "有。你可以坐公共汽车。",
+          "reply": "Where is the bus stop?",
+          "replyZH": "公交站在哪儿？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "想改坐火车，先问行李能不能带上去。",
+      "answer": "Can I take my bag on the train?",
+      "translation": "我能把包带上火车吗？"
+    },
+    "nextTransfer": {
+      "prompt": "带着行李进城，这次想乘船去车站。",
+      "answer": "Can I get to the station by boat?",
+      "translation": "我可以坐船去车站吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 43,
@@ -138,19 +194,19 @@
       "fly.fly-over"
     ],
     "extraIDs": [],
-    "scene": "机上看见一大片水面。",
+    "scene": "选航班时，你想知道飞机会飞过哪里。",
     "roles": [
-      "你",
-      "同伴"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Do we fly over the lake?",
-        "translation": "我们会飞过那片湖吗？"
+        "text": "Where would you like to fly?",
+        "translation": "您想飞去哪里？"
       },
       {
-        "text": "Yes. Look out the window.",
-        "translation": "会，看看窗外。"
+        "text": "I'd like to fly to Boston.",
+        "translation": "我想飞去波士顿。"
       }
     ],
     "recallDay": 41,
@@ -168,19 +224,19 @@
       "basic.thick"
     ],
     "mission": {
-      "goal": "起飞和飞越",
+      "goal": "选航班时，你想知道飞机会飞过哪里。",
       "turns": [
         {
-          "partner": "Do we fly over the lake?",
-          "partnerZH": "我们会飞过那片湖吗？",
-          "reply": "Yes. Look out the window.",
-          "replyZH": "会，看看窗外。"
+          "partner": "Where would you like to fly?",
+          "partnerZH": "您想飞去哪里？",
+          "reply": "I'd like to fly to Boston.",
+          "replyZH": "我想飞去波士顿。"
         },
         {
-          "partner": "Which side has the better view?",
-          "partnerZH": "哪一侧看得更清楚？",
-          "reply": "The left side. You can see the lake.",
-          "replyZH": "左侧，可以看见湖。"
+          "partner": "Would you like a window seat?",
+          "partnerZH": "您想要靠窗的座位吗？",
+          "reply": "Yes. Do we fly over the sea?",
+          "replyZH": "想。我们会飞过海面吗？"
         }
       ]
     },
@@ -189,7 +245,35 @@
       "basicID": "basic.plane",
       "text": "I often fly on planes like this.",
       "translation": "我常坐这种飞机。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "选航班时，你想知道飞机会飞过哪里。",
+      "turns": [
+        {
+          "partner": "Where would you like to fly?",
+          "partnerZH": "您想飞去哪里？",
+          "reply": "I'd like to fly to Boston.",
+          "replyZH": "我想飞去波士顿。"
+        },
+        {
+          "partner": "Would you like a window seat?",
+          "partnerZH": "您想要靠窗的座位吗？",
+          "reply": "Yes. Do we fly over the sea?",
+          "replyZH": "想。我们会飞过海面吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次你要看云海，问能不能换到窗边。",
+      "answer": "Can I have a window seat on this flight?",
+      "translation": "这趟航班能给我一个靠窗的座位吗？"
+    },
+    "nextTransfer": {
+      "prompt": "回程想搭直飞，问有没有直达航班。",
+      "answer": "Is there a direct flight home?",
+      "translation": "有没有直飞回家的航班？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 44,
@@ -202,19 +286,19 @@
       "board.boarding-time"
     ],
     "extraIDs": [],
-    "scene": "登机口的工作人员开始验票。",
+    "scene": "准备登机时，你想确认自己这一组什么时候可以上飞机。",
     "roles": [
-      "工作人员",
+      "对方",
       "你"
     ],
     "dialogue": [
       {
         "text": "May I see your boarding pass?",
-        "translation": "能看一下你的登机牌吗？"
+        "translation": "我能看看您的登机牌吗？"
       },
       {
-        "text": "Here it is. Can I board now?",
-        "translation": "给你。我现在能登机吗？"
+        "text": "Here it is. Can my group board now?",
+        "translation": "给您。我们这组现在能登机吗？"
       }
     ],
     "recallDay": 43,
@@ -227,19 +311,19 @@
       "basic.carriage"
     ],
     "mission": {
-      "goal": "听懂登机提醒",
+      "goal": "准备登机时，你想确认自己这一组什么时候可以上飞机。",
       "turns": [
         {
           "partner": "May I see your boarding pass?",
-          "partnerZH": "能看一下你的登机牌吗？",
-          "reply": "Here it is. Can I board now?",
-          "replyZH": "给你。我现在能登机吗？"
+          "partnerZH": "我能看看您的登机牌吗？",
+          "reply": "Here it is. Can my group board now?",
+          "replyZH": "给您。我们这组现在能登机吗？"
         },
         {
-          "partner": "How many bags are you taking on board?",
-          "partnerZH": "你要带几个包登机？",
-          "reply": "Just this small bag.",
-          "replyZH": "就这个小包。"
+          "partner": "Your group boards at ten.",
+          "partnerZH": "您这组十点登机。",
+          "reply": "Thank you. I'll wait here.",
+          "replyZH": "谢谢。我在这里等。"
         }
       ]
     },
@@ -248,7 +332,35 @@
       "basicID": "basic.group",
       "text": "Our group can board now.",
       "translation": "现在轮到我们这组登机了。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "准备登机时，你想确认自己这一组什么时候可以上飞机。",
+      "turns": [
+        {
+          "partner": "May I see your boarding pass?",
+          "partnerZH": "我能看看您的登机牌吗？",
+          "reply": "Here it is. Can my group board now?",
+          "replyZH": "给您。我们这组现在能登机吗？"
+        },
+        {
+          "partner": "Your group boards at ten.",
+          "partnerZH": "您这组十点登机。",
+          "reply": "Thank you. I'll wait here.",
+          "replyZH": "谢谢。我在这里等。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "你找不到登机牌了，到柜台请人补一张。",
+      "answer": "Can I get another boarding pass?",
+      "translation": "我可以补一张登机牌吗？"
+    },
+    "nextTransfer": {
+      "prompt": "这次和孩子同行，问能不能一起登机。",
+      "answer": "Can we board together?",
+      "translation": "我们可以一起登机吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 45,
@@ -261,19 +373,19 @@
       "check.check-out"
     ],
     "extraIDs": [],
-    "scene": "到酒店后，你想问退房时间。",
+    "scene": "你到酒店办入住，还想问明天几点退房。",
     "roles": [
-      "你",
-      "前台"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "We'd like to check in.",
-        "translation": "我们想办理入住。"
+        "text": "Welcome. How can I help?",
+        "translation": "欢迎光临。有什么可以帮您？"
       },
       {
-        "text": "Welcome. You can check out by noon tomorrow.",
-        "translation": "欢迎，明天中午前退房就可以。"
+        "text": "I'd like to check in.",
+        "translation": "我想办理入住。"
       }
     ],
     "recallDay": 27,
@@ -287,19 +399,19 @@
       "basic.powder"
     ],
     "mission": {
-      "goal": "登记和离店",
+      "goal": "你到酒店办入住，还想问明天几点退房。",
       "turns": [
         {
-          "partner": "We'd like to check in.",
-          "partnerZH": "我们想办理入住。",
-          "reply": "Welcome. You can check out by noon tomorrow.",
-          "replyZH": "欢迎，明天中午前退房就可以。"
+          "partner": "Welcome. How can I help?",
+          "partnerZH": "欢迎光临。有什么可以帮您？",
+          "reply": "I'd like to check in.",
+          "replyZH": "我想办理入住。"
         },
         {
-          "partner": "Would you like one key or two?",
-          "partnerZH": "你想要一张房卡还是两张？",
-          "reply": "Two, please. We're sharing the room.",
-          "replyZH": "请给两张，我们两个人住。"
+          "partner": "Please sign this form.",
+          "partnerZH": "请在这张表上签字。",
+          "reply": "What time do I check out tomorrow?",
+          "replyZH": "我明天要几点退房？"
         }
       ]
     },
@@ -308,7 +420,35 @@
       "basicID": "basic.list",
       "text": "Please check the list.",
       "translation": "请核对一下清单。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你到酒店办入住，还想问明天几点退房。",
+      "turns": [
+        {
+          "partner": "Welcome. How can I help?",
+          "partnerZH": "欢迎光临。有什么可以帮您？",
+          "reply": "I'd like to check in.",
+          "replyZH": "我想办理入住。"
+        },
+        {
+          "partner": "Please sign this form.",
+          "partnerZH": "请在这张表上签字。",
+          "reply": "What time do I check out tomorrow?",
+          "replyZH": "我明天要几点退房？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "你提前两个小时到了，想确认能否现在就办入住。",
+      "answer": "Can I check in early?",
+      "translation": "我可以提前办理入住吗？"
+    },
+    "nextTransfer": {
+      "prompt": "今天要早点离店，去前台说明。",
+      "answer": "I'd like to check out early.",
+      "translation": "我想提前退房。"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 46,
@@ -321,19 +461,19 @@
       "gate.departure-gate"
     ],
     "extraIDs": [],
-    "scene": "登机牌上的号码有点模糊，你走到问讯处。",
+    "scene": "听到登机口变更，你去问新号码和方向。",
     "roles": [
-      "你",
-      "工作人员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Has our gate number changed?",
-        "translation": "我们的登机口号码变了吗？"
+        "text": "Your gate has changed.",
+        "translation": "您的登机口变了。"
       },
       {
-        "text": "Yes. Your departure gate is now twelve.",
-        "translation": "对，现在请去十二号登机口。"
+        "text": "What's my new gate number?",
+        "translation": "我新的登机口是几号？"
       }
     ],
     "recallDay": 44,
@@ -349,19 +489,19 @@
       "basic.slope"
     ],
     "mission": {
-      "goal": "找到正确的登机口",
+      "goal": "听到登机口变更，你去问新号码和方向。",
       "turns": [
         {
-          "partner": "Has our gate number changed?",
-          "partnerZH": "我们的登机口号码变了吗？",
-          "reply": "Yes. Your departure gate is now twelve.",
-          "replyZH": "对，现在请去十二号登机口。"
+          "partner": "Your gate has changed.",
+          "partnerZH": "您的登机口变了。",
+          "reply": "What's my new gate number?",
+          "replyZH": "我新的登机口是几号？"
         },
         {
-          "partner": "Can I walk there in five minutes?",
-          "partnerZH": "五分钟能走到吗？",
-          "reply": "Yes. It's just past the shops.",
-          "replyZH": "可以，就在商店再过去一点。"
+          "partner": "Gate twelve, on the east side.",
+          "partnerZH": "十二号，在东侧。",
+          "reply": "Is that to my left?",
+          "replyZH": "是在我左边吗？"
         }
       ]
     },
@@ -370,7 +510,35 @@
       "basicID": "basic.east",
       "text": "Meet me at the east gate.",
       "translation": "到东门跟我碰面。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "听到登机口变更，你去问新号码和方向。",
+      "turns": [
+        {
+          "partner": "Your gate has changed.",
+          "partnerZH": "您的登机口变了。",
+          "reply": "What's my new gate number?",
+          "replyZH": "我新的登机口是几号？"
+        },
+        {
+          "partner": "Gate twelve, on the east side.",
+          "partnerZH": "十二号，在东侧。",
+          "reply": "Is that to my left?",
+          "replyZH": "是在我左边吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "到达登机口时门关着，你想问几点开放。",
+      "answer": "When does the gate open?",
+      "translation": "登机口什么时候开放？"
+    },
+    "nextTransfer": {
+      "prompt": "登机口临时改了，重新问号码。",
+      "answer": "What's the new gate number?",
+      "translation": "新的登机口是几号？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 47,
@@ -383,19 +551,19 @@
       "pass.passage"
     ],
     "extraIDs": [],
-    "scene": "你想坐公交游览一天。",
+    "scene": "你想买一日票，先问能不能多次通过入口。",
     "roles": [
-      "你",
-      "售票员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Can I buy a day pass here?",
-        "translation": "这里可以买一日通票吗？"
+        "text": "Which pass would you like?",
+        "translation": "您想要哪种通行证？"
       },
       {
-        "text": "Yes. You can use it all day.",
-        "translation": "可以，这张票全天都能用。"
+        "text": "Can I come back with a day pass?",
+        "translation": "凭一日票可以再进来吗？"
       }
     ],
     "recallDay": 24,
@@ -408,19 +576,19 @@
       "basic.wave"
     ],
     "mission": {
-      "goal": "一张票能通过几次",
+      "goal": "你想买一日票，先问能不能多次通过入口。",
       "turns": [
         {
-          "partner": "Can I buy a day pass here?",
-          "partnerZH": "这里可以买一日通票吗？",
-          "reply": "Yes. You can use it all day.",
-          "replyZH": "可以，这张票全天都能用。"
+          "partner": "Which pass would you like?",
+          "partnerZH": "您想要哪种通行证？",
+          "reply": "Can I come back with a day pass?",
+          "replyZH": "凭一日票可以再进来吗？"
         },
         {
-          "partner": "Could I use it again this evening?",
-          "partnerZH": "我今晚还能再用吗？",
-          "reply": "Yes, until midnight.",
-          "replyZH": "可以，一直到午夜。"
+          "partner": "Yes. Show it at the gate.",
+          "partnerZH": "可以，请在门口出示。",
+          "reply": "Is there a limit?",
+          "replyZH": "有次数限制吗？"
         }
       ]
     },
@@ -429,7 +597,35 @@
       "basicID": "basic.through",
       "text": "Can we pass through here?",
       "translation": "我们可以从这里过去吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你想买一日票，先问能不能多次通过入口。",
+      "turns": [
+        {
+          "partner": "Which pass would you like?",
+          "partnerZH": "您想要哪种通行证？",
+          "reply": "Can I come back with a day pass?",
+          "replyZH": "凭一日票可以再进来吗？"
+        },
+        {
+          "partner": "Yes. Show it at the gate.",
+          "partnerZH": "可以，请在门口出示。",
+          "reply": "Is there a limit?",
+          "replyZH": "有次数限制吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "换了一扇门，问通行证能不能从这里进。",
+      "answer": "Can I go through this gate with my pass?",
+      "translation": "我可以凭通行证从这个门进吗？"
+    },
+    "nextTransfer": {
+      "prompt": "已经出去吃过饭，问一日票能否再进一次。",
+      "answer": "Can I come back in with my day pass?",
+      "translation": "我可以凭一日票再进来吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 48,
@@ -442,19 +638,19 @@
       "land.landing-area"
     ],
     "extraIDs": [],
-    "scene": "飞机快到目的地，你看了一眼时间。",
+    "scene": "飞机快着陆了，你想知道在哪里降落、还要多久。",
     "roles": [
-      "你",
-      "同伴"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "When do we land?",
-        "translation": "我们几点降落？"
+        "text": "We'll land soon.",
+        "translation": "我们快降落了。"
       },
       {
-        "text": "In ten minutes. Get ready for landing.",
-        "translation": "还有十分钟，准备降落了。"
+        "text": "Will we land on the island?",
+        "translation": "我们会降落在那个岛上吗？"
       }
     ],
     "recallDay": 43,
@@ -472,19 +668,19 @@
       "basic.fall"
     ],
     "mission": {
-      "goal": "飞机落地的那一刻",
+      "goal": "飞机快着陆了，你想知道在哪里降落、还要多久。",
       "turns": [
         {
-          "partner": "When do we land?",
-          "partnerZH": "我们几点降落？",
-          "reply": "In ten minutes. Get ready for landing.",
-          "replyZH": "还有十分钟，准备降落了。"
+          "partner": "We'll land soon.",
+          "partnerZH": "我们快降落了。",
+          "reply": "Will we land on the island?",
+          "replyZH": "我们会降落在那个岛上吗？"
         },
         {
-          "partner": "Should I put my bag away now?",
-          "partnerZH": "我现在要把包收好吗？",
-          "reply": "Yes, under the seat in front of you.",
-          "replyZH": "要，放在前排座椅下面。"
+          "partner": "Yes, in ten minutes.",
+          "partnerZH": "会，十分钟后。",
+          "reply": "Thank you. I'll sit down.",
+          "replyZH": "谢谢。我这就坐下。"
         }
       ]
     },
@@ -493,7 +689,35 @@
       "basicID": "basic.island",
       "text": "We land on the island at noon.",
       "translation": "我们中午在岛上降落。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "飞机快着陆了，你想知道在哪里降落、还要多久。",
+      "turns": [
+        {
+          "partner": "We'll land soon.",
+          "partnerZH": "我们快降落了。",
+          "reply": "Will we land on the island?",
+          "replyZH": "我们会降落在那个岛上吗？"
+        },
+        {
+          "partner": "Yes, in ten minutes.",
+          "partnerZH": "会，十分钟后。",
+          "reply": "Thank you. I'll sit down.",
+          "replyZH": "谢谢。我这就坐下。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "飞机因天气晚点，请问新的着陆时间。",
+      "answer": "What time will we land now?",
+      "translation": "现在预计几点着陆？"
+    },
+    "nextTransfer": {
+      "prompt": "落地后想给家人报平安。",
+      "answer": "We've landed safely.",
+      "translation": "我们已经安全着陆了。"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 49,
@@ -506,19 +730,19 @@
       "travel.travel-bag"
     ],
     "extraIDs": [],
-    "scene": "你在列车入口问能否放包。",
+    "scene": "办托运时，你想确认旅行包的重量。",
     "roles": [
-      "你",
-      "乘务员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Where can I put my travel bag?",
-        "translation": "我的旅行包放哪里好？"
+        "text": "Please put your travel bag here.",
+        "translation": "请把旅行包放在这里。"
       },
       {
-        "text": "There's space under your seat.",
-        "translation": "座位下面有空位。"
+        "text": "What's the weight of my bag?",
+        "translation": "我的包有多重？"
       }
     ],
     "recallDay": 26,
@@ -534,19 +758,19 @@
       "basic.pin"
     ],
     "mission": {
-      "goal": "旅行者的随身包",
+      "goal": "办托运时，你想确认旅行包的重量。",
       "turns": [
         {
-          "partner": "Where can I put my travel bag?",
-          "partnerZH": "我的旅行包放哪里好？",
-          "reply": "There's space under your seat.",
-          "replyZH": "座位下面有空位。"
+          "partner": "Please put your travel bag here.",
+          "partnerZH": "请把旅行包放在这里。",
+          "reply": "What's the weight of my bag?",
+          "replyZH": "我的包有多重？"
         },
         {
-          "partner": "What if it doesn't fit?",
-          "partnerZH": "要是放不下呢？",
-          "reply": "Put it on the shelf above us.",
-          "replyZH": "放在我们头顶的架子上。"
+          "partner": "Nine kilos. Is this your only bag?",
+          "partnerZH": "九公斤。这是您唯一的包吗？",
+          "reply": "Yes, just this one.",
+          "replyZH": "是的，就这一个。"
         }
       ]
     },
@@ -555,7 +779,35 @@
       "basicID": "basic.weight",
       "text": "What's the weight of this travel bag?",
       "translation": "这个旅行包有多重？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "办托运时，你想确认旅行包的重量。",
+      "turns": [
+        {
+          "partner": "Please put your travel bag here.",
+          "partnerZH": "请把旅行包放在这里。",
+          "reply": "What's the weight of my bag?",
+          "replyZH": "我的包有多重？"
+        },
+        {
+          "partner": "Nine kilos. Is this your only bag?",
+          "partnerZH": "九公斤。这是您唯一的包吗？",
+          "reply": "Yes, just this one.",
+          "replyZH": "是的，就这一个。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "旅行包已经太重，你想拿出一件衬衫。",
+      "answer": "Can I take a shirt out of my bag?",
+      "translation": "我可以从包里拿出一件衬衫吗？"
+    },
+    "nextTransfer": {
+      "prompt": "想再放一件衬衫，先问行李包还能装多重。",
+      "answer": "What's the weight limit for my bag?",
+      "translation": "我的行李包限重多少？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 50,
@@ -568,19 +820,19 @@
       "stop.nonstop"
     ],
     "extraIDs": [],
-    "scene": "你拿着地图问司机。",
+    "scene": "你要去镇中心，想知道该在哪里坐公共汽车。",
     "roles": [
-      "你",
-      "司机"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Is the next bus stop near the museum?",
-        "translation": "下一站靠近博物馆吗？"
+        "text": "Are you looking for the bus stop?",
+        "translation": "你在找公交站吗？"
       },
       {
-        "text": "Yes. I'll stop by the main entrance.",
-        "translation": "靠近，我会在正门旁停车。"
+        "text": "Yes. Is it across the street?",
+        "translation": "是的。在街对面吗？"
       }
     ],
     "recallDay": 47,
@@ -596,19 +848,19 @@
       "basic.whip"
     ],
     "mission": {
-      "goal": "停车还是直达",
+      "goal": "你要去镇中心，想知道该在哪里坐公共汽车。",
       "turns": [
         {
-          "partner": "Is the next bus stop near the museum?",
-          "partnerZH": "下一站靠近博物馆吗？",
-          "reply": "Yes. I'll stop by the main entrance.",
-          "replyZH": "靠近，我会在正门旁停车。"
+          "partner": "Are you looking for the bus stop?",
+          "partnerZH": "你在找公交站吗？",
+          "reply": "Yes. Is it across the street?",
+          "replyZH": "是的。在街对面吗？"
         },
         {
-          "partner": "How will I know when to get off?",
-          "partnerZH": "我怎么知道什么时候下车？",
-          "reply": "Look for the big clock on the left.",
-          "replyZH": "留意左边那座大钟。"
+          "partner": "Yes. Where are you going?",
+          "partnerZH": "对。你要去哪儿？",
+          "reply": "To the center of town.",
+          "replyZH": "去镇中心。"
         }
       ]
     },
@@ -617,7 +869,35 @@
       "basicID": "basic.street",
       "text": "The bus stop is across the street.",
       "translation": "公交车站在街对面。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你要去镇中心，想知道该在哪里坐公共汽车。",
+      "turns": [
+        {
+          "partner": "Are you looking for the bus stop?",
+          "partnerZH": "你在找公交站吗？",
+          "reply": "Yes. Is it across the street?",
+          "replyZH": "是的。在街对面吗？"
+        },
+        {
+          "partner": "Yes. Where are you going?",
+          "partnerZH": "对。你要去哪儿？",
+          "reply": "To the center of town.",
+          "replyZH": "去镇中心。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "公交车上想在下一站下车。",
+      "answer": "Can I get off at the next stop?",
+      "translation": "我可以在下一站下车吗？"
+    },
+    "nextTransfer": {
+      "prompt": "你还要坐一站，问下一站在哪儿。",
+      "answer": "Where is the next bus stop?",
+      "translation": "下一个公交站在哪儿？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 51,
@@ -630,19 +910,19 @@
       "direct.redirect"
     ],
     "extraIDs": [],
-    "scene": "路口有一条街正在施工。",
+    "scene": "你要过桥，在街角向路人问方向。",
     "roles": [
-      "你",
-      "路人"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Can you direct me to the hotel?",
-        "translation": "能告诉我去酒店怎么走吗？"
+        "text": "Where are you trying to go?",
+        "translation": "你想去哪儿？"
       },
       {
-        "text": "Yes. Follow the signs in that direction.",
-        "translation": "可以，跟着那个方向的标志走。"
+        "text": "Which direction is the bridge in?",
+        "translation": "桥在哪个方向？"
       }
     ],
     "recallDay": 23,
@@ -658,19 +938,19 @@
       "basic.branch"
     ],
     "mission": {
-      "goal": "请人指个方向",
+      "goal": "你要过桥，在街角向路人问方向。",
       "turns": [
         {
-          "partner": "Can you direct me to the hotel?",
-          "partnerZH": "能告诉我去酒店怎么走吗？",
-          "reply": "Yes. Follow the signs in that direction.",
-          "replyZH": "可以，跟着那个方向的标志走。"
+          "partner": "Where are you trying to go?",
+          "partnerZH": "你想去哪儿？",
+          "reply": "Which direction is the bridge in?",
+          "replyZH": "桥在哪个方向？"
         },
         {
-          "partner": "Do I turn before the bridge or after it?",
-          "partnerZH": "在桥前转弯还是过桥后转？",
-          "reply": "After the bridge, turn right.",
-          "replyZH": "过桥之后右转。"
+          "partner": "Turn left at the church.",
+          "partnerZH": "到教堂向左拐。",
+          "reply": "Then do I go straight?",
+          "replyZH": "接着一直往前走吗？"
         }
       ]
     },
@@ -679,7 +959,35 @@
       "basicID": "basic.bridge",
       "text": "Which direction is the bridge in?",
       "translation": "桥在哪个方向？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你要过桥，在街角向路人问方向。",
+      "turns": [
+        {
+          "partner": "Where are you trying to go?",
+          "partnerZH": "你想去哪儿？",
+          "reply": "Which direction is the bridge in?",
+          "replyZH": "桥在哪个方向？"
+        },
+        {
+          "partner": "Turn left at the church.",
+          "partnerZH": "到教堂向左拐。",
+          "reply": "Then do I go straight?",
+          "replyZH": "接着一直往前走吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "走过桥后出现岔路，你不确定要不要向左。",
+      "answer": "Do I turn left after the bridge?",
+      "translation": "过桥后我要左转吗？"
+    },
+    "nextTransfer": {
+      "prompt": "走到教堂边，问是不是该向右转。",
+      "answer": "Do I turn right at the church?",
+      "translation": "到了教堂要右转吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 52,
@@ -699,19 +1007,19 @@
       "sign.designation.extra5"
     ],
     "extraIDs": [],
-    "scene": "在步道岔路处，你找不到湖。",
+    "scene": "你在公园找出口，想跟着正确的路标走。",
     "roles": [
-      "同伴",
+      "对方",
       "你"
     ],
     "dialogue": [
       {
-        "text": "What does the signpost say?",
-        "translation": "路标上写什么？"
+        "text": "Do you see the signpost?",
+        "translation": "你看到路标了吗？"
       },
       {
-        "text": "It says the lake is to the left.",
-        "translation": "写着湖在左边。"
+        "text": "Is it the one by the tree?",
+        "translation": "是树旁那个吗？"
       }
     ],
     "recallDay": 19,
@@ -728,19 +1036,19 @@
       "basic.rod"
     ],
     "mission": {
-      "goal": "顺着路标走",
+      "goal": "你在公园找出口，想跟着正确的路标走。",
       "turns": [
         {
-          "partner": "What does the signpost say?",
-          "partnerZH": "路标上写什么？",
-          "reply": "It says the lake is to the left.",
-          "replyZH": "写着湖在左边。"
+          "partner": "Do you see the signpost?",
+          "partnerZH": "你看到路标了吗？",
+          "reply": "Is it the one by the tree?",
+          "replyZH": "是树旁那个吗？"
         },
         {
-          "partner": "Is the path by the river open?",
-          "partnerZH": "河边的小路开放吗？",
-          "reply": "Yes. It's narrow but easy to follow.",
-          "replyZH": "开放。路窄，但很容易走。"
+          "partner": "Yes. Follow the blue arrow.",
+          "partnerZH": "是的，沿着蓝色箭头走。",
+          "reply": "Does it lead to the exit?",
+          "replyZH": "它通往出口吗？"
         }
       ]
     },
@@ -749,7 +1057,35 @@
       "basicID": "basic.tree",
       "text": "Look for the signpost by the tree.",
       "translation": "找树旁的路标。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你在公园找出口，想跟着正确的路标走。",
+      "turns": [
+        {
+          "partner": "Do you see the signpost?",
+          "partnerZH": "你看到路标了吗？",
+          "reply": "Is it the one by the tree?",
+          "replyZH": "是树旁那个吗？"
+        },
+        {
+          "partner": "Yes. Follow the blue arrow.",
+          "partnerZH": "是的，沿着蓝色箭头走。",
+          "reply": "Does it lead to the exit?",
+          "replyZH": "它通往出口吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "现在想找到有树荫的小路。",
+      "answer": "Which sign points to the shady path?",
+      "translation": "哪个标志指向有树荫的小路？"
+    },
+    "nextTransfer": {
+      "prompt": "走到岔路口，想知道该跟黄色路标还是蓝色路标。",
+      "answer": "Do I follow the yellow sign or the blue one?",
+      "translation": "我该跟着黄色路标还是蓝色路标走？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 53,
@@ -765,19 +1101,19 @@
       "geo.geopolitics.extra5"
     ],
     "extraIDs": [],
-    "scene": "朋友想知道你那张山景照是在哪儿拍的。",
+    "scene": "你旅行后整理照片，想给河边的一张标上位置。",
     "roles": [
-      "朋友",
+      "对方",
       "你"
     ],
     "dialogue": [
       {
-        "text": "Did you geotag the photo?",
-        "translation": "你给这张照片加了地理位置吗？"
+        "text": "Which photo shall we mark?",
+        "translation": "我们要给哪张照片做标记？"
       },
       {
-        "text": "Yes. You can see the spot on the map.",
-        "translation": "加了，地图上能看到那个地方。"
+        "text": "Can we geotag the river photo?",
+        "translation": "我们能给这张河流照片标上位置吗？"
       }
     ],
     "recallDay": 52,
@@ -795,19 +1131,19 @@
       "basic.insect"
     ],
     "mission": {
-      "goal": "给旅行照片标个位置",
+      "goal": "你旅行后整理照片，想给河边的一张标上位置。",
       "turns": [
         {
-          "partner": "Did you geotag the photo?",
-          "partnerZH": "你给这张照片加了地理位置吗？",
-          "reply": "Yes. You can see the spot on the map.",
-          "replyZH": "加了，地图上能看到那个地方。"
+          "partner": "Which photo shall we mark?",
+          "partnerZH": "我们要给哪张照片做标记？",
+          "reply": "Can we geotag the river photo?",
+          "replyZH": "我们能给这张河流照片标上位置吗？"
         },
         {
-          "partner": "Could you send me the location?",
-          "partnerZH": "能把地点发给我吗？",
-          "reply": "Sure. I'll send the map now.",
-          "replyZH": "可以，我这就把地图发给你。"
+          "partner": "Sure. Where were you standing?",
+          "partnerZH": "当然。你当时站在哪儿？",
+          "reply": "On that bridge.",
+          "replyZH": "在那座桥上。"
         }
       ]
     },
@@ -816,7 +1152,35 @@
       "basicID": "basic.river",
       "text": "We study this river in geography class.",
       "translation": "我们在地理课上学习这条河。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你旅行后整理照片，想给河边的一张标上位置。",
+      "turns": [
+        {
+          "partner": "Which photo shall we mark?",
+          "partnerZH": "我们要给哪张照片做标记？",
+          "reply": "Can we geotag the river photo?",
+          "replyZH": "我们能给这张河流照片标上位置吗？"
+        },
+        {
+          "partner": "Sure. Where were you standing?",
+          "partnerZH": "当然。你当时站在哪儿？",
+          "reply": "On that bridge.",
+          "replyZH": "在那座桥上。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次要标记一座山，向朋友确认是哪一座。",
+      "answer": "Which mountain should I mark on this photo?",
+      "translation": "我该在这张照片上标哪座山？"
+    },
+    "nextTransfer": {
+      "prompt": "把河边照片给朋友看，请他标上位置。",
+      "answer": "Can you geotag this photo of the river?",
+      "translation": "你能给这张河流照片标上位置吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 54,
@@ -830,19 +1194,19 @@
       "vis.preview.extra4"
     ],
     "extraIDs": [],
-    "scene": "你和同伴在手机上查看明天的徒步路线。",
+    "scene": "进展馆前你想预览向导的路线。",
     "roles": [
-      "你",
-      "同伴"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Let's preview the route.",
-        "translation": "先预览一下路线吧。"
+        "text": "Would you like to see the route first?",
+        "translation": "你想先看看路线吗？"
       },
       {
-        "text": "Good idea. I can visualize the walk now.",
-        "translation": "好主意，我现在能想象这段路怎么走了。"
+        "text": "Can I preview the guide?",
+        "translation": "我能先看看导览吗？"
       }
     ],
     "recallDay": 20,
@@ -857,19 +1221,19 @@
       "basic.society"
     ],
     "mission": {
-      "goal": "先预览，再回看",
+      "goal": "进展馆前你想预览向导的路线。",
       "turns": [
         {
-          "partner": "Let's preview the route.",
-          "partnerZH": "先预览一下路线吧。",
-          "reply": "Good idea. I can visualize the walk now.",
-          "replyZH": "好主意，我现在能想象这段路怎么走了。"
+          "partner": "Would you like to see the route first?",
+          "partnerZH": "你想先看看路线吗？",
+          "reply": "Can I preview the guide?",
+          "replyZH": "我能先看看导览吗？"
         },
         {
-          "partner": "How long will the walk take?",
-          "partnerZH": "步行需要多久？",
-          "reply": "About half an hour, with one short stop.",
-          "replyZH": "大约半小时，中间稍微歇一下。"
+          "partner": "Yes. Which part interests you?",
+          "partnerZH": "可以。你对哪一部分感兴趣？",
+          "reply": "The old town, please.",
+          "replyZH": "我想看老城。"
         }
       ]
     },
@@ -878,7 +1242,35 @@
       "basicID": "basic.guide",
       "text": "The guide gives us a preview of the tour.",
       "translation": "导游先给我们介绍了游览的大致内容。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "进展馆前你想预览向导的路线。",
+      "turns": [
+        {
+          "partner": "Would you like to see the route first?",
+          "partnerZH": "你想先看看路线吗？",
+          "reply": "Can I preview the guide?",
+          "replyZH": "我能先看看导览吗？"
+        },
+        {
+          "partner": "Yes. Which part interests you?",
+          "partnerZH": "可以。你对哪一部分感兴趣？",
+          "reply": "The old town, please.",
+          "replyZH": "我想看老城。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "明天出发，想提前看一眼沿途景色。",
+      "answer": "Can I preview the view from the train?",
+      "translation": "我能提前看看火车沿途的景色吗？"
+    },
+    "nextTransfer": {
+      "prompt": "旅行结束了，你想回看昨天的照片。",
+      "answer": "Can we review yesterday's photos?",
+      "translation": "我们可以再看看昨天的照片吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 55,
@@ -897,19 +1289,19 @@
       "fer.suffer"
     ],
     "extraIDs": [],
-    "scene": "朋友没法出发，你问车票能否转给别人。",
+    "scene": "你买的票不能用了，想问能否转给朋友。",
     "roles": [
-      "你",
-      "售票员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Is this ticket transferable?",
-        "translation": "这张票可以转让吗？"
+        "text": "What would you like to do with your ticket?",
+        "translation": "您想怎么处理这张票？"
       },
       {
-        "text": "Yes. You can transfer it to a friend.",
-        "translation": "可以，你能把它转给朋友。"
+        "text": "Can I transfer it to a friend?",
+        "translation": "我能把票转给朋友吗？"
       }
     ],
     "recallDay": 30,
@@ -927,19 +1319,19 @@
       "basic.loss"
     ],
     "mission": {
-      "goal": "能否把票转给别人",
+      "goal": "你买的票不能用了，想问能否转给朋友。",
       "turns": [
         {
-          "partner": "Is this ticket transferable?",
-          "partnerZH": "这张票可以转让吗？",
-          "reply": "Yes. You can transfer it to a friend.",
-          "replyZH": "可以，你能把它转给朋友。"
+          "partner": "What would you like to do with your ticket?",
+          "partnerZH": "您想怎么处理这张票？",
+          "reply": "Can I transfer it to a friend?",
+          "replyZH": "我能把票转给朋友吗？"
         },
         {
-          "partner": "What name should I put on it?",
-          "partnerZH": "我应该在上面写什么名字？",
-          "reply": "Use your friend's full name.",
-          "replyZH": "写你朋友的全名。"
+          "partner": "Yes. Does your friend have an account?",
+          "partnerZH": "可以。您朋友有账户吗？",
+          "reply": "Yes. What should I do next?",
+          "replyZH": "有。下一步怎么做？"
         }
       ]
     },
@@ -948,7 +1340,35 @@
       "basicID": "basic.account",
       "text": "Can I transfer money to this account?",
       "translation": "我能把钱转到这个账户吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你买的票不能用了，想问能否转给朋友。",
+      "turns": [
+        {
+          "partner": "What would you like to do with your ticket?",
+          "partnerZH": "您想怎么处理这张票？",
+          "reply": "Can I transfer it to a friend?",
+          "replyZH": "我能把票转给朋友吗？"
+        },
+        {
+          "partner": "Yes. Does your friend have an account?",
+          "partnerZH": "可以。您朋友有账户吗？",
+          "reply": "Yes. What should I do next?",
+          "replyZH": "有。下一步怎么做？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "朋友没有账户，改问能不能换日期。",
+      "answer": "Can I exchange my ticket for another date?",
+      "translation": "我可以把票换到另一天吗？"
+    },
+    "nextTransfer": {
+      "prompt": "自己去不了了，想把车票转给妹妹。",
+      "answer": "Can I transfer this ticket to my sister?",
+      "translation": "我可以把这张票转给妹妹吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 56,
@@ -966,19 +1386,19 @@
       "pend.appendix"
     ],
     "extraIDs": [],
-    "scene": "码头的轮渡因天气临时停航。",
+    "scene": "看到交通暂停的通知，你想知道原因和等待时间。",
     "roles": [
-      "你",
-      "工作人员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "How long is the suspension?",
-        "translation": "停航会持续多久？"
+        "text": "The service is suspended.",
+        "translation": "服务暂停了。"
       },
       {
-        "text": "We're still waiting. A decision is pending.",
-        "translation": "我们还在等，决定还没下来。"
+        "text": "What's the reason?",
+        "translation": "是什么原因？"
       }
     ],
     "recallDay": 31,
@@ -991,19 +1411,19 @@
       "basic.burst"
     ],
     "mission": {
-      "goal": "看懂临时暂停的通知",
+      "goal": "看到交通暂停的通知，你想知道原因和等待时间。",
       "turns": [
         {
-          "partner": "How long is the suspension?",
-          "partnerZH": "停航会持续多久？",
-          "reply": "We're still waiting. A decision is pending.",
-          "replyZH": "我们还在等，决定还没下来。"
+          "partner": "The service is suspended.",
+          "partnerZH": "服务暂停了。",
+          "reply": "What's the reason?",
+          "replyZH": "是什么原因？"
         },
         {
-          "partner": "Where should we wait for news?",
-          "partnerZH": "我们在哪儿等消息？",
-          "reply": "By the desk. They'll call us there.",
-          "replyZH": "在服务台旁，他们会到那儿叫我们。"
+          "partner": "The power is out.",
+          "partnerZH": "停电了。",
+          "reply": "Can I wait here?",
+          "replyZH": "我可以在这里等吗？"
         }
       ]
     },
@@ -1012,7 +1432,35 @@
       "basicID": "basic.reason",
       "text": "Is there a reason my request is still pending?",
       "translation": "我的申请还没处理，是什么原因？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "看到交通暂停的通知，你想知道原因和等待时间。",
+      "turns": [
+        {
+          "partner": "The service is suspended.",
+          "partnerZH": "服务暂停了。",
+          "reply": "What's the reason?",
+          "replyZH": "是什么原因？"
+        },
+        {
+          "partner": "The power is out.",
+          "partnerZH": "停电了。",
+          "reply": "Can I wait here?",
+          "replyZH": "我可以在这里等吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次不是在等车，而是想知道退款是否还在处理中。",
+      "answer": "Is my refund still pending?",
+      "translation": "我的退款还在处理中吗？"
+    },
+    "nextTransfer": {
+      "prompt": "电力恢复了，想知道缆车是否重新开放。",
+      "answer": "Is the cable car running again?",
+      "translation": "缆车又开始运行了吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 57,
@@ -1027,19 +1475,19 @@
       "mit.dismiss"
     ],
     "extraIDs": [],
-    "scene": "到博物馆门口，你拿出通票。",
+    "scene": "你带孩子进展馆，想知道门票和入场条件。",
     "roles": [
-      "你",
-      "工作人员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Does this pass include admission?",
-        "translation": "这张通票包含入场资格吗？"
+        "text": "How many tickets do you need?",
+        "translation": "您需要几张票？"
       },
       {
-        "text": "Yes. It admits one adult.",
-        "translation": "是的，可以让一位成人入场。"
+        "text": "Is admission free for children?",
+        "translation": "儿童可以免费入场吗？"
       }
     ],
     "recallDay": 56,
@@ -1054,19 +1502,19 @@
       "basic.punishment"
     ],
     "mission": {
-      "goal": "门票和入场许可",
+      "goal": "你带孩子进展馆，想知道门票和入场条件。",
       "turns": [
         {
-          "partner": "Does this pass include admission?",
-          "partnerZH": "这张通票包含入场资格吗？",
-          "reply": "Yes. It admits one adult.",
-          "replyZH": "是的，可以让一位成人入场。"
+          "partner": "How many tickets do you need?",
+          "partnerZH": "您需要几张票？",
+          "reply": "Is admission free for children?",
+          "replyZH": "儿童可以免费入场吗？"
         },
         {
-          "partner": "What about my baby?",
-          "partnerZH": "那我的宝宝呢？",
-          "reply": "Your baby can come in with you.",
-          "replyZH": "您的宝宝可以跟您一起进去。"
+          "partner": "Yes. How old is your child?",
+          "partnerZH": "可以。孩子多大了？",
+          "reply": "She's four.",
+          "replyZH": "她四岁。"
         }
       ]
     },
@@ -1075,7 +1523,35 @@
       "basicID": "basic.rule",
       "text": "The rules do not permit pets inside.",
       "translation": "按规定，宠物不能入内。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你带孩子进展馆，想知道门票和入场条件。",
+      "turns": [
+        {
+          "partner": "How many tickets do you need?",
+          "partnerZH": "您需要几张票？",
+          "reply": "Is admission free for children?",
+          "replyZH": "儿童可以免费入场吗？"
+        },
+        {
+          "partner": "Yes. How old is your child?",
+          "partnerZH": "可以。孩子多大了？",
+          "reply": "She's four.",
+          "replyZH": "她四岁。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次你带着相机，先问可不可以拍照。",
+      "answer": "Do I need permission to take photos?",
+      "translation": "拍照要先得到允许吗？"
+    },
+    "nextTransfer": {
+      "prompt": "这次是带孩子参观，想确认婴儿是否需要门票。",
+      "answer": "Does my baby need a ticket?",
+      "translation": "我的宝宝需要门票吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 58,
@@ -1088,19 +1564,19 @@
       "room.bathroom"
     ],
     "extraIDs": [],
-    "scene": "你在前台确认房间设施。",
+    "scene": "你在朋友家过夜，想找卧室和洗手间。",
     "roles": [
-      "你",
-      "前台"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Does the room have its own bathroom?",
-        "translation": "这个房间有独立卫生间吗？"
+        "text": "Your room is ready.",
+        "translation": "你的房间准备好了。"
       },
       {
-        "text": "Yes. It's next to the bedroom.",
-        "translation": "有，就在卧室旁边。"
+        "text": "Which room is mine?",
+        "translation": "哪间是我的房间？"
       }
     ],
     "recallDay": 16,
@@ -1118,19 +1594,19 @@
       "basic.burn"
     ],
     "mission": {
-      "goal": "房间里面有什么",
+      "goal": "你在朋友家过夜，想找卧室和洗手间。",
       "turns": [
         {
-          "partner": "Does the room have its own bathroom?",
-          "partnerZH": "这个房间有独立卫生间吗？",
-          "reply": "Yes. It's next to the bedroom.",
-          "replyZH": "有，就在卧室旁边。"
+          "partner": "Your room is ready.",
+          "partnerZH": "你的房间准备好了。",
+          "reply": "Which room is mine?",
+          "replyZH": "哪间是我的房间？"
         },
         {
-          "partner": "Could we have fresh linen, too?",
-          "partnerZH": "也能给我们换一套干净床品吗？",
-          "reply": "Of course. I'll bring it up.",
-          "replyZH": "当然，我拿上来。"
+          "partner": "It's next to the bathroom.",
+          "partnerZH": "就在洗手间旁边。",
+          "reply": "Is there a lamp by the bed?",
+          "replyZH": "床边有灯吗？"
         }
       ]
     },
@@ -1139,7 +1615,35 @@
       "basicID": "basic.bed",
       "text": "The bedroom has one bed.",
       "translation": "这间卧室里有一张床。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你在朋友家过夜，想找卧室和洗手间。",
+      "turns": [
+        {
+          "partner": "Your room is ready.",
+          "partnerZH": "你的房间准备好了。",
+          "reply": "Which room is mine?",
+          "replyZH": "哪间是我的房间？"
+        },
+        {
+          "partner": "It's next to the bathroom.",
+          "partnerZH": "就在洗手间旁边。",
+          "reply": "Is there a lamp by the bed?",
+          "replyZH": "床边有灯吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "今天你容易被吵醒，想换到安静的房间。",
+      "answer": "Can I have a quiet room?",
+      "translation": "我可以要一间安静的房间吗？"
+    },
+    "nextTransfer": {
+      "prompt": "换房后你还想多要一个枕头。",
+      "answer": "Can I have another pillow for my room?",
+      "translation": "能再给我房间送一个枕头吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 59,
@@ -1152,19 +1656,19 @@
       "key.key-ring"
     ],
     "extraIDs": [],
-    "scene": "回到酒店时，房门上的读卡器亮了红灯。",
+    "scene": "你拿到的房卡打不开门，回前台说明。",
     "roles": [
-      "你",
-      "前台"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "My key card won't open the door.",
-        "translation": "我的门卡打不开门。"
+        "text": "Is there a problem with your room?",
+        "translation": "您的房间有什么问题吗？"
       },
       {
-        "text": "I'll get you a new one.",
-        "translation": "我给你换一张。"
+        "text": "My key card doesn't open the door.",
+        "translation": "我的房卡打不开门。"
       }
     ],
     "recallDay": 14,
@@ -1180,19 +1684,19 @@
       "basic.screw"
     ],
     "mission": {
-      "goal": "拿错房卡的时候",
+      "goal": "你拿到的房卡打不开门，回前台说明。",
       "turns": [
         {
-          "partner": "My key card won't open the door.",
-          "partnerZH": "我的门卡打不开门。",
-          "reply": "I'll get you a new one.",
-          "replyZH": "我给你换一张。"
+          "partner": "Is there a problem with your room?",
+          "partnerZH": "您的房间有什么问题吗？",
+          "reply": "My key card doesn't open the door.",
+          "replyZH": "我的房卡打不开门。"
         },
         {
-          "partner": "What's your room number?",
-          "partnerZH": "你的房间号是多少？",
-          "reply": "Room two oh six. Here's my ID.",
-          "replyZH": "二〇六，这是我的证件。"
+          "partner": "May I see your card?",
+          "partnerZH": "能给我看看您的房卡吗？",
+          "reply": "Here it is. Is this one mine?",
+          "replyZH": "给您。这张是我的吗？"
         }
       ]
     },
@@ -1201,7 +1705,35 @@
       "basicID": "basic.drawer",
       "text": "The key is in the drawer.",
       "translation": "钥匙在抽屉里。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你拿到的房卡打不开门，回前台说明。",
+      "turns": [
+        {
+          "partner": "Is there a problem with your room?",
+          "partnerZH": "您的房间有什么问题吗？",
+          "reply": "My key card doesn't open the door.",
+          "replyZH": "我的房卡打不开门。"
+        },
+        {
+          "partner": "May I see your card?",
+          "partnerZH": "能给我看看您的房卡吗？",
+          "reply": "Here it is. Is this one mine?",
+          "replyZH": "给您。这张是我的吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次钥匙掉在房间里，你请前台帮你开门。",
+      "answer": "My key is in my room. Can you help?",
+      "translation": "我的钥匙在房间里。能帮我一下吗？"
+    },
+    "nextTransfer": {
+      "prompt": "新房卡也打开不了门，去前台求助。",
+      "answer": "This key card doesn't open my door.",
+      "translation": "这张房卡打不开我的房门。"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 60,
@@ -1214,19 +1746,19 @@
       "serve.serving"
     ],
     "extraIDs": [],
-    "scene": "早餐菜单上写着一份可丽饼。",
+    "scene": "你在旅店点早餐，想问有什么吃的，再要一个盘子。",
     "roles": [
-      "你",
-      "服务员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "How many pancakes are in one serving?",
-        "translation": "一份有几张薄煎饼？"
+        "text": "What can I get you?",
+        "translation": "想吃点什么？"
       },
       {
-        "text": "Two. We serve them with fruit.",
-        "translation": "两张，会配水果。"
+        "text": "Do you serve breakfast here?",
+        "translation": "这里供应早餐吗？"
       }
     ],
     "recallDay": 5,
@@ -1245,19 +1777,19 @@
       "basic.cork"
     ],
     "mission": {
-      "goal": "餐厅里的一份早餐",
+      "goal": "你在旅店点早餐，想问有什么吃的，再要一个盘子。",
       "turns": [
         {
-          "partner": "How many pancakes are in one serving?",
-          "partnerZH": "一份有几张薄煎饼？",
-          "reply": "Two. We serve them with fruit.",
-          "replyZH": "两张，会配水果。"
+          "partner": "What can I get you?",
+          "partnerZH": "想吃点什么？",
+          "reply": "Do you serve breakfast here?",
+          "replyZH": "这里供应早餐吗？"
         },
         {
-          "partner": "Is there anything without milk?",
-          "partnerZH": "有不含牛奶的吗？",
-          "reply": "Yes. We have fruit and rice.",
-          "replyZH": "有，我们有水果和米饭。"
+          "partner": "Yes. Would you like eggs?",
+          "partnerZH": "有的。您要鸡蛋吗？",
+          "reply": "Yes, and a plate, please.",
+          "replyZH": "要的，再给我一个盘子。"
         }
       ]
     },
@@ -1266,7 +1798,35 @@
       "basicID": "basic.meal",
       "text": "What time do you serve the meal?",
       "translation": "你们几点开饭？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你在旅店点早餐，想问有什么吃的，再要一个盘子。",
+      "turns": [
+        {
+          "partner": "What can I get you?",
+          "partnerZH": "想吃点什么？",
+          "reply": "Do you serve breakfast here?",
+          "replyZH": "这里供应早餐吗？"
+        },
+        {
+          "partner": "Yes. Would you like eggs?",
+          "partnerZH": "有的。您要鸡蛋吗？",
+          "reply": "Yes, and a plate, please.",
+          "replyZH": "要的，再给我一个盘子。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次要问晚餐供应到几点。",
+      "answer": "What time do you serve dinner?",
+      "translation": "你们几点供应晚餐？"
+    },
+    "nextTransfer": {
+      "prompt": "早餐已经上桌，你还需要一把勺子。",
+      "answer": "Could I have a spoon, please?",
+      "translation": "能给我一把勺子吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 61,
@@ -1279,19 +1839,19 @@
       "pay.repay"
     ],
     "extraIDs": [],
-    "scene": "你想买一张当地交通卡。",
+    "scene": "你想预付明天的餐费，先确认总额。",
     "roles": [
-      "你",
-      "售票员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Is this a prepaid card?",
-        "translation": "这是一张预付卡吗？"
+        "text": "When would you like to pay?",
+        "translation": "您想什么时候付款？"
       },
       {
-        "text": "Yes. You pay before you travel.",
-        "translation": "是的，出行前先付费。"
+        "text": "Can I prepay for tomorrow?",
+        "translation": "我能为明天预付吗？"
       }
     ],
     "recallDay": 10,
@@ -1303,19 +1863,19 @@
       "basic.poor"
     ],
     "mission": {
-      "goal": "把餐费预先付清",
+      "goal": "你想预付明天的餐费，先确认总额。",
       "turns": [
         {
-          "partner": "Is this a prepaid card?",
-          "partnerZH": "这是一张预付卡吗？",
-          "reply": "Yes. You pay before you travel.",
-          "replyZH": "是的，出行前先付费。"
+          "partner": "When would you like to pay?",
+          "partnerZH": "您想什么时候付款？",
+          "reply": "Can I prepay for tomorrow?",
+          "replyZH": "我能为明天预付吗？"
         },
         {
-          "partner": "Can I check how much is left?",
-          "partnerZH": "可以查一下还剩多少钱吗？",
-          "reply": "Yes. The amount is on the receipt.",
-          "replyZH": "可以，收据上有余额。"
+          "partner": "Yes. Would you like the total?",
+          "partnerZH": "可以。您想知道总额吗？",
+          "reply": "Yes. What's the full amount?",
+          "replyZH": "想。一共多少钱？"
         }
       ]
     },
@@ -1324,7 +1884,35 @@
       "basicID": "basic.amount",
       "text": "Do I need to prepay the full amount?",
       "translation": "我需要预付全款吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你想预付明天的餐费，先确认总额。",
+      "turns": [
+        {
+          "partner": "When would you like to pay?",
+          "partnerZH": "您想什么时候付款？",
+          "reply": "Can I prepay for tomorrow?",
+          "replyZH": "我能为明天预付吗？"
+        },
+        {
+          "partner": "Yes. Would you like the total?",
+          "partnerZH": "可以。您想知道总额吗？",
+          "reply": "Yes. What's the full amount?",
+          "replyZH": "想。一共多少钱？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次想只先付一半。",
+      "answer": "Can I prepay half?",
+      "translation": "我可以先付一半吗？"
+    },
+    "nextTransfer": {
+      "prompt": "第二天想预付两顿饭。",
+      "answer": "Can I prepay for two meals?",
+      "translation": "我可以预付两顿饭的钱吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 62,
@@ -1338,19 +1926,19 @@
       "press.suppress"
     ],
     "extraIDs": [],
-    "scene": "同伴教你一句当地常用的感谢语。",
+    "scene": "你想表达谢意，却不知道用英语怎么说。",
     "roles": [
-      "你",
-      "同伴"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "What expression can I use to say thanks?",
-        "translation": "我可以用什么说法来道谢？"
+        "text": "What would you like to say?",
+        "translation": "你想说什么？"
       },
       {
-        "text": "You can say, “I really appreciate it.”",
-        "translation": "你可以说“我真的很感激”。"
+        "text": "How can I express thanks?",
+        "translation": "我怎么表达谢意？"
       }
     ],
     "recallDay": 21,
@@ -1365,19 +1953,19 @@
       "basic.strange"
     ],
     "mission": {
-      "goal": "把想说的话表达出来",
+      "goal": "你想表达谢意，却不知道用英语怎么说。",
       "turns": [
         {
-          "partner": "What expression can I use to say thanks?",
-          "partnerZH": "我可以用什么说法来道谢？",
-          "reply": "You can say, “I really appreciate it.”",
-          "replyZH": "你可以说“我真的很感激”。"
+          "partner": "What would you like to say?",
+          "partnerZH": "你想说什么？",
+          "reply": "How can I express thanks?",
+          "replyZH": "我怎么表达谢意？"
         },
         {
-          "partner": "How would you thank someone who helped with your bag?",
-          "partnerZH": "别人帮你提包，你会怎样道谢？",
-          "reply": "Thank you for carrying my bag.",
-          "replyZH": "谢谢你帮我提包。"
+          "partner": "You can say, “Thank you for your help.”",
+          "partnerZH": "可以说「谢谢你的帮助」。",
+          "reply": "Can you give me another example?",
+          "replyZH": "你能再举个例子吗？"
         }
       ]
     },
@@ -1386,7 +1974,35 @@
       "basicID": "basic.language",
       "text": "Can you express it in simple language?",
       "translation": "你能用简单的话说出来吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你想表达谢意，却不知道用英语怎么说。",
+      "turns": [
+        {
+          "partner": "What would you like to say?",
+          "partnerZH": "你想说什么？",
+          "reply": "How can I express thanks?",
+          "replyZH": "我怎么表达谢意？"
+        },
+        {
+          "partner": "You can say, “Thank you for your help.”",
+          "partnerZH": "可以说「谢谢你的帮助」。",
+          "reply": "Can you give me another example?",
+          "replyZH": "你能再举个例子吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次想表达的是歉意，问老师怎么说。",
+      "answer": "How can I apologize in English?",
+      "translation": "我用英语怎么道歉？"
+    },
+    "nextTransfer": {
+      "prompt": "这个说法没听懂，想再听一个简单的例子。",
+      "answer": "Can you give me a simpler example?",
+      "translation": "你能给我一个更简单的例子吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 63,
@@ -1406,19 +2022,19 @@
       "mot.demotion.extra5"
     ],
     "extraIDs": [],
-    "scene": "租车前，你和工作人员站在一台电动车边。",
+    "scene": "取租来的车时，你想确认发动机和机油的情况。",
     "roles": [
-      "你",
-      "工作人员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Does this car have an electric motor?",
-        "translation": "这辆车用的是电动机吗？"
+        "text": "Are you ready to take the car?",
+        "translation": "您准备把车开走了吗？"
       },
       {
-        "text": "Yes. It's very quiet.",
-        "translation": "是的，开起来很安静。"
+        "text": "Can we check the engine first?",
+        "translation": "我们能先看看发动机吗？"
       }
     ],
     "recallDay": 35,
@@ -1434,19 +2050,19 @@
       "basic.lead"
     ],
     "mission": {
-      "goal": "租车时看看发动机",
+      "goal": "取租来的车时，你想确认发动机和机油的情况。",
       "turns": [
         {
-          "partner": "Does this car have an electric motor?",
-          "partnerZH": "这辆车用的是电动机吗？",
-          "reply": "Yes. It's very quiet.",
-          "replyZH": "是的，开起来很安静。"
+          "partner": "Are you ready to take the car?",
+          "partnerZH": "您准备把车开走了吗？",
+          "reply": "Can we check the engine first?",
+          "replyZH": "我们能先看看发动机吗？"
         },
         {
-          "partner": "What should I check before I leave?",
-          "partnerZH": "出发前我应该检查什么？",
-          "reply": "Check the brakes and the battery level.",
-          "replyZH": "检查刹车和电量。"
+          "partner": "Of course. What would you like to check?",
+          "partnerZH": "当然。您想检查什么？",
+          "reply": "Does it need oil?",
+          "replyZH": "它需要加机油吗？"
         }
       ]
     },
@@ -1455,7 +2071,35 @@
       "basicID": "basic.oil",
       "text": "Does the motor need oil?",
       "translation": "这个电机需要加润滑油吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "取租来的车时，你想确认发动机和机油的情况。",
+      "turns": [
+        {
+          "partner": "Are you ready to take the car?",
+          "partnerZH": "您准备把车开走了吗？",
+          "reply": "Can we check the engine first?",
+          "replyZH": "我们能先看看发动机吗？"
+        },
+        {
+          "partner": "Of course. What would you like to check?",
+          "partnerZH": "当然。您想检查什么？",
+          "reply": "Does it need oil?",
+          "replyZH": "它需要加机油吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这次想知道租来的车是电动还是汽油驱动。",
+      "answer": "Does this car have an electric motor?",
+      "translation": "这辆车是用电动机驱动的吗？"
+    },
+    "nextTransfer": {
+      "prompt": "租车出发前，你想让人帮忙检查刹车。",
+      "answer": "Can you check the brakes before I drive?",
+      "translation": "我出发前你能检查一下刹车吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 64,
@@ -1469,19 +2113,19 @@
       "vers.reverse.3"
     ],
     "extraIDs": [],
-    "scene": "租来的汽车挡位和你平时的不一样。",
+    "scene": "你开车离开车位，请同伴看后面能不能倒车。",
     "roles": [
-      "你",
-      "工作人员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "How do I put it in reverse?",
-        "translation": "怎么挂倒档？"
+        "text": "Are you ready to move?",
+        "translation": "你准备好开车了吗？"
       },
       {
-        "text": "Press this button first.",
-        "translation": "先按这个按钮。"
+        "text": "Is it safe to reverse?",
+        "translation": "现在倒车安全吗？"
       }
     ],
     "recallDay": 63,
@@ -1493,19 +2137,19 @@
       "basic.crush"
     ],
     "mission": {
-      "goal": "倒车和反面",
+      "goal": "你开车离开车位，请同伴看后面能不能倒车。",
       "turns": [
         {
-          "partner": "How do I put it in reverse?",
-          "partnerZH": "怎么挂倒档？",
-          "reply": "Press this button first.",
-          "replyZH": "先按这个按钮。"
+          "partner": "Are you ready to move?",
+          "partnerZH": "你准备好开车了吗？",
+          "reply": "Is it safe to reverse?",
+          "replyZH": "现在倒车安全吗？"
         },
         {
-          "partner": "Where should I park when we arrive?",
-          "partnerZH": "到了以后我应该停在哪里？",
-          "reply": "In the space on the left.",
-          "replyZH": "停在左边的车位里。"
+          "partner": "Wait. There's a car behind you.",
+          "partnerZH": "等等，后面有辆车。",
+          "reply": "I'll stay in this position.",
+          "replyZH": "我先停在这里。"
         }
       ]
     },
@@ -1514,7 +2158,35 @@
       "basicID": "basic.position",
       "text": "Our position is marked on the reverse of the map.",
       "translation": "我们的位置标在地图背面。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你开车离开车位，请同伴看后面能不能倒车。",
+      "turns": [
+        {
+          "partner": "Are you ready to move?",
+          "partnerZH": "你准备好开车了吗？",
+          "reply": "Is it safe to reverse?",
+          "replyZH": "现在倒车安全吗？"
+        },
+        {
+          "partner": "Wait. There's a car behind you.",
+          "partnerZH": "等等，后面有辆车。",
+          "reply": "I'll stay in this position.",
+          "replyZH": "我先停在这里。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "换了一辆车，请人指出倒车挡。",
+      "answer": "Which position is reverse on this car?",
+      "translation": "这辆车哪个位置是倒车挡？"
+    },
+    "nextTransfer": {
+      "prompt": "后面有自行车，提醒司机先别倒车。",
+      "answer": "Please don't reverse yet. There's a bike behind us.",
+      "translation": "请先别倒车。后面有一辆自行车。"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 65,
@@ -1534,19 +2206,19 @@
       "spect.aspect"
     ],
     "extraIDs": [],
-    "scene": "工作人员请你把行李放上台面。",
+    "scene": "过关检查时，你想说明包已经损坏。",
     "roles": [
-      "工作人员",
+      "对方",
       "你"
     ],
     "dialogue": [
       {
         "text": "May I inspect your bag?",
-        "translation": "我可以检查你的包吗？"
+        "translation": "可以检查您的包吗？"
       },
       {
-        "text": "Of course. I'll open it for inspection.",
-        "translation": "当然，我打开给你检查。"
+        "text": "Yes. This part was already damaged.",
+        "translation": "可以。这个地方原来就坏了。"
       }
     ],
     "recallDay": 36,
@@ -1562,19 +2234,19 @@
       "basic.cut"
     ],
     "mission": {
-      "goal": "过关时接受检查",
+      "goal": "过关检查时，你想说明包已经损坏。",
       "turns": [
         {
           "partner": "May I inspect your bag?",
-          "partnerZH": "我可以检查你的包吗？",
-          "reply": "Of course. I'll open it for inspection.",
-          "replyZH": "当然，我打开给你检查。"
+          "partnerZH": "可以检查您的包吗？",
+          "reply": "Yes. This part was already damaged.",
+          "replyZH": "可以。这个地方原来就坏了。"
         },
         {
-          "partner": "Is there anything sharp inside?",
-          "partnerZH": "里面有锋利物品吗？",
-          "reply": "No, just clothes and a book.",
-          "replyZH": "没有，只有衣服和一本书。"
+          "partner": "Can you show me where?",
+          "partnerZH": "能给我指一下是哪儿吗？",
+          "reply": "Here, by the handle.",
+          "replyZH": "这里，提手旁边。"
         }
       ]
     },
@@ -1583,7 +2255,35 @@
       "basicID": "basic.damage",
       "text": "Could you inspect the car for damage?",
       "translation": "能帮我检查一下车有没有损坏吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "过关检查时，你想说明包已经损坏。",
+      "turns": [
+        {
+          "partner": "May I inspect your bag?",
+          "partnerZH": "可以检查您的包吗？",
+          "reply": "Yes. This part was already damaged.",
+          "replyZH": "可以。这个地方原来就坏了。"
+        },
+        {
+          "partner": "Can you show me where?",
+          "partnerZH": "能给我指一下是哪儿吗？",
+          "reply": "Here, by the handle.",
+          "replyZH": "这里，提手旁边。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "这回没带需要申报的东西，问是否还需检查。",
+      "answer": "Is an inspection still necessary?",
+      "translation": "还需要检查吗？"
+    },
+    "nextTransfer": {
+      "prompt": "行李箱抵达时坏了，请工作人员检查轮子。",
+      "answer": "Can you inspect the damaged wheel?",
+      "translation": "你能检查一下损坏的轮子吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 66,
@@ -1596,19 +2296,19 @@
       "graph.infographic.5"
     ],
     "extraIDs": [],
-    "scene": "车站墙上有一张讲解换乘的图。",
+    "scene": "展馆的路线图上有图示，你想找到入口。",
     "roles": [
-      "你",
-      "同伴"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Does this infographic show the transfer?",
-        "translation": "这张信息图里有换乘方法吗？"
+        "text": "Would you like a map?",
+        "translation": "要一张地图吗？"
       },
       {
-        "text": "Yes. Follow the blue arrows.",
-        "translation": "有，跟着蓝色箭头走。"
+        "text": "Yes. Where's the entrance?",
+        "translation": "好。入口在哪儿？"
       }
     ],
     "recallDay": 33,
@@ -1622,19 +2322,19 @@
       "basic.net"
     ],
     "mission": {
-      "goal": "从图上找到路线",
+      "goal": "展馆的路线图上有图示，你想找到入口。",
       "turns": [
         {
-          "partner": "Does this infographic show the transfer?",
-          "partnerZH": "这张信息图里有换乘方法吗？",
-          "reply": "Yes. Follow the blue arrows.",
-          "replyZH": "有，跟着蓝色箭头走。"
+          "partner": "Would you like a map?",
+          "partnerZH": "要一张地图吗？",
+          "reply": "Yes. Where's the entrance?",
+          "replyZH": "好。入口在哪儿？"
         },
         {
-          "partner": "Which line should I take after that?",
-          "partnerZH": "然后换乘哪条线？",
-          "reply": "Take the green line to the last stop.",
-          "replyZH": "坐绿线到终点。"
+          "partner": "Look at the top of the map.",
+          "partnerZH": "看地图的上方。",
+          "reply": "Does this graphic show the entrance?",
+          "replyZH": "这个图形标出了入口吗？"
         }
       ]
     },
@@ -1643,7 +2343,35 @@
       "basicID": "basic.top",
       "text": "Our total is at the top of the graph.",
       "translation": "我们的总数在图表顶部。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "展馆的路线图上有图示，你想找到入口。",
+      "turns": [
+        {
+          "partner": "Would you like a map?",
+          "partnerZH": "要一张地图吗？",
+          "reply": "Yes. Where's the entrance?",
+          "replyZH": "好。入口在哪儿？"
+        },
+        {
+          "partner": "Look at the top of the map.",
+          "partnerZH": "看地图的上方。",
+          "reply": "Does this graphic show the entrance?",
+          "replyZH": "这个图形标出了入口吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "请工作人员在地图中间指出出口。",
+      "answer": "Can you show me the exit in the middle of the map?",
+      "translation": "能在地图中间指给我看出口吗？"
+    },
+    "nextTransfer": {
+      "prompt": "想用纸地图找到河边。",
+      "answer": "Can you show me the river on the map?",
+      "translation": "你能在地图上指给我看河在哪儿吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 67,
@@ -1660,19 +2388,19 @@
       "rupt.bankrupt"
     ],
     "extraIDs": [],
-    "scene": "暴雨让山区的火车暂时停运。",
+    "scene": "下雨了，你想确认原先的行程是否受影响。",
     "roles": [
-      "你",
-      "工作人员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Is there a disruption on this line?",
-        "translation": "这条线路运行中断了吗？"
+        "text": "Do you still want to go today?",
+        "translation": "你今天还想去吗？"
       },
       {
-        "text": "Yes. The storm disrupted service this morning.",
-        "translation": "是的，今早暴雨打乱了班次。"
+        "text": "Will the rain disrupt the trip?",
+        "translation": "下雨会打乱行程吗？"
       }
     ],
     "recallDay": 50,
@@ -1687,19 +2415,19 @@
       "basic.violent"
     ],
     "mission": {
-      "goal": "行程突然被打断",
+      "goal": "下雨了，你想确认原先的行程是否受影响。",
       "turns": [
         {
-          "partner": "Is there a disruption on this line?",
-          "partnerZH": "这条线路运行中断了吗？",
-          "reply": "Yes. The storm disrupted service this morning.",
-          "replyZH": "是的，今早暴雨打乱了班次。"
+          "partner": "Do you still want to go today?",
+          "partnerZH": "你今天还想去吗？",
+          "reply": "Will the rain disrupt the trip?",
+          "replyZH": "下雨会打乱行程吗？"
         },
         {
-          "partner": "Is there another way to get there?",
-          "partnerZH": "还有别的办法到那里吗？",
-          "reply": "Yes. Take the bus across the street.",
-          "replyZH": "有，到马路对面坐公交。"
+          "partner": "We might have to go later.",
+          "partnerZH": "我们可能得晚点去。",
+          "reply": "When should I come back?",
+          "replyZH": "我该什么时候再来？"
         }
       ]
     },
@@ -1708,7 +2436,35 @@
       "basicID": "basic.rain",
       "text": "Heavy rain can disrupt our trip.",
       "translation": "大雨会打乱我们的行程。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "下雨了，你想确认原先的行程是否受影响。",
+      "turns": [
+        {
+          "partner": "Do you still want to go today?",
+          "partnerZH": "你今天还想去吗？",
+          "reply": "Will the rain disrupt the trip?",
+          "replyZH": "下雨会打乱行程吗？"
+        },
+        {
+          "partner": "We might have to go later.",
+          "partnerZH": "我们可能得晚点去。",
+          "reply": "When should I come back?",
+          "replyZH": "我该什么时候再来？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "今天刮大风，想知道渡轮是否停开。",
+      "answer": "Will the wind disrupt the ferry service?",
+      "translation": "刮风会影响渡轮运行吗？"
+    },
+    "nextTransfer": {
+      "prompt": "下雪了，想知道行程是否还照常。",
+      "answer": "Will the snow disrupt the trip?",
+      "translation": "下雪会打乱行程吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 68,
@@ -1724,19 +2480,19 @@
       "struct.destruction"
     ],
     "extraIDs": [],
-    "scene": "你经过一座正在维修的桥。",
+    "scene": "你步行遇到施工围挡，要找到安全的绕行路线。",
     "roles": [
-      "你",
-      "路人"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Is the bridge under construction?",
-        "translation": "桥在施工吗？"
+        "text": "This street is under construction.",
+        "translation": "这条街正在施工。"
       },
       {
-        "text": "Yes. They're reconstructing part of it.",
-        "translation": "对，他们在重建其中一段。"
+        "text": "Where can I walk safely?",
+        "translation": "我走哪里安全？"
       }
     ],
     "recallDay": 48,
@@ -1750,19 +2506,19 @@
       "basic.smash"
     ],
     "mission": {
-      "goal": "施工时绕过路障",
+      "goal": "你步行遇到施工围挡，要找到安全的绕行路线。",
       "turns": [
         {
-          "partner": "Is the bridge under construction?",
-          "partnerZH": "桥在施工吗？",
-          "reply": "Yes. They're reconstructing part of it.",
-          "replyZH": "对，他们在重建其中一段。"
+          "partner": "This street is under construction.",
+          "partnerZH": "这条街正在施工。",
+          "reply": "Where can I walk safely?",
+          "replyZH": "我走哪里安全？"
         },
         {
-          "partner": "Can I cross the river on foot?",
-          "partnerZH": "我能步行过河吗？",
-          "reply": "Yes. Use the smaller bridge to the east.",
-          "replyZH": "可以，走东边那座小桥。"
+          "partner": "Go around the brick wall.",
+          "partnerZH": "绕过砖墙。",
+          "reply": "Is the path on the left?",
+          "replyZH": "小路是在左边吗？"
         }
       ]
     },
@@ -1771,7 +2527,35 @@
       "basicID": "basic.wall",
       "text": "The wall is under construction.",
       "translation": "这堵墙正在施工。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你步行遇到施工围挡，要找到安全的绕行路线。",
+      "turns": [
+        {
+          "partner": "This street is under construction.",
+          "partnerZH": "这条街正在施工。",
+          "reply": "Where can I walk safely?",
+          "replyZH": "我走哪里安全？"
+        },
+        {
+          "partner": "Go around the brick wall.",
+          "partnerZH": "绕过砖墙。",
+          "reply": "Is the path on the left?",
+          "replyZH": "小路是在左边吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "今天砖墙旁挖了坑，提醒同伴。",
+      "answer": "There's a hole by the construction site.",
+      "translation": "施工现场旁边有个坑。"
+    },
+    "nextTransfer": {
+      "prompt": "前面因施工封路，问步行该从哪里绕。",
+      "answer": "How do I get around the construction on foot?",
+      "translation": "步行怎么绕过施工区？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 69,
@@ -1787,19 +2571,19 @@
       "chron.chronicler.extra2"
     ],
     "extraIDs": [],
-    "scene": "展厅入口提示从左到右参观。",
+    "scene": "你在看历史展，想知道几件事发生的先后。",
     "roles": [
-      "你",
-      "讲解员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Are the pictures in chronological order?",
-        "translation": "这些画是按年代顺序排列的吗？"
+        "text": "How would you like to see the exhibit?",
+        "translation": "你想怎么逛这个展览？"
       },
       {
-        "text": "Yes. The oldest one is on the left.",
-        "translation": "对，最早的那幅在左边。"
+        "text": "Are the events in chronological order?",
+        "translation": "这些事件是按时间先后排列的吗？"
       }
     ],
     "recallDay": 25,
@@ -1818,19 +2602,19 @@
       "basic.gun"
     ],
     "mission": {
-      "goal": "按年代看展览",
+      "goal": "你在看历史展，想知道几件事发生的先后。",
       "turns": [
         {
-          "partner": "Are the pictures in chronological order?",
-          "partnerZH": "这些画是按年代顺序排列的吗？",
-          "reply": "Yes. The oldest one is on the left.",
-          "replyZH": "对，最早的那幅在左边。"
+          "partner": "How would you like to see the exhibit?",
+          "partnerZH": "你想怎么逛这个展览？",
+          "reply": "Are the events in chronological order?",
+          "replyZH": "这些事件是按时间先后排列的吗？"
         },
         {
-          "partner": "Which part would you like to see next?",
-          "partnerZH": "你接下来想看哪一部分？",
-          "reply": "The room with the old pictures.",
-          "replyZH": "有老照片的那个展厅。"
+          "partner": "Yes. This one came first.",
+          "partnerZH": "是的。这一件最早。",
+          "reply": "What happened next?",
+          "replyZH": "后来发生了什么？"
         }
       ]
     },
@@ -1839,7 +2623,35 @@
       "basicID": "basic.event",
       "text": "Put the events in chronological order.",
       "translation": "把这些事件按时间先后排列。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你在看历史展，想知道几件事发生的先后。",
+      "turns": [
+        {
+          "partner": "How would you like to see the exhibit?",
+          "partnerZH": "你想怎么逛这个展览？",
+          "reply": "Are the events in chronological order?",
+          "replyZH": "这些事件是按时间先后排列的吗？"
+        },
+        {
+          "partner": "Yes. This one came first.",
+          "partnerZH": "是的。这一件最早。",
+          "reply": "What happened next?",
+          "replyZH": "后来发生了什么？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "你只有十分钟，想先看最近发生的事情。",
+      "answer": "Can we start with the most recent event?",
+      "translation": "我们能从最近发生的那件事开始吗？"
+    },
+    "nextTransfer": {
+      "prompt": "展板上有三件事，你想知道哪一件最早发生。",
+      "answer": "Which event happened first?",
+      "translation": "哪件事最先发生？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 70,
@@ -1856,19 +2668,19 @@
       "bio.biome.extra5"
     ],
     "extraIDs": [],
-    "scene": "你跟着向导穿过一片湿地。",
+    "scene": "你以游客的身份走进湿地，想请向导介绍眼前的植物和动物。",
     "roles": [
-      "你",
-      "向导"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Are you a biologist?",
-        "translation": "你是生物学家吗？"
+        "text": "Welcome to the wetland. What would you like to see?",
+        "translation": "欢迎来到湿地。你想看什么？"
       },
       {
-        "text": "Yes. I study the biodiversity of this wetland.",
-        "translation": "是的，我研究这片湿地的生物多样性。"
+        "text": "Which animals live here?",
+        "translation": "哪些动物生活在这里？"
       }
     ],
     "recallDay": 36,
@@ -1888,19 +2700,19 @@
       "basic.fowl"
     ],
     "mission": {
-      "goal": "走进自然保护区",
+      "goal": "你以游客的身份走进湿地，想请向导介绍眼前的植物和动物。",
       "turns": [
         {
-          "partner": "Are you a biologist?",
-          "partnerZH": "你是生物学家吗？",
-          "reply": "Yes. I study the biodiversity of this wetland.",
-          "replyZH": "是的，我研究这片湿地的生物多样性。"
+          "partner": "Welcome to the wetland. What would you like to see?",
+          "partnerZH": "欢迎来到湿地。你想看什么？",
+          "reply": "Which animals live here?",
+          "replyZH": "哪些动物生活在这里？"
         },
         {
-          "partner": "Which animals live here?",
-          "partnerZH": "哪些动物生活在这里？",
-          "reply": "Many birds and a few small snakes.",
-          "replyZH": "很多鸟，还有一些小蛇。"
+          "partner": "Many birds do. Look by the water.",
+          "partnerZH": "很多鸟生活在这里。看看水边。",
+          "reply": "What is that tall plant called?",
+          "replyZH": "那株高高的植物叫什么？"
         }
       ]
     },
@@ -1909,7 +2721,35 @@
       "basicID": "basic.plant",
       "text": "I study plant biology.",
       "translation": "我学生物学，研究植物。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你以游客的身份走进湿地，想请向导介绍眼前的植物和动物。",
+      "turns": [
+        {
+          "partner": "Welcome to the wetland. What would you like to see?",
+          "partnerZH": "欢迎来到湿地。你想看什么？",
+          "reply": "Which animals live here?",
+          "replyZH": "哪些动物生活在这里？"
+        },
+        {
+          "partner": "Many birds do. Look by the water.",
+          "partnerZH": "很多鸟生活在这里。看看水边。",
+          "reply": "What is that tall plant called?",
+          "replyZH": "那株高高的植物叫什么？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "看见一片奇特的叶子，向向导问它来自哪种植物。",
+      "answer": "Which plant does this leaf come from?",
+      "translation": "这片叶子是哪种植物的？"
+    },
+    "nextTransfer": {
+      "prompt": "这次在湿地看见一只陌生的鸟，向导游请教。",
+      "answer": "What kind of bird is that?",
+      "translation": "那是什么鸟？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 71,
@@ -1922,19 +2762,19 @@
       "help.helpless"
     ],
     "extraIDs": [],
-    "scene": "在换乘站找不到站台，你看到一个柜台。",
+    "scene": "同伴突然不舒服，你到车站服务台问去医院的路。",
     "roles": [
-      "你",
-      "站务员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Is this the help desk?",
-        "translation": "这里是服务台吗？"
+        "text": "How can I help?",
+        "translation": "我能帮您什么忙？"
       },
       {
-        "text": "Yes. How can I help?",
-        "translation": "是的，有什么我能帮忙的？"
+        "text": "My friend is ill. Where's the nearest hospital?",
+        "translation": "我朋友不舒服。最近的医院在哪儿？"
       }
     ],
     "recallDay": 8,
@@ -1956,19 +2796,19 @@
       "basic.heart"
     ],
     "mission": {
-      "goal": "在陌生车站求助",
+      "goal": "同伴突然不舒服，你到车站服务台问去医院的路。",
       "turns": [
         {
-          "partner": "Is this the help desk?",
-          "partnerZH": "这里是服务台吗？",
-          "reply": "Yes. How can I help?",
-          "replyZH": "是的，有什么我能帮忙的？"
+          "partner": "How can I help?",
+          "partnerZH": "我能帮您什么忙？",
+          "reply": "My friend is ill. Where's the nearest hospital?",
+          "replyZH": "我朋友不舒服。最近的医院在哪儿？"
         },
         {
-          "partner": "What do you need help with?",
-          "partnerZH": "你需要什么帮助？",
-          "reply": "I've lost my bag. Where can I report it?",
-          "replyZH": "我的包丢了。去哪里登记？"
+          "partner": "It's across the street. Do you need help getting there?",
+          "partnerZH": "就在街对面。需要我帮你们过去吗？",
+          "reply": "Yes, please.",
+          "replyZH": "好的，麻烦您。"
         }
       ]
     },
@@ -1977,7 +2817,35 @@
       "basicID": "basic.hospital",
       "text": "Where is the hospital help desk?",
       "translation": "医院的服务台在哪儿？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "同伴突然不舒服，你到车站服务台问去医院的路。",
+      "turns": [
+        {
+          "partner": "How can I help?",
+          "partnerZH": "我能帮您什么忙？",
+          "reply": "My friend is ill. Where's the nearest hospital?",
+          "replyZH": "我朋友不舒服。最近的医院在哪儿？"
+        },
+        {
+          "partner": "It's across the street. Do you need help getting there?",
+          "partnerZH": "就在街对面。需要我帮你们过去吗？",
+          "reply": "Yes, please.",
+          "replyZH": "好的，麻烦您。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "同伴好多了，这次只要找个地方坐下。",
+      "answer": "Could you help us find a seat?",
+      "translation": "你能帮我们找个座位吗？"
+    },
+    "nextTransfer": {
+      "prompt": "同伴胸口疼，向服务台问最近的医院。",
+      "answer": "Where is the nearest hospital?",
+      "translation": "最近的医院在哪里？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 72,
@@ -1993,19 +2861,19 @@
       "cred.accredit"
     ],
     "extraIDs": [],
-    "scene": "参加旅行团前，朋友想核实向导的资格。",
+    "scene": "你在国外结账，想问店里能否用自己的信用卡。",
     "roles": [
-      "朋友",
+      "对方",
       "你"
     ],
     "dialogue": [
       {
-        "text": "Does the guide have a professional credential?",
-        "translation": "这位向导有专业资质证明吗？"
+        "text": "How would you like to pay?",
+        "translation": "您想怎么付款？"
       },
       {
-        "text": "Yes. The visitor center checked it.",
-        "translation": "有，游客中心已经核实过。"
+        "text": "Can I use my credit card here?",
+        "translation": "我能在这里刷信用卡吗？"
       }
     ],
     "recallDay": 10,
@@ -2022,19 +2890,19 @@
       "basic.relation"
     ],
     "mission": {
-      "goal": "旅行付款和身份凭证",
+      "goal": "你在国外结账，想问店里能否用自己的信用卡。",
       "turns": [
         {
-          "partner": "Does the guide have a professional credential?",
-          "partnerZH": "这位向导有专业资质证明吗？",
-          "reply": "Yes. The visitor center checked it.",
-          "replyZH": "有，游客中心已经核实过。"
+          "partner": "How would you like to pay?",
+          "partnerZH": "您想怎么付款？",
+          "reply": "Can I use my credit card here?",
+          "replyZH": "我能在这里刷信用卡吗？"
         },
         {
-          "partner": "Where can I check the name on the card?",
-          "partnerZH": "我在哪里可以核对卡上的姓名？",
-          "reply": "At the desk near the entrance.",
-          "replyZH": "在入口附近的柜台。"
+          "partner": "Yes. May I see your ID?",
+          "partnerZH": "能。可以看一下您的身份证件吗？",
+          "reply": "Is my passport okay?",
+          "replyZH": "护照可以吗？"
         }
       ]
     },
@@ -2043,7 +2911,35 @@
       "basicID": "basic.country",
       "text": "Will this country accept my teaching credential?",
       "translation": "这个国家认可我的教师资格证吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你在国外结账，想问店里能否用自己的信用卡。",
+      "turns": [
+        {
+          "partner": "How would you like to pay?",
+          "partnerZH": "您想怎么付款？",
+          "reply": "Can I use my credit card here?",
+          "replyZH": "我能在这里刷信用卡吗？"
+        },
+        {
+          "partner": "Yes. May I see your ID?",
+          "partnerZH": "能。可以看一下您的身份证件吗？",
+          "reply": "Is my passport okay?",
+          "replyZH": "护照可以吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "不确定国外发的卡能不能用，向店员核实。",
+      "answer": "Do you take credit cards from other countries?",
+      "translation": "你们收其他国家发行的信用卡吗？"
+    },
+    "nextTransfer": {
+      "prompt": "酒店要看身份证件，你想问能否用护照。",
+      "answer": "Can I use my passport as ID?",
+      "translation": "我可以用护照作身份证件吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 73,
@@ -2056,19 +2952,19 @@
       "ject.projection"
     ],
     "extraIDs": [],
-    "scene": "酒店在院子里放露天电影。",
+    "scene": "你给朋友看旅行照片，想把一张照片投到墙上。",
     "roles": [
-      "你",
-      "工作人员"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Where will you project the film?",
-        "translation": "你们会把电影投到哪里？"
+        "text": "How would you like to show the photos?",
+        "translation": "你想怎么给大家看照片？"
       },
       {
-        "text": "The projector will point at that wall.",
-        "translation": "投影机会对着那面墙。"
+        "text": "Can we project this picture on the wall?",
+        "translation": "我们能把这张照片投到墙上吗？"
       }
     ],
     "recallDay": 33,
@@ -2080,19 +2976,19 @@
       "basic.jewel"
     ],
     "mission": {
-      "goal": "让影像投在墙上",
+      "goal": "你给朋友看旅行照片，想把一张照片投到墙上。",
       "turns": [
         {
-          "partner": "Where will you project the film?",
-          "partnerZH": "你们会把电影投到哪里？",
-          "reply": "The projector will point at that wall.",
-          "replyZH": "投影机会对着那面墙。"
+          "partner": "How would you like to show the photos?",
+          "partnerZH": "你想怎么给大家看照片？",
+          "reply": "Can we project this picture on the wall?",
+          "replyZH": "我们能把这张照片投到墙上吗？"
         },
         {
-          "partner": "Where should we sit to see it clearly?",
-          "partnerZH": "我们坐哪里能看清？",
-          "reply": "Near the middle, two rows back.",
-          "replyZH": "靠中间，往后两排。"
+          "partner": "Yes. Is the picture big enough?",
+          "partnerZH": "可以。画面够大吗？",
+          "reply": "Could you make it a little bigger?",
+          "replyZH": "你能把它再放大一点吗？"
         }
       ]
     },
@@ -2101,7 +2997,35 @@
       "basicID": "basic.picture",
       "text": "Can you project the picture onto the wall?",
       "translation": "能把这张图片投到墙上吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你给朋友看旅行照片，想把一张照片投到墙上。",
+      "turns": [
+        {
+          "partner": "How would you like to show the photos?",
+          "partnerZH": "你想怎么给大家看照片？",
+          "reply": "Can we project this picture on the wall?",
+          "replyZH": "我们能把这张照片投到墙上吗？"
+        },
+        {
+          "partner": "Yes. Is the picture big enough?",
+          "partnerZH": "可以。画面够大吗？",
+          "reply": "Could you make it a little bigger?",
+          "replyZH": "你能把它再放大一点吗？"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "想换一张照片，请朋友把投影往左移。",
+      "answer": "Can you move the picture to the left?",
+      "translation": "你能把画面向左移吗？"
+    },
+    "nextTransfer": {
+      "prompt": "房间太亮，你想把照片投到另一面墙。",
+      "answer": "Can we project the photo on the other wall?",
+      "translation": "我们能把照片投到另一面墙上吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 74,
@@ -2120,19 +3044,19 @@
       "ten.contender.extra6"
     ],
     "extraIDs": [],
-    "scene": "你想把住宿延长到周日。",
+    "scene": "旅馆住得舒服，你想问能否多住一晚。",
     "roles": [
-      "你",
-      "前台"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "Can I extend my stay by one night?",
-        "translation": "我能多住一晚吗？"
+        "text": "Are you checking out today?",
+        "translation": "您今天退房吗？"
       },
       {
-        "text": "Yes. I'll arrange the extension.",
-        "translation": "可以，我帮你办理续住。"
+        "text": "Can I extend my stay by one night?",
+        "translation": "我可以多住一晚吗？"
       }
     ],
     "recallDay": 37,
@@ -2145,19 +3069,19 @@
       "basic.expansion"
     ],
     "mission": {
-      "goal": "多住一晚",
+      "goal": "旅馆住得舒服，你想问能否多住一晚。",
       "turns": [
         {
-          "partner": "Can I extend my stay by one night?",
-          "partnerZH": "我能多住一晚吗？",
-          "reply": "Yes. I'll arrange the extension.",
-          "replyZH": "可以，我帮你办理续住。"
+          "partner": "Are you checking out today?",
+          "partnerZH": "您今天退房吗？",
+          "reply": "Can I extend my stay by one night?",
+          "replyZH": "我可以多住一晚吗？"
         },
         {
-          "partner": "Would you like to keep the same room?",
-          "partnerZH": "你想继续住原来那间吗？",
-          "reply": "Yes, if the price is the same.",
-          "replyZH": "想，如果价格相同的话。"
+          "partner": "Yes. Would you like the same room?",
+          "partnerZH": "可以。您想住原来的房间吗？",
+          "reply": "Yes, please.",
+          "replyZH": "是的，麻烦您。"
         }
       ]
     },
@@ -2166,7 +3090,35 @@
       "basicID": "basic.till",
       "text": "Could you extend my stay till Friday?",
       "translation": "我能续住到周五吗？"
-    }
+    },
+    "beginnerMission": {
+      "goal": "旅馆住得舒服，你想问能否多住一晚。",
+      "turns": [
+        {
+          "partner": "Are you checking out today?",
+          "partnerZH": "您今天退房吗？",
+          "reply": "Can I extend my stay by one night?",
+          "replyZH": "我可以多住一晚吗？"
+        },
+        {
+          "partner": "Yes. Would you like the same room?",
+          "partnerZH": "可以。您想住原来的房间吗？",
+          "reply": "Yes, please.",
+          "replyZH": "是的，麻烦您。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "想晚一小时退房，向前台询问。",
+      "answer": "Can I check out an hour later?",
+      "translation": "我可以晚一小时退房吗？"
+    },
+    "nextTransfer": {
+      "prompt": "你改了计划，只想把住宿延长到星期一。",
+      "answer": "Can I extend my stay until Monday?",
+      "translation": "我可以把住宿延长到周一吗？"
+    },
+    "speakingRevision": 2
   },
   {
     "id": 75,
@@ -2180,19 +3132,19 @@
       "log.apologue.extra3"
     ],
     "extraIDs": [],
-    "scene": "因为公交晚点，你迟到了几分钟。",
+    "scene": "你迟到了，先向正在等你的朋友道歉。",
     "roles": [
-      "你",
-      "向导"
+      "对方",
+      "你"
     ],
     "dialogue": [
       {
-        "text": "I apologize for being late.",
-        "translation": "很抱歉我迟到了。"
+        "text": "I've been waiting for you.",
+        "translation": "我一直在等你。"
       },
       {
-        "text": "Thank you for the apology. We can still catch the boat.",
-        "translation": "谢谢你道歉，我们还赶得上船。"
+        "text": "I'm sorry I'm late.",
+        "translation": "对不起，我迟到了。"
       }
     ],
     "recallDay": 34,
@@ -2206,19 +3158,19 @@
       "basic.fight"
     ],
     "mission": {
-      "goal": "为迟到道歉",
+      "goal": "你迟到了，先向正在等你的朋友道歉。",
       "turns": [
         {
-          "partner": "I apologize for being late.",
-          "partnerZH": "很抱歉我迟到了。",
-          "reply": "Thank you for the apology. We can still catch the boat.",
-          "replyZH": "谢谢你道歉，我们还赶得上船。"
+          "partner": "I've been waiting for you.",
+          "partnerZH": "我一直在等你。",
+          "reply": "I'm sorry I'm late.",
+          "replyZH": "对不起，我迟到了。"
         },
         {
-          "partner": "How soon can you get to the harbor?",
-          "partnerZH": "你多久能到港口？",
-          "reply": "In ten minutes. Thank you for waiting.",
-          "replyZH": "十分钟后到。谢谢你等我。"
+          "partner": "Is everything okay?",
+          "partnerZH": "都还好吗？",
+          "reply": "Yes. Thank you for waiting.",
+          "replyZH": "都好，谢谢你等我。"
         }
       ]
     },
@@ -2227,6 +3179,34 @@
       "basicID": "basic.regret",
       "text": "I regret my words. Please accept my apology.",
       "translation": "我后悔说了那样的话，请接受我的道歉。"
-    }
+    },
+    "beginnerMission": {
+      "goal": "你迟到了，先向正在等你的朋友道歉。",
+      "turns": [
+        {
+          "partner": "I've been waiting for you.",
+          "partnerZH": "我一直在等你。",
+          "reply": "I'm sorry I'm late.",
+          "replyZH": "对不起，我迟到了。"
+        },
+        {
+          "partner": "Is everything okay?",
+          "partnerZH": "都还好吗？",
+          "reply": "Yes. Thank you for waiting.",
+          "replyZH": "都好，谢谢你等我。"
+        }
+      ]
+    },
+    "transfer": {
+      "prompt": "你送错了朋友的包，主动道歉并提出送回来。",
+      "answer": "I'm sorry about the bag. I'll bring it back.",
+      "translation": "拿错包了，对不起。我会把它送回来。"
+    },
+    "nextTransfer": {
+      "prompt": "这次你忘了回电话，想向朋友道歉。",
+      "answer": "I'm sorry I forgot to call you back.",
+      "translation": "抱歉，我忘了给你回电话。"
+    },
+    "speakingRevision": 2
   }
 ]

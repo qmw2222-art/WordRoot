@@ -18,7 +18,10 @@ struct DailySpeakingView: View {
 
     private var turn: SpeakingMission.Turn { day.speakingMission.turns[index] }
     private var replies: [String: String] { (try? JSONDecoder().decode([String: String].self, from: saved)) ?? [:] }
-    private var key: String { String(index) }
+    private var key: String { day.speakingRevision.map { "v\($0).\(index)" } ?? String(index) }
+    private var conversation: [CourseDay.Line] {
+        day.speakingMission.turns.flatMap { [.init(text: $0.partner, translation: $0.partnerZH), .init(text: $0.reply, translation: $0.replyZH)] }
+    }
     private var sound: String { "talk.\(day.id).\(index)" }
 
     var body: some View {
@@ -33,6 +36,9 @@ struct DailySpeakingView: View {
                 Text("换你了，按自己的情况回一句。").font(.headline)
                 if let reply = replies[key] {
                     Text(reply).foregroundStyle(MapStyle.pine).accessibilityIdentifier("talk.myReply")
+                }
+                if day.speakingRevision != nil, let earlier = replies[String(index)] {
+                    DisclosureGroup("查看上版练习里记下的回答") { Text(earlier) }
                 }
                 answerControls
                 Button(reveal ? "收起示例" : "听一种说法") {
@@ -51,11 +57,11 @@ struct DailySpeakingView: View {
                 }
                 DisclosureGroup("听这课的完整对话") {
                     VStack(alignment: .leading, spacing: 8) {
-                        ForEach(day.dialogue.indices, id: \.self) { index in
-                            Text(day.dialogue[index].text).font(.system(.body, design: .serif))
-                            Text(day.dialogue[index].translation).foregroundStyle(MapStyle.secondary)
+                        ForEach(conversation.indices, id: \.self) { index in
+                            Text(conversation[index].text).font(.system(.body, design: .serif))
+                            Text(conversation[index].translation).foregroundStyle(MapStyle.secondary)
                         }
-                        SpeechButton(id: "talk.\(day.id).dialogue", dialogue: day.dialogue.map(\.text),
+                        SpeechButton(id: "talk.\(day.id).dialogue", dialogue: conversation.map(\.text),
                                      label: "听整段对话", identifier: "talk.dialogue")
                     }.frame(maxWidth: .infinity, alignment: .leading)
                 }.padding(.top, 6)
@@ -68,7 +74,7 @@ struct DailySpeakingView: View {
 
     private var answerControls: some View {
         Group {
-                Button("我已经开口回答了") { store("我已自己开口回答") }.accessibilityIdentifier("talk.spoken")
+                Button("记为已口头尝试") { store("我已自己开口回答") }.accessibilityIdentifier("talk.spoken")
                 HStack {
                     TextField("也可以记下自己的回答", text: $draft).textFieldStyle(.roundedBorder)
                         .textInputAutocapitalization(.sentences).focused($editing).submitLabel(.done)

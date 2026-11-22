@@ -40,7 +40,7 @@ final class FirstStepsTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["course.group"].label.contains("2 / 2"))
         tap("course.pause")
         XCTAssertTrue(app.buttons["course.start"].label.contains("transport"))
-        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of:",",with:"").contains("2 / 1335"))
+        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of:",",with:"").contains("2 / 1333"))
         app.terminate(); app.launch()
         tap("course.start")
         XCTAssertEqual(app.staticTexts["course.word"].label,"transport")

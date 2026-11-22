@@ -225,7 +225,7 @@ final class WordMapTests: XCTestCase {
         app.launch()
         XCTAssertEqual(app.staticTexts["course.completedCount"].label, "已完成 1 / 100 天")
         XCTAssertEqual(app.staticTexts["course.suggestedDay"].label, "第 2 天")
-        XCTAssertEqual(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: ""), "已学 17 / 1335 个用法")
+        XCTAssertEqual(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: ""), "已学 17 / 1333 个用法")
     }
 
     func testCourseStagesAndLinkToWordMap() async throws {

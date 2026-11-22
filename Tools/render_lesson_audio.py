@@ -63,6 +63,9 @@ def collect_texts(content, words_only):
         for path in sorted(content.glob("course-*.json")):
             for day in json.loads(path.read_text()):
                 phrases.add((day["bridge"]["text"], ""))
+                for field in ("transfer", "nextTransfer"):
+                    if field in day:
+                        add_example(day[field]["answer"])
                 for line in day["dialogue"]:
                     phrases.add((line["text"], ""))
                 for mission in (day["mission"], day.get("beginnerMission", {})):

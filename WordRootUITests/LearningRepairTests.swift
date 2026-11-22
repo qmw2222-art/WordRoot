@@ -26,7 +26,7 @@ final class LearningRepairTests: XCTestCase {
     private func summary(_ count: Int, file: StaticString = #filePath, line: UInt = #line) {
         let total = app.staticTexts["course.learnedSenses"]
         XCTAssertTrue(total.waitForExistence(timeout: 7), file: file, line: line)
-        XCTAssertTrue(total.label.replacingOccurrences(of: ",", with: "").contains("已学 \(count) / 1335"), total.label, file: file, line: line)
+        XCTAssertTrue(total.label.replacingOccurrences(of: ",", with: "").contains("已学 \(count) / 1333"), total.label, file: file, line: line)
         XCTAssertTrue(app.staticTexts["course.completedCount"].label.contains("0 / 100"), file: file, line: line)
     }
 

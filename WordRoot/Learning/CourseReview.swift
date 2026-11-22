@@ -2,7 +2,8 @@ import Foundation
 import SwiftData
 
 enum CourseReview {
-    static func seed(_ senseID: String, in context: ModelContext, now: Date = .now) throws -> ReviewCardRecord {
+    static func seed(_ rawID: String, in context: ModelContext, now: Date = .now) throws -> ReviewCardRecord {
+        let senseID = WordSense.canonical(rawID)
         let key = senseID + ":" + LearningAbility.meaningRecall.rawValue
         var query = FetchDescriptor<ReviewCardRecord>(predicate: #Predicate { $0.id == key })
         query.fetchLimit = 1
@@ -12,6 +13,32 @@ enum CourseReview {
         card.updatedAt = now
         context.insert(card)
         return card
+    }
+
+    static func mergeLegacySenses(in context: ModelContext) throws {
+        for (alias, canonical) in WordSense.aliases {
+            let legacy = try context.fetch(FetchDescriptor<ReviewCardRecord>(predicate: #Predicate { $0.senseID == alias }))
+            for old in legacy {
+                let key = canonical + ":" + old.abilityRawValue
+                let matches = try context.fetch(FetchDescriptor<ReviewCardRecord>(predicate: #Predicate { $0.id == key }))
+                if let current = matches.first {
+                    let oldState = try JSONDecoder().decode(ReviewScheduleState.self, from: old.stateData)
+                    let currentState = try JSONDecoder().decode(ReviewScheduleState.self, from: current.stateData)
+                    if (oldState.card.due, -old.updatedAt.timeIntervalSince1970) <
+                        (currentState.card.due, -current.updatedAt.timeIntervalSince1970) {
+                        current.stateData = old.stateData
+                    }
+                    current.isWeakCard = old.isWeakCard || current.isWeakCard
+                    current.updatedAt = max(old.updatedAt, current.updatedAt)
+                    context.delete(old)
+                } else {
+                    old.id = key
+                    old.senseID = canonical
+                }
+            }
+            let attempts = try context.fetch(FetchDescriptor<LearningAttemptRecord>(predicate: #Predicate { $0.senseID == alias }))
+            for row in attempts { row.senseID = canonical }
+        }
     }
 
     @discardableResult

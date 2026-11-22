@@ -1896,6 +1896,42 @@
       "form.transform",
       "form.transformation",
       "form.reform"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "form.form.0",
+          "basic.name"
+        ],
+        "translation": "我把名字填在表格上。",
+        "pieces": [
+          {
+            "text": "I put my name",
+            "meaning": "我把名字写上"
+          },
+          {
+            "text": "on the form.",
+            "meaning": "在表格上"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "form.format",
+          "basic.paper"
+        ],
+        "pieces": [
+          {
+            "text": "Use this format",
+            "meaning": "用这个格式"
+          },
+          {
+            "text": "on paper.",
+            "meaning": "填写纸质表格"
+          }
+        ],
+        "translation": "填纸质表格时请用这种格式。"
+      }
     ]
   },
   {
@@ -1911,6 +1947,25 @@
       "basic.such",
       "basic.delicate",
       "basic.chalk"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "write.write",
+          "basic.pencil"
+        ],
+        "translation": "我可以用铅笔写吗？",
+        "pieces": [
+          {
+            "text": "Can",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "I write in pencil?",
+            "meaning": "我可以用铅笔写吗？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1931,6 +1986,25 @@
       "basic.kiss",
       "basic.hair",
       "basic.dear"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "home.home",
+          "basic.family"
+        ],
+        "translation": "我的家人在家。",
+        "pieces": [
+          {
+            "text": "My",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "family is at home.",
+            "meaning": "我的家人在家。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1949,6 +2023,25 @@
       "basic.burn",
       "basic.rest",
       "basic.dark"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "room.bedroom",
+          "basic.bed"
+        ],
+        "translation": "这间卧室里有一张床。",
+        "pieces": [
+          {
+            "text": "The",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "bedroom has one bed.",
+            "meaning": "这间卧室里有一张床。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1970,6 +2063,25 @@
       "basic.rough",
       "basic.drop",
       "basic.liquid"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "clean.clean",
+          "basic.floor"
+        ],
+        "translation": "地板很干净。",
+        "pieces": [
+          {
+            "text": "The",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "floor is clean.",
+            "meaning": "地板很干净。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1985,6 +2097,25 @@
       "basic.yesterday",
       "basic.sleep",
       "basic.normal"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "day.weekday",
+          "basic.morning"
+        ],
+        "translation": "工作日我每天早上都早出门。",
+        "pieces": [
+          {
+            "text": "I",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "leave early every weekday morning.",
+            "meaning": "工作日我每天早上都早出门。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2001,6 +2132,25 @@
       "basic.up",
       "basic.past",
       "basic.till"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "time.time",
+          "basic.clock"
+        ],
+        "translation": "那只钟显示几点？",
+        "pieces": [
+          {
+            "text": "What",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "time does that clock show?",
+            "meaning": "那只钟显示几点？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2026,6 +2176,25 @@
       "phon.phonological.extra3",
       "phon.phonologist.extra4",
       "phon.euphonious.8"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "phon.phone.1",
+          "basic.trouble"
+        ],
+        "translation": "我的电话出了点问题。",
+        "pieces": [
+          {
+            "text": "I'm",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "having trouble with my phone.",
+            "meaning": "我的电话出了点问题。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2051,6 +2220,25 @@
       "aud.auditor.extra1",
       "aud.audiology.extra5",
       "aud.audiologist.extra6"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "aud.audiobook.8",
+          "basic.while"
+        ],
+        "translation": "我边走边听有声书。",
+        "pieces": [
+          {
+            "text": "I",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "listen to an audiobook while I walk.",
+            "meaning": "我边走边听有声书。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2066,6 +2254,25 @@
       "basic.material",
       "basic.hollow",
       "basic.bent"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "use.reuse",
+          "basic.metal"
+        ],
+        "translation": "这个金属盒还能再用。",
+        "pieces": [
+          {
+            "text": "We",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "can reuse this metal box.",
+            "meaning": "这个金属盒还能再用。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2080,6 +2287,25 @@
       "basic.sun",
       "basic.moon",
       "basic.star"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "light.light",
+          "basic.bright"
+        ],
+        "translation": "这灯光太亮了。",
+        "pieces": [
+          {
+            "text": "The",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "light is too bright.",
+            "meaning": "这灯光太亮了。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2107,6 +2333,43 @@
       "press.depress",
       "press.depression",
       "press.suppress"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "press.press",
+          "basic.button",
+          "basic.door"
+        ],
+        "translation": "按一下门边的按钮。",
+        "pieces": [
+          {
+            "text": "Press the button",
+            "meaning": "按下按钮"
+          },
+          {
+            "text": "by the door.",
+            "meaning": "在门边"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "press.depression",
+          "basic.broken"
+        ],
+        "pieces": [
+          {
+            "text": "In the depression,",
+            "meaning": "在经济萧条时期"
+          },
+          {
+            "text": "we fixed broken things.",
+            "meaning": "我们会修理坏掉的东西"
+          }
+        ],
+        "translation": "经济萧条时，我们会把坏掉的东西修好。"
+      }
     ]
   },
   {
@@ -2125,6 +2388,25 @@
       "basic.skin",
       "basic.lift",
       "basic.grip"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "hand.handbag",
+          "basic.pocket"
+        ],
+        "translation": "我的手提包有个小口袋。",
+        "pieces": [
+          {
+            "text": "My",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "handbag has a small pocket.",
+            "meaning": "我的手提包有个小口袋。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2137,6 +2419,25 @@
       "basic.man",
       "basic.woman",
       "basic.committee"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "work.work",
+          "basic.office"
+        ],
+        "translation": "我在这间办公室工作。",
+        "pieces": [
+          {
+            "text": "I",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "work in this office.",
+            "meaning": "我在这间办公室工作。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2158,6 +2459,25 @@
       "act.activity",
       "act.activate",
       "act.interact"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "act.act",
+          "basic.now"
+        ],
+        "translation": "我们得马上行动。",
+        "pieces": [
+          {
+            "text": "We",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "need to act now.",
+            "meaning": "我们得马上行动。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2185,6 +2505,25 @@
       "sign.significantly.10",
       "sign.designate.extra4",
       "sign.designation.extra5"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "sign.sign.1",
+          "basic.green"
+        ],
+        "translation": "标牌上有两种颜色，红色和绿色。",
+        "pieces": [
+          {
+            "text": "The",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "sign shows two colors, red and green.",
+            "meaning": "标牌上有两种颜色，红色和绿色。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2199,6 +2538,25 @@
       "basic.distance",
       "basic.horse",
       "basic.whip"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "stop.bus-stop",
+          "basic.street"
+        ],
+        "translation": "公交车站在街对面。",
+        "pieces": [
+          {
+            "text": "The",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "bus stop is across the street.",
+            "meaning": "公交车站在街对面。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2216,6 +2574,25 @@
       "basic.branch",
       "basic.angle",
       "basic.road"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "direct.direction",
+          "basic.bridge"
+        ],
+        "translation": "桥在哪个方向？",
+        "pieces": [
+          {
+            "text": "Which",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "direction is the bridge in?",
+            "meaning": "桥在哪个方向？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2241,6 +2618,25 @@
       "vis.revision.extra2",
       "vis.supervise.7",
       "vis.supervisor.8"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "vis.visible.2",
+          "basic.there"
+        ],
+        "translation": "从那儿看得见标牌吗？",
+        "pieces": [
+          {
+            "text": "Is",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "the sign visible from there?",
+            "meaning": "从那儿看得见标牌吗？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2268,6 +2664,25 @@
       "fer.confer",
       "fer.infer",
       "fer.inference"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "fer.prefer",
+          "basic.sugar"
+        ],
+        "translation": "我更喜欢不加糖的茶。",
+        "pieces": [
+          {
+            "text": "I",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "prefer tea without sugar.",
+            "meaning": "我更喜欢不加糖的茶。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2295,6 +2710,25 @@
       "duc.conduct.behavior",
       "duc.deduce",
       "duc.deduction"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "duc.produce",
+          "basic.milk"
+        ],
+        "translation": "这些奶牛产奶。",
+        "pieces": [
+          {
+            "text": "These",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "cows produce milk.",
+            "meaning": "这些奶牛产奶。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2321,6 +2755,25 @@
       "pend.pendulum",
       "pend.append",
       "pend.appendix"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "pend.depend",
+          "basic.if"
+        ],
+        "translation": "需要帮忙时，你可以靠我。",
+        "pieces": [
+          {
+            "text": "You",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "can depend on me if you need help.",
+            "meaning": "需要帮忙时，你可以靠我。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2348,6 +2801,25 @@
       "graph.typography.extra5",
       "graph.typographical.extra6",
       "graph.seismograph.extra4"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "graph.photograph.7",
+          "basic.camera"
+        ],
+        "translation": "用这台相机拍张照片。",
+        "pieces": [
+          {
+            "text": "Use",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "this camera to take a photograph.",
+            "meaning": "用这台相机拍张照片。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2374,6 +2846,25 @@
       "log.analogous.extra2",
       "log.apologue.extra3",
       "log.logarithm.extra6"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "log.dialogue.1",
+          "basic.story"
+        ],
+        "translation": "这个故事里有很多对话。",
+        "pieces": [
+          {
+            "text": "This",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "story has a lot of dialogue.",
+            "meaning": "这个故事里有很多对话。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2398,6 +2889,25 @@
       "dict.contradictory",
       "dict.verdict",
       "dict.dictator"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "dict.dictate",
+          "basic.short"
+        ],
+        "translation": "能把一段简短留言口述给我记下来吗？",
+        "pieces": [
+          {
+            "text": "Could",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "you dictate a short note?",
+            "meaning": "能把一段简短留言口述给我记下来吗？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2422,6 +2932,25 @@
       "voc.vocative.extra4",
       "voc.vociferous.extra5",
       "voc.vociferously.extra6"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "voc.voice.1",
+          "basic.deep"
+        ],
+        "translation": "深吸一口气，让我听听你的嗓音。",
+        "pieces": [
+          {
+            "text": "Take",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "a deep breath and let me hear your voice.",
+            "meaning": "深吸一口气，让我听听你的嗓音。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2436,6 +2965,25 @@
       "basic.strange",
       "basic.taste",
       "basic.than"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "press.express",
+          "basic.language"
+        ],
+        "translation": "你能用简单的话说出来吗？",
+        "pieces": [
+          {
+            "text": "Can",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "you express it in simple language?",
+            "meaning": "你能用简单的话说出来吗？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2464,6 +3012,25 @@
       "mot.promotion.4",
       "mot.demotion.extra5",
       "mot.locomotion.extra6"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "mot.motion.1",
+          "basic.ball"
+        ],
+        "translation": "球在运动。",
+        "pieces": [
+          {
+            "text": "The",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "ball is in motion.",
+            "meaning": "球在运动。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2479,6 +3046,25 @@
       "basic.elastic",
       "basic.stretch",
       "basic.twist"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "pack.pack",
+          "basic.fold"
+        ],
+        "pieces": [
+          {
+            "text": "Fold your shirt",
+            "meaning": "把衬衫叠好"
+          },
+          {
+            "text": "before you pack it.",
+            "meaning": "再把它装进行李"
+          }
+        ],
+        "translation": "先把衬衫叠好，再装进行李。"
+      }
     ]
   },
   {
@@ -2493,6 +3079,42 @@
       "basic.umbrella",
       "basic.spade",
       "basic.plow"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "plan.plan",
+          "basic.journey"
+        ],
+        "translation": "我们计划去农场短途旅行。",
+        "pieces": [
+          {
+            "text": "We plan",
+            "meaning": "我们计划"
+          },
+          {
+            "text": "a short journey to the farm.",
+            "meaning": "一次去农场的短途旅行"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "basic.spade",
+          "basic.plow"
+        ],
+        "pieces": [
+          {
+            "text": "We need a spade for the garden",
+            "meaning": "菜园里需要一把铁锹"
+          },
+          {
+            "text": "and a plow for the field.",
+            "meaning": "田里需要一把犁"
+          }
+        ],
+        "translation": "菜园里要用铁锹，田里要用犁。"
+      }
     ]
   },
   {
@@ -2506,6 +3128,43 @@
       "basic.tall",
       "basic.wide",
       "basic.request"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "book.rebook",
+          "basic.night",
+          "basic.for"
+        ],
+        "translation": "我能改到星期五入住并住两晚吗？",
+        "pieces": [
+          {
+            "text": "Can I rebook for Friday",
+            "meaning": "我能改订到星期五"
+          },
+          {
+            "text": "and stay two nights?",
+            "meaning": "并住两晚吗"
+          }
+        ]
+      },
+      {
+        "ids": [
+          "book.booking",
+          "basic.request"
+        ],
+        "translation": "我对我的预订有个请求。",
+        "pieces": [
+          {
+            "text": "I have a request",
+            "meaning": "我有个请求"
+          },
+          {
+            "text": "about my booking.",
+            "meaning": "关于我的预订"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2521,6 +3180,25 @@
       "basic.boat",
       "basic.ship",
       "basic.forward"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "port.transportation",
+          "basic.public"
+        ],
+        "translation": "有公共交通能到车站吗？",
+        "pieces": [
+          {
+            "text": "Is",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "there public transportation to the station?",
+            "meaning": "有公共交通能到车站吗？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2543,6 +3221,25 @@
       "basic.throat",
       "basic.breath",
       "basic.tired"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "help.help-desk",
+          "basic.hospital"
+        ],
+        "translation": "医院的服务台在哪儿？",
+        "pieces": [
+          {
+            "text": "Where",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "is the hospital help desk?",
+            "meaning": "医院的服务台在哪儿？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2561,6 +3258,25 @@
       "basic.wool",
       "basic.leather",
       "basic.stocking"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "travel.travel-bag",
+          "basic.weight"
+        ],
+        "translation": "这个旅行包有多重？",
+        "pieces": [
+          {
+            "text": "What's",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "the weight of this travel bag?",
+            "meaning": "这个旅行包有多重？"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2577,6 +3293,25 @@
       "basic.base",
       "basic.slope",
       "basic.front"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "gate.gate",
+          "basic.east"
+        ],
+        "translation": "到东门跟我碰面。",
+        "pieces": [
+          {
+            "text": "Meet",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "me at the east gate.",
+            "meaning": "到东门跟我碰面。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2586,6 +3321,25 @@
       "basic.all",
       "basic.board",
       "basic.carriage"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "board.board",
+          "basic.group"
+        ],
+        "translation": "现在轮到我们这组登机了。",
+        "pieces": [
+          {
+            "text": "Our",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "group can board now.",
+            "meaning": "现在轮到我们这组登机了。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2601,6 +3355,25 @@
       "basic.mist",
       "basic.thick",
       "basic.fly"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "fly.fly",
+          "basic.plane"
+        ],
+        "translation": "我常坐这种飞机。",
+        "pieces": [
+          {
+            "text": "I",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "often fly on planes like this.",
+            "meaning": "我常坐这种飞机。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2614,6 +3387,25 @@
       "basic.sudden",
       "basic.slip",
       "basic.fall"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "land.land",
+          "basic.island"
+        ],
+        "translation": "我们中午在岛上降落。",
+        "pieces": [
+          {
+            "text": "We",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "land on the island at noon.",
+            "meaning": "我们中午在岛上降落。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2624,6 +3416,25 @@
       "basic.comb",
       "basic.powder",
       "basic.form"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "check.check",
+          "basic.list"
+        ],
+        "translation": "请核对一下清单。",
+        "pieces": [
+          {
+            "text": "Please",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "check the list.",
+            "meaning": "请核对一下清单。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2640,6 +3451,25 @@
       "basic.screw",
       "basic.crack",
       "basic.bed"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "key.key",
+          "basic.drawer"
+        ],
+        "translation": "钥匙在抽屉里。",
+        "pieces": [
+          {
+            "text": "The",
+            "meaning": "句首表达"
+          },
+          {
+            "text": "key is in the drawer.",
+            "meaning": "钥匙在抽屉里。"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2662,6 +3492,25 @@
       "basic.bite",
       "basic.bitter",
       "basic.butter"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "serve.serve",
+          "basic.meal"
+        ],
+        "pieces": [
+          {
+            "text": "Do you serve",
+            "meaning": "供应吗"
+          },
+          {
+            "text": "a hot meal here?",
+            "meaning": "这里的热餐"
+          }
+        ],
+        "translation": "你们这里供应热餐吗？"
+      }
     ]
   },
   {
@@ -2674,6 +3523,25 @@
       "basic.full",
       "basic.bit",
       "basic.money"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "pay.prepay",
+          "basic.amount"
+        ],
+        "pieces": [
+          {
+            "text": "Can I prepay",
+            "meaning": "我能预付吗"
+          },
+          {
+            "text": "the full amount?",
+            "meaning": "全部金额"
+          }
+        ],
+        "translation": "我可以预付全款吗？"
+      }
     ]
   },
   {
@@ -2689,6 +3557,25 @@
       "basic.bright",
       "basic.yellow",
       "basic.blue"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "sign.signpost.extra2",
+          "basic.tree"
+        ],
+        "pieces": [
+          {
+            "text": "The signpost",
+            "meaning": "路标"
+          },
+          {
+            "text": "is by the tree.",
+            "meaning": "在树旁边"
+          }
+        ],
+        "translation": "路标在树旁边。"
+      }
     ]
   },
   {
@@ -2705,6 +3592,25 @@
       "basic.field",
       "basic.grass",
       "basic.left"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "graph.infographic.5",
+          "basic.map"
+        ],
+        "pieces": [
+          {
+            "text": "This infographic",
+            "meaning": "这张信息图"
+          },
+          {
+            "text": "includes a map.",
+            "meaning": "包含一幅地图"
+          }
+        ],
+        "translation": "这张信息图里有一幅地图。"
+      }
     ]
   },
   {
@@ -2719,6 +3625,25 @@
       "basic.separate",
       "basic.distribution",
       "basic.loss"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "fer.transfer",
+          "basic.account"
+        ],
+        "pieces": [
+          {
+            "text": "Can I transfer the ticket",
+            "meaning": "我能把票转过去吗"
+          },
+          {
+            "text": "to her account?",
+            "meaning": "转到她的账户"
+          }
+        ],
+        "translation": "我能把票转到她的账户吗？"
+      }
     ]
   },
   {
@@ -2746,6 +3671,25 @@
       "mit.transmission",
       "mit.transmitter",
       "mit.emit"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "mit.admission",
+          "basic.baby"
+        ],
+        "pieces": [
+          {
+            "text": "Is admission free",
+            "meaning": "可以免费入场吗"
+          },
+          {
+            "text": "for a baby?",
+            "meaning": "对婴儿来说"
+          }
+        ],
+        "translation": "婴儿可以免费入场吗？"
+      }
     ]
   },
   {
@@ -2756,6 +3700,25 @@
       "basic.sail",
       "basic.wave",
       "basic.sharp"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "pass.day-pass",
+          "basic.limit"
+        ],
+        "pieces": [
+          {
+            "text": "Does this day pass",
+            "meaning": "这张一日票"
+          },
+          {
+            "text": "have a limit?",
+            "meaning": "有次数限制吗"
+          }
+        ],
+        "translation": "这张一日票有使用次数限制吗？"
+      }
     ]
   },
   {
@@ -2781,6 +3744,25 @@
       "spect.aspect",
       "spect.retrospect",
       "spect.introspective"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "spect.spectator",
+          "basic.seat"
+        ],
+        "pieces": [
+          {
+            "text": "Is this seat",
+            "meaning": "这个座位"
+          },
+          {
+            "text": "for a spectator?",
+            "meaning": "是给观众的吗"
+          }
+        ],
+        "translation": "这个座位是给观众的吗？"
+      }
     ]
   },
   {
@@ -2808,6 +3790,25 @@
       "rupt.bankrupt",
       "rupt.corrupt",
       "rupt.corruption"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "rupt.disrupt",
+          "basic.rain"
+        ],
+        "pieces": [
+          {
+            "text": "Will the rain",
+            "meaning": "这场雨会不会"
+          },
+          {
+            "text": "disrupt our trip?",
+            "meaning": "打乱我们的行程"
+          }
+        ],
+        "translation": "这场雨会打乱我们的行程吗？"
+      }
     ]
   },
   {
@@ -2835,6 +3836,25 @@
       "ten.contend.extra4",
       "ten.contender.extra6",
       "ten.contention.extra5"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "ten.attend.7",
+          "basic.meeting"
+        ],
+        "pieces": [
+          {
+            "text": "Can I attend",
+            "meaning": "我可以参加吗"
+          },
+          {
+            "text": "the meeting online?",
+            "meaning": "在网上开这个会"
+          }
+        ],
+        "translation": "我可以在线参加这场会议吗？"
+      }
     ]
   },
   {
@@ -2845,6 +3865,25 @@
       "basic.power",
       "basic.burst",
       "basic.support"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "pend.suspension",
+          "basic.reason"
+        ],
+        "pieces": [
+          {
+            "text": "What's the reason",
+            "meaning": "原因是什么"
+          },
+          {
+            "text": "for the suspension?",
+            "meaning": "这次暂停的原因"
+          }
+        ],
+        "translation": "这次暂停是什么原因？"
+      }
     ]
   },
   {
@@ -2863,6 +3902,25 @@
       "basic.move",
       "basic.shake",
       "basic.wheel"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "mot.motor.5",
+          "basic.oil"
+        ],
+        "pieces": [
+          {
+            "text": "Does this motor",
+            "meaning": "这台电动机"
+          },
+          {
+            "text": "need oil?",
+            "meaning": "需要加润滑油吗"
+          }
+        ],
+        "translation": "这台电动机需要加润滑油吗？"
+      }
     ]
   },
   {
@@ -2870,6 +3928,25 @@
     "basicIDs": [
       "basic.position",
       "basic.back"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "vers.reverse.gear",
+          "basic.position"
+        ],
+        "pieces": [
+          {
+            "text": "Can I reverse",
+            "meaning": "我能倒车吗"
+          },
+          {
+            "text": "from this position?",
+            "meaning": "从这个位置"
+          }
+        ],
+        "translation": "我能从这个位置倒车吗？"
+      }
     ]
   },
   {
@@ -2885,6 +3962,25 @@
       "basic.far",
       "basic.look",
       "basic.roof"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "vis.preview.extra3",
+          "basic.guide"
+        ],
+        "pieces": [
+          {
+            "text": "Can I preview",
+            "meaning": "我能先看一下吗"
+          },
+          {
+            "text": "the guide?",
+            "meaning": "这份导览"
+          }
+        ],
+        "translation": "我能先看一下这份导览吗？"
+      }
     ]
   },
   {
@@ -2900,6 +3996,25 @@
       "basic.knee",
       "basic.safe",
       "basic.wound"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "spect.inspect",
+          "basic.damage"
+        ],
+        "pieces": [
+          {
+            "text": "Can you inspect",
+            "meaning": "你能检查一下吗"
+          },
+          {
+            "text": "the damage to my bag?",
+            "meaning": "我包上损坏的地方"
+          }
+        ],
+        "translation": "你能检查一下我包上损坏的地方吗？"
+      }
     ]
   },
   {
@@ -2927,6 +4042,25 @@
       "struct.obstruction",
       "struct.destruction",
       "struct.infrastructure"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "struct.construction",
+          "basic.wall"
+        ],
+        "pieces": [
+          {
+            "text": "There is construction",
+            "meaning": "有地方在施工"
+          },
+          {
+            "text": "behind that wall.",
+            "meaning": "就在那堵墙后面"
+          }
+        ],
+        "translation": "那堵墙后面正在施工。"
+      }
     ]
   },
   {
@@ -2953,6 +4087,25 @@
       "scrib.manuscript",
       "scrib.inscription",
       "scrib.ascribe"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "scrib.describe",
+          "basic.coat"
+        ],
+        "pieces": [
+          {
+            "text": "Can you describe",
+            "meaning": "你能描述一下吗"
+          },
+          {
+            "text": "your coat?",
+            "meaning": "你的外套"
+          }
+        ],
+        "translation": "你能描述一下你的外套吗？"
+      }
     ]
   },
   {
@@ -2964,6 +4117,25 @@
       "basic.expansion",
       "basic.roll",
       "basic.month"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "ten.extend.1",
+          "basic.till"
+        ],
+        "pieces": [
+          {
+            "text": "Can I extend my stay",
+            "meaning": "我可以延长住宿吗"
+          },
+          {
+            "text": "till Friday?",
+            "meaning": "延长到星期五"
+          }
+        ],
+        "translation": "我可以住到星期五吗？"
+      }
     ]
   },
   {
@@ -2977,6 +4149,25 @@
       "basic.fight",
       "basic.feeling",
       "basic.fear"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "log.apology.5",
+          "basic.kind"
+        ],
+        "pieces": [
+          {
+            "text": "It was kind of you",
+            "meaning": "你真体谅我"
+          },
+          {
+            "text": "to accept my apology.",
+            "meaning": "愿意接受我的道歉"
+          }
+        ],
+        "translation": "谢谢你愿意接受我的道歉。"
+      }
     ]
   },
   {
@@ -3004,6 +4195,25 @@
       "cred.credulous",
       "cred.incredulous",
       "cred.creed"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "cred.credit",
+          "basic.country"
+        ],
+        "pieces": [
+          {
+            "text": "Can I use credit cards",
+            "meaning": "我能用信用卡吗"
+          },
+          {
+            "text": "in this country?",
+            "meaning": "在这个国家"
+          }
+        ],
+        "translation": "我在这个国家可以用信用卡吗？"
+      }
     ]
   },
   {
@@ -3030,6 +4240,25 @@
       "tract.traction",
       "tract.retract",
       "tract.abstract"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "tract.attract",
+          "basic.bee"
+        ],
+        "pieces": [
+          {
+            "text": "These flowers attract",
+            "meaning": "这些花会吸引"
+          },
+          {
+            "text": "bees.",
+            "meaning": "蜜蜂"
+          }
+        ],
+        "translation": "这些花会吸引蜜蜂。"
+      }
     ]
   },
   {
@@ -3042,6 +4271,25 @@
       "basic.insect",
       "basic.bee",
       "basic.root"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "geo.geotag.8",
+          "basic.river"
+        ],
+        "pieces": [
+          {
+            "text": "Let's geotag",
+            "meaning": "我们来标上位置吧"
+          },
+          {
+            "text": "this photo of the river.",
+            "meaning": "这张河流的照片"
+          }
+        ],
+        "translation": "我们给这张河流照片标上位置吧。"
+      }
     ]
   },
   {
@@ -3070,6 +4318,25 @@
       "ject.interject",
       "ject.subject",
       "ject.turn_down"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "ject.project",
+          "basic.picture"
+        ],
+        "pieces": [
+          {
+            "text": "Can we project",
+            "meaning": "我们能投出来吗"
+          },
+          {
+            "text": "this picture?",
+            "meaning": "这张图片"
+          }
+        ],
+        "translation": "我们能把这张图片投出来吗？"
+      }
     ]
   },
   {
@@ -3097,6 +4364,25 @@
       "chron.anachronism.7",
       "chron.chronobiology.extra4",
       "chron.chronobiological.extra5"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "chron.chronological.3",
+          "basic.event"
+        ],
+        "pieces": [
+          {
+            "text": "Put the events",
+            "meaning": "把这些事件排列好"
+          },
+          {
+            "text": "in chronological order.",
+            "meaning": "按发生的时间先后"
+          }
+        ],
+        "translation": "把这些事件按发生时间排序。"
+      }
     ]
   },
   {
@@ -3123,6 +4409,25 @@
       "bio.biome.extra5",
       "bio.biopsy.8",
       "bio.biometric.extra6"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "bio.biologist.5",
+          "basic.plant"
+        ],
+        "pieces": [
+          {
+            "text": "Can I ask the biologist",
+            "meaning": "我能问问那位生物学家吗"
+          },
+          {
+            "text": "about this plant?",
+            "meaning": "关于这株植物"
+          }
+        ],
+        "translation": "我能向那位生物学家请教这株植物吗？"
+      }
     ]
   },
   {
@@ -3131,6 +4436,25 @@
       "basic.join",
       "basic.agreement",
       "basic.discussion"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "act.activity",
+          "basic.join"
+        ],
+        "pieces": [
+          {
+            "text": "Can I join",
+            "meaning": "我可以参加吗"
+          },
+          {
+            "text": "the group activity?",
+            "meaning": "这个小组活动"
+          }
+        ],
+        "translation": "我可以参加小组活动吗？"
+      }
     ]
   },
   {
@@ -3141,6 +4465,25 @@
       "basic.statement",
       "basic.current",
       "basic.connection"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "form.information",
+          "basic.detail"
+        ],
+        "pieces": [
+          {
+            "text": "Does the information",
+            "meaning": "这些信息"
+          },
+          {
+            "text": "include that detail?",
+            "meaning": "包括那个细节吗"
+          }
+        ],
+        "translation": "这些信息里有那个细节吗？"
+      }
     ]
   },
   {
@@ -3156,6 +4499,25 @@
       "basic.high",
       "basic.enough",
       "basic.then"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "dict.predict",
+          "basic.effect"
+        ],
+        "pieces": [
+          {
+            "text": "Can we predict",
+            "meaning": "我们能预测吗"
+          },
+          {
+            "text": "the effect of the rain?",
+            "meaning": "这场雨的影响"
+          }
+        ],
+        "translation": "我们能预测这场雨会有什么影响吗？"
+      }
     ]
   },
   {
@@ -3170,6 +4532,25 @@
       "basic.experience",
       "basic.young",
       "basic.note"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "duc.introduce",
+          "basic.new"
+        ],
+        "pieces": [
+          {
+            "text": "Let me introduce",
+            "meaning": "让我来介绍"
+          },
+          {
+            "text": "our new colleague.",
+            "meaning": "我们的新同事"
+          }
+        ],
+        "translation": "让我来介绍我们的新同事。"
+      }
     ]
   },
   {
@@ -3183,6 +4564,25 @@
       "basic.copy",
       "basic.send",
       "basic.letter"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "mit.submit",
+          "basic.approval"
+        ],
+        "pieces": [
+          {
+            "text": "Can I submit this",
+            "meaning": "我能提交这个吗"
+          },
+          {
+            "text": "for approval?",
+            "meaning": "用来申请批准"
+          }
+        ],
+        "translation": "我可以提交这份材料申请批准吗？"
+      }
     ]
   },
   {
@@ -3198,6 +4598,25 @@
       "basic.political",
       "basic.relation",
       "basic.opinion"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "ject.objection",
+          "basic.point"
+        ],
+        "pieces": [
+          {
+            "text": "I have an objection",
+            "meaning": "我有异议"
+          },
+          {
+            "text": "to this point.",
+            "meaning": "针对这一点"
+          }
+        ],
+        "translation": "我对这一点有异议。"
+      }
     ]
   },
   {
@@ -3222,6 +4641,25 @@
       "path.pathogenesis.extra3",
       "path.psychopath.extra4",
       "path.psychopathic.extra5"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "path.sympathy.1",
+          "basic.friend"
+        ],
+        "pieces": [
+          {
+            "text": "I feel sympathy",
+            "meaning": "我感到同情"
+          },
+          {
+            "text": "for my friend.",
+            "meaning": "对我的朋友"
+          }
+        ],
+        "translation": "我很同情我的朋友。"
+      }
     ]
   },
   {
@@ -3233,6 +4671,25 @@
       "basic.fiction",
       "basic.trick",
       "basic.writing"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "scrib.subscription",
+          "basic.fiction"
+        ],
+        "pieces": [
+          {
+            "text": "Does the subscription",
+            "meaning": "这项订阅"
+          },
+          {
+            "text": "include fiction?",
+            "meaning": "包含小说吗"
+          }
+        ],
+        "translation": "这项订阅包含小说吗？"
+      }
     ]
   },
   {
@@ -3250,6 +4707,25 @@
       "basic.band",
       "basic.song",
       "basic.rhythm"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "aud.audition.5",
+          "basic.song"
+        ],
+        "pieces": [
+          {
+            "text": "Can I sing this song",
+            "meaning": "我能唱这首歌吗"
+          },
+          {
+            "text": "at the audition?",
+            "meaning": "在试演的时候"
+          }
+        ],
+        "translation": "试演时我可以唱这首歌吗？"
+      }
     ]
   },
   {
@@ -3262,6 +4738,25 @@
       "basic.false",
       "basic.record",
       "basic.sex"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "cred.credible",
+          "basic.fact"
+        ],
+        "pieces": [
+          {
+            "text": "Are these facts",
+            "meaning": "这些事实"
+          },
+          {
+            "text": "from a credible source?",
+            "meaning": "来自可靠来源吗"
+          }
+        ],
+        "translation": "这些事实来自可靠的来源吗？"
+      }
     ]
   },
   {
@@ -3277,6 +4772,25 @@
       "basic.force",
       "basic.stiff",
       "basic.smash"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "struct.instruction",
+          "basic.order"
+        ],
+        "pieces": [
+          {
+            "text": "Follow the instructions",
+            "meaning": "按照说明做"
+          },
+          {
+            "text": "in this order.",
+            "meaning": "用这个顺序"
+          }
+        ],
+        "translation": "请按这个顺序操作。"
+      }
     ]
   },
   {
@@ -3289,6 +4803,25 @@
       "basic.part",
       "basic.profit",
       "basic.increase"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "tract.contract.agreement",
+          "basic.part"
+        ],
+        "pieces": [
+          {
+            "text": "Can you explain",
+            "meaning": "你能解释一下吗"
+          },
+          {
+            "text": "this part of the contract?",
+            "meaning": "合同的这一部分"
+          }
+        ],
+        "translation": "你能解释合同的这一部分吗？"
+      }
     ]
   },
   {
@@ -3302,6 +4835,25 @@
       "basic.adjustment",
       "basic.complete",
       "basic.mixed"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "vers.version.6",
+          "basic.system"
+        ],
+        "pieces": [
+          {
+            "text": "Will this version",
+            "meaning": "这个版本"
+          },
+          {
+            "text": "work on my system?",
+            "meaning": "能在我的系统上用吗"
+          }
+        ],
+        "translation": "这个版本能在我的系统上用吗？"
+      }
     ]
   },
   {
@@ -3314,6 +4866,25 @@
       "basic.mouth",
       "basic.attack",
       "basic.violent"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "rupt.interrupt",
+          "basic.talk"
+        ],
+        "pieces": [
+          {
+            "text": "Please don't interrupt",
+            "meaning": "请不要打断"
+          },
+          {
+            "text": "the talk.",
+            "meaning": "这段发言"
+          }
+        ],
+        "translation": "请不要打断发言。"
+      }
     ]
   },
   {
@@ -3337,6 +4908,25 @@
       "basic.monkey",
       "basic.rat",
       "basic.fowl"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "bio.biography.1",
+          "basic.daughter"
+        ],
+        "pieces": [
+          {
+            "text": "My daughter",
+            "meaning": "我女儿"
+          },
+          {
+            "text": "is reading a biography.",
+            "meaning": "正在读一本传记"
+          }
+        ],
+        "translation": "我女儿正在读一本传记。"
+      }
     ]
   },
   {
@@ -3350,6 +4940,25 @@
       "basic.year",
       "basic.event",
       "basic.regular"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "chron.synchronize.5",
+          "basic.watch"
+        ],
+        "pieces": [
+          {
+            "text": "Let's synchronize",
+            "meaning": "我们来校准一下"
+          },
+          {
+            "text": "our watches.",
+            "meaning": "我们的手表"
+          }
+        ],
+        "translation": "我们来对一下表。"
+      }
     ]
   },
   {
@@ -3368,6 +4977,25 @@
       "basic.steel",
       "basic.earth",
       "basic.stone"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "geo.geologist.2",
+          "basic.stone"
+        ],
+        "pieces": [
+          {
+            "text": "Can a geologist",
+            "meaning": "地质学家能不能"
+          },
+          {
+            "text": "identify this stone?",
+            "meaning": "认出这块石头"
+          }
+        ],
+        "translation": "地质学家能认出这块石头吗？"
+      }
     ]
   },
   {
@@ -3384,6 +5012,25 @@
       "basic.industry",
       "basic.chief",
       "basic.prison"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "voc.vocational.6",
+          "basic.offer"
+        ],
+        "pieces": [
+          {
+            "text": "Do you offer",
+            "meaning": "你们提供吗"
+          },
+          {
+            "text": "vocational training?",
+            "meaning": "职业培训"
+          }
+        ],
+        "translation": "你们提供职业培训吗？"
+      }
     ]
   },
   {
@@ -3399,6 +5046,25 @@
       "basic.blow",
       "basic.horn",
       "basic.lip"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "phon.homophone.extra6",
+          "basic.word"
+        ],
+        "pieces": [
+          {
+            "text": "Is this word",
+            "meaning": "这个词"
+          },
+          {
+            "text": "a homophone of “sea”?",
+            "meaning": "和 sea 同音吗"
+          }
+        ],
+        "translation": "这个词和 sea 同音吗？"
+      }
     ]
   },
   {
@@ -3421,6 +5087,25 @@
       "basic.neck",
       "basic.tooth",
       "basic.worm"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "path.pathogen.extra1",
+          "basic.disease"
+        ],
+        "pieces": [
+          {
+            "text": "A pathogen",
+            "meaning": "病原体"
+          },
+          {
+            "text": "can cause disease.",
+            "meaning": "可能导致疾病"
+          }
+        ],
+        "translation": "病原体可能导致疾病。"
+      }
     ]
   },
   {
@@ -3439,6 +5124,25 @@
       "basic.because",
       "basic.disgust",
       "basic.cruel"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "log.analogy.extra1",
+          "basic.idea"
+        ],
+        "pieces": [
+          {
+            "text": "This analogy",
+            "meaning": "这个比方"
+          },
+          {
+            "text": "helps me understand the idea.",
+            "meaning": "帮我理解这个想法"
+          }
+        ],
+        "translation": "这个比方帮我理解了这个想法。"
+      }
     ]
   },
   {
@@ -3454,6 +5158,25 @@
       "basic.paint",
       "basic.gray",
       "basic.stick"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "graph.paragraph.3",
+          "basic.space"
+        ],
+        "pieces": [
+          {
+            "text": "Leave a space",
+            "meaning": "留一个空行"
+          },
+          {
+            "text": "between the paragraphs.",
+            "meaning": "在段落之间"
+          }
+        ],
+        "translation": "在段落之间留一个空行。"
+      }
     ]
   },
   {
@@ -3469,6 +5192,25 @@
       "basic.flat",
       "basic.new",
       "basic.look"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "vis.revise.extra1",
+          "basic.suggestion"
+        ],
+        "pieces": [
+          {
+            "text": "I'll revise the text",
+            "meaning": "我会修改文字"
+          },
+          {
+            "text": "using your suggestion.",
+            "meaning": "按照你的建议"
+          }
+        ],
+        "translation": "我会按你的建议修改文字。"
+      }
     ]
   },
   {
@@ -3484,6 +5226,25 @@
       "basic.love",
       "basic.hope",
       "basic.hate"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "press.impression",
+          "basic.great"
+        ],
+        "pieces": [
+          {
+            "text": "She made",
+            "meaning": "她给人留下了"
+          },
+          {
+            "text": "a great first impression.",
+            "meaning": "很好的第一印象"
+          }
+        ],
+        "translation": "她给人留下了很好的第一印象。"
+      }
     ]
   },
   {
@@ -3492,6 +5253,25 @@
       "basic.parcel",
       "basic.porter",
       "basic.vessel"
+    ],
+    "examples": [
+      {
+        "ids": [
+          "sense.portable.easy-carry",
+          "basic.parcel"
+        ],
+        "pieces": [
+          {
+            "text": "Is this portable radio",
+            "meaning": "这台便携收音机"
+          },
+          {
+            "text": "in your parcel?",
+            "meaning": "在你的包裹里吗"
+          }
+        ],
+        "translation": "这台便携收音机在你的包裹里吗？"
+      }
     ]
   }
 ]

@@ -42,6 +42,7 @@ struct CourseLessonView: View {
 
     private var record: CourseDayRecord? { records.first }
     private var position: Int { step ?? (fromBeginning ? 0 : record?.position(in: day) ?? 0) }
+    private var teachingPosition: Int { day.teachingPosition(for: position) }
     private var finished: Bool { record?.isFinished(in: day) == true }
     private var learned: Set<String> { record?.credited(in: day) ?? [] }
     private var words: [Word] { day.words(in: lexicon) }
@@ -72,14 +73,19 @@ struct CourseLessonView: View {
                             }
                             Text("在句子里用这个词").font(.headline).foregroundStyle(MapStyle.pine)
                         }
-                        if let group = day.studyGroup(at: position) {
-                            Text("这组 \(position - group.lowerBound + 1) / \(group.count) · 本课 \(position) / \(words.count)")
+                        if let group = day.studyGroup(at: teachingPosition) {
+                            Text("这组 \(teachingPosition - group.lowerBound + 1) / \(group.count) · 本课 \(teachingPosition) / \(words.count)")
                                 .font(.subheadline).foregroundStyle(MapStyle.secondary)
                                 .accessibilityIdentifier("course.group")
                         }
                         if !showingFamilyRecap { StudyCard(word: word, prefix: "course", soundID: sound, showsExample: false) {
                             sentence(for: word)
                         }.id(word.id) }
+                        if day.dailyStart == true, day.id > DailyCourse.freeDays.upperBound,
+                           let focus = day.starterExamples?.first,
+                           focus.ids.first(where: { day.studyBasicIDs.contains($0) }) == word.id {
+                            talkLink
+                        }
                         if lexicon.entry(id: word.id) != nil {
                             Button { openWord(word.id) } label: {
                                 Label("沿 \(word.word) 看关联词", systemImage: "point.3.connected.trianglepath.dotted")
@@ -171,7 +177,7 @@ struct CourseLessonView: View {
             }
             .foregroundStyle(MapStyle.onAccent).padding(.horizontal, 12)
             .background(MapStyle.accent, in: RoundedRectangle(cornerRadius: 13))
-            Text(day.id == 1 && day.unitID == 1 ? WordFamily.firstIntroduction : family.rootIntro).font(.subheadline)
+            Text(day.firstBoundRoot ? WordFamily.firstIntroduction : family.rootIntro).font(.subheadline)
             WordOverviewGrid(words: words, prefix: "course.branch.", learned: learned) { word in
                 if let index = day.lessonIDs.firstIndex(of: word.id) { go(index + 1) }
             }
@@ -189,8 +195,8 @@ struct CourseLessonView: View {
             .foregroundStyle(MapStyle.onAccent).frame(maxWidth: .infinity, alignment: .leading)
             .padding(15).background(MapStyle.accent, in: RoundedRectangle(cornerRadius: 17))
             familyLink
-            if let first = day.studyBasicIDs.first.flatMap({ lexicon.word(id: $0) }) {
-                Text("学过这组词，再听一句").font(.headline).foregroundStyle(MapStyle.pine)
+            if let first = (day.starterExamples?.first?.ids.first ?? day.studyBasicIDs.first).flatMap({ lexicon.word(id: $0) }) {
+                Text("今天用得上的一句").font(.headline).foregroundStyle(MapStyle.pine)
                 sentence(for: first, overview: true)
             }
         }
@@ -208,7 +214,7 @@ struct CourseLessonView: View {
             }
         } else if let example = day.starterExample(for: word.id) {
             SentenceInStudy(text: example.text, translation: example.translation,
-                            neighbors: everyday.filter { example.ids.contains($0.id) },
+                            neighbors: example.ids.compactMap { lexicon.word(id: $0) },
                             current: overview ? nil : word.id, soundID: sound + ".use",
                             open: openContextWord, pieces: example.pieces)
         } else if word.id == day.bridge.familyID, let neighbor = lexicon.word(id: day.bridge.basicID) {
@@ -239,6 +245,9 @@ struct CourseLessonView: View {
                 }.frame(minHeight: 44).accessibilityIdentifier("course.recapCards")
             }
             talkLink
+            NavigationLink { TransferPracticeView(day: day, later: false) } label: {
+                Label("换个条件试一句", systemImage: "bubble.left.and.text.bubble.right").frame(minHeight: 44)
+            }.accessibilityIdentifier("course.transfer")
             if let nextFamily { Text("下次从 \(nextFamily.root)（\(nextFamily.meaning)）开始。").accessibilityIdentifier("course.tomorrow") }
             Button("今天先到这里", action: returnToCourse).buttonStyle(.bordered).accessibilityIdentifier("course.rest")
             familyLink
@@ -246,15 +255,15 @@ struct CourseLessonView: View {
     }
 
     private var canPauseAfterWord: Bool {
-        guard let group = day.studyGroup(at: position), position == group.upperBound,
+        guard let group = day.studyGroup(at: teachingPosition), teachingPosition == group.upperBound,
               !finished, !justLearnedFamily, nextPosition < day.lastStep else { return false }
-        return group.dropLast().allSatisfy { learned.contains(day.lessonIDs[$0 - 1]) }
+        return group.dropLast().allSatisfy { learned.contains(day.teachingOrder[$0 - 1]) }
     }
 
     private var controls: some View {
         HStack(spacing: 10) {
             if position > 0 {
-                Button { go(position - 1) } label: { Image(systemName: "chevron.left").frame(width: 44, height: 46) }
+                Button { go(day.previousPosition(from: position)) } label: { Image(systemName: "chevron.left").frame(width: 44, height: 46) }
                     .accessibilityLabel("上一步").accessibilityIdentifier("course.previous")
             }
             if canPauseAfterWord, let word {
@@ -302,14 +311,23 @@ struct CourseLessonView: View {
     }
 
     private var nextPosition: Int {
-        if position == 0 { return 1 }
+        if position == 0 {
+            return day.teachingOrder.first.flatMap { day.lessonIDs.firstIndex(of: $0) }.map { $0 + 1 } ?? 1
+        }
         if finished {
             if let word, missingFamilyIDs.contains(word.id) {
                 guard let next = missingFamilyIDs.first(where: { $0 != word.id }),
                       let offset = day.lessonIDs.firstIndex(of: next) else { return day.lastStep }
                 return offset + 1
             }
-            return min(position + 1, day.lastStep)
+            let next = teachingPosition
+            guard next < day.teachingOrder.count, let index = day.lessonIDs.firstIndex(of: day.teachingOrder[next]) else { return day.lastStep }
+            return index + 1
+        }
+        if day.dailyStart == true && day.id > DailyCourse.freeDays.upperBound {
+            let covered = learned.union(word.map { [$0.id] } ?? [])
+            return day.teachingOrder.first { !covered.contains($0) }
+                .flatMap { day.lessonIDs.firstIndex(of: $0) }.map { $0 + 1 } ?? day.lastStep
         }
         let after = day.lessonIDs.dropFirst(position).firstIndex { !learned.contains($0) }
         return after.map { $0 + 1 } ?? nextMissing ?? day.lastStep
@@ -342,7 +360,7 @@ struct CourseLessonView: View {
 
     private func playGuide() {
         let lines: [GuideSpeech]
-        if position == 0 { lines = family.openingSpeech(firstDay: day.id == 1 && day.unitID == 1, mnemonic: day.guide) }
+        if position == 0 { lines = family.openingSpeech(firstDay: day.firstBoundRoot, mnemonic: day.guide) }
         else if let word { lines = word.studyNarration }
         else { return }
         if speaker.activeID != sound { audioFailed = !speaker.toggleGuide(id: sound, lines: lines) }

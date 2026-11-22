@@ -119,7 +119,7 @@ final class WordFlowTests: XCTestCase {
 
     func testLegacyPositionAndOneProgress() {
         launch(legacy: true)
-        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("4 / 1335"))
+        XCTAssertTrue(app.staticTexts["course.learnedSenses"].label.replacingOccurrences(of: ",", with: "").contains("4 / 1333"))
         XCTAssertFalse(app.staticTexts["course.basicProgress"].exists)
         tap("course.start")
         XCTAssertTrue(app.staticTexts["course.word"].waitForExistence(timeout: 6))

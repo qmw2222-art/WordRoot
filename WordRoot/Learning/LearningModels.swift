@@ -11,7 +11,7 @@ final class CourseDayRecord {
     var studiedIDs: [String]?
 
     func credited(in unit: CourseDay) -> Set<String> {
-        if let studiedIDs { return Set(studiedIDs).intersection(unit.lessonIDs) }
+        if let studiedIDs { return Set(studiedIDs.map(WordSense.canonical)).intersection(unit.lessonIDs) }
         return completedAt == nil ? [] : Set(unit.wordIDs.prefix(unit.legacyWordCount))
     }
 
